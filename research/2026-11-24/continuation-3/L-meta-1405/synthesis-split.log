@@ -1,0 +1,5 @@
+{"mode": "or", "coverage_count": 45, "required_first": 23, "variables": 12102, "clauses": 128225}
+{"mode": "or", "first_result": null, "seconds": 210.58637985900168, "stats": {"restarts": 38167, "conflicts": 1419525, "decisions": 4583126, "propagations": 748130593}}
+{"mode": "and", "coverage_count": 135, "required_first": 68, "variables": 13061, "clauses": 136898}
+{"mode": "and", "first_result": null, "seconds": 420.03659399500066, "stats": {"restarts": 37275, "conflicts": 1419520, "decisions": 5838139, "propagations": 780209758}}
+{"status": "no_witness_in_bounded_split_search", "seconds": 420.05083262100015}

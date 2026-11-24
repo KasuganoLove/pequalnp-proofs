@@ -1,0 +1,17 @@
+{
+  "base_commit": "89b96c0f464824a164434fb460926400b9943047",
+  "ordinary_compile_exit": 0,
+  "guard_exit": 0,
+  "strict_check_exit": 137,
+  "strict_check_verdict": null,
+  "strict_check_last_stage": "verifier reading the built file",
+  "strict_check_note": "Process was killed before any ACCEPTED or REJECTED verdict. No strict acceptance claimed.",
+  "hypothesis_characters": [
+    601,
+    1260
+  ],
+  "first_child_structural_match": true,
+  "original_statement_source_byte_equal": true,
+  "proved_child_source": "Pnp3600LineSingle.lean",
+  "remaining_child": "Complement of ReadK.lineSingle incidence pairs has cardinality at most 94 * C.size; unproved."
+}

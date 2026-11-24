@@ -1,0 +1,8 @@
+{
+  "known_path4_depth": 6,
+  "all_4096_inputs_verified": true,
+  "all_encoding_clauses_satisfied": true,
+  "clause_count": 70897,
+  "variables": 7689,
+  "limitation": "This checks an existing depth6 upper bound; it does not certify the depth5 UNSAT result."
+}

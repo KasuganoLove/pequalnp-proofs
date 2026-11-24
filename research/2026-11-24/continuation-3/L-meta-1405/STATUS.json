@@ -1,0 +1,108 @@
+{
+  "task": "L-meta-1405",
+  "date_utc": "2026-11-24",
+  "repository_commit": "89b96c0f464824a164434fb460926400b9943047",
+  "outcome": "unresolved_no_formula_witness_no_formal_refutation",
+  "lean_proof_created": false,
+  "official_submission_created": false,
+  "full_c5_depth6": {
+    "result": "UNKNOWN",
+    "encoding": {
+      "variables": 23883,
+      "clauses": 255061,
+      "positive": 45,
+      "negative": 135
+    },
+    "final_run": {
+      "sat": null,
+      "seconds": 600.4206348400003,
+      "stats": {
+        "restarts": 120100,
+        "conflicts": 2730625,
+        "decisions": 15018316,
+        "propagations": 1795448114
+      }
+    }
+  },
+  "split_c5_depth6": {
+    "result": "UNKNOWN",
+    "run": [
+      {
+        "mode": "or",
+        "coverage_count": 45,
+        "required_first": 23,
+        "variables": 12102,
+        "clauses": 128225
+      },
+      {
+        "mode": "or",
+        "first_result": null,
+        "seconds": 210.58637985900168,
+        "stats": {
+          "restarts": 38167,
+          "conflicts": 1419525,
+          "decisions": 4583126,
+          "propagations": 748130593
+        }
+      },
+      {
+        "mode": "and",
+        "coverage_count": 135,
+        "required_first": 68,
+        "variables": 13061,
+        "clauses": 136898
+      },
+      {
+        "mode": "and",
+        "first_result": null,
+        "seconds": 420.03659399500066,
+        "stats": {
+          "restarts": 37275,
+          "conflicts": 1419520,
+          "decisions": 5838139,
+          "propagations": 780209758
+        }
+      },
+      {
+        "status": "no_witness_in_bounded_split_search",
+        "seconds": 420.05083262100015
+      }
+    ],
+    "exit_code": 0
+  },
+  "path4_depth5": {
+    "result": "solver_UNSAT_only",
+    "encoding": {
+      "variables": 3817,
+      "clauses": 35281,
+      "positive": 27,
+      "negative": 27
+    },
+    "final_run": {
+      "sat": false,
+      "seconds": 147.55542339400017,
+      "stats": {
+        "restarts": 62037,
+        "conflicts": 1147087,
+        "decisions": 2911627,
+        "propagations": 242149962
+      }
+    },
+    "proof_trace_generated": false,
+    "lean_certified": false
+  },
+  "path4_depth6_calibration": {
+    "known_path4_depth": 6,
+    "all_4096_inputs_verified": true,
+    "all_encoding_clauses_satisfied": true,
+    "clause_count": 70897,
+    "variables": 7689,
+    "limitation": "This checks an existing depth6 upper bound; it does not certify the depth5 UNSAT result."
+  },
+  "limitations": [
+    "The C5 search limits produced no SAT witness and no UNSAT certificate.",
+    "The P4 depth5 result is an uncertified solver observation about a smaller auxiliary problem.",
+    "The passing P4 depth6 calibration does not certify the P4 UNSAT claim.",
+    "No conclusions about P versus NP follow from these searches."
+  ]
+}

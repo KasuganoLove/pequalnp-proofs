@@ -57,3 +57,9 @@ respectively, below the 2000-character limit. It also verified that both
 children are closed and nondependent. The reduction conclusion's source
 text equals the recorded task statement. These diagnostics do not substitute
 for the strict checker; see `children-preview.log` and `reduction-review.json`.
+
+## 后续提交与严格检查状态
+
+归约已通过本机 Chrome 提交为 [PR #7558](https://github.com/open-goat/pequalnp-proofs/pull/7558)，任务台以 `reduced` 成功归还租约。远端归约与本地编译文件逐字节相同。
+
+两次严格检查都没有给出接受裁决：归约检查进程以 137 终止；规范命名的子证明 `Pnp3600LineSingleStrict.lean` 已通过严格脚本的构建阶段，但验证器以 137 退出，脚本报告 `CHECKER FAULT`、退出码 3。普通 Lean 编译通过与严格检查故障必须区分。官方裁决尚待返回。规范命名副本供将来的正式子任务迁移使用；此前已完成的原证明保持不变。

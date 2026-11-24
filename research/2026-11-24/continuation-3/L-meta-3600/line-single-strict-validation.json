@@ -1,0 +1,10 @@
+{
+  "module": "PEqualNP.Outside.Pnp3600LineSingle",
+  "source_sha256": "c8c3a227e90b35428269012e032fdc9e28ac1232abf1949272a58b3d26917ea7",
+  "strict_checker_exit": 3,
+  "strict_verifier_exit": 137,
+  "strict_verdict": "FAULT",
+  "ordinary_build": "passed as strict checker build stage",
+  "statement": "line-single.statement.txt",
+  "note": "No strict acceptance: verifier ended without verdict. No further identical rerun planned."
+}
