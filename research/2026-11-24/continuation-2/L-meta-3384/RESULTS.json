@@ -1,0 +1,70 @@
+{
+  "task": "L-meta-3384",
+  "full_statement": "unproved",
+  "upstream_submission": false,
+  "formal_calibration": {
+    "file": "Pnp3384Calibration.lean",
+    "lean_exit": 0,
+    "warnings": 0,
+    "semantic_method": "decide +kernel",
+    "sha256": "66034dc00ed5c12ffbeecf8632010e1ae972cc1fa8ef779eb392c5ee6b22d0bd"
+  },
+  "independent_calibration": {
+    "inputs": 128,
+    "source_gates": 11,
+    "or_reader_counts": [
+      2,
+      0
+    ],
+    "replaced_wires": [
+      7,
+      11
+    ],
+    "passed": true
+  },
+  "monotone_search": {
+    "distinct_signal_functions": 131,
+    "viable_source_counts_remaining_11_to_0": [
+      1,
+      15,
+      89,
+      265,
+      484,
+      625,
+      576,
+      418,
+      236,
+      107,
+      46,
+      1
+    ],
+    "coupled_counts_after_each_gate": [
+      60,
+      693,
+      1902,
+      2212,
+      1501,
+      779,
+      380,
+      114,
+      0,
+      0,
+      0
+    ],
+    "result": "no candidate in recorded monotone live-state model",
+    "is_lean_proof": false
+  },
+  "z3_diagnostics": [
+    {
+      "not_enabled": false,
+      "timeout_ms": 60000,
+      "result": "unknown: timeout"
+    },
+    {
+      "not_enabled": true,
+      "timeout_ms": 120000,
+      "result": "unknown: timeout"
+    }
+  ],
+  "remaining_obligation": "Cover NOT gates and prove normalization/completeness and the finite certificate for the original circuit representation."
+}

@@ -1,0 +1,160 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "L-gct-232/Gct232StarScratch.lean",
+      "bytes": 5479,
+      "sha256": "55b3feae8b9d9f24f8460904e938a7837788f8826a6d7af373b2b04743e7adc2"
+    },
+    {
+      "path": "L-gct-232/README.md",
+      "bytes": 4479,
+      "sha256": "0f31b9864c3aec4503d36f04135275193b22aca390d03661c90147b2e03e349d"
+    },
+    {
+      "path": "L-gct-232/gct232_symbolic.py",
+      "bytes": 2336,
+      "sha256": "27ee6824385eda644db76725851a0f4040a6b41c582793443924fb921b6affef"
+    },
+    {
+      "path": "L-meta-3233/3233-3438-remote-audit.json",
+      "bytes": 3121,
+      "sha256": "56e4bb5bed0f1118af6926e4c3447306eece819e6f4118ac177d3014483003f1"
+    },
+    {
+      "path": "L-meta-3233/3233-child-1-preview.statement.txt",
+      "bytes": 977,
+      "sha256": "8a8ccc2de8a16e92ff01e74f5636e0804b6e150e9cc0ad30feb94380f364e393"
+    },
+    {
+      "path": "L-meta-3233/3233-child-2-preview.statement.txt",
+      "bytes": 1482,
+      "sha256": "2916dba9aa84bd3526b3f835a79afe6aa49bdcebdc509eb75eaeb7f2b200f562"
+    },
+    {
+      "path": "L-meta-3233/3233-children-preview.json",
+      "bytes": 640,
+      "sha256": "a5021d0fa39f5c89de6a8c99084aa61c606f1dbe87cd23f4d7fe0d480ebc1a9c"
+    },
+    {
+      "path": "L-meta-3233/3233-second-or-patterns.json",
+      "bytes": 2353,
+      "sha256": "b05a49dd25e09369167f935aab7b8ae24e7037db647705dee43b15e0bb3fdccf"
+    },
+    {
+      "path": "L-meta-3233/3233-second-or-patterns.py",
+      "bytes": 1633,
+      "sha256": "822b12e9c21cd9c5158226c1ca799e88188d405ea1a89d9cf2b08f30ca2d99e8"
+    },
+    {
+      "path": "L-meta-3233/3233-validation.json",
+      "bytes": 2843,
+      "sha256": "5a31eb8f5e2667000449bb976ba2ccd5bc1fae0079d54752e1f732fc929b83ab"
+    },
+    {
+      "path": "L-meta-3233/Pnp3233Binary.lean",
+      "bytes": 147199,
+      "sha256": "1d371093585147a16d3c4c9b2bc7674c83ca4e045c2a751bda546a598c5826de"
+    },
+    {
+      "path": "L-meta-3233/README.md",
+      "bytes": 7311,
+      "sha256": "35af2276d361017b9a4ebfc881a6b9b8f0651717d97b5acf8339414a649ec360"
+    },
+    {
+      "path": "L-meta-3233/R_meta_3233_713.lean",
+      "bytes": 4939,
+      "sha256": "62a995ce1687419ad0ca4b396e807786c76ac1cec21b91649fe64419dab829e7"
+    },
+    {
+      "path": "L-meta-3233/validation-summary.md",
+      "bytes": 1479,
+      "sha256": "b466e3104e9bc2c4a8d4edd60c8737d7661d35b02c3276f0782b05a47c2c81d0"
+    },
+    {
+      "path": "L-meta-3358/3358.check-minimal.log",
+      "bytes": 12722,
+      "sha256": "50d71c5cfb3a5deee3cdfe39f5e5e00680a27ca268160a0afe68153b884db01d"
+    },
+    {
+      "path": "L-meta-3358/L_meta_3358.lean",
+      "bytes": 7321,
+      "sha256": "1bd5ad58f1c1be72f2e8f989165500ac8c0a2e0058fcab618ae26548f7d153b9"
+    },
+    {
+      "path": "L-meta-3358/README.md",
+      "bytes": 1481,
+      "sha256": "87330555cee30a33523cd8f6ce8c4f6727ccceb795ff0ab23d7342a3b1f9301a"
+    },
+    {
+      "path": "L-meta-3358/gap.json",
+      "bytes": 1489,
+      "sha256": "4b63d971a1a34fe6c8a9d918c8c1d217971edc02f1d15a8e12cbf865498e78f8"
+    },
+    {
+      "path": "L-meta-3384/Pnp3384Calibration.lean",
+      "bytes": 2772,
+      "sha256": "66034dc00ed5c12ffbeecf8632010e1ae972cc1fa8ef779eb392c5ee6b22d0bd"
+    },
+    {
+      "path": "L-meta-3384/README.md",
+      "bytes": 5172,
+      "sha256": "ea889effb389e4077cf0875046d92f62d96f984573ff712f0022c2b0acc98f3e"
+    },
+    {
+      "path": "L-meta-3384/RESULTS.json",
+      "bytes": 1405,
+      "sha256": "af654eed51edab3572b2649d770d7ad560f492bdb08978e078f967bad7a5f93d"
+    },
+    {
+      "path": "L-meta-3384/SHA256.json",
+      "bytes": 754,
+      "sha256": "14c6f539cf0c23f5210be0763ffdf6ec6b0890af30b243a82e6fda7f501f080e"
+    },
+    {
+      "path": "L-meta-3384/search_pair.py",
+      "bytes": 3925,
+      "sha256": "050cf1d4a62c8e18e74918f5832cb74dc12ba04e108136d541b0f2de3ff6eb2d"
+    },
+    {
+      "path": "L-meta-3384/search_viable_pair.py",
+      "bytes": 4581,
+      "sha256": "0427b47c84c22212f24b90d5d7b6792497ff7269448ad6e586aae3b047034746"
+    },
+    {
+      "path": "L-meta-3384/theta/theta1922-optimal.json",
+      "bytes": 17554,
+      "sha256": "3a22e998a8e9bc3ac21c7b5e5ab230f2f0ea6a2b290af33471c4a039b0d6b339"
+    },
+    {
+      "path": "L-meta-3384/theta/theta1922-states.json",
+      "bytes": 110183,
+      "sha256": "09e18e50ddacf89af3958f958db18e27c80f6003aed5d898bb5cace098d3d82f"
+    },
+    {
+      "path": "L-meta-3384/theta_source.py",
+      "bytes": 4269,
+      "sha256": "46ba91de18c0ec24519f0a2107a39642b610bb94a0272fd0b3e3a3c7f25cf3cb"
+    },
+    {
+      "path": "L-meta-3384/verify_calibrations.py",
+      "bytes": 1674,
+      "sha256": "43f7276b8acf98c6c3413967e188f4e84e3ce4336dd8692b7a0b04a023c6a6b1"
+    },
+    {
+      "path": "PR_READY.md",
+      "bytes": 3558,
+      "sha256": "f8919ac244802478a01d52a3d1974414fbc8be2411b8c8d30242edbf4ca2e6b1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3852,
+      "sha256": "abd3e01d53c4a12f2422dd384db5567f6dec126a79b24c91db9e75209fbd8ec1"
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 3814,
+      "sha256": "3ffe34889468cff961d5abcbd5ab0239213bc997cfbeb237857f003d5b22626e"
+    }
+  ]
+}

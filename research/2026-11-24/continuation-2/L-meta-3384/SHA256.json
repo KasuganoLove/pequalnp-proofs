@@ -1,0 +1,10 @@
+{
+  "Pnp3384Calibration.lean": "66034dc00ed5c12ffbeecf8632010e1ae972cc1fa8ef779eb392c5ee6b22d0bd",
+  "README.md": "ea889effb389e4077cf0875046d92f62d96f984573ff712f0022c2b0acc98f3e",
+  "verify_calibrations.py": "43f7276b8acf98c6c3413967e188f4e84e3ce4336dd8692b7a0b04a023c6a6b1",
+  "search_pair.py": "050cf1d4a62c8e18e74918f5832cb74dc12ba04e108136d541b0f2de3ff6eb2d",
+  "search_viable_pair.py": "0427b47c84c22212f24b90d5d7b6792497ff7269448ad6e586aae3b047034746",
+  "theta_source.py": "46ba91de18c0ec24519f0a2107a39642b610bb94a0272fd0b3e3a3c7f25cf3cb",
+  "theta/theta1922-optimal.json": "3a22e998a8e9bc3ac21c7b5e5ab230f2f0ea6a2b290af33471c4a039b0d6b339",
+  "theta/theta1922-states.json": "09e18e50ddacf89af3958f958db18e27c80f6003aed5d898bb5cace098d3d82f"
+}

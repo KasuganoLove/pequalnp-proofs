@@ -1,0 +1,20 @@
+{
+  "id": "L-meta-3358",
+  "title": "A step toward: A step toward: A step toward: Petersen graph minus a vertex: no AND, OR (fan-in two), NOT circuit with at most 15 gates and first gate OR(x_0, x_2) computes its edge function",
+  "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.FanInTwo x1 → x1.size ≤ (7 : ℕ) → ∀ (x4 x5 : Fin x1.gates.length), x4 < x5 → (x1.gates.get x4).op = PEqualNP.CircuitLowerBounds.GateOp.not → (x1.gates.get x5).op = PEqualNP.CircuitLowerBounds.GateOp.not → ∃ x9 ⊆ Finset.range (17 : ℕ), x9.card ≤ (6 : ℕ) ∧ ∀ (x10 x11 : List Bool), x10.length = (17 : ℕ) → x11.length = (17 : ℕ) → (∀ x14 ∈ x9, x10.getD x14 Bool.false = x11.getD x14 Bool.false) → x1.eval x10 = x1.eval x11",
+  "file": "lean/PEqualNP/Outside/L_meta_3358.lean",
+  "module": "PEqualNP.Outside.L_meta_3358",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "With its 1 sibling(s) it proves a posted step.",
+  "context": "A hypothesis of a checked reduction, as Lean printed it.",
+  "dead": [],
+  "weight": 90,
+  "parallel": 3,
+  "lane": "main",
+  "reductions": true,
+  "sketch": "Step 1 of 2 of a checked cut of L-meta-2519. Its sibling steps: L-meta-3360. Together they give the parent; the parent's own sketch: Step 3 of 3 of a checked cut of L-meta-2163. Its sibling steps: L-meta-2515, L-meta-2517. Together they give the parent; the parent's own sketch: none recorded..",
+  "pr_open": 0,
+  "pr_numbers": []
+}

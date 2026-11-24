@@ -1,0 +1,77 @@
+{
+  "task": "L-meta-3233",
+  "reduction_file": "research/2026-11-24/continuation-2/L-meta-3233/R_meta_3233_713.lean",
+  "sha256": "62a995ce1687419ad0ca4b396e807786c76ac1cec21b91649fe64419dab829e7",
+  "bytes": 4939,
+  "hypothesis_1_chars": 911,
+  "hypothesis_2_chars": 1355,
+  "conclusion_chars": 1165,
+  "conclusion_byte_equal_to_gap_statement": true,
+  "ordinary_lean_exit_code": 0,
+  "ordinary_lean_imports": [
+    "Mathlib.Data.Finset.Card",
+    "PEqualNP.Defs"
+  ],
+  "strict_checker_status": "two CHECKER FAULT runs: verifier exit 137, wrapper exit 3; no verdict or CHILD output; awaiting official CI",
+  "h1_proof_status": "ordinary Lean compile passed, exit 0",
+  "h1_file": "research/2026-11-24/continuation-2/L-meta-3233/Pnp3233Binary.lean",
+  "h1_sha256": "1d371093585147a16d3c4c9b2bc7674c83ca4e045c2a751bda546a598c5826de",
+  "h1_bytes": 147199,
+  "h1_statement_byte_equal_to_3438_and_first_hypothesis": true,
+  "h1_custom_types": [
+    "Pnp3233Binary_aux.CircuitProof.Stat",
+    "Pnp3233Binary_aux.CircuitProof.Readers.Least",
+    "Pnp3233Binary_aux.PetersenGroupBFS.MaskGraph"
+  ],
+  "strict_checker_runs": [
+    {
+      "log": "3233.check.log",
+      "wrapper_exit_code": 3,
+      "verifier_exit_code": 137,
+      "verdict": "CHECKER FAULT",
+      "children_printed": false
+    },
+    {
+      "log": "3233.check-malloc.log",
+      "allocator_settings": {
+        "MALLOC_ARENA_MAX": "1",
+        "MALLOC_TRIM_THRESHOLD_": "131072"
+      },
+      "wrapper_exit_code": 3,
+      "verifier_exit_code": 137,
+      "verdict": "CHECKER FAULT",
+      "children_printed": false
+    }
+  ],
+  "guard_status": {
+    "imports_plain_file_own_namespace": "passed kind reduce",
+    "latest_public_gap_rule": "passed against public snapshot 2026-11-24T13:41:42.804Z"
+  },
+  "h1_publication_decision": "no separate 3438 PR: existing proof PRs 6461, 6591, 6636",
+  "children_preview": {
+    "status": "diagnostic pretty-printer preview; not a strict verifier verdict",
+    "method": "Same binder canonicalization and printer options as CheckLemma.lean; run against the compiled reduction module",
+    "children": [
+      {
+        "index": 1,
+        "chars": 911,
+        "sha256": "8a8ccc2de8a16e92ff01e74f5636e0804b6e150e9cc0ad30feb94380f364e393",
+        "file": "3233-child-1-preview.statement.txt"
+      },
+      {
+        "index": 2,
+        "chars": 1364,
+        "sha256": "2916dba9aa84bd3526b3f835a79afe6aa49bdcebdc509eb75eaeb7f2b200f562",
+        "file": "3233-child-2-preview.statement.txt"
+      }
+    ],
+    "child_1_byte_equal_to_3438": true
+  },
+  "publication_status": {
+    "fork_branch": "codex/R-meta-3233-713-20261124",
+    "fork_commit": "86a9b1c3e83eb90493b36c2c385b67dc67563213",
+    "upstream_pr_created": false,
+    "source_of_publication_status": "root confirmation"
+  },
+  "validation_summary": "validation-summary.md"
+}

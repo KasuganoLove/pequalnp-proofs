@@ -1,0 +1,93 @@
+{
+  "observed_at": "2026-11-24T13:42:21Z",
+  "canonical_upstream": "open-goat/pequalnp-proofs",
+  "task_3438": {
+    "search_pr_numbers": [
+      6636,
+      6591,
+      6484,
+      6689,
+      6461,
+      6549
+    ],
+    "reference_proof": {
+      "number": 6461,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/6461",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T13:09:30Z",
+      "head_sha": "583e14a116d12c7f77acffb029cb90ed851f11ac",
+      "head_repo_full_name": "donal0c/pequalnp-proofs",
+      "title": "L-meta-3438: thirteen binary gates for Petersen minus one vertex",
+      "changed_files": 1,
+      "additions": 3165
+    },
+    "reference_proof_issue_comments": [],
+    "other_proof_prs_with_no_comments": [
+      6591,
+      6636
+    ],
+    "note": "The 13:32:19 public desk snapshot incorrectly showed zero open PRs for this task. No accepted verdict was observed."
+  },
+  "task_3233": {
+    "search_pr_numbers": [
+      6271,
+      6573
+    ],
+    "prs": [
+      {
+        "number": 6271,
+        "url": "https://github.com/open-goat/pequalnp-proofs/pull/6271",
+        "state": "open",
+        "merged": false,
+        "created_at": "2026-11-24T12:38:39Z",
+        "head_sha": "6313b396af0dd9ccc960463e7227c1629bf91d72",
+        "head_repo_full_name": "calvin-barker/pequalnp-proofs",
+        "title": "L-meta-3233",
+        "changed_files": 1,
+        "additions": 20
+      },
+      {
+        "number": 6573,
+        "url": "https://github.com/open-goat/pequalnp-proofs/pull/6573",
+        "state": "open",
+        "merged": false,
+        "created_at": "2026-11-24T13:22:40Z",
+        "head_sha": "9b747438c0a433f86b56646ffe87d00c6816d14b",
+        "head_repo_full_name": "arvindf232/pequalnp-proofs",
+        "title": "Reduce L-meta-3233 using the fixed first OR and a single dirty AND",
+        "changed_files": 1,
+        "additions": 52
+      }
+    ],
+    "issue_comments": {
+      "6271": [],
+      "6573": []
+    },
+    "patch_observation_6271": "The L_meta_3233 theorem includes four unproved hypotheses for third-gate cases; this is not a complete proof of the posted statement.",
+    "note": "No accepted complete proof was observed. PR6573 proposes a different dirty-AND reduction.",
+    "new_pending_reduction": {
+      "number": 6723,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/6723",
+      "title": "L-meta-3233: reduce the second OR to twelve suffixes",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T13:44:03Z",
+      "head_sha": "123610c2ed4137939daa5c5d54e9f001730c1a5d",
+      "comments": [],
+      "child_proof_claims_independently_verified": false
+    },
+    "latest_desk": {
+      "updated_at": "2026-11-24T13:50:11.848Z",
+      "reductions_open": true,
+      "row_reductions": true,
+      "pr_open": 1,
+      "pr_numbers": [
+        6271
+      ],
+      "registered_parent_reductions": [],
+      "limitations": "GitHub also shows two pending reduction PRs, 6573 and 6723; public quota data are lagging."
+    }
+  },
+  "final_public_snapshot_updated_at": "2026-11-24T13:50:11.848Z"
+}
