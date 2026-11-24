@@ -1,0 +1,9 @@
+raw 9 columns 126 sig 10
+cap 14 states 1 next 75 transition statistics [120, 45, 75, 0]
+cap 13 states 75 next 2441 transition statistics [11214, 6948, 2441, 1825]
+cap 12 states 2441 next 19339 transition statistics [138396, 95575, 19339, 23482]
+cap 11 states 19339 next 33924 transition statistics [330409, 257994, 33924, 38491]
+cap 10 states 33924 next 14191 transition statistics [175130, 148699, 14191, 12240]
+cap 9 states 14191 next 895 transition statistics [6721, 5166, 895, 660]
+cap 8 states 895 next 47 transition statistics [145, 57, 47, 41]
+cap 7 states 47 next 0 transition statistics [0, 0, 0, 0]
