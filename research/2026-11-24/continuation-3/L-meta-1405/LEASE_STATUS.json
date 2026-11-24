@@ -1,0 +1,10 @@
+{
+  "last_confirmed_expiry": "2026-11-24T16:08:13.218Z",
+  "release_requested_reason": "missing_lemma",
+  "initial_attempts": "timeouts or non-JSON server responses",
+  "final_status_http": 410,
+  "final_message": "no such live lease: it expired or was released",
+  "live_lease": false,
+  "exact_release_reason_acknowledged": false,
+  "all_search_processes_finished": true
+}

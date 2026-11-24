@@ -1,0 +1,60 @@
+{
+  "task": "L-meta-2391",
+  "base": "89b96c0f464824a164434fb460926400b9943047",
+  "status": "verified research partials; full junk=empty theorem unresolved",
+  "files": [
+    {
+      "source": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/Pnp2391Local.lean",
+      "archive_file": "Pnp2391Local.lean",
+      "bytes": 10742,
+      "sha256": "140350ac7ff49d903dfa346e41f7003ab04329f26a553d2e8e462db065d4b59e",
+      "ordinary_compile_exit": 0,
+      "compile_log": "local-compile.log",
+      "compile_log_empty": true,
+      "strict_check": "not run",
+      "theorems": [
+        "safeLine_iff_pairwise",
+        "safeLine_iff_side",
+        "safeLines_eq_union",
+        "fullLines_card_le_one",
+        "safeLines_card_le_two",
+        "safeLines_card_le_one_of_inter",
+        "pointOr_one_hot",
+        "product_one_hot",
+        "product_one_hot_empty",
+        "product_one_hot_singleton",
+        "common_input_implies_product",
+        "selectedFactor_incident",
+        "old_reader_implies_new",
+        "new_reader_implies_incidence",
+        "monotone_context_rewrite",
+        "safe_reader_context_rewrite",
+        "plane3_no_four",
+        "plane3_safe_contexts",
+        "plane3_common_pair_context"
+      ]
+    },
+    {
+      "source": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/Pnp2391Wmax.lean",
+      "archive_file": "Pnp2391Wmax.lean",
+      "bytes": 2661,
+      "sha256": "ba98ecd0d475b2fbdcd120838aae9de88f971cb98f7ca564ebed49a0f1d44661",
+      "ordinary_compile_exit": 0,
+      "compile_log": "wmax-compile.log",
+      "compile_log_empty": true,
+      "strict_check": "not run",
+      "theorems": [
+        "graphFun_pair",
+        "wmax_adj_singleton",
+        "wmax_card_le_one"
+      ]
+    }
+  ],
+  "pruning_file_sha256": "ded59d617ca6fab2701d8b543ba157fd6e2105ac8ac7ce16d7eef1329ddc80e9",
+  "limits": [
+    "No assertion that every least circuit is clean.",
+    "No official reduction or task proof submitted.",
+    "Semantic reader rewrite does not by itself construct a root-model circuit of smaller size.",
+    "The Wmax result states gate monotonicity explicitly."
+  ]
+}

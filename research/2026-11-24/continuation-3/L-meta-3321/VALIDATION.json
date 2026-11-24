@@ -1,0 +1,50 @@
+{
+  "task": "L-meta-3321",
+  "source_commit": "89b96c0f464824a164434fb460926400b9943047",
+  "lean_version": "4.36.0",
+  "main_task": "unproved",
+  "counterexample_found": false,
+  "strict_checker": "not run",
+  "upstream_submission": "none",
+  "scope": "three local research components; no global no-larger normalization",
+  "sources": {
+    "Pnp3321Contexts.lean": {
+      "bytes": 4591,
+      "sha256": "b57664ccd20429c63d5ba63c24d532f93116eb46fec977adf2ccdcc3bc9bb3b0",
+      "ordinary_lean_exit_code": 0,
+      "warnings": [
+        "push_neg deprecation"
+      ],
+      "log": "contexts-compile.log"
+    },
+    "Pnp3321Local.lean": {
+      "bytes": 5896,
+      "sha256": "1ef7bfe7e867ae8955f44b7dd0e0400ecbaba3788afd065a7ff64f33454dde18",
+      "ordinary_lean_exit_code": 0,
+      "warnings": [],
+      "log": "local-compile.log"
+    },
+    "Pnp3321Rewrite.lean": {
+      "bytes": 7754,
+      "sha256": "6701fc8f4fea25635b1a62cc15cb7d73142e82823cc0b5e89f8552dc00f06570",
+      "ordinary_lean_exit_code": 0,
+      "warnings": [],
+      "log": "rewrite-compile.log"
+    }
+  },
+  "rewrite_preconditions": {
+    "initial_inputs": 6,
+    "fixed_prefix_gates": 5,
+    "forbidden_continuation_input": 8,
+    "forbidden_output": 8,
+    "preserves": [
+      "all other wire values",
+      "exact total gate count",
+      "Monotone2",
+      "ReadsBack",
+      "remaining AND-wire values",
+      "TopForm.IsAO2"
+    ],
+    "arbitrary_offset_or_renaming_formalized": false
+  }
+}

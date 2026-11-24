@@ -1,0 +1,19 @@
+{
+  "id": "L-meta-3321",
+  "title": "4-cycle-free N-by-N incidence: every fan-in-two AND/OR circuit for it has a no-larger one whose ANDs are clean and false at one-hot inputs",
+  "statement": "∀ (N : ℕ) (I : Fin N → Fin N → Prop) [DecidableRel I] (C : PEqualNP.CircuitLowerBounds.Circuit), (∀ p p' l l' : Fin N, p ≠ p' → l ≠ l' → ¬ (I p l ∧ I p l' ∧ I p' l ∧ I p' l')) → PEqualNP.MetaComplexity.Monotone2 C → PEqualNP.MetaComplexity.NestedCover.ReadsBack (N + N) C → (∀ z : Fin (N + N) → Bool, PEqualNP.MetaComplexity.circuitFun (N + N) C z = true ↔ ∃ p l : Fin N, I p l ∧ z (Fin.castAdd N p) = true ∧ z (Fin.natAdd N l) = true) → ∃ D : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 D ∧ PEqualNP.MetaComplexity.NestedCover.ReadsBack (N + N) D ∧ D.size ≤ C.size ∧ (∀ z : Fin (N + N) → Bool, PEqualNP.MetaComplexity.circuitFun (N + N) D z = true ↔ ∃ p l : Fin N, I p l ∧ z (Fin.castAdd N p) = true ∧ z (Fin.natAdd N l) = true) ∧ (∀ j < D.gates.length, (PEqualNP.MetaComplexity.NestedCover.gateAt D j).op = PEqualNP.CircuitLowerBounds.GateOp.and → ∀ z : Fin (N + N) → Bool, (D.wires (List.ofFn z)).getD (N + N + j) false = true → (D.wires (List.ofFn (fun ka : Fin (N + N) => decide (ka.val < N) && z ka))).getD (N + N + j) false = true ∨ (D.wires (List.ofFn (fun kb : Fin (N + N) => decide (N ≤ kb.val) && z kb))).getD (N + N + j) false = true ∨ ∃ p l : Fin N, I p l ∧ z (Fin.castAdd N p) = true ∧ z (Fin.natAdd N l) = true) ∧ (∀ j < D.gates.length, (PEqualNP.MetaComplexity.NestedCover.gateAt D j).op = PEqualNP.CircuitLowerBounds.GateOp.and → (∀ p : Fin N, (D.wires (List.ofFn (fun kc : Fin (N + N) => decide (kc = Fin.castAdd N p)))).getD (N + N + j) false = false) ∧ ∀ l : Fin N, (D.wires (List.ofFn (fun kd : Fin (N + N) => decide (kd = Fin.natAdd N l)))).getD (N + N + j) false = false)",
+  "file": "lean/PEqualNP/Outside/L_meta_3321.lean",
+  "module": "PEqualNP.Outside.L_meta_3321",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "With a checked count for clean circuits (at least (edges - 1)/5 gates) this row gives that bound for every AND/OR circuit on a bipartite incidence with no 4-cycle: the one-output bound up to the constant.",
+  "context": "SKETCH: No proof is expected here in one piece: propose a cut into smaller statements. Known: a wire that already forces the output can be moved to the top at no cost (checked rows of this project), which removes many unclean ANDs. Two gaps are named on paper: an AND that is true at a single input and sits behind a chain OR read outside its chain (on small graphs this happens only with a 4-cycle); and an unclean rectangle shared by two readers through an OR. No sorry, no new axiom. Own namespace for every declaration.",
+  "dead": [],
+  "weight": 95,
+  "parallel": 10,
+  "lane": "main",
+  "sketch": "No proof is expected here in one piece: propose a cut into smaller statements. Known: a wire that already forces the output can be moved to the top at no cost (checked rows of this project), which removes many unclean ANDs. Two gaps are named on paper: an AND that is true at a single input and sits behind a chain OR read outside its chain (on small graphs this happens only with a 4-cycle); and an unclean rectangle shared by two readers through an OR. No sorry, no new axiom. Own namespace for every declaration.",
+  "pr_open": 0,
+  "pr_numbers": []
+}

@@ -1,0 +1,25 @@
+{
+  "task": "L-meta-3321",
+  "status": "research partial; not a proof of the full task or an official reduction",
+  "file": "Pnp3321Contexts.lean",
+  "bytes": 4591,
+  "sha256": "b57664ccd20429c63d5ba63c24d532f93116eb46fec977adf2ccdcc3bc9bb3b0",
+  "imports": [
+    "Mathlib.Data.Finset.Card",
+    "PEqualNP.Defs"
+  ],
+  "ordinary_lean_compile_exit_code": 0,
+  "warnings": [
+    "push_neg tactic is deprecated; the proof still compiles"
+  ],
+  "strict_checker": "not run",
+  "theorems": [
+    "Pnp3321Contexts.safeLine_iff_pairwise",
+    "Pnp3321Contexts.safeLine_iff_side",
+    "Pnp3321Contexts.safeLines_eq_union",
+    "Pnp3321Contexts.fullLines_card_le_one",
+    "Pnp3321Contexts.safeLines_card_le_two",
+    "Pnp3321Contexts.safeLines_card_le_one_of_inter"
+  ],
+  "scope": "Two pure-point OR factors and distinct single-line contexts. Does not bound arbitrary readers or preserve the size of a global circuit transformation."
+}

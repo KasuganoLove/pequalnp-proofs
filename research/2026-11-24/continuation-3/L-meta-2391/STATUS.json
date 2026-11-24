@@ -1,0 +1,31 @@
+{
+  "task": "L-meta-2391",
+  "result": "checked_reusable_partial_theorems_original_task_unresolved",
+  "repository_commit": "89b96c0f464824a164434fb460926400b9943047",
+  "lean_toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "source": "Pnp2391Pruning.lean",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "additional_local_source_dependencies": [],
+  "validation": {
+    "command": "LEAN_NUM_THREADS=1 lake env lean -j1 Pnp2391Pruning.lean",
+    "working_directory": "lean",
+    "exit_code": 0,
+    "log": "pruning-compile.log",
+    "log_notes": "Copied helper proofs emit style-linter warnings; no errors.",
+    "strict_project_checker_run": false,
+    "official_checker_run": false
+  },
+  "checked_theorems": [
+    "Pnp2391Pruning.graph_sandwich",
+    "Pnp2391Pruning.prune_explicit_zero",
+    "Pnp2391Pruning.least_gate_productive",
+    "Pnp2391Pruning.plane3_gate_productive",
+    "Pnp2391Pruning.prune_small_gate",
+    "Pnp2391Pruning.least_no_small_replacement"
+  ],
+  "limitation": "Edge productivity does not imply cleanliness; the original claim that every minimum order-3-plane circuit has no dirty AND remains unproved.",
+  "official_submission_created": false
+}

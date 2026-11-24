@@ -1,0 +1,68 @@
+{
+  "task": "L-meta-2391",
+  "status": "unresolved full theorem; ordinary Lean-checked research partials",
+  "base": "89b96c0f464824a164434fb460926400b9943047",
+  "strict_checker": "not run",
+  "files": [
+    {
+      "file": "PRUNING.md",
+      "bytes": 6888,
+      "sha256": "3cce215c574c502b8e10df39ff79cf816327e4a020fa8ee541a5e8c32654d9b1"
+    },
+    {
+      "file": "Pnp2391Local.lean",
+      "bytes": 10742,
+      "sha256": "140350ac7ff49d903dfa346e41f7003ab04329f26a553d2e8e462db065d4b59e"
+    },
+    {
+      "file": "Pnp2391Pruning.lean",
+      "bytes": 40040,
+      "sha256": "ded59d617ca6fab2701d8b543ba157fd6e2105ac8ac7ce16d7eef1329ddc80e9"
+    },
+    {
+      "file": "Pnp2391Wmax.lean",
+      "bytes": 2661,
+      "sha256": "ba98ecd0d475b2fbdcd120838aae9de88f971cb98f7ca564ebed49a0f1d44661"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6025,
+      "sha256": "c81be6fc918b506703544d2c914356dd31a4de222760a2ee171c1c9ba3dc0cb2"
+    },
+    {
+      "file": "SHA256SUMS",
+      "bytes": 326,
+      "sha256": "80b3395e13ffd0d307de610db84645406e5eae67a8165f8484ce0f3686d03c7e"
+    },
+    {
+      "file": "STATUS.json",
+      "bytes": 1226,
+      "sha256": "111c52110b529453147369ee7fc520285debac8e5b68e95a31da9325f498d949"
+    },
+    {
+      "file": "gap.json",
+      "bytes": 1769,
+      "sha256": "bf9d637d1ffdc7efa5473e30eb732f9e6f709dccf8737351f22f8e507a7c7071"
+    },
+    {
+      "file": "local-compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "local-validation.json",
+      "bytes": 2120,
+      "sha256": "ce96be94931aca1c1456c533edab4638c2476ab559412e5f8a745030a8235930"
+    },
+    {
+      "file": "pruning-compile.log",
+      "bytes": 2734,
+      "sha256": "4105b84b358f6940ddb1b80b9982b973dbc679e81aea39ccac6bae424441d174"
+    },
+    {
+      "file": "wmax-compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}
