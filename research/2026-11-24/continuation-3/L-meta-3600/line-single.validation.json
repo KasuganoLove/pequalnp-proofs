@@ -1,0 +1,32 @@
+{
+  "theorem": "Pnp3600LineSingle.line_single_budget",
+  "source_file": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/Pnp3600LineSingle.lean",
+  "source_sha256": "45e3e044915a61cb7089333875ab51ed5ba49552918fac892fb798d2f8c10891",
+  "source_bytes": 44792,
+  "source_statement_chars": 504,
+  "statement_sha256": "1bd01466aaa18b440dd8e50ae3de6039085c0f1ea65772784acaf0760fcea4d8",
+  "imports": [
+    "Mathlib.Data.Fintype.Prod",
+    "Mathlib.Data.Finset.Card",
+    "PEqualNP.Defs"
+  ],
+  "ordinary_compile": {
+    "exit_code": 0,
+    "log": "line-single.compile.log",
+    "threads": 1,
+    "lean_version": "4.36.0"
+  },
+  "strict_checker_status": "not run, per task scope",
+  "upstream_source": {
+    "repository": "open-goat/pequalnp-proofs",
+    "commit": "89b96c0f464824a164434fb460926400b9943047",
+    "path": "lean/PEqualNP/Outside/L_meta_2462.lean",
+    "sha256": "5bd0fc62f697651480ab3d0fd68d683a6f0ad9a6532432ffc76dbab3e6b9557a"
+  },
+  "mathematical_changes": [
+    "Replace full incidence correctness by rejection of each canonical false assignment with exactly one active line",
+    "Expose the 6*size bound already given by three counting classes each bounded by 2*size",
+    "Remove unused q, plane-size, and line-cardinality premises"
+  ],
+  "full_L_meta_3600_solved": false
+}

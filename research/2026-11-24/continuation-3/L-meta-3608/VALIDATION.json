@@ -1,0 +1,41 @@
+{
+  "task": "L-meta-3608",
+  "source_commit": "89b96c0f464824a164434fb460926400b9943047",
+  "lean_version": "4.36.0",
+  "ordinary_lean": {
+    "exit_code": 0,
+    "warnings": 0,
+    "command_from_lean_directory": "LEAN_NUM_THREADS=1 lake env lean -j1 Pnp3608Finite.lean",
+    "log": "ordinary-lean.log",
+    "last_observed_utc": "2026-11-24T15:43:31Z"
+  },
+  "formal_scope": "Auxiliary finite-index and binary-input-order normalization lemmas only; original task remains unproved.",
+  "capped_operand_indices": {
+    "minimum": 0,
+    "maximum": 23,
+    "includes_future_wire_reads": true
+  },
+  "strict_checker": "not run",
+  "upstream_submission": "none",
+  "searches": [
+    {
+      "result_file": "search-result.json",
+      "input_count": 512,
+      "status": "unknown",
+      "reason": "timeout",
+      "limit_ms": 90000
+    },
+    {
+      "result_file": "search-frontier-result.json",
+      "input_count": 35,
+      "status": "unknown",
+      "reason": "timeout",
+      "limit_ms": 90000
+    }
+  ],
+  "counterexample_found": false,
+  "unsatisfiability_established": false,
+  "running_child_processes": false,
+  "source_sha256": "0f44e06d0ff4f4c24df4ff94722df3e6f83b9369dde524426d5ca7d19227a00f",
+  "source_bytes": 9071
+}

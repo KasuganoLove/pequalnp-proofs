@@ -1,0 +1,11 @@
+{
+  "task": "L-meta-3608",
+  "z3_version": "5.4.1",
+  "scope": "all 14-gate circuits over operand indices 0..23 satisfying the posted structural hypotheses; binary operand order canonicalized",
+  "status": "unknown",
+  "timeout_ms": 90000,
+  "build_seconds": 0.16672468185424805,
+  "elapsed_seconds": 90.20294737815857,
+  "formal_status": "not a Lean certificate",
+  "reason_unknown": "timeout"
+}

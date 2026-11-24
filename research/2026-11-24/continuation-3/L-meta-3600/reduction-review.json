@@ -1,0 +1,38 @@
+{
+  "kind": "bounded-source-review-and-diagnostic-preview",
+  "not_a_strict_checker_verdict": true,
+  "reduction_file": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/R_meta_3600_713.lean",
+  "reduction_sha256": "9be87e7ce2fc3695f19a3294371f72d2208d7d343e4fcd54d35be13d6876dcb8",
+  "preview_exit_code": 0,
+  "first_child_structurally_equal_to_proved_statement": true,
+  "children_closed_and_non_dependent": true,
+  "recorded_conclusion_source_text_equal": true,
+  "children": [
+    {
+      "index": 1,
+      "characters": 601,
+      "statement": "∀ (x1 : ℕ) (x2 : Fin x1 → Fin x1 → Prop) [x3 : DecidableRel x2] (x4 : PEqualNP.CircuitLowerBounds.Circuit), (∀ (x5 x6 : Fin x1), x5 ≠ x6 → ∃! x8 : Fin x1, x2 x5 x8 ∧ x2 x6 x8) → PEqualNP.TopForm.IsAO2 (x1 + x1) x4 → (∀ (x7 : Fin x1), PEqualNP.MetaComplexity.circuitFun (x1 + x1) x4 (Fin.append (fun (x8 : Fin x1) => Decidable.decide ¬x2 x8 x7) fun (x8 : Fin x1) => Decidable.decide (x8 = x7)) = Bool.false) → Fintype.card { x8 : Fin x1 × Fin x1 // x2 x8.1 x8.2 ∧ PEqualNP.ReadK.lineSingle x4 (x1 + x1) (fun (x9 : ℕ) => Decidable.decide (x1 ≤ x9)) (↑x8.1) (x1 + ↑x8.2) = Bool.true } ≤ (6 : ℕ) * x4.size",
+      "sha256": "f293b5e74a01034f4b6342334bd4fd4a8bd0462fc159a6c07bea4bde0b2825f7"
+    },
+    {
+      "index": 2,
+      "characters": 1260,
+      "statement": "∀ (x1 x2 : ℕ) (x3 : Fin x2 → Fin x2 → Prop) [x4 : DecidableRel x3] (x5 : PEqualNP.CircuitLowerBounds.Circuit), (300 : ℕ) ≤ x1 → x2 = x1 ^ (2 : ℕ) + x1 + (1 : ℕ) → (∀ (x8 : Fin x2), Fintype.card { x9 : Fin x2 // x3 x9 x8 } = x1 + (1 : ℕ)) → (∀ (x9 x10 : Fin x2), x9 ≠ x10 → ∃! x12 : Fin x2, x3 x9 x12 ∧ x3 x10 x12) → PEqualNP.TopForm.IsAO2 (x2 + x2) x5 → x2 + x2 ≤ x5.output → x5.output < x2 + x2 + x5.size → (∃ (x13 : PEqualNP.CircuitLowerBounds.Gate), x5.gates[x5.output - (x2 + x2)]? = Option.some x13 ∧ x13.op = PEqualNP.CircuitLowerBounds.GateOp.or) → (∀ (x14 x15 : Fin x2), x3 x14 x15 → (PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 fun (x17 : Fin (x2 + x2)) => Decidable.decide (x17 = Fin.castAdd x2 x14 ∨ x17 = Fin.natAdd x2 x15)) = Bool.true) → (∀ (x15 : Fin (x2 + x2) → Bool), Fintype.card { x16 : Fin x2 // x15 (Fin.natAdd x2 x16) = Bool.true } ≤ x1 → (¬∃ (x17 : Fin x2) (x18 : Fin x2), x3 x17 x18 ∧ x15 (Fin.castAdd x2 x17) = Bool.true ∧ x15 (Fin.natAdd x2 x18) = Bool.true) → PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 x15 = Bool.false) → Fintype.card { x16 : Fin x2 × Fin x2 // x3 x16.1 x16.2 ∧ ¬PEqualNP.ReadK.lineSingle x5 (x2 + x2) (fun (x17 : ℕ) => Decidable.decide (x2 ≤ x17)) (↑x16.1) (x2 + ↑x16.2) = Bool.true } ≤ (94 : ℕ) * x5.size",
+      "sha256": "30e329342733f17088e8de3fa9eb19f34a99d17cae44c0e4f045d753014dd867"
+    }
+  ],
+  "canonical_child_file": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/Pnp3600LineSingle.lean",
+  "canonical_child_sha256": "c8c3a227e90b35428269012e032fdc9e28ac1232abf1949272a58b3d26917ea7",
+  "canonical_child_bytes": 44841,
+  "canonical_child_changes": "Only namespace qualification, final theorem name, and the corresponding final helper reference changed from the ordinary-compiled source.",
+  "residual_status": "Unproved: bounds incident pairs not witnessed by ReadK.lineSingle by 94 times circuit size.",
+  "review_findings": [
+    "The first child uses only one-line nonincidence rejection and was already ordinarily compiled with the same statement.",
+    "The task restricted soundness implies canonical one-line rejection because 1 <= q.",
+    "Task gate normalization implies TopForm.IsAO2; the proof does not infer local soundness of intermediate gates.",
+    "Finite incidence pairs partition into the lineSingle and complementary classes.",
+    "Line cardinality gives N*(q+1) total incidences; the two budgets 6 and 94 imply the required N*q <= 100*C.size.",
+    "Each child is printed with the checker canonical binder names and childPpOptions, within the 2000-character bound.",
+    "Strict kernel replay and print/readback validation remain the parent checker responsibility."
+  ]
+}

@@ -1,0 +1,6 @@
+PEqualNP/Outside/R_meta_3600_713.lean:21:49: warning: Variable name `x4` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x4
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`

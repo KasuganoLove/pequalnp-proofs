@@ -1,0 +1,5 @@
+∀ (N : ℕ) (I : Fin N → Fin N → Prop) [DecidableRel I] (C : PEqualNP.CircuitLowerBounds.Circuit),
+  (∀ p p' : Fin N, p ≠ p' → ∃! l : Fin N, I p l ∧ I p' l) →
+  PEqualNP.TopForm.IsAO2 (N + N) C →
+  (∀ l : Fin N, PEqualNP.MetaComplexity.circuitFun (N + N) C (Fin.append (fun p : Fin N => decide (¬ I p l)) (fun k : Fin N => decide (k = l))) = false) →
+  Fintype.card { e : Fin N × Fin N // I e.1 e.2 ∧ PEqualNP.ReadK.lineSingle C (N + N) (fun k => decide (N ≤ k)) e.1.val (N + e.2.val) = true } ≤ 6 * C.size
