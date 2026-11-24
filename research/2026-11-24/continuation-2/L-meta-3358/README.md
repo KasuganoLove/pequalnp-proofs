@@ -6,7 +6,7 @@
 
 证明文件 SHA-256：`1bd5ad58f1c1be72f2e8f989165500ac8c0a2e0058fcab618ae26548f7d153b9`。
 
-证明已保存到 [codex/L-meta-3358-20261124 分支](https://github.com/KasuganoLove/pequalnp-proofs/tree/codex/L-meta-3358-20261124)，[提交 9ed381f](https://github.com/KasuganoLove/pequalnp-proofs/commit/9ed381f4165528fa489bd1f2eff81c4bf57d811d)。当前尚未创建本工作的上游 PR。
+证明已保存到 [codex/L-meta-3358-20261124 分支](https://github.com/KasuganoLove/pequalnp-proofs/tree/codex/L-meta-3358-20261124)，[提交 9ed381f](https://github.com/KasuganoLove/pequalnp-proofs/commit/9ed381f4165528fa489bd1f2eff81c4bf57d811d)。上游 [PR #7168](https://github.com/open-goat/pequalnp-proofs/pull/7168) 已创建，等待官方裁决。
 
 在仓库 `lean/` 目录可复核普通编译：
 

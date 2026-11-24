@@ -6,8 +6,8 @@
 
 | 任务 | 已完成 | 核验等级与未完成部分 |
 | --- | --- | --- |
-| [L-meta-3358](L-meta-3358/README.md) | 七门后缀含两个 NOT 时，输出至多依赖十七条初始线路中的六条。完整命题已证明。 | 本地严格 `check` 通过，退出码 0，重检 1,680 个常量。尚未创建上游 PR，也没有本轮官方接受裁决。 |
-| [L-meta-3233](L-meta-3233/README.md) | 将原下界归约到“至少十三个非 NOT 门”和“至多两个 NOT 的剩余下界”；第一子命题已有自包含证明。 | 两份文件普通 Lean 编译与格式检查通过；严格检查两次退出 137，没有裁决。子命题打印预览通过，不等于严格检查通过。第二子命题仍开放。 |
+| [L-meta-3358](L-meta-3358/README.md) | 七门后缀含两个 NOT 时，输出至多依赖十七条初始线路中的六条。完整命题已证明。 | 本地严格 `check` 通过，退出码 0，重检 1,680 个常量。已创建 [PR #7168](https://github.com/open-goat/pequalnp-proofs/pull/7168)，等待官方裁决。 |
+| [L-meta-3233](L-meta-3233/README.md) | 将原下界归约到“至少十三个非 NOT 门”和“至多两个 NOT 的剩余下界”；第一子命题已有自包含证明。 | 两份文件普通 Lean 编译与格式检查通过；严格检查两次退出 137，没有裁决。子命题打印预览通过，不等于严格检查通过。已创建 [PR #7182](https://github.com/open-goat/pequalnp-proofs/pull/7182)，第二子命题仍开放。 |
 | [L-meta-3384](L-meta-3384/README.md) | 证明了两个十一门校准电路；对记录的单调模型完成耦合重接线搜索。 | 校准命题普通 Lean 通过；有限搜索仅为计算证据，仍缺 NOT 情形、正规化与内核证书。完整任务未证明，已按 `missing_lemma` 归还。 |
 | [L-gct-232](L-gct-232/README.md) | 排除了指定二维对称星形空间的独立第三方向扩张。 | 部分刚性引理普通 Lean 通过，符号恒等式经精确 SymPy 核对。一般三维空间的排除仍未证明，已按 `missing_lemma` 归还。 |
 
@@ -18,7 +18,7 @@
 - [codex/L-meta-3358-20261124](https://github.com/KasuganoLove/pequalnp-proofs/tree/codex/L-meta-3358-20261124)，提交 [`9ed381f`](https://github.com/KasuganoLove/pequalnp-proofs/commit/9ed381f4165528fa489bd1f2eff81c4bf57d811d)。
 - [codex/R-meta-3233-713-20261124](https://github.com/KasuganoLove/pequalnp-proofs/tree/codex/R-meta-3233-713-20261124)，提交 [`86a9b1c`](https://github.com/KasuganoLove/pequalnp-proofs/commit/86a9b1c3e83eb90493b36c2c385b67dc67563213)。
 
-本次快照中两份上游 PR 均尚未创建：GitHub 连接器创建 PR 返回 403，浏览器登录交接尚未完成。任务状态与记录时间见 [STATUS.json](STATUS.json)。第一子命题 `L-meta-3438` 已有他人的证明 PR [6461](https://github.com/open-goat/pequalnp-proofs/pull/6461)、[6591](https://github.com/open-goat/pequalnp-proofs/pull/6591)、[6636](https://github.com/open-goat/pequalnp-proofs/pull/6636)，本工作没有另开重复 PR。
+两份上游 PR 已使用用户本机 Chrome、以 KasuganoLove 账号创建。GitHub 连接器 403 与云端登录障碍已由这次本机浏览器提交解决。任务状态与记录时间见 [STATUS.json](STATUS.json)。第一子命题 `L-meta-3438` 已有他人的证明 PR [6461](https://github.com/open-goat/pequalnp-proofs/pull/6461)、[6591](https://github.com/open-goat/pequalnp-proofs/pull/6591)、[6636](https://github.com/open-goat/pequalnp-proofs/pull/6636)，本工作没有另开重复 PR。
 
 ## 复现与继续
 
@@ -31,3 +31,7 @@
 ## 登录等待后的状态更新
 
 2026-11-24 22:35（香港时间），安全登录接口返回不可用；两份上游 PR 仍未创建。3233 上次续期的有效时间已过，当前不声称持有有效租约；归约证明在到期前完成，后续提交前须重新核对题目及归约配额。3358 已有多份其他贡献者的 PR 排队，查询时未观察到接受裁决，也需先核对后续状态。已准备的标题、说明和分支见 [PR_READY.md](PR_READY.md)。
+
+## 本机 Chrome 投稿完成
+
+2026-11-24 22:41–22:43（香港时间），创建 [L-meta-3358 / #7168](https://github.com/open-goat/pequalnp-proofs/pull/7168) 和 [R-meta-3233-713 / #7182](https://github.com/open-goat/pequalnp-proofs/pull/7182)。GitHub API 复核两份均为 KasuganoLove 提交、目标 main、一个提交且仅新增一个文件，head SHA 与已核验分支一致；目前均打开，尚无官方裁决。3233 在投稿后尝试以 reduced 归还旧租约，任务台返回 410，明确旧租约已到期或已释放；这次归还未登记成功，不能把它写成任务台已确认。上述登录等待段落保留为历史记录，当前发布状态以本节及 STATUS.json 为准。

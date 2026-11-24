@@ -63,3 +63,7 @@ LEAN_NUM_THREADS=1 lake env lean -j1 ../research/2026-11-24/continuation-2/L-met
 ```
 
 有限预处理从本任务存档目录运行 `python3 3233-second-or-patterns.py`；输出对应 `3233-second-or-patterns.json`。核验等级及严格检查器的两次无裁决故障见 `3233-validation.json` 和 `validation-summary.md`。两条预览命题文本及预览 JSON 也已保存；预览打印不是严格检查接受。
+
+## Publication update
+
+The reduction was submitted through the owner’s local Chrome as [PR #7182](https://github.com/open-goat/pequalnp-proofs/pull/7182) at 2026-11-24T14:43:18Z. It is open and awaits authoritative verification. The attempted post-submission desk release returned HTTP 410 because the old lease had expired; no successful lease-release registration is claimed. Earlier pending-publication notes above are historical.

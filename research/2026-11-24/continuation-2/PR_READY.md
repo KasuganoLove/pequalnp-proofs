@@ -1,6 +1,6 @@
-# 待提交的上游 PR
+# 已提交的上游 PR
 
-两份分支已推到用户 fork；本快照尚未创建上游 PR。GitHub 连接器对上游创建 PR 返回 403，安全登录接口返回不可用，需完成手动登录交接后继续。不要把分支推送或本地 ACCEPTED 当作官方提交成功。
+已通过用户本机 Chrome、以 KasuganoLove 身份提交：[3358 / #7168](https://github.com/open-goat/pequalnp-proofs/pull/7168) 与 [3233 / #7182](https://github.com/open-goat/pequalnp-proofs/pull/7182)。以下保留实际提交的标题、正文和分支。两份均等待官方裁决。
 
 上游：`open-goat/pequalnp-proofs`；base：`main`。
 

@@ -1,5 +1,5 @@
 {
-  "snapshot_at": "2026-11-24T22:35:53+08:00",
+  "snapshot_at": "2026-11-24T22:45:57+08:00",
   "timezone": "Asia/Hong_Kong",
   "repository": "KasuganoLove/pequalnp-proofs",
   "canonical_upstream": "open-goat/pequalnp-proofs",
@@ -8,9 +8,9 @@
   "lean_toolchain": "leanprover/lean4:v4.36.0",
   "mathlib_commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
   "archive_path": "research/2026-11-24/continuation-2",
-  "new_upstream_prs_created": 0,
+  "new_upstream_prs_created": 2,
   "new_official_acceptances": 0,
-  "publication_blocker": "GitHub connector returned 403 creating upstream PR; secure browser authentication returned unavailable. Manual authentication handoff is required.",
+  "publication_blocker": null,
   "tasks": [
     {
       "id": "L-meta-3358",
@@ -26,7 +26,7 @@
       "fork_branch": "codex/L-meta-3358-20261124",
       "fork_commit": "9ed381f4165528fa489bd1f2eff81c4bf57d811d",
       "branch_url": "https://github.com/KasuganoLove/pequalnp-proofs/tree/codex/L-meta-3358-20261124",
-      "upstream_pr": null,
+      "upstream_pr": "https://github.com/open-goat/pequalnp-proofs/pull/7168",
       "official_verdict": null,
       "queue_note": "Nine matching PRs were observed at 14:34 UTC; eight were open, none had an observed ACCEPTED verdict. Recheck before submitting another proof.",
       "observed_open_prs": [
@@ -38,7 +38,10 @@
         6339,
         6746,
         6372
-      ]
+      ],
+      "upstream_pr_number": 7168,
+      "upstream_state": "open",
+      "created_at": "2026-11-24T14:41:55Z"
     },
     {
       "id": "L-meta-3233",
@@ -68,12 +71,21 @@
       "fork_branch": "codex/R-meta-3233-713-20261124",
       "fork_commit": "86a9b1c3e83eb90493b36c2c385b67dc67563213",
       "branch_url": "https://github.com/KasuganoLove/pequalnp-proofs/tree/codex/R-meta-3233-713-20261124",
-      "upstream_pr": null,
+      "upstream_pr": "https://github.com/open-goat/pequalnp-proofs/pull/7182",
       "official_verdict": null,
-      "task_disposition": "last_known_lease_expiry_passed_pending_publication",
+      "task_disposition": "reduction_pr_submitted_after_lease_expiry",
       "h1_publication": "No separate L-meta-3438 PR because existing proof PRs 6461, 6591, 6636 cover it.",
       "last_known_lease_expires_at": "2026-11-24T14:10:27.306Z",
-      "lease_note": "The prepared reduction was completed before expiry. No live lease is asserted after the authentication wait. Recheck the current task and reduction quota before submission."
+      "lease_note": "The reduction was completed before lease expiry. Its PR was created after authentication was restored; the desk rejected release because the old lease was no longer live. No new lease is asserted.",
+      "upstream_pr_number": 7182,
+      "upstream_state": "open",
+      "created_at": "2026-11-24T14:43:18Z",
+      "release_after_submission": {
+        "reason": "reduced",
+        "http_status": 410,
+        "registered": false,
+        "message": "no such live lease: it expired or was released. Ask /desk/next again."
+      }
     },
     {
       "id": "L-meta-3384",
@@ -106,5 +118,6 @@
       "https://github.com/open-goat/pequalnp-proofs/pull/6591",
       "https://github.com/open-goat/pequalnp-proofs/pull/6636"
     ]
-  }
+  },
+  "publication_method": "User-authorized local Chrome, signed in as KasuganoLove"
 }
