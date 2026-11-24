@@ -1,6 +1,6 @@
 # 待提交的上游 PR
 
-两份分支已推到用户 fork；本快照尚未创建上游 PR。GitHub 连接器对上游创建 PR 返回 403，需完成浏览器登录后继续。不要把分支推送或本地 ACCEPTED 当作官方提交成功。
+两份分支已推到用户 fork；本快照尚未创建上游 PR。GitHub 连接器对上游创建 PR 返回 403，安全登录接口返回不可用，需完成手动登录交接后继续。不要把分支推送或本地 ACCEPTED 当作官方提交成功。
 
 上游：`open-goat/pequalnp-proofs`；base：`main`。
 
@@ -10,6 +10,8 @@
 - Head: `KasuganoLove:codex/L-meta-3358-20261124`
 - Commit: `9ed381f4165528fa489bd1f2eff81c4bf57d811d`
 - [已核对的比较页](https://github.com/open-goat/pequalnp-proofs/compare/main...KasuganoLove:pequalnp-proofs:codex/L-meta-3358-20261124?expand=1)
+
+投稿前重新核对排队结果：14:34 UTC 查询到本题已有多份其他贡献者的 PR，尚未观察到接受裁决。
 
 ### Body
 
