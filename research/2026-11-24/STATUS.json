@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Asia/Hong_Kong",
+  "repository": "KasuganoLove/pequalnp-proofs",
+  "research_branch": "codex/pnp-research-2026-11-24",
+  "source_commit": "053be9da917778f72c6ebf4516bc3fbbce26e187",
+  "lean_toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "upstream_prs_submitted": 0,
+  "upstream_acceptances": 0,
+  "tasks": [
+    {
+      "id": "L-meta-2534",
+      "disposition": "released",
+      "reason": "statement_seems_false",
+      "http": 200,
+      "result": "Positive twin proved locally; assigned negation is false.",
+      "validation": "Lean compilation and axiom audit passed",
+      "file": "Pnp2534PositiveScratch.lean",
+      "sha256": "148e8446cbb1cc9617944842455f178e737e6b7e4acafdc8166b4798625661c6"
+    },
+    {
+      "id": "L-meta-2309",
+      "disposition": "released",
+      "reason": "missing_lemma",
+      "http": 200,
+      "result": "At least one active direct reader proved; exactly-one case unresolved.",
+      "validation": "Lean compilation passed",
+      "file": "Pnp2309Scratch.lean",
+      "sha256": "5c8cf73e3a3e40264edf1578c56321e7c801c8f4ac8844d7fb1a8c72e8ef6978"
+    },
+    {
+      "id": "L-meta-2604",
+      "disposition": "withdrawn_proved_before_submission",
+      "http": 410,
+      "result": "Exact assigned theorem proved locally; another contributor closed task before submission.",
+      "validation": "Lean compilation, module build, format/import checks and axiom audit passed",
+      "strict_checker": "Process exit 137, no verdict; not an acceptance or mathematical rejection",
+      "file": "L_meta_2604.lean",
+      "sha256": "9c8057ccfef542eca927a6c9e69a2e1a87542050cdbf9118e6116c351792c8e5"
+    },
+    {
+      "id": "L-meta-2348",
+      "disposition": "released",
+      "reason": "missing_lemma",
+      "http": 200,
+      "result": "29-gate calibration and local four-variable enumeration; global <=27 impossibility unresolved.",
+      "validation": "Exhaustive Python/C++ computations only; no Lean certificate",
+      "file": "L-meta-2348/ANALYSIS.md",
+      "sha256": "5bef6aa30519956d11c732b819cd3d7f89e5689e413a4cf6eecd6a4ad4b2aa2c"
+    },
+    {
+      "id": "L-meta-1894",
+      "disposition": "released",
+      "result": "Independent support, exact OR31 cofactor and path-blocker lemmas proved; >=125 global count unresolved.",
+      "validation": "Lean compilation passed, exit 0 without warnings",
+      "file": "Pnp1894Scratch.lean",
+      "sha256": "ed6e6b112c784fc13de86c3cbb1fbcd5b1c65e35c000cdeedd6d33ca60b6689a",
+      "reason": "missing_lemma",
+      "http": 200
+    }
+  ],
+  "active_assignments_at_session_end": 0
+}
