@@ -1,0 +1,18 @@
+full truth-table rows=512 sampled true/false pairs=1746
+seed=False depth=0 states=1 min_width=9
+seed=False depth=1 states=72 min_width=10
+seed=False depth=2 states=4599 min_width=9
+seed=False depth=3 states=23358 min_width=9
+seed=False depth=4 states=19539 min_width=8
+seed=False depth=5 states=585 min_width=8
+seed=False depth=6 states=0 min_width=None
+seed=False states_by_depth=[1, 72, 4599, 23358, 19539, 585, 0] elapsed_s=4.69
+seed=True depth=0 states=1 min_width=10
+seed=True depth=1 states=107 min_width=10
+seed=True depth=2 states=3854 min_width=9
+seed=True depth=3 states=12664 min_width=9
+seed=True depth=4 states=7738 min_width=8
+seed=True depth=5 states=375 min_width=8
+seed=True depth=6 states=25 min_width=7
+seed=True depth=7 states=0 min_width=None
+seed=True states_by_depth=[1, 107, 3854, 12664, 7738, 375, 25, 0] elapsed_s=2.22
