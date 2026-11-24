@@ -1,0 +1,60 @@
+[
+  {
+    "id": "L-meta-2534",
+    "title": "It is false that: a step toward: A step toward: Petersen graph minus a vertex: no AND, OR (fan-in two), NOT circuit with at most 15 gates and first gate AND(x_4, x_6) computes its edge function",
+    "statement": "¬ (∀ (x1 : ℕ) (x2 x3 : List PEqualNP.CircuitLowerBounds.Gate) (x4 : List ℕ) (x5 : ℕ),   x1 ∈ x4 →     have x7 : PEqualNP.CircuitLowerBounds.Circuit := { gates := x2 ++ { op := PEqualNP.CircuitLowerBounds.GateOp.or, inputs := x4 : PEqualNP.CircuitLowerBounds.Gate } :: x3, output := x5 : PEqualNP.CircuitLowerBounds.Circuit };     PEqualNP.MetaComplexity.FanInTwo x7 → PEqualNP.MetaComplexity.HasCircuitSize x1 (fun (x9 : Fin x1 → Bool) => x7.eval (List.ofFn x9 ++ [Bool.false])) (x2.length + x3.length))",
+    "file": "lean/PEqualNP/Outside/L_meta_2534.lean",
+    "module": "PEqualNP.Outside.L_meta_2534",
+    "imports": [
+      "PEqualNP.Defs"
+    ],
+    "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+    "context": "The literal negation of a reduction's hypothesis.",
+    "dead": [],
+    "weight": 90,
+    "parallel": 1,
+    "lane": "main",
+    "sketch": "A proof is one explicit counterexample to the positive statement L-meta-2533; none is expected if that statement is true.",
+    "pr_open": 0,
+    "pr_numbers": []
+  },
+  {
+    "id": "L-meta-2309",
+    "title": "A step toward: Petersen graph minus a vertex: no AND, OR (fan-in two), NOT circuit with at most 15 gates and first gate NOT x_0 computes its edge function",
+    "statement": "have x1 : (Fin (9 : ℕ) → Bool) → Bool := fun (x1 : Fin (9 : ℕ) → Bool) => x1 (0 : Fin (9 : ℕ)) && x1 (1 : Fin (9 : ℕ)) || x1 (1 : Fin (9 : ℕ)) && x1 (2 : Fin (9 : ℕ)) || x1 (2 : Fin (9 : ℕ)) && x1 (3 : Fin (9 : ℕ)) || x1 (3 : Fin (9 : ℕ)) && x1 (4 : Fin (9 : ℕ)) || x1 (4 : Fin (9 : ℕ)) && x1 (0 : Fin (9 : ℕ)) || x1 (0 : Fin (9 : ℕ)) && x1 (5 : Fin (9 : ℕ)) || x1 (1 : Fin (9 : ℕ)) && x1 (6 : Fin (9 : ℕ)) || x1 (2 : Fin (9 : ℕ)) && x1 (7 : Fin (9 : ℕ)) || x1 (3 : Fin (9 : ℕ)) && x1 (8 : Fin (9 : ℕ)) || x1 (5 : Fin (9 : ℕ)) && x1 (7 : Fin (9 : ℕ)) || x1 (6 : Fin (9 : ℕ)) && x1 (8 : Fin (9 : ℕ)) || x1 (8 : Fin (9 : ℕ)) && x1 (5 : Fin (9 : ℕ)); ∀ (x2 : PEqualNP.CircuitLowerBounds.Circuit),   have x3 : List PEqualNP.CircuitLowerBounds.Gate := List.map (fun (x3 : PEqualNP.CircuitLowerBounds.Gate) => { op := x3.op, inputs := if x3.op.eval [Bool.false] = Bool.true then List.take (1 : ℕ) x3.inputs else x3.inputs : PEqualNP.CircuitLowerBounds.Gate }) (List.drop (1 : ℕ) x2.gates);   have x4 : PEqualNP.CircuitLowerBounds.Gate → Bool := fun (x4 : PEqualNP.CircuitLowerBounds.Gate) => [(0 : ℕ), (9 : ℕ)].any fun (x5 : ℕ) => x4.inputs.contains x5;   have x5 : ℕ := (List.filter x4 x3).length;   PEqualNP.MetaComplexity.FanInTwo x2 → (∀ (x7 : Fin (9 : ℕ) → Bool), (x2.wires (List.ofFn x7)).getD (9 : ℕ) Bool.false = !x7 (0 : Fin (9 : ℕ))) → PEqualNP.MetaComplexity.circuitFun (9 : ℕ) x2 = x1 → x2.size ≤ (15 : ℕ) → x5 ≤ (1 : ℕ) → False",
+    "file": "lean/PEqualNP/Outside/L_meta_2309.lean",
+    "module": "PEqualNP.Outside.L_meta_2309",
+    "imports": [
+      "PEqualNP.Defs"
+    ],
+    "unlocks": "With its 3 sibling(s) it proves a posted step.",
+    "context": "A hypothesis of a checked reduction, as Lean printed it.",
+    "dead": [],
+    "weight": 90,
+    "parallel": 3,
+    "lane": "main",
+    "reductions": true,
+    "sketch": "Step 3 of 4 of a checked cut of L-meta-1665. Its sibling steps: L-meta-2305, L-meta-2307, L-meta-2311. Together they give the parent; the parent's own sketch: a proof by cases is possible: one sibling case of this family (another first gate) was proved outright by exhaustive case analysis inside the checker's limits, as one long proof file. Same shape here: fix the first gate as stated, split on the next gates up to the symmetries that fix it, and close each branch by evaluation. A cut into smaller statements is welcome too: by the second gate up to symmetry, or by a structural invariant. Size",
+    "pr_open": 0,
+    "pr_numbers": []
+  },
+  {
+    "id": "L-meta-2604",
+    "title": "Implicant lift: in a fan-in-two AND/OR circuit, an OR gate's input t that implies the output can be moved to a new top OR without changing the function",
+    "statement": "∀ (n : ℕ) (C : PEqualNP.CircuitLowerBounds.Circuit) (j u t : ℕ), PEqualNP.MetaComplexity.Monotone2 C → j < C.gates.length → C.gates[j]? = some { op := PEqualNP.CircuitLowerBounds.GateOp.or, inputs := [u, t] } → t < n + j → (∀ x : Fin n → Bool, (C.wires (List.ofFn x)).getD t false = true → PEqualNP.MetaComplexity.circuitFun n C x = true) → PEqualNP.MetaComplexity.circuitFun n { gates := C.gates.set j { op := PEqualNP.CircuitLowerBounds.GateOp.or, inputs := [u] } ++ [{ op := PEqualNP.CircuitLowerBounds.GateOp.or, inputs := [C.output, t] }], output := n + C.gates.length } = PEqualNP.MetaComplexity.circuitFun n C",
+    "file": "lean/PEqualNP/Outside/L_meta_2604.lean",
+    "module": "PEqualNP.Outside.L_meta_2604",
+    "imports": [
+      "PEqualNP.Defs"
+    ],
+    "unlocks": "The tool the one-output line now imports: a move that brings a circuit to an OR of blocks at no cost in gates.",
+    "context": "SKETCH: The circuit's value is monotone in the value of gate j. Where t is false, gate j equals u, so replacing the gate by u changes nothing. Where t is true the output is true by hypothesis, and the appended OR with t makes the new output true. Where t is false the appended OR returns the old output, which is unchanged. In Lean: an evaluation lemma for a circuit with one gate replaced (induction over the gate list), monotonicity of AND/OR evaluation in one wire, then the two cases. Size: about 90 minutes. No sorry, no new axiom. Own namespace for every declaration.",
+    "dead": [],
+    "weight": 90,
+    "parallel": 4,
+    "lane": "main",
+    "sketch": "The circuit's value is monotone in the value of gate j. Where t is false, gate j equals u, so replacing the gate by u changes nothing. Where t is true the output is true by hypothesis, and the appended OR with t makes the new output true. Where t is false the appended OR returns the old output, which is unchanged. In Lean: an evaluation lemma for a circuit with one gate replaced (induction over the gate list), monotonicity of AND/OR evaluation in one wire, then the two cases. Size: about 90 minutes. No sorry, no new axiom. Own namespace for every declaration.",
+    "pr_open": 0,
+    "pr_numbers": []
+  }
+]
