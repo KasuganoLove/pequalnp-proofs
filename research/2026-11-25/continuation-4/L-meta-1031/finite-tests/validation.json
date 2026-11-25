@@ -1,0 +1,38 @@
+{
+  "task": "L-meta-1031",
+  "artifact_kind": "research partial; no official proof of L-meta-1031",
+  "ordinary_compilation": [
+    {
+      "file": "Pnp1031OwnershipFinite.lean",
+      "exit_code": 0,
+      "log": "Pnp1031OwnershipFinite.log",
+      "imports": [
+        "PEqualNP.Defs"
+      ]
+    },
+    {
+      "file": "Pnp1031OwnershipBridge.lean",
+      "exit_code": 0,
+      "log": "Pnp1031OwnershipBridge.log",
+      "imports": [
+        "PEqualNP.Outside.L_meta_4101",
+        "PEqualNP.Outside.L_meta_4320",
+        "PEqualNP.Outside.L_meta_1906",
+        "PEqualNP.Outside.L_meta_1600"
+      ],
+      "note": "One explanatory comment changed after successful compilation; theorem/proof text unchanged."
+    }
+  ],
+  "strict_checker": "not run on these research artifacts",
+  "checkout_head_at_archive": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "source_attribution_base": "72c6f42af03b1daed876cf3c65638fccd31f20b7",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "remaining_gap": "Existence, for every triangle-free and C4-free graph, of a minimum Monotone2 circuit computing its graph function and passing the finite tests. The equivalence does not prove this existence.",
+  "source_dependency_hashes": {
+    "lean/PEqualNP/Defs.lean": "594ff2311557f39573545905a9b6bcdb0b4e15db024ebcf15f921d250a1c8fbe",
+    "lean/PEqualNP/Outside/L_meta_4101.lean": "086976b5d4b5cd399102861847beafb9ff8596845b14264f83c9a5eff97419f7",
+    "lean/PEqualNP/Outside/L_meta_4320.lean": "f8d626b4edf243fe363ee81b5d0280929994b64855386d1699f3692c670eec64",
+    "lean/PEqualNP/Outside/L_meta_1906.lean": "cde8cfed9875f1411efbddbe235e5d7a47e9f25748be35c1e31c29819e3fc3c6",
+    "lean/PEqualNP/Outside/L_meta_1600.lean": "5fbc073a87085c07ab11ae069ab97d95f41dcfc3ff8b31cf0a1160ca9117caa5"
+  }
+}

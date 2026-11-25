@@ -1,0 +1,31 @@
+{
+  "pr_7558": {
+    "state": "closed",
+    "closed_at": "2026-11-25T03:58:25Z",
+    "historical_pr_head": "8fd875f4a31f93fb14369d75c0efb01490d458be",
+    "repaired_branch": "codex/reduce-meta-3600-713",
+    "repaired_commit": "0a0f000c43698759cba85b5cd1e11b0d8a442191",
+    "local_result": "ACCEPTED (reduce)",
+    "official_repair_acceptance": false,
+    "reason": "Three other accepted live reductions occupy the task quota."
+  },
+  "task_1031": {
+    "full_statement_proved": false,
+    "full_statement_refuted": false,
+    "release_at": "2026-11-25T04:02:54.714648+00:00",
+    "release_reason": "missing_lemma",
+    "release_http_status": 200
+  },
+  "task_7019": {
+    "local_result": "ACCEPTED (check)",
+    "official_submission": false,
+    "official_acceptance": false
+  },
+  "next_response": {
+    "gap": "L-meta-1772",
+    "already_held": true,
+    "created_by_this_round": false,
+    "renewed_by_this_round": false,
+    "released_by_this_round": false
+  }
+}

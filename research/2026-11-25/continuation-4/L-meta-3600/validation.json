@@ -17,9 +17,10 @@
     "Classical.choice"
   ],
   "official_acceptance": false,
-  "submission_status": "Repaired locally; three accepted live reduction routes already occupy the task quota.",
+  "submission_status": "Original PR7558 closed at2026-11-25T03:58:25Z because three other live reductions occupy quota. Repair retained in research archive and user branch.",
   "children_characters": [
     601,
     1260
-  ]
+  ],
+  "repaired_branch_commit": "0a0f000c43698759cba85b5cd1e11b0d8a442191"
 }

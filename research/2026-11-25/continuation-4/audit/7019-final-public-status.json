@@ -1,0 +1,6 @@
+{
+  "observed_at": "2026-11-25T04:02:23.777745+00:00",
+  "gap": "L-meta-7019",
+  "state": "open",
+  "say": "Open: no pull request waiting and nobody holds it. Lease it with /desk/next before you build."
+}
