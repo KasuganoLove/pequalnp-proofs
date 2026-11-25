@@ -1,0 +1,75 @@
+{
+  "fetched_by": "remote_status agent, independently read here from saved public records",
+  "public_snapshot_updated_at": "2026-11-25T08:22:08.065Z",
+  "public_snapshot_url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "task": {
+    "id": "L-meta-8323",
+    "statement": "have x1 : PEqualNP.CircuitLowerBounds.Circuit \u2192 Prop := fun (x1 : PEqualNP.CircuitLowerBounds.Circuit) => \u2200 (x2 : Fin (42 : \u2115) \u2192 Bool), x1.eval (List.ofFn x2) = Bool.true \u2194 \u2203 (x3 : Fin (42 : \u2115)) (x4 : Fin (42 : \u2115)), (\u2191x3 < (21 : \u2115) \u2227 (21 : \u2115) \u2264 \u2191x4 \u2227 (\u2191x4 + (21 : \u2115) - \u2191x3) % (21 : \u2115) \u2208 [(0 : \u2115), (5 : \u2115), (7 : \u2115), (17 : \u2115), (20 : \u2115)]) \u2227 x2 x3 = Bool.true \u2227 x2 x4 = Bool.true; have x2 : PEqualNP.CircuitLowerBounds.Circuit \u2192 Prop := fun (x2 : PEqualNP.CircuitLowerBounds.Circuit) => \u2200 (x3 : \u2115) (x4 : PEqualNP.CircuitLowerBounds.Gate), x2.gates[x3]? = Option.some x4 \u2192 x4.op = PEqualNP.CircuitLowerBounds.GateOp.and \u2192 \u2200 (x7 : Fin (42 : \u2115) \u2192 Bool), (x2.wires (List.ofFn x7)).getD ((42 : \u2115) + x3) Bool.false = Bool.true \u2192 x2.eval (List.ofFn x7) = Bool.true; have x3 : PEqualNP.CircuitLowerBounds.Circuit \u2192 \u2115 := fun (x3 : PEqualNP.CircuitLowerBounds.Circuit) => List.countP (fun (x4 : PEqualNP.CircuitLowerBounds.Gate) => PEqualNP.CircuitLowerBounds.GateOp.casesOn x4.op Bool.false Bool.true Bool.false (fun (x5 : \u2115) => Bool.false) Bool.false) x3.gates; \u2200 (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x4 \u2192 x1 x4 \u2192 x2 x4 \u2192 (104 : \u2115) \u2264 x3 x4",
+    "file": "lean/PEqualNP/Outside/L_meta_8323.lean",
+    "module": "PEqualNP.Outside.L_meta_8323",
+    "imports": [
+      "PEqualNP.Defs"
+    ],
+    "weight": 5,
+    "parallel": 4,
+    "lane": "main",
+    "depth": 2,
+    "reductions": true,
+    "pr_open": 0,
+    "pr_numbers": []
+  },
+  "parents": {
+    "updated_at": "2026-11-25T08:22:08.065Z",
+    "gaps": [
+      {
+        "id": "L-meta-1477",
+        "title": "No circuit of fan-in-two AND/OR gates with at most 124 gates computes the incidence function of the projective plane of order 4",
+        "statement": "\u00ac (\u2203 C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C \u2227 C.size \u2264 124 \u2227 (\u2200 x : Fin 42 \u2192 Bool, (C.eval (List.ofFn x) = true \u2194 \u2203 u v : Fin 42, (u.val, v.val) \u2208 ([(0, 21), (0, 26), (0, 28), (0, 38), (0, 41), (1, 21), (1, 22), (1, 27), (1, 29), (1, 39), (2, 22), (2, 23), (2, 28), (2, 30), (2, 40), (3, 23), (3, 24), (3, 29), (3, 31), (3, 41), (4, 21), (4, 24), (4, 25), (4, 30), (4, 32), (5, 22), (5, 25), (5, 26), (5, 31), (5, 33), (6, 23), (6, 26), (6, 27), (6, 32), (6, 34), (7, 24), (7, 27), (7, 28), (7, 33), (7, 35), (8, 25), (8, 28), (8, 29), (8, 34), (8, 36), (9, 26), (9, 29), (9, 30), (9, 35), (9, 37), (10, 27), (10, 30), (10, 31), (10, 36), (10, 38), (11, 28), (11, 31), (11, 32), (11, 37), (11, 39), (12, 29), (12, 32), (12, 33), (12, 38), (12, 40), (13, 30), (13, 33), (13, 34), (13, 39), (13, 41), (14, 21), (14, 31), (14, 34), (14, 35), (14, 40), (15, 22), (15, 32), (15, 35), (15, 36), (15, 41), (16, 21), (16, 23), (16, 33), (16, 36), (16, 37), (17, 22), (17, 24), (17, 34), (17, 37), (17, 38), (18, 23), (18, 25), (18, 35), (18, 38), (18, 39), (19, 24), (19, 26), (19, 36), (19, 39), (19, 40), (20, 25), (20, 27), (20, 37), (20, 40), (20, 41)] : List (\u2115 \u00d7 \u2115)) \u2227 x u = true \u2227 x v = true)))",
+        "file": "lean/PEqualNP/Outside/L_meta_1477.lean",
+        "module": "PEqualNP.Outside.L_meta_1477",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "One gate below the cover circuit on the order-4 plane's incidence function: whether a monotone circuit beats the star there; size: a search shard.",
+        "context": "SKETCH: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. seat-meta-1's A3 from the 00:00 attack round (routes/lgp/paper/DEGREE-THREE-STATEMENTS.md, its statements sheet, and the round's rulings in reviews/attack-round-2026-11-24-0000.md); the cover circuit has 125 gates; work from the row's own sentence. Namespace: PEqualNP.MetaComplexity. No sorry, no new axiom. Own namespace for every declaration.",
+        "dead": [],
+        "weight": 5,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 0,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. seat-meta-1's A3 from the 00:00 attack round (routes/lgp/paper/DEGREE-THREE-STATEMENTS.md, its statements sheet, and the round's rulings in reviews/attack-round-2026-11-24-0000.md); the cover circuit has 125 gates; work from the row's own sentence. Namespace: PEqualNP.MetaComplexity. No sorry, no new axiom. Own namespace for every declaration.",
+        "pr_open": 0,
+        "pr_numbers": []
+      },
+      {
+        "id": "L-meta-4201",
+        "title": "A step toward: No circuit of fan-in-two AND/OR gates with at most 124 gates computes the incidence function of the projective plane of order 4 (step 2 of 2)",
+        "statement": "\u2200 (x1 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x1 \u2192 (\u2200 (x3 : Fin (42 : \u2115) \u2192 Bool), x1.eval (List.ofFn x3) = Bool.true \u2194 \u2203 (x4 : Fin (42 : \u2115)) (x5 : Fin (42 : \u2115)), (\u2191x4 < (21 : \u2115) \u2227 (21 : \u2115) \u2264 \u2191x5 \u2227 (\u2191x5 + (21 : \u2115) - \u2191x4) % (21 : \u2115) \u2208 [(0 : \u2115), (5 : \u2115), (7 : \u2115), (17 : \u2115), (20 : \u2115)]) \u2227 x3 x4 = Bool.true \u2227 x3 x5 = Bool.true) \u2192 (104 : \u2115) \u2264 List.countP (fun (x4 : PEqualNP.CircuitLowerBounds.Gate) => PEqualNP.CircuitLowerBounds.GateOp.casesOn x4.op Bool.false Bool.true Bool.false (fun (x5 : \u2115) => Bool.false) Bool.false) x1.gates",
+        "file": "lean/PEqualNP/Outside/L_meta_4201.lean",
+        "module": "PEqualNP.Outside.L_meta_4201",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "With its 1 sibling(s) it proves a posted step.",
+        "context": "A hypothesis of a checked reduction, as Lean printed it.",
+        "dead": [],
+        "weight": 5,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "Step 2 of 2 of a checked cut of L-meta-1477. Its sibling steps: L-meta-4199. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. seat-meta-1's A3 from the 00:00 attack round (routes/lgp/paper/DEGREE-THREE-STATEMENTS.md, its statements sheet, and the round's rulings in reviews/attack-round-2026-11-24-0000.md); the cover circuit has 125 gates; work from the row's own sentence. Namespace: PEqualNP.MetaComplexity. No sorry, no new axiom. Own namespace for every declaration..",
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    ],
+    "checked": [],
+    "withdrawn": {}
+  },
+  "exact_task_pr_search_matches": [],
+  "canonical_source_absent_on_checked_upstream": true,
+  "current_read_only_step_report": "Remote reviewer reports /desk/step?gap=L-meta-8323 open/noholder; no child lease acquired by this audit."
+}

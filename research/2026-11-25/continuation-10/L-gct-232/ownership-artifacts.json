@@ -1,0 +1,80 @@
+[
+  {
+    "file": "ownership_small_directions.cpp",
+    "bytes": 6028,
+    "sha256": "d6c9019ed2f6b5f7d1db71a3f37ce21ab21d03f0eeec28a09e622e85d06ab35b",
+    "mtime_utc": "2026-11-25T08:47:50.514677+00:00"
+  },
+  {
+    "file": "ownership-real-small.json",
+    "bytes": 425,
+    "sha256": "96e82f14a9c6bbb086cec84e56bd8a519590fe5ba6f4c4c5771872e5d12732bb",
+    "mtime_utc": "2026-11-25T08:33:46.652574+00:00"
+  },
+  {
+    "file": "ownership-real-small.log",
+    "bytes": 185,
+    "sha256": "1e3f3c3e0caf7f34c0c8da30e8da199347097c96efc98aaf442795c9a45f7212",
+    "mtime_utc": "2026-11-25T08:33:46.652574+00:00"
+  },
+  {
+    "file": "ownership-gaussian-small.json",
+    "bytes": 429,
+    "sha256": "4bf3e3a307816eede0ad56489600a7d9beef1b95ef4963743a9ee3284e677fb4",
+    "mtime_utc": "2026-11-25T08:34:01.559438+00:00"
+  },
+  {
+    "file": "ownership-gaussian-small.log",
+    "bytes": 184,
+    "sha256": "2fb726e65e12240dcaf91218fc4193248179e21f293154abb8ce8ff840570269",
+    "mtime_utc": "2026-11-25T08:34:01.559438+00:00"
+  },
+  {
+    "file": "ownership-gaussian-full-small.json",
+    "bytes": 430,
+    "sha256": "0dc9c881622c3ab4babad144005ff7b0f756c57ba8cd2215dfaffe0d1e79a263",
+    "mtime_utc": "2026-11-25T08:38:49.941768+00:00"
+  },
+  {
+    "file": "ownership-gaussian-full-small.log",
+    "bytes": 182,
+    "sha256": "ef82b6f9e93d7aacf0b0de7d31158905e293c4a278b7f54da2633cb58f18a51a",
+    "mtime_utc": "2026-11-25T08:38:49.941768+00:00"
+  },
+  {
+    "file": "ownership_pivot_orbits.py",
+    "bytes": 1730,
+    "sha256": "dbab444c214e09dd1eacd4add86ef6bf72fedd27abcb366996906595afcee233",
+    "mtime_utc": "2026-11-25T08:45:07.407316+00:00"
+  },
+  {
+    "file": "ownership-pivot-orbits.json",
+    "bytes": 30484,
+    "sha256": "0c31c1b352b1bd5d944bb4c911b2e3a605be45f5616569036b11ad8c53f86104",
+    "mtime_utc": "2026-11-25T08:45:07.427105+00:00"
+  },
+  {
+    "file": "ownership-pivot-orbits.log",
+    "bytes": 740,
+    "sha256": "14197a74a612421be23e805f5c99950b4b181d178736b2004dea6fe5060bfdde",
+    "mtime_utc": "2026-11-25T08:45:07.427105+00:00"
+  },
+  {
+    "file": "ownership_block_extension.py",
+    "bytes": 1304,
+    "sha256": "db29c8edf09fa592c618bedd92de5b3dc9fe5593c30b333abadabf9f7f31c3a2",
+    "mtime_utc": "2026-11-25T08:41:17.300926+00:00"
+  },
+  {
+    "file": "ownership-block-extension.json",
+    "bytes": 6205,
+    "sha256": "96abe34c0068604b66acc1c2b55eddd5c772d152ec4b945745b9cb0fa057ad8b",
+    "mtime_utc": "2026-11-25T08:44:04.359261+00:00"
+  },
+  {
+    "file": "ownership-block-extension.log",
+    "bytes": 5642,
+    "sha256": "166fc86febae1a3e87153d736db3f2bc98de4f6830eb9afbea02234518f939d6",
+    "mtime_utc": "2026-11-25T08:44:04.359261+00:00"
+  }
+]

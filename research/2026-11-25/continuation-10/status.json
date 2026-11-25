@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-11-25T16:51:50.909575+08:00",
+  "completion_criterion": "Valid official upstream PR in open-goat/pequalnp-proofs and an official ACCEPTED verdict. User-fork archives do not complete a stage.",
+  "official_pr_created_this_continuation": false,
+  "official_acceptance_this_continuation": false,
+  "stage_complete": false,
+  "8323": "Exact proof remains locally strict-accepted and technically ready; never assigned child remains excluded from current allocation.",
+  "gct232": "Partial exact symbolic evidence only; full statement unproved. No new Lean/strict check or Magma computation.",
+  "lease_closed_at_utc": "2026-11-25T08:44:48.770589+00:00",
+  "lease_closed_http_status": 410,
+  "stop_reason": "Server reported no such live lease; exact cause expired or released is not known.",
+  "latest_allocation_at_utc": "2026-11-25T08:47:55.161971+00:00",
+  "latest_allocation_gap": null,
+  "latest_allocation_retry_after_s": 300,
+  "fork_pr_1": "Relabeled archive; explicitly does not satisfy completion criterion."
+}

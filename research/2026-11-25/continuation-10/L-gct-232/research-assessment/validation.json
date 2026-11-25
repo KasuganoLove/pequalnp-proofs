@@ -1,0 +1,71 @@
+{
+  "task": "L-gct-232",
+  "full_task_proved": false,
+  "counterexample_found": false,
+  "completed_scope": "Mathematical exclusion of symmetric row-sum-zero 3-planes through exact cubic-chart certificates and an elementary chart-cover argument. General nonzero-row-sum cases remain unresolved.",
+  "validation_level": "exact symbolic algebra, not Lean or official checker",
+  "rowzero_graph_charts": 8,
+  "full_cubic_quartic_charts_unit_ideal": 8,
+  "distinct_cubic_only_parity_systems": 2,
+  "cubic_only_systems_unit_ideal": 2,
+  "certificate_multiplier_degree_in_chart_variables": 2,
+  "certificate_nonzero_constant": 2291542435532352,
+  "rational_polynomial_identity_verified": true,
+  "certificate_matches_actual_chart_cubic_modulo_root_relation": true,
+  "hadamard_frobenius_and_cubic_identities_verified": true,
+  "quadratic_taylor_formula_basis": "elementary two-minor expansion; not an additional Lean proof",
+  "lean_runs_by_this_component": 0,
+  "strict_checker_runs": 0,
+  "new_software_installed": false,
+  "remote_writes": false,
+  "lease_operations_by_this_agent": false,
+  "stop": {
+    "root_reported_renewal_http_status": 410,
+    "root_reported_at_utc": "2026-11-25T08:44:48.770589Z",
+    "new_work_stopped_on_notification": true,
+    "no_computation_process_remaining": true
+  },
+  "frozen_at_utc": "2026-11-25T08:49:42.506033+00:00",
+  "files": {
+    "rowzero_chart.py": {
+      "sha256": "cdb0e0ce0262fb48ce3d613b1749a8a307e17aab3d90fbeff781beeeb89bfe8f",
+      "bytes": 2242
+    },
+    "rowzero_certificate.py": {
+      "sha256": "e03a56e860822fcce0b901d41e44f988f2ec82d37dd62d7d84a86f76464477a5",
+      "bytes": 2902
+    },
+    "rowzero-certificate.json": {
+      "sha256": "60f4879135c172ae637aa0a59b2d87a88faeac110d4759076700661b0d06c84c",
+      "bytes": 5436
+    },
+    "rowzero-rational-certificate.json": {
+      "sha256": "4af5d226d993626839a4f67099d4124d9113ee91c7620ee8a86da7b7b0b64b86",
+      "bytes": 4357
+    },
+    "verify_identities.py": {
+      "sha256": "eb53ed8da55950f939f2bb02d76bd34940dde39d1b68e18405c186def6465441",
+      "bytes": 3299
+    },
+    "verify_rational_certificate.py": {
+      "sha256": "0fdbf6f2c2d36ea258dd9cec08194222792b67cb9483fecae58ab77df811ad67",
+      "bytes": 1847
+    },
+    "rowzero-results.json": {
+      "sha256": "65884853ccf0cda0f31ebf9525b86ed0493404157679fafb37e962f7b70b9e5e",
+      "bytes": 2104
+    },
+    "identities-results.json": {
+      "sha256": "0f0c9bba3ebe695f5f2c2d0163659598e7c2ed3fe3a94c23825f908416a5e481",
+      "bytes": 700
+    },
+    "rational-certificate-validation.json": {
+      "sha256": "f09ed4e198cc9dad709eca3b4e29615a927584d3bae4f364480e9f3fa153062f",
+      "bytes": 271
+    },
+    "README.md": {
+      "sha256": "8fe77ff38782f988c8a7bf7dcbcb08d0e47c9ee4115380d893d2c8ed329c68c7",
+      "bytes": 5503
+    }
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://magma.maths.usyd.edu.au/calc/",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "file": "magma-new.html",
+    "url": "https://magma-maths.org/calc/",
+    "bytes": 34790,
+    "scripts": [
+      "/_web-base/js/theme-bootstrap.js",
+      "/_web-base/js/nav.js",
+      "/_web-base/js/theme.js",
+      "/_web-base/js/to-top.js",
+      "/_web-base/js/copy.js",
+      "/_web-base/js/tooltip.js",
+      "../static/js/main.js",
+      "../static/js/pager-top.js",
+      "/_static/magma-search.js",
+      "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js",
+      "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js",
+      "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js",
+      "../static/js/vendor/codemirror/codemirror.js",
+      "../static/js/vendor/codemirror/active-line.js",
+      "../static/js/vendor/codemirror/matchbrackets.js",
+      "../static/js/magma-mode.js",
+      "../static/js/calculator.js"
+    ],
+    "forms": [
+      {
+        "id": "calc-form",
+        "autocomplete": "off"
+      }
+    ],
+    "matches": [
+      "bots\" content=\"index, follow\">\n\n<!-- Canonical URL: the page's own, unless it names another or is noindex -->\n\n\n<link rel=\"canonical\" href=\"https://magma-maths.org/calc/\">\n\n\n<!-- Open Graph / Twitter: how a shared link previews -->\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Magma\">\n<meta property=\"og:title\" content=\"Online Calc",
+      "ty=\"og:description\" content=\"Try Magma computations directly in your browser — no installation required.\">\n<meta property=\"og:url\" content=\"https://magma-maths.org/calc/\">\n<meta property=\"og:image\" content=\"https://magma-maths.org../static/images/logos/MagmaLogoOfficial.png\">\n<meta name=\"twitter:card\" content=\"summary\">\n\n<!-- Favicon -->\n\n\n<link rel=\"icon\" href=\"/_we",
+      "r browser — no installation required.\">\n<meta property=\"og:url\" content=\"https://magma-maths.org/calc/\">\n<meta property=\"og:image\" content=\"https://magma-maths.org../static/images/logos/MagmaLogoOfficial.png\">\n<meta name=\"twitter:card\" content=\"summary\">\n\n<!-- Favicon -->\n\n\n<link rel=\"icon\" href=\"/_web-base/images/favicons/favicon.ico\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/_web-base/images/favico",
+      "er\" content=\"strict-origin-when-cross-origin\">\n\n<!-- Preconnect to external domains for better performance -->\n<link rel=\"preconnect\" href=\"https://cdn.jsdelivr.net\" crossorigin>\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n\n<!-- Fonts -->\n<link rel=\"stylesheet\"\n    href=\"https:/",
+      "xternal domains for better performance -->\n<link rel=\"preconnect\" href=\"https://cdn.jsdelivr.net\" crossorigin>\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n\n<!-- Fonts -->\n<link rel=\"stylesheet\"\n    href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Je",
+      "nect\" href=\"https://cdn.jsdelivr.net\" crossorigin>\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n\n<!-- Fonts -->\n<link rel=\"stylesheet\"\n    href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&display=swap",
+      "onts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n\n<!-- Fonts -->\n<link rel=\"stylesheet\"\n    href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&display=swap\">\n\n<!-- CSS -->\n<!-- Pico CSS (base, colors overridden via custom stylesheet) -->\n\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css\"\n    integrity=\"sha38",
+      "700;1,400..700&display=swap\">\n\n<!-- CSS -->\n<!-- Pico CSS (base, colors overridden via custom stylesheet) -->\n\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css\"\n    integrity=\"sha384-L1dWfspMTHU/ApYnFiMz2QID/PlP1xCW9visvBdbEkOLkSSWsP6ZJWhPw6apiXxU\" crossorigin=\"anonymous\">\n<!-- Shared header, footer and tokens (web-base), before the site's own styles -->\n<l",
+      "inks-primary\">\n  <div class=\"mg-navbar-links-row1\">\n  \n  <a href=\"/about/\">About</a>\n  \n  <a href=\"/get-magma/\">Get Magma</a>\n  \n  <a href=\"https://docs.magma-maths.org/\">Documentation</a>\n  \n  <a href=\"/calc/\">Try online</a>\n  \n  <a href=\"/people/\">People</a>\n  \n  <a href=\"/cite/\">How to Cite</a>\n  \n  <a href=\"/contact/\">Contact</a>\n  \n  </div>\n</div>\n\n        </div",
+      "ic/js/vendor/codemirror/matchbrackets.js\"></script>\n<script src=\"../static/js/magma-mode.js\"></script>\n<script>window.MAGMA_CALC_API_URL = \"https://calculator.magma-maths.org/execute\";</script>\n<script src=\"../static/js/calculator.js\"></script>\n<script>\n(function () {\n\n  // ── How to use it ─────────────────────────────────────────────────────\n  // The control is in the middle fo"
+    ]
+  },
+  {
+    "file": "calculator-README.md",
+    "url": "https://raw.githubusercontent.com/Magma-Maths/calculator/main/README.md",
+    "bytes": 14389,
+    "scripts": [],
+    "forms": [],
+    "matches": [
+      "# Magma Calculator Service\n\nThis is a self-hosted REST API for the [Magma](http://magma.maths.usyd.edu.au/) online calculator. Each job runs in a [Firecracker](https://firecracker-microvm.github.io/) microVM. An unprivileged API container sends jobs to a host supervisor over a UNIX socket.\n\nTo host the ser",
+      "ervice\n\nThis is a self-hosted REST API for the [Magma](http://magma.maths.usyd.edu.au/) online calculator. Each job runs in a [Firecracker](https://firecracker-microvm.github.io/) microVM. An unprivileged API container sends jobs to a host supervisor over a UNIX socket.\n\nTo host the service, follow [INSTALL.md](INSTALL.md). [FIRECRACKER.md](FIRECRACKER.md) describes the worker",
+      "vice, follow [INSTALL.md](INSTALL.md). [FIRECRACKER.md](FIRECRACKER.md) describes the worker and its security boundaries.\n\n## API\n\n### POST /execute\n\nExecute Magma code.\n\n**Request:**\n```http\nPOST /execute HTTP/1.1\nContent-Type: application/json\n\n{\"code\": \"print 1+1;\"}\n```\n\n**Success response (200):**\n```json\n{\n  \"success\": true,\n  \"stdout\": \"2\\n",
+      "IRECRACKER.md) describes the worker and its security boundaries.\n\n## API\n\n### POST /execute\n\nExecute Magma code.\n\n**Request:**\n```http\nPOST /execute HTTP/1.1\nContent-Type: application/json\n\n{\"code\": \"print 1+1;\"}\n```\n\n**Success response (200):**\n```json\n{\n  \"success\": true,\n  \"stdout\": \"2\\n\",\n  \"exit_code\": 0,\n  \"truncated\": false,\n  \"magma\": {\n ",
+      "limit or usage log entry and follows `ALLOWED_ORIGIN` for browser access.\n\n```json\n{\"calculator\": \"abc123\", \"magma\": \"2.29-4\"}\n```\n\n### GET /info\n\nReturns `schema_version: 1`, `limits`, and `retention`, with `Cache-Control: no-store` and the same CORS policy as `/version`.\nIt consumes no job slot, runs no computation, and does not count toward",
+      " hours.\nThe service replays completion records from `USAGE_LOG_FILE` at startup and updates both windows as requests complete.\nAn admitted `/execute` request writes an `\"event\": \"start\"` line with its timestamp, client IP, and input size, then an `\"event\": \"end\"` line on completion.\nBoth share a `request_id`; only completion lines count toward st",
+      "observed by the current process.\nA failed raw write still counts in that process but cannot be recovered after restart.\n\nIf cleanup fails, `/info` reports `submission_min_days: null` until a later sweep succeeds.\n`/stats` continues to apply its configured window in memory; `retained.days` describes that window, not successful disk deletion.\nWi",
+      "R_SOCKET=/path/to/supervisor.sock poetry run python -m app.main   # serve on port 8080\n```\n\nWithout a supervisor listening on that socket, `/execute` returns 503.\n"
+    ]
+  }
+]

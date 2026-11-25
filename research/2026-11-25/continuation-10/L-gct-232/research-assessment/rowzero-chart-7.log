@@ -1,0 +1,11 @@
+{"chart": 7, "equations": 25, "generation_seconds": 5.21842571399975}
+{
+  "chart": 7,
+  "equations": 25,
+  "basis": [
+    "Poly(1, a, b, c, domain='QQ<sqrt(2)*I>')"
+  ],
+  "unit_ideal": true,
+  "seconds": 7.2997703879991604,
+  "scope": "restricted symmetric row-zero family; not the full task"
+}

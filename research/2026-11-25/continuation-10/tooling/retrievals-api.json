@@ -1,0 +1,40 @@
+[
+  {
+    "file": "magma-calculator.js",
+    "url": "https://magma-maths.org/static/js/calculator.js",
+    "bytes": 37146,
+    "date": "Wed, 25 Nov 2026 08:42:05 GMT",
+    "cache_control": "max-age=600"
+  },
+  {
+    "file": "magma-info.json",
+    "url": "https://calculator.magma-maths.org/info",
+    "bytes": 320,
+    "date": "Wed, 25 Nov 2026 08:42:05 GMT",
+    "cache_control": "no-store",
+    "body": "{\"schema_version\":1,\"limits\":{\"wall_time_seconds\":300,\"cpu_time_seconds\":300,\"guest_memory_bytes\":1073741824,\"input_bytes\":51200,\"output_bytes\":20480,\"requests_per_minute\":60,\"requests_per_hour\":300,\"max_concurrent_per_ip\":2,\"queue_capacity\":0},\"retention\":{\"code_logged\":true,\"ip_logged\":true,\"submission_min_days\":90}}"
+  },
+  {
+    "file": "magma-version.json",
+    "url": "https://calculator.magma-maths.org/version",
+    "bytes": 74,
+    "date": "Wed, 25 Nov 2026 08:42:05 GMT",
+    "cache_control": null,
+    "body": "{\"calculator\":\"7ce9bd0e89a0edd6cedd3cd0e5312043be1bc6f0\",\"magma\":\"2.30-1\"}"
+  },
+  {
+    "file": "Singular-INSTALL_unix.txt",
+    "url": "https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/INSTALL_unix.txt",
+    "bytes": 9007,
+    "date": "Wed, 25 Nov 2026 08:42:05 GMT",
+    "cache_control": null
+  },
+  {
+    "file": "Singular-MD5SUM",
+    "url": "https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/MD5SUM",
+    "bytes": 904,
+    "date": "Wed, 25 Nov 2026 08:42:05 GMT",
+    "cache_control": null,
+    "body": "dcd7c9af039364869258ca115194ca1c  Singular4-0-2_32.dmg\n4eadae963ad366dd98eb309e68f6904e  Singular-4.1.0-ix86-Linux.tar.gz\n8cac42f741459aefb374a02a0ee6d177  Singular-4.2.0-centos7.tar.gz\nb282feb30b3026c91dec52f061219bfd  Singular-4-3-0_64.dmg\nf1642acf226b57322ce2f13409b759d5  Singular-4-3-0_M1.dmg\n288e9671f23a1303735bedec4cbf0b67  Singular-4.3.0-x86_64-Linux.tar.gz\nad064a2a24cdd4c477ce65aaeaedab1c  Singular-4.3.1-x86_64-Linux.tar.gz\n355bfac95fd8c88770af9be5f455b205  Singular-4-3-2_64.dmg\n7e408b2d344e9201203a2b7e1f86229e  Singular-4-3-2_M1.dmg\nad9751638bf70ef160202e0a4c74d883  Singular-4-4-0_64.dmg\nee856ebc56c560c73dd77495fd2b6505  Singular-4-4-0_M1.dmg\n4cfefbeb6e63f593ab798fa1f4c39db3  Singular-4.4.0-x86_64-Linux.tar.gz\n7663ba057fe8d5ee02feedb7585e3dee  Singular-4-4-1_64.dmg\n4a1cd1f633c381d43010db9e869928e5  Singular-4-4-1_M1.dmg\nbd2a46b1fc4ad8b48c55531083d34f18  Singular-4.4.1-Rocky8.tar.gz\n"
+  }
+]

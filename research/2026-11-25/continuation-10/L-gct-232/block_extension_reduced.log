@@ -1,0 +1,6 @@
+constraints 8 terms 98 elapsed 0.7341668605804443
+{'set_parameter_to_one': 'd', 'groebner': ['1'], 'inconsistent': True} elapsed 1.49141263961792
+{'set_parameter_to_one': 'g', 'groebner': ['1'], 'inconsistent': True} elapsed 2.0112884044647217
+{'set_parameter_to_one': 'h', 'groebner': ['1'], 'inconsistent': True} elapsed 2.5901148319244385
+{'set_parameter_to_one': 'i', 'groebner': ['1'], 'inconsistent': True} elapsed 3.1984243392944336
+COMPLETE

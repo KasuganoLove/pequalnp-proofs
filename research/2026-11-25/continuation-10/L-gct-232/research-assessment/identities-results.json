@@ -1,0 +1,17 @@
+{
+  "exact_checks_passed": [
+    "Hadamard coordinates span symmetric row-zero matrices",
+    "quadratic coefficient is the Frobenius square sum in row-zero case",
+    "cubic coefficient is (2/3) times entrywise cube sum in row-zero case",
+    "cubic coefficient is 64 times permanent of the symmetric 3x3 Hadamard coordinate matrix",
+    "S4-standard-family quadratic and cubic formulas",
+    "S4-standard-family explicit elimination identities",
+    "single-block zero-opposite-block quadratic branch ranks"
+  ],
+  "branch_hessian_determinants": [
+    "16",
+    "-240 + 160*sqrt(2)"
+  ],
+  "seconds": 0.3973882190002769,
+  "scope": "restricted algebraic checks only; full L-gct-232 remains open"
+}

@@ -1,0 +1,2 @@
+linear constraints 4
+linear solution [(a, -2*sqrt(2)*d - e*(3 - 2*sqrt(2)) - 2*g*(4 - 3*sqrt(2)) - h*(1 - sqrt(2))/2 - i - j*(5 - 3*sqrt(2))/2), (b, -d*(2 - sqrt(2)) + e*(1 - sqrt(2)) + g*(2 - 3*sqrt(2)) + h/4 - i*(1 + sqrt(2))/2 + j*(1 - 2*sqrt(2))/4), (c, d - h*(sqrt(2) + 2)/8 + sqrt(2)*i/4 + j*(2 - sqrt(2))/8), (d, d), (e, e), (f, g - h*(sqrt(2) + 2)/8 + sqrt(2)*i/4 + j*(2 - sqrt(2))/8), (g, g), (h, h), (i, i), (j, j)]

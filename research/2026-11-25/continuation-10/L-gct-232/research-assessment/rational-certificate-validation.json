@@ -1,0 +1,8 @@
+{
+  "nonzero_constant": 2291542435532352,
+  "exact_contradiction_identity_verified": true,
+  "chart_equations_match_permanent_modulo_root_relation": true,
+  "groebner_invoked": false,
+  "seconds": 0.26095924800029024,
+  "lean_status": "not compiled or checked in Lean"
+}

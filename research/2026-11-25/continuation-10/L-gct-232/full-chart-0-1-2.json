@@ -1,0 +1,15 @@
+{
+  "pivots": [
+    0,
+    1,
+    2
+  ],
+  "scope": "one RREF stratum for a possible three-plane; diagnostic only, no Lean certificate",
+  "parameters": 18,
+  "constraints": 31,
+  "total_terms": 3600,
+  "coefficient_seconds": 0.5828371047973633,
+  "status": "timeout",
+  "message": "30-second exact diagnostic limit",
+  "seconds": 30.002221822738647
+}
