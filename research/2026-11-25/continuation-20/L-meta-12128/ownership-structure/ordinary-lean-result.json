@@ -1,0 +1,12 @@
+{
+  "source_sha256": "d0a864aa7780832cf7d61b89401df8e4b727899dae931d73f1112e22a525a44c",
+  "start_utc": "2026-11-25T15:28:04.569413+00:00",
+  "end_utc": "2026-11-25T15:28:23.267709+00:00",
+  "exit_code": 0,
+  "wall_seconds": 18.698304279001604,
+  "cpu_seconds": 10.220954,
+  "max_rss_kib": 2992936,
+  "log_bytes": 0,
+  "scope": "Research-only import of L_meta_12030; final official12128 must importDefs and inline required helpers",
+  "strict_checker_run": false
+}

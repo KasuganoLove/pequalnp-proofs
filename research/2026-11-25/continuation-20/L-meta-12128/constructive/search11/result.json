@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-11-25T15:29:14.698518+00:00",
+  "finished_at": "2026-11-25T15:31:14.745600+00:00",
+  "seconds": 120.0470898259955,
+  "exit_code": 0,
+  "status": "UNKNOWN",
+  "outer_timeout": false,
+  "peak_child_rss_kib": 37172,
+  "solver_command": [
+    "/workspace/scratch/65f339da29fe/pnp-tools/elan/toolchains/leanprover--lean4---v4.36.0/bin/cadical",
+    "--sat",
+    "--seed=2",
+    "-t",
+    "120",
+    "--stats",
+    "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-12128/constructive/search11/formula.cnf"
+  ],
+  "scope": "One bounded monotone upper-witness search. UNSAT/UNKNOWN is not a formal lower-bound certificate."
+}

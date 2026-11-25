@@ -1,0 +1,23 @@
+{
+  "command": [
+    "node",
+    "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-12030/submission-audit/outside-guard-reference.mjs",
+    "imports",
+    "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_12030.lean",
+    "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-12030/submission-audit/guard-gap/imports.json",
+    "lean/PEqualNP/Outside/L_meta_12030.lean",
+    "check"
+  ],
+  "source_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+  "source_git_blob": "f4a4e975bb4dd60160086cc01b3232c7959ea88c",
+  "guard_git_blob": "dc2e3ef21d58524cb5d5a9bbb76dce4d8f700ce7",
+  "guard_sha256": "cbe59c48436af74da52a1d877d0780e45775ad44ff971b40cce3d64175ee0d8b",
+  "allowed_imports": [
+    "PEqualNP.Defs"
+  ],
+  "start_utc": "2026-11-25T15:28:49.932243+00:00",
+  "end_utc": "2026-11-25T15:28:50.084817+00:00",
+  "elapsed_s": 0.1532038859950262,
+  "exit_code": 0,
+  "scope": "Current official text/import/own-namespace guard only; no Lean invocation"
+}

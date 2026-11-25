@@ -1,0 +1,125 @@
+{
+  "table": 18368186720953886720,
+  "all_rows": 64,
+  "monotone": true,
+  "four_symmetric_inputs": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "permutations_tested": 24,
+  "weighted_threshold": {
+    "weights": [
+      2,
+      2,
+      2,
+      3,
+      2,
+      1
+    ],
+    "threshold": 7
+  },
+  "formula": "x3*T2(U) OR x5*T3(U) OR T4(U)",
+  "baseline": {
+    "gates": [
+      [
+        "or",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        "and",
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        "or",
+        [
+          2,
+          4
+        ]
+      ],
+      [
+        "and",
+        [
+          2,
+          4
+        ]
+      ],
+      [
+        "or",
+        [
+          7,
+          9
+        ]
+      ],
+      [
+        "and",
+        [
+          6,
+          8
+        ]
+      ],
+      [
+        "and",
+        [
+          7,
+          9
+        ]
+      ],
+      [
+        "and",
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        "or",
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        "and",
+        [
+          3,
+          14
+        ]
+      ],
+      [
+        "and",
+        [
+          5,
+          13
+        ]
+      ],
+      [
+        "or",
+        [
+          12,
+          15
+        ]
+      ],
+      [
+        "or",
+        [
+          17,
+          16
+        ]
+      ]
+    ],
+    "output": 18,
+    "size": 13,
+    "errors": []
+  },
+  "structure_errors": [],
+  "symmetry_errors": [],
+  "scope": "Ordinary scalar verification only. Thirteen gates exceed the desired eleven and do not complete L-meta-12128."
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Sanitized parent-confirmed closure; no private lease identifier",
+  "release": {
+    "task": "L-meta-12128",
+    "released_utc": "2026-11-25T15:32:41.409774Z",
+    "http_status": 200,
+    "reason": "missing_lemma"
+  },
+  "root_live_tasks": [],
+  "other_sessions": "unknown and untouched"
+}

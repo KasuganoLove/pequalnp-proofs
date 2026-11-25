@@ -1,0 +1,12 @@
+{
+  "source_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+  "start_utc": "2026-11-25T15:03:39.288146+00:00",
+  "end_utc": "2026-11-25T15:04:22.287464+00:00",
+  "exit_code": 0,
+  "wall_seconds": 42.99932538400026,
+  "cpu_seconds": 36.082188,
+  "max_rss_kib": 4439600,
+  "olean": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/.lake/build/lib/lean/PEqualNP/Outside/L_meta_12030.olean",
+  "log_bytes": 203,
+  "strict_checker_run_by_worker": false
+}

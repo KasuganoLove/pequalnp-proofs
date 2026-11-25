@@ -1,0 +1,82 @@
+{
+  "task": "L-meta-12128",
+  "prepared_at": "2026-11-25T15:32:38.422993+00:00",
+  "scope": "Frozen bounded constructive research only; no complete theorem, no formal lower bound, no own official PR from this bundle.",
+  "table": 18368186720953886720,
+  "input_count": 6,
+  "source_table_expression": "4276676736 * 2^32 + 4269860864",
+  "scalar_structure": {
+    "all_rows": 64,
+    "symmetric_input_set": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "permutations_checked": 24,
+    "weights": [
+      2,
+      2,
+      2,
+      3,
+      2,
+      1
+    ],
+    "threshold": 7,
+    "formula": "x3 AND T2(U) OR x5 AND T3(U) OR T4(U)"
+  },
+  "baseline": {
+    "size": 13,
+    "operators": {
+      "and": 7,
+      "or": 6
+    },
+    "all_rows_checked": 64,
+    "errors": 0,
+    "formal_check": false
+  },
+  "searches": [
+    {
+      "gate_budget": 10,
+      "status": "UNKNOWN",
+      "started_at": "2026-11-25T15:19:14.577653+00:00",
+      "finished_at": "2026-11-25T15:21:14.600797+00:00",
+      "seconds": 120.02315010600432,
+      "exit_code": 0,
+      "seed": 2,
+      "time_limit_s": 120,
+      "address_space_limit_bytes": 2147483648,
+      "peak_child_rss_kib": 45580,
+      "cnf_header": "p cnf 8910 35948",
+      "cnf_bytes": 832497,
+      "cnf_sha256": "4f3bd1520d5095eb863db92eb0a9862ccd6d3d670816b710d2359f69a71daa35",
+      "all_rows": 64,
+      "SAT_model": false,
+      "UNSAT_certificate": false
+    },
+    {
+      "gate_budget": 11,
+      "status": "UNKNOWN",
+      "started_at": "2026-11-25T15:29:14.698518+00:00",
+      "finished_at": "2026-11-25T15:31:14.745600+00:00",
+      "seconds": 120.0470898259955,
+      "exit_code": 0,
+      "seed": 2,
+      "time_limit_s": 120,
+      "address_space_limit_bytes": 2147483648,
+      "peak_child_rss_kib": 37172,
+      "cnf_header": "p cnf 9840 42652",
+      "cnf_bytes": 1013413,
+      "cnf_sha256": "3b2ca131e8a15aec00413fab21460b6fb5ef9fa949af00a4a0e7437c3111e6f7",
+      "all_rows": 64,
+      "SAT_model": false,
+      "UNSAT_certificate": false
+    }
+  ],
+  "remaining_gap": "No monotone circuit with at most eleven gates was found. Both runs are UNKNOWN and prove neither nonexistence nor a lower bound. The separate proposed total-size lower bound of eleven is owned by the structural-proof worker; this bundle does not certify it.",
+  "excluded_files": [
+    "formula.cnf",
+    "search11/formula.cnf"
+  ],
+  "no_further_search": true
+}

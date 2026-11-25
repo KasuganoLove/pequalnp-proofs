@@ -1,0 +1,41 @@
+{
+  "target_table": 18368186720953886720,
+  "input_flip": 3,
+  "flipped_table": 16788998196968685800,
+  "flipped_target_zero_on_zero": true,
+  "false_restriction_order": [
+    5,
+    3
+  ],
+  "tables": [
+    16788998196968685800,
+    9294867679535825128,
+    18374379617126377704
+  ],
+  "steps": [
+    {
+      "variable": 5,
+      "change_witness": 47,
+      "before": true,
+      "after": false,
+      "nonzero_witness": 3
+    },
+    {
+      "variable": 3,
+      "change_witness": 11,
+      "before": false,
+      "after": true,
+      "nonzero_witness": 3
+    }
+  ],
+  "core": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "core_equals_threshold_two_all64": true,
+  "conclusion_scope": "Finite data for the subsequently ordinary-Lean-checked Pnp12128Structural module: countBinary\u22659 and total\u226510 when any NOT exists. The Fin7 lift preserves a physical six-wire input list. This is a research-only partial, not the complete public replacement theorem.",
+  "ordinary_lean_partial_checked": true,
+  "physical_total_ge11_route_compiled": false
+}

@@ -1,0 +1,25 @@
+{
+  "task": "L-meta-12030",
+  "candidate_bytes": 58118,
+  "candidate_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+  "candidate_git_blob": "f4a4e975bb4dd60160086cc01b3232c7959ea88c",
+  "candidate_included_in_archive": false,
+  "public_commit": "2372e819a59762ba46009b456bcb7e27a226aca8",
+  "public_source_url": "https://github.com/KasuganoLove/pequalnp-proofs/blob/2372e819a59762ba46009b456bcb7e27a226aca8/lean/PEqualNP/Outside/L_meta_12030.lean",
+  "raw_source_url": "https://raw.githubusercontent.com/KasuganoLove/pequalnp-proofs/2372e819a59762ba46009b456bcb7e27a226aca8/lean/PEqualNP/Outside/L_meta_12030.lean",
+  "upstream_pr": "https://github.com/open-goat/pequalnp-proofs/pull/16085",
+  "upstream_base": "28df579920ab2d24173303380ba8d951c8c0d263",
+  "exact_statement_sha256": "e50570ddcea1fe3974acf5881b09d0dd3ef181e0ec090dbe67354377e5ef26b4",
+  "ancestor": {
+    "author": "ptrdsh",
+    "task": "L-meta-11315",
+    "pr": 15263,
+    "commit": "7dd594cc96b1fc5b83ca9266a00cef93d6871df6",
+    "sha256": "e13152ef69931ca79dc9f4354f6752a38f3c17a48863616654032ab41a18b131",
+    "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/7dd594cc96b1fc5b83ca9266a00cef93d6871df6/lean/PEqualNP/Outside/L_meta_11315.lean",
+    "earlier_generic_ancestor": "L-meta-10458",
+    "license": "Apache-2.0"
+  },
+  "local_changes": "Graph tables, restriction data, 10-gate witness, namespace and exact task statement; generic prefix retained with attribution",
+  "source_byte_identity": "Local candidate hash/Git blob equals parent-reported published blob; no remote refetch by this archive agent"
+}

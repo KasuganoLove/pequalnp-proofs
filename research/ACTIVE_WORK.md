@@ -1,28 +1,30 @@
 # 当前 P vs NP 协作状态
 
-## 当前有效工作
+## 当前有效租约
 
-本root当前持有 **L-meta-12128**，于2026-11-25 15:11:56 UTC分配。它要求对指定六输入、在输入0—2对称的单调函数，把任意fan-in-two AND/OR/NOT电路替换成不更大的AND/OR电路。root统一负责租约和正式提交；具体证明研究进行中，未进入C18归档。
+**本root没有有效任务租约。** 最近的L-meta-12128已于2026-11-25 **15:32:41.409774 UTC**以`missing_lemma`释放，HTTP200。关闭后没有启动该题的新数学、Lean或求解器工作。用户其他Codex会话（包括先前11030）的租约状态未知，本root未操作它们。继续具体任务研究前，需要按当前公开流程重新获得合法分配。
 
-**L-meta-12030已经提交公开上游PR16085**：https://github.com/open-goat/pequalnp-proofs/pull/16085 。PR创建于15:10:07 UTC，head为`2372e819a59762ba46009b456bcb7e27a226aca8`，一个commit只新增一个文件，source Git blob为`f4a4e975bb4dd60160086cc01b3232c7959ea88c`。root于15:10:51.646204 UTC以submitted释放，HTTP200。
+## 已公开的本root贡献
 
-12030完整候选普通Lean和当前格式guard通过。两次本地严格复核均为FAULT、没有verdict：第一次仅ELAN路径缺失，0.275秒；第二次于15:08:28.052809开始、15:12:51.047248结束，262.994秒，verifier退出137，checker退出3。候选原文未变，不能将资源FAULT表述为数学拒绝或strict通过。官方PR verdict仍待核实。root正在独立实验把单条searchS_false计算拆为35个(s,m0)不透明引理，以降低单声明的内存峰值；实验模块为L_meta_12030_split.lean，公开canonical文件及PR head完全未改。只有实验严格复核通过后才考虑在同PR内更新，当前不得把实验视为已通过。Julleht另有竞争PR16006；不得把其结果归属本root。12030证据单独暂存C19，等待实验结果，不混入已冻结C18。
+L-meta-12030的完整候选已通过普通Lean及当前文本guard，并已提交公开上游 **PR16085**：https://github.com/open-goat/pequalnp-proofs/pull/16085 。创建时间15:10:07 UTC；root于15:10:51.646204 UTC以`submitted`释放，HTTP200。
 
-最近三个任务已正式释放：9815于14:45:23.091761 UTC、9834于14:50:13.655405 UTC、2584于14:53:36.801076 UTC，均为HTTP200、理由missing_lemma。用户另一Codex会话的11030及其他租约状态未知，本root未续租、释放或研究这些共享状态。
+公开head为`2372e819a59762ba46009b456bcb7e27a226aca8`，一个commit新增一个文件；canonical源SHA256为`052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b`，Git blob为`f4a4e975bb4dd60160086cc01b3232c7959ea88c`。公开canonical与PR head未改。root于15:38:52 UTC最终只读确认PR仍open、merged=false、comments=0，head及canonical源均未变。官方判决仍待核实，本记录不声明ACCEPTED或合并。
 
-## 最新已完成研究检查点
+本地严格检查的三个实际结果：
 
-C18：`research/2026-11-25/continuation-18`。以已发布 C17 提交 `bab1b11a559b475297c3f4fa45786bc45d673be0` 为基底。发布提交以远端实际记录为准。
+1. attempt1：ELAN路径缺失，0.275秒，checker exit3，没有verdict。
+2. attempt2：原canonical在verifier阶段退出137，262.994秒，checker exit3，没有verdict。
+3. attempt3：未发布的35分块实验在文件build阶段通过；verifier仍退出137，211.273秒，最高RSS6,557,908KiB，checker exit3，没有verdict。
 
-- 9815：验证25门完整控制和有限限制诊断，未完成25门下界或24门见证。
-- 9834：验证113门完整控制；一次四线局部15门搜索在300秒后UNKNOWN，没有112门见证。
-- 2584：完成Read2范围与归约资格审计，没有完整正常化定理或反例。
-- 通用工具：固定上游LinkN/LinkN2依赖普通Lean构建通过，tiny LRAT两条soundness应用普通Lean通过；没有任务级strict验收。
+root暂不继续优化该实验。随后公理查询exit0，仅列`propext`、`Classical.choice`、`Quot.sound`；这不替代strict verifier的完整重放。Julleht有竞争PR16006，不能把其结果归属本root。用户要求的公开上游PR已经创建；后续官方验收应按实际证据另行记录。
 
-C18所收的三个已关闭任务没有完整证明或新官方PR。12030的完整普通Lean证明与已创建PR属于之后的单独工作；负面搜索结果、部分推导和通用工具通过均不能作为任务已解决的凭证。
+## 本次归档
 
-## 用户目标与正式贡献归属
+- **C19**：12030的精确来源、128行独立重放、普通/格式检查、标准公理审计、三次strict FAULT和公开发布记录。完整源码已经公开，归档不重复复制。
+- **C20**：12128普通Lean通过的“非NOT门至少九个／有NOT则总门至少十个”研究部分；十三门全64行控制；十门和十一门两次120秒UNKNOWN搜索；MAJ5引出的总门数至少十一逻辑路线尚未组装。没有完整12128证明或该题官方PR。
 
-用户希望继续形成有实质证明的公开上游 PR；本root已为12030创建上述PR16085，后续跟踪官方结果。用户另一 Codex 会话创建的官方 PR14022 已于12:30:48 UTC合并，10221已checked；本 root不认领其创建。此前10486的PR14954归属odinfree，11315的PR15263归属ptrdsh；其官方关闭证据已分别归档。
+C19/C20在已发布C18提交`7cc37d33bddb94ca90b4580c2ee9fad9f4ca86e5`之上合并归档；最终提交号以远端发布记录为准。研究partial的Outside导入不能直接用作12128的正式文件，其官方导入仅允许Defs。负面搜索结果不构成下界证明。
 
-后续归档继续服务于正式证明与复现。只有实测通过的本地检查和公开官方状态可以按各自范围报告；没有观察到显式ACCEPTED评论时，只陈述已核实的合并/checked事实。
+## 先前贡献归属
+
+用户另一Codex会话创建的PR14022已合并并使10221 checked，本root不认领其创建。10486的PR14954归属odinfree，11315的PR15263归属ptrdsh。12030保留对ptrdsh/L10458通用证明来源的归属；不要把复用、普通检查与官方验收混为一谈。

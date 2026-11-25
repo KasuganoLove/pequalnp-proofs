@@ -1,0 +1,16 @@
+[
+  {
+    "original_manifest": "ownership-structure/MANIFEST.json",
+    "sha256": "c9616f08672ee62543fc950ff09e52e6378718b1da9712a0d3a36243aba7c67d",
+    "verified_files": 10,
+    "verified_bytes": 20624,
+    "destination": "L-meta-12128"
+  },
+  {
+    "original_manifest": "constructive/MANIFEST.json",
+    "sha256": "a7503f5a5015f19ed5e60ae23d2eb6c5c110d1b640ba8717d31e8eb968602d72",
+    "verified_files": 21,
+    "verified_bytes": 100452,
+    "destination": "L-meta-12128/constructive"
+  }
+]

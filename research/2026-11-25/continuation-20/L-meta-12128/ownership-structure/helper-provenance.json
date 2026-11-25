@@ -1,0 +1,56 @@
+{
+  "role": "Existing helpers for the unassembled total-size\u226511 route; these whole third-party sources are not copied into this archive",
+  "sources": [
+    {
+      "path": "lean/PEqualNP/Outside/L_meta_1433.lean",
+      "bytes": 206783,
+      "sha256": "dbd7100b0435f9be5d4d8985236d02bb94e0983d5bbb8d68dbc7349ceecaee20",
+      "git_blob_sha1": "c8bb083da3105729ab0a2000fd3a959839a2943e",
+      "upstream_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_1433.lean",
+      "imports": [
+        "import Mathlib",
+        "import PEqualNP.Defs"
+      ]
+    },
+    {
+      "path": "lean/PEqualNP/MetaComplexity/Helpers/Elim.lean",
+      "bytes": 20248,
+      "sha256": "e9c069bb76cdbd425b8be404c6c65680a1a831c18e6f841b640daf4f5cc6b4b7",
+      "git_blob_sha1": "c9aec9dbf4003dce27c5a8470394c4d36eaa99f9",
+      "upstream_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/MetaComplexity/Helpers/Elim.lean",
+      "imports": [
+        "import PEqualNP.MetaComplexity.Helpers.Support"
+      ]
+    },
+    {
+      "path": "lean/PEqualNP/MetaComplexity/Helpers/Support.lean",
+      "bytes": 7286,
+      "sha256": "3dd59846b791fea1391addc012be943cfedc1b47951752455adb79b76d5cfda0",
+      "git_blob_sha1": "44ad0d3c59bfd15d918e89c94e881b25026e8cd2",
+      "upstream_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/MetaComplexity/Helpers/Support.lean",
+      "imports": [
+        "import PEqualNP.MetaComplexity.Helpers.Shannon"
+      ]
+    },
+    {
+      "path": "lean/PEqualNP/MetaComplexity/L014.lean",
+      "bytes": 758,
+      "sha256": "f7070f9a408ad395bda699bd3404e2f4ad9514bdd4836e15d7b683c86fb516c8",
+      "git_blob_sha1": "f5644feb8310c7c17cc32f3375ddf0bb9174cabf",
+      "upstream_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/MetaComplexity/L014.lean",
+      "imports": [
+        "import PEqualNP.MetaComplexity.Helpers.Elim"
+      ]
+    },
+    {
+      "path": "lean/PEqualNP/MetaComplexity/Helpers/Shannon.lean",
+      "bytes": 5999,
+      "sha256": "561c30045e047ee7169c30da6c33382f809f7885c2a6dc6632479ec611f1f0fb",
+      "git_blob_sha1": "176a956460eb82b863225f405e215d498136cb3f",
+      "upstream_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/MetaComplexity/Helpers/Shannon.lean",
+      "imports": [
+        "import PEqualNP.Defs"
+      ]
+    }
+  ]
+}

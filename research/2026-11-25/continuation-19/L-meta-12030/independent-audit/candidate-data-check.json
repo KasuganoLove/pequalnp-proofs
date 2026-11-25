@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-25T15:04:41.497393+00:00",
+  "candidate_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+  "candidate_bytes": 58118,
+  "statement_literal_equal_to_posted": true,
+  "independently_recomputed_tables": [
+    340282366920938463444927863284757884416,
+    340282366920938463371140886696716577280,
+    340282366920938461895401360799952448000,
+    340282366920835703200710191947070876160
+  ],
+  "unique_candidate_tables": [
+    340282366920835703200710191947070876160,
+    340282366920938461895401360799952448000,
+    340282366920938463371140886696716577280,
+    340282366920938463444927863284757884416
+  ],
+  "table_set_exact_match": true,
+  "generic_source_review": "Read-only diff against checked L11315 after canonical namespace rename: generic normalization, finite U4 proof, and remove_var unchanged. Changes are provenance comments, graph data/tables, two essential masks, witness, lengths/output and canonical statement.",
+  "source_reference": "https://github.com/open-goat/pequalnp-proofs/blob/7dd594cc96b1fc5b83ca9266a00cef93d6871df6/lean/PEqualNP/Outside/L_meta_11315.lean",
+  "source_reference_sha256": "e13152ef69931ca79dc9f4354f6752a38f3c17a48863616654032ab41a18b131",
+  "scope": "Read-only data/type-text review; ordinary/strict Lean verdicts are separate."
+}

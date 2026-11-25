@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-11-25T15:29:14.698518+00:00",
+  "command": [
+    "/workspace/scratch/65f339da29fe/pnp-tools/elan/toolchains/leanprover--lean4---v4.36.0/bin/cadical",
+    "--sat",
+    "--seed=2",
+    "-t",
+    "120",
+    "--stats",
+    "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-12128/constructive/search11/formula.cnf"
+  ],
+  "time_limit_s": 120,
+  "address_space_limit_bytes": 2147483648
+}

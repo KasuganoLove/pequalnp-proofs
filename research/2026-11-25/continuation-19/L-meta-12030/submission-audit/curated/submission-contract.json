@@ -1,0 +1,26 @@
+{
+  "join_url": "https://pequalnp.com/join.txt",
+  "join_sha256": "36d3447227314e00baac18f73ff7e5dbae0f14f6fdc6ed145502e6ef658095c0",
+  "canonical_file": "lean/PEqualNP/Outside/L_meta_12030.lean",
+  "canonical_module": "PEqualNP.Outside.L_meta_12030",
+  "allowed_project_imports": [
+    "PEqualNP.Defs"
+  ],
+  "additional_imports": "Mathlib and Mathlib modules",
+  "proof_kind": "check",
+  "max_bytes": 524288,
+  "must_add_one_file_one_commit": true,
+  "must_use_exact_statement": true,
+  "required_final_renewal": "Root must renew before submission; 410 means stop. No renewal performed by this agent.",
+  "current_guard_command": "node outside-guard-reference.mjs imports CANDIDATE.lean guard-gap/imports.json lean/PEqualNP/Outside/L_meta_12030.lean check",
+  "format_notes": [
+    "Helpers inside the file own namespace",
+    "Final theorem named PEqualNP.Outside.L_meta_12030",
+    "No double quote or code-executing commands",
+    "Only allowed limit options directly local to a declaration",
+    "decide +kernel permitted; native_decide forbidden"
+  ],
+  "proof_candidate_checked": false,
+  "remote_mutations": false,
+  "lease_operations": false
+}

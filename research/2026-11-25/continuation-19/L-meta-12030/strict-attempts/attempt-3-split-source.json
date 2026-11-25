@@ -1,0 +1,18 @@
+{
+  "variant_module": "PEqualNP.Outside.L_meta_12030_split",
+  "source_bytes": 65583,
+  "source_sha256": "e2c93bdfcd6296b6045fd506fa7fc2fe913f7f0fcf5886d47202393dd4fc9eb3",
+  "source_git_blob": "a87f042dfec14ae259b4767fae0bd29ab89d4b62",
+  "source_included_in_archive": false,
+  "generator_path": "../formalization/prepare_split.py",
+  "generator_sha256": "e65f5fe113571d4ae5e8c846dda9cda2c2626bdd0de3c6205275b8e582cff219",
+  "base_source_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+  "change": "Replace one searchS_false range7 certificate with35 individually proved searchBlock cases and finite aggregations; rename module only",
+  "strict_file_build_stage": "PASS (verifier reading built file at42s)",
+  "verifier_exit": 137,
+  "checker_exit": 3,
+  "verdict": null,
+  "published": false,
+  "canonical_source_unchanged": true,
+  "public_pr_head_unchanged": "2372e819a59762ba46009b456bcb7e27a226aca8"
+}

@@ -1,0 +1,90 @@
+{
+  "upstream_main": "28df579920ab2d24173303380ba8d951c8c0d263",
+  "fork_main": "1fc91c4a3a59d36d4c1490dcd945a5449ead499f",
+  "base_recommendation": "Use a branch based on the verified upstream main, not the older fork main; preserve unrelated fork branches. Root owns mutations.",
+  "search": {
+    "search12030": {
+      "total_count": 0,
+      "incomplete_results": false,
+      "items": []
+    },
+    "search12031": {
+      "total_count": 0,
+      "incomplete_results": false,
+      "items": []
+    }
+  },
+  "source_repo": "open-goat/pequalnp-proofs",
+  "local_head": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "defs_tree_sha": "e1343d2a024b07570497077743e536a48c6c8c9c",
+  "files": [
+    {
+      "path": "lean/lean-toolchain",
+      "sha": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/28df579920ab2d24173303380ba8d951c8c0d263/lean/lean-toolchain",
+      "local_git_blob": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "local_matches": true
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "sha": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/28df579920ab2d24173303380ba8d951c8c0d263/lean/lakefile.toml",
+      "local_git_blob": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "local_matches": true
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "sha": "1587feea6e89986bee71234159ec08da1b9349be",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/28df579920ab2d24173303380ba8d951c8c0d263/lean/lake-manifest.json",
+      "local_git_blob": "1587feea6e89986bee71234159ec08da1b9349be",
+      "local_matches": true
+    },
+    {
+      "path": "lean/PEqualNP/Defs.lean",
+      "sha": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/28df579920ab2d24173303380ba8d951c8c0d263/lean/PEqualNP/Defs.lean",
+      "local_git_blob": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "local_matches": true
+    },
+    {
+      "path": "lean/CheckLemma.lean",
+      "sha": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/28df579920ab2d24173303380ba8d951c8c0d263/lean/CheckLemma.lean",
+      "local_git_blob": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "local_matches": true
+    },
+    {
+      "path": "tools/check-lean.mjs",
+      "sha": "196628c1a3f5cfcdaaf668c347588c7a96cc31c5",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/28df579920ab2d24173303380ba8d951c8c0d263/tools/check-lean.mjs",
+      "local_git_blob": "196628c1a3f5cfcdaaf668c347588c7a96cc31c5",
+      "local_matches": true
+    },
+    {
+      "path": "tools/pnp.sh",
+      "sha": "765027cbf406477f6bb7366e05892c3be372fdec",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/28df579920ab2d24173303380ba8d951c8c0d263/tools/pnp.sh",
+      "local_git_blob": "e68f0652e1c69c4705f6551a569a5b4da67b2557",
+      "local_matches": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/28df579920ab2d24173303380ba8d951c8c0d263/CONTRIBUTING.md",
+      "local_git_blob": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca",
+      "local_matches": true
+    }
+  ],
+  "current_format_guard": {
+    "path": ".github/scripts/outside-guard.mjs",
+    "upstream_git_blob": "dc2e3ef21d58524cb5d5a9bbb76dce4d8f700ce7",
+    "sha256": "cbe59c48436af74da52a1d877d0780e45775ad44ff971b40cce3d64175ee0d8b",
+    "bytes": 43135,
+    "local_old_git_blob": "ed6eb822f950c95ea304a162e3a4f7da3a736510",
+    "local_matches": false,
+    "reference_file": "../outside-guard-reference.mjs",
+    "changes": "VALUE support and small textual guard adjustments; no fixed environment change"
+  },
+  "recorded_utc": "2026-11-25T15:06:15.929510+00:00",
+  "search_result_limitation": "Initial search returned zero; root later reported open competing PR16006 by Julleht at15:03:17 UTC. Search zero is not proof of absence."
+}

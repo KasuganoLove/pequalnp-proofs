@@ -1,0 +1,63 @@
+{
+  "task": "L-meta-12128",
+  "scope": "Closed task: ordinary-Lean-checked binary\u22659/withNOT\u226510 research partial; stronger total\u226511 route unassembled; no complete public proof",
+  "paths_relative_to": "L-meta-12128",
+  "release_utc": "2026-11-25T15:32:41.409774Z",
+  "release_http_status": 200,
+  "release_reason": "missing_lemma",
+  "files": [
+    {
+      "path": "statement.txt",
+      "bytes": 430,
+      "sha256": "09adfa006c0d0deb2084ae0b6d6f2685e59e2c9504ceca37b501bb290ee888d3"
+    },
+    {
+      "path": "gap.json",
+      "bytes": 1747,
+      "sha256": "71eeea8396b3dad634c5385fab2ab1411624b5adb6c6dbfabc15c6795488e236"
+    },
+    {
+      "path": "ownership-structure/Pnp12128Structural.lean",
+      "bytes": 4933,
+      "sha256": "d0a864aa7780832cf7d61b89401df8e4b727899dae931d73f1112e22a525a44c"
+    },
+    {
+      "path": "ownership-structure/partial-source-status.json",
+      "bytes": 814,
+      "sha256": "ccae84d2142d9d4af2d85f51f82ba9e20a67cfc67ff708f19274fbf62e8c3dc2"
+    },
+    {
+      "path": "ownership-structure/flipped-core-data.json",
+      "bytes": 1043,
+      "sha256": "faf8bc4cd09db9c0103f875097b5fbbece02cf1c74785aed658f44f0c366f285"
+    },
+    {
+      "path": "ownership-structure/ordinary-lean.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ownership-structure/ordinary-lean-result.json",
+      "bytes": 465,
+      "sha256": "571840245ab399ba5a31b27409c08a6fd44463209e0027fea490839e11adeb18"
+    },
+    {
+      "path": "ownership-structure/helper-provenance.json",
+      "bytes": 2416,
+      "sha256": "86730c587e80cd79b2a026c6cc618b3427d8090e3e7320c99b3a1f99f803d24a"
+    },
+    {
+      "path": "ownership-structure/audit_core.py",
+      "bytes": 1967,
+      "sha256": "9ff464580cec2ad3d4030dd94063ebe83a31b042a8e671769966a0f233c19c65"
+    },
+    {
+      "path": "ownership-structure/README.md",
+      "bytes": 6809,
+      "sha256": "4a631aec1fad467ae6a8c0c570f0109f8c5f569efcf29b74eedcd695540875e3"
+    }
+  ],
+  "axioms_audit_run": false,
+  "strict_checker_run": false,
+  "full_third_party_sources_copied": false
+}

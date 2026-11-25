@@ -1,0 +1,23 @@
+{
+  "id": "L-meta-12128",
+  "title": "Table 2: six-input monotone f symmetric in inputs 0-2, table 4276676736 * 2^32 + 4269860864: every fan-in-two AND/OR/NOT circuit has an AND/OR one no larger",
+  "statement": "∀ s : ℕ, PEqualNP.MetaComplexity.HasCircuitSize 6 (fun x : Fin 6 → Bool => Nat.testBit (4276676736 * 2 ^ 32 + 4269860864) (∑ i : Fin 6, if x i then 2 ^ (i : ℕ) else 0)) s → ∃ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C ∧ C.size ≤ s ∧ ∀ x : Fin 6 → Bool, C.eval (List.ofFn x) = Nat.testBit (4276676736 * 2 ^ 32 + 4269860864) (∑ i : Fin 6, if x i then 2 ^ (i : ℕ) else 0)",
+  "file": "lean/PEqualNP/Outside/L_meta_12128.lean",
+  "module": "PEqualNP.Outside.L_meta_12128",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "where a NOT gate first saves a gate on monotone functions (direction 3)",
+  "dead": [],
+  "weight": 55,
+  "parallel": 3,
+  "lane": "main",
+  "depth": 0,
+  "faithful_by_template": {
+    "template": "block6-fanin2",
+    "hash": "2c60aa0b883b576fbe819e30d1619a5b8c5353ece7bdf3d3bbfb374b69970ec5"
+  },
+  "sketch": "Known: that a NOT gate saves nothing on every monotone function of five inputs is a conjecture; its reduction to 210 listed classes is checked, and each of those class rows is checked. This six-input function is symmetric in inputs 0-2; its AND/OR size is above 7 (computed, not checked), and whether a NOT gate saves a gate is not known. A proof gives an AND/OR circuit of some size m and a certified search that no AND/OR/NOT circuit of m - 1 gates exists; the twin gives an AND/OR/NOT circuit smaller than every AND/OR one. Size: 9 to 12 gates, 64 inputs; a solver call at 10 gates takes minutes.",
+  "pr_open": 0,
+  "pr_numbers": []
+}

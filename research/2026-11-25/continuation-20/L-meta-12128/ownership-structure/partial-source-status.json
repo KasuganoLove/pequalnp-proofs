@@ -1,0 +1,17 @@
+{
+  "source_file": "pequalnp-proofs/lean/Pnp12128Structural.lean",
+  "sha256": "d0a864aa7780832cf7d61b89401df8e4b727899dae931d73f1112e22a525a44c",
+  "bytes": 4933,
+  "status": "Frozen after ordinary Lean exit0; no separate axioms or strict audit",
+  "generic_helpers_modified": false,
+  "scope": "Six-input semantic lower-bound bridge; no public replacement theorem or upper witness yet",
+  "imports_research_only": [
+    "PEqualNP.Outside.L_meta_12030"
+  ],
+  "final_submission_must_inline_helpers_and_import_Defs_only": true,
+  "ordinary_lean_exit_code": 0,
+  "imported_source_commit": "2372e819a59762ba46009b456bcb7e27a226aca8",
+  "imported_source_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+  "release_utc": "2026-11-25T15:32:41.409774Z",
+  "release_reason": "missing_lemma"
+}

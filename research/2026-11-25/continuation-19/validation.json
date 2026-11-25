@@ -1,0 +1,99 @@
+{
+  "scope": "Frozen12030 source, ordinary and format passes, three local strict FAULTs, and public PR creation evidence; no official verdict claimed",
+  "task": "L-meta-12030",
+  "public_pr": 16085,
+  "pr_url": "https://github.com/open-goat/pequalnp-proofs/pull/16085",
+  "created_utc": "2026-11-25T15:10:07Z",
+  "source_commit": "2372e819a59762ba46009b456bcb7e27a226aca8",
+  "source_git_blob": "f4a4e975bb4dd60160086cc01b3232c7959ea88c",
+  "source_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+  "source_included": false,
+  "ordinary_lean": {
+    "source_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+    "start_utc": "2026-11-25T15:03:39.288146+00:00",
+    "end_utc": "2026-11-25T15:04:22.287464+00:00",
+    "exit_code": 0,
+    "wall_seconds": 42.99932538400026,
+    "cpu_seconds": 36.082188,
+    "max_rss_kib": 4439600,
+    "olean": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/.lake/build/lib/lean/PEqualNP/Outside/L_meta_12030.olean",
+    "log_bytes": 203,
+    "strict_checker_run_by_worker": false
+  },
+  "format_guard": {
+    "command": [
+      "node",
+      "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-12030/submission-audit/outside-guard-reference.mjs",
+      "imports",
+      "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_12030.lean",
+      "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-12030/submission-audit/guard-gap/imports.json",
+      "lean/PEqualNP/Outside/L_meta_12030.lean",
+      "check"
+    ],
+    "source_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+    "source_git_blob": "f4a4e975bb4dd60160086cc01b3232c7959ea88c",
+    "guard_git_blob": "dc2e3ef21d58524cb5d5a9bbb76dce4d8f700ce7",
+    "guard_sha256": "cbe59c48436af74da52a1d877d0780e45775ad44ff971b40cce3d64175ee0d8b",
+    "allowed_imports": [
+      "PEqualNP.Defs"
+    ],
+    "start_utc": "2026-11-25T15:28:49.932243+00:00",
+    "end_utc": "2026-11-25T15:28:50.084817+00:00",
+    "elapsed_s": 0.1532038859950262,
+    "exit_code": 0,
+    "scope": "Current official text/import/own-namespace guard only; no Lean invocation"
+  },
+  "strict_attempts": [
+    {
+      "kind": "environment-path fault",
+      "verdict": null,
+      "start_utc": "2026-11-25T15:06:44.933406+00:00",
+      "end_utc": "2026-11-25T15:06:45.207947+00:00",
+      "elapsed_s": 0.2746436369998264,
+      "exit_code": 3
+    },
+    {
+      "kind": "verifier ended without verdict",
+      "verifier_exit": 137,
+      "verdict": null,
+      "start_utc": "2026-11-25T15:08:28.052809+00:00",
+      "end_utc": "2026-11-25T15:12:51.047248+00:00",
+      "elapsed_s": 262.9944446449954,
+      "exit_code": 3,
+      "attempt": 2
+    },
+    {
+      "attempt": 3,
+      "source_variant": "unpublished split experiment",
+      "source_sha256": "e2c93bdfcd6296b6045fd506fa7fc2fe913f7f0fcf5886d47202393dd4fc9eb3",
+      "file_build_stage": "PASS",
+      "kind": "verifier ended without verdict",
+      "verifier_exit": 137,
+      "verdict": null,
+      "start_utc": "2026-11-25T15:20:50.430823+00:00",
+      "end_utc": "2026-11-25T15:24:21.703476+00:00",
+      "elapsed_s": 211.27266100500128,
+      "exit_code": 3,
+      "peak_child_rss_kib": 6557908
+    }
+  ],
+  "official_acceptance_observed": false,
+  "current_root_task": "L-meta-12128",
+  "final_manifest_frozen": true,
+  "recorded_utc": "2026-11-25T15:30:51.173870+00:00",
+  "public_head_unchanged": true,
+  "base_commit": "7cc37d33bddb94ca90b4580c2ee9fad9f4ca86e5",
+  "base_tree": "bccc7574a50d28289941636f29cc3d45aeabee51",
+  "axioms_probe": {
+    "at": "2026-11-25T15:32:28.637128+00:00",
+    "exit_code": 0,
+    "elapsed_s": 6.374409574003948,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "canonical_source_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+    "scope": "Query of compiled canonical theorem dependencies; does not replace strict kernel replay"
+  }
+}

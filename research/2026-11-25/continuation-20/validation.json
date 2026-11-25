@@ -1,0 +1,98 @@
+{
+  "scope": "Closed12128 research partial, finite baseline and two bounded UNKNOWN runs",
+  "full_public_theorem_proved": false,
+  "official12128_pr_created": false,
+  "task_release": {
+    "task": "L-meta-12128",
+    "released_utc": "2026-11-25T15:32:41.409774Z",
+    "http_status": 200,
+    "reason": "missing_lemma"
+  },
+  "partial": {
+    "source_sha256": "d0a864aa7780832cf7d61b89401df8e4b727899dae931d73f1112e22a525a44c",
+    "non_not_gate_lower_bound": 9,
+    "total_gate_lower_bound_if_any_not": 10,
+    "non_not_count_includes_nullary_and_unary_and_or": true,
+    "ordinary_lean": {
+      "source_sha256": "d0a864aa7780832cf7d61b89401df8e4b727899dae931d73f1112e22a525a44c",
+      "start_utc": "2026-11-25T15:28:04.569413+00:00",
+      "end_utc": "2026-11-25T15:28:23.267709+00:00",
+      "exit_code": 0,
+      "wall_seconds": 18.698304279001604,
+      "cpu_seconds": 10.220954,
+      "max_rss_kib": 2992936,
+      "log_bytes": 0,
+      "scope": "Research-only import of L_meta_12030; final official12128 must importDefs and inline required helpers",
+      "strict_checker_run": false
+    },
+    "research_import_only": "PEqualNP.Outside.L_meta_12030",
+    "official_allowed_project_imports": [
+      "PEqualNP.Defs"
+    ],
+    "separate_axiom_audit": false,
+    "strict_checker": false
+  },
+  "constructive": {
+    "verified_monotone_control_gates": 13,
+    "scalar_assignments": 64,
+    "errors": 0,
+    "search10": {
+      "started_at": "2026-11-25T15:19:14.577653+00:00",
+      "finished_at": "2026-11-25T15:21:14.600797+00:00",
+      "seconds": 120.02315010600432,
+      "exit_code": 0,
+      "status": "UNKNOWN",
+      "outer_timeout": false,
+      "peak_child_rss_kib": 45580,
+      "solver_command": [
+        "/workspace/scratch/65f339da29fe/pnp-tools/elan/toolchains/leanprover--lean4---v4.36.0/bin/cadical",
+        "--sat",
+        "--seed=2",
+        "-t",
+        "120",
+        "--stats",
+        "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-12128/constructive/formula.cnf"
+      ],
+      "scope": "One bounded monotone upper-witness search. UNSAT/UNKNOWN is not a formal lower-bound certificate."
+    },
+    "search11": {
+      "started_at": "2026-11-25T15:29:14.698518+00:00",
+      "finished_at": "2026-11-25T15:31:14.745600+00:00",
+      "seconds": 120.0470898259955,
+      "exit_code": 0,
+      "status": "UNKNOWN",
+      "outer_timeout": false,
+      "peak_child_rss_kib": 37172,
+      "solver_command": [
+        "/workspace/scratch/65f339da29fe/pnp-tools/elan/toolchains/leanprover--lean4---v4.36.0/bin/cadical",
+        "--sat",
+        "--seed=2",
+        "-t",
+        "120",
+        "--stats",
+        "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-12128/constructive/search11/formula.cnf"
+      ],
+      "scope": "One bounded monotone upper-witness search. UNSAT/UNKNOWN is not a formal lower-bound certificate."
+    },
+    "conclusion": "Both UNKNOWN; no model or UNSAT certificate"
+  },
+  "stronger_route": {
+    "description": "Fix x5=true to MAJ5; existing majority total lower bound plus gate elimination would give full target total size>=11",
+    "assembled_or_compiled": false,
+    "closes_replacement_theorem": false
+  },
+  "final12030_status_reported_by_root": {
+    "observed_utc": "2026-11-25T15:38:52Z",
+    "pr": 16085,
+    "state": "open",
+    "merged": false,
+    "comments": 0,
+    "head": "2372e819a59762ba46009b456bcb7e27a226aca8",
+    "canonical_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+    "official_verdict_observed": false
+  },
+  "base_commit": "7cc37d33bddb94ca90b4580c2ee9fad9f4ca86e5",
+  "base_tree": "bccc7574a50d28289941636f29cc3d45aeabee51",
+  "apply_after_C19_tree": "3c28b50379c5107eb1ed47a57262dd3de145c58c",
+  "recorded_utc": "2026-11-25T15:39:53.341367+00:00"
+}

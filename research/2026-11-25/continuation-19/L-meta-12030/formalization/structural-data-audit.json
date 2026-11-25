@@ -1,0 +1,173 @@
+{
+  "task": "L-meta-12030",
+  "source_author": "ptrdsh",
+  "source_pr": 15263,
+  "source_sha256": "e13152ef69931ca79dc9f4354f6752a38f3c17a48863616654032ab41a18b131",
+  "generic_prefix_unchanged_except_namespace_and_credit": true,
+  "statement_sha256": "e50570ddcea1fe3974acf5881b09d0dd3ef181e0ec090dbe67354377e5ef26b4",
+  "candidate_sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b",
+  "candidate_bytes": 58118,
+  "edges": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "restriction_order": [
+    1,
+    2,
+    4
+  ],
+  "truth_tables": [
+    340282366920938463444927863284757884416,
+    340282366920938463371140886696716577280,
+    340282366920938461895401360799952448000,
+    340282366920835703200710191947070876160
+  ],
+  "restriction_change_witnesses": [
+    10,
+    68,
+    17
+  ],
+  "nonzero_witness_each_stage": 9,
+  "core_embedding": [
+    0,
+    3,
+    5,
+    6
+  ],
+  "core_singletons_false": true,
+  "core_pairs_true": true,
+  "monotone_witness": {
+    "gates": [
+      {
+        "op": "or",
+        "inputs": [
+          0,
+          1
+        ]
+      },
+      {
+        "op": "or",
+        "inputs": [
+          3,
+          4
+        ]
+      },
+      {
+        "op": "and",
+        "inputs": [
+          7,
+          8
+        ]
+      },
+      {
+        "op": "or",
+        "inputs": [
+          7,
+          8
+        ]
+      },
+      {
+        "op": "and",
+        "inputs": [
+          10,
+          5
+        ]
+      },
+      {
+        "op": "or",
+        "inputs": [
+          9,
+          11
+        ]
+      },
+      {
+        "op": "or",
+        "inputs": [
+          10,
+          5
+        ]
+      },
+      {
+        "op": "or",
+        "inputs": [
+          13,
+          2
+        ]
+      },
+      {
+        "op": "and",
+        "inputs": [
+          14,
+          6
+        ]
+      },
+      {
+        "op": "or",
+        "inputs": [
+          12,
+          15
+        ]
+      }
+    ],
+    "output": 16,
+    "size": 10,
+    "verified_assignments": 128
+  },
+  "public_statement_exact": true,
+  "ordinary_lean_result": "pending",
+  "strict_result": "not run by worker"
+}

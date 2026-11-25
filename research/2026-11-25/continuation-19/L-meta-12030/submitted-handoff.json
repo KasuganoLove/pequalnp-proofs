@@ -1,0 +1,9 @@
+{
+  "scope": "Sanitized parent-reported event; no lease identifier or authentication data",
+  "task": "L-meta-12030",
+  "release_utc": "2026-11-25T15:10:51.646204Z",
+  "http_status": 200,
+  "reason": "submitted",
+  "pr": 16085,
+  "new_root_task_in_separate_coordination": "L-meta-12128 allocated2026-11-25T15:11:56Z"
+}

@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-11-25T15:05:16Z",
+  "url": "https://github.com/open-goat/pequalnp-proofs/pull/16006",
+  "number": 16006,
+  "title": "L-meta-12030",
+  "author": "Julleht",
+  "state": "open",
+  "merged": false,
+  "created_at": "2026-11-25T15:03:17Z",
+  "updated_at": "2026-11-25T15:03:17Z",
+  "head_sha": "83fc8288cf6e9435c721e30d930280a894dbb3a9",
+  "head_repo": "Julleht/pequalnp-proofs",
+  "head_ref": "L-meta-12030",
+  "base_sha": "28df579920ab2d24173303380ba8d951c8c0d263",
+  "changed_files": 1,
+  "additions": 1207,
+  "deletions": 0,
+  "official_comments_observed": 0,
+  "explicit_verdict_observed": null,
+  "scope": "Another contributor's newly opened PR; this observation alone does not establish closure or a checker verdict."
+}

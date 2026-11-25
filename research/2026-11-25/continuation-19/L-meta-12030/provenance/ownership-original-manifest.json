@@ -1,0 +1,48 @@
+{
+  "task": "L-meta-12030",
+  "scope": "Complete exact local proof; ordinary Lean passed; root owns strict validation and publication",
+  "source_author": "ptrdsh; source ancestor L-meta-10458",
+  "paths_relative_to": "L-meta-12030",
+  "files": [
+    {
+      "path": "statement.txt",
+      "bytes": 1727,
+      "sha256": "e50570ddcea1fe3974acf5881b09d0dd3ef181e0ec090dbe67354377e5ef26b4"
+    },
+    {
+      "path": "gap.json",
+      "bytes": 2961,
+      "sha256": "5a03ae8ee06e950555b5aac1daeda2980bad5e2291363c1ee02f947e18c58f19"
+    },
+    {
+      "path": "prepare_structural.py",
+      "bytes": 6529,
+      "sha256": "cde6f7ec59f2da5813e709c483ff6304144e68c24f2ec71cdbc610b120603bee"
+    },
+    {
+      "path": "formalization/L_meta_12030.structural.lean",
+      "bytes": 58118,
+      "sha256": "052c0e4396cdacee1909ddbf8b6e39d859bb960676599515c5ad60b9a202d11b"
+    },
+    {
+      "path": "formalization/structural-data-audit.json",
+      "bytes": 2500,
+      "sha256": "624699c5fb56657592123dd566dcc1c0ba3a3ceef96b1dbb6bb3434d191c753a"
+    },
+    {
+      "path": "formalization/ordinary-lean.log",
+      "bytes": 203,
+      "sha256": "84e44a4321f0e42f2e8f7fbffb0b0bad498969e9c40944340d47bab777e723e7"
+    },
+    {
+      "path": "formalization/ordinary-lean-result.json",
+      "bytes": 484,
+      "sha256": "5b27152f9d4666ec50f1de106a319df5f39beb422c4915d6c060a5ce1e769f36"
+    },
+    {
+      "path": "formalization/README.md",
+      "bytes": 3927,
+      "sha256": "7a986224aa97c4e06332b41ebd7cec644b3721189d7e3401a0e481c3dee8da6e"
+    }
+  ]
+}

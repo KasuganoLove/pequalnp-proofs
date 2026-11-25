@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-25T15:04:41.498281+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2074,
+      "sha256": "93e4553a68e9ddca01263fda6b2ad95d2cd9bc54e9ffd9ec111e3fa09a47007c"
+    },
+    {
+      "path": "verify_witness_and_restrictions.py",
+      "bytes": 3737,
+      "sha256": "cec69ef50e401cd20bff2efd5d99026b0353f3b167c868d4cd63179bb31cfece"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 3447,
+      "sha256": "3502fb4bb621c9c61e9c639412f783be17e82e21dcf30341d3eaf90afa1578a6"
+    },
+    {
+      "path": "candidate-data-check.json",
+      "bytes": 1322,
+      "sha256": "c50d39f5b94d73451b78fbbe66427bfec8f762b2517f1d60227cda3e6cae4277"
+    }
+  ],
+  "content_bytes": 10580,
+  "content_files": 4,
+  "status": "All scalar instance checks passed; no Lean/strict verdict claimed by this audit."
+}
