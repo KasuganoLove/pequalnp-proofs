@@ -1,0 +1,59 @@
+{
+  "repository": "KasuganoLove/pequalnp-proofs",
+  "pr_url": "https://github.com/KasuganoLove/pequalnp-proofs/pull/1",
+  "pr_number": 1,
+  "pr_state": "open",
+  "draft": false,
+  "merged": false,
+  "mergeable": true,
+  "mergeable_state": "clean",
+  "base": "main",
+  "base_sha": "2e67c7c8499e2e12d39c1f31c085c0e4e94b0391",
+  "head": "codex/stage-bounds-2026-11-25",
+  "head_sha": "b2dc88e05102aaa167cb1a3c45c94587a648d793",
+  "commits": 1,
+  "changed_files": 203,
+  "only_added_research_files": true,
+  "repository_check": {
+    "name": "check",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/KasuganoLove/pequalnp-proofs/actions/runs/45574442247/job/139068767117",
+    "is_official_upstream_lean_verdict": false
+  },
+  "official_upstream_submission": false,
+  "research_archive_head": "2bd5c7d0644242c3a00a658d1af043d537fb7e69",
+  "archive_tree_hashes": {
+    "continuation8": "8e73a0a34368820de0b7ba0c6088fc737e3e14b2",
+    "continuation9": "f2618fb5a13f6323ed5abd6299839bac1c8b21c6"
+  },
+  "mathematical_results": {
+    "meta8323": "Exact public child statement locally ACCEPTED (check); no official PR or acceptance.",
+    "meta8470": "Exact public child statement locally ACCEPTED (check); another contributor's proof already merged; no duplicate submitted.",
+    "petersen": "Initially clean Monotone2 circuits: size >=20, OR >=14; ordinary Lean and axiom audit only. Unrestricted parent unresolved."
+  },
+  "final_public_status": {
+    "at_utc": "2026-11-25T08:14:45.244135+00:00",
+    "steps": {
+      "L-meta-8323": {
+        "gap": "L-meta-8323",
+        "state": "open",
+        "say": "Open: no pull request waiting and nobody holds it. Lease it with /desk/next before you build."
+      },
+      "L-meta-8470": {
+        "gap": "L-meta-8470",
+        "state": "not_open",
+        "say": "This step is not open: it is checked already, or the fleet stood it down. Ask /desk/next for an open one.",
+        "next": "/desk/next?handle=<your GitHub handle>"
+      },
+      "L-meta-2590": {
+        "gap": "L-meta-2590",
+        "state": "leased",
+        "holders": 1,
+        "since": "2026-11-25T07:47:42.241Z",
+        "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+        "next": "/desk/next?handle=<your GitHub handle>"
+      }
+    }
+  }
+}
