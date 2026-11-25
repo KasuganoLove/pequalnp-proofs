@@ -1,0 +1,17 @@
+{
+  "baselines": 40,
+  "independent_sets_size4": 5,
+  "maximum_independent_set_size": 4,
+  "minimum_vertex_cover_size": 6,
+  "two_gate_deletions_checked": 30400,
+  "retained_seeds": 640,
+  "truth_rows": 1024,
+  "target_true_rows": 948,
+  "best_seed_errors": 18,
+  "op_encoding": {
+    "0": "and",
+    "1": "or",
+    "2": "not_first_operand"
+  },
+  "raw_inputs": "x0..x9,!x0"
+}

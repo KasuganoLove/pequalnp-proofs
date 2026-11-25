@@ -1,0 +1,5 @@
+import Pnp1884UniqueRead
+
+#print axioms PEqualNP.Outside.Pnp1884UniqueRead.sole_reader_collision
+#print axioms PEqualNP.Outside.Pnp1884UniqueRead.pinning_certificate
+#print axioms PEqualNP.Outside.Pnp1884UniqueRead.primitive_join_forces_another_reader

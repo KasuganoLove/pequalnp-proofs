@@ -1,0 +1,151 @@
+{
+  "task": "L-meta-1884",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7920,
+      "sha256": "a9e095a4020a801fc303e6756dd665dc03bec270aaf5af67d8a9a2ddde4d8e7c"
+    },
+    {
+      "path": "UniqueRead-review.md",
+      "bytes": 4612,
+      "sha256": "c1acf6405ac439c09fe1fcd31ee7fc6faa7aab5ac76352f70fcd8166b9f28402"
+    },
+    {
+      "path": "bounded-search/README.md",
+      "bytes": 6308,
+      "sha256": "99f097f0051ff4ae19dc86c7fc2a99df432aa4178ca390941fe0ee4db4825dea"
+    },
+    {
+      "path": "bounded-search/baselines.json",
+      "bytes": 50713,
+      "sha256": "1119f027165fe39b7680f8c086b2890338c866273188ec6f765aebd63afb5480"
+    },
+    {
+      "path": "bounded-search/best-18.json",
+      "bytes": 254,
+      "sha256": "f791e96cbfbd28c59c9ed3da01b822492056b474b841ab6c9630bcd71cfdb3a9"
+    },
+    {
+      "path": "bounded-search/independent-verification.json",
+      "bytes": 11442,
+      "sha256": "70251240ca6ec15835133f78146900f074d830f66d5e5110d69ddd647d688f12"
+    },
+    {
+      "path": "bounded-search/local-search.log",
+      "bytes": 848,
+      "sha256": "d68fe3f09d12bf9226cd60c9f50118eeb380376a4a6ea440bb49a2b1b85ea9c3"
+    },
+    {
+      "path": "bounded-search/local_search.cpp",
+      "bytes": 5197,
+      "sha256": "919bc588cf66495226e6923c1593927b0759c779e5da22734180fcda0c50129e"
+    },
+    {
+      "path": "bounded-search/make_seeds.py",
+      "bytes": 4273,
+      "sha256": "3a1b667b704deb4a6f5870d47a42f7c331f9250cadb9015acaf2e2602b64dc41"
+    },
+    {
+      "path": "bounded-search/run-summary.json",
+      "bytes": 228,
+      "sha256": "0c904eb4faa9471873377fd237602b0140326518b713a136914ac7db5afae12e"
+    },
+    {
+      "path": "bounded-search/seed-summary.json",
+      "bytes": 377,
+      "sha256": "b9625fd357c11465ec64dcc28f52ee140f1b86a37b4db3c2e24fed72e3faa0d1"
+    },
+    {
+      "path": "bounded-search/verify_candidates.py",
+      "bytes": 2657,
+      "sha256": "c8c1a25e642982c0e10502a7ff6a2a6f9c535f4a0dbdb3277f6ffcccb1c96b40"
+    },
+    {
+      "path": "gap.json",
+      "bytes": 2525,
+      "sha256": "782fe5c5aa9c22915a0f52d496c56a9858b80d4d5f3a2340d01853f37c723fe1"
+    },
+    {
+      "path": "lean/Pnp1884ActiveRead.lean",
+      "bytes": 7504,
+      "sha256": "164da75dfc65c1b03edd117ba382b2c92865d733fc78324e6c143430d46a4935"
+    },
+    {
+      "path": "lean/Pnp1884ActiveReadAudit.lean",
+      "bytes": 347,
+      "sha256": "20fc2fae6723e869b7b70ac754f1a8f56b75ddc7e2290794e5fdb126166bc18d"
+    },
+    {
+      "path": "lean/Pnp1884UniqueRead.lean",
+      "bytes": 12145,
+      "sha256": "24c51c2bc5960716bc15e4d3cfecd1a48eaa2df926993b59c6f52a4591d3126b"
+    },
+    {
+      "path": "lean/Pnp1884UniqueReadAudit.lean",
+      "bytes": 252,
+      "sha256": "07a69cc956ac7ae8e22ad3e6dafb93d8717546cee8909dfafd82b1c52693155d"
+    },
+    {
+      "path": "reader-classification/README.md",
+      "bytes": 8414,
+      "sha256": "5e1591e607332d86aabc537a2ecc1858b6e2566b297cf2639be04195616d3e58"
+    },
+    {
+      "path": "reader-classification/check_projection.py",
+      "bytes": 5369,
+      "sha256": "1041a2ddaaf8b3ebc49bb6e497520b26d5812c0b93123120a8f7ea5c5d0b0c00"
+    },
+    {
+      "path": "reader-classification/projection-table.json",
+      "bytes": 135186,
+      "sha256": "1717373fd55fc7a65739f2a351620eb90eb1536e5e2a5d367e59c9e37c6d5d54"
+    },
+    {
+      "path": "reader-classification/residual-examples.json",
+      "bytes": 4789,
+      "sha256": "1104fd3e942203ed5d93d4ef219bc990f3105baa2fe49daf4ed98195ff0ce004"
+    },
+    {
+      "path": "reader-classification/summary.json",
+      "bytes": 1257,
+      "sha256": "d8b287342314bed20d4bdb7f19cb329419d8fa987be674f0a126ed6dbe3a4728"
+    },
+    {
+      "path": "statement.txt",
+      "bytes": 1133,
+      "sha256": "93b6dfad423e6216386f05e73ffc2449987d0f1a9728afcf83e18b68e2458e56"
+    },
+    {
+      "path": "upstream-classification-audit.md",
+      "bytes": 4153,
+      "sha256": "09cfcc7ffcc1e9646bbaffd545317da9894e2682f2b1c7f606f0d9c997652d3f"
+    },
+    {
+      "path": "validation/ActiveRead-axioms.log",
+      "bytes": 515,
+      "sha256": "e5a312423a473e16b3b7b195c321c151628c11c6e19265602d3864c730abf67d"
+    },
+    {
+      "path": "validation/ActiveRead-lean.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "validation/UniqueRead-axioms.log",
+      "bytes": 339,
+      "sha256": "22b4f28fbc9325f18dba39f6abeb9996bfb52fd67b6a3522203d6b6551a5d124"
+    },
+    {
+      "path": "validation/UniqueRead-lean.log",
+      "bytes": 414,
+      "sha256": "6287932880fd6a969914b21f0443223e4ab048764cc0201e4231ca3afea412a7"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1307,
+      "sha256": "88fad829044bebd5d48b784abba070d5d5693d2edafc980071caf024c6ce1fc2"
+    }
+  ],
+  "note": "Nested manifests retain their own hashes; this manifest omits files named manifest.json to avoid self-reference."
+}

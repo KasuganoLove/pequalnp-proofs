@@ -1,0 +1,5 @@
+'PEqualNP.Outside.Pnp1884UniqueRead.sole_reader_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp1884UniqueRead.pinning_certificate' depends on axioms: [propext]
+'PEqualNP.Outside.Pnp1884UniqueRead.primitive_join_forces_another_reader' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

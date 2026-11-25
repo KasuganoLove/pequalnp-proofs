@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 6308,
+      "sha256": "99f097f0051ff4ae19dc86c7fc2a99df432aa4178ca390941fe0ee4db4825dea"
+    },
+    {
+      "file": "make_seeds.py",
+      "bytes": 4273,
+      "sha256": "3a1b667b704deb4a6f5870d47a42f7c331f9250cadb9015acaf2e2602b64dc41"
+    },
+    {
+      "file": "local_search.cpp",
+      "bytes": 5197,
+      "sha256": "919bc588cf66495226e6923c1593927b0759c779e5da22734180fcda0c50129e"
+    },
+    {
+      "file": "verify_candidates.py",
+      "bytes": 2657,
+      "sha256": "c8c1a25e642982c0e10502a7ff6a2a6f9c535f4a0dbdb3277f6ffcccb1c96b40"
+    },
+    {
+      "file": "baselines.json",
+      "bytes": 50713,
+      "sha256": "1119f027165fe39b7680f8c086b2890338c866273188ec6f765aebd63afb5480"
+    },
+    {
+      "file": "best-18.json",
+      "bytes": 254,
+      "sha256": "f791e96cbfbd28c59c9ed3da01b822492056b474b841ab6c9630bcd71cfdb3a9"
+    },
+    {
+      "file": "seed-summary.json",
+      "bytes": 377,
+      "sha256": "b9625fd357c11465ec64dcc28f52ee140f1b86a37b4db3c2e24fed72e3faa0d1"
+    },
+    {
+      "file": "run-summary.json",
+      "bytes": 228,
+      "sha256": "0c904eb4faa9471873377fd237602b0140326518b713a136914ac7db5afae12e"
+    },
+    {
+      "file": "local-search.log",
+      "bytes": 848,
+      "sha256": "d68fe3f09d12bf9226cd60c9f50118eeb380376a4a6ea440bb49a2b1b85ea9c3"
+    },
+    {
+      "file": "independent-verification.json",
+      "bytes": 11442,
+      "sha256": "70251240ca6ec15835133f78146900f074d830f66d5e5110d69ddd647d688f12"
+    }
+  ]
+}

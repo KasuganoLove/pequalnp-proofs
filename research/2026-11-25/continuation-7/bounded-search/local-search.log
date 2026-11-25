@@ -1,0 +1,15 @@
+initial one-field edits=30240 best=18
+best fp=5 fn=12 calls=319340
+elapsed=15 calls=140556735 restarts=5855 best_fp=5 best_fn=12
+elapsed=30 calls=279690532 restarts=11652 best_fp=5 best_fn=12
+elapsed=45 calls=421200428 restarts=17548 best_fp=5 best_fn=12
+elapsed=60 calls=564774410 restarts=23530 best_fp=5 best_fn=12
+elapsed=75 calls=707652363 restarts=29483 best_fp=5 best_fn=12
+elapsed=90 calls=844434062 restarts=35182 best_fp=5 best_fn=12
+elapsed=105 calls=987216011 restarts=41131 best_fp=5 best_fn=12
+best fp=5 fn=6 calls=1039585476
+elapsed=120 calls=1122941666 restarts=46786 best_fp=5 best_fn=6
+elapsed=135 calls=1258643320 restarts=52440 best_fp=5 best_fn=6
+elapsed=150 calls=1397201093 restarts=58213 best_fp=5 best_fn=6
+elapsed=165 calls=1539335015 restarts=64135 best_fp=5 best_fn=6
+DONE witness=0 calls=1672386896 best_fp=5 best_fn=6

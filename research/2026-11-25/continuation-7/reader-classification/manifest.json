@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 8414,
+      "sha256": "5e1591e607332d86aabc537a2ecc1858b6e2566b297cf2639be04195616d3e58"
+    },
+    {
+      "file": "check_projection.py",
+      "bytes": 5369,
+      "sha256": "1041a2ddaaf8b3ebc49bb6e497520b26d5812c0b93123120a8f7ea5c5d0b0c00"
+    },
+    {
+      "file": "projection-table.json",
+      "bytes": 135186,
+      "sha256": "1717373fd55fc7a65739f2a351620eb90eb1536e5e2a5d367e59c9e37c6d5d54"
+    },
+    {
+      "file": "residual-examples.json",
+      "bytes": 4789,
+      "sha256": "1104fd3e942203ed5d93d4ef219bc990f3105baa2fe49daf4ed98195ff0ce004"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 1257,
+      "sha256": "d8b287342314bed20d4bdb7f19cb329419d8fa987be674f0a126ed6dbe3a4728"
+    }
+  ]
+}

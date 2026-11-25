@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-25",
+  "task": "L-meta-1884",
+  "lean": "4.36.0",
+  "mathlib_commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "ordinary_lean": [
+    {
+      "file": "lean/Pnp1884UniqueRead.lean",
+      "exit_code": 0,
+      "sha256": "24c51c2bc5960716bc15e4d3cfecd1a48eaa2df926993b59c6f52a4591d3126b",
+      "bytes": 12145,
+      "olean_generated": true
+    },
+    {
+      "file": "lean/Pnp1884ActiveRead.lean",
+      "exit_code": 0,
+      "sha256": "164da75dfc65c1b03edd117ba382b2c92865d733fc78324e6c143430d46a4935",
+      "bytes": 7504,
+      "olean_generated": true
+    },
+    {
+      "file": "lean/Pnp1884UniqueReadAudit.lean",
+      "exit_code": 0,
+      "sha256": "07a69cc956ac7ae8e22ad3e6dafb93d8717546cee8909dfafd82b1c52693155d",
+      "bytes": 252,
+      "olean_generated": false
+    },
+    {
+      "file": "lean/Pnp1884ActiveReadAudit.lean",
+      "exit_code": 0,
+      "sha256": "20fc2fae6723e869b7b70ac754f1a8f56b75ddc7e2290794e5fdb126166bc18d",
+      "bytes": 347,
+      "olean_generated": false
+    }
+  ],
+  "strict_checker_run": false,
+  "official_pr_submitted": false,
+  "full_task_proved": false,
+  "axioms": {
+    "pinning_certificate": [
+      "propext"
+    ],
+    "circuit_and_active_reader_lemmas": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}

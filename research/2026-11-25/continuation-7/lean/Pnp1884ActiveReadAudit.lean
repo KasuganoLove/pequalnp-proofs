@@ -1,0 +1,6 @@
+import Pnp1884ActiveRead
+
+#print axioms PEqualNP.Outside.Pnp1884ActiveRead.eval_active_congr
+#print axioms PEqualNP.Outside.Pnp1884ActiveRead.sole_active_reader_collision
+#print axioms PEqualNP.Outside.Pnp1884ActiveRead.primitive_join_forces_another_active_reader
+#print axioms PEqualNP.Outside.Pnp1884ActiveRead.primitive_join_forces_active_head

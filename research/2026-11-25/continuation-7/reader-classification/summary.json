@@ -1,0 +1,47 @@
+{
+  "checked_by": "Independent exhaustive Python; not Lean",
+  "nonzero_variables": 9,
+  "pivotal_assignments_per_variable": 40,
+  "single_variable_projections": 81,
+  "two_variable_projections": 324,
+  "edge_pair_projections": 108,
+  "nonedge_pair_projections": 216,
+  "arbitrary_two_variable_truth_tables_per_pair": 16,
+  "and_or_truth_table_conditions_tested": 10368,
+  "truth_table_encoding": "bit b0+2*b1 stores h(b0,b1); 0=false,7=NAND,8=AND,15=true",
+  "free_not0": "derived from original x0, not an independent input",
+  "nonconstant_allowed_models": 216,
+  "two_29_gate_example_checks": [
+    {
+      "kind": "and_with_nand_edge",
+      "rows": 1024,
+      "errors": [],
+      "size": 29,
+      "active_readers_0_or_10": [
+        2,
+        3,
+        23
+      ],
+      "active_readers_variable1": [
+        26
+      ],
+      "satisfies_18_gate_cap": false
+    },
+    {
+      "kind": "or_with_and_edge",
+      "rows": 1024,
+      "errors": [],
+      "size": 29,
+      "active_readers_0_or_10": [
+        2,
+        3,
+        23
+      ],
+      "active_readers_variable1": [
+        25
+      ],
+      "satisfies_18_gate_cap": false
+    }
+  ],
+  "limitation": "Necessary local condition only. No18-gate impossibility and no counterexample to it."
+}
