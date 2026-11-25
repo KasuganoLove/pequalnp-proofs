@@ -1,0 +1,8 @@
+{
+  "path": "rank14.lrat.gz",
+  "bytes": 648373859,
+  "sha256": "0c24ddbbd628147c3c05f610efb4d39912130983630f948b91c6e95ce5d1c8e4",
+  "complete_unsat_certificate": false,
+  "solver_verdict": "UNKNOWN",
+  "curated": false
+}

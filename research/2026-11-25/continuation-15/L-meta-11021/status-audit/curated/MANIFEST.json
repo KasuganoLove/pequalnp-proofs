@@ -1,0 +1,55 @@
+{
+  "scope": "Read-only11021/11020 freshness and literal graph isomorphism audit",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1891,
+      "sha256": "aac703be368657fea2e510cbed105425131c158eef6d0d21ac9787d06240f9e3"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 2410,
+      "sha256": "c57ab0910d9cc4385ef8b15083f7d3937cce234ec5938766e7095e16764cc4c7"
+    },
+    {
+      "path": "literal-twin-identity.json",
+      "bytes": 97,
+      "sha256": "bc6940e4d12e99d9c3618684b167a8ac9e9a996d04f651bdfaac1101b30f37bf"
+    },
+    {
+      "path": "local-isomorphism-audit.json",
+      "bytes": 1764,
+      "sha256": "db02994474f0802cddde4142df7c3a0d01297bd759ca2d30d931792117e0e907"
+    },
+    {
+      "path": "retrieval.json",
+      "bytes": 280,
+      "sha256": "091724b0e0e2c007dbe780cd37d181993eda058bfb1c42c77e7c307d7e9971a9"
+    },
+    {
+      "path": "scan_local_graphs.py",
+      "bytes": 3790,
+      "sha256": "dcc7dfa6fdfa975a4c857a4824bde846244c37c67153adfb8f463b29113e4182"
+    },
+    {
+      "path": "selected-rows.json",
+      "bytes": 2970,
+      "sha256": "20a77c49500f786805e5951122f67240f9e2a7ded5f2e072159e9f1be42a6416"
+    },
+    {
+      "path": "step-11020.json",
+      "bytes": 415,
+      "sha256": "0a43582c8b3d37dd9e477a413372f41ee84d3bfa2944914dff74c520684b155e"
+    },
+    {
+      "path": "step-11021.json",
+      "bytes": 415,
+      "sha256": "19b39b271888baa4580d84cf440002e9a8e3a129056b29881f0d6c1c5c981132"
+    }
+  ],
+  "payload_bytes": 14032,
+  "no_ready_witness_found": true,
+  "no_new_proof": true,
+  "no_lease_actions": true,
+  "no_remote_writes": true
+}

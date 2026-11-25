@@ -1,0 +1,21 @@
+{
+  "family_k": 15,
+  "rows": 45,
+  "columns": 45,
+  "rounds": 14,
+  "variables": 2610,
+  "clauses": 153630,
+  "clause_blocks": {
+    "one_exact_round": 9540,
+    "deleted_by_definition": 10710,
+    "row_twins": 66510,
+    "column_twins": 66510,
+    "terminal_bic": 360
+  },
+  "cnf_bytes": 2582217,
+  "cnf_sha256": "61c7a35162c198fb8f023c5bfca8b005a9ca37b1071f22f2734da162f4d291ab",
+  "independent_schedule_tests": 4498,
+  "symmetry_breaking": false,
+  "semantics": "Exact Rank14 twin-class deletions followed by terminal Bic; no circuit encoding",
+  "formalized_encoding": false
+}

@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-11-25T12:34:00.856075+00:00",
+  "pr_url": "https://github.com/open-goat/pequalnp-proofs/pull/14022",
+  "latest_comment_read": "empty comments; fresh read completed before2026-11-25T12:33:25Z",
+  "official_verdict": "none_observed",
+  "desk_status": "pr_open with PR14022 at2026-11-25T12:29:28.665184Z",
+  "advisory_run_url": "https://github.com/open-goat/pequalnp-proofs/actions/runs/45610878056",
+  "advisory_api_status": "completed/action_required; no jobs",
+  "parent_browser_observation": "Root reported local Chrome PR overview says workflow requires approval from a maintainer. Applies to advisory workflow; no PR mutation occurred.",
+  "no_independent_browser_use": true,
+  "no_remote_mutation": true,
+  "no_lease_calls": true,
+  "no_new_compilation": true,
+  "stage_complete": false
+}

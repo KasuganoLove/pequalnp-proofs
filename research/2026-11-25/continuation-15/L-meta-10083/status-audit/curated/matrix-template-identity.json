@@ -1,0 +1,58 @@
+{
+  "template": "cycle-k-represent-2",
+  "template_hash": "29b39e5bacbb074bfc0b8a2ebcbd40e59753702644e196be1b2ca033366d0628",
+  "checks": [
+    {
+      "id": "L-meta-9483",
+      "k": 5,
+      "dimension": 15,
+      "budget": 32,
+      "negated": false,
+      "statement_sha256": "8ab07f96e707c794f5973ba8f428f47c2a905aca6e2dd3edb8810f65d526f1a2",
+      "exact_template_after_whitespace": true,
+      "sketch": "truth not known to us; the opposite row is offered beside it. Proved by exhibiting ONE AND/OR circuit of fan-in at most two with at most the stated number of gates, right at every input with one left and one right vertex on. Our best circuit has one gate more (computed, not checked). Size: minutes if such a circuit exists."
+    },
+    {
+      "id": "L-meta-9484",
+      "k": 5,
+      "dimension": 15,
+      "budget": 32,
+      "negated": true,
+      "statement_sha256": "88167fd1375b5ff27ee1e07206747d5943d7d88457206a7340435ae847cecc6e",
+      "exact_template_after_whitespace": true,
+      "sketch": "truth not known to us; the opposite row is offered beside it. Proved by exhibiting ONE AND/OR circuit of fan-in at most two with at most the stated number of gates, right at every input with one left and one right vertex on. Our best circuit has one gate more (computed, not checked). Size: minutes if such a circuit exists."
+    },
+    {
+      "id": "L-meta-9485",
+      "k": 5,
+      "dimension": 15,
+      "budget": 33,
+      "negated": false,
+      "statement_sha256": "0ef7fb01b1736354d9a043cc02e2ad925c9d659baa6af8736595548a0d5eeeb2",
+      "exact_template_after_whitespace": true,
+      "sketch": "truth not known to us; the opposite row is offered beside it. Proved by exhibiting ONE AND/OR circuit of fan-in at most two with at most the stated number of gates, right at every input with one left and one right vertex on. Our best circuit has one gate more (computed, not checked). Size: minutes if such a circuit exists."
+    },
+    {
+      "id": "L-meta-10082",
+      "k": 15,
+      "dimension": 45,
+      "budget": 103,
+      "negated": false,
+      "statement_sha256": "e96ff5b8e7e639bdd6db8c344d6301291755db6fafd993b9c3d8714f6e92809d",
+      "exact_template_after_whitespace": true,
+      "sketch": "Known: the cycle family at k has a representing circuit of 7k - 1 gates (OR of k products of shared row-and-column ORs, checked by script); every representing circuit needs at least 6k - 1 gates (one per needed line, minus one). The value s sits strictly between, so the truth is NOT known. A proof of 'some circuit' builds one of at most s gates and checks it on every one-row-one-column input; a proof of 'no circuit' must rule out every circuit of at most s gates, which needs an argument that sees shared ORs. Size: hard; hours for a strong agent."
+    },
+    {
+      "id": "L-meta-10083",
+      "k": 15,
+      "dimension": 45,
+      "budget": 103,
+      "negated": true,
+      "statement_sha256": "505bae8b8529bc923acce76afb776ca1f382adfc564393f5d31126385a615344",
+      "exact_template_after_whitespace": true,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-10082; none is expected if that statement is true."
+    }
+  ],
+  "same_matrix_family_verified": true,
+  "comments": "The k5 rows9483 and9485 have the same target matrix but different budgets32/33. Their identical best-one-more sketches cannot both identify a unique best circuit."
+}

@@ -1,0 +1,10 @@
+{
+  "k": 3,
+  "round_budget": 2,
+  "seconds_cap": 5.0,
+  "scope": "ordinary computation of Rank only; not a circuit",
+  "status": "exhausted",
+  "elapsed_seconds": 0.006682387996988837,
+  "calls": 2962,
+  "failed_states": 46
+}

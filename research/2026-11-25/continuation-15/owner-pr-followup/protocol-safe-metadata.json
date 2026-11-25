@@ -1,0 +1,27 @@
+{
+  "pr": {
+    "number": 14022,
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/14022",
+    "head_sha": "bc59c2be036e28415543dcb42dd8da78d4439163",
+    "head": "codex/l-meta-10221-20261125",
+    "created_at": "2026-11-25T12:08:02Z",
+    "state": "open",
+    "merged": false,
+    "body_has_lease_line": false,
+    "comments_observed": 0,
+    "comment_check_minute_utc": "2026-11-25T12:27:00Z"
+  },
+  "pnp": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/tools/pnp.sh",
+    "git_blob_sha": "26e3f7b7d7320c872e89a3c2bbbf3b01ebdb6766"
+  },
+  "contributing": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/CONTRIBUTING.md",
+    "git_blob_sha": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca",
+    "mentions_lease": false
+  },
+  "source": {
+    "url": "https://github.com/KasuganoLove/pequalnp-proofs/blob/bc59c2be036e28415543dcb42dd8da78d4439163/lean/PEqualNP/Outside/L_meta_10221.lean",
+    "git_blob_sha": "1f0d7cf983743bb6e5f588a28908f2d0682d4389"
+  }
+}

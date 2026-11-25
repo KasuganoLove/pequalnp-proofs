@@ -1,0 +1,60 @@
+{
+  "scope": "Read-only byte/hash verification before copying frozen curated files; no mathematical computation or solver rerun",
+  "checked_at": "2026-11-25T12:41:09.188812+00:00",
+  "manifests": [
+    {
+      "manifest": "L-meta-2592/status-audit/curated/MANIFEST.json",
+      "sha256": "cfd90198097be06e985e0362498712c5508b5e418e70e14143fe506143699944",
+      "listed_files": 8,
+      "sizes_and_sha256_verified": true
+    },
+    {
+      "manifest": "L-meta-10083/status-audit/curated/MANIFEST.json",
+      "sha256": "5b170d70040991d1999bd794a200c547f8d86840cfe16d3693ff6ab896a1c4d0",
+      "listed_files": 14,
+      "sizes_and_sha256_verified": true
+    },
+    {
+      "manifest": "L-meta-11021/status-audit/curated/MANIFEST.json",
+      "sha256": "9b94d4511611422b7a80d20c910dd04b64c02537851629c0087e9471ef8626dd",
+      "listed_files": 9,
+      "sizes_and_sha256_verified": true
+    },
+    {
+      "manifest": "L-meta-2592/ownership-analysis/MANIFEST.json",
+      "sha256": "7d82aa8867720559de35e4a8cabe17bda80af3988f4f37dd75ae960dfb9e51ff",
+      "listed_files": 1,
+      "sizes_and_sha256_verified": true
+    },
+    {
+      "manifest": "L-meta-10083/ownership-analysis/MANIFEST.json",
+      "sha256": "83ce21b0ae126cc346d7fe171d641f8daae9abc0d9a4c77696db44704fc701bb",
+      "listed_files": 14,
+      "sizes_and_sha256_verified": true
+    },
+    {
+      "manifest": "L-meta-10083/constructive/manifest.json",
+      "sha256": "6e13ac942f9511583817d39705319a8504431246dcb5c7f494a7f85070a867c0",
+      "listed_files": 3,
+      "sizes_and_sha256_verified": true
+    },
+    {
+      "manifest": "L-meta-11021/constructive/manifest.json",
+      "sha256": "88b2d4de0e302e9d180e881b9c8690240aa26dcb36c24d72393ce70cf2c7a1ab",
+      "listed_files": 9,
+      "sizes_and_sha256_verified": true
+    },
+    {
+      "manifest": "owner-pr-followup/MANIFEST.json",
+      "sha256": "399ff0cf22466542370a1c6d56be19a4e985596b0f8e2b330934e2b9d81e8cac",
+      "listed_files": 14,
+      "sizes_and_sha256_verified": true
+    },
+    {
+      "manifest": "owner-pr-followup/OWNERSHIP_AUDIT_MANIFEST.json",
+      "sha256": "9448e660cf4d6bade52d91959bd38c52df8dc5de8e361fc4173d3bd479631f91",
+      "listed_files": 11,
+      "sizes_and_sha256_verified": true
+    }
+  ]
+}

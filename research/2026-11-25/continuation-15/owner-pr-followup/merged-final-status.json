@@ -1,0 +1,47 @@
+{
+  "recorded_after": "2026-11-25T12:37:11.911539Z",
+  "official_pr": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/14022",
+    "number": 14022,
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-11-25T12:30:48Z",
+    "closed_at": "2026-11-25T12:30:48Z",
+    "head_sha": "bc59c2be036e28415543dcb42dd8da78d4439163",
+    "merge_commit_sha": "1fc91c4a3a59d36d4c1490dcd945a5449ead499f",
+    "head_branch": "codex/l-meta-10221-20261125",
+    "author": "KasuganoLove",
+    "changed_files": 1,
+    "commits": 1
+  },
+  "official_desk": {
+    "url": "https://data.pequalnp.com/data/desk/gaps.json",
+    "retrieved_at": "2026-11-25T12:36:51.698035Z",
+    "snapshot_updated_at": "2026-11-25T12:35:52.311Z",
+    "task": "L-meta-10221",
+    "state": "checked",
+    "file": "lean/PEqualNP/Outside/L_meta_10221.lean",
+    "file_sha256": "9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc"
+  },
+  "source_inclusion": {
+    "merge_commit_url": "https://github.com/open-goat/pequalnp-proofs/blob/1fc91c4a3a59d36d4c1490dcd945a5449ead499f/lean/PEqualNP/Outside/L_meta_10221.lean",
+    "merge_blob_sha": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+    "current_main_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_10221.lean",
+    "current_main_blob_sha": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+    "original_pr_blob_sha": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+    "all_equal": true,
+    "bytes": 109453
+  },
+  "explicit_verdict_comments": {
+    "observed": [],
+    "accepted_comment_seen": false
+  },
+  "precise_conclusion": "Officially merged and recorded checked, with exact submitted file preserved. No explicit ACCEPTED comment was observed.",
+  "audit_actions": {
+    "read_only_remote": true,
+    "lease_calls": false,
+    "pr_mutations": false,
+    "heavy_tests": false
+  },
+  "action": "No PR or registration repair is needed. Preserve the checked proof and its provenance; do not modify the recorded main file."
+}

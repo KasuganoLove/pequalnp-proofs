@@ -1,0 +1,12 @@
+{
+  "task": "L-meta-2592",
+  "frozen_at": "2026-11-25T12:10:00Z",
+  "scope": "audit only; no new Lean proof or full target result",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5211,
+      "sha256": "b09b75140b4392a81b6287842ac98937f79949f3ecfd50396ce0b782f332e2c2"
+    }
+  ]
+}

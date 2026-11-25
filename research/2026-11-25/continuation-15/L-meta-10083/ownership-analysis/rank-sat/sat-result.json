@@ -1,0 +1,15 @@
+{
+  "start_utc": "2026-11-25T12:16:12.646400+00:00",
+  "end_utc": "2026-11-25T12:21:12.695270+00:00",
+  "elapsed_wall_seconds": 300.0488759479995,
+  "exit_code": 0,
+  "outcome": "UNKNOWN",
+  "outer_timeout": false,
+  "time_limit_seconds": 300,
+  "address_space_limit_bytes": 1073741824,
+  "cnf_sha256": "61c7a35162c198fb8f023c5bfca8b005a9ca37b1071f22f2734da162f4d291ab",
+  "proof_format": "gzip-compressed text LRAT",
+  "proof_bytes": 648373859,
+  "formal_proof_checked": false,
+  "repeated_run": false
+}

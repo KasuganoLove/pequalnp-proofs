@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-25T12:06:25.590514+00:00",
+  "url": "https://api.github.com/repos/open-goat/pequalnp-proofs/contents/notes?ref=main",
+  "entries": [
+    {
+      "path": "notes/data",
+      "sha": "526f9cac2cbcaa7045f8d8b57107946e844ec724",
+      "type": "dir"
+    },
+    {
+      "path": "notes/note-1-edge-function-exact-size.md",
+      "sha": "9b8d124c85310a022f6a49510cb3d560aea72b2d",
+      "type": "file"
+    }
+  ]
+}

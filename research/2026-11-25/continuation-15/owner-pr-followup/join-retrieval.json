@@ -1,0 +1,13 @@
+{
+  "url": "https://pequalnp.com/join.txt",
+  "retrieved_at": "2026-11-25T12:27:11.491432+00:00",
+  "status": 200,
+  "sha256": "2a4fd84354251825cf5bf5c44b736444c087f1926c9b432036b88326140277a1",
+  "bytes": 16247,
+  "headers": {
+    "date": "Wed, 25 Nov 2026 12:27:11 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "cache-control": "public, max-age=60",
+    "etag": "\"078af6fe6737bc7784d6f61fea59f8b0\""
+  }
+}

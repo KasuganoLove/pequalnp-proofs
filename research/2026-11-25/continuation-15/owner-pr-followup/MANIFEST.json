@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-11-25T12:38:49.324226+00:00",
+  "final_status": "PR14022 officially merged and L-meta-10221 recorded checked; exact submitted source confirmed. Explicit ACCEPTED comment not observed.",
+  "scope": "Read-only PR/protocol audit; preserve chronology of earlier pending snapshots.10106 is unallocated planning-only metadata.",
+  "files": [
+    {
+      "path": "protocol-summary.md",
+      "bytes": 7062,
+      "sha256": "6a3f776150ea36edbf7b053fc82c4440b2c7bb0f7973e51a40fdc8a5e0832607"
+    },
+    {
+      "path": "protocol-safe-metadata.json",
+      "bytes": 1006,
+      "sha256": "5c496dd374681e3d03fee2cabc41dfb5fb5b1ca602a1c5f6d276613154599b98"
+    },
+    {
+      "path": "metadata-match.json",
+      "bytes": 1452,
+      "sha256": "8c7cd55868af23da7f69cbe527e493ea1ce38d63e46ec7bdb2360f992fb7e523"
+    },
+    {
+      "path": "current-selected-rows.json",
+      "bytes": 3310,
+      "sha256": "80ae3efe6af3c8d926395ea3f174fc282f6169c4bcfc0ebd0efa991ec6be350b"
+    },
+    {
+      "path": "step-after-registration.json",
+      "bytes": 396,
+      "sha256": "1133d6bc8063b7c2388ddee18361ebc0793a9605a802ccf9de7bf78f282ff018"
+    },
+    {
+      "path": "join-retrieval.json",
+      "bytes": 422,
+      "sha256": "31e39d8defc9aa10396a42527ccba462f3a4b261f7a56c1df51ab297b20ba8dc"
+    },
+    {
+      "path": "PR14022-status.json",
+      "bytes": 2120,
+      "sha256": "81c239b5c3ff86184ddf702087faf49964c176b8499955c4c79698fa272e0758"
+    },
+    {
+      "path": "L-meta-10221-step.json",
+      "bytes": 410,
+      "sha256": "48e63f73641f5c08928ba3666ae9909a933290cf6a823400c6c90689969cb420"
+    },
+    {
+      "path": "L-meta-10106-planning-only.json",
+      "bytes": 1035,
+      "sha256": "76410ca799186a317bff4c00c72510625dce8d2488429463f735d9b2844d4b8c"
+    },
+    {
+      "path": "protocol-check-1233.json",
+      "bytes": 818,
+      "sha256": "fce4f1b53fee4ce73f9503ce427c04e6c05e3de00fcd754f3b4071abfba08a48"
+    },
+    {
+      "path": "protocol-check-final.json",
+      "bytes": 485,
+      "sha256": "b8ea7d0d5c233be4dd6eda125defe974eb6a7e538dc14143f4b280ca816322c3"
+    },
+    {
+      "path": "merged-final-status.json",
+      "bytes": 2005,
+      "sha256": "096407679cd4c41afd1729bdd0f36a7d68d60d697a41bf02fafaa4b1d2e67e1e"
+    },
+    {
+      "path": "merged-selected-rows.json",
+      "bytes": 753,
+      "sha256": "9459a0feb851d9fe6c19d006872e48f6a08e3de97a15fb2cd6540f4a0bd4ccfc"
+    },
+    {
+      "path": "step-after-merge.json",
+      "bytes": 381,
+      "sha256": "0199c1663b1d486a242fccceb09911544141ab6bf0a24662449165a787fbc762"
+    }
+  ],
+  "payload_files": 14,
+  "payload_bytes": 21655,
+  "excluded": [
+    "Full join.txt",
+    "Full pnp.sh",
+    "Full third-party proof source",
+    "Private lease records",
+    "GitHub commit author email metadata",
+    "Browser tab details"
+  ]
+}

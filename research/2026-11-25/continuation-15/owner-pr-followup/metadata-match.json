@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-25T12:31:41.883588+00:00",
+  "task_id": "L-meta-10221",
+  "file": "lean/PEqualNP/Outside/L_meta_10221.lean",
+  "module": "PEqualNP.Outside.L_meta_10221",
+  "actual_imports": [
+    "Mathlib.Tactic",
+    "PEqualNP.Defs",
+    "PEqualNP.Defs.Represents"
+  ],
+  "task_allowed_imports": [
+    "PEqualNP.Defs",
+    "PEqualNP.Defs.Represents"
+  ],
+  "imports_allowed": true,
+  "statement_match": "exact tokens after removing only the posted redundant outer parentheses beneath negation and whitespace",
+  "actual_statement": "¬ PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (15768118 : ℕ).testBit (5 * u.val + v.val)) 10",
+  "posted_statement": "¬ (PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (15768118 : ℕ).testBit (5 * u.val + v.val)) 10)",
+  "local_source_sha256": "9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc",
+  "local_source_git_blob_sha": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+  "local_source_bytes": 109453,
+  "source_copy_difference_at_check": "none",
+  "pr_source_sha256": "9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc",
+  "pr_source_git_blob_sha": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+  "pr_source_bytes": 109453,
+  "proof_not_compiled_by_this_audit": true,
+  "pnp_sha256": "f9a02dbd2b46462551aa8974bf04966b79715dca8d576eea16b14888e836b394",
+  "pnp_git_blob_sha": "26e3f7b7d7320c872e89a3c2bbbf3b01ebdb6766",
+  "pnp_matches_github_blob": true
+}

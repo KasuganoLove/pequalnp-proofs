@@ -1,0 +1,9 @@
+{
+  "conflicts": 2674948,
+  "decisions": 4049353,
+  "maximum_resident_set_size_mib": 216.33,
+  "solver_process_seconds": 296.67,
+  "solver_wall_seconds": 300.0,
+  "solver_verdict": "UNKNOWN",
+  "formal_unsat_certificate": false
+}

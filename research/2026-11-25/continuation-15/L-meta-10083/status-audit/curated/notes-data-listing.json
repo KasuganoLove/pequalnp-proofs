@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-25T12:07:33.189814+00:00",
+  "url": "https://api.github.com/repos/open-goat/pequalnp-proofs/contents/notes/data?ref=main",
+  "entries": [
+    {
+      "path": "notes/data/lrat-link",
+      "sha": "85d4c74ca1e5be842b901c0000a1ef55e1af4889",
+      "type": "dir"
+    }
+  ]
+}

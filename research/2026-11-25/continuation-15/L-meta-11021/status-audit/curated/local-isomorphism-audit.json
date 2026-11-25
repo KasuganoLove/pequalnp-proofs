@@ -1,0 +1,113 @@
+{
+  "scope": "Heuristic literal-edge extraction from final public declarations in pinned checkout; does not cover helper-defined graphs or newer files. Public-table comparison covers only titles with explicit9-vertex edges.",
+  "target_edges": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      8
+    ]
+  ],
+  "degree_multiset": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    4
+  ],
+  "triangles": [
+    [
+      0,
+      4,
+      7
+    ],
+    [
+      3,
+      6,
+      8
+    ]
+  ],
+  "local_public_statements_with9_inputs_scanned": 447,
+  "matching_degree_literal_targets": 0,
+  "isomorphic_local_hits": [],
+  "isomorphic_public_table_hits": [
+    {
+      "id": "L-meta-11020",
+      "title": "Table 2: 9 vertices, edges 0-4 0-5 1-5 2-6 3-6 0-7 2-7 4-7 1-8 3-8 4-8 6-8: its edge function needs at least 16 AND/OR/NOT gates of fan-in at most two",
+      "pr_numbers": [],
+      "map": {
+        "8": 8,
+        "3": 3,
+        "1": 1,
+        "2": 2,
+        "5": 5,
+        "0": 0,
+        "4": 4,
+        "6": 6,
+        "7": 7
+      }
+    },
+    {
+      "id": "L-meta-11021",
+      "title": "False: 9 vertices, edges 0-4 0-5 1-5 2-6 3-6 0-7 2-7 4-7 1-8 3-8 4-8 6-8: its edge function needs at least 16 AND/OR/NOT gates of fan-in at most two",
+      "pr_numbers": [],
+      "map": {
+        "8": 8,
+        "3": 3,
+        "1": 1,
+        "2": 2,
+        "5": 5,
+        "0": 0,
+        "4": 4,
+        "6": 6,
+        "7": 7
+      }
+    }
+  ]
+}

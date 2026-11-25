@@ -1,0 +1,16 @@
+{
+  "id": "L-meta-10083",
+  "title": "Cycle family at k = 15 (45 by 45): no circuit of at most 103 AND/OR gates of fan-in at most two represents it",
+  "statement": "¬ (PEqualNP.Represents.RepSizeAtMost (fun a b : Fin 45 => decide (∃ i : Fin 15, ((a.val = i.val ∨ a.val = 15 + i.val) ∧ (b.val = (i.val + 1) % 15 ∨ b.val = 30 + i.val)) ∨ ((b.val = i.val ∨ b.val = 15 + i.val) ∧ (a.val = (i.val + 1) % 15 ∨ a.val = 30 + i.val)))) 103)",
+  "file": "lean/PEqualNP/Outside/L_meta_10083.lean",
+  "module": "PEqualNP.Outside.L_meta_10083",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "direction 5: whether a lower-bound method must see ORs shared between a row and a column",
+  "sketch": "A proof is one explicit counterexample to the positive statement L-meta-10082; none is expected if that statement is true.",
+  "faithful_by_template": {
+    "template": "cycle-k-represent-2",
+    "hash": "29b39e5bacbb074bfc0b8a2ebcbd40e59753702644e196be1b2ca033366d0628"
+  }
+}

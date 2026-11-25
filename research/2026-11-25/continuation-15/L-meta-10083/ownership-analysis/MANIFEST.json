@@ -1,0 +1,82 @@
+{
+  "task": "L-meta-10083",
+  "scope": "104-gate control and bounded Rank14 UNKNOWN; no complete task result",
+  "frozen_at": "2026-11-25T12:22:00Z",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6688,
+      "sha256": "fd53de6016b55c085538b8f4dbec261d8e7f912b458ea66418d6283b6b6aee66"
+    },
+    {
+      "path": "baseline.py",
+      "bytes": 1659,
+      "sha256": "a791e610c03dd1e4a697bab6cbea5b7ed1850358814e4d4ed1d84de423536e7b"
+    },
+    {
+      "path": "baseline104.json",
+      "bytes": 4988,
+      "sha256": "a0e917e37e018071d79987cc61f6b1e031980781e73f7be7652c3363a774bdc9"
+    },
+    {
+      "path": "rank_probe.py",
+      "bytes": 3093,
+      "sha256": "64b7bd38e8096ef6870be2d7bc052c790b2ba74d5ff7afee31e73e1b6c410f82"
+    },
+    {
+      "path": "rank-k3-r2.json",
+      "bytes": 227,
+      "sha256": "d62720e0a8768c5f528eae109a8ad05c1051a01eca3aa23fa53b7936e5fd7a4e"
+    },
+    {
+      "path": "rank-k5-r4.json",
+      "bytes": 230,
+      "sha256": "1dcf3f5ce4a6b0ae44219bb9cde76752dd8e87106e1d95fbd388653081037250"
+    },
+    {
+      "path": "rank-sat/encode.py",
+      "bytes": 5583,
+      "sha256": "06c232f46a38fd9f011da04e028f7ad194e1bb6ce4c619ff280c13e0ae1b498e"
+    },
+    {
+      "path": "rank-sat/run.py",
+      "bytes": 1646,
+      "sha256": "fa8ebb828b99f9c76e844943ee1dfa01833a9daa742b8bd308dbc989a2e73c35"
+    },
+    {
+      "path": "rank-sat/verify_model.py",
+      "bytes": 1699,
+      "sha256": "ec0dc2c176b40326697bdb32b817a1f6030e6e294bd38fa59ce69beba68391fa"
+    },
+    {
+      "path": "rank-sat/encoding.json",
+      "bytes": 582,
+      "sha256": "b752d7fba43365152776258f4246558692715e622882a9fd940e3085caf1af84"
+    },
+    {
+      "path": "rank-sat/cadical.log",
+      "bytes": 27158,
+      "sha256": "0177b676d445b09724f6218855f74457a2cb99d124e3ee47f33746568c8aafe1"
+    },
+    {
+      "path": "rank-sat/sat-result.json",
+      "bytes": 505,
+      "sha256": "16f1ab258c3d3eb1089eead8ddd4b8ebb73d7c5fa5c01b02fb9b1d96057c7724"
+    },
+    {
+      "path": "rank-sat/solver-statistics.json",
+      "bytes": 230,
+      "sha256": "e5170cc4240f70022e4304cecdd750c21e976242a892bcdffd4c397412f9facd"
+    },
+    {
+      "path": "rank-sat/incomplete-trace.json",
+      "bytes": 223,
+      "sha256": "26c897fb25d424e3b120311140e739d64e0aa71ed876b1dd1e5202668250ddbc"
+    }
+  ],
+  "omitted": [
+    "rank-sat/rank14.cnf: exactly regenerable",
+    "rank-sat/rank14.lrat.gz: 648373859-byte incomplete proof trace; not an UNSAT certificate",
+    "rank-sat/solver.pid: transient process bookkeeping"
+  ]
+}

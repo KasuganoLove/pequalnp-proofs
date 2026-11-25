@@ -1,0 +1,56 @@
+{
+  "task": "L-meta-11021",
+  "status": "UNKNOWN after one300-second exact15-gate search; no witness or lower-bound proof",
+  "validation": "Independent Python internal-CNF sanity check and complete512-row replay of16-gate baseline; no Lean or strict checker",
+  "excluded_regenerable": [
+    "formula.cnf",
+    "encoding.json"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2986,
+      "sha256": "8d4dc06bbe93fdb1c50e99a3452766431eeb0a089797b389a4482d264042336b"
+    },
+    {
+      "path": "synthesize15.py",
+      "bytes": 7125,
+      "sha256": "dd685a31c4249537544167932d10067063e0b958cd4929dac945f1b53604da43"
+    },
+    {
+      "path": "audit_encoding.py",
+      "bytes": 3303,
+      "sha256": "8ef98af70f9e7bb6eaeafdad1a2ed579258076dd1fb0fcda01a3c12de7052b6e"
+    },
+    {
+      "path": "baseline16.json",
+      "bytes": 1361,
+      "sha256": "9ae52850e204a9df3357700dcce6c8e4f0703b44332f2ee3ceb00b123b32d5bb"
+    },
+    {
+      "path": "encoding-summary.json",
+      "bytes": 322,
+      "sha256": "a220774624b8c923da3a38e407c8935462898160ef30420c656c2ac9fb2ef709"
+    },
+    {
+      "path": "encoding-audit.json",
+      "bytes": 275,
+      "sha256": "a0001c5aa4ac5a7f3fa7c7951ce411671d12a8cb443c803d15df2808a0ea0caa"
+    },
+    {
+      "path": "run.log",
+      "bytes": 544,
+      "sha256": "9e2e5216d9637ff9f988d31a57390412b9b5875677c90a26dbcf3ec8f4e389fa"
+    },
+    {
+      "path": "solver.log",
+      "bytes": 20109,
+      "sha256": "f65b3f4a241400d9517e05ae02d14da47c6222ea709ad000c12ae6fbfee5e36e"
+    },
+    {
+      "path": "result.json",
+      "bytes": 288,
+      "sha256": "64a1f48f24f557f6d01e35063c8728682890b7ac8df69c1075608c97c6f10d43"
+    }
+  ]
+}

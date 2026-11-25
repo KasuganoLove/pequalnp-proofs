@@ -1,0 +1,8 @@
+{
+  "gate_relation_cases": 40,
+  "internal_cnf_clauses_replayed": 436095,
+  "output_constraint_rows_checked": 512,
+  "baseline16_rows_checked": 512,
+  "baseline16_mismatches": [],
+  "scope": "Local generator sanity checks only; no formal completeness or UNSAT certificate"
+}

@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-11-25T12:38:49.320319+00:00",
+  "current_status": "officially_merged_and_checked",
+  "task": "L-meta-10221",
+  "pr_number": 14022,
+  "merged_at": "2026-11-25T12:30:48Z",
+  "explicit_ACCEPTED_comment_observed": false,
+  "authoritative_checked_table_observed": true,
+  "exact_submitted_file_preserved": true,
+  "details": "merged-final-status.json",
+  "earlier_pending_snapshot": "protocol-check-1233.json",
+  "additional_registration_or_repair_needed": false
+}

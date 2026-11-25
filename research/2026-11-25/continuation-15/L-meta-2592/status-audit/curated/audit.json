@@ -1,0 +1,144 @@
+{
+  "observation_window_utc": "2026-11-25 11:48–11:58 UTC",
+  "public_desk_snapshot": "2026-11-25T11:48:15.927Z",
+  "public_desk_url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "public_desk_sha256": "2b7765491b9589b0c5154025d2d1d1238676dceb1bc9bf9d7c14d36067da46eb",
+  "target": {
+    "id": "L-meta-2592",
+    "parent": "L-meta-651",
+    "sibling": "L-meta-2590",
+    "negative_twin": "L-meta-2593",
+    "negative_literal_text_equality_verified": true,
+    "scope": "Any FanInTwo circuit of at most19 gates with at least one syntacticNOT cannot compute the full10-variable Petersen edge function.",
+    "step_queried_utc": "2026-11-25T11:52:06.402937Z",
+    "step_state": "leased",
+    "live_reductions": 3
+  },
+  "prior_exact_title_prs": [
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/12799",
+      "number": 12799,
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-11-25T07:07:20Z",
+      "updated_at": "2026-11-25T07:18:53Z",
+      "head_sha": "a1392d2beea8d64b3d5f1cb5743e3add2cf5d4d1",
+      "head_repository": "mytrashcan/pequalnp-proofs",
+      "changed_files": 1,
+      "additions": 56,
+      "actual_kind": "reduction",
+      "verdict_comment": "https://github.com/open-goat/pequalnp-proofs/pull/12799#issuecomment-7155723166",
+      "result": "Checker accepted cut but it was not recorded because its author had five open reductions; closed unmerged."
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/12707",
+      "number": 12707,
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-11-25T06:29:56Z",
+      "updated_at": "2026-11-25T07:04:30Z",
+      "head_sha": "c0b722c03190bd16763d003538b70fa1209f4eb5",
+      "head_repository": "mytrashcan/pequalnp-proofs",
+      "changed_files": 1,
+      "additions": 56,
+      "actual_kind": "reduction",
+      "verdict_comment": "https://github.com/open-goat/pequalnp-proofs/pull/12707#issuecomment-7155459090",
+      "result": "Same contributor-quota closure; not a complete2592 proof."
+    }
+  ],
+  "reductions": [
+    {
+      "id": "R-meta-2592-271",
+      "hash": "294b4071a7bfa4119409afbe6be3b59014410557565a7352f2fe0e49539952cd",
+      "checked_child": {
+        "id": "L-meta-4725",
+        "scope": "15 + notCount C ≤ C.size for every correct FanInTwo Petersen circuit",
+        "hash": "1f9ecfd77d1ca6167a432c28243b294bb92df7242e37de34678357516ca2b3e2"
+      },
+      "open_child": {
+        "id": "L-meta-4727",
+        "scope": "Reject size≤19 correct circuits with1–4NOTs",
+        "live_step_open": true
+      }
+    },
+    {
+      "id": "R-meta-2592-318",
+      "hash": "2435667fe46005414c2b7497b42708817c235cab133ce7240d4bcd8e445c9612",
+      "checked_child": {
+        "id": "L-meta-8295",
+        "scope": "Cut at lastNOT; FanInTwo prefixP, monotone suffixQ, preserve all prefix wires and append one complement; sizes sum+1",
+        "hash": "3c4298fea2b9cb541d262b293745fd06cafd48ad0317a33fcc2b3bc2a827dc5d"
+      },
+      "open_child": {
+        "id": "L-meta-8297",
+        "scope": "The corresponding prefix/suffix separator with |P|+|Q|≤18",
+        "live_step_open": true
+      }
+    },
+    {
+      "id": "R-meta-2592-408",
+      "hash": "3f02675dd0814aa1b253cf9077dfe229108ffd6795469d1c5da177db1a672db9",
+      "checked_child": {
+        "id": "L-meta-7389",
+        "scope": "Normalize earlier reads and unaryNOT, put output last, preserveNOT or strictly reduce size",
+        "hash": "ad7f7da0fb9cc5e7ad3df650138290d5110300d0ab1606de52c9e708da5477aa"
+      },
+      "open_child": {
+        "id": "L-meta-7391",
+        "scope": "Legal-output-last circuits with size<19 or someNOT still cannot compute Petersen",
+        "live_step_open": true
+      }
+    }
+  ],
+  "open_child_steps_queried_utc": "2026-11-25T11:54:12Z",
+  "few_not_subcuts": {
+    "accepted_pr9316": {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/9316",
+      "number": 9316,
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T19:53:09Z",
+      "updated_at": "2026-11-25T02:09:11Z",
+      "head_sha": "12d9368701cd846c281f318c98204a4ef1c8effb",
+      "head_repository": "0xshuzo/pequalnp-proofs",
+      "changed_files": 1,
+      "additions": 40,
+      "actual_file": "lean/PEqualNP/Outside/R_meta_4727_17.lean",
+      "verdict_comment": "https://github.com/open-goat/pequalnp-proofs/pull/9316#issuecomment-7145105095",
+      "checker_exit": 0,
+      "meaning": "Accepted reduction only; not a proof of4727"
+    },
+    "routes": [
+      {
+        "cut": "R-meta-4727-17",
+        "checked_child": "L-meta-6060",
+        "open_child": "L-meta-6062"
+      },
+      {
+        "cut": "R-meta-4727-53",
+        "checked_child": "L-meta-7227",
+        "open_child": "L-meta-7229"
+      }
+    ],
+    "exact_open_child_pr_searches_empty": true
+  },
+  "related_free_not": {
+    "task": "L-meta-2598",
+    "snapshot_state": "open",
+    "snapshot_live_reductions": 3,
+    "exact_title_pr_search": "Only reductionPRs10445,9020,8152,5077; no complete proof found.",
+    "checked_helpers": [
+      "L-meta-5367",
+      "L-meta-6081"
+    ]
+  },
+  "source_review": {
+    "L7389_endpoint_matches_cut": true,
+    "L8295_endpoint_matches_cut": true,
+    "L4725_local_source_matches_official_hash": true,
+    "downloaded_reference_hashes_match_official_desk": true,
+    "unconditional_monotone_lower_bound_inferred": false
+  },
+  "outcome": "No available complete proof, counterexample, or accepted numerical residual found in this bounded pass.",
+  "restrictions": "No lease actions, remote writes, new mathematical proof, solver run, ordinaryLean or strict check by this agent."
+}

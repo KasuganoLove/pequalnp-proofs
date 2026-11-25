@@ -1,0 +1,95 @@
+{
+  "observed_utc": "2026-11-25 12:00–12:08 UTC",
+  "task": "L-meta-10083",
+  "positive_twin": "L-meta-10082",
+  "target": {
+    "k": 15,
+    "dimension": 45,
+    "budget": 103,
+    "semantics": "Representation on all2025 one-left-one-right assignments, not a full90-variable Boolean function."
+  },
+  "template": {
+    "id": "cycle-k-represent-2",
+    "hash": "29b39e5bacbb074bfc0b8a2ebcbd40e59753702644e196be1b2ca033366d0628"
+  },
+  "desk": {
+    "url": "https://data.pequalnp.com/data/desk/gaps.json",
+    "updated_at": "2026-11-25T12:00:28.146Z",
+    "sha256": "148bba725d16e888c3afefd8971ec5459bbdd6839708aa8743db11328258c18a"
+  },
+  "exact_task_pr_searches": {
+    "L_meta_10083": [],
+    "L_meta_10082": []
+  },
+  "steps": {
+    "queried_utc": "2026-11-25T12:00:59Z",
+    "L_meta_10083": "leased",
+    "L_meta_10082": "leased",
+    "identity_inference": false
+  },
+  "positive_sketch": {
+    "advertised_upper_formula": "7k-1",
+    "advertised_upper_at15": 104,
+    "advertised_lower_formula": "6k-1",
+    "advertised_lower_at15": 89,
+    "status": "Script-described upper bound, not located as a checked Lean theorem. It exceeds the requested103 budget by1."
+  },
+  "smaller_instance": {
+    "same_exact_matrix_family": true,
+    "k": 5,
+    "dimension": 15,
+    "negative_task": "L-meta-9484",
+    "budget": 32,
+    "pr": {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/13556",
+      "number": 13556,
+      "author": "sheganinans",
+      "head_sha": "2729f5c656ee99b60af92b92f1c6a45d549b431a",
+      "head_repository": "sheganinans/pequalnp-proofs",
+      "state": "open",
+      "merged": false,
+      "source_path": "lean/PEqualNP/Outside/L_meta_9484.lean",
+      "source_git_blob": "b1dea53181d854bfc4b515c3b2e6c24b9b948772",
+      "source_sha256": "6a9c99d2183fbc3dea25bcb4c6a6d99d7c9fc6bc2bffb731aeb2e2f164fd4bbe",
+      "source_bytes": 43900
+    },
+    "official_verdict": {
+      "result": "ACCEPTED",
+      "exit_code": 0,
+      "at": "2026-11-25T11:54:05Z",
+      "comment_url": "https://github.com/open-goat/pequalnp-proofs/pull/13556#issuecomment-7161654359",
+      "run_url": "https://github.com/open-goat/pequalnp-proofs/actions/runs/45606713415"
+    }
+  },
+  "useful_generic_api": {
+    "Rank": "Rank0 means remaining matrix is a disjoint union of complete bipartite components. Each additional round removes one equal-row class and one equal-column class.",
+    "cut_budget": "Any monotone circuit false at zero yields a dependency setN and deletion budgetr with |N|+r≤number_of_gates+1; pairwise representation transfers to Rank.",
+    "scope_limit": "The accepted instance proves absence of3 deletion rounds for k5. It does not itself prove absence of14 rounds for k15."
+  },
+  "actual_33_gate_k5_witness": {
+    "located": false,
+    "exact_positive_pr_searches": {
+      "L_meta_9480": [],
+      "L_meta_9483": [],
+      "L_meta_9485": []
+    },
+    "checked_local_repo_cycle_search": "No matching Lean construction or cycle-generator script found.",
+    "public_repository_directory_search": "Current notes, tools and notes/data listings checked; no33-gate witness identified.",
+    "primary_web_search": "No relevant witness found.",
+    "sketch_problem": "Identical best-one-more sketches accompany both cap32 row9483 and cap33 row9485 for the same matrix. They cannot identify one unique best circuit; do not infer a verified33-gate witness."
+  },
+  "constraints": {
+    "no_new_proof": true,
+    "no_compilation": true,
+    "no_solver_run": true,
+    "no_remote_mutations": true,
+    "no_lease_actions": true,
+    "no_official_submission_by_us": true
+  },
+  "exclusions": [
+    "Full desk JSON",
+    "Full third-party9484 proof",
+    "Unrelated search hits",
+    "Private lease records"
+  ]
+}

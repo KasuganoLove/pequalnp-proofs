@@ -1,0 +1,36 @@
+{
+  "pr": 14022,
+  "head": "bc59c2be036e28415543dcb42dd8da78d4439163",
+  "source_git_blob": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+  "source_bytes": 109453,
+  "source_sha256": "9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc",
+  "transport_correction": "Removed exactly one extra trailing newline; restored expected Git blob before final audit build. No proof code changed.",
+  "ordinary_lean_exit_code": 0,
+  "ordinary_lean_threads": 1,
+  "ordinary_lean_log": "ordinary-lean.log",
+  "ordinary_lean_warnings": "Inherited tactic style and deprecated push_neg only",
+  "format_guard_exit_code": 0,
+  "format_guard_log": "format-guard.log",
+  "exact_posted_type_check_exit_code": 0,
+  "axiom_log": "exact-type-axioms.log",
+  "formal_strict_checker_run": false,
+  "remote_mutations": false,
+  "audit_completed_at": "2026-11-25T12:32:28.739725+00:00",
+  "reference": {
+    "task": "L-meta-9195",
+    "author": "tb-16",
+    "pr": 13373,
+    "merge": "9025f81315571fe9b237f2fd3aed4f123b1e8757",
+    "sha256": "b358ad57b53243df24c1908382c59f29819715761f8eacec38d032b0826aea20",
+    "license": "Apache-2.0"
+  },
+  "checkout_commit": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "statement_sha256": "58710f2ea516af854d60df2d64dab89bcc1bfe66af34028df30bcf4249111bc7",
+  "format_guard_sha256": "a4fde1897820a2a4a3e0d74bf1079259e310de1f1ede37c9a91adaf895842781",
+  "lean_toolchain": "leanprover/lean4:v4.36.0"
+}

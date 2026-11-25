@@ -1,0 +1,64 @@
+{
+  "scope": "Immutable ordinary audit of existing official PR14022; no strict or remote action",
+  "source_git_blob": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+  "source_sha256": "9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc",
+  "files": [
+    {
+      "path": "OWNERSHIP_AUDIT.md",
+      "bytes": 3369,
+      "sha256": "7e22edd82c6402a6dec970db0c44ff111c7ae6ba27ae5e7fa8c686fd24cfdbac"
+    },
+    {
+      "path": "ownership-check-result.json",
+      "bytes": 1497,
+      "sha256": "20069affdb1ea8fe56b9b290ad87b551d08e2f1f2832b6973c0c1de3d35b1c3d"
+    },
+    {
+      "path": "ownership-audit.py",
+      "bytes": 4139,
+      "sha256": "86fd96c973eea6e51a6ee6422e24ca410580c23788d99a9b598bc4b72a467358"
+    },
+    {
+      "path": "independent-audit.json",
+      "bytes": 2036,
+      "sha256": "ea6ab8eaeb446ce21de6584ece225937cfd979d11f9a79b39a521c49fd45983e"
+    },
+    {
+      "path": "generic-source.diff",
+      "bytes": 2016,
+      "sha256": "60087d343f4a70fd96b051c6023cddcf1236cadecacfd90f5d8b48033321e27e"
+    },
+    {
+      "path": "ordinary-lean.log",
+      "bytes": 1749,
+      "sha256": "434af587837ea89db4e815f204a0cfe4db25adb6734c2600efa29ab25a9021b4"
+    },
+    {
+      "path": "format-guard.log",
+      "bytes": 71,
+      "sha256": "d42e35690c819b905ed4b8893d4dead55168db8d238f8c02b5cf8bb7bc2eb757"
+    },
+    {
+      "path": "exact-type-axioms.log",
+      "bytes": 91,
+      "sha256": "59f967b746888c9c8e201a2790471ce44aef9a4a94292df067e96c4f4afe199d"
+    },
+    {
+      "path": "Pnp10221OwnerTypeCheck.lean",
+      "bytes": 223,
+      "sha256": "d45acb8f30627cc26e7f0f43e85c9573b9bf04db98d9c9e1b41b518f15f1e4da"
+    },
+    {
+      "path": "imports.json",
+      "bytes": 46,
+      "sha256": "6be02a57d790ad662ac5f198b1e3f108ef17086997074291460751adc8d969ea"
+    },
+    {
+      "path": "statement.txt",
+      "bytes": 107,
+      "sha256": "58710f2ea516af854d60df2d64dab89bcc1bfe66af34028df30bcf4249111bc7"
+    }
+  ],
+  "source_staged_separately": "L_meta_10221.lean",
+  "non_authoritative_log": "ordinary-transport-newline.log"
+}

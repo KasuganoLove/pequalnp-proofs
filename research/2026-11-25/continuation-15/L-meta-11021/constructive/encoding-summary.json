@@ -1,0 +1,17 @@
+{
+  "inputs": 9,
+  "gates": 15,
+  "rows": 512,
+  "ops": [
+    "and",
+    "or",
+    "not",
+    "false",
+    "true"
+  ],
+  "variables": 23595,
+  "clauses": 436607,
+  "cnf_bytes": 8166694,
+  "cnf_sha256": "6e7e6831adc179eb4d6d63fb6e5c5212f666b93771ab883008f1a3d1917d1ad9",
+  "wire_order": "raw 0..8; gates 9..23; output23"
+}

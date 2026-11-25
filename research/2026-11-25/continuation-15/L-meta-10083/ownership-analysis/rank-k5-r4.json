@@ -1,0 +1,10 @@
+{
+  "k": 5,
+  "round_budget": 4,
+  "seconds_cap": 20.0,
+  "scope": "ordinary computation of Rank only; not a circuit",
+  "status": "timeout",
+  "elapsed_seconds": 20.003186627000105,
+  "calls": 6564864,
+  "failed_states": 47852
+}

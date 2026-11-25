@@ -1,0 +1,58 @@
+{
+  "audited_at": "2026-11-25T12:23:00Z",
+  "scope": "Read-only current official PR and public desk evidence; no lease or remote write.",
+  "own_pr": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/14022",
+    "number": 14022,
+    "state": "open",
+    "merged": false,
+    "mergeable": true,
+    "draft": false,
+    "created_at": "2026-11-25T12:08:02Z",
+    "head": "codex/l-meta-10221-20261125",
+    "head_sha": "bc59c2be036e28415543dcb42dd8da78d4439163",
+    "head_repo": "KasuganoLove/pequalnp-proofs",
+    "changed_files": 1,
+    "commits": 1,
+    "file": "lean/PEqualNP/Outside/L_meta_10221.lean",
+    "comments": [],
+    "official_verdict": "none_observed",
+    "workflow_runs": [
+      {
+        "id": 45610878056,
+        "name": "advisory",
+        "status": "completed",
+        "conclusion": "action_required",
+        "run_number": 14711,
+        "jobs_url": "https://api.github.com/repos/open-goat/pequalnp-proofs/actions/runs/45610878056/jobs",
+        "logs_url": "https://api.github.com/repos/open-goat/pequalnp-proofs/actions/runs/45610878056/logs",
+        "workflow_id": 427327651
+      }
+    ],
+    "workflow_jobs": []
+  },
+  "desk_discrepancy": {
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-10221",
+    "observed_at": "2026-11-25T12:21:38.939147+00:00",
+    "state": "open",
+    "say": "Open: no pull request waiting and nobody holds it.",
+    "cause": "not_known; do not infer that GitHub PR does not exist"
+  },
+  "related_8659": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/12805",
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-11-25T07:16:16Z",
+    "author": "k-sandhu",
+    "merge_commit_sha": "86788434987d1306036c8aaea69284fa0863df4a"
+  },
+  "related_9224": {
+    "own_branch_matching_pr_search": "none",
+    "already_known_other_author_proof_prs": [
+      13399,
+      13445
+    ],
+    "latest_verdicts_not_requeried": true
+  },
+  "conclusion": "Continue on existing official PR14022; no duplicate. Workflow action_required with zero jobs is not an official proof verdict; exact blocking cause not stated by retrieved API."
+}

@@ -1,28 +1,37 @@
-# ACTIVE_WORK — 2026-11-25 continuation-14 publication
+# Active P vs NP work
 
-## Goal and current result
+Updated from observed evidence through 2026-11-25 12:39 UTC. This is a dated coordination record; new task work requires a valid current allocation. Prepared separately from the continuation-15 archive for root review before publication.
 
-Continue the P-vs-NP formal-proof effort using KasuganoLove/pequalnp-proofs and official upstream open-goat/pequalnp-proofs. The user wants a valid public upstream proof PR for each completed phase, with the official verdict accurately recorded. This checkpoint is research preservation only: no new official proof PR or ACCEPTED has been obtained.
+## Official contribution confirmed
 
-## Active allocated problem
+The user's phase criterion is a meaningful **public upstream PR**. Official acceptance wording is not an extra condition imposed by us.
 
-L-meta-2592 was allocated at 11:49:57 UTC and last confirmed renewed at 11:52:19.346576 UTC, HTTP 200. It says that a FanInTwo circuit of at most 19 gates containing at least one NOT cannot compute the full Petersen edge function on 10 inputs. It is not the monotone sibling2590 and does not assume exactly one essential NOT. The three reduction slots are full. Checked tools give a binary-gate floor and legal-read/last-NOT normalization, but the remaining quantitative children are still open; older accepted reductions must not be reported as complete lower bounds. Parallel structural and constructive investigation is ongoing. Root owns renewals, checker runs, and any publication.
+The user's other Codex session created [official PR #14022](https://github.com/open-goat/pequalnp-proofs/pull/14022), **L-meta-10221**, at **2026-11-25 12:08:02 UTC**. It was **merged at 12:30:48 UTC** in commit `1fc91c4a3a59d36d4c1490dcd945a5449ead499f`. The public desk snapshot updated 12:35:52.311 records L-meta-10221 as **checked**. This root did not create the PR; it performed follow-up review and coordination. Do not submit a duplicate or modify the now-recorded proof.
 
-The latest separate ordinary allocation request at 11:52:37 UTC returned no free new task and retry_after_s=300. Respect the retry period; after a successful release, join.txt explicitly permits asking immediately for a new task.
+The original PR, merge commit and current main all contain the same 109,453-byte source: Git blob `1f0d7cf983743bb6e5f588a28908f2d0682d4389`, SHA256 `9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc`. The proof specializes tb-16's checked L9195 / PR13373 to mask 15768118. It proves no at-most-10-gate AND/OR representation on the 25 oneEach inputs.
 
-## Closed work preserved in continuation-14
+This session's exact ordinary Lean build, source/import guard and posted-type check passed. The axiom audit returned only propext, Classical.choice and Quot.sound. All 25 sample bits and ten leaf signatures were independently verified. No local strict checker was run on this PR. No explicit ACCEPTED comment was observed; the precise authoritative outcome is **officially merged and recorded checked**.
 
-- L-meta-9219: released 11:32:58.305482 UTC, HTTP200, statement_seems_false. A 300-second SAT attempt was UNKNOWN and a 300-second heuristic found only a 24/25 near miss. Subsequently, an existing upstream negative proof was checked by ordinary Lean with only the standard three axioms. It was not our new contribution.
-- L-meta-9267 / negative twin9269: released 11:38:50.354622 UTC, HTTP200, statement_seems_false. A direct specialization of the checked tb-16 proof9195 compiled in18.326s. Strict checking ended FAULT, verifier exit137, with no mathematical verdict. The exact noncomment code was already in earlier PR13475, and the live step endpoint instructed asking for another task. No duplicate was submitted. An independent11-gate baseline and all25-row checks are preserved. Full third-party source is represented by a small patch and hash-checked reconstruction instructions.
-- L-meta-2600: released 11:47:58.309728 UTC, HTTP200, missing_lemma. Its weaker PG3 lower bound63 still needs a new multi-exception argument. Strengthened ledger arithmetic and small finite counterexamples expose the precise remaining assumptions. Current-status claims retain their observation timestamps.
-- L-meta-9457: released 11:49:50.899045 UTC, HTTP200, other. Its negative twin9458 already had PR13548 and the step endpoint reported pr_open; no new proof search or compilation was started.
+Earlier task-display inconsistency and advisory approval-pending observations are historical. The fresh checked entry resolves the outcome. No registration repair, backfilled lease, replacement PR, or maintainer action is needed for this completed submission.
 
-## Previously ready, currently blocked proof
+## Current root task
 
-The exact strict-checked8323 proof remains at codex/prove-meta-8323-2026-11-25, head0873097889691e4d21f575dabed0c1cadd0bcb3a. The latest recorded step observation was NOT_OPEN at11:08:20 UTC, with no known reason or official acceptance. Do not submit that historical file as though its task were still open.
+Root was legitimately allocated **L-meta-10696 at 2026-11-25 12:36:43 UTC**. It concerns removal of one NOT for the seven-vertex edge function with edges 02, 13, 04, 24, 05, 25, 45, 06, 16, 26, 36, 46. Root owns renewal at roughly five-minute intervals; mathematical work is assigned to the ownership agent. Verify current lease evidence before continuing. No unfinished 10696 proof is included in continuation-15.
 
-## Environment and publication
+Default next at 12:31:06 had separately returned already-held **L-meta-11030**, with terms issued 12:08:20 by the other Codex session. This root did not renew, release or work that task. Do not interfere with that session's assignment.
 
-Local Chrome is connected and its visible GitHub account was verified as KasuganoLove. It is available for an authorized valid upstream PR; authentication is not the current obstacle. Follow the Browser plugin for user-local Chrome. Prepare one file and one commit on a fresh branch based on official main, preserve the exact posted statement, renew the live lease, then submit and record the actual official verdict.
+The additional warmup/prove request at 12:31:30 returned no assignment and a 300-second retry interval. Its nearest-solid hint 10106 was planning information, not authorization. That waiting observation is superseded by the actual 10696 allocation above.
 
-Research history is based on verified head4cda9ff9fa8fe74973e5f5f19bba0ed453a29351. Continuation-14 is a dated checkpoint of the closed problems, with no lease secrets, full desk dumps, generated binaries, or SAT CNFs. Do not confuse the research archive or fork-only branches with an official completed phase.
+## Closed research in continuation-15
+
+- **L-meta-2592:** released 12:10:40 UTC, HTTP 200. Bounded dependency/source audit and two architecture-specific obstructions; no full proof or 19-gate counterexample.
+- **L-meta-10083:** released 12:23:03 UTC, HTTP 200. A 104-gate oneEach baseline was verified; one 300-second Rank14 SAT run returned UNKNOWN, with no complete certificate or 103-gate witness.
+- **L-meta-11021:** released 12:23:04 UTC, HTTP 200. A 16-gate full-input baseline was verified; one 300-second 15-gate AND/OR/NOT synthesis run returned UNKNOWN, with no candidate or lower-bound proof.
+
+These three task leases are closed. Archived work does not authorize new task-specific proof or search without a fresh allocation.
+
+## Durable checkpoint
+
+Previous confirmed research head: `b90d004c33ec32b4c1a2f247f3594d92936c618e` (continuation-14), tree `f6ba530e2c68c438cb4b4918c80f5de1e450e9e8`. Continuation-15 is prepared under `pnp-publication-staging/continuation-15`, intended for `research/2026-11-25/continuation-15`. Root will record the actual publication commit after writing it.
+
+Packaging ran no new solver or Lean job. Large CNF, the incomplete 648 MB LRAT, full third-party proofs, credentials and repeated older artifacts are excluded. Historical snapshots retain their dates; final merge/checked evidence and the current task above supersede earlier observations.

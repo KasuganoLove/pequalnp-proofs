@@ -1,0 +1,70 @@
+{
+  "url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "retrieved_at": "2026-11-25T12:27:56.029670+00:00",
+  "updated_at": "2026-11-25T12:26:52.692Z",
+  "sha256": "6a5e6116c2fc115cde9dd5cc36974fa4d1430a5148a057ff469329f238d75a18",
+  "bytes": 4673654,
+  "headers": {
+    "date": "Wed, 25 Nov 2026 12:27:55 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=30",
+    "etag": "\"be25adf4139f6285628bdfa1cd6eee3c\"",
+    "last-modified": "Wed, 25 Nov 2026 12:27:29 GMT"
+  },
+  "selected_rows": {
+    "gaps": [
+      {
+        "id": "L-meta-10220",
+        "title": "Table 1a, 5 by 5, mask 15768118: represented by an AND/OR circuit of fan-in at most two with at most 10 gates",
+        "statement": "PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (15768118 : \u2115).testBit (5 * u.val + v.val)) 10",
+        "file": "lean/PEqualNP/Outside/L_meta_10220.lean",
+        "module": "PEqualNP.Outside.L_meta_10220",
+        "imports": [
+          "PEqualNP.Defs",
+          "PEqualNP.Defs.Represents"
+        ],
+        "unlocks": "One more exact Table 1a value at 5 by 5: whether sharing an OR saves a gate below the shared-OR circuit, the case a general lower bound must handle.",
+        "dead": [],
+        "weight": 55,
+        "parallel": 3,
+        "lane": "main",
+        "depth": 0,
+        "faithful_by_template": {
+          "template": "dir5-shared-5x5-at-most-10-f2",
+          "hash": "6a43040501f96675fc7e7047a2f3b64992936ae46beb4ed3a5bd09c57abb6ea0"
+        },
+        "sketch": "Is this 5 by 5 graph represented by at most 10 AND/OR gates of fan-in at most two? Known: an 11-gate circuit (one OR shared by two gates) and at least 10 (the read count). A general bound, on paper, predicts at least 11, and four masks of the first family landed that way. The truth is not known. A proof of either side: a 10-gate circuit, or one SAT refutation of 10 gates on 10 inputs through the public LRAT promise link (rep_lower_mask). Size: minutes.",
+        "pr_open": 0,
+        "pr_numbers": []
+      },
+      {
+        "id": "L-meta-10221",
+        "title": "Table 1a, 5 by 5, mask 15768118: representing it takes at least 11 AND/OR gates of fan-in at most two",
+        "statement": "\u00ac (PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (15768118 : \u2115).testBit (5 * u.val + v.val)) 10)",
+        "file": "lean/PEqualNP/Outside/L_meta_10221.lean",
+        "module": "PEqualNP.Outside.L_meta_10221",
+        "imports": [
+          "PEqualNP.Defs",
+          "PEqualNP.Defs.Represents"
+        ],
+        "unlocks": "One more exact Table 1a value at 5 by 5: whether sharing an OR saves a gate below the shared-OR circuit, the case a general lower bound must handle.",
+        "dead": [],
+        "weight": 55,
+        "parallel": 3,
+        "lane": "main",
+        "depth": 0,
+        "faithful_by_template": {
+          "template": "dir5-shared-5x5-at-most-10-f2",
+          "hash": "6a43040501f96675fc7e7047a2f3b64992936ae46beb4ed3a5bd09c57abb6ea0"
+        },
+        "sketch": "A proof is one explicit counterexample to the positive statement L-meta-10220; none is expected if that statement is true.",
+        "pr_open": 1,
+        "pr_numbers": [
+          14022
+        ]
+      }
+    ],
+    "checked": [],
+    "withdrawn": []
+  }
+}

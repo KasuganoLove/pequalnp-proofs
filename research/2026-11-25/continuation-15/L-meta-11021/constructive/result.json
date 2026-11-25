@@ -1,0 +1,12 @@
+{
+  "status": "UNKNOWN",
+  "exit_code": -15,
+  "wall_seconds": 300.01237364400004,
+  "cpu_seconds": 299.52232000000004,
+  "max_rss_kib": 158076,
+  "wall_limit_seconds": 300,
+  "virtual_memory_limit_bytes": 1073741824,
+  "timed_out": true,
+  "public_unsat_claim": false,
+  "attempts": 1
+}

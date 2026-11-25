@@ -1,0 +1,1 @@
+PEqualNP.Represents.RepSizeAtMost (fun a b : Fin 45 => decide (∃ i : Fin 15, ((a.val = i.val ∨ a.val = 15 + i.val) ∧ (b.val = (i.val + 1) % 15 ∨ b.val = 30 + i.val)) ∨ ((b.val = i.val ∨ b.val = 15 + i.val) ∧ (a.val = (i.val + 1) % 15 ∨ a.val = 30 + i.val)))) 103

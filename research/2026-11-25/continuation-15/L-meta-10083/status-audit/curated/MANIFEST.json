@@ -1,0 +1,78 @@
+{
+  "scope": "Current10083/10082 audit and exactk5 template comparison; no new proof",
+  "files": [
+    {
+      "path": "L-meta-10082.statement.txt",
+      "bytes": 279,
+      "sha256": "697c9997a432a460a513c3ab7010a06437e9752c62ab8213bd8947a929369ccd"
+    },
+    {
+      "path": "L-meta-10083.statement.txt",
+      "bytes": 284,
+      "sha256": "6d52b2bcd37626d4a179b0f6de0d8669e0820d95324a2a30ad00d1958abe94fb"
+    },
+    {
+      "path": "L-meta-9483.statement.txt",
+      "bytes": 273,
+      "sha256": "03eeb42cc04645c879f3f686a2eba46a1e2c2bf125ebca6055196d3b0af4b9ac"
+    },
+    {
+      "path": "L-meta-9484.statement.txt",
+      "bytes": 276,
+      "sha256": "6618a13c4a5a9266586cadb9cb72a9903d6ad8028b3b15c272cc68f33dabd735"
+    },
+    {
+      "path": "L-meta-9485.statement.txt",
+      "bytes": 273,
+      "sha256": "b3af496167d8adf4e6ead9ed34e479ff1c8c04352f8519dc91a1a63f9d534fd6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2332,
+      "sha256": "8648956b3f660907914547837c2c6cbf047fa5b6ac48014723c16e3ccc8ae593"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 3747,
+      "sha256": "c9f3c945a78afaf00bf32b7118a365647f09345a1cbe1d9ad3cbdb6781fab11c"
+    },
+    {
+      "path": "desk-retrieval.json",
+      "bytes": 288,
+      "sha256": "fc9643daba319aae4577c6d8376d99f2b9705024efc89db0d7b26d1495fd6a15"
+    },
+    {
+      "path": "matrix-template-identity.json",
+      "bytes": 3418,
+      "sha256": "5f017d20159a8a068cab5863fce030b6d25a324f00430310aa901d0df335ebf6"
+    },
+    {
+      "path": "negative-step.json",
+      "bytes": 261,
+      "sha256": "8decc0767a2ac0ffbb4585fce552df63f60664547af8ab94d56de9349b580e34"
+    },
+    {
+      "path": "notes-data-listing.json",
+      "bytes": 291,
+      "sha256": "787fb4401236afdc10d9d593f818a659d42a758ef0559d478ffd79fa493f3fcf"
+    },
+    {
+      "path": "notes-listing.json",
+      "bytes": 425,
+      "sha256": "6bc385d3da37da66393e464ce485642c7088a307cd6996c13d587dd252d49141"
+    },
+    {
+      "path": "positive-step.json",
+      "bytes": 261,
+      "sha256": "c58ace60359936de659285eb3d507cad12b97e36662c55c59e39c7982042d553"
+    },
+    {
+      "path": "tools-listing.json",
+      "bytes": 780,
+      "sha256": "0c4cb9c4d0a8ef3545fbe0c52bbac8b3d6658551d1b8fb6c1bc0a4592871e918"
+    }
+  ],
+  "payload_bytes": 13188,
+  "no_remote_mutations": true,
+  "no_lease_actions": true
+}

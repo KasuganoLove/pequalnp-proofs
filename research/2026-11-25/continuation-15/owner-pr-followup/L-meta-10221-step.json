@@ -1,0 +1,10 @@
+{
+  "retrieved_at": "2026-11-25T12:21:38.939147+00:00",
+  "url": "https://pequalnp.com/desk/step?gap=L-meta-10221",
+  "http_status": 200,
+  "body": {
+    "gap": "L-meta-10221",
+    "state": "open",
+    "say": "Open: no pull request waiting and nobody holds it. Lease it with /desk/next before you build. Never change a file that is already on main. Every proof is a NEW file; a recorded proof is final."
+  }
+}

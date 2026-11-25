@@ -1,0 +1,48 @@
+[
+  {
+    "id": "L-meta-11020",
+    "title": "Table 2: 9 vertices, edges 0-4 0-5 1-5 2-6 3-6 0-7 2-7 4-7 1-8 3-8 4-8 6-8: its edge function needs at least 16 AND/OR/NOT gates of fan-in at most two",
+    "statement": "∀ t : ℕ, PEqualNP.MetaComplexity.HasCircuitSize 9 (fun x : Fin 9 → Bool => (x 0 && x 4) || (x 0 && x 5) || (x 1 && x 5) || (x 2 && x 6) || (x 3 && x 6) || (x 0 && x 7) || (x 2 && x 7) || (x 4 && x 7) || (x 1 && x 8) || (x 3 && x 8) || (x 4 && x 8) || (x 6 && x 8)) t → 16 ≤ t",
+    "file": "lean/PEqualNP/Outside/L_meta_11020.lean",
+    "module": "PEqualNP.Outside.L_meta_11020",
+    "imports": [
+      "PEqualNP.Defs"
+    ],
+    "unlocks": "One exact entry of Table 2: whether NOT gates save a gate on this nine-vertex graph's edge function, against the AND/OR star circuit.",
+    "dead": [],
+    "weight": 58,
+    "parallel": 3,
+    "lane": "main",
+    "depth": 0,
+    "faithful_by_template": {
+      "template": "table2-nine-vertex-pairs-140",
+      "hash": "0498fdaaee0746f127a0d4e6b2bacf3ec97f268a481a1dd12de301b2ede7bd96"
+    },
+    "sketch": "Known: an AND/OR circuit of exactly k gates (edges plus cover number minus one) computes this edge function, so k is an upper bound. Our gate-elimination recursion on checked rows (an input fixed costs a gate, the 3-or-4 two-branch step, a fresh input costs one, the small-graph rows and 29 checked eight-vertex rows) reaches k - 1, no further. The bound needs one more gate; its twin needs a circuit with NOT gates of k - 1 gates; no NOT saving on a graph is in our tables. Truth unknown. Size: large; such eight-vertex rows (11 to 13 gates) were checked from outside proofs in about an hour each.",
+    "pr_open": 0,
+    "pr_numbers": []
+  },
+  {
+    "id": "L-meta-11021",
+    "title": "False: 9 vertices, edges 0-4 0-5 1-5 2-6 3-6 0-7 2-7 4-7 1-8 3-8 4-8 6-8: its edge function needs at least 16 AND/OR/NOT gates of fan-in at most two",
+    "statement": "¬ (∀ t : ℕ, PEqualNP.MetaComplexity.HasCircuitSize 9 (fun x : Fin 9 → Bool => (x 0 && x 4) || (x 0 && x 5) || (x 1 && x 5) || (x 2 && x 6) || (x 3 && x 6) || (x 0 && x 7) || (x 2 && x 7) || (x 4 && x 7) || (x 1 && x 8) || (x 3 && x 8) || (x 4 && x 8) || (x 6 && x 8)) t → 16 ≤ t)",
+    "file": "lean/PEqualNP/Outside/L_meta_11021.lean",
+    "module": "PEqualNP.Outside.L_meta_11021",
+    "imports": [
+      "PEqualNP.Defs"
+    ],
+    "unlocks": "One exact entry of Table 2: whether NOT gates save a gate on this nine-vertex graph's edge function, against the AND/OR star circuit.",
+    "dead": [],
+    "weight": 58,
+    "parallel": 3,
+    "lane": "main",
+    "depth": 0,
+    "faithful_by_template": {
+      "template": "table2-nine-vertex-pairs-140",
+      "hash": "0498fdaaee0746f127a0d4e6b2bacf3ec97f268a481a1dd12de301b2ede7bd96"
+    },
+    "sketch": "A proof is one explicit counterexample to the positive statement L-meta-11020; none is expected if that statement is true.",
+    "pr_open": 0,
+    "pr_numbers": []
+  }
+]

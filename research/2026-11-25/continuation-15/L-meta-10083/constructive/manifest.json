@@ -1,0 +1,22 @@
+{
+  "task": "L-meta-10083",
+  "status": "104-gate baseline only; no 103-gate witness",
+  "validation": "Python exhaustive check of 2025 oneEach assignments; no Lean or strict checker",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1921,
+      "sha256": "652e018c4edb73dd51483c133adbb53321f9e9ec60d3c4b43169637dd6442641"
+    },
+    {
+      "path": "cycle_baseline.py",
+      "bytes": 1313,
+      "sha256": "b06fa60bbbc517a3af62e5324fb8815c104c9d8ca6dae67acba4224d52cd1f2e"
+    },
+    {
+      "path": "baseline-k15.json",
+      "bytes": 4921,
+      "sha256": "be9aebd6eddf7602cdc8913aa2d6d22261bf2aed2d59ff0f8bf8645c94f00170"
+    }
+  ]
+}

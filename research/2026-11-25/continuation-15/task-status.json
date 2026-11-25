@@ -1,0 +1,86 @@
+{
+  "research_base_commit": "b90d004c33ec32b4c1a2f247f3594d92936c618e",
+  "research_base_checkpoint": "continuation-14",
+  "closure_evidence": "Root confirmation; raw lease records and identifiers intentionally not copied",
+  "tasks": [
+    {
+      "task": "L-meta-2592",
+      "released_at": "2026-11-25T12:10:40Z",
+      "http_status": 200,
+      "result": "Bounded audit only; no complete proof or19-gate circuit"
+    },
+    {
+      "task": "L-meta-10083",
+      "released_at": "2026-11-25T12:23:03Z",
+      "http_status": 200,
+      "result": "104-gate control verified; Rank14 solver UNKNOWN; no103-gate circuit or lower-bound proof"
+    },
+    {
+      "task": "L-meta-11021",
+      "released_at": "2026-11-25T12:23:04Z",
+      "http_status": 200,
+      "result": "16-gate control verified;15-gate solver UNKNOWN; no target proof"
+    }
+  ],
+  "no_active_lease_for_these_tasks": true,
+  "new_official_pr_created_by_this_root": false,
+  "owner_existing_pr": {
+    "number": 14022,
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/14022",
+    "created_at": "2026-11-25T12:08:02Z",
+    "created_by": "User’s other Codex session; not this root",
+    "task": "L-meta-10221",
+    "official_verdict": "Officially merged and recorded checked; no explicit ACCEPTED comment observed",
+    "latest_included_step": "2026-11-25T12:37:11.911539+00:00",
+    "desk_state": "checked",
+    "earlier_desk_discrepancy": "resolved by fresh public evidence",
+    "ordinary_validation_completed_at": "2026-11-25T12:32:28.739725+00:00",
+    "ordinary_lean_exit_code": 0,
+    "source_guard_exit_code": 0,
+    "exact_posted_type_exit_code": 0,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "source_git_blob": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+    "source_sha256": "9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc",
+    "source_bytes": 109453,
+    "strict_checker_run": false,
+    "root_browser_observation": "Historical advisory approval-pending state with zero jobs; later merge and checked registration supersede it as outcome evidence",
+    "pr_mutations_by_this_root": false,
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-11-25T12:30:48Z",
+    "merge_commit_sha": "1fc91c4a3a59d36d4c1490dcd945a5449ead499f",
+    "latest_checked_snapshot": "2026-11-25T12:35:52.311Z",
+    "explicit_ACCEPTED_comment_observed": false,
+    "original_merge_and_main_blob_equal": true,
+    "additional_registration_or_repair_needed": false
+  },
+  "user_phase_criterion": "A meaningful public upstream PR; official acceptance is a separate pending status, not an added requirement.",
+  "new_allocation_observations": [
+    {
+      "at": "2026-11-25T12:31:06Z",
+      "request": "documented default next",
+      "result": "ALREADYHELD L-meta-11030",
+      "terms_issued_at": "2026-11-25T12:08:20Z",
+      "origin": "Other Codex session",
+      "this_root_renewed": false,
+      "this_root_released": false,
+      "this_root_worked": false
+    },
+    {
+      "at": "2026-11-25T12:31:30Z",
+      "request": "documented another warmup prove",
+      "result": null,
+      "retry_after_seconds": 300,
+      "earliest_retry_at": "2026-11-25T12:36:30Z",
+      "nearest_solid_hint": "L-meta-10106",
+      "hint_is_assignment": false
+    }
+  ],
+  "owner_official_merge_and_checked_confirmed": true,
+  "new_allocation_observations_as_of": "2026-11-25T12:31:30Z; newer coordination is in research/ACTIVE_WORK.md",
+  "explicit_ACCEPTED_comment_claimed": false
+}

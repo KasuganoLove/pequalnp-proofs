@@ -1,0 +1,24 @@
+{
+  "url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "retrieved_at": "2026-11-25T12:36:51.698035+00:00",
+  "updated_at": "2026-11-25T12:35:52.311Z",
+  "bytes": 4624689,
+  "sha256": "76cdebb3205e54b54b0ed1d5b9d6bb80fb98dac2443323e6006f99b1bc8f48e6",
+  "headers": {
+    "date": "Wed, 25 Nov 2026 12:36:51 GMT",
+    "cache-control": "public, max-age=30",
+    "etag": "\"dab4647492a648cf57b13328a735244d\"",
+    "last-modified": "Wed, 25 Nov 2026 12:36:31 GMT"
+  },
+  "selected_rows": {
+    "gaps": [],
+    "checked": [
+      {
+        "id": "L-meta-10221",
+        "file": "lean/PEqualNP/Outside/L_meta_10221.lean",
+        "file_sha256": "9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc"
+      }
+    ],
+    "withdrawn": []
+  }
+}

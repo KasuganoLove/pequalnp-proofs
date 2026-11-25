@@ -1,0 +1,49 @@
+{
+  "scope": "Read-only2592 status/dependency audit; no complete proof found",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2509,
+      "sha256": "2c17889aef62ad764b2743014648ac07b02323f5b2cf8f61870f3fcd24dd0d25"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 5670,
+      "sha256": "3d651dcebfeba435006806ce482580146675d84f2d1b8ec34bc24109de13f94d"
+    },
+    {
+      "path": "negative-statement.txt",
+      "bytes": 1107,
+      "sha256": "d61aad0efc0c71539964dd9fad28f84d7718e06c87285c4e1522d50db4f2ee47"
+    },
+    {
+      "path": "source-hashes.json",
+      "bytes": 1284,
+      "sha256": "1bad41763d8f7bcc48943318d490b1cc3f46f8eed9338b5b705f3ddcb94b0d42"
+    },
+    {
+      "path": "step-2593.json",
+      "bytes": 392,
+      "sha256": "851b2d7827283a91a3029a7fd94fe0b4d4e07e1114c98bdd0f5911518d5c0b9d"
+    },
+    {
+      "path": "step-4727.json",
+      "bytes": 392,
+      "sha256": "faa8036e6a338ecd80cbae5bfe3f042eec53d1f8c0799ac1f8b6e00da5ab15ba"
+    },
+    {
+      "path": "step-7391.json",
+      "bytes": 392,
+      "sha256": "5124b4b197ac111bff132f48520f7eebce21b7b8700b9661647a5d406c503499"
+    },
+    {
+      "path": "step-8297.json",
+      "bytes": 392,
+      "sha256": "1daabdd86fbe82e0d1b3451ae0a923ddc3cd3973043380d20dbce24c7025c363"
+    }
+  ],
+  "payload_bytes": 12138,
+  "no_new_mathematical_work": true,
+  "no_lease_actions": true,
+  "no_remote_writes": true
+}

@@ -1,0 +1,112 @@
+{
+  "pr": 14022,
+  "head": "bc59c2be036e28415543dcb42dd8da78d4439163",
+  "source_bytes": 109453,
+  "source_git_blob": "1f0d7cf983743bb6e5f588a28908f2d0682d4389",
+  "source_sha256": "9f4dcb5a1635683d7bc7ff3e4d05f307ba8b7aa8f1ff538901f726b32239f3bc",
+  "reference_source_sha256": "b358ad57b53243df24c1908382c59f29819715761f8eacec38d032b0826aea20",
+  "mask": 15768118,
+  "matrix_rows": [
+    "01101",
+    "10001",
+    "01100",
+    "10000",
+    "11110"
+  ],
+  "positive_list": [
+    1,
+    2,
+    4,
+    5,
+    9,
+    11,
+    12,
+    15,
+    20,
+    21,
+    22,
+    23
+  ],
+  "negative_list": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    10,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    24
+  ],
+  "positive_count": 12,
+  "negative_count": 13,
+  "all_25_bits_partitioned_correctly": true,
+  "all_10_leaf_signatures_correct": true,
+  "row_essentiality_witnesses": [
+    {
+      "row": 0,
+      "other_row": 1,
+      "column": 1
+    },
+    {
+      "row": 1,
+      "other_row": 0,
+      "column": 0
+    },
+    {
+      "row": 2,
+      "other_row": 1,
+      "column": 1
+    },
+    {
+      "row": 3,
+      "other_row": 0,
+      "column": 0
+    },
+    {
+      "row": 4,
+      "other_row": 0,
+      "column": 0
+    }
+  ],
+  "column_essentiality_witnesses": [
+    {
+      "column": 0,
+      "other_column": 1,
+      "row": 1
+    },
+    {
+      "column": 1,
+      "other_column": 0,
+      "row": 0
+    },
+    {
+      "column": 2,
+      "other_column": 0,
+      "row": 0
+    },
+    {
+      "column": 3,
+      "other_column": 4,
+      "row": 4
+    },
+    {
+      "column": 4,
+      "other_column": 0,
+      "row": 0
+    }
+  ],
+  "generic_source_identical_after_explicit_specializations": true,
+  "meaningful_differences": [
+    "target mask7387710 ->15768118",
+    "OO and ZZ exactly retargeted",
+    "module namespace and final theorem renamed",
+    "extra allowed Defs.Represents import",
+    "explicit tb-16 / L9195 attribution comments"
+  ],
+  "scope": "Python data/source comparison; Lean compilation and exact-type audit recorded separately"
+}

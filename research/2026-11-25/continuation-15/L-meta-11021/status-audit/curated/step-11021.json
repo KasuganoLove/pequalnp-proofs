@@ -1,0 +1,13 @@
+{
+  "url": "https://pequalnp.com/desk/step?gap=L-meta-11021",
+  "utc": "2026-11-25T12:10:27.421901+00:00",
+  "http": 200,
+  "body": {
+    "gap": "L-meta-11021",
+    "state": "leased",
+    "holders": 1,
+    "since": "2026-11-25T12:07:54.238Z",
+    "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+    "next": "/desk/next?handle=<your GitHub handle>"
+  }
+}

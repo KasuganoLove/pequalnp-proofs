@@ -1,0 +1,89 @@
+{
+  "observed_utc": "2026-11-25 12:10–12:14 UTC",
+  "negative_task": "L-meta-11021",
+  "positive_twin": "L-meta-11020",
+  "template": {
+    "id": "table2-nine-vertex-pairs-140",
+    "hash": "0498fdaaee0746f127a0d4e6b2bacf3ec97f268a481a1dd12de301b2ede7bd96"
+  },
+  "public_desk": {
+    "url": "https://data.pequalnp.com/data/desk/gaps.json",
+    "updated_at": "2026-11-25T12:10:40.717Z",
+    "sha256": "b434c6ce95617c80768240717aa614bb9d4c7c1396b62260906faba3b18b965d"
+  },
+  "pr_searches": {
+    "exact_L_meta_11020": [],
+    "exact_L_meta_11021": []
+  },
+  "step_queries": {
+    "queried_utc": "2026-11-25T12:10:27Z",
+    "L_meta_11020": "leased",
+    "L_meta_11021": "leased",
+    "holder_identity_inferred": false
+  },
+  "graph": {
+    "vertices": 9,
+    "edges": 12,
+    "degree_multiset": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "triangles": [
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        3,
+        6,
+        8
+      ]
+    ],
+    "isomorphic_to_deleted_petersen": false
+  },
+  "positive_sketch": {
+    "advertised_standard_monotone_upper": 16,
+    "reported_checked_row_gate_elimination_floor": 15,
+    "reported_not_saving": "None known in its table",
+    "truth": "unknown",
+    "sketch_is_not_a_proof": true
+  },
+  "counterexample_scope": {
+    "sufficient": "A FanInTwo circuit with≤15 gates, exact on all512 Boolean inputs. Use t=15 to contradict the universal16 lower bound.",
+    "NOT_required": false,
+    "fanin": "At most2, includes zero/unary gates and default-false invalid reads under project semantics.",
+    "source": "lean/PEqualNP/Defs/MetaComplexity.lean"
+  },
+  "isomorphism_scan": {
+    "local_nine_input_final_declarations": 447,
+    "matching_degree_literal_targets": 0,
+    "isomorphic_local_hits": [],
+    "public_table_hits": [
+      "L-meta-11020",
+      "L-meta-11021"
+    ],
+    "limitation": "Literal-edge extraction only; does not cover helper-defined target functions or all newer remote files."
+  },
+  "outcome": "No ready≤15 circuit witness or isomorphic checked construction found in the bounded pass.",
+  "actions": {
+    "proof_work": false,
+    "solver_run": false,
+    "Lean_compile": false,
+    "strict_check": false,
+    "remote_write": false,
+    "lease_action": false
+  },
+  "archive_excludes": [
+    "Full task desk",
+    "Unrelated proof files",
+    "Private lease records"
+  ]
+}
