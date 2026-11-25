@@ -1,0 +1,8 @@
+'PEqualNP.Outside.Pnp4201BudgetTopForm.V1_opCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201BudgetTopForm.V2_opCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201BudgetTopForm.budget_reader_or' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201BudgetTopForm.budget_reader_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201BudgetTopForm.budget_top_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201BudgetTopForm.exists_top_form_with_or_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
