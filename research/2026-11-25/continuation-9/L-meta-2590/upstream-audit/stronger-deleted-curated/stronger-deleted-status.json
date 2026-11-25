@@ -1,0 +1,73 @@
+{
+  "updated_at": "2026-11-25T07:54:41.222Z",
+  "gaps": [
+    {
+      "id": "L-meta-2590",
+      "title": "A step toward: Petersen graph: no circuit of AND, OR (fan-in two) and NOT gates with at most 19 gates computes its edge function (step 1 of 2)",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x1 → x1.size ≤ (19 : ℕ) → ¬∀ (x4 : Fin (10 : ℕ) → Bool), x1.eval (List.ofFn x4) = (fun (x5 : Fin (10 : ℕ) → Bool) => x5 (0 : Fin (10 : ℕ)) && x5 (1 : Fin (10 : ℕ)) || x5 (1 : Fin (10 : ℕ)) && x5 (2 : Fin (10 : ℕ)) || x5 (2 : Fin (10 : ℕ)) && x5 (3 : Fin (10 : ℕ)) || x5 (3 : Fin (10 : ℕ)) && x5 (4 : Fin (10 : ℕ)) || x5 (4 : Fin (10 : ℕ)) && x5 (0 : Fin (10 : ℕ)) || x5 (0 : Fin (10 : ℕ)) && x5 (5 : Fin (10 : ℕ)) || x5 (1 : Fin (10 : ℕ)) && x5 (6 : Fin (10 : ℕ)) || x5 (2 : Fin (10 : ℕ)) && x5 (7 : Fin (10 : ℕ)) || x5 (3 : Fin (10 : ℕ)) && x5 (8 : Fin (10 : ℕ)) || x5 (4 : Fin (10 : ℕ)) && x5 (9 : Fin (10 : ℕ)) || x5 (5 : Fin (10 : ℕ)) && x5 (7 : Fin (10 : ℕ)) || x5 (7 : Fin (10 : ℕ)) && x5 (9 : Fin (10 : ℕ)) || x5 (9 : Fin (10 : ℕ)) && x5 (6 : Fin (10 : ℕ)) || x5 (6 : Fin (10 : ℕ)) && x5 (8 : Fin (10 : ℕ)) || x5 (8 : Fin (10 : ℕ)) && x5 (5 : Fin (10 : ℕ))) x4",
+      "file": "lean/PEqualNP/Outside/L_meta_2590.lean",
+      "module": "PEqualNP.Outside.L_meta_2590",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 1 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 1 of 2 of a checked cut of L-meta-651. Its sibling steps: L-meta-2592. Together they give the parent; the parent's own sketch: no proof is expected here: propose a reduction (a cut into smaller statements that together give this one). Hard and open; a conjecture, it may be false. A circuit with 19 gates refutes it and is as welcome as a proof. Known: a circuit with 20 gates exists. In-house reach (computed, not checked): split by the first gate up to the automorphisms of the graph into five cases; each case was run for ten minutes and none was decided; no circuit with 19 gates was found. ",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-3817",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.FanInTwo x1 → x1.size ≤ (15 : ℕ) → ∃ (x4 : Fin (9 : ℕ) → Bool), x1.eval (List.ofFn x4) ≠ (x4 (0 : Fin (9 : ℕ)) && x4 (1 : Fin (9 : ℕ)) || x4 (1 : Fin (9 : ℕ)) && x4 (2 : Fin (9 : ℕ)) || x4 (2 : Fin (9 : ℕ)) && x4 (3 : Fin (9 : ℕ)) || x4 (3 : Fin (9 : ℕ)) && x4 (4 : Fin (9 : ℕ)) || x4 (4 : Fin (9 : ℕ)) && x4 (0 : Fin (9 : ℕ)) || x4 (0 : Fin (9 : ℕ)) && x4 (5 : Fin (9 : ℕ)) || x4 (1 : Fin (9 : ℕ)) && x4 (6 : Fin (9 : ℕ)) || x4 (2 : Fin (9 : ℕ)) && x4 (7 : Fin (9 : ℕ)) || x4 (3 : Fin (9 : ℕ)) && x4 (8 : Fin (9 : ℕ)) || x4 (5 : Fin (9 : ℕ)) && x4 (7 : Fin (9 : ℕ)) || x4 (6 : Fin (9 : ℕ)) && x4 (8 : Fin (9 : ℕ)) || x4 (8 : Fin (9 : ℕ)) && x4 (5 : Fin (9 : ℕ)))",
+      "file": "lean/PEqualNP/Outside/L_meta_3817.lean",
+      "module": "PEqualNP.Outside.L_meta_3817",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-4033",
+      "statement": "¬PEqualNP.MetaComplexity.HasCircuitSize (9 : ℕ) (fun (x1 : Fin (9 : ℕ) → Bool) => x1 (0 : Fin (9 : ℕ)) && x1 (1 : Fin (9 : ℕ)) || x1 (1 : Fin (9 : ℕ)) && x1 (2 : Fin (9 : ℕ)) || x1 (2 : Fin (9 : ℕ)) && x1 (3 : Fin (9 : ℕ)) || x1 (3 : Fin (9 : ℕ)) && x1 (4 : Fin (9 : ℕ)) || x1 (4 : Fin (9 : ℕ)) && x1 (0 : Fin (9 : ℕ)) || x1 (0 : Fin (9 : ℕ)) && x1 (5 : Fin (9 : ℕ)) || x1 (1 : Fin (9 : ℕ)) && x1 (6 : Fin (9 : ℕ)) || x1 (2 : Fin (9 : ℕ)) && x1 (7 : Fin (9 : ℕ)) || x1 (3 : Fin (9 : ℕ)) && x1 (8 : Fin (9 : ℕ)) || x1 (5 : Fin (9 : ℕ)) && x1 (7 : Fin (9 : ℕ)) || x1 (6 : Fin (9 : ℕ)) && x1 (8 : Fin (9 : ℕ)) || x1 (8 : Fin (9 : ℕ)) && x1 (5 : Fin (9 : ℕ))) (15 : ℕ)",
+      "file": "lean/PEqualNP/Outside/L_meta_4033.lean",
+      "module": "PEqualNP.Outside.L_meta_4033",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 4,
+      "pr_numbers": [
+        8645,
+        8668,
+        8774,
+        8890
+      ]
+    }
+  ],
+  "checked": [
+    {
+      "id": "L-meta-2446",
+      "file": "lean/PEqualNP/Outside/L_meta_2446.lean",
+      "file_sha256": "605dd7edce03d051f286b53b076f95a008d7aa544ff27a7ebf87d9bf1c192071"
+    }
+  ],
+  "withdrawn": {}
+}

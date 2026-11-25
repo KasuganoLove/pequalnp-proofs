@@ -1,0 +1,281 @@
+{
+  "task": "L-meta-4201",
+  "checkpoint": "continuation-8",
+  "status_note": "Local research checkpoint. Public task snapshots, ordinary Lean compilation, local strict checking, prepared branches and official acceptance are recorded separately.",
+  "full_parent_proved": false,
+  "remaining_parent_obligations": [
+    {
+      "cut": "R-meta-4201-777",
+      "remaining_child": "L-meta-8321",
+      "obligation": "Produce an all-AND-clean equivalent circuit from an arbitrary correct circuit without increasing OR count. Exact L8323 has passed local strict checking."
+    },
+    {
+      "cut": "R-meta-4201-731",
+      "remaining_child": "L-meta-8468",
+      "obligation": "Extract a nonempty incidence-rectangle cover of weight at most OR count + 1 from an arbitrary correct circuit. L8470 has passed local strict checking."
+    }
+  ],
+  "children": {
+    "L-meta-8470": {
+      "full_statement_proved_locally": true,
+      "ordinary_lean_exit_code": 0,
+      "canonical_source": "strict-8470/L_meta_8470.lean",
+      "canonical_source_sha256": "25e91dfeadebb34eb713389b7ad14f9a30010da00d5f7e076901b37615dd1063",
+      "statement_sha256": "99bc6027f021419630f9f1bad7f4b3f0953773b02afaedbdf557243a60521174",
+      "strict_checker": {
+        "start_utc": "2026-11-25T05:59:03.871997+00:00",
+        "end_utc": "2026-11-25T06:03:10.284826+00:00",
+        "exit_code": 0,
+        "seconds": 246.41285785699984,
+        "mode": "check",
+        "official_verdict": false,
+        "status": "accepted",
+        "verdict": "ACCEPTED (check)",
+        "constants_rechecked": 1676,
+        "permitted_axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "prepared_branch": {
+        "branch": "codex/prove-meta-8470-2026-11-25",
+        "head": "0cb59db32842e8a630c2baa8e3ada1ae6c4375a4",
+        "base": "259523a5b265318b84f9377f2feb965fd213f898",
+        "file": "lean/PEqualNP/Outside/L_meta_8470.lean",
+        "diff_verified": "one commit, one added file",
+        "remote_source_matches_checked_source": true,
+        "official_pr_created": false,
+        "reason": "The active lease is for parent L-meta-4201; the join rules prohibit a PR for an unheld child."
+      },
+      "child_lease_held": false,
+      "official_pr_created": false,
+      "official_acceptance": false
+    },
+    "L-meta-8323": {
+      "full_statement_proved_locally": true,
+      "ordinary_lean_exit_code": 0,
+      "research_source": "lean/Pnp4201CleanCase.lean",
+      "research_source_sha256": "f149c10630af19768cacaf80f315642752a1b32eace4cf00b76f2afb214167e8",
+      "statement_sha256": "ea9da5a93cdce2730e73e9dfe572610b1f6cb565daff7e96c8f55c0a6d8ccfbf",
+      "statement_bytes_equal_public_record": true,
+      "ordinary_log": "validation/CleanCase-build.log",
+      "ordinary_warnings": [
+        "The exact public statement contains an unused binder named x5 in the MOD branch of the OR-count recursor. Lean emitted only linter.unusedVariables for that public binder; no proof error. The statement was kept byte-for-byte unchanged."
+      ],
+      "strict_checker": {
+        "start_utc": "2026-11-25T07:09:07.275008+00:00",
+        "end_utc": "2026-11-25T07:13:19.630050+00:00",
+        "exit_code": 0,
+        "seconds": 252.35512629500045,
+        "mode": "check",
+        "source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+        "max_child_rss_kib": 6917320,
+        "official_verdict": false,
+        "status": "accepted",
+        "verdict": "ACCEPTED (check)",
+        "constants_rechecked": 2344,
+        "permitted_axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ],
+        "result_file": "strict-8323/strict-result.json",
+        "log_file": "strict-8323/strict-check.log"
+      },
+      "child_lease_held": false,
+      "official_pr_created": false,
+      "official_acceptance": false,
+      "canonical_bundle": {
+        "source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+        "source_bytes": 179631,
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "format_guard_exit_code": 0,
+        "ordinary_standalone_exit_code": 0,
+        "strict_checker_status": "accepted",
+        "transformations": [
+          "Conservative dependency/source-identifier pruning recorded in bundle-pruning/pruning-report.json",
+          "Attribution insertion recorded in bundle-pruning/finalization.json",
+          "Replace full edgeFinset cardinality dependency with explicit edge (0,21); see resource-patch.json",
+          "Replace three finite adjacency certificates by symbolic proofs; see symbolic-patch.json",
+          "Remove unnecessary Mathlib umbrella directive; see minimal-imports.json"
+        ],
+        "commands_removed_by_dependency_pruning": 149,
+        "attribution": "Upstream L1501 and L2235 proofs plus the recorded research modules.",
+        "original_modular_sources_preserved": true,
+        "source_bundle_record": "strict-8323/L_meta_8323.bundle.json"
+      },
+      "canonical_source": "strict-8323/L_meta_8323.lean",
+      "canonical_source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+      "canonical_source_bytes": 179631,
+      "prior_strict_attempts": [
+        {
+          "start_utc": "2026-11-25T06:38:07.917464+00:00",
+          "end_utc": "2026-11-25T06:41:32.578641+00:00",
+          "exit_code": -9,
+          "seconds": 204.6614282089995,
+          "mode": "check",
+          "source_sha256": "22ae16e3eaca0035fe210c92696e783bd83d16acc65d3ae429836cef83db2dee",
+          "official_verdict": false,
+          "verdict": "none",
+          "termination": "SIGKILL",
+          "cause": "Not conclusively diagnosed; resource pressure suspected",
+          "source_ordinary_lean_pass": true,
+          "attempt": 1,
+          "status": "terminated_without_verdict",
+          "result_file": "strict-8323/attempt-1-strict-result.json",
+          "log_file": "strict-8323/attempt-1-strict-check.log"
+        },
+        {
+          "start_utc": "2026-11-25T06:55:11.479980+00:00",
+          "end_utc": "2026-11-25T06:58:24.076560+00:00",
+          "exit_code": 3,
+          "seconds": 192.59659317300066,
+          "mode": "check",
+          "source_sha256": "b4c715f1b925e001f5d107ad6e47c7f2e1ed360a6fa3ba390ec129017eb75ef7",
+          "max_child_rss_kib": 7084280,
+          "verdict": "CHECKER FAULT: the verifier ended without a verdict (exit 137).",
+          "official_verdict": false,
+          "attempt": 2,
+          "status": "terminated_without_verdict",
+          "result_file": "strict-8323/attempt-2-strict-result.json",
+          "log_file": "strict-8323/attempt-2-strict-check.log"
+        }
+      ],
+      "prepared_branch": {
+        "branch": "codex/prove-meta-8323-2026-11-25",
+        "head": "0873097889691e4d21f575dabed0c1cadd0bcb3a",
+        "base": "259523a5b265318b84f9377f2feb965fd213f898",
+        "file": "lean/PEqualNP/Outside/L_meta_8323.lean",
+        "source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+        "diff_verified": "one commit, one added file",
+        "remote_source_matches_checked_source": true,
+        "official_pr_created": false,
+        "reason": "The session holds only parent L-meta-4201, not child L-meta-8323. The join rules prohibit official proof PRs for unheld steps."
+      }
+    }
+  },
+  "official_pr_submitted": false,
+  "authorization_scope": "Research was conducted under parent L-meta-4201. That parent lease was released with missing_lemma at 2026-11-25T07:15:48.277414Z; no parent4201 lease remains active. Neither child lease was held and no official child PR was created. Prepared fork branches are not official submissions.",
+  "public_snapshot": {
+    "export_at": "2026-11-25T05:50:45.796Z",
+    "source_commit": "259523a5b265318b84f9377f2feb965fd213f898",
+    "status_note": "All six saved child records retain their original conjecture status. Later local proofs do not change that historical public snapshot."
+  },
+  "toolchain": {
+    "lean": "4.36.0",
+    "mathlib_commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842"
+  },
+  "ordinary_modules": [
+    {
+      "file": "lean/Pnp4201Cover105.lean",
+      "sha256": "32e921f17fdf18289897c03543d31a3cfc1245d441c13eea646a861446d799cc",
+      "exit_code": 0,
+      "log": "validation/Cover105-lean.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "lean/Pnp4201OrBudget.lean",
+      "sha256": "e2b63e64080ec8919a421d0c64e8fc0d679546e858cd479190cb794189e70858",
+      "exit_code": 0,
+      "log": "validation/OrBudget-lean.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "lean/Pnp4201OrBudgetAudit.lean",
+      "sha256": "0695d3b53afd723cbd73bd45f305faab23dc3e5221c00b94fb077eecb761c070",
+      "exit_code": 0,
+      "log": "validation/OrBudget-axioms.log",
+      "log_bytes": 1007
+    },
+    {
+      "file": "lean/Pnp4201BudgetTopForm.lean",
+      "sha256": "4a6c8b5140f99a7c6730080441636ff51f76f3f33b286f6271fdd27c1d8c59d9",
+      "exit_code": 0,
+      "log": "validation/BudgetTopForm-lean.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "lean/Pnp4201BudgetTopFormAudit.lean",
+      "sha256": "fd20aecbb562abe9116d06b8485e7d952b8efab0999320a21a617c7a667032c0",
+      "exit_code": 0,
+      "log": "validation/BudgetTopForm-axioms.log",
+      "log_bytes": 703
+    },
+    {
+      "file": "lean/Pnp4201CleanBudgetTopForm.lean",
+      "sha256": "48e7d9aa2a5ddd8b8be6a118903cb74c8e4e0b36d7cc22e74bedc5568cd465fc",
+      "exit_code": 0,
+      "log": "validation/CleanBudgetTopForm-lean.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "lean/Pnp4201CleanBudgetTopFormAudit.lean",
+      "sha256": "ddc5073fbc335578ac8212d7f1e5383aa3093600fa995e38a9a0deddae675716",
+      "exit_code": 0,
+      "log": "validation/CleanBudgetTopForm-axioms.log",
+      "log_bytes": 991
+    },
+    {
+      "file": "lean/Pnp4201Graph.lean",
+      "sha256": "3d08e8a902e29a8ca20fbd5714537708a0ef917c294b316baaedfdc2995de78c",
+      "exit_code": 0,
+      "log": "validation/Graph-build.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "lean/Pnp4201CleanNormalize.lean",
+      "sha256": "550c6a6f4160184c8e5b71c9e4e4080e6909c93a465a3cef769fa8c03569578d",
+      "exit_code": 0,
+      "log": "validation/CleanNormalize-lean.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "lean/Pnp4201CleanOrCount.lean",
+      "sha256": "171665a973dec6ebe230ad3daca21d98a8065ef73f412f87028b32c7f1a202fd",
+      "exit_code": 0,
+      "log": "validation/CleanOrCount-build.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "lean/Pnp4201CleanCase.lean",
+      "sha256": "f149c10630af19768cacaf80f315642752a1b32eace4cf00b76f2afb214167e8",
+      "exit_code": 0,
+      "log": "validation/CleanCase-build.log",
+      "log_bytes": 331
+    },
+    {
+      "file": "lean/Pnp4201EdgeWitness.lean",
+      "sha256": "43e5dffac7bc10b991533b3231e905fcc39c7c52675cd6e87c8ec459b22d28a2",
+      "exit_code": 0,
+      "log": "validation/EdgeWitness-lean.log",
+      "log_bytes": 0,
+      "evidence": "Ordinary check exit 0 reported by root; empty compiler log and generated olean observed. No new Lean run was performed during archive staging."
+    },
+    {
+      "file": "lean/Pnp4201SymbolicAdj.lean",
+      "sha256": "9d0a683e9a057b2f299480dd1e01e817a9aca1f824f2e5aedd9fca6c18ca235a",
+      "exit_code": 0,
+      "log": "validation/SymbolicAdj-lean.log",
+      "log_bytes": 0,
+      "evidence": "Ordinary check exit 0 reported by root; empty compiler log and generated olean observed. No new Lean run was performed during archive staging."
+    }
+  ],
+  "scope": "The clean-case theorem assumes every AND gate is below the final output. It does not provide a clean equivalent for arbitrary circuits and does not close L4201 or the P-vs-NP project.",
+  "parent_handoff": {
+    "task": "L-meta-4201",
+    "lease_status": "released",
+    "active_parent_lease": false,
+    "release_http_status": 200,
+    "released_at_utc": "2026-11-25T07:15:48.277414Z",
+    "reason": "missing_lemma",
+    "record": "lease-handoff.json",
+    "remaining_children": [
+      "L-meta-8321",
+      "L-meta-8468"
+    ],
+    "full_parent_proved": false
+  }
+}

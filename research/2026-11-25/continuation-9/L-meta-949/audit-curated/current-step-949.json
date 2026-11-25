@@ -1,0 +1,8 @@
+{
+ "gap": "L-meta-949",
+ "state": "leased",
+ "holders": 2,
+ "since": "2026-11-25T07:20:39.746Z",
+ "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+ "next": "/desk/next?handle=<your GitHub handle>"
+}

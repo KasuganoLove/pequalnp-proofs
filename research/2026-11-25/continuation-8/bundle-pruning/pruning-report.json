@@ -1,0 +1,5679 @@
+{
+  "input_sha256": "22ae16e3eaca0035fe210c92696e783bd83d16acc65d3ae429836cef83db2dee",
+  "output_sha256": "608039d1ad0840232c2f18f35dc7a19be39f73c92da98cbc811f9bb4c221dab1",
+  "input_bytes": 282145,
+  "output_bytes": 178207,
+  "input_lines": 5985,
+  "output_lines": 3988,
+  "module_constants": 994,
+  "final_kernel_closure_constants": 593,
+  "declaration_commands": 430,
+  "kept_declaration_commands": 281,
+  "removed_declaration_commands": 149,
+  "needed_constants_without_source_owner": [],
+  "no_required_declaration_removed": true,
+  "retained_commands_closed_under_all_local_kernel_dependencies": true,
+  "proof_source_identifier_closure": "conservative all matching namespace suffixes",
+  "kept": [
+    {
+      "first": 8,
+      "last": 10,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.Inc"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part0.Inc"
+      ]
+    },
+    {
+      "first": 11,
+      "last": 13,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.incidences"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part0.incidences._proof_1",
+        "PEqualNP.Outside.L_meta_8323.Part0.incidences"
+      ]
+    },
+    {
+      "first": 14,
+      "last": 16,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.commonLines"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part0.commonLines"
+      ]
+    },
+    {
+      "first": 17,
+      "last": 21,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.incidence_count"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part0.incidence_count",
+        "PEqualNP.Outside.L_meta_8323.Part0.incidence_count._proof_1_1"
+      ]
+    },
+    {
+      "first": 22,
+      "last": 26,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.commonLines_card_le_one"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part0.commonLines_card_le_one._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part0.commonLines_card_le_one"
+      ]
+    },
+    {
+      "first": 87,
+      "last": 90,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.Forward"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.Forward"
+      ]
+    },
+    {
+      "first": 91,
+      "last": 94,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.instDecidableForward"
+      ],
+      "reasons": [
+        "final-kernel-closure",
+        "instance-registration",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.instDecidableForward"
+      ]
+    },
+    {
+      "first": 95,
+      "last": 96,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.pg4"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.pg4"
+      ]
+    },
+    {
+      "first": 97,
+      "last": 101,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.instDecidableRelFinOfNatNatAdjPg4"
+      ],
+      "reasons": [
+        "final-kernel-closure",
+        "instance-registration",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.instDecidableRelFinOfNatNatAdjPg4"
+      ]
+    },
+    {
+      "first": 102,
+      "last": 103,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.point"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.point._proof_1",
+        "PEqualNP.Outside.L_meta_8323.Part1.point",
+        "PEqualNP.Outside.L_meta_8323.Part1.point._proof_2"
+      ]
+    },
+    {
+      "first": 103,
+      "last": 104,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.line"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.line",
+        "PEqualNP.Outside.L_meta_8323.Part1.line._proof_1",
+        "PEqualNP.Outside.L_meta_8323.Part1.line._proof_2"
+      ]
+    },
+    {
+      "first": 105,
+      "last": 109,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.point_injective"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.point_injective"
+      ]
+    },
+    {
+      "first": 110,
+      "last": 116,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.line_injective"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.line_injective._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part1.line_injective"
+      ]
+    },
+    {
+      "first": 124,
+      "last": 132,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.vertex_split"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.vertex_split._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part1.vertex_split._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part1.vertex_split"
+      ]
+    },
+    {
+      "first": 133,
+      "last": 137,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.adj_point_line"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.adj_point_line",
+        "PEqualNP.Outside.L_meta_8323.Part1.adj_point_line._proof_1_1"
+      ]
+    },
+    {
+      "first": 138,
+      "last": 142,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.not_adj_point_point"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.not_adj_point_point",
+        "PEqualNP.Outside.L_meta_8323.Part1.not_adj_point_point._proof_1_1"
+      ]
+    },
+    {
+      "first": 143,
+      "last": 147,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.not_adj_line_line"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.not_adj_line_line",
+        "PEqualNP.Outside.L_meta_8323.Part1.not_adj_line_line._proof_1_1"
+      ]
+    },
+    {
+      "first": 148,
+      "last": 151,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.adj_line_point"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.adj_line_point"
+      ]
+    },
+    {
+      "first": 160,
+      "last": 200,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.noFourCycle"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.noFourCycle"
+      ]
+    },
+    {
+      "first": 201,
+      "last": 203,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges"
+      ]
+    },
+    {
+      "first": 204,
+      "last": 205,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.incidencePair"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.incidencePair",
+        "PEqualNP.Outside.L_meta_8323.Part1.incidencePair.eq_1"
+      ]
+    },
+    {
+      "first": 206,
+      "last": 211,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.incidencePair_injective"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.incidencePair_injective"
+      ]
+    },
+    {
+      "first": 212,
+      "last": 246,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges_eq._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges_eq",
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges_eq._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges_eq._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges_eq._proof_1_5"
+      ]
+    },
+    {
+      "first": 247,
+      "last": 250,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges_card"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.orderedEdges_card"
+      ]
+    },
+    {
+      "first": 251,
+      "last": 255,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.edgeFinset_card"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.edgeFinset_card",
+        "PEqualNP.Outside.L_meta_8323.Part1.edgeFinset_card._proof_1_1"
+      ]
+    },
+    {
+      "first": 256,
+      "last": 258,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.PublicTarget"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.PublicTarget"
+      ]
+    },
+    {
+      "first": 259,
+      "last": 277,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.graphFun_true_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.graphFun_true_iff",
+        "PEqualNP.Outside.L_meta_8323.Part1.graphFun_true_iff._proof_1_2"
+      ]
+    },
+    {
+      "first": 278,
+      "last": 290,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.computes_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.computes_iff"
+      ]
+    },
+    {
+      "first": 291,
+      "last": 299,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.nonconstant"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part1.nonconstant",
+        "PEqualNP.Outside.L_meta_8323.Part1.nonconstant._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part1.nonconstant._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part1.nonconstant._proof_1_4"
+      ]
+    },
+    {
+      "first": 357,
+      "last": 362,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_split_gates"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_split_gates._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_split_gates"
+      ]
+    },
+    {
+      "first": 366,
+      "last": 368,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_gateAt_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_gateAt_eq"
+      ]
+    },
+    {
+      "first": 400,
+      "last": 409,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orFold_length"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orFold_length._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orFold_length"
+      ]
+    },
+    {
+      "first": 410,
+      "last": 426,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orStep_mem_last"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orStep_mem_last._simp_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orStep_mem_last",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orStep_mem_last._simp_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orStep_mem_last._simp_1_2"
+      ]
+    },
+    {
+      "first": 427,
+      "last": 431,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orStep_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orStep_getD_lt"
+      ]
+    },
+    {
+      "first": 432,
+      "last": 442,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orFold_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orFold_getD_lt",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orFold_getD_lt._proof_1_2"
+      ]
+    },
+    {
+      "first": 443,
+      "last": 473,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orSets_mem_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orSets_mem_iff._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orSets_mem_iff._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orSets_mem_iff._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orSets_mem_iff._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orSets_mem_iff"
+      ]
+    },
+    {
+      "first": 476,
+      "last": 482,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orReaches_self"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orReaches_self"
+      ]
+    },
+    {
+      "first": 483,
+      "last": 490,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orReaches_step"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orReaches_step"
+      ]
+    },
+    {
+      "first": 491,
+      "last": 494,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_mem_filter_iff_gen"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_mem_filter_iff_gen"
+      ]
+    },
+    {
+      "first": 495,
+      "last": 501,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_mem_orIn"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_mem_orIn"
+      ]
+    },
+    {
+      "first": 502,
+      "last": 510,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orIn_up"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_orIn_up"
+      ]
+    },
+    {
+      "first": 804,
+      "last": 806,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_stepWire"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_stepWire",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_stepWire.eq_1"
+      ]
+    },
+    {
+      "first": 807,
+      "last": 809,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_wires_eq_foldl"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_wires_eq_foldl"
+      ]
+    },
+    {
+      "first": 810,
+      "last": 818,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_foldl_stepWire_length"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_foldl_stepWire_length._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_foldl_stepWire_length"
+      ]
+    },
+    {
+      "first": 819,
+      "last": 828,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_foldl_stepWire_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_foldl_stepWire_getD_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_foldl_stepWire_getD_lt"
+      ]
+    },
+    {
+      "first": 829,
+      "last": 832,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_getD_ge_length"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_getD_ge_length"
+      ]
+    },
+    {
+      "first": 837,
+      "last": 842,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_split_gates"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_split_gates",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_split_gates._proof_1_1"
+      ]
+    },
+    {
+      "first": 843,
+      "last": 845,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W"
+      ]
+    },
+    {
+      "first": 846,
+      "last": 848,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_gateAt_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_gateAt_eq"
+      ]
+    },
+    {
+      "first": 849,
+      "last": 873,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_gate"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_gate._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_gate",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_gate._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_gate._proof_1_4"
+      ]
+    },
+    {
+      "first": 874,
+      "last": 879,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_input"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_input"
+      ]
+    },
+    {
+      "first": 880,
+      "last": 889,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orFold_length"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orFold_length",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orFold_length._proof_1_2"
+      ]
+    },
+    {
+      "first": 890,
+      "last": 906,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orStep_mem_last"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orStep_mem_last._simp_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orStep_mem_last",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orStep_mem_last._simp_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orStep_mem_last._simp_1_2"
+      ]
+    },
+    {
+      "first": 907,
+      "last": 911,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orStep_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orStep_getD_lt"
+      ]
+    },
+    {
+      "first": 912,
+      "last": 922,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orFold_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orFold_getD_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orFold_getD_lt"
+      ]
+    },
+    {
+      "first": 923,
+      "last": 953,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orSets_mem_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orSets_mem_iff._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orSets_mem_iff._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orSets_mem_iff._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orSets_mem_iff",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_orSets_mem_iff._proof_1_6"
+      ]
+    },
+    {
+      "first": 954,
+      "last": 960,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_or"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_or._simp_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_or"
+      ]
+    },
+    {
+      "first": 961,
+      "last": 969,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_and"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_and._simp_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_W_and"
+      ]
+    },
+    {
+      "first": 970,
+      "last": 984,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_val"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_val._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_val._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_val",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_val._proof_1_1"
+      ]
+    },
+    {
+      "first": 985,
+      "last": 1000,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_up"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_up",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_up._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_reach_up._proof_1_2"
+      ]
+    },
+    {
+      "first": 1001,
+      "last": 1004,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_mem_filter_gen"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_mem_filter_gen"
+      ]
+    },
+    {
+      "first": 1005,
+      "last": 1016,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_side_val"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_side_val._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_side_val"
+      ]
+    },
+    {
+      "first": 1017,
+      "last": 1018,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_px"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_px",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_px.eq_1"
+      ]
+    },
+    {
+      "first": 1019,
+      "last": 1021,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_px_self"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_px_self"
+      ]
+    },
+    {
+      "first": 1022,
+      "last": 1086,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_part1"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_part1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_part1._simp_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_part1._simp_1_3"
+      ]
+    },
+    {
+      "first": 1087,
+      "last": 1092,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_cen"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_cen._proof_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_cen"
+      ]
+    },
+    {
+      "first": 1093,
+      "last": 1099,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_cen_card"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_cen_card"
+      ]
+    },
+    {
+      "first": 1100,
+      "last": 1127,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231"
+      ]
+    },
+    {
+      "first": 1130,
+      "last": 1132,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_gateAt_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_gateAt_eq"
+      ]
+    },
+    {
+      "first": 1133,
+      "last": 1135,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_gateAt_mem"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_gateAt_mem"
+      ]
+    },
+    {
+      "first": 1138,
+      "last": 1146,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_len"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_len._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_len"
+      ]
+    },
+    {
+      "first": 1147,
+      "last": 1229,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._simp_1_8",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._simp_1_9",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._simp_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_13",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._simp_1_12",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_10",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_11",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_14",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orSets_char._proof_1_6"
+      ]
+    },
+    {
+      "first": 1230,
+      "last": 1248,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orReaches_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orReaches_iff._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orReaches_iff._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_orReaches_iff"
+      ]
+    },
+    {
+      "first": 1249,
+      "last": 1273,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_tail_step"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_tail_step._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_tail_step",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_tail_step._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_tail_step._proof_1_2"
+      ]
+    },
+    {
+      "first": 1274,
+      "last": 1276,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_par"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_par"
+      ]
+    },
+    {
+      "first": 1277,
+      "last": 1289,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_par_card"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233_par_card"
+      ]
+    },
+    {
+      "first": 1290,
+      "last": 1335,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2233._simp_1_1"
+      ]
+    },
+    {
+      "first": 1339,
+      "last": 1341,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_stepWire"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_stepWire.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_stepWire"
+      ]
+    },
+    {
+      "first": 1342,
+      "last": 1344,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_wires_eq_foldl"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_wires_eq_foldl"
+      ]
+    },
+    {
+      "first": 1345,
+      "last": 1353,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_foldl_stepWire_length"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_foldl_stepWire_length",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_foldl_stepWire_length._proof_1_2"
+      ]
+    },
+    {
+      "first": 1354,
+      "last": 1363,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_foldl_stepWire_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_foldl_stepWire_getD_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_foldl_stepWire_getD_lt"
+      ]
+    },
+    {
+      "first": 1364,
+      "last": 1367,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_getD_ge_length"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_getD_ge_length"
+      ]
+    },
+    {
+      "first": 1372,
+      "last": 1377,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_split_gates"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_split_gates",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_split_gates._proof_1_1"
+      ]
+    },
+    {
+      "first": 1378,
+      "last": 1380,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W"
+      ]
+    },
+    {
+      "first": 1381,
+      "last": 1383,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_gateAt_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_gateAt_eq"
+      ]
+    },
+    {
+      "first": 1384,
+      "last": 1408,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W_gate"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W_gate._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W_gate",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W_gate._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W_gate._proof_1_3"
+      ]
+    },
+    {
+      "first": 1409,
+      "last": 1414,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W_input"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_W_input"
+      ]
+    },
+    {
+      "first": 1415,
+      "last": 1423,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orFold_length"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orFold_length._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orFold_length"
+      ]
+    },
+    {
+      "first": 1424,
+      "last": 1439,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orStep_mem_last"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orStep_mem_last",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orStep_mem_last._simp_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orStep_mem_last._simp_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orStep_mem_last._simp_1_3"
+      ]
+    },
+    {
+      "first": 1440,
+      "last": 1443,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orStep_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orStep_getD_lt"
+      ]
+    },
+    {
+      "first": 1444,
+      "last": 1453,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orFold_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orFold_getD_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orFold_getD_lt"
+      ]
+    },
+    {
+      "first": 1454,
+      "last": 1483,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orSets_mem_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orSets_mem_iff._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orSets_mem_iff._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orSets_mem_iff._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orSets_mem_iff._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_orSets_mem_iff"
+      ]
+    },
+    {
+      "first": 1484,
+      "last": 1488,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorSets_len"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorSets_len"
+      ]
+    },
+    {
+      "first": 1489,
+      "last": 1507,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_iff._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_iff",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_iff._proof_1_2"
+      ]
+    },
+    {
+      "first": 1508,
+      "last": 1516,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_bound"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_bound._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_bound"
+      ]
+    },
+    {
+      "first": 1517,
+      "last": 1519,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_self"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_self"
+      ]
+    },
+    {
+      "first": 1520,
+      "last": 1532,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_le"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_le",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_le._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_le._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_le._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_le._proof_1_2"
+      ]
+    },
+    {
+      "first": 1533,
+      "last": 1545,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_trans"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_trans._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_trans._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qreach_trans"
+      ]
+    },
+    {
+      "first": 1546,
+      "last": 1551,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qmem_orIn"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qmem_orIn",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qmem_orIn._simp_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qmem_orIn._simp_1_2"
+      ]
+    },
+    {
+      "first": 1552,
+      "last": 1567,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_eq_self"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_eq_self._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_eq_self",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_eq_self._proof_1_2"
+      ]
+    },
+    {
+      "first": 1568,
+      "last": 1576,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_small"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_small._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_small"
+      ]
+    },
+    {
+      "first": 1577,
+      "last": 1607,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_or"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_or._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_or"
+      ]
+    },
+    {
+      "first": 1608,
+      "last": 1616,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_sub"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_sub",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qorIn_sub._proof_1_1"
+      ]
+    },
+    {
+      "first": 1617,
+      "last": 1632,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_reach"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_reach._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_reach",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_reach._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_reach._simp_1_8"
+      ]
+    },
+    {
+      "first": 1633,
+      "last": 1649,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_orIn"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_orIn._simp_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_orIn._proof_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qval_orIn"
+      ]
+    },
+    {
+      "first": 1650,
+      "last": 1662,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qpart1"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qpart1._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qpart1"
+      ]
+    },
+    {
+      "first": 1663,
+      "last": 1667,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_srv"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_srv"
+      ]
+    },
+    {
+      "first": 1668,
+      "last": 1673,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qmem_srv"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qmem_srv"
+      ]
+    },
+    {
+      "first": 1674,
+      "last": 1679,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qsrv_mono"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qsrv_mono"
+      ]
+    },
+    {
+      "first": 1680,
+      "last": 1774,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_8",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_10",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_12",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_9",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qcount._proof_1_11"
+      ]
+    },
+    {
+      "first": 1775,
+      "last": 1860,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qfinal"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qfinal._simp_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qfinal",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qfinal._simp_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qfinal._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_qfinal._proof_1_1"
+      ]
+    },
+    {
+      "first": 1861,
+      "last": 1867,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234"
+      ]
+    },
+    {
+      "first": 1901,
+      "last": 1948,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.sum_card_ge"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part2.sum_card_ge"
+      ]
+    },
+    {
+      "first": 2092,
+      "last": 2094,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.stepW"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.stepW.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.stepW"
+      ]
+    },
+    {
+      "first": 2095,
+      "last": 2103,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_len"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_len",
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_len._proof_1_2"
+      ]
+    },
+    {
+      "first": 2104,
+      "last": 2113,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_getD_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_getD_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_getD_lt"
+      ]
+    },
+    {
+      "first": 2114,
+      "last": 2160,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_char"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_char",
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_char._proof_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_char._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_char._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_char._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_char._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part3.foldl_char._proof_1_4"
+      ]
+    },
+    {
+      "first": 2161,
+      "last": 2163,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wv"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wv"
+      ]
+    },
+    {
+      "first": 2164,
+      "last": 2165,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wires_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wires_eq"
+      ]
+    },
+    {
+      "first": 2166,
+      "last": 2171,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wv_input"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wv_input"
+      ]
+    },
+    {
+      "first": 2172,
+      "last": 2176,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.AOB"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.AOB"
+      ]
+    },
+    {
+      "first": 2177,
+      "last": 2188,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wv_rec"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wv_rec"
+      ]
+    },
+    {
+      "first": 2189,
+      "last": 2197,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_len"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_len",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_len._proof_1_2"
+      ]
+    },
+    {
+      "first": 2198,
+      "last": 2258,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._simp_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_13",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._simp_1_8",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._simp_1_9",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_11",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_10",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_12",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.cones_char._proof_1_3"
+      ]
+    },
+    {
+      "first": 2259,
+      "last": 2276,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_iff._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_iff._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_iff._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_iff",
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_iff._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_iff._proof_1_2"
+      ]
+    },
+    {
+      "first": 2277,
+      "last": 2288,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_lt",
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_lt._proof_1_1"
+      ]
+    },
+    {
+      "first": 2289,
+      "last": 2308,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_reader"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_reader"
+      ]
+    },
+    {
+      "first": 2309,
+      "last": 2310,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.tau"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.tau"
+      ]
+    },
+    {
+      "first": 2311,
+      "last": 2312,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho.eq_1"
+      ]
+    },
+    {
+      "first": 2313,
+      "last": 2316,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.IsRedirect"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.IsRedirect"
+      ]
+    },
+    {
+      "first": 2317,
+      "last": 2367,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_15",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_14",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_10",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_16",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_12",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_13",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_8",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_11",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_9",
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer._proof_1_4"
+      ]
+    },
+    {
+      "first": 2368,
+      "last": 2380,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer_eq"
+      ]
+    },
+    {
+      "first": 2381,
+      "last": 2404,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer_le"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.transfer_le"
+      ]
+    },
+    {
+      "first": 2405,
+      "last": 2408,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.gfun"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.gfun"
+      ]
+    },
+    {
+      "first": 2409,
+      "last": 2411,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1"
+      ]
+    },
+    {
+      "first": 2412,
+      "last": 2415,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2.eq_1"
+      ]
+    },
+    {
+      "first": 2416,
+      "last": 2419,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.gateAt_range"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.gateAt_range"
+      ]
+    },
+    {
+      "first": 2420,
+      "last": 2422,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_len"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_len"
+      ]
+    },
+    {
+      "first": 2423,
+      "last": 2425,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_len"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_len"
+      ]
+    },
+    {
+      "first": 2426,
+      "last": 2433,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_gate"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_gate"
+      ]
+    },
+    {
+      "first": 2434,
+      "last": 2441,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_gate"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_gate._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_gate"
+      ]
+    },
+    {
+      "first": 2442,
+      "last": 2449,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_top"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_top._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_top",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_top._proof_1_2"
+      ]
+    },
+    {
+      "first": 2450,
+      "last": 2454,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.AO2"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.AO2"
+      ]
+    },
+    {
+      "first": 2455,
+      "last": 2457,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.aob"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.aob"
+      ]
+    },
+    {
+      "first": 2458,
+      "last": 2460,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_lt._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_lt"
+      ]
+    },
+    {
+      "first": 2461,
+      "last": 2464,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_lt._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_lt._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_lt._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_lt",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_lt._proof_1_4"
+      ]
+    },
+    {
+      "first": 2465,
+      "last": 2467,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_low"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_low"
+      ]
+    },
+    {
+      "first": 2468,
+      "last": 2470,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_rho"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_rho._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_rho._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_rho",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_rho._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_rho._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_rho._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.tau_rho._proof_1_1"
+      ]
+    },
+    {
+      "first": 2471,
+      "last": 2473,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.eval_or_pair"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.eval_or_pair"
+      ]
+    },
+    {
+      "first": 2474,
+      "last": 2476,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.eval_and_pair"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.eval_and_pair"
+      ]
+    },
+    {
+      "first": 2477,
+      "last": 2488,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_AO2"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_AO2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_AO2._simp_1_1"
+      ]
+    },
+    {
+      "first": 2489,
+      "last": 2511,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2._simp_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2._proof_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_AO2._proof_1_4"
+      ]
+    },
+    {
+      "first": 2512,
+      "last": 2514,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_red"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_red"
+      ]
+    },
+    {
+      "first": 2515,
+      "last": 2517,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_red"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_red"
+      ]
+    },
+    {
+      "first": 2518,
+      "last": 2534,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun"
+      ]
+    },
+    {
+      "first": 2535,
+      "last": 2544,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_low"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_low._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_low._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_low._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_low"
+      ]
+    },
+    {
+      "first": 2545,
+      "last": 2552,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_same"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_same._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_same"
+      ]
+    },
+    {
+      "first": 2553,
+      "last": 2573,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_out"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_out",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_out._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_out._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_out._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_out._proof_1_4"
+      ]
+    },
+    {
+      "first": 2574,
+      "last": 2611,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_9",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_8",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_12",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_10",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_11",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part3.V1_fun_top._proof_1_5"
+      ]
+    },
+    {
+      "first": 2703,
+      "last": 2716,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_trans"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.inCone_trans"
+      ]
+    },
+    {
+      "first": 2717,
+      "last": 2765,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._simp_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_9",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_11",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_10",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_cone._proof_1_8"
+      ]
+    },
+    {
+      "first": 2766,
+      "last": 2787,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_reader"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_reader._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_reader._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_reader._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_reader._simp_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_reader"
+      ]
+    },
+    {
+      "first": 2788,
+      "last": 2800,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_cone"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_cone._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_cone._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_cone._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_no_cone"
+      ]
+    },
+    {
+      "first": 2801,
+      "last": 2805,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_inj"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_inj._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_inj._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_inj._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_inj"
+      ]
+    },
+    {
+      "first": 2809,
+      "last": 2813,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_surj"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_surj._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_surj._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_surj._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_surj",
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_surj._proof_1_4"
+      ]
+    },
+    {
+      "first": 2814,
+      "last": 2817,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wires_len"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.wires_len"
+      ]
+    },
+    {
+      "first": 2818,
+      "last": 2824,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.out_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.out_lt._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.out_lt"
+      ]
+    },
+    {
+      "first": 2852,
+      "last": 2861,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_gateval"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_gateval._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_gateval"
+      ]
+    },
+    {
+      "first": 2862,
+      "last": 2885,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_below"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.V2_below"
+      ]
+    },
+    {
+      "first": 2910,
+      "last": 2941,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.card_pairs_rho"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.card_pairs_rho"
+      ]
+    },
+    {
+      "first": 2974,
+      "last": 3023,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.pairs_lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.pairs_lt._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part3.pairs_lt._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.pairs_lt._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part3.pairs_lt",
+        "PEqualNP.Outside.L_meta_8323.Part3.pairs_lt._proof_1_4"
+      ]
+    },
+    {
+      "first": 3024,
+      "last": 3048,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.card_mem_rho"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.card_mem_rho",
+        "PEqualNP.Outside.L_meta_8323.Part3.card_mem_rho._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part3.card_mem_rho._proof_1_1"
+      ]
+    },
+    {
+      "first": 3049,
+      "last": 3074,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.junk_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.junk_eq"
+      ]
+    },
+    {
+      "first": 3075,
+      "last": 3079,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.gateAt_mem"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.gateAt_mem"
+      ]
+    },
+    {
+      "first": 3080,
+      "last": 3084,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.mem_gateAt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.mem_gateAt"
+      ]
+    },
+    {
+      "first": 3085,
+      "last": 3090,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.ao2_of"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.ao2_of"
+      ]
+    },
+    {
+      "first": 3091,
+      "last": 3103,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.ao2_to"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.ao2_to"
+      ]
+    },
+    {
+      "first": 3120,
+      "last": 3134,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.exists_true"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.exists_true"
+      ]
+    },
+    {
+      "first": 3135,
+      "last": 3154,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.mem_junk"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part3.mem_junk"
+      ]
+    },
+    {
+      "first": 3214,
+      "last": 3224,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.disjoint_or_count"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.disjoint_or_count"
+      ]
+    },
+    {
+      "first": 3225,
+      "last": 3322,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_count_core"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_count_core._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part4.or_count_core"
+      ]
+    },
+    {
+      "first": 3323,
+      "last": 3337,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_bound_of_edge_witness"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_bound_of_edge_witness"
+      ]
+    },
+    {
+      "first": 3340,
+      "last": 3367,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.fire_trace"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.fire_trace._simp_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part4.fire_trace._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part4.fire_trace"
+      ]
+    },
+    {
+      "first": 3368,
+      "last": 3383,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_cone"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_cone._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_cone._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_cone._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_cone"
+      ]
+    },
+    {
+      "first": 3384,
+      "last": 3392,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_into_input"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_into_input",
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_into_input._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_into_input._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part4.or_reach_into_input._proof_1_2"
+      ]
+    },
+    {
+      "first": 3393,
+      "last": 3403,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.clean_top_operand"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.clean_top_operand"
+      ]
+    },
+    {
+      "first": 3404,
+      "last": 3448,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.clean_top_edge_witness"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.clean_top_edge_witness"
+      ]
+    },
+    {
+      "first": 3449,
+      "last": 3452,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.graph_unit_false"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.graph_unit_false"
+      ]
+    },
+    {
+      "first": 3453,
+      "last": 3465,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.graph_pair_false"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.graph_pair_false"
+      ]
+    },
+    {
+      "first": 3466,
+      "last": 3491,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_indices_eq_countP"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.or_indices_eq_countP"
+      ]
+    },
+    {
+      "first": 3492,
+      "last": 3518,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part4.clean_top_or_bound"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part4.clean_top_or_bound"
+      ]
+    },
+    {
+      "first": 3592,
+      "last": 3593,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.val"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.val"
+      ]
+    },
+    {
+      "first": 3596,
+      "last": 3598,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.gateAt_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.gateAt_eq"
+      ]
+    },
+    {
+      "first": 3599,
+      "last": 3601,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.gateAt_mem"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.gateAt_mem"
+      ]
+    },
+    {
+      "first": 3680,
+      "last": 3681,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasWire"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasWire",
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasWire.eq_1"
+      ]
+    },
+    {
+      "first": 3682,
+      "last": 3683,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasGate"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasGate.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasGate"
+      ]
+    },
+    {
+      "first": 3684,
+      "last": 3688,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass"
+      ]
+    },
+    {
+      "first": 3689,
+      "last": 3691,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_length"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_length"
+      ]
+    },
+    {
+      "first": 3695,
+      "last": 3701,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.gateAt_bypass"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.gateAt_bypass"
+      ]
+    },
+    {
+      "first": 3840,
+      "last": 3862,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass._proof_1_8",
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass",
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass._proof_1_7",
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_eq_bypass._proof_1_6"
+      ]
+    },
+    {
+      "first": 4059,
+      "last": 4061,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wiresFrom"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wiresFrom.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wiresFrom"
+      ]
+    },
+    {
+      "first": 4062,
+      "last": 4063,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wires_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wires_eq"
+      ]
+    },
+    {
+      "first": 4064,
+      "last": 4067,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wiresFrom_append"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wiresFrom_append"
+      ]
+    },
+    {
+      "first": 4068,
+      "last": 4079,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wiresFrom_start"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wiresFrom_start"
+      ]
+    },
+    {
+      "first": 4080,
+      "last": 4084,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.length_wiresFrom"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.length_wiresFrom"
+      ]
+    },
+    {
+      "first": 4085,
+      "last": 4089,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_wiresFrom"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_wiresFrom"
+      ]
+    },
+    {
+      "first": 4090,
+      "last": 4092,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Ok"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Ok.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Ok"
+      ]
+    },
+    {
+      "first": 4095,
+      "last": 4100,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_snoc_ne"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_snoc_ne",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_snoc_ne._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_snoc_ne._proof_1_2"
+      ]
+    },
+    {
+      "first": 4101,
+      "last": 4103,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_snoc_eq"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_snoc_eq"
+      ]
+    },
+    {
+      "first": 4106,
+      "last": 4107,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat"
+      ]
+    },
+    {
+      "first": 4108,
+      "last": 4111,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val.eq_1",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val.match_1.splitter",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val.match_1",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val.match_1.eq_1",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val.match_1.eq_2",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val.eq_2"
+      ]
+    },
+    {
+      "first": 4112,
+      "last": 4115,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.Valid"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.Valid",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.Valid.eq_2",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.Valid.eq_1"
+      ]
+    },
+    {
+      "first": 4116,
+      "last": 4120,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpNot"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpNot.eq_3",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpNot.match_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpNot",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpNot.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpNot.eq_2"
+      ]
+    },
+    {
+      "first": 4121,
+      "last": 4130,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.eq_2",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.eq_6",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.eq_3",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.eq_5",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.eq_2",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.eq_6",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.eq_8",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.eq_4",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.eq_8",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.splitter",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.eq_4",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd._sparseCasesOn_1.else_eq",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd._sparseCasesOn_1",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.eq_7",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.eq_7",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.eq_5",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpAnd.match_1.eq_3"
+      ]
+    },
+    {
+      "first": 4131,
+      "last": 4140,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr.eq_2",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr.eq_6",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr.eq_4",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr.eq_8",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr.eq_7",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr.eq_3",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr.eq_5",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simpOr"
+      ]
+    },
+    {
+      "first": 4141,
+      "last": 4147,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.eq_2",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.eq_3",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify._sparseCasesOn_1.else_eq",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.match_1.splitter",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.match_1.eq_4",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.match_1",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.match_1.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify._sparseCasesOn_1",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.match_1.eq_2",
+        "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.match_1.eq_3",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify.eq_4"
+      ]
+    },
+    {
+      "first": 4174,
+      "last": 4196,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_sound"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_sound"
+      ]
+    },
+    {
+      "first": 4197,
+      "last": 4202,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elimStep"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elimStep.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elimStep"
+      ]
+    },
+    {
+      "first": 4203,
+      "last": 4205,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim"
+      ]
+    },
+    {
+      "first": 4220,
+      "last": 4222,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.toList_length_le"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.toList_length_le"
+      ]
+    },
+    {
+      "first": 4235,
+      "last": 4249,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_len"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_len",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_len._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_len._proof_1_3"
+      ]
+    },
+    {
+      "first": 4295,
+      "last": 4298,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.valid_mono"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.valid_mono.match_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.valid_mono"
+      ]
+    },
+    {
+      "first": 4299,
+      "last": 4303,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val_append"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val_append",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Stat.val_append.match_1_1"
+      ]
+    },
+    {
+      "first": 4304,
+      "last": 4308,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Inv"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.Inv"
+      ]
+    },
+    {
+      "first": 4309,
+      "last": 4351,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.inv_elim"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.inv_elim._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.inv_elim._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.inv_elim"
+      ]
+    },
+    {
+      "first": 4352,
+      "last": 4354,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_cons"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_cons"
+      ]
+    },
+    {
+      "first": 4359,
+      "last": 4360,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.idStats"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.idStats",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.idStats.eq_1"
+      ]
+    },
+    {
+      "first": 4361,
+      "last": 4370,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.inv_id"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.inv_id",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.inv_id._proof_1_7"
+      ]
+    },
+    {
+      "first": 4413,
+      "last": 4416,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.CleanGate"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.CleanGate"
+      ]
+    },
+    {
+      "first": 4417,
+      "last": 4419,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.CleanL"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.CleanL"
+      ]
+    },
+    {
+      "first": 4435,
+      "last": 4446,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.CleanGate.lt"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.CleanGate.lt"
+      ]
+    },
+    {
+      "first": 4452,
+      "last": 4474,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_clean"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_clean"
+      ]
+    },
+    {
+      "first": 4475,
+      "last": 4483,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.toList_getElem?"
+      ],
+      "reasons": [
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.toList_getElem?"
+      ]
+    },
+    {
+      "first": 4484,
+      "last": 4507,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.clean_elim"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.clean_elim._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.clean_elim",
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.clean_elim._proof_1_1"
+      ]
+    },
+    {
+      "first": 4508,
+      "last": 4520,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_op"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_op"
+      ]
+    },
+    {
+      "first": 4521,
+      "last": 4523,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.AO"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.AO"
+      ]
+    },
+    {
+      "first": 4524,
+      "last": 4536,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_ao"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_ao"
+      ]
+    },
+    {
+      "first": 4537,
+      "last": 4552,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.ao_clean_isAO2"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.ao_clean_isAO2"
+      ]
+    },
+    {
+      "first": 4733,
+      "last": 4735,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.opCount"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part6.opCount.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part6.opCount"
+      ]
+    },
+    {
+      "first": 4736,
+      "last": 4739,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.isOr"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part6.isOr",
+        "PEqualNP.Outside.L_meta_8323.Part6.isOr.match_1",
+        "PEqualNP.Outside.L_meta_8323.Part6.isOr._sparseCasesOn_1"
+      ]
+    },
+    {
+      "first": 4740,
+      "last": 4741,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.orCount"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part6.orCount"
+      ]
+    },
+    {
+      "first": 4742,
+      "last": 4749,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.orCount_eq_public"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part6.orCount_eq_public"
+      ]
+    },
+    {
+      "first": 4750,
+      "last": 4763,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.bypass_opCount"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part6.bypass_opCount._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part6.bypass_opCount"
+      ]
+    },
+    {
+      "first": 4773,
+      "last": 4780,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.Normalize.simplify_countP"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part6.Normalize.simplify_countP"
+      ]
+    },
+    {
+      "first": 4781,
+      "last": 4797,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.Normalize.elim_countP"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part6.Normalize.elim_countP",
+        "PEqualNP.Outside.L_meta_8323.Part6.Normalize.elim_countP._proof_1_3"
+      ]
+    },
+    {
+      "first": 5069,
+      "last": 5083,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.opCount_of_same_ops"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part7.opCount_of_same_ops"
+      ]
+    },
+    {
+      "first": 5084,
+      "last": 5097,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V1_opCount"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V1_opCount"
+      ]
+    },
+    {
+      "first": 5098,
+      "last": 5103,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V1_orCount_le"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V1_orCount_le._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part7.V1_orCount_le"
+      ]
+    },
+    {
+      "first": 5104,
+      "last": 5122,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_ops"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_ops._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_ops",
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_ops._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_ops._proof_1_3"
+      ]
+    },
+    {
+      "first": 5123,
+      "last": 5134,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_opCount"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_opCount",
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_opCount._proof_1_1"
+      ]
+    },
+    {
+      "first": 5135,
+      "last": 5141,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_orCount"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part7.V2_orCount"
+      ]
+    },
+    {
+      "first": 5394,
+      "last": 5397,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.Clean"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.Clean"
+      ]
+    },
+    {
+      "first": 5398,
+      "last": 5402,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.CleanLeast"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.CleanLeast"
+      ]
+    },
+    {
+      "first": 5403,
+      "last": 5414,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.below_off"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.below_off"
+      ]
+    },
+    {
+      "first": 5415,
+      "last": 5431,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.V1_clean"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.V1_clean._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part8.V1_clean"
+      ]
+    },
+    {
+      "first": 5432,
+      "last": 5448,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.V2_clean"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.V2_clean._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part8.V2_clean",
+        "PEqualNP.Outside.L_meta_8323.Part8.V2_clean._proof_1_1"
+      ]
+    },
+    {
+      "first": 5449,
+      "last": 5491,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_or"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_or._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_or"
+      ]
+    },
+    {
+      "first": 5492,
+      "last": 5550,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_2",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_3",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_10",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_9",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_6",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_8",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_5",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_4",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_reader_unique._proof_1_7"
+      ]
+    },
+    {
+      "first": 5551,
+      "last": 5573,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_step3_core"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_step3_core"
+      ]
+    },
+    {
+      "first": 5574,
+      "last": 5581,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_least_of_same"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_least_of_same"
+      ]
+    },
+    {
+      "first": 5582,
+      "last": 5617,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_step3_struct"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_step3_struct._proof_1_1",
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_step3_struct"
+      ]
+    },
+    {
+      "first": 5618,
+      "last": 5658,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_main_ind"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_main_ind"
+      ]
+    },
+    {
+      "first": 5659,
+      "last": 5669,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_top_form"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_top_form"
+      ]
+    },
+    {
+      "first": 5670,
+      "last": 5687,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.exists_clean_minimum"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.exists_clean_minimum"
+      ]
+    },
+    {
+      "first": 5688,
+      "last": 5699,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.exists_clean_top_form_with_or_budget"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.exists_clean_top_form_with_or_budget"
+      ]
+    },
+    {
+      "first": 5700,
+      "last": 5720,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_iff_all_and_below"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part8.clean_iff_all_and_below"
+      ]
+    },
+    {
+      "first": 5735,
+      "last": 5738,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.AndClean"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.AndClean"
+      ]
+    },
+    {
+      "first": 5739,
+      "last": 5741,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.step"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.step.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part9.step"
+      ]
+    },
+    {
+      "first": 5742,
+      "last": 5747,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.AndOff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.AndOff._f",
+        "PEqualNP.Outside.L_meta_8323.Part9.AndOff.eq_2",
+        "PEqualNP.Outside.L_meta_8323.Part9.AndOff._unsafe_rec",
+        "PEqualNP.Outside.L_meta_8323.Part9.AndOff",
+        "PEqualNP.Outside.L_meta_8323.Part9.AndOff.match_1",
+        "PEqualNP.Outside.L_meta_8323.Part9.AndOff.eq_1",
+        "PEqualNP.Outside.L_meta_8323.Part9.AndOff._sunfold"
+      ]
+    },
+    {
+      "first": 5748,
+      "last": 5750,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.wiresFrom_cons"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.wiresFrom_cons"
+      ]
+    },
+    {
+      "first": 5751,
+      "last": 5756,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.wiresFrom_head"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.wiresFrom_head"
+      ]
+    },
+    {
+      "first": 5757,
+      "last": 5779,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.andOff_iff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.andOff_iff"
+      ]
+    },
+    {
+      "first": 5780,
+      "last": 5787,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.andOff_append"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.andOff_append"
+      ]
+    },
+    {
+      "first": 5788,
+      "last": 5799,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.simplify_some_stat"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.simplify_some_stat"
+      ]
+    },
+    {
+      "first": 5800,
+      "last": 5819,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.simplify_andOff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.simplify_andOff"
+      ]
+    },
+    {
+      "first": 5820,
+      "last": 5857,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.elim_andOff"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.elim_andOff"
+      ]
+    },
+    {
+      "first": 5858,
+      "last": 5920,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part9.normalize_nonconstant_clean_budgets"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part9.normalize_nonconstant_clean_budgets"
+      ]
+    },
+    {
+      "first": 5936,
+      "last": 5951,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part10.clean_ao2_lower_bound"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part10.clean_ao2_lower_bound",
+        "PEqualNP.Outside.L_meta_8323.Part10.clean_ao2_lower_bound._proof_1_1"
+      ]
+    },
+    {
+      "first": 5952,
+      "last": 5965,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part10.clean_monotone_lower_bound"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part10.clean_monotone_lower_bound"
+      ]
+    },
+    {
+      "first": 5966,
+      "last": 5978,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part10.exact_8323"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure",
+        "retained-command-kernel-dependency"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323.Part10.exact_8323"
+      ]
+    },
+    {
+      "first": 5983,
+      "last": 5985,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323"
+      ],
+      "reasons": [
+        "conservative-proof-source-reference",
+        "final-kernel-closure"
+      ],
+      "generated_constants": [
+        "PEqualNP.Outside.L_meta_8323"
+      ]
+    }
+  ],
+  "deleted": [
+    {
+      "first": 27,
+      "last": 36,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.rectangle_has_singleton_side"
+      ]
+    },
+    {
+      "first": 37,
+      "last": 51,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.rectangle_card_le_weight"
+      ]
+    },
+    {
+      "first": 52,
+      "last": 70,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.cover_cost_ge_105"
+      ]
+    },
+    {
+      "first": 71,
+      "last": 73,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part0.exact_8470"
+      ]
+    },
+    {
+      "first": 117,
+      "last": 123,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.point_ne_line"
+      ]
+    },
+    {
+      "first": 152,
+      "last": 153,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.color"
+      ]
+    },
+    {
+      "first": 154,
+      "last": 159,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.bipartite"
+      ]
+    },
+    {
+      "first": 300,
+      "last": 303,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.AllANDSafe"
+      ]
+    },
+    {
+      "first": 304,
+      "last": 312,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part1.allANDSafe_iff"
+      ]
+    },
+    {
+      "first": 324,
+      "last": 326,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_stepWire"
+      ]
+    },
+    {
+      "first": 327,
+      "last": 329,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_wires_eq_foldl"
+      ]
+    },
+    {
+      "first": 330,
+      "last": 338,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_foldl_stepWire_length"
+      ]
+    },
+    {
+      "first": 339,
+      "last": 348,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_foldl_stepWire_getD_lt"
+      ]
+    },
+    {
+      "first": 349,
+      "last": 352,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_getD_ge_length"
+      ]
+    },
+    {
+      "first": 353,
+      "last": 356,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_wires_length"
+      ]
+    },
+    {
+      "first": 363,
+      "last": 365,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_W"
+      ]
+    },
+    {
+      "first": 369,
+      "last": 393,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_W_gate"
+      ]
+    },
+    {
+      "first": 394,
+      "last": 399,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_W_input"
+      ]
+    },
+    {
+      "first": 511,
+      "last": 516,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_FR"
+      ]
+    },
+    {
+      "first": 517,
+      "last": 519,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_stepR"
+      ]
+    },
+    {
+      "first": 520,
+      "last": 525,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_readVectors_eq"
+      ]
+    },
+    {
+      "first": 526,
+      "last": 533,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_FR_or"
+      ]
+    },
+    {
+      "first": 534,
+      "last": 541,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_FR_and"
+      ]
+    },
+    {
+      "first": 542,
+      "last": 550,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_foldR_length"
+      ]
+    },
+    {
+      "first": 551,
+      "last": 560,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_foldR_getD_lt"
+      ]
+    },
+    {
+      "first": 561,
+      "last": 563,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_RV"
+      ]
+    },
+    {
+      "first": 564,
+      "last": 570,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_RV_input"
+      ]
+    },
+    {
+      "first": 571,
+      "last": 596,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_RV_gate"
+      ]
+    },
+    {
+      "first": 597,
+      "last": 612,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_mem_foldl_insertNew"
+      ]
+    },
+    {
+      "first": 613,
+      "last": 621,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_mem_andStep"
+      ]
+    },
+    {
+      "first": 622,
+      "last": 627,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_capAdd_pair"
+      ]
+    },
+    {
+      "first": 628,
+      "last": 634,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_leaf_eq"
+      ]
+    },
+    {
+      "first": 635,
+      "last": 779,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230_inv"
+      ]
+    },
+    {
+      "first": 780,
+      "last": 801,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2230"
+      ]
+    },
+    {
+      "first": 833,
+      "last": 836,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2231_wires_length"
+      ]
+    },
+    {
+      "first": 1368,
+      "last": 1371,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.s2234_wires_length"
+      ]
+    },
+    {
+      "first": 1870,
+      "last": 1900,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.three_count"
+      ]
+    },
+    {
+      "first": 1949,
+      "last": 2069,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.core"
+      ]
+    },
+    {
+      "first": 2070,
+      "last": 2077,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2.main_aux"
+      ]
+    },
+    {
+      "first": 2080,
+      "last": 2082,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part2"
+      ]
+    },
+    {
+      "first": 2612,
+      "last": 2615,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.Least"
+      ]
+    },
+    {
+      "first": 2616,
+      "last": 2653,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.reader_or"
+      ]
+    },
+    {
+      "first": 2654,
+      "last": 2702,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.reader_unique"
+      ]
+    },
+    {
+      "first": 2806,
+      "last": 2808,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.rho_ne"
+      ]
+    },
+    {
+      "first": 2825,
+      "last": 2846,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.step3_core"
+      ]
+    },
+    {
+      "first": 2847,
+      "last": 2851,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.least_of_same"
+      ]
+    },
+    {
+      "first": 2886,
+      "last": 2909,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.card_filter_rho"
+      ]
+    },
+    {
+      "first": 2942,
+      "last": 2973,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.step3_struct"
+      ]
+    },
+    {
+      "first": 3104,
+      "last": 3112,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.least_glue"
+      ]
+    },
+    {
+      "first": 3113,
+      "last": 3119,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.least_glue'"
+      ]
+    },
+    {
+      "first": 3155,
+      "last": 3193,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3.main_ind"
+      ]
+    },
+    {
+      "first": 3196,
+      "last": 3202,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part3"
+      ]
+    },
+    {
+      "first": 3530,
+      "last": 3532,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.stepWire"
+      ]
+    },
+    {
+      "first": 3533,
+      "last": 3535,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.wires_eq_foldl"
+      ]
+    },
+    {
+      "first": 3536,
+      "last": 3544,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.foldl_length"
+      ]
+    },
+    {
+      "first": 3545,
+      "last": 3554,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.foldl_getD_lt2"
+      ]
+    },
+    {
+      "first": 3555,
+      "last": 3557,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.getD_ge"
+      ]
+    },
+    {
+      "first": 3558,
+      "last": 3591,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.foldl_getD_gate"
+      ]
+    },
+    {
+      "first": 3594,
+      "last": 3595,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.eval_eq_val"
+      ]
+    },
+    {
+      "first": 3602,
+      "last": 3605,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.val_input"
+      ]
+    },
+    {
+      "first": 3606,
+      "last": 3609,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.val_ge"
+      ]
+    },
+    {
+      "first": 3610,
+      "last": 3617,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.val_gate"
+      ]
+    },
+    {
+      "first": 3618,
+      "last": 3621,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.OpMono"
+      ]
+    },
+    {
+      "first": 3622,
+      "last": 3625,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.opMono_eq"
+      ]
+    },
+    {
+      "first": 3626,
+      "last": 3633,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.opMono_imp"
+      ]
+    },
+    {
+      "first": 3634,
+      "last": 3646,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.val_or"
+      ]
+    },
+    {
+      "first": 3647,
+      "last": 3660,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.val_and"
+      ]
+    },
+    {
+      "first": 3661,
+      "last": 3679,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.val_prefix"
+      ]
+    },
+    {
+      "first": 3692,
+      "last": 3694,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_output"
+      ]
+    },
+    {
+      "first": 3702,
+      "last": 3707,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_val_lt"
+      ]
+    },
+    {
+      "first": 3708,
+      "last": 3709,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasWire_self"
+      ]
+    },
+    {
+      "first": 3710,
+      "last": 3712,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasWire_lt_self"
+      ]
+    },
+    {
+      "first": 3713,
+      "last": 3715,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasWire_gt_self"
+      ]
+    },
+    {
+      "first": 3716,
+      "last": 3763,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_rel"
+      ]
+    },
+    {
+      "first": 3764,
+      "last": 3779,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_eval_rel"
+      ]
+    },
+    {
+      "first": 3780,
+      "last": 3787,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_eval_eq"
+      ]
+    },
+    {
+      "first": 3788,
+      "last": 3798,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_eval_unread"
+      ]
+    },
+    {
+      "first": 3799,
+      "last": 3811,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_AO"
+      ]
+    },
+    {
+      "first": 3812,
+      "last": 3821,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_mem"
+      ]
+    },
+    {
+      "first": 3822,
+      "last": 3825,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.aliasWire_lt"
+      ]
+    },
+    {
+      "first": 3826,
+      "last": 3839,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_readsBack"
+      ]
+    },
+    {
+      "first": 3863,
+      "last": 3867,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.mono_ops"
+      ]
+    },
+    {
+      "first": 3868,
+      "last": 3890,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.wire_monotone"
+      ]
+    },
+    {
+      "first": 3891,
+      "last": 3894,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.circuit_monotone"
+      ]
+    },
+    {
+      "first": 3895,
+      "last": 3898,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.opMono_reverse"
+      ]
+    },
+    {
+      "first": 3899,
+      "last": 3905,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_mono"
+      ]
+    },
+    {
+      "first": 3906,
+      "last": 3908,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Fits"
+      ]
+    },
+    {
+      "first": 3909,
+      "last": 3913,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.LeastSamples"
+      ]
+    },
+    {
+      "first": 3914,
+      "last": 3933,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.bypass_samples"
+      ]
+    },
+    {
+      "first": 3934,
+      "last": 3949,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.erase_samples"
+      ]
+    },
+    {
+      "first": 3950,
+      "last": 3960,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.least_no_alias"
+      ]
+    },
+    {
+      "first": 3961,
+      "last": 3985,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.and_negative_witness"
+      ]
+    },
+    {
+      "first": 3986,
+      "last": 4012,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.and_negative_incomparable"
+      ]
+    },
+    {
+      "first": 4013,
+      "last": 4053,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.or_positive_incomparable"
+      ]
+    },
+    {
+      "first": 4104,
+      "last": 4105,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.NOk"
+      ]
+    },
+    {
+      "first": 4148,
+      "last": 4160,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_ok"
+      ]
+    },
+    {
+      "first": 4161,
+      "last": 4173,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_count"
+      ]
+    },
+    {
+      "first": 4206,
+      "last": 4209,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_snoc_len"
+      ]
+    },
+    {
+      "first": 4210,
+      "last": 4219,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_getD"
+      ]
+    },
+    {
+      "first": 4223,
+      "last": 4234,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_ok"
+      ]
+    },
+    {
+      "first": 4250,
+      "last": 4294,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_len_lt"
+      ]
+    },
+    {
+      "first": 4355,
+      "last": 4358,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.elim_append"
+      ]
+    },
+    {
+      "first": 4371,
+      "last": 4374,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.getD_ofFn"
+      ]
+    },
+    {
+      "first": 4374,
+      "last": 4390,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.split_at"
+      ]
+    },
+    {
+      "first": 4391,
+      "last": 4402,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.simplify_small"
+      ]
+    },
+    {
+      "first": 4403,
+      "last": 4412,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.wire_at"
+      ]
+    },
+    {
+      "first": 4420,
+      "last": 4434,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.CleanGate.nok"
+      ]
+    },
+    {
+      "first": 4447,
+      "last": 4451,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.clean_nok"
+      ]
+    },
+    {
+      "first": 4553,
+      "last": 4592,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Normalize.normalize_nonconstant"
+      ]
+    },
+    {
+      "first": 4599,
+      "last": 4613,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.exists_least_samples"
+      ]
+    },
+    {
+      "first": 4614,
+      "last": 4621,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.ofFn_getD"
+      ]
+    },
+    {
+      "first": 4622,
+      "last": 4626,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.eval_of_funEq"
+      ]
+    },
+    {
+      "first": 4627,
+      "last": 4635,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.sample_nonconstant"
+      ]
+    },
+    {
+      "first": 4636,
+      "last": 4658,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.least_normalized_samples"
+      ]
+    },
+    {
+      "first": 4659,
+      "last": 4672,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.least_binary_inputs_distinct"
+      ]
+    },
+    {
+      "first": 4673,
+      "last": 4674,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.diff"
+      ]
+    },
+    {
+      "first": 4675,
+      "last": 4677,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.quad"
+      ]
+    },
+    {
+      "first": 4678,
+      "last": 4679,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Flag"
+      ]
+    },
+    {
+      "first": 4679,
+      "last": 4680,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.Quad"
+      ]
+    },
+    {
+      "first": 4681,
+      "last": 4683,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.augment"
+      ]
+    },
+    {
+      "first": 4684,
+      "last": 4687,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.positive"
+      ]
+    },
+    {
+      "first": 4688,
+      "last": 4691,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.negative"
+      ]
+    },
+    {
+      "first": 4692,
+      "last": 4694,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.positive_length"
+      ]
+    },
+    {
+      "first": 4695,
+      "last": 4697,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.negative_length"
+      ]
+    },
+    {
+      "first": 4698,
+      "last": 4699,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.flag0"
+      ]
+    },
+    {
+      "first": 4699,
+      "last": 4700,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.quad0"
+      ]
+    },
+    {
+      "first": 4701,
+      "last": 4719,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part5.free_or_normal_form"
+      ]
+    },
+    {
+      "first": 4764,
+      "last": 4768,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.bypass_opCount_le"
+      ]
+    },
+    {
+      "first": 4798,
+      "last": 4842,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.Normalize.normalize_nonconstant_budgets"
+      ]
+    },
+    {
+      "first": 4845,
+      "last": 4849,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.LeastBudget"
+      ]
+    },
+    {
+      "first": 4850,
+      "last": 4865,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.exists_least_budget"
+      ]
+    },
+    {
+      "first": 4866,
+      "last": 4881,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.least_budget_normal_form"
+      ]
+    },
+    {
+      "first": 4882,
+      "last": 4897,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.least_budget_no_alias"
+      ]
+    },
+    {
+      "first": 4898,
+      "last": 4913,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.least_budget_distinct_inputs"
+      ]
+    },
+    {
+      "first": 4914,
+      "last": 4944,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.least_budget_no_alias_order"
+      ]
+    },
+    {
+      "first": 4945,
+      "last": 4970,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.least_budget_and_negative_witness"
+      ]
+    },
+    {
+      "first": 4971,
+      "last": 4999,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.least_budget_and_negative_incomparable"
+      ]
+    },
+    {
+      "first": 5000,
+      "last": 5043,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.least_budget_or_positive_incomparable"
+      ]
+    },
+    {
+      "first": 5044,
+      "last": 5055,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part6.least_budget_gate_productive"
+      ]
+    },
+    {
+      "first": 5142,
+      "last": 5146,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.BudgetLeast"
+      ]
+    },
+    {
+      "first": 5147,
+      "last": 5184,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.budget_reader_or"
+      ]
+    },
+    {
+      "first": 5185,
+      "last": 5235,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.budget_reader_unique"
+      ]
+    },
+    {
+      "first": 5236,
+      "last": 5257,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.budget_step3_core"
+      ]
+    },
+    {
+      "first": 5258,
+      "last": 5264,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.budget_least_of_same"
+      ]
+    },
+    {
+      "first": 5265,
+      "last": 5298,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.budget_step3_struct"
+      ]
+    },
+    {
+      "first": 5299,
+      "last": 5339,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.budget_main_ind"
+      ]
+    },
+    {
+      "first": 5340,
+      "last": 5350,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.budget_top_form"
+      ]
+    },
+    {
+      "first": 5351,
+      "last": 5362,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.budgetLeast_of_leastBudget"
+      ]
+    },
+    {
+      "first": 5363,
+      "last": 5380,
+      "names": [
+        "PEqualNP.Outside.L_meta_8323.Part7.exists_top_form_with_or_budget"
+      ]
+    }
+  ],
+  "unowned_module_constants": [
+    "PEqualNP.CircuitLowerBounds.GateOp.eval.eq_1",
+    "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.CircuitLowerBounds.GateOp.eval.match_1.eq_4",
+    "PEqualNP.CleanedNonEdge.orSets.eq_1",
+    "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.CircuitLowerBounds.GateOp.eval.match_1.eq_5",
+    "PEqualNP.TopForm.opnd.eq_1",
+    "PEqualNP.EdgeOwnership.pairInput.eq_1",
+    "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.CircuitLowerBounds.GateOp.eval.match_1.eq_3",
+    "PEqualNP.MetaComplexity.circuitFun.eq_1",
+    "PEqualNP.MetaComplexity.NestedCover.graphFun.congr_simp",
+    "PEqualNP.CircuitLowerBounds.GateOp.eval.eq_3",
+    "PEqualNP.MetaComplexity.NestedCover.gateAt.eq_1",
+    "PEqualNP.MetaComplexity.NestedCover.graphFun.eq_1",
+    "PEqualNP.CircuitLowerBounds.GateOp.eval.eq_2",
+    "PEqualNP.CircuitLowerBounds.GateOp.eval.eq_5",
+    "PEqualNP.EdgeOwnership.coneStep.eq_1",
+    "PEqualNP.CircuitLowerBounds.GateOp.eval.eq_4",
+    "PEqualNP.CleanedNonEdge.orStep.eq_1",
+    "PEqualNP.CircuitLowerBounds.Circuit.size.eq_1",
+    "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.CircuitLowerBounds.GateOp.eval.match_1.eq_1",
+    "PEqualNP.TopForm.side.eq_1",
+    "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.CircuitLowerBounds.GateOp.eval.match_1.eq_2",
+    "_private.PEqualNP.Outside.L_meta_8323.0.PEqualNP.CircuitLowerBounds.GateOp.eval.match_1.splitter"
+  ]
+}

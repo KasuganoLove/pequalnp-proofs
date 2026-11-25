@@ -1,0 +1,267 @@
+{
+  "source_commit": "259523a5b265318b84f9377f2feb965fd213f898",
+  "source_commit_at": "2026-11-25T05:45:42Z",
+  "public_export_at": "2026-11-25T05:50:45.796Z",
+  "children": [
+    {
+      "id": "L-meta-8121",
+      "status": "conjecture",
+      "statement_hash": "sha256:8ee9f6c24c3f7fdae4dd07bc13aa47c159de3986316fd8fb09ae8e076260dedf",
+      "formal_statement": "have x1 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x1 : PEqualNP.CircuitLowerBounds.Circuit) => ∀ (x2 : Fin (42 : ℕ) → Bool), x1.eval (List.ofFn x2) = Bool.true ↔ ∃ (x3 : Fin (42 : ℕ)) (x4 : Fin (42 : ℕ)), (↑x3 < (21 : ℕ) ∧ (21 : ℕ) ≤ ↑x4 ∧ (↑x4 + (21 : ℕ) - ↑x3) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x2 : PEqualNP.CircuitLowerBounds.Circuit → ℕ := fun (x2 : PEqualNP.CircuitLowerBounds.Circuit) => List.countP (fun (x3 : PEqualNP.CircuitLowerBounds.Gate) => PEqualNP.CircuitLowerBounds.GateOp.casesOn x3.op Bool.false Bool.true Bool.false (fun (x4 : ℕ) => Bool.false) Bool.false) x2.gates; have x3 : PEqualNP.CircuitLowerBounds.Circuit → List (ℕ × ℕ) := fun (x3 : PEqualNP.CircuitLowerBounds.Circuit) => PEqualNP.ReadK.doubleReread x3 (42 : ℕ) (fun (x4 : ℕ) => Decidable.decide ((21 : ℕ) ≤ x4)) (List.flatMap (fun (x4 : ℕ) => List.map (fun (x5 : ℕ) => (x4, (21 : ℕ) + (x4 + x5) % (21 : ℕ))) [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) (List.range (21 : ℕ))); ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.TopForm.IsAO2 (42 : ℕ) x4 → x1 x4 → x3 x4 = [] → (104 : ℕ) ≤ x2 x4",
+      "status_at": "2026-11-25T05:01:40.213Z",
+      "local_research_status": "not proved in this checkpoint"
+    },
+    {
+      "id": "L-meta-8123",
+      "status": "conjecture",
+      "statement_hash": "sha256:3ee91f50e2c362a6bf4438daecbe984fa667bcdda54402bddbf324472d4b5a5f",
+      "formal_statement": "have x1 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x1 : PEqualNP.CircuitLowerBounds.Circuit) => ∀ (x2 : Fin (42 : ℕ) → Bool), x1.eval (List.ofFn x2) = Bool.true ↔ ∃ (x3 : Fin (42 : ℕ)) (x4 : Fin (42 : ℕ)), (↑x3 < (21 : ℕ) ∧ (21 : ℕ) ≤ ↑x4 ∧ (↑x4 + (21 : ℕ) - ↑x3) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x2 : PEqualNP.CircuitLowerBounds.Circuit → ℕ := fun (x2 : PEqualNP.CircuitLowerBounds.Circuit) => List.countP (fun (x3 : PEqualNP.CircuitLowerBounds.Gate) => PEqualNP.CircuitLowerBounds.GateOp.casesOn x3.op Bool.false Bool.true Bool.false (fun (x4 : ℕ) => Bool.false) Bool.false) x2.gates; have x3 : PEqualNP.CircuitLowerBounds.Circuit → List (ℕ × ℕ) := fun (x3 : PEqualNP.CircuitLowerBounds.Circuit) => PEqualNP.ReadK.doubleReread x3 (42 : ℕ) (fun (x4 : ℕ) => Decidable.decide ((21 : ℕ) ≤ x4)) (List.flatMap (fun (x4 : ℕ) => List.map (fun (x5 : ℕ) => (x4, (21 : ℕ) + (x4 + x5) % (21 : ℕ))) [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) (List.range (21 : ℕ))); ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.TopForm.IsAO2 (42 : ℕ) x4 → x1 x4 → (∀ (x7 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.TopForm.IsAO2 (42 : ℕ) x7 → x1 x7 → x2 x4 ≤ x2 x7) → x3 x4 ≠ [] → ∃ (x9 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.TopForm.IsAO2 (42 : ℕ) x9 ∧ x1 x9 ∧ x2 x9 ≤ x2 x4 ∧ (x3 x9).length < (x3 x4).length",
+      "status_at": "2026-11-25T05:01:40.213Z",
+      "local_research_status": "not proved in this checkpoint"
+    },
+    {
+      "id": "L-meta-8321",
+      "status": "conjecture",
+      "statement_hash": "sha256:b30d778075c7850e16ef4e62cb9fa80b7e5b55ad729ccb1e607b64b43312bb0e",
+      "formal_statement": "have x1 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x1 : PEqualNP.CircuitLowerBounds.Circuit) => ∀ (x2 : Fin (42 : ℕ) → Bool), x1.eval (List.ofFn x2) = Bool.true ↔ ∃ (x3 : Fin (42 : ℕ)) (x4 : Fin (42 : ℕ)), (↑x3 < (21 : ℕ) ∧ (21 : ℕ) ≤ ↑x4 ∧ (↑x4 + (21 : ℕ) - ↑x3) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x2 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x2 : PEqualNP.CircuitLowerBounds.Circuit) => ∀ (x3 : ℕ) (x4 : PEqualNP.CircuitLowerBounds.Gate), x2.gates[x3]? = Option.some x4 → x4.op = PEqualNP.CircuitLowerBounds.GateOp.and → ∀ (x7 : Fin (42 : ℕ) → Bool), (x2.wires (List.ofFn x7)).getD ((42 : ℕ) + x3) Bool.false = Bool.true → x2.eval (List.ofFn x7) = Bool.true; have x3 : PEqualNP.CircuitLowerBounds.Circuit → ℕ := fun (x3 : PEqualNP.CircuitLowerBounds.Circuit) => List.countP (fun (x4 : PEqualNP.CircuitLowerBounds.Gate) => PEqualNP.CircuitLowerBounds.GateOp.casesOn x4.op Bool.false Bool.true Bool.false (fun (x5 : ℕ) => Bool.false) Bool.false) x3.gates; ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x4 → x1 x4 → ∃ (x7 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x7 ∧ x1 x7 ∧ x2 x7 ∧ x3 x7 ≤ x3 x4",
+      "status_at": "2026-11-25T05:16:01.680Z",
+      "local_research_status": "not proved in this checkpoint"
+    },
+    {
+      "id": "L-meta-8323",
+      "status": "conjecture",
+      "statement_hash": "sha256:ea9da5a93cdce2730e73e9dfe572610b1f6cb565daff7e96c8f55c0a6d8ccfbf",
+      "formal_statement": "have x1 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x1 : PEqualNP.CircuitLowerBounds.Circuit) => ∀ (x2 : Fin (42 : ℕ) → Bool), x1.eval (List.ofFn x2) = Bool.true ↔ ∃ (x3 : Fin (42 : ℕ)) (x4 : Fin (42 : ℕ)), (↑x3 < (21 : ℕ) ∧ (21 : ℕ) ≤ ↑x4 ∧ (↑x4 + (21 : ℕ) - ↑x3) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x2 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x2 : PEqualNP.CircuitLowerBounds.Circuit) => ∀ (x3 : ℕ) (x4 : PEqualNP.CircuitLowerBounds.Gate), x2.gates[x3]? = Option.some x4 → x4.op = PEqualNP.CircuitLowerBounds.GateOp.and → ∀ (x7 : Fin (42 : ℕ) → Bool), (x2.wires (List.ofFn x7)).getD ((42 : ℕ) + x3) Bool.false = Bool.true → x2.eval (List.ofFn x7) = Bool.true; have x3 : PEqualNP.CircuitLowerBounds.Circuit → ℕ := fun (x3 : PEqualNP.CircuitLowerBounds.Circuit) => List.countP (fun (x4 : PEqualNP.CircuitLowerBounds.Gate) => PEqualNP.CircuitLowerBounds.GateOp.casesOn x4.op Bool.false Bool.true Bool.false (fun (x5 : ℕ) => Bool.false) Bool.false) x3.gates; ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x4 → x1 x4 → x2 x4 → (104 : ℕ) ≤ x3 x4",
+      "status_at": "2026-11-25T05:16:01.680Z",
+      "local_research_status": "exact statement proved; modular and standalone ordinary Lean exit0; final Defs-only local strict ACCEPTED(check), exit0,2344 constants,252.355126s; prepared fork branch; no official PR"
+    },
+    {
+      "id": "L-meta-8468",
+      "status": "conjecture",
+      "statement_hash": "sha256:2d2618e433226f4ce4d63e1347ceadb8c853ae83d2707122b3e81a465c530a6c",
+      "formal_statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x1 → (∀ (x3 : Fin (42 : ℕ) → Bool), x1.eval (List.ofFn x3) = Bool.true ↔ ∃ (x4 : Fin (42 : ℕ)) (x5 : Fin (42 : ℕ)), (↑x4 < (21 : ℕ) ∧ (21 : ℕ) ≤ ↑x5 ∧ (↑x5 + (21 : ℕ) - ↑x4) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) ∧ x3 x4 = Bool.true ∧ x3 x5 = Bool.true) → ∃ (x4 : Finset (Finset (Fin (21 : ℕ)) × Finset (Fin (21 : ℕ)))), (∀ x5 ∈ x4, x5.1.Nonempty ∧ x5.2.Nonempty ∧ ∀ x7 ∈ x5.1, ∀ x9 ∈ x5.2, (↑x9 + (21 : ℕ) - ↑x7) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) ∧ (∀ (x5 x6 : Fin (21 : ℕ)), (↑x6 + (21 : ℕ) - ↑x5) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)] → ∃ x8 ∈ x4, x5 ∈ x8.1 ∧ x6 ∈ x8.2) ∧ ∑ x5 ∈ x4, (x5.1.card + x5.2.card - (1 : ℕ)) ≤ List.countP (fun (x5 : PEqualNP.CircuitLowerBounds.Gate) => PEqualNP.CircuitLowerBounds.GateOp.casesOn x5.op Bool.false Bool.true Bool.false (fun (x6 : ℕ) => Bool.false) Bool.false) x1.gates + (1 : ℕ)",
+      "status_at": "2026-11-25T05:28:10.325Z",
+      "local_research_status": "not proved in this checkpoint"
+    },
+    {
+      "id": "L-meta-8470",
+      "status": "conjecture",
+      "statement_hash": "sha256:99bc6027f021419630f9f1bad7f4b3f0953773b02afaedbdf557243a60521174",
+      "formal_statement": "∀ (x1 : Finset (Finset (Fin (21 : ℕ)) × Finset (Fin (21 : ℕ)))), (∀ x2 ∈ x1, x2.1.Nonempty ∧ x2.2.Nonempty ∧ ∀ x4 ∈ x2.1, ∀ x6 ∈ x2.2, (↑x6 + (21 : ℕ) - ↑x4) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)]) → (∀ (x3 x4 : Fin (21 : ℕ)), (↑x4 + (21 : ℕ) - ↑x3) % (21 : ℕ) ∈ [(0 : ℕ), (5 : ℕ), (7 : ℕ), (17 : ℕ), (20 : ℕ)] → ∃ x6 ∈ x1, x3 ∈ x6.1 ∧ x4 ∈ x6.2) → (105 : ℕ) ≤ ∑ x4 ∈ x1, (x4.1.card + x4.2.card - (1 : ℕ))",
+      "status_at": "2026-11-25T05:28:10.325Z",
+      "local_research_status": "exact statement proved; local strict ACCEPTED(check), exit0, 1676 constants, 246.4s; prepared fork branch; no official PR"
+    }
+  ],
+  "cuts": {
+    "R-L-meta-4201-1": [
+      "L-meta-8121",
+      "L-meta-8123"
+    ],
+    "R-L-meta-4201-777": [
+      "L-meta-8321",
+      "L-meta-8323"
+    ],
+    "R-L-meta-4201-731": [
+      "L-meta-8468",
+      "L-meta-8470"
+    ]
+  },
+  "exact_pr_search": {
+    "queried_ids": [
+      "L-meta-8321",
+      "L-meta-8323",
+      "L-meta-8468",
+      "L-meta-8470"
+    ],
+    "repository": "open-goat/pequalnp-proofs",
+    "scope": "all PR states, exact task ID",
+    "result_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "temporal_scope": "Historical search during the initial audit only; not a claim about later upstream PR indexing. No official child PR was created by this session."
+  },
+  "local_8470": {
+    "file": "Pnp4201Cover105.lean",
+    "sha256": "32e921f17fdf18289897c03543d31a3cfc1245d441c13eea646a861446d799cc",
+    "ordinary_lean_exit": 0,
+    "ordinary_log_bytes": 0,
+    "exact_public_statement_text_equal": true,
+    "official_acceptance": false,
+    "strict_checker": {
+      "status": "accepted",
+      "verdict": "ACCEPTED (check)",
+      "exit_code": 0,
+      "seconds": 246.41285785699984,
+      "constants_rechecked": 1676,
+      "end_utc": "2026-11-25T06:03:10.284826+00:00",
+      "official_verdict": false
+    },
+    "canonical_source_sha256": "25e91dfeadebb34eb713389b7ad14f9a30010da00d5f7e076901b37615dd1063",
+    "prepared_branch": {
+      "branch": "codex/prove-meta-8470-2026-11-25",
+      "head": "0cb59db32842e8a630c2baa8e3ada1ae6c4375a4",
+      "base": "259523a5b265318b84f9377f2feb965fd213f898",
+      "file": "lean/PEqualNP/Outside/L_meta_8470.lean",
+      "diff_verified": "one commit, one added file",
+      "remote_source_matches_checked_source": true,
+      "official_pr_created": false,
+      "reason": "The active lease is for parent L-meta-4201; the join rules prohibit a PR for an unheld child."
+    }
+  },
+  "top_form_scope_correction": {
+    "previous_claim_withdrawn": "The 5126 TopForm construction may replace an AND by an OR.",
+    "exact_sources": [
+      "lean/PEqualNP/Outside/L_meta_1501.lean: step3_struct",
+      "lean/Pnp5126TopForm.lean: step3_struct_tests"
+    ],
+    "structural_facts": [
+      "The deleted gate r has operator OR.",
+      "The newly appended last gate has operator OR.",
+      "All surviving operators agree under the rho reindexing."
+    ],
+    "consequence": "This individual move preserves the OR count; the public final theorem does not explicitly list this count invariant.",
+    "actual_applicability_gap": "The budget-minimum applicability gap is resolved locally for initially clean circuits by Pnp4201CleanBudgetTopForm, whose comparison class explicitly includes Clean. This does not prove that arbitrary correct circuits have clean equivalents with no larger OR count (L8321).",
+    "proof_files_changed": false,
+    "applicability_gap_at_initial_audit": "Least / IsLeastAO assume globally minimum total gate count among all equivalent IsAO2 circuits. A minimum-total-size circuit constrained by an OR budget does not automatically satisfy that unrestricted leastness premise. A budget-relative structural proof or transfer lemma is still needed.",
+    "local_resolution": [
+      "Pnp4201BudgetTopForm proves OR-budget TopForm without asserting cleanliness.",
+      "Pnp4201CleanBudgetTopForm minimizes and compares only initially clean equivalent circuits, preserving Clean through V1/V2.",
+      "Pnp4201CleanNormalize preserves initial AND cleanliness through constant propagation.",
+      "Pnp4201CleanOrCount and CleanCase complete the exact clean-case L8323 statement; the final dependency-pruned Defs-only canonical source passed local strict checking."
+    ]
+  },
+  "public_status_note": "The children.status fields below are the unchanged public snapshot at 2026-11-25T05:50:45.796Z. Subsequent local proofs and checks are recorded separately and do not assert official acceptance.",
+  "local_8323": {
+    "full_statement_proved_locally": true,
+    "ordinary_lean_exit_code": 0,
+    "research_source": "lean/Pnp4201CleanCase.lean",
+    "research_source_sha256": "f149c10630af19768cacaf80f315642752a1b32eace4cf00b76f2afb214167e8",
+    "statement_sha256": "ea9da5a93cdce2730e73e9dfe572610b1f6cb565daff7e96c8f55c0a6d8ccfbf",
+    "statement_bytes_equal_public_record": true,
+    "ordinary_log": "validation/CleanCase-build.log",
+    "ordinary_warnings": [
+      "The exact public statement contains an unused binder named x5 in the MOD branch of the OR-count recursor. Lean emitted only linter.unusedVariables for that public binder; no proof error. The statement was kept byte-for-byte unchanged."
+    ],
+    "strict_checker": {
+      "start_utc": "2026-11-25T07:09:07.275008+00:00",
+      "end_utc": "2026-11-25T07:13:19.630050+00:00",
+      "exit_code": 0,
+      "seconds": 252.35512629500045,
+      "mode": "check",
+      "source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+      "max_child_rss_kib": 6917320,
+      "official_verdict": false,
+      "status": "accepted",
+      "verdict": "ACCEPTED (check)",
+      "constants_rechecked": 2344,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "result_file": "strict-8323/strict-result.json",
+      "log_file": "strict-8323/strict-check.log"
+    },
+    "child_lease_held": false,
+    "official_pr_created": false,
+    "official_acceptance": false,
+    "canonical_bundle": {
+      "source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+      "source_bytes": 179631,
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "format_guard_exit_code": 0,
+      "ordinary_standalone_exit_code": 0,
+      "strict_checker_status": "accepted",
+      "transformations": [
+        "Conservative dependency/source-identifier pruning recorded in bundle-pruning/pruning-report.json",
+        "Attribution insertion recorded in bundle-pruning/finalization.json",
+        "Replace full edgeFinset cardinality dependency with explicit edge (0,21); see resource-patch.json",
+        "Replace three finite adjacency certificates by symbolic proofs; see symbolic-patch.json",
+        "Remove unnecessary Mathlib umbrella directive; see minimal-imports.json"
+      ],
+      "commands_removed_by_dependency_pruning": 149,
+      "attribution": "Upstream L1501 and L2235 proofs plus the recorded research modules.",
+      "original_modular_sources_preserved": true,
+      "source_bundle_record": "strict-8323/L_meta_8323.bundle.json"
+    },
+    "canonical_source": "strict-8323/L_meta_8323.lean",
+    "canonical_source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+    "canonical_source_bytes": 179631,
+    "prior_strict_attempts": [
+      {
+        "start_utc": "2026-11-25T06:38:07.917464+00:00",
+        "end_utc": "2026-11-25T06:41:32.578641+00:00",
+        "exit_code": -9,
+        "seconds": 204.6614282089995,
+        "mode": "check",
+        "source_sha256": "22ae16e3eaca0035fe210c92696e783bd83d16acc65d3ae429836cef83db2dee",
+        "official_verdict": false,
+        "verdict": "none",
+        "termination": "SIGKILL",
+        "cause": "Not conclusively diagnosed; resource pressure suspected",
+        "source_ordinary_lean_pass": true,
+        "attempt": 1,
+        "status": "terminated_without_verdict",
+        "result_file": "strict-8323/attempt-1-strict-result.json",
+        "log_file": "strict-8323/attempt-1-strict-check.log"
+      },
+      {
+        "start_utc": "2026-11-25T06:55:11.479980+00:00",
+        "end_utc": "2026-11-25T06:58:24.076560+00:00",
+        "exit_code": 3,
+        "seconds": 192.59659317300066,
+        "mode": "check",
+        "source_sha256": "b4c715f1b925e001f5d107ad6e47c7f2e1ed360a6fa3ba390ec129017eb75ef7",
+        "max_child_rss_kib": 7084280,
+        "verdict": "CHECKER FAULT: the verifier ended without a verdict (exit 137).",
+        "official_verdict": false,
+        "attempt": 2,
+        "status": "terminated_without_verdict",
+        "result_file": "strict-8323/attempt-2-strict-result.json",
+        "log_file": "strict-8323/attempt-2-strict-check.log"
+      }
+    ],
+    "prepared_branch": {
+      "branch": "codex/prove-meta-8323-2026-11-25",
+      "head": "0873097889691e4d21f575dabed0c1cadd0bcb3a",
+      "base": "259523a5b265318b84f9377f2feb965fd213f898",
+      "file": "lean/PEqualNP/Outside/L_meta_8323.lean",
+      "source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+      "diff_verified": "one commit, one added file",
+      "remote_source_matches_checked_source": true,
+      "official_pr_created": false,
+      "reason": "The session holds only parent L-meta-4201, not child L-meta-8323. The join rules prohibit official proof PRs for unheld steps."
+    }
+  },
+  "remaining_parent_obligations": [
+    {
+      "cut": "R-meta-4201-777",
+      "remaining_child": "L-meta-8321",
+      "obligation": "Produce an all-AND-clean equivalent circuit from an arbitrary correct circuit without increasing OR count. Exact L8323 has passed local strict checking."
+    },
+    {
+      "cut": "R-meta-4201-731",
+      "remaining_child": "L-meta-8468",
+      "obligation": "Extract a nonempty incidence-rectangle cover of weight at most OR count + 1 from an arbitrary correct circuit. L8470 has passed local strict checking."
+    }
+  ],
+  "parent_handoff": {
+    "task": "L-meta-4201",
+    "lease_status": "released",
+    "active_parent_lease": false,
+    "release_http_status": 200,
+    "released_at_utc": "2026-11-25T07:15:48.277414Z",
+    "reason": "missing_lemma",
+    "record": "lease-handoff.json",
+    "remaining_children": [
+      "L-meta-8321",
+      "L-meta-8468"
+    ],
+    "full_parent_proved": false
+  }
+}

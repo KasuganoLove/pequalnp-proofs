@@ -1,0 +1,74 @@
+[
+  {
+    "file": "MetaComplexity.lean",
+    "bytes": 5744,
+    "sha256": "863a9682c4e45a88aa71112f51d40cd2e308d2790acbcbcc4cf388cc8e8ce303",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/351fecac1b6c1fba40b6e45be9bf0058aa141b8a/lean/PEqualNP/Defs/MetaComplexity.lean",
+    "same_as_local_defs": true
+  },
+  {
+    "file": "CircuitLowerBounds.lean",
+    "bytes": 9816,
+    "sha256": "695e454d3e424e2cae4fa4677741681eac11de0462d0d9bc087a0e6a6ba03f69",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/351fecac1b6c1fba40b6e45be9bf0058aa141b8a/lean/PEqualNP/Defs/CircuitLowerBounds.lean",
+    "same_as_local_defs": true
+  },
+  {
+    "file": "dag-2446.json",
+    "bytes": 2787,
+    "sha256": "37839bc8dcfc678ae22cbde4c6fa8f178d68358fc9e0c456a23d0f02e70d7a44",
+    "url": "https://data.pequalnp.com/data/lemma/L-meta-2446.37839bc8dcfc.json",
+    "metadata": {
+      "id": "L-meta-2446",
+      "title": "A step toward: Petersen graph minus a vertex: no circuit of AND, OR (fan-in two) and NOT gates with at most 15 gates computes its edge function (step 4 of 4)",
+      "formal_statement": "∀ x1 ∈ [((0 : Fin (9 : ℕ)), (1 : Fin (9 : ℕ))), ((0 : Fin (9 : ℕ)), (2 : Fin (9 : ℕ))), ((0 : Fin (9 : ℕ)), (3 : Fin (9 : ℕ))), ((0 : Fin (9 : ℕ)), (4 : Fin (9 : ℕ))), ((0 : Fin (9 : ℕ)), (6 : Fin (9 : ℕ))), ((4 : Fin (9 : ℕ)), (6 : Fin (9 : ℕ)))], ∀ (x3 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.FanInTwo x3 → (∀ (x5 : Fin (9 : ℕ) → Bool), (x3.wires (List.ofFn x5)).getD (9 : ℕ) Bool.false = (x5 x1.1 || x5 x1.2)) → (PEqualNP.MetaComplexity.circuitFun (9 : ℕ) x3 = fun (x6 : Fin (9 : ℕ) → Bool) => x6 (0 : Fin (9 : ℕ)) && x6 (1 : Fin (9 : ℕ)) || x6 (1 : Fin (9 : ℕ)) && x6 (2 : Fin (9 : ℕ)) || x6 (2 : Fin (9 : ℕ)) && x6 (3 : Fin (9 : ℕ)) || x6 (3 : Fin (9 : ℕ)) && x6 (4 : Fin (9 : ℕ)) || x6 (4 : Fin (9 : ℕ)) && x6 (0 : Fin (9 : ℕ)) || x6 (0 : Fin (9 : ℕ)) && x6 (5 : Fin (9 : ℕ)) || x6 (1 : Fin (9 : ℕ)) && x6 (6 : Fin (9 : ℕ)) || x6 (2 : Fin (9 : ℕ)) && x6 (7 : Fin (9 : ℕ)) || x6 (3 : Fin (9 : ℕ)) && x6 (8 : Fin (9 : ℕ)) || x6 (5 : Fin (9 : ℕ)) && x6 (7 : Fin (9 : ℕ)) || x6 (6 : Fin (9 : ℕ)) && x6 (8 : Fin (9 : ℕ)) || x6 (8 : Fin (9 : ℕ)) && x6 (5 : Fin (9 : ℕ))) → (16 : ℕ) ≤ x3.size",
+      "statement_hash": "sha256:0cb773bf8a3e7f6d0332f25331f5075603c804d381af3be2ecf51b963ae5283c",
+      "plain_statement": "The edge function of the Petersen graph minus a vertex (9 inputs, 12 edges). A circuit of AND, OR (two-input) and NOT gates for it whose first gate computes the OR of one of the input pairs (0,1), (0,2), (0,3), (0,4), (0,6), (4,6) has at least 16 gates.",
+      "status": "checked",
+      "barrier": null,
+      "depends_on": [],
+      "program": "meta_complexity",
+      "seat": "seat-intake-1",
+      "proposed_at": "2026-11-24T08:31:53.438Z",
+      "attempts": [
+        {
+          "when": "2026-11-25T06:48:46.056Z",
+          "ended_at": "2026-11-25T06:48:46.056Z",
+          "by": "seat-intake-1",
+          "outcome": "checked",
+          "funded_by": {
+            "kind": "baseline",
+            "name": "Brilliant"
+          }
+        }
+      ],
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/L_meta_2446.lean",
+        "checker_version": "outside-runner",
+        "checker_run_id": "run-062291",
+        "content_hash": "sha256:605dd7edce03d051f286b53b076f95a008d7aa544ff27a7ebf87d9bf1c192071",
+        "runner_url": "https://github.com/open-goat/pequalnp-proofs/actions/runs/45559995613"
+      },
+      "contributor": {
+        "github": "titoreinaldo",
+        "pr_url": "https://github.com/open-goat/pequalnp-proofs/pull/12680",
+        "merged_at": "2026-11-25T06:48:46.056Z"
+      },
+      "kind": "helper",
+      "result": {
+        "contributor": {
+          "id": "seat-intake-1",
+          "display_name": "seat-intake-1",
+          "kind": "fleet"
+        },
+        "funded_by": {
+          "kind": "baseline",
+          "name": "Brilliant"
+        }
+      },
+      "used_by": [],
+      "status_at": "2026-11-25T06:48:46.056Z",
+      "layer": 0
+    }
+  }
+]

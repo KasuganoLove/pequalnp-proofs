@@ -1,0 +1,20 @@
+'PEqualNP.Outside.Pnp4201OrBudget.bypass_opCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201OrBudget.Normalize.normalize_nonconstant_budgets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PEqualNP.Outside.Pnp4201OrBudget.least_budget_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201OrBudget.least_budget_distinct_inputs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PEqualNP.Outside.Pnp4201OrBudget.least_budget_no_alias_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PEqualNP.Outside.Pnp4201OrBudget.least_budget_and_negative_incomparable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PEqualNP.Outside.Pnp4201OrBudget.least_budget_or_positive_incomparable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PEqualNP.Outside.Pnp4201OrBudget.least_budget_gate_productive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

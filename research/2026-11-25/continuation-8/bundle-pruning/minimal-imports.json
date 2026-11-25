@@ -1,0 +1,6 @@
+{
+  "input_sha256": "2fc1f1a4d16eaf35239dc6ab08542b41a664c16405de158cf6b6699f4506837f",
+  "output_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+  "output_bytes": 179631,
+  "operation": "Remove the leading import Mathlib directive; retain PEqualNP.Defs and all declarations."
+}

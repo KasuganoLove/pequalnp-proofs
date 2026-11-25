@@ -1,0 +1,13 @@
+{
+  "start_utc": "2026-11-25T06:38:07.917464+00:00",
+  "end_utc": "2026-11-25T06:41:32.578641+00:00",
+  "exit_code": -9,
+  "seconds": 204.6614282089995,
+  "mode": "check",
+  "source_sha256": "22ae16e3eaca0035fe210c92696e783bd83d16acc65d3ae429836cef83db2dee",
+  "official_verdict": false,
+  "verdict": "none",
+  "termination": "SIGKILL",
+  "cause": "Not conclusively diagnosed; resource pressure suspected",
+  "source_ordinary_lean_pass": true
+}

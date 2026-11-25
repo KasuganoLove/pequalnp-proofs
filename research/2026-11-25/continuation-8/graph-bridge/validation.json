@@ -1,0 +1,23 @@
+{
+  "source_sha256": "3d08e8a902e29a8ca20fbd5714537708a0ef917c294b316baaedfdc2995de78c",
+  "dependency_sha256": "32e921f17fdf18289897c03543d31a3cfc1245d441c13eea646a861446d799cc",
+  "ordinary_lean_exit_code": 0,
+  "olean_build_exit_code": 0,
+  "ordinary_log_bytes": 0,
+  "build_log_bytes": 0,
+  "claims": [
+    "bipartite",
+    "NoFourCycle",
+    "ordered edge count105",
+    "edgeFinset count105",
+    "full-input target equivalence",
+    "nonconstant",
+    "explicit AND-safety translation"
+  ],
+  "not_claimed": [
+    "all-clean existence",
+    "104 OR lower bound",
+    "official strict checker acceptance"
+  ],
+  "upstream_audit_head": "57164c3618362178843e2ea37bd01613f4037ae2"
+}

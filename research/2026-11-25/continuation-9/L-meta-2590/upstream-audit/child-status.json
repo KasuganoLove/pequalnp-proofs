@@ -1,0 +1,86 @@
+{
+  "updated_at": "2026-11-25T07:37:55.363Z",
+  "source": "https://data.pequalnp.com/data/desk/gaps.json",
+  "children": [
+    {
+      "reduction": "R-meta-2590-1",
+      "id": "L-meta-5685",
+      "meaning": "First free gate is AND; 18-gate suffix must fail a sample",
+      "state": "posted",
+      "depth": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "statement_sha256": "03a3566186867dd7d627a42ffa07f4788c81ba89adaa2b972198c158bc3c87c3"
+    },
+    {
+      "reduction": "R-meta-2590-1",
+      "id": "L-meta-5687",
+      "meaning": "First free gate is OR; 18-gate suffix must fail a sample",
+      "state": "posted",
+      "depth": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "statement_sha256": "2607e77a82efd6f9ec23bf2ea419a16e57bccd30c01d760d64ffecb544bc1eef"
+    },
+    {
+      "reduction": "R-meta-2590-491",
+      "id": "L-meta-7889",
+      "meaning": "Compress a hypothetical19-gate circuit through16–18-gate B and a guard-dependent replacement of x0",
+      "state": "posted",
+      "depth": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "statement_sha256": "f18d8467eb57b9ed4c0517c40324a242df9e6c1f59618baeb84fcf4460b41aeb"
+    },
+    {
+      "reduction": "R-meta-2590-491",
+      "id": "L-meta-7891",
+      "meaning": "AND-guard finite-row exclusion",
+      "state": "posted",
+      "depth": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "statement_sha256": "71aa00b350262cb3a9341596b958d8976e50745522956707139de075d3e1b7c0"
+    },
+    {
+      "reduction": "R-meta-2590-491",
+      "id": "L-meta-7893",
+      "meaning": "OR-guard finite-row exclusion",
+      "state": "posted",
+      "depth": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "statement_sha256": "8e239233d072f5da923319dd2e25fe10f1d2d47c508b6fee73ecddfcaee7bd0a"
+    },
+    {
+      "reduction": "R-meta-2590-932",
+      "id": "L-meta-7103",
+      "meaning": "Fresh semantic trace, edge-OR first, excludes raw nonedge ANDs",
+      "state": "posted",
+      "depth": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "statement_sha256": "9098d501ee79ea40c0c807e73d39297bd42f6e90490b31e6f71ddc5479a5f476"
+    },
+    {
+      "reduction": "R-meta-2590-932",
+      "id": "L-meta-7105",
+      "meaning": "Fresh semantic trace, nonedge-OR first, also excludes raw edge ORs",
+      "state": "posted",
+      "depth": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "statement_sha256": "5cc3949c39770eda7952f0219546aff1231d99b46da2a25f21a7aa112334b344"
+    },
+    {
+      "reduction": "R-meta-2590-932",
+      "id": "L-meta-7107",
+      "meaning": "Fresh semantic trace, edge-AND first, excludes all raw ORs",
+      "state": "posted",
+      "depth": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "statement_sha256": "f0c5ef74690d2eb908380f5f9c5757eb4c9501ffdb1a3b0855a9a64216806f41"
+    }
+  ]
+}

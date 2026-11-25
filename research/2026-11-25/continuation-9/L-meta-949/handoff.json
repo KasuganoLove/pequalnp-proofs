@@ -1,0 +1,13 @@
+{
+  "task": "L-meta-949",
+  "offer_kind": "reduction_only",
+  "released_at_utc": "2026-11-25T08:07:05.892352+00:00",
+  "release_reason": "statement_seems_false",
+  "http_status": 200,
+  "reason": "The already checked L-meta-950 is the exact logical opposite under identical premises.",
+  "existing_proof_pr": "https://github.com/open-goat/pequalnp-proofs/pull/1995",
+  "github_merged_at_utc": "2026-11-23T19:56:27Z",
+  "desk_status_at_utc": "2026-11-23T19:56:33.901Z",
+  "new_search_or_lean_run": false,
+  "new_official_pr": false
+}
