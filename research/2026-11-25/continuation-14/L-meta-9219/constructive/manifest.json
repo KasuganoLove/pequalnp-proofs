@@ -1,0 +1,82 @@
+{
+  "task": "L-meta-9219",
+  "status": "No candidate found; bounded heuristic only",
+  "search_jobs": 1,
+  "budget_seconds": 300,
+  "virtual_memory_limit_MiB": 256,
+  "search_exit": 0,
+  "best_candidate_verifier_exit": 1,
+  "full25_verified_witness": false,
+  "nonexistence_proved": false,
+  "lean_runs": 0,
+  "strict_checks": 0,
+  "remote_mutations": 0,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3037,
+      "sha256": "2ed7d942553da95b7abd2cad971c5d80180a4e6172cbba9d58d384b14b50dc93"
+    },
+    {
+      "path": "search10.cpp",
+      "bytes": 7219,
+      "sha256": "e6b4b97c4a8b9f4a5c88d059f853ac15248e5c59967b9c6a2adee92cc84642de"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 2141,
+      "sha256": "5907ac7abac1e7e21ff7d8eb7753028133554700bd66a6feb6970b509d861df2"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 1334,
+      "sha256": "85e01c90130977aeb61ec8f95b4ca9314ec1548e3fd43edc388d31576d80551d"
+    },
+    {
+      "path": "problem.json",
+      "bytes": 1075,
+      "sha256": "b1d0f124b666a34fb1b2dd666294753cdcea67961ae26c81a10675e724e60f6d"
+    },
+    {
+      "path": "rows.txt",
+      "bytes": 96,
+      "sha256": "59499b341d19f2d5fec827b47d399accc459d676256f5807447a58411747ec1c"
+    },
+    {
+      "path": "best-10.json",
+      "bytes": 194,
+      "sha256": "65bf38f322bcd811a2e4514c242533d70f59b686910f76f88be8db13f8a387f6"
+    },
+    {
+      "path": "best-10-independent-verification.json",
+      "bytes": 2502,
+      "sha256": "bc4a2dfa0ba1c2d1cf9a9895006cb9b8dbfafabc65ecb9a72fdeb6262696e5b1"
+    },
+    {
+      "path": "search.log",
+      "bytes": 1099,
+      "sha256": "28c3ff0e0e8da524d8d33b0087553fa54287bdaac008bd67710bcd717c3af032"
+    },
+    {
+      "path": "bounded-run.log",
+      "bytes": 1142,
+      "sha256": "6d2c429b4434466cd0697e5fa8094de600f7e98d97801ad45d66b8ff3ac0a1ac"
+    },
+    {
+      "path": "run-summary.json",
+      "bytes": 330,
+      "sha256": "5ea3099755bf9e7257986ab7a5dcda13b0e162f8eab4b41de4f7ddafb4449de2"
+    },
+    {
+      "path": "prepare-verification.json",
+      "bytes": 704,
+      "sha256": "8f40d128019b89db6c7b2027e8e841459ae0fa98c6d2aebdffbece212350ab84"
+    }
+  ],
+  "excluded_regenerable": [
+    "search10",
+    "seeds.txt",
+    "search.pid",
+    "__pycache__"
+  ]
+}

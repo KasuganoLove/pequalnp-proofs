@@ -1,0 +1,22 @@
+{
+  "id": "L-meta-9269",
+  "title": "Table 1a, 5 by 5, mask 16223860: representing it takes at least 11 AND/OR gates of fan-in at most two",
+  "statement": "¬ PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (16223860 : ℕ).testBit (5 * u.val + v.val)) 10",
+  "file": "lean/PEqualNP/Outside/L_meta_9269.lean",
+  "module": "PEqualNP.Outside.L_meta_9269",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "one entry on representing a five-by-five bipartite graph where a shared OR gate is known to help: 10 gates or 11, truth not known",
+  "context": "SKETCH: truth not known to us; the opposite row is offered beside it. This side says 10 gates are not enough. All 10 lines must be read, and a 10-gate circuit has exactly one node read twice beyond a tree; a proof rules out each place that node can sit, or is a finite search with a certificate the kernel replays. A conjecture of ours, on paper, predicts this side. Size: unknown. No sorry, no new axiom. Own namespace for every declaration.",
+  "dead": [],
+  "weight": 55,
+  "parallel": 3,
+  "lane": "main",
+  "depth": 0,
+  "sketch": "truth not known to us; the opposite row is offered beside it. This side says 10 gates are not enough. All 10 lines must be read, and a 10-gate circuit has exactly one node read twice beyond a tree; a proof rules out each place that node can sit, or is a finite search with a certificate the kernel replays. A conjecture of ours, on paper, predicts this side. Size: unknown.",
+  "pr_open": 0,
+  "pr_numbers": [],
+  "answer_known": false,
+  "level": "open"
+}

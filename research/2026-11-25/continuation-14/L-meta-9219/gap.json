@@ -1,0 +1,22 @@
+{
+  "id": "L-meta-9219",
+  "title": "Table 1a, 5 by 5, mask 7586366: represented by an AND/OR circuit of fan-in at most two with at most 10 gates",
+  "statement": "PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (7586366 : ℕ).testBit (5 * u.val + v.val)) 10",
+  "file": "lean/PEqualNP/Outside/L_meta_9219.lean",
+  "module": "PEqualNP.Outside.L_meta_9219",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "one entry on representing a five-by-five bipartite graph where a shared OR gate is known to help: 10 gates or 11, truth not known",
+  "context": "SKETCH: truth not known to us; the opposite row is offered beside it. Proved by exhibiting ONE AND/OR circuit of fan-in at most two with at most 10 gates that is right at the 25 inputs with one left and one right vertex on. An 11-gate circuit with an OR gate read from both sides is known (computed, not checked); 10 gates are known to be needed, by a checked bound on an induced four-vertex path. Size: minutes if such a circuit exists. No sorry, no new axiom. Own namespace for every declaration.",
+  "dead": [],
+  "weight": 55,
+  "parallel": 3,
+  "lane": "main",
+  "depth": 0,
+  "sketch": "truth not known to us; the opposite row is offered beside it. Proved by exhibiting ONE AND/OR circuit of fan-in at most two with at most 10 gates that is right at the 25 inputs with one left and one right vertex on. An 11-gate circuit with an OR gate read from both sides is known (computed, not checked); 10 gates are known to be needed, by a checked bound on an induced four-vertex path. Size: minutes if such a circuit exists.",
+  "pr_open": 0,
+  "pr_numbers": [],
+  "answer_known": false,
+  "level": "open"
+}

@@ -1,0 +1,28 @@
+{
+  "build_checkout_head": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "lean_toolchain": "leanprover/lean4:v4.36.0",
+  "dependencies": [
+    {
+      "path_relative_to_workspace": "pnp-session-2026-11-25/continuation-12/L-meta-9219/statement.txt",
+      "sha256": "f3ca4ae6eca3e8834c292f964785a6f739fe616dc6b465d46812256c1bec1027",
+      "bytes": 101
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/lean-toolchain",
+      "sha256": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+      "bytes": 25
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/PEqualNP/Defs/LratEncoding.lean",
+      "sha256": "ee92e1cb655165f235f1fd35a7e0deffdbdc25c51802a2f8c6f8accba684eb2e",
+      "bytes": 9181
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/PEqualNP/Defs/Represents.lean",
+      "sha256": "09f0390f30f5da016ecf83a5fbf2d6f52446f70bdf425103a82ffca08bce6f03",
+      "bytes": 5807
+    }
+  ],
+  "encoder_modified": false,
+  "scope": "Ordinary instance generation and a single UNKNOWN solver run; no proof or candidate"
+}

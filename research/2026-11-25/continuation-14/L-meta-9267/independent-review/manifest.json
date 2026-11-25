@@ -1,0 +1,29 @@
+{
+  "reviewed_candidate_sha256": "9253c0badb498bde9adaa04174a4e4af04c83119c3033de9fa724d3c3d1c4d5f",
+  "lean_runs": 0,
+  "checker_runs": 0,
+  "remote_writes": 0,
+  "result": "source/data/scope review passes; root records compilation and official status",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2542,
+      "sha256": "8188226be1838c559717acf730140f94454acef97858f8d5172d1a6705c63e71"
+    },
+    {
+      "path": "check_adaptation.py",
+      "bytes": 2872,
+      "sha256": "7dd9b0df24ac3a200bad9b8e8b8086fb04e7768fb31332e76608a82d2494ec38"
+    },
+    {
+      "path": "source-data-review.json",
+      "bytes": 2139,
+      "sha256": "e204de71cdc8141ac1f5fb4fc4a2e1250468faf1f1b4d1f9cd3d617c454e3736"
+    },
+    {
+      "path": "baseline11.json",
+      "bytes": 2871,
+      "sha256": "d1faccc788a97be0310e19be5190dbf04b5719fbc3644e32dd35b0ea04d44eaa"
+    }
+  ]
+}

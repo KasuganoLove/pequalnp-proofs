@@ -1,0 +1,15 @@
+{
+  "source_sha256": "9253c0badb498bde9adaa04174a4e4af04c83119c3033de9fa724d3c3d1c4d5f",
+  "bytes": 109460,
+  "origin_sha256": "b358ad57b53243df24c1908382c59f29819715761f8eacec38d032b0826aea20",
+  "task": "L-meta-9267",
+  "negated_twin": "L-meta-9269",
+  "changes": [
+    "own namespace",
+    "matrix mask",
+    "positive positions",
+    "negative positions",
+    "attribution comments"
+  ],
+  "at": "2026-11-25T11:34:10.734394+00:00"
+}

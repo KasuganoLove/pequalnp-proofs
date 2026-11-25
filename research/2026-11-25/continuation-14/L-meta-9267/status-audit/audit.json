@@ -1,0 +1,116 @@
+{
+  "observed_utc": "2026-11-25T11:36:00Z–2026-11-25T11:37:43Z",
+  "task": {
+    "positive": "L-meta-9267",
+    "negative": "L-meta-9269",
+    "mask": 16223860,
+    "positive_statement": "PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (16223860 : ℕ).testBit (5 * u.val + v.val)) 10",
+    "negative_statement": "¬ PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (16223860 : ℕ).testBit (5 * u.val + v.val)) 10"
+  },
+  "upstream_main": "220d6aaed850865b27e35a5f168f483a127393af",
+  "upstream_main_verified_by": [
+    "GitHub git/ref/heads/main GET",
+    "git ls-remote refs/heads/main"
+  ],
+  "negative_source_on_main_http": 404,
+  "negative_step": {
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-9269",
+    "queried_utc": "2026-11-25T11:36:09.856316Z",
+    "state": "pr_open",
+    "prs": [
+      13475
+    ],
+    "instruction": "A pull request for this step is already waiting for its check. Ask /desk/next for an open one."
+  },
+  "existing_pr": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/13475",
+    "number": 13475,
+    "title": "L-meta-9269",
+    "state": "open",
+    "merged": false,
+    "author": "nicohabets",
+    "created_at": "2026-11-25T11:26:39Z",
+    "updated_at": "2026-11-25T11:26:39Z",
+    "merged_at": null,
+    "head_sha": "593576433e960432976d0af3c8a2341205cb8357",
+    "head_repo_full_name": "nicohabets/pequalnp-proofs",
+    "merge_commit_sha": "4c83bacf42b068f000bdfcdfd5840396eeb3877e",
+    "changed_files": 1,
+    "additions": 2321,
+    "deletions": 0
+  },
+  "existing_pr_comments_at_observation": [],
+  "existing_pr_source": {
+    "url": "https://github.com/nicohabets/pequalnp-proofs/blob/593576433e960432976d0af3c8a2341205cb8357/lean/PEqualNP/Outside/L_meta_9269.lean",
+    "git_blob": "ef11e1f54ed49c21cf7c4ef1e3c53eff231c3615",
+    "sha256": "140935900d81dbea15fe7164d3661c0381d0f3fa948442497be55b27569b5e9f",
+    "bytes": 109466
+  },
+  "source_origin": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/13373",
+    "number": 13373,
+    "title": "L-meta-9195",
+    "state": "closed",
+    "merged": true,
+    "author": "tb-16",
+    "created_at": "2026-11-25T11:10:43Z",
+    "updated_at": "2026-11-25T11:18:45Z",
+    "merged_at": "2026-11-25T11:18:45Z",
+    "head_sha": "3caba30f7513ed9c2d9963b96d7cdfc66818f90e",
+    "head_repo_full_name": "tb-16/pequalnp-proofs",
+    "merge_commit_sha": "9025f81315571fe9b237f2fd3aed4f123b1e8757",
+    "changed_files": 1,
+    "additions": 2318,
+    "deletions": 0,
+    "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/9025f81315571fe9b237f2fd3aed4f123b1e8757/lean/PEqualNP/Outside/L_meta_9195.lean",
+    "git_blob": "668453d1170f46bc3967c88d07d8655836ff2c03",
+    "sha256": "b358ad57b53243df24c1908382c59f29819715761f8eacec38d032b0826aea20"
+  },
+  "license": {
+    "name": "Apache-2.0",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/9025f81315571fe9b237f2fd3aed4f123b1e8757/LICENSE",
+    "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+  },
+  "comparison": {
+    "local_root_source_sha256": "9253c0badb498bde9adaa04174a4e4af04c83119c3033de9fa724d3c3d1c4d5f",
+    "equal_after_removing_comments_and_blank_lines": true,
+    "mathematical_novelty_claim": false
+  },
+  "joining_rule": {
+    "url": "https://pequalnp.com/join.txt",
+    "retrieved_utc": "2026-11-25T11:25:01.943Z",
+    "sha256": "cc188d83f44a368864d38e0cc9fffb337629615f2734e99e145a37b87e78cf1c",
+    "counterexample_rule_lines": [
+      162,
+      163
+    ],
+    "summary": "A held positive task may be answered by proving its posted negated twin as an ordinary proof PR."
+  },
+  "recommendation": "Do not submit a code-equivalent duplicate while PR13475 is pending; preserve the local check and provenance. The public step explicitly directs another open assignment.",
+  "limitations": [
+    "Read-only audit; no lease actions or remote mutation.",
+    "No local compilation of the PR13475 source by this agent. Root separately checks its own code-equivalent adaptation.",
+    "No official ACCEPTED or REJECTED verdict observed; absence of comments is not a success verdict.",
+    "The GitHub mergeable flag was false without a stated cause; no cause is inferred."
+  ],
+  "archive_excludes": [
+    "Full third-party Lean source",
+    "Full public task desk",
+    "Full copied join.txt",
+    "Raw GitHub commit metadata containing contributor email fields",
+    "Private lease records"
+  ],
+  "root_reported_followup": {
+    "ordinary_lean_exit_code": 0,
+    "strict_checker_end_utc": "2026-11-25T11:38:46Z",
+    "strict_checker_exit_code": 3,
+    "strict_checker_result": "CHECKER FAULT",
+    "verifier_exit_code": 137,
+    "mathematical_rejection": false,
+    "official_acceptance": false,
+    "positive_task_release_utc": "2026-11-25T11:38:50Z",
+    "positive_task_release_http": 200,
+    "positive_task_release_reason": "statement_seems_false",
+    "proof_retried": false
+  }
+}

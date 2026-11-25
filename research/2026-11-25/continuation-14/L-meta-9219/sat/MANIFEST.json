@@ -1,0 +1,71 @@
+{
+  "scope": "One exact 25-row representation search, UNKNOWN; no witness or UNSAT certificate",
+  "files": [
+    {
+      "path": "ExportCNF.lean",
+      "sha256": "8d4229c4edc05a94267a4440b1288619c3560a92496c63373d7ebea2502bd30f",
+      "bytes": 954
+    },
+    {
+      "path": "README.md",
+      "sha256": "200cff0c2470fa8082449dedb631caf2f83c6a10e96df5fe9958694ed8d163a4",
+      "bytes": 4265
+    },
+    {
+      "path": "cadical.log",
+      "sha256": "7c37d35c3d9fd87e46c7d78a9b042a5826e289caa000ca18145ca795f36f2d08",
+      "bytes": 31300
+    },
+    {
+      "path": "decode_verify.py",
+      "sha256": "78b5f290b85b79578ae942d4d96fb6e2221824ff81ecdaf5a6543e9118cf6469",
+      "bytes": 2614
+    },
+    {
+      "path": "densify.py",
+      "sha256": "1c0cd69452108a4086234081512d7331f303f7e4ae1b0cef026c6cd42842b291",
+      "bytes": 1771
+    },
+    {
+      "path": "encoding.json",
+      "sha256": "38fcf6307349d4922da5e9779b0adfa61b8bb27477f96de8048d26cd0042895f",
+      "bytes": 330
+    },
+    {
+      "path": "prepare.py",
+      "sha256": "6d119816d68e6c9a1571d1984ab8eab1c334ac0666c21b2ac34beb39c3ab91a3",
+      "bytes": 1864
+    },
+    {
+      "path": "problem.json",
+      "sha256": "f06863febbd695ba7c473814ff72a9e088bd4bd29ce727d95e68b7ea1dfdfbb0",
+      "bytes": 1215
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "6be2b84e9640c198ef2e1e8f91e35f927146e320dbea41a7a025130f130ef7ef",
+      "bytes": 1097
+    },
+    {
+      "path": "run_sat.py",
+      "sha256": "23d22f9b2831ed5557b62e5e540bf46ad590babcbd486a52afa2b81fb42d731b",
+      "bytes": 1408
+    },
+    {
+      "path": "sat-result.json",
+      "sha256": "bc3de72a5a6833104f3a14f390ca3313a99b0fd10808a04d728fe9cf6ce78930",
+      "bytes": 434
+    },
+    {
+      "path": "sat-statistics.json",
+      "sha256": "dbd613a81a0c3bd3fa459660638cfdf7762a3d49d62bc7987c3cc1ef475eb128",
+      "bytes": 225
+    }
+  ],
+  "excluded": [
+    "dense-to-sparse.json",
+    "representation-10-dense.cnf",
+    "representation-10-sparse.cnf",
+    "solver.pid"
+  ]
+}

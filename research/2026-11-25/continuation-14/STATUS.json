@@ -1,0 +1,61 @@
+{
+  "type": "unfinished_research_checkpoint",
+  "base_research_head": "4cda9ff9fa8fe74973e5f5f19bba0ed453a29351",
+  "published": false,
+  "new_official_pr": false,
+  "new_official_accepted": false,
+  "user_stage_complete": false,
+  "tasks": {
+    "L-meta-9219": {
+      "closed": true,
+      "release_utc": "2026-11-25T11:32:58.305482Z",
+      "release_http": 200,
+      "reason": "statement_seems_false",
+      "sat": "UNKNOWN",
+      "sat_seconds": 300.0418493139987,
+      "heuristic_candidate_found": false,
+      "best_candidate_errors": 1,
+      "third_party_ordinary_lean_exit": 0,
+      "third_party_ordinary_lean_seconds": 32.94908304300043,
+      "strict_check_performed": false
+    },
+    "L-meta-9267": {
+      "closed": true,
+      "release_utc": "2026-11-25T11:38:50.354622Z",
+      "release_http": 200,
+      "reason": "statement_seems_false",
+      "negative_task": "L-meta-9269",
+      "ordinary_lean_exit": 0,
+      "ordinary_lean_seconds": 18.326141649999045,
+      "strict_result": "CHECKER FAULT",
+      "strict_exit": 3,
+      "verifier_exit": 137,
+      "strict_mathematical_rejection": false,
+      "existing_pr": 13475,
+      "duplicate_code": true
+    },
+    "L-meta-2600": {
+      "included_in_archive": true,
+      "closed": true,
+      "release_utc": "2026-11-25T11:47:58.309728Z",
+      "release_http": 200,
+      "reason": "missing_lemma",
+      "full_proof": false,
+      "new_lean_compilation": false,
+      "new_solver_run": false,
+      "child_status_snapshot_utc": "2026-11-25T11:23:56.820Z",
+      "newer_child_status_verified": false
+    },
+    "L-meta-9457": {
+      "included_in_archive": "small read-only status record only",
+      "closed": true,
+      "release_utc": "2026-11-25T11:49:50.899045Z",
+      "release_http": 200,
+      "reason": "other",
+      "negative_twin": "L-meta-9458",
+      "existing_negative_pr": 13548,
+      "new_mathematical_proof_attempted": false
+    }
+  },
+  "next_assignment_confirmed": false
+}

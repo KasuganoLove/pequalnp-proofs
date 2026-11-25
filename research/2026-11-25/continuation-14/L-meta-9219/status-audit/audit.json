@@ -1,0 +1,104 @@
+{
+  "observation_window_utc": "2026-11-25 11:24–11:31 UTC",
+  "positive": {
+    "id": "L-meta-9219",
+    "statement": "PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (7586366 : ℕ).testBit (5 * u.val + v.val)) 10"
+  },
+  "negative": {
+    "id": "L-meta-9224",
+    "statement": "¬ PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (7586366 : ℕ).testBit (5 * u.val + v.val)) 10",
+    "file": "lean/PEqualNP/Outside/L_meta_9224.lean",
+    "module": "PEqualNP.Outside.L_meta_9224"
+  },
+  "semantics": "Represents checks exactly the25 one-left-one-right assignments. Monotone2 allows AND/OR gates with at most2 inputs. Do not replace it by exact-two-input ReadsBack IsAO2, or by correctness on all1024 inputs.",
+  "existing_prs": [
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/13399",
+      "number": 13399,
+      "title": "L-meta-9224",
+      "state": "open",
+      "merged": false,
+      "author": "Julleht",
+      "created_at": "2026-11-25T11:16:00Z",
+      "updated_at": "2026-11-25T11:16:00Z",
+      "merged_at": null,
+      "head_sha": "128969fa0c33570e56ea3c09f9fbcc3b0f004acd",
+      "head_repo_full_name": "Julleht/pequalnp-proofs",
+      "merge_commit_sha": "c0ba9b74a80ff1dac8dc379d45eee4250b1d9620",
+      "changed_files": 1,
+      "additions": 2080,
+      "deletions": 0
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/13445",
+      "number": 13445,
+      "title": "L-meta-9224",
+      "state": "open",
+      "merged": false,
+      "author": "nicohabets",
+      "created_at": "2026-11-25T11:22:39Z",
+      "updated_at": "2026-11-25T11:22:39Z",
+      "merged_at": null,
+      "head_sha": "697cedf52f5b0b9972ed6014751b949c92c37e82",
+      "head_repo_full_name": "nicohabets/pequalnp-proofs",
+      "merge_commit_sha": "ff121e206ba0543137d6ddaca3c1c763a1d4feb8",
+      "changed_files": 1,
+      "additions": 2321,
+      "deletions": 0
+    }
+  ],
+  "official_comments_observed": [],
+  "checked_source": {
+    "pr": 13445,
+    "author": "nicohabets",
+    "head": "697cedf52f5b0b9972ed6014751b949c92c37e82",
+    "url": "https://github.com/nicohabets/pequalnp-proofs/blob/697cedf52f5b0b9972ed6014751b949c92c37e82/lean/PEqualNP/Outside/L_meta_9224.lean",
+    "raw_url": "https://raw.githubusercontent.com/nicohabets/pequalnp-proofs/697cedf52f5b0b9972ed6014751b949c92c37e82/lean/PEqualNP/Outside/L_meta_9224.lean",
+    "sha256": "b8a123a25d592f139cf6b212a39a4959de320bf7d32708367603b8a8f8f403d9",
+    "git_blob": "58e983f4ed957c49620e1a407e75355ed06a6fd8",
+    "bytes": 109464,
+    "ordinary_lean_exit": 0,
+    "standard_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "strict_check_performed": false,
+    "official_acceptance_claim": false
+  },
+  "origin": {
+    "author": "tb-16",
+    "task": "L-meta-9195",
+    "pr": 13373,
+    "merge": "9025f81315571fe9b237f2fd3aed4f123b1e8757",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/9025f81315571fe9b237f2fd3aed4f123b1e8757/lean/PEqualNP/Outside/L_meta_9195.lean",
+    "sha256": "b358ad57b53243df24c1908382c59f29819715761f8eacec38d032b0826aea20",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/open-goat/pequalnp-proofs/blob/9025f81315571fe9b237f2fd3aed4f123b1e8757/LICENSE"
+  },
+  "engine_reuse": "After namespace and mask substitutions, the only non-comment source differences from checked9195 are the OO/ZZ sample-index lists. The general read-once/one-shared-wire exclusion machinery is credited to the original author.",
+  "joining_rule": {
+    "url": "https://pequalnp.com/join.txt",
+    "retrieved_utc": "2026-11-25T11:25:01.943Z",
+    "sha256": "cc188d83f44a368864d38e0cc9fffb337629615f2734e99e145a37b87e78cf1c",
+    "lines": [
+      162,
+      163
+    ],
+    "summary": "The posted negated twin is the documented way to submit a counterexample to a held positive task."
+  },
+  "local_pinned_checkout": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "limitations": [
+    "No new theorem or officialPR by this agent.",
+    "No official verdict claimed for either existingPR.",
+    "Ordinary Lean and its axioms audit are distinct from the project strict checker.",
+    "Root controls task closure; this audit does not infer current lease state."
+  ],
+  "exclusions": [
+    "Full third-party Lean sources",
+    "Full task desk",
+    "Full copied join.txt",
+    "Lease records",
+    "Generated .olean files"
+  ]
+}

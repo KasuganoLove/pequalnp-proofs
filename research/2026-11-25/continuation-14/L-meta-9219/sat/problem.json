@@ -1,0 +1,113 @@
+{
+  "task": "L-meta-9219",
+  "matrix_mask": 7586366,
+  "left_inputs": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "right_inputs": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "raw_inputs": 10,
+  "gate_budget": 10,
+  "rows": [
+    33,
+    65,
+    129,
+    257,
+    513,
+    34,
+    66,
+    130,
+    258,
+    514,
+    36,
+    68,
+    132,
+    260,
+    516,
+    40,
+    72,
+    136,
+    264,
+    520,
+    48,
+    80,
+    144,
+    272,
+    528
+  ],
+  "values": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false
+  ],
+  "matrix": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  ],
+  "scope": "Only the 25 oneEach inputs, exactly as RepSizeAtMost; no full Boolean-function claim",
+  "statement_sha256": "f3ca4ae6eca3e8834c292f964785a6f739fe616dc6b465d46812256c1bec1027"
+}

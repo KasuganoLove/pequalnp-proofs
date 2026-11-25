@@ -1,0 +1,58 @@
+{
+  "scope": "Geometric and numerical residual only; no completion circuit is asserted",
+  "t": 12,
+  "c": 0,
+  "j": 2,
+  "o": 2,
+  "u": 5,
+  "hypothetical_size": 62,
+  "e": 4,
+  "ledger_left": 68,
+  "ledger_right": 68,
+  "cover_bound_left": 52,
+  "cover_bound_right": 53,
+  "strengthened_left": 24,
+  "strengthened_right": 25,
+  "star_centres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "uncovered_edges": [
+    [
+      0,
+      13
+    ],
+    [
+      0,
+      17
+    ],
+    [
+      0,
+      23
+    ],
+    [
+      0,
+      25
+    ],
+    [
+      1,
+      13
+    ]
+  ],
+  "covered_edge_count": 47,
+  "partial_star_gate_count": 58,
+  "partial_preparation_ORs": 35,
+  "remaining_hypothetical_gate_slots": 4,
+  "semantic_completion_established": false,
+  "lean_verified": false
+}

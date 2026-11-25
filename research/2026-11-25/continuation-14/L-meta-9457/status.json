@@ -1,0 +1,40 @@
+{
+  "observed_utc": "2026-11-25T11:49:05Z",
+  "positive": "L-meta-9457",
+  "negative": "L-meta-9458",
+  "mask": 7578841,
+  "negative_statement": "¬ PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (7578841 : ℕ).testBit (5 * u.val + v.val)) 10",
+  "desk_snapshot_utc": "2026-11-25T11:48:15.927Z",
+  "desk_url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "desk_sha256": "2b7765491b9589b0c5154025d2d1d1238676dceb1bc9bf9d7c14d36067da46eb",
+  "negative_step_url": "https://pequalnp.com/desk/step?gap=L-meta-9458",
+  "negative_step_state": "pr_open",
+  "negative_step_prs": [
+    13548
+  ],
+  "negative_step_instruction": "A pull request for this step is already waiting for its check. Ask /desk/next for an open one.",
+  "existing_pr": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/13548",
+    "number": 13548,
+    "state": "open",
+    "merged": false,
+    "created_at": "2026-11-25T11:37:37Z",
+    "author": "nicohabets",
+    "head_sha": "9d506797238a324658a1057fec9d00c228661b17",
+    "head_repository": "nicohabets/pequalnp-proofs",
+    "changed_files": 1,
+    "additions": 2321
+  },
+  "official_comments_observed": [],
+  "reported_method": "PR body credits merged tb-16 L9195 and changes only mask and one/zero sample lists.",
+  "scope": [
+    "No proof work, solver, Lean compile, strict check, lease action or remote write by this auditor.",
+    "No full-source correctness verdict or official acceptance inferred."
+  ],
+  "root_confirmed_release": {
+    "utc": "2026-11-25T11:49:50.899045Z",
+    "http": 200,
+    "reason": "other",
+    "reason_detail": "Existing negated-twinPR; no new mathematical proof attempted"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sparse_maximum_variable": 89871,
+  "dense_variables": 1121,
+  "clauses": 34301,
+  "bijection_inverse_checked": true,
+  "clause_order_preserved": true,
+  "sparse_sha256": "d3bb9591c4dd88db1579961981bb7e90d0485b9bf61fd30f8bacaf7d5722ce70",
+  "dense_sha256": "8973f76caf97006a0ceab4d58b807c09d16fe24d5620a323ad671fb5e89d9d8d"
+}

@@ -1,0 +1,23 @@
+{
+  "source_url": "https://github.com/nicohabets/pequalnp-proofs/blob/697cedf52f5b0b9972ed6014751b949c92c37e82/lean/PEqualNP/Outside/L_meta_9224.lean",
+  "source_sha256": "b8a123a25d592f139cf6b212a39a4959de320bf7d32708367603b8a8f8f403d9",
+  "source_bytes": 109464,
+  "source_unmodified": true,
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j1",
+    "-o",
+    ".lake/build/lib/lean/Pnp9219Negative13445.olean",
+    "Pnp9219Negative13445.lean"
+  ],
+  "lean_threads": 1,
+  "start_utc": "2026-11-25T11:30:51.868188+00:00",
+  "end_utc": "2026-11-25T11:31:24.817204+00:00",
+  "wall_seconds": 32.94908304300043,
+  "exit_code": 0,
+  "timeout": false,
+  "strict_checker": false,
+  "official_verdict_claim": false
+}

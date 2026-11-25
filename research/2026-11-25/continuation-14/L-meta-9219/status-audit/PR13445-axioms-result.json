@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j1",
+    "Pnp9219Negative13445Axioms.lean"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 3.684169160998863,
+  "source_proof_sha256": "b8a123a25d592f139cf6b212a39a4959de320bf7d32708367603b8a8f8f403d9",
+  "strict_checker": false
+}

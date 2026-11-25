@@ -1,0 +1,49 @@
+{
+  "kind": "ordinary_validation_of_existing_public_proof",
+  "files": [
+    {
+      "path": "PR13445-axioms-result.json",
+      "bytes": 282,
+      "sha256": "38783a04ec0df9b9a669f298945a22ec95dc20cad4bce62d6f3ef32d99dfbce4"
+    },
+    {
+      "path": "PR13445-axioms.log",
+      "bytes": 90,
+      "sha256": "ee78e9a72255cce2bd4df7ecbfe29f6cc72161442db7a53655cbfe14372e2d78"
+    },
+    {
+      "path": "PR13445-ordinary-result.json",
+      "bytes": 716,
+      "sha256": "596ca8956a94bf64f888a3755acccd821ae0e4b8cde06c5472f597dbcaf9f41b"
+    },
+    {
+      "path": "PR13445-ordinary.log",
+      "bytes": 1765,
+      "sha256": "ebb1a0398a4e6be31ec3dfed02566a05c676c7a81b4e62eef6c4f47c7c1d02e7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2305,
+      "sha256": "b0969970c7241800f399727465134779cb70ce496453b5467e66d21cabdfee46"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 4408,
+      "sha256": "43e607eee22b8c491db35d74bf462191b79daeb5203900e179a8d7de6635ae22"
+    },
+    {
+      "path": "reproduce_ordinary.py",
+      "bytes": 1507,
+      "sha256": "41f66103804b100131a9b9fcae016fcec182da664cf3beff521b558b3d1cc8d2"
+    },
+    {
+      "path": "source-byte-identity.json",
+      "bytes": 772,
+      "sha256": "1c58296cecf104ca4007d560dae205baffd9dc5668d9a39968d94fcf7704278d"
+    }
+  ],
+  "payload_bytes": 11845,
+  "strict_checker": false,
+  "new_official_pr": false,
+  "official_acceptance_claim": false
+}

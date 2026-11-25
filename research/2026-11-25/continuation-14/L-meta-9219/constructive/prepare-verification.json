@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "stdout": "Prepared 13750 seeds; both exact baselines pass all25 rows.\n",
+  "byte_identical_generated_inputs": true,
+  "before_sha256": {
+    "seeds.txt": "cf72a715e9bb2eeed231bd17704812d15bd376358663f95be7be8b533296a127",
+    "rows.txt": "59499b341d19f2d5fec827b47d399accc459d676256f5807447a58411747ec1c",
+    "problem.json": "b1d0f124b666a34fb1b2dd666294753cdcea67961ae26c81a10675e724e60f6d"
+  },
+  "after_sha256": {
+    "seeds.txt": "cf72a715e9bb2eeed231bd17704812d15bd376358663f95be7be8b533296a127",
+    "rows.txt": "59499b341d19f2d5fec827b47d399accc459d676256f5807447a58411747ec1c",
+    "problem.json": "b1d0f124b666a34fb1b2dd666294753cdcea67961ae26c81a10675e724e60f6d"
+  }
+}

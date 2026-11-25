@@ -1,0 +1,28 @@
+{
+  "kind": "read_only_audit_checkpoint",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2562,
+      "sha256": "01672b6dcf05e38c1598aeef916ca1020ddf90ce1ce1d56be2caa1078a2fc923"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 4906,
+      "sha256": "b538d2a79f49bb11dd9786f5407c970e2936086e48995bc8276b3cef714e5c5d"
+    },
+    {
+      "path": "source-comparison.json",
+      "bytes": 737,
+      "sha256": "c48132388a4b32ce38b94498ffd67f90ba52c10dd145a08ce0d58c593b107dec"
+    },
+    {
+      "path": "step-negative.json",
+      "bytes": 226,
+      "sha256": "7eebea9aebd493a31c6b6abb29e164da1034498109f80e60d0cfccbefc4483bf"
+    }
+  ],
+  "payload_bytes": 8431,
+  "new_official_pr": false,
+  "new_official_accepted": false
+}

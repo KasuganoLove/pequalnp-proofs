@@ -1,0 +1,44 @@
+{
+  "source": "https://data.pequalnp.com/data/desk/gaps.json",
+  "snapshot_updated_at": "2026-11-25T11:23:56.820Z",
+  "source_snapshot_sha256": "8ead544a270590ed8792cf8af3dec75172004c220d5c28c6575029b6f6b8a211",
+  "scope": "Read from an existing snapshot; not a new network retrieval and not asserted as the latest status",
+  "children": [
+    {
+      "id": "L-meta-4043",
+      "role": "R2600_1 minusVertex at least 58",
+      "category": "gaps",
+      "pr_open": 0,
+      "pr_numbers": [],
+      "reductions_live": 1,
+      "statement_sha256": "8dc5ec640a6059db04cc40c6f17d7dd0524c9b5d177c5b5a526d34a5df5b0af1"
+    },
+    {
+      "id": "L-meta-4045",
+      "role": "R2600_1 freeFive",
+      "category": "gaps",
+      "pr_open": 0,
+      "pr_numbers": [],
+      "reductions_live": 1,
+      "statement_sha256": "d85ce947db1a691ef335c8ed3156945fa4c93a4e9ee2a2d538772984074981b0"
+    },
+    {
+      "id": "L-meta-6230",
+      "role": "R2600_714 canonical first-gate lower bound",
+      "category": "gaps",
+      "pr_open": 0,
+      "pr_numbers": [],
+      "reductions_live": null,
+      "statement_sha256": "52eb0f74c944b25a1244593145ff2dc99cee8a3185a8d006d2aeed219469c665"
+    },
+    {
+      "id": "L-meta-8225",
+      "role": "R2600_17 star-profile normalization",
+      "category": "gaps",
+      "pr_open": 0,
+      "pr_numbers": [],
+      "reductions_live": null,
+      "statement_sha256": "22695d6d89623ea661d957d28f7a4516b28f47f5bee9ae7288439663c48a95fe"
+    }
+  ]
+}

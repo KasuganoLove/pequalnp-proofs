@@ -1,0 +1,34 @@
+{
+  "scope": "Bounded paper analysis plus small finite controls; no full task proof or SAT/Lean result",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7127,
+      "sha256": "63a92622daa0af0a8f3e6ccaeeb7738dcf5ea96ed219b8dfe9789a1d3e5108ac"
+    },
+    {
+      "path": "check_obstructions.py",
+      "bytes": 3437,
+      "sha256": "843cb85eafbd524af44a0a0738bb2a0befe3c722793daa2c876678a775858339"
+    },
+    {
+      "path": "child-status-snapshot.json",
+      "bytes": 1471,
+      "sha256": "d0231bdbf357c55f653c179f5df6195d01fe629df30def4e5596fbca72ba320a"
+    },
+    {
+      "path": "pending-case.json",
+      "bytes": 828,
+      "sha256": "dfeebba6ec906c08000c2d51f9f36c8cd229997f6b004143517368323dd2c4ee"
+    },
+    {
+      "path": "raw-guard-control.json",
+      "bytes": 1075,
+      "sha256": "daeec30ee7c752e2073c4387af39c4e5ff3edb60d9c5f15ea67e8c197417891e"
+    }
+  ],
+  "complete_task_proof": false,
+  "counterexample_to_task": false,
+  "new_lean_compilation": false,
+  "new_solver_run": false
+}

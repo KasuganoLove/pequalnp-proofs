@@ -1,0 +1,50 @@
+{
+  "scope": "Snapshot of bounded lower-bound audit; no full theorem and no new compile/search",
+  "sources": [
+    {
+      "name": "R_meta_2600_1",
+      "commit": "57164c3618362178843e2ea37bd01613f4037ae2",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/R_meta_2600_1.lean",
+      "sha256": "cd48be810092ff3166f999eb4cc8a59862c414159a47679283ae2631c440eb5e",
+      "bytes": 16834
+    },
+    {
+      "name": "R_meta_2600_714",
+      "commit": "57164c3618362178843e2ea37bd01613f4037ae2",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/R_meta_2600_714.lean",
+      "sha256": "a7043027f28d91d46ade26dbf6462b7c1d8d9ce2b14b0abc921c88e684af1c47",
+      "bytes": 22896
+    },
+    {
+      "name": "L_meta_1500",
+      "commit": "57164c3618362178843e2ea37bd01613f4037ae2",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_1500.lean",
+      "sha256": "2f08e62488d04d948f02070a8873bd405d45f2bd617315ba8c66b546838fc1ce",
+      "bytes": 206475
+    },
+    {
+      "name": "L_meta_4219",
+      "commit": "57164c3618362178843e2ea37bd01613f4037ae2",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_4219.lean",
+      "sha256": "6246978d5bfe0966b9c8c9ed152acba0425c9fd513f3bdc9bfd9b399bfd05430",
+      "bytes": 2880
+    },
+    {
+      "name": "L_meta_2264",
+      "commit": "57164c3618362178843e2ea37bd01613f4037ae2",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_2264.lean",
+      "sha256": "5c3443a27f83a2e469c3ac2d8f3439c1d81d60654b9a081dc9280abcbcd1dfe9",
+      "bytes": 507709
+    },
+    {
+      "name": "R_meta_2600_17",
+      "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/main/lean/PEqualNP/Outside/R_meta_2600_17.lean",
+      "sha256": "519234145491124faef0b925a13982e55681d3b21a19bf67aecf71c8a6625453",
+      "bytes": 4136,
+      "source_hash_matches_112356_desk": true,
+      "immutable_commit_not_independently_recorded": true
+    }
+  ],
+  "child_status_freshness": "Only ownership selected snapshot2026-11-25T11:23:56.820Z is in this checkpoint. No newer child-state or accepted-unmerged PR claim has been verified in this staging pass.",
+  "full_third_party_files_copied": false
+}
