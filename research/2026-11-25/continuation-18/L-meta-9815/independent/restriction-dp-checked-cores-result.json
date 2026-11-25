@@ -1,0 +1,197 @@
+{
+  "scope": "Ordinary computation only; no Lean or full lower-bound claim. Uses only total-gate restriction rules, not binary gate costs.",
+  "checked_cores_used": true,
+  "checked_core_matches": 202,
+  "root_bound": 20,
+  "target": 25,
+  "states": 5599,
+  "seconds": 2.741925510999863,
+  "root": {
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "edges": [
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        11
+      ]
+    ],
+    "bound": 20,
+    "reason": [
+      "fixed_false",
+      0
+    ],
+    "cofactors": [
+      {
+        "v": 0,
+        "false": 19,
+        "true": 18,
+        "false_nonconstant": true
+      },
+      {
+        "v": 1,
+        "false": 19,
+        "true": 16,
+        "false_nonconstant": true
+      },
+      {
+        "v": 2,
+        "false": 19,
+        "true": 18,
+        "false_nonconstant": true
+      },
+      {
+        "v": 3,
+        "false": 19,
+        "true": 17,
+        "false_nonconstant": true
+      },
+      {
+        "v": 4,
+        "false": 19,
+        "true": 16,
+        "false_nonconstant": true
+      },
+      {
+        "v": 5,
+        "false": 19,
+        "true": 16,
+        "false_nonconstant": true
+      },
+      {
+        "v": 6,
+        "false": 18,
+        "true": 16,
+        "false_nonconstant": true
+      },
+      {
+        "v": 7,
+        "false": 19,
+        "true": 18,
+        "false_nonconstant": true
+      },
+      {
+        "v": 8,
+        "false": 19,
+        "true": 17,
+        "false_nonconstant": true
+      },
+      {
+        "v": 9,
+        "false": 19,
+        "true": 16,
+        "false_nonconstant": true
+      },
+      {
+        "v": 10,
+        "false": 19,
+        "true": 16,
+        "false_nonconstant": true
+      },
+      {
+        "v": 11,
+        "false": 18,
+        "true": 16,
+        "false_nonconstant": true
+      },
+      {
+        "v": 12,
+        "false": 19,
+        "true": 18,
+        "false_nonconstant": true
+      },
+      {
+        "v": 13,
+        "false": 19,
+        "true": 16,
+        "false_nonconstant": true
+      }
+    ],
+    "no_funnel": true
+  }
+}

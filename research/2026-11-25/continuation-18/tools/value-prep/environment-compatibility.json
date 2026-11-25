@@ -1,0 +1,150 @@
+{
+  "recorded_utc": "2026-11-25T14:57:00.680683+00:00",
+  "upstream_pin": "57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1",
+  "local_checkout": "/workspace/scratch/65f339da29fe/pequalnp-proofs",
+  "local_head": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "lean_toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "definitions_directory": {
+    "path": "lean/PEqualNP/Defs",
+    "upstream_tree_sha": "e1343d2a024b07570497077743e536a48c6c8c9c",
+    "actual_filesystem_tree_sha": "e1343d2a024b07570497077743e536a48c6c8c9c",
+    "matches": true
+  },
+  "files": [
+    {
+      "path": "lean/lean-toolchain",
+      "local_git_blob": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "upstream_git_blob": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/lean-toolchain",
+      "sha256": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+      "bytes": 25
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "local_git_blob": "1587feea6e89986bee71234159ec08da1b9349be",
+      "upstream_git_blob": "1587feea6e89986bee71234159ec08da1b9349be",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/lake-manifest.json",
+      "sha256": "d0af863cde532caaef1b1bee0d63ec47100208e33e488309cb80abc88b8f1509",
+      "bytes": 3155
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "local_git_blob": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "upstream_git_blob": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/lakefile.toml",
+      "sha256": "ee756ab61cf24d2fd5f561d89080cf162e34f35b06d9b6101bc680ef1619a7bf",
+      "bytes": 677
+    },
+    {
+      "path": "lean/PEqualNP/Defs.lean",
+      "local_git_blob": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "upstream_git_blob": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/Defs.lean",
+      "sha256": "594ff2311557f39573545905a9b6bcdb0b4e15db024ebcf15f921d250a1c8fbe",
+      "bytes": 3374
+    },
+    {
+      "path": "tools/check-lean.mjs",
+      "local_git_blob": "196628c1a3f5cfcdaaf668c347588c7a96cc31c5",
+      "upstream_git_blob": "196628c1a3f5cfcdaaf668c347588c7a96cc31c5",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/tools/check-lean.mjs",
+      "sha256": "d3f8ca82be7a4aabcf5aba7727b715140c82fa575340c6a8f5d7b134bf4d23ad",
+      "bytes": 14865
+    },
+    {
+      "path": "lean/PEqualNP/Library/LRAT/Checker.lean",
+      "local_git_blob": "d0b10c183b5f980fa67d88e1f48fd48c4a8198d0",
+      "upstream_git_blob": "d0b10c183b5f980fa67d88e1f48fd48c4a8198d0",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/Library/LRAT/Checker.lean",
+      "sha256": "b2cb50051ea0717a986aa11ece7690ab2e0a34f932453732322fc2d7969a4329",
+      "bytes": 26553
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "local_git_blob": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca",
+      "upstream_git_blob": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/CONTRIBUTING.md",
+      "sha256": "a9746119eae5d543b52fabcb19110e77a661957a827ae2fc21de0f5a0274da40",
+      "bytes": 4645
+    },
+    {
+      "path": "lean/PEqualNP/Library/LRAT/LinkN.lean",
+      "local_git_blob": "ddea982d0c14d4183789f35d8c583bc51bc53383",
+      "upstream_git_blob": "ddea982d0c14d4183789f35d8c583bc51bc53383",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/Library/LRAT/LinkN.lean",
+      "sha256": "abab5fb86a3a04889561012c276dd2c0ad262e669ec90918af37b4c56896ee01",
+      "bytes": 55210
+    },
+    {
+      "path": "lean/PEqualNP/Library/LRAT/LinkN2.lean",
+      "local_git_blob": "9a273de3c59200c5ee3c00306b01f15a95217986",
+      "upstream_git_blob": "9a273de3c59200c5ee3c00306b01f15a95217986",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/Library/LRAT/LinkN2.lean",
+      "sha256": "2db446a744f7dced3939655e3bd0d717ce2f165c9b24f69d6d0f8fec30e5119f",
+      "bytes": 26646
+    },
+    {
+      "path": "lean/CheckLemma.lean",
+      "local_git_blob": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "upstream_git_blob": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/CheckLemma.lean",
+      "sha256": "86997b026ef2b80d738df77f4c214166cf5b0b2ea8cc98d4bd3c8b5e420dbdd5",
+      "bytes": 30349
+    },
+    {
+      "path": "lean/PEqualNP/MetaComplexity/Helpers/Shannon.lean",
+      "local_git_blob": "176a956460eb82b863225f405e215d498136cb3f",
+      "upstream_git_blob": "176a956460eb82b863225f405e215d498136cb3f",
+      "matches": true,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/MetaComplexity/Helpers/Shannon.lean",
+      "sha256": "561c30045e047ee7169c30da6c33382f809f7885c2a6dc6632479ec611f1f0fb",
+      "bytes": 5999
+    }
+  ],
+  "generator_sources": [
+    {
+      "path": "/workspace/scratch/65f339da29fe/pequalnp-upstream-b9ee4cd/notes/data/lrat-link/genrow.py",
+      "upstream_path": "notes/data/lrat-link/genrow.py",
+      "upstream_git_blob": "e3ae1049bf652a8d652ec3168751495ec538dee0",
+      "matches": true,
+      "sha256": "657c3ad710cdfa6b9781053330bd0f65372e1824408a1d9ed036fc67a5bcdf8d",
+      "bytes": 10956,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/notes/data/lrat-link/genrow.py"
+    },
+    {
+      "path": "/workspace/scratch/65f339da29fe/pequalnp-upstream-b9ee4cd/notes/data/lrat-link/gennot.py",
+      "upstream_path": "notes/data/lrat-link/gennot.py",
+      "upstream_git_blob": "aaa36b516a1c7a3ae13a19ccf9ccac787bae9ae6",
+      "matches": true,
+      "sha256": "718b075acc793c2d59f0d3a02b500a20fcca865a2f3b677518f8c7a342a84254",
+      "bytes": 5353,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/notes/data/lrat-link/gennot.py"
+    }
+  ],
+  "all_compared_files_match": true,
+  "mutations": [
+    "Added byte-exact official LinkN.lean because absent",
+    "Added byte-exact official LinkN2.lean because absent",
+    "Generated ordinary Lean build artifacts and local logs"
+  ],
+  "unchanged": [
+    "Committed configuration",
+    "Defs directory and Defs.lean",
+    "Checker library",
+    "CheckLemma verifier",
+    "check-lean.mjs frontend",
+    "Shannon helper"
+  ],
+  "scope": "Compatible generic library environment; no VALUE problem claimed, no authoritative strict check, no proof submission."
+}

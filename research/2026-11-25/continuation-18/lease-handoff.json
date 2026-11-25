@@ -1,0 +1,26 @@
+{
+  "scope": "Sanitized parent-reported closure events, at the final release before the new12030 allocation; current coordination is separate in research/ACTIVE_WORK.md",
+  "events": [
+    {
+      "task": "L-meta-9815",
+      "released_utc": "2026-11-25T14:45:23.091761Z",
+      "http_status": 200,
+      "reason": "missing_lemma"
+    },
+    {
+      "task": "L-meta-9834",
+      "released_utc": "2026-11-25T14:50:13.655405Z",
+      "http_status": 200,
+      "reason": "missing_lemma"
+    },
+    {
+      "task": "L-meta-2584",
+      "released_utc": "2026-11-25T14:53:36.801076Z",
+      "http_status": 200,
+      "reason": "missing_lemma"
+    }
+  ],
+  "other_sessions": "Unknown and untouched",
+  "state_as_of_utc": "2026-11-25T14:53:36.801076Z",
+  "root_active_tasks_after_last_recorded_release": []
+}

@@ -1,0 +1,34 @@
+{
+  "cnf_sha256": "bdcfed14408fb3f368fe82437336d283a9dedc953677460e9c7317724c5e1e58",
+  "lrat_sha256": "d43e030b5d4552f9ae519082ca85818c7f0323e654ff8e2ecb69dfde35771279",
+  "lean_sha256": "a1b591b494e44f75dd895e2e9427823a6e6f7a0e5d2a0050bd1d2867bddcae27",
+  "clauses": 4,
+  "steps": 3,
+  "hints": 7,
+  "field_width": 3,
+  "tokens": [
+    4,
+    5,
+    0,
+    1,
+    2,
+    3,
+    5,
+    2,
+    0,
+    4,
+    5,
+    0,
+    6,
+    0,
+    5,
+    2,
+    4,
+    5,
+    2
+  ],
+  "words": [
+    192621661274874412
+  ],
+  "scope": "Emitted only; Lean acceptance must be checked separately."
+}

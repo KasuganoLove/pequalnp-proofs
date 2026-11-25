@@ -1,0 +1,22 @@
+{
+  "id": "L-meta-9815",
+  "title": "No AND/OR/NOT circuit of fan-in at most two with at most 24 gates computes the edge function of the listed graph on 14 vertices with 19 edges",
+  "statement": "¬ (PEqualNP.MetaComplexity.HasCircuitSize 14 (fun x : Fin 14 → Bool => (x 0 && x 8) || (x 0 && x 10) || (x 1 && x 7) || (x 1 && x 9) || (x 1 && x 13) || (x 2 && x 8) || (x 2 && x 13) || (x 3 && x 7) || (x 3 && x 11) || (x 3 && x 12) || (x 4 && x 10) || (x 4 && x 11) || (x 4 && x 13) || (x 5 && x 9) || (x 5 && x 10) || (x 5 && x 12) || (x 6 && x 8) || (x 6 && x 9) || (x 6 && x 11)) 24)",
+  "file": "lean/PEqualNP/Outside/L_meta_9815.lean",
+  "module": "PEqualNP.Outside.L_meta_9815",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "one search on a named graph: is there a circuit one gate smaller than the best we know for its edge function; a found circuit is a bound from above, a proof of none a bound from below",
+  "context": "SKETCH: truth not known to us; the opposite row is offered beside it. This side says the best circuit we know cannot be beaten by one gate: a finite search with a certificate the kernel replays, or an argument by restricting one vertex at a time down to smaller graphs whose sizes are checked. Size: unknown. No sorry, no new axiom. Own namespace for every declaration.",
+  "dead": [],
+  "weight": 55,
+  "parallel": 3,
+  "lane": "main",
+  "depth": 0,
+  "sketch": "truth not known to us; the opposite row is offered beside it. This side says the best circuit we know cannot be beaten by one gate: a finite search with a certificate the kernel replays, or an argument by restricting one vertex at a time down to smaller graphs whose sizes are checked. Size: unknown.",
+  "pr_open": 0,
+  "pr_numbers": [],
+  "answer_known": false,
+  "level": "open"
+}

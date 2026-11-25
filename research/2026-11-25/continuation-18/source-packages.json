@@ -1,0 +1,42 @@
+[
+  {
+    "source_package": "L-meta-9834",
+    "destination": "L-meta-9834",
+    "original_manifest": "ownership-geometry/MANIFEST.json",
+    "manifest_sha256": "c9a965d6cddd85e972e74189901308aa36f923213f54b7712b4f1295ddc03760",
+    "verified_content_files": 14,
+    "verified_content_bytes": 66704
+  },
+  {
+    "source_package": "L-meta-9815",
+    "destination": "L-meta-9815",
+    "original_manifest": "independent/MANIFEST.json",
+    "manifest_sha256": "56d173459eab541df6ba5c54ed8d825ea2b603f24a2c2a7f24d65acfeab36d2e",
+    "verified_content_files": 13,
+    "verified_content_bytes": 71091
+  },
+  {
+    "source_package": "L-meta-2584/protocol-audit/curated",
+    "destination": "L-meta-2584/protocol-audit/curated",
+    "original_manifest": "MANIFEST.json",
+    "manifest_sha256": "bb64717a98bc0f32f8ffb8202a97cdf445c148cd1c6c24c94f6bc4e204d0467a",
+    "verified_content_files": 4,
+    "verified_content_bytes": 10837
+  },
+  {
+    "source_package": "value-prep",
+    "destination": "tools/value-prep",
+    "original_manifest": "CURATED-MANIFEST.json",
+    "manifest_sha256": "2b800b5b928970e8170b8011386bf0744d531eba9ca3a85d297933d1500427cc",
+    "verified_content_files": 13,
+    "verified_content_bytes": 64442
+  },
+  {
+    "source_package": "value-tooling",
+    "destination": "tools/value-tooling",
+    "original_manifest": "MANIFEST.json",
+    "manifest_sha256": "c663c4a93292d523759726ccbfef8a913fd089d0678db7a2c2246d40955863a6",
+    "verified_content_files": 14,
+    "verified_content_bytes": 20612
+  }
+]

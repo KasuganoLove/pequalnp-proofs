@@ -1,0 +1,89 @@
+{
+  "snapshot_at": "2026-11-25T14:33:31.985Z",
+  "checked_sources": [
+    {
+      "id": "L-meta-1501",
+      "file": "lean/PEqualNP/Outside/L_meta_1501.lean",
+      "file_sha256": "d59441b3eaa88603ebbc72ee6b4f59d1a0512ab559a39cc2f53b1430af608dcc",
+      "local_sha256": "d59441b3eaa88603ebbc72ee6b4f59d1a0512ab559a39cc2f53b1430af608dcc",
+      "local_hash_matches": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_1501.lean"
+    },
+    {
+      "id": "L-meta-1942",
+      "file": "lean/PEqualNP/Outside/L_meta_1942.lean",
+      "file_sha256": "49fb4ffc28c485085e9bab351a1d7428404f110ff03e650fc9c7cd2a23ad86b9",
+      "local_sha256": "49fb4ffc28c485085e9bab351a1d7428404f110ff03e650fc9c7cd2a23ad86b9",
+      "local_hash_matches": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_1942.lean"
+    },
+    {
+      "id": "L-meta-2058",
+      "file": "lean/PEqualNP/Outside/L_meta_2058.lean",
+      "file_sha256": "d7ace246dacce9feadf7902fc53ddfeb7f8d70d5f2f478e2cbad892a3e33a27a",
+      "local_sha256": "d7ace246dacce9feadf7902fc53ddfeb7f8d70d5f2f478e2cbad892a3e33a27a",
+      "local_hash_matches": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_2058.lean"
+    },
+    {
+      "id": "L-meta-2237",
+      "file": "lean/PEqualNP/Outside/L_meta_2237.lean",
+      "file_sha256": "479699229fbde3f0fbbe7efc005a7bf9fceaced30f7b65eec8997d87e2b69a85",
+      "local_sha256": "479699229fbde3f0fbbe7efc005a7bf9fceaced30f7b65eec8997d87e2b69a85",
+      "local_hash_matches": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_2237.lean"
+    },
+    {
+      "id": "L-meta-2466",
+      "file": "lean/PEqualNP/Outside/L_meta_2466.lean",
+      "file_sha256": "54ef5713e6b1254cf337db931f884b7b0b6931fe7080d384a7904b5223b14990",
+      "local_sha256": "54ef5713e6b1254cf337db931f884b7b0b6931fe7080d384a7904b5223b14990",
+      "local_hash_matches": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_2466.lean"
+    },
+    {
+      "id": "L-meta-2581",
+      "file": "lean/PEqualNP/Outside/L_meta_2581.lean",
+      "file_sha256": "0dd6f72cdb8df0ca07ac9865b5dced4375b9634530633070c58d4aea5b6d4def",
+      "local_sha256": "0dd6f72cdb8df0ca07ac9865b5dced4375b9634530633070c58d4aea5b6d4def",
+      "local_hash_matches": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_2581.lean"
+    },
+    {
+      "id": "L-meta-4897",
+      "file": "lean/PEqualNP/Outside/L_meta_4897.lean",
+      "file_sha256": "f36e6fb9409247f5cea8281526ded23b8639e6d1a7dfc75d744f64794d6306dc",
+      "local_sha256": "f36e6fb9409247f5cea8281526ded23b8639e6d1a7dfc75d744f64794d6306dc",
+      "local_hash_matches": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_4897.lean"
+    }
+  ],
+  "neighbor_gaps": [
+    {
+      "id": "L-meta-2582",
+      "title": "On a plane of order q, every fan-in-two AND/OR circuit for incidence can be replaced by a read-2 one with at most as many gates",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-3722",
+      "title": "No-4-cycle incidence: some least AND/OR fan-in-2 circuit for the edge function is lift-fixed, live, below-F clean and single-read",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2583",
+      "title": "On a plane of order q, every fan-in-two AND/OR circuit for incidence can be replaced by a read-1 one with at most as many gates",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2585",
+      "title": "4-cycle-free incidence: every fan-in-two AND/OR circuit for it can be replaced by a read-1 one with at most as many gates",
+      "pr_open": 0,
+      "pr_numbers": []
+    }
+  ],
+  "complete_normalization_found": false,
+  "scope": "Bounded read-only source audit; not an exhaustive search of all future upstream files"
+}

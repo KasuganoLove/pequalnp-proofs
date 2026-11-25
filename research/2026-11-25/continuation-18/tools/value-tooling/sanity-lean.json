@@ -1,0 +1,11 @@
+{
+  "command": [
+    "bash",
+    "-lc",
+    "source /workspace/scratch/65f339da29fe/pnp-env.sh\nlake env lean -j1 /workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/value-tooling/PnpValueLratSanity.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 1.4069000759991468,
+  "timestamp": "2026-11-25T14:55:28.728591+00:00",
+  "scope": "Ordinary single-thread Lean compile of self-chosen contradictory CNF; no official task submission or strict checker."
+}

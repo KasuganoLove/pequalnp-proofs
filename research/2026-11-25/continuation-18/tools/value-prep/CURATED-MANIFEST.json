@@ -1,0 +1,78 @@
+{
+  "scope": "Generic library dependency and compatibility records only; no VALUE proof or official submission",
+  "paths_relative_to": "value-prep",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5552,
+      "sha256": "536e92266e68facdfdd5d4a0702a6b752b5990404f7dfc90982809b715ac38d1"
+    },
+    {
+      "path": "build_lrat_dependencies.py",
+      "bytes": 4855,
+      "sha256": "ba828b02c5601db63f9ab145e94c9d04ca3867edc70cc18997af51424ac3b3c1"
+    },
+    {
+      "path": "environment-compatibility.json",
+      "bytes": 7376,
+      "sha256": "caba86565dc03d518657efde841ede230a889e2275359732652acb5b67c29c2c"
+    },
+    {
+      "path": "build-results.json",
+      "bytes": 4450,
+      "sha256": "0992a59d21b0df8088fb8173e37ec3ee35b8b1349fcc9d75a2c1cc7da08128fe"
+    },
+    {
+      "path": "upstream/fetch-metadata.json",
+      "bytes": 6960,
+      "sha256": "91aacdb722a165767213438a7dcbe547ddbad4c3e20111821d1acbd7470c08de"
+    },
+    {
+      "path": "build-Checker.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-LinkN.log",
+      "bytes": 21653,
+      "sha256": "668a56df88b19204cde6b8b8167381f13375d848c0d85d9f3e7d36109d975c38"
+    },
+    {
+      "path": "build-LinkN2.log",
+      "bytes": 12657,
+      "sha256": "a1c218f63991269f03fb2a969a70581efc4caf5c06af8bacaed0a3439161bb69"
+    },
+    {
+      "path": "build-Shannon.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build-Checker.time.txt",
+      "bytes": 227,
+      "sha256": "dd71d8b288f7a8f58270df23bcac6b73dae6f5ade096be59f5e2af1157771454"
+    },
+    {
+      "path": "build-LinkN.time.txt",
+      "bytes": 229,
+      "sha256": "28505c108f7fde9c750ab38c25677d221bcf34ef98095824ada544383d8706b3"
+    },
+    {
+      "path": "build-LinkN2.time.txt",
+      "bytes": 247,
+      "sha256": "3730ecd459486eaf74073dfd3ab5723439261b7143a547966e2128860719717c"
+    },
+    {
+      "path": "build-Shannon.time.txt",
+      "bytes": 236,
+      "sha256": "71d7bd2973be19265784aa03aa81699e888e37c1b53bf5f178a2af5f4c9d1626"
+    }
+  ],
+  "file_count": 13,
+  "total_bytes": 64442,
+  "excluded": [
+    "upstream full third-party source files",
+    "all build .olean files",
+    "unleased task-specific computation"
+  ]
+}

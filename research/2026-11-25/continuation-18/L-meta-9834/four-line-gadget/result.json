@@ -1,0 +1,14 @@
+{
+  "start_utc": "2026-11-25T14:43:37.671739+00:00",
+  "end_utc": "2026-11-25T14:48:37.708775+00:00",
+  "status": "UNKNOWN",
+  "exit_code": -15,
+  "wall_seconds": 300.03704445900075,
+  "cpu_seconds": 298.814348,
+  "max_rss_kib": 789688,
+  "wall_limit_seconds": 300,
+  "virtual_memory_limit_bytes": 2147483648,
+  "timed_out": true,
+  "public_unsat_claim": false,
+  "attempts": 1
+}

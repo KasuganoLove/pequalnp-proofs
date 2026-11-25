@@ -1,0 +1,7 @@
+{
+  "elapsed_seconds": 15.354200547997607,
+  "user_seconds": 14.142892,
+  "system_seconds": 1.205022,
+  "cumulative_build_peak_child_rss_kib": 3100336,
+  "peak_scope": "maximum child RSS across completed stages in this runner"
+}

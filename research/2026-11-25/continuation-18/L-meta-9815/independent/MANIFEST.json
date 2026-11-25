@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-11-25T14:45:22.240299+00:00",
+  "scope": "Source audit and ordinary finite diagnostics only; no full proof, no24-gate witness, no own PR. Root manages lease status.",
+  "files": [
+    {
+      "path": "independent/README.md",
+      "bytes": 6444,
+      "sha256": "7d6b69d1b1066b41ba7bc53d633e1d9662a85e4bac75bbeb504505ae1257d93c"
+    },
+    {
+      "path": "independent/restriction_dp.py",
+      "bytes": 5586,
+      "sha256": "5dec9753c4d220fa19bd6baad0c26aec58deaa9640af687d6f6db555a49ea6c8"
+    },
+    {
+      "path": "independent/restriction-dp-checked-cores-result.json",
+      "bytes": 2846,
+      "sha256": "c319beba11063a3b22ce340eed57948a2b429cf4be358f28187b93afbc223150"
+    },
+    {
+      "path": "independent/checked-core-catalog.json",
+      "bytes": 33523,
+      "sha256": "c8ffbe789e0b2ef03a98e0f9cec875ca647c17b50704eb481a63115328ef51ad"
+    },
+    {
+      "path": "independent/checked-source-status.json",
+      "bytes": 3893,
+      "sha256": "5ba20144ce8d11520455a61406febc484f42a519dde5d1f1fd8357876476d22d"
+    },
+    {
+      "path": "independent/checked-core-catalog-verification.json",
+      "bytes": 179,
+      "sha256": "56f149caf92052adcc5998c7608cf7d7375bcfa7dd76ae780002eb5eb50766ab"
+    },
+    {
+      "path": "independent/verify_checked_core_catalog.py",
+      "bytes": 1743,
+      "sha256": "b58f1647f01451e4484fa2ce419fd3ae832c34579f89bc1744ab09c682ec522a"
+    },
+    {
+      "path": "independent/verify_baseline_and_substars.py",
+      "bytes": 4354,
+      "sha256": "c1d9579cd550045396d1e4850b9180293f53d380e70e607017b11da56f7cdb6a"
+    },
+    {
+      "path": "independent/baseline-25.json",
+      "bytes": 2103,
+      "sha256": "67156b4411ad942575c5edcfc7481fabc3126c6cc7517d0740a3f68a01fc2b74"
+    },
+    {
+      "path": "independent/substar-summary.json",
+      "bytes": 4396,
+      "sha256": "77cc208eb07ed67662487d9db344a343421f23e6ecbe7942fb6b84515aaa03ea"
+    },
+    {
+      "path": "independent/source-references.json",
+      "bytes": 3416,
+      "sha256": "0ade27b2414aa8226c25d94d8dc54ae275125a6bd4ba6a06205c3b1c359c45e6"
+    },
+    {
+      "path": "status-audit/desk-reference.json",
+      "bytes": 259,
+      "sha256": "43e3dff4d77663d87e5d607df62ecbeb3a8184ba0a553d4177b163fe4a3ce7da"
+    },
+    {
+      "path": "status-audit/selected-task-rows.json",
+      "bytes": 2349,
+      "sha256": "03b0d160799cd5aa067518aea022e9a2b400087a7620f44c450012bb05c0605e"
+    }
+  ],
+  "content_files": 13,
+  "content_bytes": 71091,
+  "required_external_task_input": "../gap.json relative to independent/; use the exact posted9815 statement",
+  "excluded": [
+    "full desk JSON",
+    "third-party Lean source",
+    "regenerable per-subset tables",
+    "binaries",
+    "private lease records"
+  ]
+}

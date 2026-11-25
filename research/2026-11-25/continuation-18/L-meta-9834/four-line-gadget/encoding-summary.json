@@ -1,0 +1,20 @@
+{
+  "inputs": 12,
+  "gates": 15,
+  "rows": 4096,
+  "ops": [
+    "and",
+    "or",
+    "not",
+    "false",
+    "true"
+  ],
+  "variables": 184965,
+  "clauses": 3821817,
+  "cnf_bytes": 78463920,
+  "cnf_sha256": "74b54146ba4f768d4df34a2f774f6d737f61a8052aaeed30ef9d4a707839b5c7",
+  "wire_order": "raw 0..11; gates 12..26; output26",
+  "maximum_not_gates": 1,
+  "scope": "Bounded witness search with at most one NOT; public task permits arbitrary counted NOT gates.",
+  "source_post_run_change": "A comment was corrected to distinguish the search restriction from the public task; executable statements unchanged."
+}

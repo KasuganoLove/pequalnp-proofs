@@ -1,0 +1,68 @@
+[
+  {
+    "path": "lean/PEqualNP/Defs/MetaComplexity.lean",
+    "bytes": 5744,
+    "sha256": "863a9682c4e45a88aa71112f51d40cd2e308d2790acbcbcc4cf388cc8e8ce303",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Defs/MetaComplexity.lean"
+  },
+  {
+    "path": "lean/PEqualNP/MetaComplexity/L104.lean",
+    "bytes": 871,
+    "sha256": "75617a57212dbd89c15fc7543fda34d11bd64b5b81c8dc9b7ab093d702d02bac",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/MetaComplexity/L104.lean"
+  },
+  {
+    "path": "lean/PEqualNP/MetaComplexity/L106.lean",
+    "bytes": 694,
+    "sha256": "71511d285c9435cdf5577c9fffb39c008550b3d2f426cadf94f69f79d45c0ccb",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/MetaComplexity/L106.lean"
+  },
+  {
+    "path": "lean/PEqualNP/MetaComplexity/L204.lean",
+    "bytes": 1011,
+    "sha256": "1308ac8f2ec851e9b357f2e2242c5d49b6d543dffb3dfab3625352bde6c063e7",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/MetaComplexity/L204.lean"
+  },
+  {
+    "path": "lean/PEqualNP/MetaComplexity/Helpers/Elim.lean",
+    "bytes": 20248,
+    "sha256": "e9c069bb76cdbd425b8be404c6c65680a1a831c18e6f841b640daf4f5cc6b4b7",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/MetaComplexity/Helpers/Elim.lean"
+  },
+  {
+    "path": "lean/PEqualNP/MetaComplexity/Helpers/PadOr.lean",
+    "bytes": 6671,
+    "sha256": "fdb4fc751ca6e760ec6c83d05dd595af5343eb71de6ea4a34028ca978c642ec0",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/MetaComplexity/Helpers/PadOr.lean"
+  },
+  {
+    "path": "lean/PEqualNP/Outside/L_meta_314.lean",
+    "bytes": 522448,
+    "sha256": "dc04788f3141909f778a10adc318e90a4abd6303a964d5878e33b70c0d3de538",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_314.lean"
+  },
+  {
+    "path": "lean/PEqualNP/Outside/L_meta_516.lean",
+    "bytes": 293794,
+    "sha256": "0a12be5a5e58fd7dd2ac7436bb48e7b7b0947217c9ef5fd47038381a42ceb3e7",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_516.lean"
+  },
+  {
+    "path": "lean/PEqualNP/Outside/L_meta_927.lean",
+    "bytes": 291459,
+    "sha256": "b3be42c285a9430ec0c4349dc2599bc682b63643793caf38a0f42468eb9772f8",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_927.lean"
+  },
+  {
+    "path": "lean/PEqualNP/Outside/L_meta_657.lean",
+    "bytes": 88502,
+    "sha256": "202081462e647d0afd0a7692ab38fb58e78fa05220c3d48bb527b5d023737e95",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_657.lean"
+  },
+  {
+    "path": "notes/note-1-edge-function-exact-size.md",
+    "bytes": 7225,
+    "sha256": "676683f600bc61be2511c792f6fbab513a54c4647327055e0e16020582d0d232",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/notes/note-1-edge-function-exact-size.md"
+  }
+]

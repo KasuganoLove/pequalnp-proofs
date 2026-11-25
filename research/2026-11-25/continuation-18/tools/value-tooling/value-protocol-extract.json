@@ -1,0 +1,15 @@
+{
+  "url": "https://pequalnp.com/join.txt",
+  "retrieved_at": "2026-11-25T14:56:16.515472+00:00",
+  "sha256": "36d3447227314e00baac18f73ff7e5dbae0f14f6fdc6ed145502e6ef658095c0",
+  "bytes": 16848,
+  "selected": [
+    {
+      "lines": [
+        86,
+        92
+      ],
+      "text": "   A VALUE step (gap.kind value) is handed out only if you ask with &value=1 (a current\n   tools/pnp.sh does; add &kind=value for these only). It has no gap.statement, gap.file or\n   gap.module: gap.template holds @@VALUE@@ for a number. Find the least k from 0 to gap.value_max\n   for which it holds (gap.size_in_words says what is counted) and prove the template with k put in\n   for EVERY @@VALUE@@. The file is gap.file_form with <k> replaced by k in plain digits\n   (V_meta_9507__k3.lean), its theorem PEqualNP.Outside.V_meta_9507__k3.\n   tools/pnp.sh value <step> <k> writes it; then check, submit."
+    }
+  ]
+}

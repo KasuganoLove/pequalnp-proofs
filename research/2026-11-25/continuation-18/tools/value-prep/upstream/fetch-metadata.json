@@ -1,0 +1,180 @@
+{
+  "pin": "57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1",
+  "files": [
+    {
+      "path": "lean/lean-toolchain",
+      "github_blob_sha": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/lean-toolchain",
+      "bytes": 25,
+      "sha256": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": true,
+      "primary_matches": true,
+      "b9_matches": true
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "github_blob_sha": "1587feea6e89986bee71234159ec08da1b9349be",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/lake-manifest.json",
+      "bytes": 3155,
+      "sha256": "d0af863cde532caaef1b1bee0d63ec47100208e33e488309cb80abc88b8f1509",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": true,
+      "primary_matches": true,
+      "b9_matches": true
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "github_blob_sha": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/lakefile.toml",
+      "bytes": 677,
+      "sha256": "ee756ab61cf24d2fd5f561d89080cf162e34f35b06d9b6101bc680ef1619a7bf",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": true,
+      "primary_matches": true,
+      "b9_matches": true
+    },
+    {
+      "path": "lean/PEqualNP/Defs.lean",
+      "github_blob_sha": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/Defs.lean",
+      "bytes": 3374,
+      "sha256": "594ff2311557f39573545905a9b6bcdb0b4e15db024ebcf15f921d250a1c8fbe",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": true,
+      "primary_matches": true,
+      "b9_matches": true
+    },
+    {
+      "path": "tools/check-lean.mjs",
+      "github_blob_sha": "196628c1a3f5cfcdaaf668c347588c7a96cc31c5",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/tools/check-lean.mjs",
+      "bytes": 14865,
+      "sha256": "d3f8ca82be7a4aabcf5aba7727b715140c82fa575340c6a8f5d7b134bf4d23ad",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": true,
+      "primary_matches": true,
+      "b9_matches": true
+    },
+    {
+      "path": "lean/PEqualNP/Library/LRAT/Checker.lean",
+      "github_blob_sha": "d0b10c183b5f980fa67d88e1f48fd48c4a8198d0",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/Library/LRAT/Checker.lean",
+      "bytes": 26553,
+      "sha256": "b2cb50051ea0717a986aa11ece7690ab2e0a34f932453732322fc2d7969a4329",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": true,
+      "primary_matches": true,
+      "b9_matches": true
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "github_blob_sha": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/CONTRIBUTING.md",
+      "bytes": 4645,
+      "sha256": "a9746119eae5d543b52fabcb19110e77a661957a827ae2fc21de0f5a0274da40",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": true,
+      "primary_matches": true,
+      "b9_matches": true
+    },
+    {
+      "path": "lean/PEqualNP/Library/LRAT/LinkN.lean",
+      "github_blob_sha": "ddea982d0c14d4183789f35d8c583bc51bc53383",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/Library/LRAT/LinkN.lean",
+      "bytes": 55210,
+      "sha256": "abab5fb86a3a04889561012c276dd2c0ad262e669ec90918af37b4c56896ee01",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": false,
+      "primary_matches": false,
+      "b9_matches": true
+    },
+    {
+      "path": "lean/PEqualNP/Library/LRAT/LinkN2.lean",
+      "github_blob_sha": "9a273de3c59200c5ee3c00306b01f15a95217986",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/Library/LRAT/LinkN2.lean",
+      "bytes": 26646,
+      "sha256": "2db446a744f7dced3939655e3bd0d717ce2f165c9b24f69d6d0f8fec30e5119f",
+      "stored_git_blob_verified": true,
+      "primary_local_exists": false,
+      "primary_matches": false,
+      "b9_matches": true
+    },
+    {
+      "path": "lean/CheckLemma.lean",
+      "github_blob_sha": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/CheckLemma.lean",
+      "bytes": 30349,
+      "sha256": "86997b026ef2b80d738df77f4c214166cf5b0b2ea8cc98d4bd3c8b5e420dbdd5",
+      "stored_git_blob_verified": true,
+      "primary_matches": true,
+      "b9_matches": true
+    },
+    {
+      "path": "lean/PEqualNP/MetaComplexity/Helpers/Shannon.lean",
+      "github_blob_sha": "176a956460eb82b863225f405e215d498136cb3f",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1/lean/PEqualNP/MetaComplexity/Helpers/Shannon.lean",
+      "bytes": 5999,
+      "sha256": "561c30045e047ee7169c30da6c33382f809f7885c2a6dc6632479ec611f1f0fb",
+      "stored_git_blob_verified": true,
+      "primary_matches": true,
+      "b9_matches": true
+    }
+  ],
+  "project_directory": [
+    {
+      "name": "CircuitLowerBounds",
+      "path": "lean/PEqualNP/CircuitLowerBounds",
+      "sha": "7e309405ba8f84b3ca66236f3c7e5dc07bc45ae1",
+      "type": "dir"
+    },
+    {
+      "name": "Defs.lean",
+      "path": "lean/PEqualNP/Defs.lean",
+      "sha": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "type": "file"
+    },
+    {
+      "name": "Defs",
+      "path": "lean/PEqualNP/Defs",
+      "sha": "e1343d2a024b07570497077743e536a48c6c8c9c",
+      "type": "dir"
+    },
+    {
+      "name": "Gct",
+      "path": "lean/PEqualNP/Gct",
+      "sha": "9c5c18f93a156e1149bed5debbf8ef673e6b23a2",
+      "type": "dir"
+    },
+    {
+      "name": "Library",
+      "path": "lean/PEqualNP/Library",
+      "sha": "00bd45aedc24f8501cedb97cf30c9217f2a9aa78",
+      "type": "dir"
+    },
+    {
+      "name": "MetaComplexity",
+      "path": "lean/PEqualNP/MetaComplexity",
+      "sha": "c8fe93d1aff543b5ddd2e00a5f10f9eae2a949b7",
+      "type": "dir"
+    },
+    {
+      "name": "Outside",
+      "path": "lean/PEqualNP/Outside",
+      "sha": "1f6cc92cd3eace981d94cbc9964769bacfa0998f",
+      "type": "dir"
+    },
+    {
+      "name": "ProofComplexity",
+      "path": "lean/PEqualNP/ProofComplexity",
+      "sha": "77e86648bb1a3b431ed850c3ea65e73ae58767c3",
+      "type": "dir"
+    },
+    {
+      "name": "Search",
+      "path": "lean/PEqualNP/Search",
+      "sha": "e5494cd0ad78a4c14ddce08cdd6106ff0091a62c",
+      "type": "dir"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "task": "L-meta-9509",
+  "file": "lean/PEqualNP/Outside/V_meta_9509__k3.lean",
+  "theorem": "PEqualNP.Outside.V_meta_9509__k3",
+  "table": 10,
+  "value": 3,
+  "observed_main_git_blob": "f08b5fbbaea0bda1c8b905c28073e3875e431978",
+  "official_checked_sha256": "c47def54fce57c90fbe4fafeeb38e33d163b57e84e687816c2fc0a42b854c5a2",
+  "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/V_meta_9509__k3.lean",
+  "schema": "HasCircuitSize4 f3 AND forall t, HasCircuitSize4 f t implies3<=t; both occurrences use the same literal table10 function",
+  "method_observed": "Explicit upper witness + kernel-checked finite reachable-word search at2 gates; not LRAT. Inspected only as already-checked format example.",
+  "desk_snapshot": "2026-11-25T14:30:11.706Z",
+  "scope": "Read-only schema reference; no new proof or work on an unleased task."
+}

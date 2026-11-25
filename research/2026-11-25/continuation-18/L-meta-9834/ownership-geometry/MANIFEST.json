@@ -1,0 +1,83 @@
+{
+  "task": "L-meta-9834",
+  "scope": "Frozen finite geometry, 113-gate controls, and one bounded four-line 15-gate witness search; no theorem or strict verdict",
+  "task_release_reported_by_root": "2026-11-25T14:50:13.655405Z, HTTP 200, missing_lemma",
+  "result": "UNKNOWN; no model, no UNSAT certificate",
+  "paths_relative_to": "L-meta-9834",
+  "files": [
+    {
+      "path": "statement.txt",
+      "bytes": 1737,
+      "sha256": "8a0d68d1957ee455226ea3a9e10cd5bc0af5dae34c0001a9994f49cb0e39b699"
+    },
+    {
+      "path": "gap.json",
+      "bytes": 3317,
+      "sha256": "2a7971c0ebc9232e3b90f5ec722fbac41a7c7a7425f2751fa442dedfb7f989c8"
+    },
+    {
+      "path": "ownership-geometry/audit.py",
+      "bytes": 4957,
+      "sha256": "ee92e3b99f3342e01eb8e3209a48a38f8409c4c46280d4e22697674833774311"
+    },
+    {
+      "path": "ownership-geometry/geometry.json",
+      "bytes": 5218,
+      "sha256": "725096823f6ab3c89a4d217ba134f155ec0bbd9d64d6cae395ab8b0b7b8078c1"
+    },
+    {
+      "path": "ownership-geometry/baseline113.json",
+      "bytes": 9330,
+      "sha256": "eedfee5c745fb2f0c9b72c286ab105c70f0e02d19b6d7f21874a116a5b28ef95"
+    },
+    {
+      "path": "ownership-geometry/README.md",
+      "bytes": 6591,
+      "sha256": "2a62516dda922900b1fcda92c9d92fd179083ebeedd20ef942a941712308af01"
+    },
+    {
+      "path": "four-line-gadget/prepare.py",
+      "bytes": 3988,
+      "sha256": "c45c0ce2ae21ef02ff860f9828e45e134c77f63c71886170040484369cd4c7d5"
+    },
+    {
+      "path": "four-line-gadget/problem.json",
+      "bytes": 1688,
+      "sha256": "ffc647635bd9060ada6ffecd7e1104a63a11c0fc5161bb798109e551de742bed"
+    },
+    {
+      "path": "four-line-gadget/baseline16.json",
+      "bytes": 1319,
+      "sha256": "7bfc1c0aa70eb444b8b2703e3a1a43c0c441191920aac20e275bef06a2c13d1a"
+    },
+    {
+      "path": "four-line-gadget/baseline-splice113.json",
+      "bytes": 9152,
+      "sha256": "8748bee1d65d3a231dada24789027b5594728de9aeabcabea49f6e0d02fecc39"
+    },
+    {
+      "path": "four-line-gadget/synthesize15.py",
+      "bytes": 8290,
+      "sha256": "3cfd5e4144e5137b826e29fd88b629c98f0f45bb1d21c82f40c7056a9fb036c6"
+    },
+    {
+      "path": "four-line-gadget/encoding-summary.json",
+      "bytes": 611,
+      "sha256": "067e440bface42dfff3ba381311cba318c51e40e6ca6f4dff60bf80e64d5bce3"
+    },
+    {
+      "path": "four-line-gadget/solver.log",
+      "bytes": 10126,
+      "sha256": "82395824afbca3820d1377befe3d9e5f6a19a2c481cc6cb6f829ee2b8ba3660b"
+    },
+    {
+      "path": "four-line-gadget/result.json",
+      "bytes": 380,
+      "sha256": "b72b3ef98274e6892b80670b04e57b94721a6042ecf23cc73ff4705718f3d70c"
+    }
+  ],
+  "omitted_regenerable": [
+    "four-line-gadget/formula.cnf",
+    "four-line-gadget/encoding.json"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "self_chosen_example": "All four assignments of two variables forbidden; no project task claimed or solved.",
+  "command": [
+    "/workspace/scratch/65f339da29fe/pnp-tools/elan/toolchains/leanprover--lean4---v4.36.0/bin/cadical",
+    "--lrat",
+    "--no-binary",
+    "--unsat",
+    "-t",
+    "10",
+    "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/value-tooling/sanity.cnf",
+    "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/value-tooling/sanity.lrat"
+  ],
+  "exit_code": 20,
+  "seconds": 0.004687426000600681,
+  "timestamp": "2026-11-25T14:48:12.431955+00:00",
+  "solver_version": "2.1.2",
+  "solver_sha256": "2a0137451efde370d67b88aec26f1e902870f095b1204b07049a103bc6bbd647",
+  "proof_bytes": 37,
+  "proof_sha256": "d43e030b5d4552f9ae519082ca85818c7f0323e654ff8e2ecb69dfde35771279"
+}

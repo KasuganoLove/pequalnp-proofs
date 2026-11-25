@@ -1,0 +1,21 @@
+{
+  "task": "L-meta-2584",
+  "snapshot_at": "2026-11-25T14:33:31.985Z",
+  "desk_source_url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "join_source_url": "https://pequalnp.com/join.txt",
+  "join_sha256": "36d3447227314e00baac18f73ff7e5dbae0f14f6fdc6ed145502e6ef658095c0",
+  "join_rule_lines": [
+    188,
+    189,
+    210
+  ],
+  "row_has_reductions_key": false,
+  "row_reductions_true": false,
+  "global_reductions_open": true,
+  "reduction_submission_eligible_under_observed_rule": false,
+  "reason": "Current join requires reductions:true on the individual row. The current row omits it; its sketch requesting a cut and the global flag do not establish that condition.",
+  "no_rule_override_inferred": true,
+  "remote_mutations": false,
+  "lease_operations": false,
+  "new_lean_jobs": false
+}

@@ -1,0 +1,6 @@
+{
+  "sources_verified": 21,
+  "exact_clauses_verified": 58,
+  "all_pass": true,
+  "scope": "Source byte/hash/type extraction verification only; not re-running the Lean kernel."
+}

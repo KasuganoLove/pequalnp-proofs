@@ -1,0 +1,84 @@
+{
+  "kind": "research_checkpoint",
+  "task_level_full_proof": false,
+  "new_official_pr": false,
+  "official_acceptance_claim": false,
+  "base_commit": "bab1b11a559b475297c3f4fa45786bc45d673be0",
+  "base_tree": "44ca35fa64746f3bf08529e526dc8fc64666c6de",
+  "tasks": {
+    "L-meta-9815": {
+      "outcome": "missing_lemma",
+      "baseline_gates": 25,
+      "required_minimum": 25,
+      "baseline_scalar_rows": 16384,
+      "diagnostic_restriction_value": 20,
+      "new_lean_proof": false
+    },
+    "L-meta-9834": {
+      "outcome": "missing_lemma",
+      "baseline_gates": 113,
+      "target_upper_bound": 112,
+      "local_baseline_gates": 16,
+      "local_searched_gates": 15,
+      "search_model": "AND/OR/constants, at most one NOT, all 4096 local assignments",
+      "solver_status": "UNKNOWN",
+      "solver_exit_code": -15,
+      "solver_elapsed_seconds": 300.037,
+      "new_lean_proof": false
+    },
+    "L-meta-2584": {
+      "outcome": "missing_lemma",
+      "scope": "Protocol eligibility and source contracts only",
+      "row_reductions_true_observed": false,
+      "new_lean_proof": false,
+      "official_reduction": false
+    }
+  },
+  "tooling": {
+    "fixed_upstream": "57d6c2fdf69978aecff3559c7ab6b442a2d3c3f1",
+    "lean": "4.36.0",
+    "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+    "dependencies_ordinary_lean": "PASS",
+    "dependency_threads": 1,
+    "dependency_max_child_rss_kib": 3100336,
+    "tiny_lrat_ordinary_lean": "PASS",
+    "tiny_lrat_seconds": 1.407,
+    "tiny_lrat_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "strict_checker_run": false,
+    "unleased_task_specific_computation": false
+  },
+  "closed_tasks": [
+    {
+      "task": "L-meta-9815",
+      "released_utc": "2026-11-25T14:45:23.091761Z",
+      "http_status": 200,
+      "reason": "missing_lemma"
+    },
+    {
+      "task": "L-meta-9834",
+      "released_utc": "2026-11-25T14:50:13.655405Z",
+      "http_status": 200,
+      "reason": "missing_lemma"
+    },
+    {
+      "task": "L-meta-2584",
+      "released_utc": "2026-11-25T14:53:36.801076Z",
+      "http_status": 200,
+      "reason": "missing_lemma"
+    }
+  ],
+  "source_hash_verification": "All five input manifests checked file-by-file before copying",
+  "excluded": [
+    "private leases",
+    "tokens",
+    "CNF files",
+    "binaries",
+    "olean files",
+    "whole third-party sources"
+  ],
+  "created_utc": "2026-11-25T15:02:16.075264+00:00"
+}

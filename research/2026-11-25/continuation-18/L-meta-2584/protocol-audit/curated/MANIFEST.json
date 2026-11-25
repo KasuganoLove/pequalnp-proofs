@@ -1,0 +1,27 @@
+{
+  "task": "L-meta-2584",
+  "scope": "Read-only reduction eligibility and checked-source scope audit",
+  "files": [
+    {
+      "path": "2584-selected.json",
+      "bytes": 3139,
+      "sha256": "5f871624cb6b4c8228e8a98b10e3e7e570057c7f1b03b886717c15ca0cb3788a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2816,
+      "sha256": "2544f2a43d660162f23021337b697d594ecb71058a2f22a744ea871a29afff43"
+    },
+    {
+      "path": "eligibility.json",
+      "bytes": 803,
+      "sha256": "7b1596b03b344ec9004e7bcedc8374f3dae26bf2c94d8650200616c430548f65"
+    },
+    {
+      "path": "source-scope.json",
+      "bytes": 4079,
+      "sha256": "3b467fc22b36e5c7d7412e9e49da62227337e759a28826983b650952bd0ac11b"
+    }
+  ],
+  "content_bytes": 10837
+}
