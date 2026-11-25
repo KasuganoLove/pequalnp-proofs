@@ -1,0 +1,60 @@
+{
+  "candidate_sha256": "6b95138a4ac12ab27af6ee9d706575a034e4f0ce8b27a46e121e80b305c5dbd3",
+  "gate_count": 19,
+  "checked_assignments": 1024,
+  "positive_edge_masks": [
+    3,
+    6,
+    12,
+    17,
+    24,
+    33,
+    66,
+    132,
+    160,
+    264,
+    288,
+    320,
+    528,
+    576,
+    640
+  ],
+  "negative_maximal_independent_masks": [
+    50,
+    69,
+    104,
+    116,
+    138,
+    201,
+    208,
+    276,
+    385,
+    402,
+    521,
+    548,
+    554,
+    770,
+    773
+  ],
+  "sample_errors": [
+    {
+      "mask": 264,
+      "expected": true,
+      "actual": false
+    }
+  ],
+  "all_input_error_count": 9,
+  "all_input_error_masks": [
+    264,
+    265,
+    266,
+    392,
+    393,
+    394,
+    776,
+    777,
+    778
+  ],
+  "is_counterexample_to_2590": false,
+  "scope": "Verification of one candidate only; no impossibility claim."
+}

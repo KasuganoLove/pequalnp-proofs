@@ -1,0 +1,8 @@
+'PEqualNP.Outside.Pnp2590Graph.noFourCycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp2590Graph.cover_ge_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp2590CleanBound.clean_top_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp2590CleanBound.top_and_ge_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp2590CleanBound.clean_size_ge_twenty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp2590CleanBound.small_correct_has_dirty_and' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

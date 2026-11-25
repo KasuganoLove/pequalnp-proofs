@@ -1,0 +1,37 @@
+{
+  "purpose": "Read-only evidence that already-checked L950 contradicts live L949",
+  "no_new_lean_proof": true,
+  "source_950_sha256": "0b7e2f524d8cf838ed8e00ccb86224d0fa9ba587dfb9e5f750c1325d73a4cc3a",
+  "files": [
+    {
+      "file": "false-twin-audit.md",
+      "bytes": 5487,
+      "sha256": "f54ea3768b347e0f5d10404821f1bcae5b91b25ea0f612e12e6dc89b246bdfdb"
+    },
+    {
+      "file": "gap.json",
+      "bytes": 2255,
+      "sha256": "a158f7c2752a40c23dd10a100557ab5ee3d57232d6d9df31c7e70e27849fe46a"
+    },
+    {
+      "file": "public-950.json",
+      "bytes": 2160,
+      "sha256": "9e3e68e9e0ad0a1e6048deb7f6a2c619ed0d0ff22f28c51fdbe0d75f6a6aa068"
+    },
+    {
+      "file": "selected-current-status.json",
+      "bytes": 2642,
+      "sha256": "e1e5410a4e30aa9842f8900ab6a18b9d63c0f05781cd776ed947c8a70d382056"
+    },
+    {
+      "file": "current-step-949.json",
+      "bytes": 259,
+      "sha256": "3edfa0725346e6dd6b38e2b9bb6635763e1aaa09d3a42d7612a93607ad5db8e2"
+    },
+    {
+      "file": "join-current.txt",
+      "bytes": 14554,
+      "sha256": "cc188d83f44a368864d38e0cc9fffb337629615f2734e99e145a37b87e78cf1c"
+    }
+  ]
+}
