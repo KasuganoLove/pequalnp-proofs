@@ -1,0 +1,20 @@
+{
+  "id": "L-meta-5126",
+  "title": "Rung two, one-hot-off dirt: if no least AND/OR fan-in-two 4-cycle-free bipartite edge circuit has one dirty AND, none with one-hot-off dirt has two",
+  "statement": "(\u2200 (n : \u2115) (G : SimpleGraph (Fin n)) [DecidableRel G.Adj] (C : PEqualNP.CircuitLowerBounds.Circuit) (s : Fin n \u2192 Bool),\n  (\u2200 u v : Fin n, G.Adj u v \u2192 s u \u2260 s v) \u2192 PEqualNP.TopForm.NoFourCycle G \u2192 PEqualNP.TopForm.IsLeastAO G C \u2192\n  (PEqualNP.TopForm.junk G C).card \u2260 1) \u2192\n\u2200 (n : \u2115) (G : SimpleGraph (Fin n)) [DecidableRel G.Adj] (C : PEqualNP.CircuitLowerBounds.Circuit) (s : Fin n \u2192 Bool),\n  (\u2200 u v : Fin n, G.Adj u v \u2192 s u \u2260 s v) \u2192 PEqualNP.TopForm.NoFourCycle G \u2192 PEqualNP.TopForm.IsLeastAO G C \u2192\n  (\u2200 k \u2208 PEqualNP.TopForm.junk G C, \u2200 v : Fin n, PEqualNP.EdgeOwnership.gateVal n C k (PEqualNP.SplitCount.unitInput v) = false) \u2192\n  (PEqualNP.TopForm.junk G C).card \u2260 2",
+  "file": "lean/PEqualNP/Outside/L_meta_5126.lean",
+  "module": "PEqualNP.Outside.L_meta_5126",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "the half of the second rung whose argued cases are on paper: both misbehaving ANDs off at one-hot inputs",
+  "context": "SKETCH: No proof is in hand. Take the first rung as the hypothesis it is. Both ANDs not below F are off at one-hot inputs, so each is OR(A) AND OR(B), A and B disjoint. A case split written in house (it builds; it is not a checked row) reduces this to ten case statements that partition the possibilities; paper arguments cover parts of them (small rectangles, the five-vertex path core by a star swap) and leave named gaps: two flags with no overlap, rectangles beyond two by two, factors with variables on both sides. Size: open. No sorry, no new axiom. Own namespace for every declaration.",
+  "dead": [],
+  "weight": 94,
+  "parallel": 6,
+  "lane": "main",
+  "depth": 0,
+  "sketch": "No proof is in hand. Take the first rung as the hypothesis it is. Both ANDs not below F are off at one-hot inputs, so each is OR(A) AND OR(B), A and B disjoint. A case split written in house (it builds; it is not a checked row) reduces this to ten case statements that partition the possibilities; paper arguments cover parts of them (small rectangles, the five-vertex path core by a star swap) and leave named gaps: two flags with no overlap, rectangles beyond two by two, factors with variables on both sides. Size: open. No sorry, no new axiom. Own namespace for every declaration.",
+  "pr_open": 0,
+  "pr_numbers": []
+}

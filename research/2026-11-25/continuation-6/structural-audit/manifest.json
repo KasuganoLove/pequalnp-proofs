@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 5053,
+      "sha256": "ef272d2d738379689a7739f102e595c0a1316c92e8c3cd92348db5944a2af433"
+    },
+    {
+      "file": "check_examples.py",
+      "bytes": 6124,
+      "sha256": "3d4814c7e1e77c0a1e96f92fd092761b63ca0f43ad353d485a6dadae56ca66ab"
+    },
+    {
+      "file": "examples-results.json",
+      "bytes": 13054,
+      "sha256": "32b568e23784e6b67d56cbc757f94b3508dae6c9b7ad021dabb67e4ffecbafc7"
+    },
+    {
+      "file": "upstream-delta.json",
+      "bytes": 10865,
+      "sha256": "c526084f0fb205e471aaaba589e4aaa9bc7a1c7bcc61f36b6fadc89f31b542e1"
+    }
+  ]
+}

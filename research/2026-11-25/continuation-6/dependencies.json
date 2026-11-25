@@ -1,0 +1,15 @@
+{
+  "working_commit": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "latest_inspected_commit": "b9ee4cd40b7d244de81c9c4d1403325dd7767c8b",
+  "dependency_files_identical_between_these_commits": true,
+  "files": {
+    "lean-toolchain": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+    "lakefile.toml": "ee756ab61cf24d2fd5f561d89080cf162e34f35b06d9b6101bc680ef1619a7bf",
+    "lake-manifest.json": "d0af863cde532caaef1b1bee0d63ec47100208e33e488309cb80abc88b8f1509",
+    "PEqualNP/Defs.lean": "594ff2311557f39573545905a9b6bcdb0b4e15db024ebcf15f921d250a1c8fbe",
+    "PEqualNP/Outside/L_meta_1501.lean": "d59441b3eaa88603ebbc72ee6b4f59d1a0512ab559a39cc2f53b1430af608dcc"
+  },
+  "defs_tree_files": 85,
+  "defs_tree_sha256": "d469281d3cfffdb6b0a21d9ddbb1fd4917d207d2b455fe7fae515d8f71b0ed1e",
+  "additional_public_delta_audited": "76473d61fe19eff99fb56af72a5557eb51c01c5c"
+}

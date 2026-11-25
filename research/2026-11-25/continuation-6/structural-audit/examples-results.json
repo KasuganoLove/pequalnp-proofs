@@ -1,0 +1,708 @@
+{
+  "purpose": "Sanity checks of intermediate structural inferences, not counterexamples to L-meta-5126",
+  "validation": "Independent exhaustive Python, not Lean checked",
+  "number_of_examples": 2,
+  "total_assignment_rows_checked": 32,
+  "disjoint_factor_pairs_checked_per_dirty_gate": 81,
+  "examples": [
+    {
+      "name": "nested_dirty_gate_not_a_rectangle",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "gates": [
+        {
+          "op": "or",
+          "inputs": [
+            0,
+            1
+          ]
+        },
+        {
+          "op": "or",
+          "inputs": [
+            2,
+            3
+          ]
+        },
+        {
+          "op": "and",
+          "inputs": [
+            4,
+            5
+          ]
+        },
+        {
+          "op": "or",
+          "inputs": [
+            0,
+            2
+          ]
+        },
+        {
+          "op": "and",
+          "inputs": [
+            6,
+            7
+          ]
+        },
+        {
+          "op": "and",
+          "inputs": [
+            8,
+            0
+          ]
+        }
+      ],
+      "output_wire": 9,
+      "smaller_correct_circuit": {
+        "gates": [
+          {
+            "op": "or",
+            "inputs": [
+              2,
+              3
+            ]
+          },
+          {
+            "op": "and",
+            "inputs": [
+              0,
+              4
+            ]
+          }
+        ],
+        "output_wire": 5
+      },
+      "rows_checked": 16,
+      "exact_graph_output": true,
+      "is_ao2": true,
+      "bipartition_mask": 1,
+      "common_neighbor_max": 1,
+      "junk_gate_indices": [
+        2,
+        4
+      ],
+      "junk_one_hot_off": true,
+      "top_form": true,
+      "every_gate_reaches_output": true,
+      "not_least_reason": "Explicit 2-gate competitor is smaller than 6 gates",
+      "dirty_gate_wmax": {
+        "2": [
+          0
+        ],
+        "4": [
+          0
+        ]
+      },
+      "dirty_pair_false_positives": {
+        "2": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "4": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "rectangle_enumeration": {
+        "2": {
+          "examined": 81,
+          "matches": [
+            {
+              "A_mask": 3,
+              "B_mask": 12
+            },
+            {
+              "A_mask": 12,
+              "B_mask": 3
+            }
+          ]
+        },
+        "4": {
+          "examined": 81,
+          "matches": []
+        }
+      },
+      "rows": [
+        {
+          "assignment_mask": 0,
+          "target": false,
+          "gate_values": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 1,
+          "target": false,
+          "gate_values": [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 2,
+          "target": false,
+          "gate_values": [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 3,
+          "target": false,
+          "gate_values": [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 4,
+          "target": false,
+          "gate_values": [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 5,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 6,
+          "target": false,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 7,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 8,
+          "target": false,
+          "gate_values": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 9,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 10,
+          "target": false,
+          "gate_values": [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 11,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 12,
+          "target": false,
+          "gate_values": [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 13,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 14,
+          "target": false,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 15,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    {
+      "name": "two_empty_wmax_gates_filter_each_other",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "gates": [
+        {
+          "op": "or",
+          "inputs": [
+            0,
+            1
+          ]
+        },
+        {
+          "op": "or",
+          "inputs": [
+            2,
+            3
+          ]
+        },
+        {
+          "op": "and",
+          "inputs": [
+            4,
+            5
+          ]
+        },
+        {
+          "op": "or",
+          "inputs": [
+            0,
+            2
+          ]
+        },
+        {
+          "op": "or",
+          "inputs": [
+            1,
+            3
+          ]
+        },
+        {
+          "op": "and",
+          "inputs": [
+            7,
+            8
+          ]
+        },
+        {
+          "op": "and",
+          "inputs": [
+            6,
+            9
+          ]
+        }
+      ],
+      "output_wire": 10,
+      "smaller_correct_circuit": {
+        "gates": [
+          {
+            "op": "and",
+            "inputs": [
+              0,
+              3
+            ]
+          },
+          {
+            "op": "and",
+            "inputs": [
+              1,
+              2
+            ]
+          },
+          {
+            "op": "or",
+            "inputs": [
+              4,
+              5
+            ]
+          }
+        ],
+        "output_wire": 6
+      },
+      "rows_checked": 16,
+      "exact_graph_output": true,
+      "is_ao2": true,
+      "bipartition_mask": 3,
+      "common_neighbor_max": 0,
+      "junk_gate_indices": [
+        2,
+        5
+      ],
+      "junk_one_hot_off": true,
+      "top_form": true,
+      "every_gate_reaches_output": true,
+      "not_least_reason": "Explicit 3-gate competitor is smaller than 7 gates",
+      "dirty_gate_wmax": {
+        "2": [],
+        "5": []
+      },
+      "dirty_pair_false_positives": {
+        "2": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "5": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "rectangle_enumeration": {
+        "2": {
+          "examined": 81,
+          "matches": [
+            {
+              "A_mask": 3,
+              "B_mask": 12
+            },
+            {
+              "A_mask": 12,
+              "B_mask": 3
+            }
+          ]
+        },
+        "5": {
+          "examined": 81,
+          "matches": [
+            {
+              "A_mask": 5,
+              "B_mask": 10
+            },
+            {
+              "A_mask": 10,
+              "B_mask": 5
+            }
+          ]
+        }
+      },
+      "rows": [
+        {
+          "assignment_mask": 0,
+          "target": false,
+          "gate_values": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 1,
+          "target": false,
+          "gate_values": [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 2,
+          "target": false,
+          "gate_values": [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 3,
+          "target": false,
+          "gate_values": [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 4,
+          "target": false,
+          "gate_values": [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 5,
+          "target": false,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 6,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 7,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 8,
+          "target": false,
+          "gate_values": [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 9,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 10,
+          "target": false,
+          "gate_values": [
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 11,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 12,
+          "target": false,
+          "gate_values": [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "assignment_mask": 13,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 14,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "assignment_mask": 15,
+          "target": true,
+          "gate_values": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  ]
+}

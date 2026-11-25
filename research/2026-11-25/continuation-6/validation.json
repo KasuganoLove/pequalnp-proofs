@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-11-25T05:20:58.856287+00:00",
+  "task": "L-meta-5126",
+  "full_task_proved": false,
+  "task_refuted": false,
+  "mode": "ordinary Lean compilation; individual observed results",
+  "modules": {
+    "Pnp5126TopForm": {
+      "exit_code": 0,
+      "output": "No output; observed in execution-tool result",
+      "last_observation_utc": "2026-11-25T05:10:17Z",
+      "scope": "Generic negative-test preserving TopForm normalization, singleton specialization, empty-graph boundary, exact two-junk normalization",
+      "source_sha256": "ec72cf545cb880ab126fc3ab36478f9f077e14ef9a105b96f66c446d4899f44e",
+      "bytes": 10681
+    },
+    "Pnp5126OwnershipWitness": {
+      "exit_code": 0,
+      "log": "logs/OwnershipWitness-lean.log",
+      "scope": "Each dirty gate has2/3 witness; earlier pair; later pair or shared triple",
+      "source_sha256": "1ebf7287270ff8eeefd2a8296918b36ec73c12f159941fd7b93ec920176e5997",
+      "bytes": 26773
+    },
+    "Pnp5126Shape": {
+      "exit_code": 0,
+      "output": "No output; observed in execution-tool result",
+      "last_observation_utc": "2026-11-25T05:12:06Z",
+      "scope": "Normalized pair/shared-triple necessary shape and TopForm sufficiency",
+      "source_sha256": "e6e3f942792af7a613daabf60f24422716a42876eb42e064b187362586947b56",
+      "bytes": 2709
+    },
+    "Pnp5126Sanity": {
+      "exit_code": 0,
+      "log": "logs/Sanity-lean.log",
+      "scope": "Kernel-checked nonminimum6-gate model and2-gate competitor; not a task refutation",
+      "source_sha256": "933e541bd1c9719b84c32542833efccf990d3ce0074e77325d0d610ed1aefa0e",
+      "bytes": 3509
+    },
+    "Pnp5126OwnershipProfile": {
+      "exit_code": 0,
+      "log": "logs/OwnershipProfile-lean.log",
+      "scope": "Checked partial profile development; no packaged two-gate semantic-form theorem",
+      "olean_generated": false,
+      "process_status": "Compile was already launched before stop and finished; no compile started after stop",
+      "source_sha256": "1ca6cbd794cf4ddeb6c514b3188dc71d7c9b63c912d5383c6eb2c1fddaa0f4c8",
+      "bytes": 7208
+    }
+  },
+  "official_strict_checker_run": false,
+  "official_submission_created": false,
+  "lease_status": {
+    "last_successful_beat_utc": "2026-11-25T05:07:37.304287+00:00",
+    "promised_expiry_utc": "2026-11-25T05:27:37.175Z",
+    "failed_beat_utc": "2026-11-25T05:16:39.793982+00:00",
+    "failed_beat_http": 410,
+    "error": "no such live lease: it expired or was released. Ask /desk/next again.",
+    "successful_beats_retained_same_id": true,
+    "work_stopped_when_observed": true,
+    "cause_not_established": true
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "README.md": {
+    "bytes": 8911,
+    "sha256": "eb920da7c4196e7b7f10834cfdb2695ca85016abc4f484345a787d60666c5983"
+  },
+  "dependencies.json": {
+    "bytes": 889,
+    "sha256": "15da80acd10633279f878d244c3c3bf66809b348c796cc42a5f4cb96bc9f5278"
+  },
+  "gap.json": {
+    "bytes": 2587,
+    "sha256": "ece9bf15259ac63ada39f9591144fd83153ac4003c1e3402d0c2cdcf33ea897c"
+  },
+  "lean/Pnp5126OwnershipProfile.lean": {
+    "bytes": 7208,
+    "sha256": "1ca6cbd794cf4ddeb6c514b3188dc71d7c9b63c912d5383c6eb2c1fddaa0f4c8"
+  },
+  "lean/Pnp5126OwnershipWitness.lean": {
+    "bytes": 26773,
+    "sha256": "1ebf7287270ff8eeefd2a8296918b36ec73c12f159941fd7b93ec920176e5997"
+  },
+  "lean/Pnp5126Sanity.lean": {
+    "bytes": 3509,
+    "sha256": "933e541bd1c9719b84c32542833efccf990d3ce0074e77325d0d610ed1aefa0e"
+  },
+  "lean/Pnp5126Shape.lean": {
+    "bytes": 2709,
+    "sha256": "e6e3f942792af7a613daabf60f24422716a42876eb42e064b187362586947b56"
+  },
+  "lean/Pnp5126TopForm.lean": {
+    "bytes": 10681,
+    "sha256": "ec72cf545cb880ab126fc3ab36478f9f077e14ef9a105b96f66c446d4899f44e"
+  },
+  "logs/L1501-build.log": {
+    "bytes": 5956,
+    "sha256": "d23fd40576d1c52ed8c5144b1fb9e40f30387b8176fee7bf2313d22651351560"
+  },
+  "logs/OwnershipProfile-lean.log": {
+    "bytes": 672,
+    "sha256": "1771d32b58f0541b6e6aea72edf63e3a41221c4a8b5e717cb762e958ac9822b6"
+  },
+  "logs/OwnershipWitness-lean.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/Sanity-lean.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "reproduce.py": {
+    "bytes": 3668,
+    "sha256": "c94a8dd059da4ca60a20cdb7b1e1072ad0ac5de4a5203b20b29cefc81cf1c387"
+  },
+  "statement.txt": {
+    "bytes": 719,
+    "sha256": "29c0b89ff7d9438d458e19136a0651a7bd4e4241d71ffe1397040612ce2f9c72"
+  },
+  "structural-audit/README.md": {
+    "bytes": 5053,
+    "sha256": "ef272d2d738379689a7739f102e595c0a1316c92e8c3cd92348db5944a2af433"
+  },
+  "structural-audit/check_examples.py": {
+    "bytes": 6124,
+    "sha256": "3d4814c7e1e77c0a1e96f92fd092761b63ca0f43ad353d485a6dadae56ca66ab"
+  },
+  "structural-audit/examples-results.json": {
+    "bytes": 13054,
+    "sha256": "32b568e23784e6b67d56cbc757f94b3508dae6c9b7ad021dabb67e4ffecbafc7"
+  },
+  "structural-audit/manifest.json": {
+    "bytes": 628,
+    "sha256": "29391b33bd1839a3679bde37ebf846453270db78d67b02ce087703715cb2e8d8"
+  },
+  "structural-audit/upstream-delta.json": {
+    "bytes": 10865,
+    "sha256": "c526084f0fb205e471aaaba589e4aaa9bc7a1c7bcc61f36b6fadc89f31b542e1"
+  },
+  "validation.json": {
+    "bytes": 2622,
+    "sha256": "6597b3483a4c8c7e912ad3df34c1feee9d906abf44566868204a638fd79485f6"
+  }
+}
