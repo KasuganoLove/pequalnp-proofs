@@ -1,0 +1,305 @@
+{
+  "prepared_utc": "2026-11-25T10:28:29.036586+00:00",
+  "source_work_directory": "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-11",
+  "last_verified_research_head_from_root": "b3af29dd72a984614f6101e2679d415a52d4f666",
+  "root_only_remote_publication": true,
+  "original_files": [
+    {
+      "file": "L-meta-1900/gap.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1900/gap.json",
+      "bytes": 1877,
+      "sha256": "a48420c0cd4763db98c49223b1defa33f860c50a18ab96338600ac5460fa817d"
+    },
+    {
+      "file": "L-meta-1900/statement.txt",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1900/statement.txt",
+      "bytes": 577,
+      "sha256": "174b43ca54d0d384676b7b23fec38675cf5cd059fb45bcf909e8e10835eb2f15"
+    },
+    {
+      "file": "L-meta-1745/gap.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1745/gap.json",
+      "bytes": 2899,
+      "sha256": "b5ad60c95093fc591793745ffff66a5858386c085d97739f07e81e4ea4de922e"
+    },
+    {
+      "file": "L-meta-1745/statement.txt",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1745/statement.txt",
+      "bytes": 1482,
+      "sha256": "8c62410b60bbc9bbfc5cdef57158718ae3ed1682096eb19f58b2c1d0a5a6bfa0"
+    },
+    {
+      "file": "L-meta-2718/gap.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/gap.json",
+      "bytes": 2892,
+      "sha256": "4fe366f6ef76faadf5a2444746e76db25dbf4c50f7290e2a385c2752d33796b4"
+    },
+    {
+      "file": "L-meta-2718/statement.txt",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/statement.txt",
+      "bytes": 1574,
+      "sha256": "56406ff2461ff4145a5e88a2d91ff508c6ad51dec1fb16081531988b0c6ef37a"
+    },
+    {
+      "file": "L-meta-1900/bounded-audit.md",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1900/bounded-audit.md",
+      "bytes": 3971,
+      "sha256": "d24d42b77725a36f384cbc971bf244797f90041c86602e7b4410fcf0f0b239e9"
+    },
+    {
+      "file": "L-meta-1900/bounded-audit.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1900/bounded-audit.json",
+      "bytes": 2102,
+      "sha256": "f1da63b93470ff3bde7cf09433cdec825c962259933b5a8ad9c6385e492ac700"
+    },
+    {
+      "file": "L-meta-1745/independent-audit/selected-public-status.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1745/independent-audit/curated/selected-public-status.json",
+      "bytes": 16052,
+      "sha256": "53b43a81ecd926fa9797b9ec97116b8560ce84962c5ca133de96dc66daf0ced0"
+    },
+    {
+      "file": "L-meta-1745/independent-audit/source-status.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1745/independent-audit/curated/source-status.json",
+      "bytes": 2750,
+      "sha256": "2994011720e0a0dfb9b0fdec47f683e7b67d6eb0a08be3ba8eb4d955d4fa8ca2"
+    },
+    {
+      "file": "L-meta-1745/independent-audit/README.md",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-1745/independent-audit/curated/README.md",
+      "bytes": 6101,
+      "sha256": "02b6d96ae4072466776e2c38566945e3caa446349028e5f11e8e01014acd9b6d"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/README.md",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/README.md",
+      "bytes": 6987,
+      "sha256": "73a2e08879aa482d1b5ff9e0a3283322109b275c0040f84fecc6eccbe632eb6c"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/checked-source-validation.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/checked-source-validation.json",
+      "bytes": 793,
+      "sha256": "d71a7ac418e1d8501910d4907ae4af031b46a0c51d348d8eeb8136160697eb9e"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/cut-prs.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/cut-prs.json",
+      "bytes": 3371,
+      "sha256": "4c2fe66360fba81e9ce2ada122f35851f898f54c0bfff80e2e75e1a05ae8deb6"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/enumerate_families.py",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/enumerate_families.py",
+      "bytes": 2242,
+      "sha256": "febeb25c4d6eb28153e4cefd8f0a82d3fc5c0504439510149db32c1b1f118bbc"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/fifteen-negative-cover.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/fifteen-negative-cover.json",
+      "bytes": 586,
+      "sha256": "f8fc8da8a583a9f2c5aa70c713dd45c8586315da55ebc1c6da2f679935bb38e1"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/fresh-child-rows.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/fresh-child-rows.json",
+      "bytes": 12833,
+      "sha256": "b1123070dd4da841e310b203b9e4c3b7f68ae2727ba184507cd95fefa7865df2"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/negative-family-enumeration.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/negative-family-enumeration.json",
+      "bytes": 96650,
+      "sha256": "119979de769fd6384f4aaa90342ce828a51366fa408c34a473fd0ffa3ae1c3bd"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/sibling-pr-4938-comments.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/sibling-pr-4938-comments.json",
+      "bytes": 1642,
+      "sha256": "07f827642e75409361d7d12889c89437dc2311c9d7cc3b88ec8e7c4e1f465e43"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/sibling-pr-4938.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/sibling-pr-4938.json",
+      "bytes": 1818,
+      "sha256": "e8f71d130c82935e8848109ad11e5417c69804f2fe7ee7845d81236d19b0567b"
+    },
+    {
+      "file": "L-meta-2718/ownership-audit/sibling-scope-check.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/sibling-scope-check.json",
+      "bytes": 455,
+      "sha256": "07bdee5d71ad336da93ab5607b348652de6201cb5489aaeb447ae605c757d6c2"
+    },
+    {
+      "file": "L-meta-2718/search63/README.md",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/README.md",
+      "bytes": 4258,
+      "sha256": "c19c71e03b89d9647f3fc876defc18a1dc7b9a63c909c6ba4848e920f39ebc38"
+    },
+    {
+      "file": "L-meta-2718/search63/best-63-verification.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/best-63-verification.json",
+      "bytes": 428,
+      "sha256": "3200c08d12d525720c6d58935282566fd1b4714df6751cff3ffb5e40e1dbd7a2"
+    },
+    {
+      "file": "L-meta-2718/search63/best-63.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/best-63.json",
+      "bytes": 776,
+      "sha256": "4fd4344f3d117c6cbf069a9c85fbeae720410c23925dd85246e7f4d081894a2e"
+    },
+    {
+      "file": "L-meta-2718/search63/known-64-verification.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/known-64-verification.json",
+      "bytes": 358,
+      "sha256": "c472e4dbe68fbf425c75b2f86b095f0d939fa70087aaeb991f4088f92d5ca44b"
+    },
+    {
+      "file": "L-meta-2718/search63/known-64.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/known-64.json",
+      "bytes": 2664,
+      "sha256": "852ea6b110887acc9b7df694d581800e941be5ce7b296c1953255fbd9cef78ef"
+    },
+    {
+      "file": "L-meta-2718/search63/prepare.py",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/prepare.py",
+      "bytes": 3145,
+      "sha256": "2dc0a66c758b323f2737c4f61840ac6e88506f1363dd936eebae22635c234765"
+    },
+    {
+      "file": "L-meta-2718/search63/problem.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/problem.json",
+      "bytes": 5842,
+      "sha256": "06f6a3b4a48d0b0b8207d835ac1341334dd232beb09e7cdf939ddd2d42bf3163"
+    },
+    {
+      "file": "L-meta-2718/search63/process-result.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/process-result.json",
+      "bytes": 388,
+      "sha256": "b54828a5b0b4e171136d3bddb23adf187c7066017a83d49b1830057aacc756a8"
+    },
+    {
+      "file": "L-meta-2718/search63/process.log",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/process.log",
+      "bytes": 1082,
+      "sha256": "1608a71759c68b825d635dfd55e5e8193a1cd069a8aef1390d8b773257384e71"
+    },
+    {
+      "file": "L-meta-2718/search63/rows.txt",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/rows.txt",
+      "bytes": 2358,
+      "sha256": "f09d5f6599719bc2536d496ae05b3bda21fe7c2c8a4e4a178763e51c67d4e1df"
+    },
+    {
+      "file": "L-meta-2718/search63/run-summary.json",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/run-summary.json",
+      "bytes": 335,
+      "sha256": "07955c7217fc8826d2768728af1bfe26a4ffc9b75a7a3108fcdab3b632b61d0f"
+    },
+    {
+      "file": "L-meta-2718/search63/run_search.py",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/run_search.py",
+      "bytes": 1088,
+      "sha256": "787da0237af820665ef06e0f513bb7952f5c7ce96cde6c1c59ed757566fedde7"
+    },
+    {
+      "file": "L-meta-2718/search63/search.log",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/search.log",
+      "bytes": 1082,
+      "sha256": "1608a71759c68b825d635dfd55e5e8193a1cd069a8aef1390d8b773257384e71"
+    },
+    {
+      "file": "L-meta-2718/search63/search63.cpp",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/search63.cpp",
+      "bytes": 7362,
+      "sha256": "0877a3688aa132a40075275f93c56ed56308307f5b9e7b94af64d40c0826f8cb"
+    },
+    {
+      "file": "L-meta-2718/search63/verify.py",
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/verify.py",
+      "bytes": 2600,
+      "sha256": "f3114b4d2fa7ecd4c38a6a8ad66f56e195ecf3988a8b7d6a7c2875c2f73410a9"
+    }
+  ],
+  "worker_manifests_verified": [
+    {
+      "directory": "L-meta-2718/ownership-audit",
+      "manifest_sha256": "e01b3b7a9ab0e6bbe6629ea31c01cbf219d888d85655dfd155aba894d69d953f",
+      "scope": "completed bounded research; no full proof, candidate, or official submission",
+      "files_verified": 14
+    },
+    {
+      "directory": "L-meta-2718/search63",
+      "manifest_sha256": "1a79475d8acf949186143dd7f4881e8f49e1ec241671926a65141403de739200",
+      "scope": "completed bounded research; no full proof, candidate, or official submission",
+      "files_verified": 15
+    }
+  ],
+  "omitted_files": [
+    {
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/L_meta_2716-endpoint-excerpt.txt",
+      "bytes": 9574,
+      "sha256": "dfcdcb49cddbf54b59015f5376e5c91b22569964aab3b0d32a3774e38ef7a0f0",
+      "reason": "third-party source excerpts omitted for compactness; accepted head, source URLs and excerpt hashes retained"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/L_meta_2716-header-excerpt.txt",
+      "bytes": 3450,
+      "sha256": "6399bd576db02ebc136b5e215241367d53e830aa2ffcda4a572ac1bb0c69ba89",
+      "reason": "third-party source excerpts omitted for compactness; accepted head, source URLs and excerpt hashes retained"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/R_meta_2718_106.lean",
+      "bytes": 7761,
+      "sha256": "468d33becef2bee9ea4ec42470cd681d08dfd4821658a2b5c47635427cc8026e",
+      "reason": "third-party full Lean source omitted; immutable source metadata and content hash retained"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/R_meta_2718_236.lean",
+      "bytes": 5302,
+      "sha256": "2e24e1ccafbb9563ee3efc49cb0dfafc61bdad6e54d38cb71931bc84b6c568d0",
+      "reason": "third-party full Lean source omitted; immutable source metadata and content hash retained"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/ownership-audit/checked-source-records.json",
+      "bytes": 20621,
+      "sha256": "0e294c3290dd7452d9f6fcbda391b7a85e2105a7a2faea88ed4555ab49a061a5",
+      "reason": "third-party source bodies, compiled executable, regenerable seeds, or transient process identifier"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/seeds.txt",
+      "bytes": 6418990,
+      "sha256": "9b0f8df22b0db5b655d8d125a092bc2f821c9d2d11e1a7494cc42877d10867ce",
+      "reason": "third-party source bodies, compiled executable, regenerable seeds, or transient process identifier"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/search63",
+      "bytes": 42392,
+      "sha256": "e832ec576d45798d6e4fad165feb7fc60f88892e44b8cb83ee48db4e900a9d8b",
+      "reason": "third-party source bodies, compiled executable, regenerable seeds, or transient process identifier"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-11/L-meta-2718/search63/search.pid",
+      "bytes": 2,
+      "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7",
+      "reason": "third-party source bodies, compiled executable, regenerable seeds, or transient process identifier"
+    }
+  ],
+  "never_selected": [
+    "private lease/allocation/renewal/release files or identifiers",
+    "large full public desk JSON",
+    "binaries, CNF, downloaded tools, pycache",
+    "full third-party Lean source or instructions"
+  ],
+  "source_files_modified": false,
+  "staging_only_markdown_changes": [
+    "L-meta-2718/ownership-audit/README.md"
+  ],
+  "verification": {
+    "all_worker_original_hashes_match": true,
+    "no_forbidden_file_or_secret_pattern_found": true,
+    "no_new_math_or_solver_or_lean_check_performed": true,
+    "active_work_source_only_read_not_modified": true,
+    "all_root_reported_closures_recorded": true
+  }
+}

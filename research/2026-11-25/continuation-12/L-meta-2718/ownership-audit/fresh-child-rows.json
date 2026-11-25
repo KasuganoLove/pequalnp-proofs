@@ -1,0 +1,132 @@
+{
+  "updated_at": "2026-11-25T10:11:03.816Z",
+  "rows": [
+    {
+      "desk_section": "gaps",
+      "id": "L-meta-2716",
+      "title": "A step toward: Order-3 plane: every fan-in-two AND/OR circuit true at incident pairs and false at all degenerate maximal false inputs has at least 64 gates (step 1 of 2)",
+      "statement": "have x1 : Finset (Fin (13 : ℕ)) := {(0 : Fin (13 : ℕ)), (1 : Fin (13 : ℕ)), (3 : Fin (13 : ℕ)), (9 : Fin (13 : ℕ))}; ¬∃ (x2 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x2 ∧ x2.size ≤ (63 : ℕ) ∧ PEqualNP.CircuitLowerBounds.HasLineDegree (26 : ℕ) (Finset.Ico (13 : ℕ) (26 : ℕ)) x2 (1 : ℕ) ∧ (∀ (x3 x4 : Fin (13 : ℕ)), (∃ x5 ∈ x1, x3 = x4 + x5) → (PEqualNP.MetaComplexity.circuitFun ((13 : ℕ) + (13 : ℕ)) x2 fun (x6 : Fin ((13 : ℕ) + (13 : ℕ))) => Decidable.decide (x6 = Fin.castAdd (13 : ℕ) x3 ∨ x6 = Fin.natAdd (13 : ℕ) x4)) = Bool.true) ∧ ∀ (x3 : Finset (Fin (13 : ℕ))), (∀ x4 ∉ x3, ∃ (x6 : Fin (13 : ℕ)), (∀ x7 ∈ x3, ¬∃ x9 ∈ x1, x7 = x6 + x9) ∧ ∃ x7 ∈ x1, x4 = x6 + x7) → ((∃ (x5 : Fin (13 : ℕ)), ∀ x6 ∈ x3, ∃ x8 ∈ x1, x6 = x5 + x8) ∨ ∃ (x5 : Fin (13 : ℕ)), ∀ (x6 : Fin (13 : ℕ)), (∀ x7 ∈ x3, ¬∃ x9 ∈ x1, x7 = x6 + x9) → ∃ x8 ∈ x1, x5 = x6 + x8) → (PEqualNP.MetaComplexity.circuitFun ((13 : ℕ) + (13 : ℕ)) x2 fun (x6 : Fin ((13 : ℕ) + (13 : ℕ))) => Decidable.decide ((∃ x7 ∈ x3, x6 = Fin.castAdd (13 : ℕ) x7) ∨ ∃ (x7 : Fin (13 : ℕ)), x6 = Fin.natAdd (13 : ℕ) x7 ∧ ∀ x8 ∈ x3, ¬∃ x10 ∈ x1, x8 = x7 + x10)) = Bool.false",
+      "file": "lean/PEqualNP/Outside/L_meta_2716.lean",
+      "module": "PEqualNP.Outside.L_meta_2716",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 1 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "sketch": "Step 1 of 2 of a checked cut of L-meta-1684. Its sibling steps: L-meta-2718. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. A pair at the plane of order 3 (26 inputs): right on incident pairs and on the degenerate maximal false inputs only; see routes/lgp/assembly/STATEMENTS-GENERIC-MAXFALSE.md. SIZE, corrected 24 Nov: NOT a session-sized search by plain SAT; in-house controls show about eight times more time per gate (a 10-input case: 9 gates in 162 seconds, 12 gates unanswer",
+      "pr_open": 1,
+      "pr_numbers": [
+        4938
+      ],
+      "unlocks_ids": [
+        "L-meta-1684"
+      ],
+      "level": "hard"
+    },
+    {
+      "desk_section": "gaps",
+      "id": "L-meta-2718",
+      "title": "A step toward: Order-3 plane: every fan-in-two AND/OR circuit true at incident pairs and false at all degenerate maximal false inputs has at least 64 gates (step 2 of 2)",
+      "statement": "have x1 : Finset (Fin (13 : ℕ)) := {(0 : Fin (13 : ℕ)), (1 : Fin (13 : ℕ)), (3 : Fin (13 : ℕ)), (9 : Fin (13 : ℕ))}; have x2 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x2 : PEqualNP.CircuitLowerBounds.Circuit) => PEqualNP.MetaComplexity.Monotone2 x2 ∧ x2.size ≤ (63 : ℕ) ∧ (∀ (x3 x4 : Fin (13 : ℕ)), (∃ x5 ∈ x1, x3 = x4 + x5) → (PEqualNP.MetaComplexity.circuitFun ((13 : ℕ) + (13 : ℕ)) x2 fun (x6 : Fin ((13 : ℕ) + (13 : ℕ))) => Decidable.decide (x6 = Fin.castAdd (13 : ℕ) x3 ∨ x6 = Fin.natAdd (13 : ℕ) x4)) = Bool.true) ∧ ∀ (x3 : Finset (Fin (13 : ℕ))), (∀ x4 ∉ x3, ∃ (x6 : Fin (13 : ℕ)), (∀ x7 ∈ x3, ¬∃ x9 ∈ x1, x7 = x6 + x9) ∧ ∃ x7 ∈ x1, x4 = x6 + x7) → ((∃ (x5 : Fin (13 : ℕ)), ∀ x6 ∈ x3, ∃ x8 ∈ x1, x6 = x5 + x8) ∨ ∃ (x5 : Fin (13 : ℕ)), ∀ (x6 : Fin (13 : ℕ)), (∀ x7 ∈ x3, ¬∃ x9 ∈ x1, x7 = x6 + x9) → ∃ x8 ∈ x1, x5 = x6 + x8) → (PEqualNP.MetaComplexity.circuitFun ((13 : ℕ) + (13 : ℕ)) x2 fun (x6 : Fin ((13 : ℕ) + (13 : ℕ))) => Decidable.decide ((∃ x7 ∈ x3, x6 = Fin.castAdd (13 : ℕ) x7) ∨ ∃ (x7 : Fin (13 : ℕ)), x6 = Fin.natAdd (13 : ℕ) x7 ∧ ∀ x8 ∈ x3, ¬∃ x10 ∈ x1, x8 = x7 + x10)) = Bool.false; ∀ (x3 : PEqualNP.CircuitLowerBounds.Circuit), x2 x3 → ∃ (x5 : PEqualNP.CircuitLowerBounds.Circuit), x2 x5 ∧ (PEqualNP.CircuitLowerBounds.HasLineDegree (26 : ℕ) (Finset.Ico (13 : ℕ) (26 : ℕ)) x5 (1 : ℕ) ∨ PEqualNP.CircuitLowerBounds.HasLineDegree (26 : ℕ) (Finset.range (13 : ℕ)) x5 (1 : ℕ))",
+      "file": "lean/PEqualNP/Outside/L_meta_2718.lean",
+      "module": "PEqualNP.Outside.L_meta_2718",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 1 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 2 of 2 of a checked cut of L-meta-1684. Its sibling steps: L-meta-2716. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. A pair at the plane of order 3 (26 inputs): right on incident pairs and on the degenerate maximal false inputs only; see routes/lgp/assembly/STATEMENTS-GENERIC-MAXFALSE.md. SIZE, corrected 24 Nov: NOT a session-sized search by plain SAT; in-house controls show about eight times more time per gate (a 10-input case: 9 gates in 162 seconds, 12 gates unanswer",
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-1684"
+      ],
+      "level": "hard"
+    },
+    {
+      "desk_section": "gaps",
+      "id": "L-meta-5741",
+      "statement": "have x1 : Finset (Fin (13 : ℕ)) := {(0 : Fin (13 : ℕ)), (1 : Fin (13 : ℕ)), (3 : Fin (13 : ℕ)), (9 : Fin (13 : ℕ))}; let x2 : Fin (13 : ℕ) → Fin (13 : ℕ) → Prop := fun (x2 x3 : Fin (13 : ℕ)) => ∃ x4 ∈ x1, x2 = x3 + x4; let x3 : Finset (Fin (13 : ℕ)) → Fin (13 : ℕ) → Prop := fun (x3 : Finset (Fin (13 : ℕ))) (x4 : Fin (13 : ℕ)) => ∀ x5 ∈ x3, ¬x2 x5 x4; have x4 : Finset (Fin (13 : ℕ)) → Prop := fun (x4 : Finset (Fin (13 : ℕ))) => ∀ x5 ∉ x4, ∃ (x7 : Fin (13 : ℕ)), x3 x4 x7 ∧ x2 x5 x7; have x5 : Finset (Fin (13 : ℕ)) → Fin (26 : ℕ) → Bool := fun (x5 : Finset (Fin (13 : ℕ))) (x6 : Fin (26 : ℕ)) => Decidable.decide ((∃ x7 ∈ x5, x6 = Fin.castAdd (13 : ℕ) x7) ∨ ∃ (x7 : Fin (13 : ℕ)), x6 = Fin.natAdd (13 : ℕ) x7 ∧ x3 x5 x7); ∀ (x6 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x6 → x6.size ≤ (63 : ℕ) → (∀ (x9 x10 : Fin (13 : ℕ)), x2 x9 x10 → (PEqualNP.MetaComplexity.circuitFun (26 : ℕ) x6 fun (x12 : Fin (26 : ℕ)) => Decidable.decide (x12 = Fin.castAdd (13 : ℕ) x9 ∨ x12 = Fin.natAdd (13 : ℕ) x10)) = Bool.true) → (∀ (x10 : Finset (Fin (13 : ℕ))), x4 x10 → PEqualNP.MetaComplexity.circuitFun (26 : ℕ) x6 (x5 x10) = Bool.false) → False",
+      "file": "lean/PEqualNP/Outside/L_meta_5741.lean",
+      "module": "PEqualNP.Outside.L_meta_5741",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 5,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-2718"
+      ]
+    },
+    {
+      "desk_section": "gaps",
+      "id": "L-meta-5743",
+      "statement": "have x1 : Finset (Fin (13 : ℕ)) := {(0 : Fin (13 : ℕ)), (1 : Fin (13 : ℕ)), (3 : Fin (13 : ℕ)), (9 : Fin (13 : ℕ))}; let x2 : Fin (13 : ℕ) → Fin (13 : ℕ) → Prop := fun (x2 x3 : Fin (13 : ℕ)) => ∃ x4 ∈ x1, x2 = x3 + x4; let x3 : Finset (Fin (13 : ℕ)) → Fin (13 : ℕ) → Prop := fun (x3 : Finset (Fin (13 : ℕ))) (x4 : Fin (13 : ℕ)) => ∀ x5 ∈ x3, ¬x2 x5 x4; have x4 : Finset (Fin (13 : ℕ)) → Prop := fun (x4 : Finset (Fin (13 : ℕ))) => ∀ x5 ∉ x4, ∃ (x7 : Fin (13 : ℕ)), x3 x4 x7 ∧ x2 x5 x7; have x5 : Finset (Fin (13 : ℕ)) → Fin (26 : ℕ) → Bool := fun (x5 : Finset (Fin (13 : ℕ))) (x6 : Fin (26 : ℕ)) => Decidable.decide ((∃ x7 ∈ x5, x6 = Fin.castAdd (13 : ℕ) x7) ∨ ∃ (x7 : Fin (13 : ℕ)), x6 = Fin.natAdd (13 : ℕ) x7 ∧ x3 x5 x7); have x6 : Finset (Fin (13 : ℕ)) → Prop := fun (x6 : Finset (Fin (13 : ℕ))) => (∃ (x7 : Fin (13 : ℕ)), ∀ x8 ∈ x6, x2 x8 x7) ∨ ∃ (x7 : Fin (13 : ℕ)), ∀ (x8 : Fin (13 : ℕ)), x3 x6 x8 → x2 x7 x8; ∀ (x7 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x7 → x7.size ≤ (63 : ℕ) → (∀ (x10 x11 : Fin (13 : ℕ)), x2 x10 x11 → (PEqualNP.MetaComplexity.circuitFun (26 : ℕ) x7 fun (x13 : Fin (26 : ℕ)) => Decidable.decide (x13 = Fin.castAdd (13 : ℕ) x10 ∨ x13 = Fin.natAdd (13 : ℕ) x11)) = Bool.true) → (∀ (x11 : Finset (Fin (13 : ℕ))), x4 x11 → x6 x11 → PEqualNP.MetaComplexity.circuitFun (26 : ℕ) x7 (x5 x11) = Bool.false) → ∀ (x12 : Finset (Fin (13 : ℕ))), (x12.card = (3 : ℕ) ∨ ∃ (x13 : Finset (Fin (13 : ℕ))), x13.card = (3 : ℕ) ∧ ∀ (x14 : Fin (13 : ℕ)), x14 ∈ x13 ↔ x3 x12 x14) → x4 x12 → PEqualNP.MetaComplexity.circuitFun (26 : ℕ) x7 (x5 x12) = Bool.false",
+      "file": "lean/PEqualNP/Outside/L_meta_5743.lean",
+      "module": "PEqualNP.Outside.L_meta_5743",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 5,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-2718"
+      ]
+    },
+    {
+      "desk_section": "gaps",
+      "id": "L-meta-8847",
+      "statement": "have x1 : Finset (Fin (13 : ℕ)) := {(0 : Fin (13 : ℕ)), (1 : Fin (13 : ℕ)), (3 : Fin (13 : ℕ)), (9 : Fin (13 : ℕ))}; let x2 : Fin (13 : ℕ) → Fin (13 : ℕ) → Prop := fun (x2 x3 : Fin (13 : ℕ)) => ∃ x4 ∈ x1, x2 = x3 + x4; let x3 : Finset (Fin (13 : ℕ)) → Fin (13 : ℕ) → Prop := fun (x3 : Finset (Fin (13 : ℕ))) (x4 : Fin (13 : ℕ)) => ∀ x5 ∈ x3, ¬x2 x5 x4; have x4 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x4 : PEqualNP.CircuitLowerBounds.Circuit) => ∀ (x5 x6 : Fin (13 : ℕ)), x2 x5 x6 → (PEqualNP.MetaComplexity.circuitFun (26 : ℕ) x4 fun (x8 : Fin (26 : ℕ)) => Decidable.decide (x8 = Fin.castAdd (13 : ℕ) x5 ∨ x8 = Fin.natAdd (13 : ℕ) x6)) = Bool.true; have x5 : PEqualNP.CircuitLowerBounds.Circuit → Prop := fun (x5 : PEqualNP.CircuitLowerBounds.Circuit) => ∀ (x6 : Finset (Fin (13 : ℕ))), (∀ x7 ∉ x6, ∃ (x9 : Fin (13 : ℕ)), x3 x6 x9 ∧ x2 x7 x9) → ((∃ (x8 : Fin (13 : ℕ)), ∀ x9 ∈ x6, x2 x9 x8) ∨ ∃ (x8 : Fin (13 : ℕ)), ∀ (x9 : Fin (13 : ℕ)), x3 x6 x9 → x2 x8 x9) → (PEqualNP.MetaComplexity.circuitFun (26 : ℕ) x5 fun (x9 : Fin (26 : ℕ)) => Decidable.decide ((∃ x10 ∈ x6, x9 = Fin.castAdd (13 : ℕ) x10) ∨ ∃ (x10 : Fin (13 : ℕ)), x9 = Fin.natAdd (13 : ℕ) x10 ∧ x3 x6 x10)) = Bool.false; ∀ (x6 : PEqualNP.CircuitLowerBounds.Circuit),   PEqualNP.MetaComplexity.Monotone2 x6 →     x6.size ≤ (63 : ℕ) →       x4 x6 →         x5 x6 →           (1 : ℕ) < Min.min (x6.lineDeg (26 : ℕ) (Finset.Ico (13 : ℕ) (26 : ℕ))) (x6.lineDeg (26 : ℕ) (Finset.range (13 : ℕ))) →             ∃ (x12 : ℕ) (x13 : ℕ) (x14 : PEqualNP.CircuitLowerBounds.Gate),               x6.gates[x12]? = Option.some x14 ∧                 x13 ∈ x14.inputs ∧                   x13 < (26 : ℕ) + x12 ∧                     have x15 : PEqualNP.CircuitLowerBounds.Circuit := PEqualNP.CircuitMoves.eraseGate (26 : ℕ) x6 x12 x13;                     x14.op = PEqualNP.CircuitLowerBounds.GateOp.and ∧ x5 x15 ∨ x14.op = PEqualNP.CircuitLowerBounds.GateOp.or ∧ x4 x15",
+      "file": "lean/PEqualNP/Outside/L_meta_8847.lean",
+      "module": "PEqualNP.Outside.L_meta_8847",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 5,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-2718"
+      ]
+    },
+    {
+      "desk_section": "checked",
+      "id": "L-meta-5739",
+      "file": "lean/PEqualNP/Outside/L_meta_5739.lean",
+      "file_sha256": "ae15cbc90ad17dcbaa3ab6126e5dfa631abc9e8c1749117b3aff3310973e9c7e"
+    },
+    {
+      "desk_section": "checked",
+      "id": "L-meta-8845",
+      "file": "lean/PEqualNP/Outside/L_meta_8845.lean",
+      "file_sha256": "8a40e83dc21647052bfca178eeac45785dada5e48bf6e1772fc55e79b2b237a1"
+    }
+  ]
+}

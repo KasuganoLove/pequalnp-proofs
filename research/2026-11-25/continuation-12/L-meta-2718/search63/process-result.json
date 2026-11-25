@@ -1,0 +1,11 @@
+{
+  "start_utc": "2026-11-25T10:08:45.892938+00:00",
+  "end_utc": "2026-11-25T10:13:46.013150+00:00",
+  "elapsed_wall_seconds": 300.12022725299903,
+  "exit_code": 0,
+  "address_space_limit_bytes": 1073741824,
+  "thread_count": 1,
+  "source_sha256": "0877a3688aa132a40075275f93c56ed56308307f5b9e7b94af64d40c0826f8cb",
+  "search_budget_seconds": 300,
+  "formal_nonexistence_proof": false
+}

@@ -1,0 +1,137 @@
+{
+  "note": "Read-only source observations from the bounded work; not fresh status queries during packaging. Source bodies omitted.",
+  "sources": [
+    {
+      "task": "L-meta-1900",
+      "path": "lean/PEqualNP/Defs/BicliqueBlockCost.lean",
+      "sha256": "36f84880055a5ab87a000e9c1c5880a290444df8066e8fb9d9a8a0c3b4d065ce",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Defs/BicliqueBlockCost.lean"
+    },
+    {
+      "task": "L-meta-1900",
+      "path": "lean/PEqualNP/Outside/R_meta_1900_1.lean",
+      "sha256": "28f602a3d93235882139601fa8fa95de27cbca19e8c9df6b227e7dbcd030b1f7",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/R_meta_1900_1.lean"
+    },
+    {
+      "task": "L-meta-1900",
+      "path": "lean/PEqualNP/Outside/R_meta_1900_2.lean",
+      "sha256": "f03cd2f802a40844655215cc098690e6b54c4a4593705137147bf37ad6fdb76d",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/R_meta_1900_2.lean"
+    },
+    {
+      "task": "L-meta-1900",
+      "path": "lean/PEqualNP/Outside/R_meta_1900_401.lean",
+      "sha256": "930ef8a293eec01f66d22cbc0bd9f2aef62a43794473f6abeeb390592d694705",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/R_meta_1900_401.lean"
+    },
+    {
+      "task": "L-meta-1900",
+      "path": "lean/PEqualNP/Outside/L_meta_2656.lean",
+      "sha256": "d33266887f750fb15eeb3730e2f9d0847b214cb550d45538e511f303c96cd0d0",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_2656.lean"
+    },
+    {
+      "task": "L-meta-1900",
+      "path": "lean/PEqualNP/Outside/L_meta_1902.lean",
+      "sha256": "0953fd4925a783a542101c4e6791b3bdc6e39c09f6444391bb5fb05d27be2b75",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_1902.lean"
+    },
+    {
+      "id": "L-meta-198",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_198.lean",
+      "bytes": 14664,
+      "sha256": "433964e9a5c4765cd828b60e31895ac381a37aed7460992676b5ab740175cbe2",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_198.lean"
+    },
+    {
+      "id": "L-meta-1743",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_1743.lean",
+      "bytes": 40634,
+      "sha256": "cd120b76196f8820c69fdd426e54db71a2963b2e290925f8dcfdde29bee9f11b",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_1743.lean"
+    },
+    {
+      "id": "L-meta-1975",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_1975.lean",
+      "bytes": 29433,
+      "sha256": "a45dd739c32a8d293ddc9498c2dd9fde1437c94fe3c7bdbeef287f4bcfa8e78a",
+      "in_checked_snapshot": false,
+      "checked_hash_match": false,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_1975.lean"
+    },
+    {
+      "id": "L-meta-4093",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_4093.lean",
+      "bytes": 52938,
+      "sha256": "cfae09adf6604108e51a98f73dd280a78a5d57da2812ccf1ce1f5183d522866b",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_4093.lean"
+    },
+    {
+      "id": "L-meta-4113",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_4113.lean",
+      "bytes": 36035,
+      "sha256": "e1abb5ae4f14a81aad5eaff1c74d135aa5b898d39b0156b46559bb0272eb72c5",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_4113.lean"
+    },
+    {
+      "id": "L-meta-4115",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_4115.lean",
+      "bytes": 34905,
+      "sha256": "3c3e8ffdca4b9f36d4548adb06990f8690a6ef08c1c811b8c0cab5b39fdb0700",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_4115.lean"
+    },
+    {
+      "id": "L-meta-5739",
+      "fresh_desk_status": "checked",
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_5739.lean",
+      "actual_source_sha256": "ae15cbc90ad17dcbaa3ab6126e5dfa631abc9e8c1749117b3aff3310973e9c7e",
+      "desk_source_sha256": "ae15cbc90ad17dcbaa3ab6126e5dfa631abc9e8c1749117b3aff3310973e9c7e",
+      "matches": true
+    },
+    {
+      "id": "L-meta-8845",
+      "fresh_desk_status": "checked",
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_8845.lean",
+      "actual_source_sha256": "8a40e83dc21647052bfca178eeac45785dada5e48bf6e1772fc55e79b2b237a1",
+      "desk_source_sha256": "8a40e83dc21647052bfca178eeac45785dada5e48bf6e1772fc55e79b2b237a1",
+      "matches": true
+    },
+    {
+      "task": "L-meta-2718",
+      "file": "R_meta_2718_106.lean",
+      "sha256": "468d33becef2bee9ea4ec42470cd681d08dfd4821658a2b5c47635427cc8026e",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2718_106.lean",
+      "status_note": "Source snapshot analyzed by worker; exact hash retained, file body excluded. The URL is moving main, so use hash or PR provenance when retrieving."
+    },
+    {
+      "task": "L-meta-2718",
+      "file": "R_meta_2718_236.lean",
+      "sha256": "2e24e1ccafbb9563ee3efc49cb0dfafc61bdad6e54d38cb71931bc84b6c568d0",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2718_236.lean",
+      "status_note": "Source snapshot analyzed by worker; exact hash retained, file body excluded. The URL is moving main, so use hash or PR provenance when retrieving."
+    },
+    {
+      "id": "L-meta-2716",
+      "author_fork": "jackryan225/pequalnp-proofs",
+      "head_sha": "1e1b84679544b083d3e240bac25ae6be219b8dcd",
+      "url": "https://github.com/jackryan225/pequalnp-proofs/blob/1e1b84679544b083d3e240bac25ae6be219b8dcd/lean/PEqualNP/Outside/L_meta_2716.lean",
+      "official_pr": "https://github.com/open-goat/pequalnp-proofs/pull/4938",
+      "verdict_comment": "https://github.com/open-goat/pequalnp-proofs/pull/4938#issuecomment-7140592888",
+      "run": "https://github.com/open-goat/pequalnp-proofs/actions/runs/45456538469",
+      "observed_verdict": "ACCEPTED checker exit0",
+      "observed_merged": false,
+      "attribution": "PR author states adaptation from accepted L_meta_1500. No ownership of this proof is claimed."
+    }
+  ]
+}

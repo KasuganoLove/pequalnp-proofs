@@ -1,0 +1,170 @@
+{
+  "checkpoint": "continuation-12",
+  "kind": "unresolved bounded research archive",
+  "prepared_at_utc": "2026-11-25T10:30:28.046580+00:00",
+  "prior_verified_research_head": "b3af29dd72a984614f6101e2679d415a52d4f666",
+  "original_work_directory": "pnp-session-2026-11-25/continuation-11",
+  "stage_complete": false,
+  "official_submission_required": true,
+  "new_owner_upstream_prs": [],
+  "new_owner_official_accepted_verdicts": [],
+  "new_complete_task_proofs": [],
+  "new_valid_refutations": [],
+  "active_research_leases_carried_forward": [],
+  "closure_evidence_source": "Root-agent confirmation; no private lease records copied",
+  "task_states": [
+    {
+      "id": "L-meta-1900",
+      "lease_status": "closed_after_release_410",
+      "release_http_status": 410,
+      "successfully_released": false,
+      "closed_cause_inferred": false,
+      "exact_release_time_utc": null,
+      "mathematical_result": "Unresolved; bounded audit only",
+      "next_missing_result": "No-size-increase finite-input AND-clean normalization or existing deletion-savings obligation"
+    },
+    {
+      "id": "L-meta-1745",
+      "lease_status": "released",
+      "release_http_status": 200,
+      "successfully_released": true,
+      "released_at_utc": "2026-11-25T10:11:57Z",
+      "release_reason": null,
+      "release_reason_note": "Not supplied in the root checkpoint; not invented",
+      "mathematical_result": "Unresolved; paper counting route and precise structural barrier only"
+    },
+    {
+      "id": "L-meta-2718",
+      "lease_status": "released",
+      "release_http_status": 200,
+      "successfully_released": true,
+      "released_at_utc": "2026-11-25T10:22:11.693831Z",
+      "release_reason": "out_of_time",
+      "response_recovered_by_root": true,
+      "mathematical_result": "Unresolved; one bounded search found no valid candidate"
+    }
+  ],
+  "search2718": {
+    "result": {
+      "seed": 271820261125,
+      "budget_seconds": 300,
+      "elapsed_seconds": 300.001,
+      "training_rows": 288,
+      "seeds": 13312,
+      "one_field_edits": 1198512,
+      "evaluations": 1154454451,
+      "restarts": 9611,
+      "accepted": 482287639,
+      "candidate_found": false,
+      "stopped_by_signal": false,
+      "best_training_false_positive": 0,
+      "best_training_false_negative": 1,
+      "nonexistence_proved": false
+    },
+    "process": {
+      "start_utc": "2026-11-25T10:08:45.892938+00:00",
+      "end_utc": "2026-11-25T10:13:46.013150+00:00",
+      "elapsed_wall_seconds": 300.12022725299903,
+      "exit_code": 0,
+      "address_space_limit_bytes": 1073741824,
+      "thread_count": 1,
+      "source_sha256": "0877a3688aa132a40075275f93c56ed56308307f5b9e7b94af64d40c0826f8cb",
+      "search_budget_seconds": 300,
+      "formal_nonexistence_proof": false
+    },
+    "best_candidate_validation": {
+      "source": "best-63.json",
+      "size": 63,
+      "all_point_subsets_examined": 8192,
+      "positive_count": 52,
+      "negative_count": 236,
+      "positive_errors": 1,
+      "negative_errors": 0,
+      "first_positive_errors": [
+        {
+          "point": 0,
+          "line": 4,
+          "mask": 131073
+        }
+      ],
+      "first_negative_errors": [],
+      "point_degree": 1,
+      "line_degree": 1,
+      "promise_correct": false,
+      "budget63": true,
+      "lean_verified": false
+    },
+    "baseline_validation": {
+      "source": "known-64.json",
+      "size": 64,
+      "all_point_subsets_examined": 8192,
+      "positive_count": 52,
+      "negative_count": 236,
+      "positive_errors": 0,
+      "negative_errors": 0,
+      "first_positive_errors": [],
+      "first_negative_errors": [],
+      "point_degree": 1,
+      "line_degree": 1,
+      "promise_correct": true,
+      "budget63": false,
+      "lean_verified": false
+    },
+    "verification_scope": "Exact posted52 incident positives and236 degenerate maximal negatives; literal predicate evaluated on8192 point subsets; not full2^26 truth table",
+    "formal_lower_bound_proved": false,
+    "full_task_proved_or_refuted": false,
+    "lean_verified": false,
+    "unsat_certificate": false
+  },
+  "external_dependency_observation": {
+    "id": "L-meta-2716",
+    "author_fork": "jackryan225/pequalnp-proofs",
+    "pr": "https://github.com/open-goat/pequalnp-proofs/pull/4938",
+    "accepted_head": "1e1b84679544b083d3e240bac25ae6be219b8dcd",
+    "observed_verdict": "ACCEPTED checker exit0",
+    "observed_merged": false,
+    "is_new_owner_contribution": false,
+    "freshly_requeried_during_packaging": false
+  },
+  "publication": {
+    "local_only": true,
+    "remote_writes_by_staging_agent": false,
+    "root_will_publish": true,
+    "target_archive": "research/2026-11-25/continuation-12",
+    "active_work_draft": "ACTIVE_WORK.draft.md",
+    "active_work_target": "research/ACTIVE_WORK.md",
+    "private_lease_records_included": false,
+    "large_full_desk_json_included": false,
+    "third_party_full_lean_included": false,
+    "binaries_or_cnf_or_regenerable_seeds_included": false
+  },
+  "latest_allocation_observation_from_root": {
+    "observed_at_utc": "2026-11-25T10:26:26Z",
+    "request_mode": "documented another request",
+    "gap": null,
+    "retry_after_seconds": 300,
+    "server_note": "4 recently returned",
+    "earliest_documented_retry_utc": "2026-11-25T10:31:26Z",
+    "cause_inferred": false,
+    "subsequent_request_result": "not included; root updates after fresh evidence"
+  },
+  "latest_public_observations_from_root": {
+    "desk_updated_at_utc": "2026-11-25T10:27:41Z",
+    "step_response_at_utc": "2026-11-25T10:28:06Z",
+    "L-meta-2733": {
+      "state": "open",
+      "holder_observed": false,
+      "assignment_to_this_session_inferred": false
+    },
+    "L-meta-971": {
+      "state": "checked",
+      "source_hash_match_reported_by_root": true,
+      "full_source_archived": false
+    },
+    "source_urls": [
+      "https://data.pequalnp.com/data/desk/gaps.json",
+      "https://pequalnp.com/desk/step?gap=L-meta-2733"
+    ],
+    "verified_research_head": "b3af29dd72a984614f6101e2679d415a52d4f666"
+  }
+}

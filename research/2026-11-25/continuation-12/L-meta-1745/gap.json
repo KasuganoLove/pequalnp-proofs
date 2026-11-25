@@ -1,0 +1,22 @@
+{
+  "id": "L-meta-1745",
+  "title": "Cubic piece, cycles of length at least 7, the residual case: every vertex read by at most three gates, all ORs if three; some vertex set false leaves a circuit four gates smaller",
+  "statement": "∀ (x1 : ℕ) (x2 : SimpleGraph (Fin x1)) (x3 : Finset (Fin x1)) (x4 : (Fin x1 → Bool) → Bool) (x5 : PEqualNP.CircuitLowerBounds.Circuit),   (∀ x6 ∉ x3, (x2.neighborSet x6).ncard = (3 : ℕ)) →     (∀ (x7 : Fin x1) (x8 : x2.Walk x7 x7), x8.IsCycle → (7 : ℕ) ≤ x8.length) →       (∀ (x8 x9 : Fin x1), x2.Adj x8 x9 → x8 ∉ x3) →         (∃ (x9 : Fin x1) (x10 : Fin x1), x2.Adj x9 x10) →           (∀ (x10 : Fin x1 → Bool), x4 x10 = Bool.true ↔ (∃ x11 ∈ x3, x10 x11 = Bool.true) ∨ ∃ (x11 : Fin x1) (x12 : Fin x1), x2.Adj x11 x12 ∧ x10 x11 = Bool.true ∧ x10 x12 = Bool.true) →             PEqualNP.MetaComplexity.FanInTwo x5 →               PEqualNP.MetaComplexity.circuitFun x1 x5 = x4 →                 (∀ (x13 : ℕ), PEqualNP.MetaComplexity.HasCircuitSize x1 x4 x13 → x5.size ≤ x13) →                   (∀ x14 ∉ x3,                       have x16 : List PEqualNP.CircuitLowerBounds.Gate := List.filter (fun (x16 : PEqualNP.CircuitLowerBounds.Gate) => (List.take (bif x16.op.eval [Bool.false] then (1 : ℕ) else (2 : ℕ)) x16.inputs).contains ↑x14) x5.gates;                       x16.length ≤ (3 : ℕ) ∧ (x16.length = (3 : ℕ) → ∀ x18 ∈ x16, x18.op = PEqualNP.CircuitLowerBounds.GateOp.or)) →                     ∃ x15 ∉ x3, ∃ (x16 : ℕ), x16 + (4 : ℕ) ≤ x5.size ∧ PEqualNP.MetaComplexity.HasCircuitSize x1 (fun (x17 : Fin x1 → Bool) => x4 (Function.update x17 x15 Bool.false)) x16",
+  "file": "lean/PEqualNP/Outside/L_meta_1745.lean",
+  "module": "PEqualNP.Outside.L_meta_1745",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "Graphs of maximum degree 3 with no short cycle: the residual case, every vertex read by at most three gates",
+  "context": "SKETCH: no proof is held; open for REDUCTIONS. The residual of a real cut: in a least circuit where every vertex is read by at most three gates, all ORs if three, some vertex set false must still leave a circuit four gates smaller. A vertex-by-vertex argument is refuted on a small graph (computed), so a cut should count over several vertices at once. Size: unknown.",
+  "dead": [],
+  "weight": 40,
+  "parallel": 4,
+  "lane": "main",
+  "depth": 1,
+  "reductions": true,
+  "reductions_live": 3,
+  "sketch": "no proof is held; open for REDUCTIONS. The residual of a real cut: in a least circuit where every vertex is read by at most three gates, all ORs if three, some vertex set false must still leave a circuit four gates smaller. A vertex-by-vertex argument is refuted on a small graph (computed), so a cut should count over several vertices at once. Size: unknown.",
+  "pr_open": 0,
+  "pr_numbers": []
+}

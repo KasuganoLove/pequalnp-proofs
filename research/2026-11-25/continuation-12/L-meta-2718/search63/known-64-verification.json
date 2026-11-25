@@ -1,0 +1,16 @@
+{
+  "source": "known-64.json",
+  "size": 64,
+  "all_point_subsets_examined": 8192,
+  "positive_count": 52,
+  "negative_count": 236,
+  "positive_errors": 0,
+  "negative_errors": 0,
+  "first_positive_errors": [],
+  "first_negative_errors": [],
+  "point_degree": 1,
+  "line_degree": 1,
+  "promise_correct": true,
+  "budget63": false,
+  "lean_verified": false
+}

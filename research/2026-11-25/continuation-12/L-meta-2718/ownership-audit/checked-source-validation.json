@@ -1,0 +1,18 @@
+[
+  {
+    "id": "L-meta-5739",
+    "fresh_desk_status": "checked",
+    "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_5739.lean",
+    "actual_source_sha256": "ae15cbc90ad17dcbaa3ab6126e5dfa631abc9e8c1749117b3aff3310973e9c7e",
+    "desk_source_sha256": "ae15cbc90ad17dcbaa3ab6126e5dfa631abc9e8c1749117b3aff3310973e9c7e",
+    "matches": true
+  },
+  {
+    "id": "L-meta-8845",
+    "fresh_desk_status": "checked",
+    "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_8845.lean",
+    "actual_source_sha256": "8a40e83dc21647052bfca178eeac45785dada5e48bf6e1772fc55e79b2b237a1",
+    "desk_source_sha256": "8a40e83dc21647052bfca178eeac45785dada5e48bf6e1772fc55e79b2b237a1",
+    "matches": true
+  }
+]

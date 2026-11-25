@@ -1,0 +1,24 @@
+{
+  "negative_masks": [
+    8191,
+    67100672,
+    25018369,
+    50036738,
+    32972804,
+    65945608,
+    64790544,
+    62480416,
+    57860160,
+    48619648,
+    30138624,
+    60277248,
+    53453824,
+    39806976,
+    12513280
+  ],
+  "count": 15,
+  "all_satisfy_posted_degenerate_maximal_negative_condition": true,
+  "covers_every_nonedge_pair_including_diagonals": true,
+  "nonedge_ordered_pairs_checked": 572,
+  "scope": "ordinary finite check; combined with the already compiled generic Pnp2343CleanCost bound this identifies a necessary dirty-AND witness, not a full2718 proof"
+}

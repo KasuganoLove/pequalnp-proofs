@@ -1,0 +1,17 @@
+START pid=6 rows=288 seeds=13312 best=1
+neighborhood_edits=1198512 best=1
+elapsed=20 evaluations=76812701 restarts=630 best_fp=0 best_fn=1
+elapsed=40 evaluations=153853343 restarts=1272 best_fp=0 best_fn=1
+elapsed=60 evaluations=231493990 restarts=1919 best_fp=0 best_fn=1
+elapsed=80 evaluations=310934652 restarts=2581 best_fp=0 best_fn=1
+elapsed=100 evaluations=387735292 restarts=3221 best_fp=0 best_fn=1
+elapsed=120 evaluations=462855918 restarts=3847 best_fp=0 best_fn=1
+elapsed=140 evaluations=539656558 restarts=4487 best_fp=0 best_fn=1
+elapsed=160 evaluations=615257188 restarts=5117 best_fp=0 best_fn=1
+elapsed=180 evaluations=690617816 restarts=5745 best_fp=0 best_fn=1
+elapsed=200 evaluations=770058478 restarts=6407 best_fp=0 best_fn=1
+elapsed=220 evaluations=846979119 restarts=7048 best_fp=0 best_fn=1
+elapsed=240 evaluations=923179754 restarts=7683 best_fp=0 best_fn=1
+elapsed=260 evaluations=1000100395 restarts=8324 best_fp=0 best_fn=1
+elapsed=280 evaluations=1078221046 restarts=8975 best_fp=0 best_fn=1
+DONE candidate=0 evaluations=1154454451 best_fp=0 best_fn=1

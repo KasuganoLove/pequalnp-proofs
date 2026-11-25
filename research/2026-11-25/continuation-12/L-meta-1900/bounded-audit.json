@@ -1,0 +1,47 @@
+{
+  "task": "L-meta-1900",
+  "kind": "bounded source and mathematical audit",
+  "created_utc": "2026-11-25T09:57:59.678766+00:00",
+  "checkout_head": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "outcome": "No full proof or counterexample found; precise remaining normalization barrier identified.",
+  "validation": "Read-only source inspection; no Lean compilation, strict checker, SAT search or new formal theorem.",
+  "source_files": [
+    {
+      "path": "pequalnp-proofs/lean/PEqualNP/Defs/BicliqueBlockCost.lean",
+      "sha256": "36f84880055a5ab87a000e9c1c5880a290444df8066e8fb9d9a8a0c3b4d065ce"
+    },
+    {
+      "path": "pequalnp-proofs/lean/PEqualNP/Outside/R_meta_1900_1.lean",
+      "sha256": "28f602a3d93235882139601fa8fa95de27cbca19e8c9df6b227e7dbcd030b1f7"
+    },
+    {
+      "path": "pequalnp-proofs/lean/PEqualNP/Outside/R_meta_1900_2.lean",
+      "sha256": "f03cd2f802a40844655215cc098690e6b54c4a4593705137147bf37ad6fdb76d"
+    },
+    {
+      "path": "pequalnp-proofs/lean/PEqualNP/Outside/R_meta_1900_401.lean",
+      "sha256": "930ef8a293eec01f66d22cbc0bd9f2aef62a43794473f6abeeb390592d694705"
+    },
+    {
+      "path": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_2656.lean",
+      "sha256": "d33266887f750fb15eeb3730e2f9d0847b214cb550d45538e511f303c96cd0d0"
+    },
+    {
+      "path": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_1902.lean",
+      "sha256": "0953fd4925a783a542101c4e6791b3bdc6e39c09f6444391bb5fb05d27be2b75"
+    }
+  ],
+  "primary_literature": [
+    {
+      "url": "https://web.vu.lt/mif/s.jukna/ftp/single1.pdf",
+      "title": "Disproving the Single Level Conjecture",
+      "relevant_pages": [
+        4,
+        11
+      ],
+      "scope": "The explicit separation uses saturated extensions, which contain large complete bipartite subgraphs; its C4-free underlying graph is not the final target graph."
+    }
+  ],
+  "remaining_condition": "A no-size-increase transformation making every AND sound on zero, singleton, and all pair inputs suffices via L_meta_2656.pairCleanBound. No such transformation is proved here.",
+  "new_official_submission": false
+}

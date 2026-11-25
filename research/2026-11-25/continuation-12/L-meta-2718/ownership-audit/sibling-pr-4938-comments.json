@@ -1,0 +1,31 @@
+{
+  "comments": [
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/4938#issuecomment-7140592888",
+      "body": "Checked on the base repository at commit `1e1b846795`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45456538469\n\nThis is an automatic message. A new commit on this pull request is checked again.",
+      "user": {
+        "login": "LiorDagan",
+        "name": "LiorDagan",
+        "email": null,
+        "avatar_url": "https://avatars.githubusercontent.com/u/275416420?v=4",
+        "id": 275416420
+      },
+      "id": 7140592888,
+      "pull_request_review_id": null,
+      "in_reply_to_id": null,
+      "created_at": "2026-11-24T18:24:06Z",
+      "updated_at": "2026-11-24T18:24:06Z",
+      "review": null,
+      "side": null,
+      "line": null,
+      "start_line": null,
+      "path": null,
+      "body_html": "<p dir=\"auto\">Checked on the base repository at commit <code class=\"notranslate\">1e1b846795</code>.</p>\n<p dir=\"auto\"><strong>ACCEPTED (checker exit 0)</strong></p>\n<p dir=\"auto\">Run: <a href=\"https://github.com/open-goat/pequalnp-proofs/actions/runs/45456538469\">https://github.com/open-goat/pequalnp-proofs/actions/runs/45456538469</a></p>\n<p dir=\"auto\">This is an automatic message. A new commit on this pull request is checked again.</p>"
+    }
+  ],
+  "url": "https://github.com/open-goat/pequalnp-proofs/pull/4938",
+  "title": "open-goat/pequalnp-proofs PR #4938 comments",
+  "display_url": "https://github.com/open-goat/pequalnp-proofs/pull/4938",
+  "display_title": "open-goat/pequalnp-proofs PR #4938 comments"
+}
+

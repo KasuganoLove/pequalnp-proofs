@@ -1,0 +1,22 @@
+{
+  "source": "best-63.json",
+  "size": 63,
+  "all_point_subsets_examined": 8192,
+  "positive_count": 52,
+  "negative_count": 236,
+  "positive_errors": 1,
+  "negative_errors": 0,
+  "first_positive_errors": [
+    {
+      "point": 0,
+      "line": 4,
+      "mask": 131073
+    }
+  ],
+  "first_negative_errors": [],
+  "point_degree": 1,
+  "line_degree": 1,
+  "promise_correct": false,
+  "budget63": true,
+  "lean_verified": false
+}

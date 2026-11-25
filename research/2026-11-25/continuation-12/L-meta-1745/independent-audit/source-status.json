@@ -1,0 +1,59 @@
+{
+  "source_snapshot_updated_at": "2026-11-25T09:53:27.478Z",
+  "checks": [
+    {
+      "id": "L-meta-198",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_198.lean",
+      "bytes": 14664,
+      "sha256": "433964e9a5c4765cd828b60e31895ac381a37aed7460992676b5ab740175cbe2",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_198.lean"
+    },
+    {
+      "id": "L-meta-1743",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_1743.lean",
+      "bytes": 40634,
+      "sha256": "cd120b76196f8820c69fdd426e54db71a2963b2e290925f8dcfdde29bee9f11b",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_1743.lean"
+    },
+    {
+      "id": "L-meta-1975",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_1975.lean",
+      "bytes": 29433,
+      "sha256": "a45dd739c32a8d293ddc9498c2dd9fde1437c94fe3c7bdbeef287f4bcfa8e78a",
+      "in_checked_snapshot": false,
+      "checked_hash_match": false,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_1975.lean"
+    },
+    {
+      "id": "L-meta-4093",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_4093.lean",
+      "bytes": 52938,
+      "sha256": "cfae09adf6604108e51a98f73dd280a78a5d57da2812ccf1ce1f5183d522866b",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_4093.lean"
+    },
+    {
+      "id": "L-meta-4113",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_4113.lean",
+      "bytes": 36035,
+      "sha256": "e1abb5ae4f14a81aad5eaff1c74d135aa5b898d39b0156b46559bb0272eb72c5",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_4113.lean"
+    },
+    {
+      "id": "L-meta-4115",
+      "file": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_4115.lean",
+      "bytes": 34905,
+      "sha256": "3c3e8ffdca4b9f36d4548adb06990f8690a6ef08c1c811b8c0cab5b39fdb0700",
+      "in_checked_snapshot": true,
+      "checked_hash_match": true,
+      "local_source_url": "https://github.com/open-goat/pequalnp-proofs/blob/57164c3618362178843e2ea37bd01613f4037ae2/lean/PEqualNP/Outside/L_meta_4115.lean"
+    }
+  ]
+}

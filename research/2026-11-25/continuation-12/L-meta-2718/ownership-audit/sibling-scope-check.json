@@ -1,0 +1,12 @@
+{
+  "accepted_endpoint_matches_cached_public_statement_after_whitespace_normalization": true,
+  "cached_desk_updated_at": "2026-11-25T09:04:37.107Z",
+  "pr": 4938,
+  "head_sha": "1e1b84679544b083d3e240bac25ae6be219b8dcd",
+  "official_verdict": "ACCEPTED checker exit0",
+  "comment_id": 7140592888,
+  "run_id": 45456538469,
+  "merged": false,
+  "main_file_absent_observed_404": true,
+  "fresh_desk_fetch": "unavailable: urllib403, web open inaccessible"
+}
