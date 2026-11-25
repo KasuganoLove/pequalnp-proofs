@@ -1,0 +1,68 @@
+{
+  "desk_snapshot_updated_at": "2026-11-25T04:20:08.808Z",
+  "checkout_head": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "reductions": [
+    {
+      "reduction": "R_meta_2343_1",
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2343_1.lean",
+      "description": "seven canonical free-OR representatives",
+      "children": [
+        {
+          "id": "L-meta-3801",
+          "status_at_snapshot": "checked",
+          "statement": null,
+          "file": "lean/PEqualNP/Outside/L_meta_3801.lean"
+        },
+        {
+          "id": "L-meta-3803",
+          "status_at_snapshot": "open",
+          "statement": "have x1 : Finset (Fin (13 : \u2115)) := {(0 : Fin (13 : \u2115)), (1 : Fin (13 : \u2115)), (3 : Fin (13 : \u2115)), (9 : Fin (13 : \u2115))}; have x2 : Fin (13 : \u2115) \u2192 Fin (13 : \u2115) \u2192 List Bool := fun (x2 x3 : Fin (13 : \u2115)) => (List.ofFn fun (x4 : Fin (13 : \u2115)) => Decidable.decide (x4 = x2)) ++ List.ofFn fun (x4 : Fin (13 : \u2115)) => Decidable.decide (x4 = x3); have x3 : Finset (Fin (13 : \u2115)) \u2192 List Bool := fun (x3 : Finset (Fin (13 : \u2115))) => (List.ofFn fun (x4 : Fin (13 : \u2115)) => Decidable.decide (x4 \u2208 x3)) ++ List.ofFn fun (x4 : Fin (13 : \u2115)) => Decidable.decide (\u2200 x5 \u2208 x3, x5 - x4 \u2209 x1); have x4 : Finset (Fin (13 : \u2115)) \u2192 Prop := fun (x4 : Finset (Fin (13 : \u2115))) => x4.card = (4 : \u2115) \u2227 \u2200 (x5 : Fin (13 : \u2115)), {x6 \u2208 x4 | x6 - x5 \u2208 x1}.card \u2264 (2 : \u2115); have x5 : PEqualNP.CircuitLowerBounds.Circuit \u2192 List \u2115 \u2192 Prop := fun (x5 : PEqualNP.CircuitLowerBounds.Circuit) (x6 : List \u2115) =>   have x7 : List Bool \u2192 List Bool := fun (x7 : List Bool) => x7 ++ [x6.any fun (x8 : \u2115) => x7.getD x8 Bool.false];   (\u2200 (x8 x9 : Fin (13 : \u2115)), x8 - x9 \u2208 x1 \u2192 x5.eval (x7 (x2 x8 x9)) = Bool.true) \u2227 \u2200 (x8 : Finset (Fin (13 : \u2115))), x4 x8 \u2192 x5.eval (x7 (x3 x8)) = Bool.false; \u2200 (x6 : PEqualNP.CircuitLowerBounds.Circuit), \u2200 x7 \u2208 [[], [(0 : \u2115)], [(13 : \u2115)], [(0 : \u2115), (1 : \u2115)], [(13 : \u2115), (14 : \u2115)], [(0 : \u2115), (13 : \u2115)], [(0 : \u2115), (14 : \u2115)]], PEqualNP.MetaComplexity.Monotone2 x6 \u2192 (\u2200 (x10 : Fin x6.gates.length), \u2200 x11 \u2208 (x6.gates.get x10).inputs, x11 < (27 : \u2115) + \u2191x10) \u2192 x5 x6 x7 \u2192 (63 : \u2115) \u2264 x6.size",
+          "file": "lean/PEqualNP/Outside/L_meta_3803.lean"
+        }
+      ]
+    },
+    {
+      "reduction": "R_meta_2343_509",
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2343_509.lean",
+      "description": "twelve affine representatives",
+      "children": [
+        {
+          "id": "L-meta-4676",
+          "status_at_snapshot": "checked",
+          "statement": null,
+          "file": "lean/PEqualNP/Outside/L_meta_4676.lean"
+        },
+        {
+          "id": "L-meta-4678",
+          "status_at_snapshot": "open",
+          "statement": "have x1 : Finset (Fin (13 : \u2115)) := {(0 : Fin (13 : \u2115)), (1 : Fin (13 : \u2115)), (3 : Fin (13 : \u2115)), (9 : Fin (13 : \u2115))}; have x2 : (List Bool \u2192 Bool) \u2192 Prop := fun (x2 : List Bool \u2192 Bool) => (\u2200 (x3 x4 : Fin (13 : \u2115)), x3 - x4 \u2208 x1 \u2192 x2 ((List.ofFn fun (x6 : Fin (13 : \u2115)) => Decidable.decide (x6 = x3)) ++ List.ofFn fun (x6 : Fin (13 : \u2115)) => Decidable.decide (x6 = x4)) = Bool.true) \u2227 \u2200 (x3 : Finset (Fin (13 : \u2115))), x3.card = (4 : \u2115) \u2192 (\u2200 (x5 : Fin (13 : \u2115)), {x6 \u2208 x3 | x6 - x5 \u2208 x1}.card \u2264 (2 : \u2115)) \u2192 x2 ((List.ofFn fun (x6 : Fin (13 : \u2115)) => Decidable.decide (x6 \u2208 x3)) ++ List.ofFn fun (x6 : Fin (13 : \u2115)) => Decidable.decide (\u2200 x7 \u2208 x3, x7 - x6 \u2209 x1)) = Bool.false; have x3 : PEqualNP.CircuitLowerBounds.Circuit \u2192 List \u2115 \u2192 Prop := fun (x3 : PEqualNP.CircuitLowerBounds.Circuit) (x4 : List \u2115) => x2 fun (x5 : List Bool) => x3.eval (x5 ++ [x4.any fun (x6 : \u2115) => x5.getD x6 Bool.false]); have x4 : PEqualNP.CircuitLowerBounds.Circuit \u2192 Prop := fun (x4 : PEqualNP.CircuitLowerBounds.Circuit) => \u2200 (x5 : Fin x4.gates.length), \u2200 x6 \u2208 (x4.gates.get x5).inputs, x6 < (27 : \u2115) + \u2191x5; have x5 : List (List \u2115) := [[], [(0 : \u2115)], [(13 : \u2115)], [(0 : \u2115), (1 : \u2115)], [(0 : \u2115), (2 : \u2115)], [(0 : \u2115), (13 : \u2115)], [(0 : \u2115), (14 : \u2115)], [(0 : \u2115), (15 : \u2115)], [(0 : \u2115), (17 : \u2115)], [(0 : \u2115), (20 : \u2115)], [(13 : \u2115), (14 : \u2115)], [(13 : \u2115), (15 : \u2115)]]; \u2200 (x6 : PEqualNP.CircuitLowerBounds.Circuit), \u2200 x7 \u2208 x5, PEqualNP.MetaComplexity.Monotone2 x6 \u2192 x4 x6 \u2192 x3 x6 x7 \u2192 (63 : \u2115) \u2264 x6.size",
+          "file": "lean/PEqualNP/Outside/L_meta_4678.lean"
+        }
+      ]
+    },
+    {
+      "reduction": "R_meta_2343_811",
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2343_811.lean",
+      "description": "presence or absence of a direct AND-to-AND input",
+      "children": [
+        {
+          "id": "L-meta-5755",
+          "status_at_snapshot": "open",
+          "statement": "\u2200 (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 : List \u2115),   x2.length \u2264 (2 : \u2115) \u2192     PEqualNP.MetaComplexity.Monotone2 x1 \u2192       (\u2200 (x5 : Fin x1.gates.length), \u2200 x6 \u2208 (x1.gates.get x5).inputs, x6 < (27 : \u2115) + \u2191x5) \u2192         have x6 : Finset (Fin (13 : \u2115)) := {(0 : Fin (13 : \u2115)), (1 : Fin (13 : \u2115)), (3 : Fin (13 : \u2115)), (9 : Fin (13 : \u2115))};         have x7 : Fin (13 : \u2115) \u2192 Fin (13 : \u2115) \u2192 List Bool := fun (x7 x8 : Fin (13 : \u2115)) => (List.ofFn fun (x9 : Fin (13 : \u2115)) => Decidable.decide (x9 = x7)) ++ List.ofFn fun (x9 : Fin (13 : \u2115)) => Decidable.decide (x9 = x8);         have x8 : Finset (Fin (13 : \u2115)) \u2192 List Bool := fun (x8 : Finset (Fin (13 : \u2115))) => (List.ofFn fun (x9 : Fin (13 : \u2115)) => Decidable.decide (x9 \u2208 x8)) ++ List.ofFn fun (x9 : Fin (13 : \u2115)) => Decidable.decide (\u2200 x10 \u2208 x8, x10 - x9 \u2209 x6);         have x9 : Finset (Fin (13 : \u2115)) \u2192 Prop := fun (x9 : Finset (Fin (13 : \u2115))) => x9.card = (4 : \u2115) \u2227 \u2200 (x10 : Fin (13 : \u2115)), {x11 \u2208 x9 | x11 - x10 \u2208 x6}.card \u2264 (2 : \u2115);         have x10 : List Bool \u2192 List Bool := fun (x10 : List Bool) => x10 ++ [x2.any fun (x11 : \u2115) => x10.getD x11 Bool.false];         (\u2200 (x11 x12 : Fin (13 : \u2115)), x11 - x12 \u2208 x6 \u2192 x1.eval (x10 (x7 x11 x12)) = Bool.true) \u2192 (\u2200 (x12 : Finset (Fin (13 : \u2115))), x9 x12 \u2192 x1.eval (x10 (x8 x12)) = Bool.false) \u2192 (\u2203 (x13 : Fin x1.gates.length), \u2203 x14 \u2208 (x1.gates.get x13).inputs, (x1.gates.get x13).op = PEqualNP.CircuitLowerBounds.GateOp.and \u2227 (27 : \u2115) \u2264 x14 \u2227 \u2203 (x15 : Fin x1.gates.length), x14 = (27 : \u2115) + \u2191x15 \u2227 (x1.gates.get x15).op = PEqualNP.CircuitLowerBounds.GateOp.and) \u2192 (63 : \u2115) \u2264 x1.size",
+          "file": "lean/PEqualNP/Outside/L_meta_5755.lean"
+        },
+        {
+          "id": "L-meta-5757",
+          "status_at_snapshot": "open",
+          "statement": "\u2200 (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 : List \u2115),   x2.length \u2264 (2 : \u2115) \u2192     PEqualNP.MetaComplexity.Monotone2 x1 \u2192       (\u2200 (x5 : Fin x1.gates.length), \u2200 x6 \u2208 (x1.gates.get x5).inputs, x6 < (27 : \u2115) + \u2191x5) \u2192         have x6 : Finset (Fin (13 : \u2115)) := {(0 : Fin (13 : \u2115)), (1 : Fin (13 : \u2115)), (3 : Fin (13 : \u2115)), (9 : Fin (13 : \u2115))};         have x7 : Fin (13 : \u2115) \u2192 Fin (13 : \u2115) \u2192 List Bool := fun (x7 x8 : Fin (13 : \u2115)) => (List.ofFn fun (x9 : Fin (13 : \u2115)) => Decidable.decide (x9 = x7)) ++ List.ofFn fun (x9 : Fin (13 : \u2115)) => Decidable.decide (x9 = x8);         have x8 : Finset (Fin (13 : \u2115)) \u2192 List Bool := fun (x8 : Finset (Fin (13 : \u2115))) => (List.ofFn fun (x9 : Fin (13 : \u2115)) => Decidable.decide (x9 \u2208 x8)) ++ List.ofFn fun (x9 : Fin (13 : \u2115)) => Decidable.decide (\u2200 x10 \u2208 x8, x10 - x9 \u2209 x6);         have x9 : Finset (Fin (13 : \u2115)) \u2192 Prop := fun (x9 : Finset (Fin (13 : \u2115))) => x9.card = (4 : \u2115) \u2227 \u2200 (x10 : Fin (13 : \u2115)), {x11 \u2208 x9 | x11 - x10 \u2208 x6}.card \u2264 (2 : \u2115);         have x10 : List Bool \u2192 List Bool := fun (x10 : List Bool) => x10 ++ [x2.any fun (x11 : \u2115) => x10.getD x11 Bool.false];         (\u2200 (x11 x12 : Fin (13 : \u2115)), x11 - x12 \u2208 x6 \u2192 x1.eval (x10 (x7 x11 x12)) = Bool.true) \u2192 (\u2200 (x12 : Finset (Fin (13 : \u2115))), x9 x12 \u2192 x1.eval (x10 (x8 x12)) = Bool.false) \u2192 (\u00ac\u2203 (x13 : Fin x1.gates.length), \u2203 x14 \u2208 (x1.gates.get x13).inputs, (x1.gates.get x13).op = PEqualNP.CircuitLowerBounds.GateOp.and \u2227 (27 : \u2115) \u2264 x14 \u2227 \u2203 (x15 : Fin x1.gates.length), x14 = (27 : \u2115) + \u2191x15 \u2227 (x1.gates.get x15).op = PEqualNP.CircuitLowerBounds.GateOp.and) \u2192 (63 : \u2115) \u2264 x1.size",
+          "file": "lean/PEqualNP/Outside/L_meta_5757.lean"
+        }
+      ]
+    }
+  ],
+  "cut_caveat": "R_meta_2343_811 excludes only a direct AND-produced input to an AND. Its complement still allows an AND-to-OR-to-AND path; the informal two-level description is not the exact formal hypothesis.",
+  "further_open_subcases": {
+    "L-meta-6041": "same-side free pairs [0,1] or [13,14]",
+    "L-meta-6043": "mixed flag/nonflag pairs [0,13] or [0,14]"
+  }
+}

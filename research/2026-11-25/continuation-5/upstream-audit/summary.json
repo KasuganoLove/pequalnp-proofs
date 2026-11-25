@@ -1,0 +1,114 @@
+{
+  "audited_at_utc": "2026-11-25 04:21–04:27 UTC",
+  "task7019": {
+    "pr": {
+      "number": 12198,
+      "author": "someusername6",
+      "state": "open",
+      "created_at": "2026-11-25T04:04:17Z",
+      "updated_at": "2026-11-25T04:04:17Z",
+      "merged_at": null,
+      "head_sha": "f9ffc70b14400a1d8094d3f57ddeb830670a3d89",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/12198"
+    },
+    "comments": []
+  },
+  "task1031_prs": [
+    {
+      "number": 11760,
+      "title": "R_meta_1031_1: reduction of L-meta-1031 (least AND/OR circuit owns a star per AND gate)",
+      "state": "open",
+      "created_at": "2026-11-25T02:53:05Z",
+      "updated_at": "2026-11-25T03:04:12Z",
+      "merged_at": null,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/11760",
+      "head_sha": "f4648f6b1840f43b1e52e84e451646d1b66b8e6b",
+      "body": "Reduction of L-meta-1031, one file, one theorem. Statement copied verbatim from the desk row. Cut into two smaller statements: h1, on a triangle-free, 4-cycle-free graph, a least fan-in-two AND/OR circuit for the edge function exists and has the EdgeOwnership star profile; h2, such a star-profile circuit satisfies the inline ownership condition of the recorded statement. Local check: lake env lean exit 0, no sorry, no new axiom, no native_decide.",
+      "comments": []
+    },
+    {
+      "number": 12255,
+      "title": "R-meta-1031-5",
+      "state": "open",
+      "created_at": "2026-11-25T04:19:21Z",
+      "updated_at": "2026-11-25T04:19:21Z",
+      "merged_at": null,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/12255",
+      "head_sha": "b0a0a8dd5262f3047bef9d3207aa30ae1e03f05c",
+      "body": "Reduction for L-meta-1031: least-circuit existence and two ownership hypotheses (split to fit the child length limit) implying the posted statement.",
+      "comments": []
+    }
+  ],
+  "newly_merged_relevant": [
+    {
+      "number": 9638,
+      "title": "L-meta-4913",
+      "merged_at": "2026-11-25T04:14:55Z",
+      "merge_commit_sha": "569fb87907d2d39f3685f1bd98af9e1d5c0a99d5",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/9638",
+      "verdicts": [
+        {
+          "created_at": "2026-11-24T21:53:15Z",
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/9638#issuecomment-7145520000",
+          "body": "Checked on the base repository at commit `850bc9bae4`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45483164830\n\nThis is an automatic message. A new commit on this pull request is checked again."
+        }
+      ]
+    },
+    {
+      "number": 9561,
+      "title": "L-meta-4915",
+      "merged_at": "2026-11-25T04:14:41Z",
+      "merge_commit_sha": "fc0cb6497c4165e60daa8418293a9ac0faafd629",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/9561",
+      "verdicts": [
+        {
+          "created_at": "2026-11-24T21:48:21Z",
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/9561#issuecomment-7145411440",
+          "body": "Checked on the base repository at commit `d09e1fbe14`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45482143853\n\nThis is an automatic message. A new commit on this pull request is checked again."
+        }
+      ]
+    },
+    {
+      "number": 5033,
+      "title": "L-meta-1880",
+      "merged_at": "2026-11-25T04:18:01Z",
+      "merge_commit_sha": "1eda360769e0b50a6d2b17bafd86f6035ee34c64",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5033",
+      "verdicts": [
+        {
+          "created_at": "2026-11-24T17:36:42Z",
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/5033#issuecomment-7139449859",
+          "body": "Checked on the base repository at commit `0472306384`.\n\n**FAULT (the run stopped before the checker started; the failed step above says where. This says nothing about the proof.)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45449400544\n\nThis is an automatic message. A new commit on this pull request is checked again."
+        },
+        {
+          "created_at": "2026-11-24T17:49:47Z",
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/5033#issuecomment-7139764479",
+          "body": "Checked on the base repository at commit `0472306384`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45450847716\n\nThis is an automatic message. A new commit on this pull request is checked again."
+        }
+      ]
+    }
+  ],
+  "related_pending_comments": [
+    {
+      "number": 10776,
+      "comments": []
+    },
+    {
+      "number": 10779,
+      "comments": []
+    },
+    {
+      "number": 10811,
+      "comments": []
+    },
+    {
+      "number": 12188,
+      "comments": []
+    },
+    {
+      "number": 12241,
+      "comments": []
+    }
+  ],
+  "audit_limit": "Read-only: no lease allocation, renewal or release; no GitHub mutation; no Lean compilation. New source conclusions inspected, not re-proved."
+}

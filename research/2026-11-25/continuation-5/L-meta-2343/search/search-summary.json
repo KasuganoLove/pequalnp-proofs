@@ -1,0 +1,149 @@
+{
+  "task": "L-meta-2343",
+  "outcome": "No counterexample found; no lower bound proved",
+  "exact_samples": {
+    "incident_positive": 52,
+    "quadrangle_negative": 234,
+    "total": 286,
+    "active_point_count_on_negative": 4,
+    "active_line_count_on_negative": 3
+  },
+  "model": {
+    "original_inputs": 26,
+    "free_prefix": "OR of a list of at most two original-input indices; getD defaults false",
+    "suffix_hypotheses": "Monotone2, input wire indices strictly below27+j, size target below63",
+    "search_restrictions": "Binary AND/OR gates only; fixed last output; same-side free-OR seeds only"
+  },
+  "searches": [
+    {
+      "name": "direct62_suffix",
+      "wall_clock_budget_seconds": 120,
+      "random_seed": 234320261125,
+      "seed_count": 100,
+      "seed_source": "Two63-gate suffix star covers, each with one genuine free OR; delete a further leaf OR and redirect to either input",
+      "one_field_edit_candidates_exhausted": 725400,
+      "reported_total_evaluations": 431380651,
+      "accepted_annealing_moves": 150198512,
+      "annealing_restarts": 35885,
+      "best_false_positive": 0,
+      "best_false_negative": 1,
+      "log": "local_synthesis.log"
+    },
+    {
+      "name": "point_only38_gate_multioutput",
+      "wall_clock_budget_seconds": 120,
+      "random_seed": 38234320261125,
+      "seed_count": 52,
+      "seed_source": "39-gate13-output OR network for plane lines; delete a leaf OR and redirect to either input",
+      "point_sample_rows": 247,
+      "outputs": 13,
+      "constraints_per_output": {
+        "incident_singleton_true": 4,
+        "nonincident_singleton_false": 9,
+        "disjoint_quadrangle_false": 54
+      },
+      "total_output_constraints": 871,
+      "reported_total_evaluations": 9307519,
+      "accepted_annealing_moves": 3133643,
+      "annealing_restarts": 1328,
+      "first_gate_required_raw_OR": true,
+      "full_circuit_template_gates": 63,
+      "suffix_gates_after_free_first_OR": 62,
+      "best_weighted_error_score": 4,
+      "best_original_false_positive": 0,
+      "best_original_false_negative": 1,
+      "log": "multioutput_synthesis.log"
+    }
+  ],
+  "count_interpretation": "Evaluations include repeated candidates and repeated weighted scoring. They are not counts of distinct circuits or an exhaustive global search.",
+  "independent_verification": {
+    "method": "Independent scalar circuit evaluator; full point-subset enumeration",
+    "positive_rows": 52,
+    "quadrangle_negative_rows": 234,
+    "total_rows": 286,
+    "results": [
+      {
+        "file": "baseline_0.json",
+        "suffix_size": 63,
+        "free_or": [
+          13,
+          17
+        ],
+        "rows_checked": 286,
+        "false_negative_count": 0,
+        "false_positive_count": 0,
+        "wrong_positive_edges": [],
+        "wrong_negative_quadrangles": [],
+        "passes_all_rows": true,
+        "is_counterexample_to_2343": false
+      },
+      {
+        "file": "baseline_1.json",
+        "suffix_size": 63,
+        "free_or": [
+          0,
+          1
+        ],
+        "rows_checked": 286,
+        "false_negative_count": 0,
+        "false_positive_count": 0,
+        "wrong_positive_edges": [],
+        "wrong_negative_quadrangles": [],
+        "passes_all_rows": true,
+        "is_counterexample_to_2343": false
+      },
+      {
+        "file": "best-62.json",
+        "suffix_size": 62,
+        "free_or": [
+          13,
+          17
+        ],
+        "rows_checked": 286,
+        "false_negative_count": 1,
+        "false_positive_count": 0,
+        "wrong_positive_edges": [
+          [
+            0,
+            12
+          ]
+        ],
+        "wrong_negative_quadrangles": [],
+        "passes_all_rows": false,
+        "is_counterexample_to_2343": false
+      },
+      {
+        "file": "multioutput-best-suffix.json",
+        "suffix_size": 62,
+        "free_or": [
+          3,
+          9
+        ],
+        "rows_checked": 286,
+        "false_negative_count": 1,
+        "false_positive_count": 0,
+        "wrong_positive_edges": [
+          [
+            1,
+            0
+          ]
+        ],
+        "wrong_negative_quadrangles": [],
+        "passes_all_rows": false,
+        "is_counterexample_to_2343": false
+      }
+    ],
+    "any_counterexample": false
+  },
+  "verification_process_exit_code": 0,
+  "formal_status": "No Lean proof or official checker run for the search artifacts. Successful63-suffix baselines meet the claimed bound; neither62-suffix near miss is a counterexample.",
+  "sources": [
+    "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2343_1.lean",
+    "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2343_509.lean",
+    "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2343_811.lean",
+    "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_3801.lean",
+    "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_4676.lean"
+  ],
+  "no_full_sat_control_repeated": true,
+  "remote_mutations": false
+}

@@ -1,0 +1,8 @@
+elapsed=15 evals=1149925 restarts=164 best=4
+elapsed=30 evals=2321314 restarts=331 best=4
+elapsed=45 evals=3506108 restarts=500 best=4
+elapsed=60 evals=4670068 restarts=666 best=4
+elapsed=75 evals=5841094 restarts=833 best=4
+elapsed=90 evals=7019807 restarts=1001 best=4
+elapsed=105 evals=8176908 restarts=1166 best=4
+DONE no witness; evaluations=9307519 accepted=3133643 restarts=1328 best=4

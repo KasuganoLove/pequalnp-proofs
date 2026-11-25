@@ -1,0 +1,70 @@
+{
+  "README.md": {
+    "bytes": 7721,
+    "sha256": "548aea2f7dd29318f08ae917d9db14cbaf86565804fc593f22154720f3b4bb95"
+  },
+  "baseline_0.json": {
+    "bytes": 2687,
+    "sha256": "edf94f416b6a3f3544ab8fee4457bcee3045571a0023a0f78f4fa009e80d726c"
+  },
+  "baseline_1.json": {
+    "bytes": 2657,
+    "sha256": "f3c69047a1ac0ed17b9f0dbbb105164042ed63ab44679d45e1471ddd46da5dc5"
+  },
+  "best-62.json": {
+    "bytes": 1038,
+    "sha256": "efd2716027fa8709c823c857f434e581311c6e386239caa30a3ea008529555a8"
+  },
+  "child-map.json": {
+    "bytes": 9853,
+    "sha256": "2e7ddb55272c12bd0e0029712176304eb90f56065869d56860b31d1b06e6a084"
+  },
+  "independent-verification.json": {
+    "bytes": 1772,
+    "sha256": "2c37fcf2b8aee51bda6f73b9a9af527b8e5b92675dc0f22da9ce68516eb06083"
+  },
+  "independent-verification.log": {
+    "bytes": 1772,
+    "sha256": "2c37fcf2b8aee51bda6f73b9a9af527b8e5b92675dc0f22da9ce68516eb06083"
+  },
+  "local_synthesis.cpp": {
+    "bytes": 5042,
+    "sha256": "f3c5743060352e9ca16e59769ed30add15189a3955464ea43a6efe7cdbbc7b8c"
+  },
+  "local_synthesis.log": {
+    "bytes": 589,
+    "sha256": "1d4ed3119c83f9749841f89895e064a4e2d7b46cb76bdf3d784bed96e5100436"
+  },
+  "local_synthesis.py": {
+    "bytes": 3793,
+    "sha256": "f4b94a426caaa79750f67d8cc3089d467c78eb0e4d69b1c8d690b35093b4f0ce"
+  },
+  "multioutput-best-suffix.json": {
+    "bytes": 2588,
+    "sha256": "257dc4162425f82626d90973f2f2969352c222bcd5c422e56b1691d911558f84"
+  },
+  "multioutput-best.json": {
+    "bytes": 460,
+    "sha256": "6ba6b8fc3fd8361962d5ba8122d9f76f5867cb6f5d515f5338f3f46726db3ca3"
+  },
+  "multioutput_synthesis.cpp": {
+    "bytes": 4760,
+    "sha256": "95cb2571fbad8f9700dd694a460b1f398185720a730336b8ff854df935a01e64"
+  },
+  "multioutput_synthesis.log": {
+    "bytes": 393,
+    "sha256": "524b70866c18176ade06a015369f0f412f894634b79a2dfefedbff2b36e8627d"
+  },
+  "samples.json": {
+    "bytes": 16994,
+    "sha256": "f6eb2b88c08fc0ea3ec5f4b45ae0a612c3888a3ed336be7e1e9f9e7b089ed59c"
+  },
+  "search-summary.json": {
+    "bytes": 5106,
+    "sha256": "cf2c0001ba667a95943085ac773f95f007126b7a6a8cd1dcecd98eda28939ee6"
+  },
+  "verify_candidates.py": {
+    "bytes": 4395,
+    "sha256": "494d0c7dd54ec9e9787668708e7aaebc542dd71e4f6dcd8fb9ffa58f41ebdba0"
+  }
+}

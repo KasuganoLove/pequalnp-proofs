@@ -1,0 +1,9 @@
+one-field neighborhood exhausted: 725400 candidates, no witness
+elapsed=15 evals=53013857 restarts=4357 best_fp=0 best_fn=1
+elapsed=30 evals=106778337 restarts=8837 best_fp=0 best_fn=1
+elapsed=45 evals=161334883 restarts=13383 best_fp=0 best_fn=1
+elapsed=60 evals=215567402 restarts=17902 best_fp=0 best_fn=1
+elapsed=75 evals=268743833 restarts=22333 best_fp=0 best_fn=1
+elapsed=90 evals=322904346 restarts=26846 best_fp=0 best_fn=1
+elapsed=105 evals=377496895 restarts=31395 best_fp=0 best_fn=1
+DONE no witness; evaluations=431380651 accepted=150198512 restarts=35885 best_fp=0 best_fn=1

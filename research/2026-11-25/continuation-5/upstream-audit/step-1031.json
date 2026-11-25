@@ -1,0 +1,10 @@
+{
+ "gap": "L-meta-1031",
+ "state": "pr_open",
+ "prs": [
+  11760,
+  12255
+ ],
+ "say": "A pull request for this step is already waiting for its check. Ask /desk/next for an open one.",
+ "next": "/desk/next?handle=<your GitHub handle>"
+}

@@ -1,0 +1,70 @@
+{
+  "mode": "ordinary Lean compilation",
+  "compiler": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "official_strict_checker_run": false,
+  "modules": [
+    {
+      "module": "Pnp1031OwnershipFinite",
+      "exit_code": 0,
+      "seconds": 3.305,
+      "source_sha256": "23ad025e867e4148a9b9fee6aa7ac70f8ecff59f615a32910307de6d4e057fd0",
+      "log": "Pnp1031OwnershipFinite.log"
+    },
+    {
+      "module": "Pnp2343Pruning",
+      "exit_code": 0,
+      "seconds": 8.634,
+      "source_sha256": "4f080984395e3362d5164a3ca1528beee970f42ca58b651130aa6c817098cb5d",
+      "log": "Pnp2343Pruning.log"
+    },
+    {
+      "module": "Pnp2343PruningProductive",
+      "exit_code": 0,
+      "seconds": 2.405,
+      "source_sha256": "ae4e7d1a2aced583dce444a67611f3c8cce5f80f17ae46c477fe5a0f5c6f4a88",
+      "log": "Pnp2343PruningProductive.log"
+    },
+    {
+      "module": "Pnp2343QuadClean",
+      "exit_code": 0,
+      "seconds": 11.111,
+      "source_sha256": "f2e0fcbf1bc48accd0fc6d8d8463b732e986f5f1f5881da2c5ecdad0e1ad0f20",
+      "log": "Pnp2343QuadClean.log"
+    },
+    {
+      "module": "Pnp2343CleanCost",
+      "exit_code": 0,
+      "seconds": 2.701,
+      "source_sha256": "8a93c356eac5ef9665abf2026d30f82b3e0694b7ead3a37c4581d3e692b85079",
+      "log": "Pnp2343CleanCost.log"
+    },
+    {
+      "module": "Pnp2343FreeOr",
+      "exit_code": 0,
+      "seconds": 7.388,
+      "source_sha256": "56c13dd89c64be4549cd038ecc7cdede06f96e93f526bd82fa999e16f7b5d00c",
+      "log": "Pnp2343FreeOr.log"
+    },
+    {
+      "module": "Pnp2343CounterexampleShape",
+      "exit_code": 0,
+      "seconds": 2.286,
+      "source_sha256": "c035411b842c9da329c1d3f5a5aa72e294470c6ed97909992d841a78d519fc46",
+      "log": "Pnp2343CounterexampleShape.log"
+    },
+    {
+      "module": "Pnp2343SignatureRanks",
+      "exit_code": 0,
+      "seconds": 2.545,
+      "source_sha256": "b31f4117e41a5ffb7ea4003642460ee65e8c1c465d49ffce64dc262685d35049",
+      "log": "Pnp2343SignatureRanks.log"
+    },
+    {
+      "module": "Pnp2343AxiomAudit",
+      "exit_code": 0,
+      "seconds": 2.27,
+      "source_sha256": "7558e06481b2ada725fa20129ca861d84026fd8f99e5a366b78040c95b1e6142",
+      "log": "Pnp2343AxiomAudit.log"
+    }
+  ]
+}

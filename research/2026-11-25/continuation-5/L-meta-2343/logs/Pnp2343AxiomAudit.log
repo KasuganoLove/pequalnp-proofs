@@ -1,0 +1,6 @@
+'Pnp2343CounterexampleShape.small_normal_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Pnp2343FreeOr.free_or_clean_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp2343Pruning.free_or_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp2343Pruning.least_gate_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Pnp2343SignatureRanks.and_negative_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Pnp2343SignatureRanks.or_positive_rank' depends on axioms: [propext, Classical.choice, Quot.sound]

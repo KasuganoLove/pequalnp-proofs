@@ -1,0 +1,79 @@
+{
+  "method": "Independent scalar circuit evaluator; full point-subset enumeration",
+  "positive_rows": 52,
+  "quadrangle_negative_rows": 234,
+  "total_rows": 286,
+  "results": [
+    {
+      "file": "baseline_0.json",
+      "suffix_size": 63,
+      "free_or": [
+        13,
+        17
+      ],
+      "rows_checked": 286,
+      "false_negative_count": 0,
+      "false_positive_count": 0,
+      "wrong_positive_edges": [],
+      "wrong_negative_quadrangles": [],
+      "passes_all_rows": true,
+      "is_counterexample_to_2343": false
+    },
+    {
+      "file": "baseline_1.json",
+      "suffix_size": 63,
+      "free_or": [
+        0,
+        1
+      ],
+      "rows_checked": 286,
+      "false_negative_count": 0,
+      "false_positive_count": 0,
+      "wrong_positive_edges": [],
+      "wrong_negative_quadrangles": [],
+      "passes_all_rows": true,
+      "is_counterexample_to_2343": false
+    },
+    {
+      "file": "best-62.json",
+      "suffix_size": 62,
+      "free_or": [
+        13,
+        17
+      ],
+      "rows_checked": 286,
+      "false_negative_count": 1,
+      "false_positive_count": 0,
+      "wrong_positive_edges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "wrong_negative_quadrangles": [],
+      "passes_all_rows": false,
+      "is_counterexample_to_2343": false
+    },
+    {
+      "file": "multioutput-best-suffix.json",
+      "suffix_size": 62,
+      "free_or": [
+        3,
+        9
+      ],
+      "rows_checked": 286,
+      "false_negative_count": 1,
+      "false_positive_count": 0,
+      "wrong_positive_edges": [
+        [
+          1,
+          0
+        ]
+      ],
+      "wrong_negative_quadrangles": [],
+      "passes_all_rows": false,
+      "is_counterexample_to_2343": false
+    }
+  ],
+  "any_counterexample": false
+}
