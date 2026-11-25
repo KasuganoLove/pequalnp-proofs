@@ -1,0 +1,13 @@
+{
+  "start_utc": "2026-11-25T09:37:43.508120+00:00",
+  "end_utc": "2026-11-25T09:42:43.553052+00:00",
+  "elapsed_seconds": 300.04493870199803,
+  "solver_exit": 0,
+  "outcome": "UNKNOWN",
+  "time_limit_seconds": 300,
+  "address_space_limit_bytes": 2147483648,
+  "formula": "PEqualNP.Defs.LratEncoding.enc2 11 14 label physicalRows",
+  "cnf_sha256": "c286a7abd561d1eb459190be6033fd8a188d0fd0f7c772e42946da29fe10d95a",
+  "physical_boundary_rows": 24,
+  "formal_unsat_certificate": false
+}

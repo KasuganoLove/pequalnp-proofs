@@ -1,0 +1,12 @@
+{
+  "start_utc": "2026-11-25T09:17:06.934767+00:00",
+  "end_utc": "2026-11-25T09:22:06.987494+00:00",
+  "seconds": 300.05273944000146,
+  "exit_code": 0,
+  "cnf_sha256": "312044659a95802b61d8da32ea967451fcbc2257a2b27b97c97a390398fecdb0",
+  "formal_unsat_certificate": false,
+  "formula": "PEqualNP.Defs.LratEncoding.enc2 14 26 label (positives ++ negatives)",
+  "rows": 58,
+  "clauses": 482401,
+  "outcome": "UNKNOWN: no satisfying model and no unsatisfiability result before the 300-second limit"
+}

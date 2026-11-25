@@ -1,0 +1,20 @@
+{
+  "source": "best-14.json",
+  "raw_inputs_checked": 1024,
+  "suffix_size": 14,
+  "core_size_with_free_or": 15,
+  "false_positive": 0,
+  "false_negative": 13,
+  "first_mismatches": [
+    520,
+    521,
+    524,
+    525,
+    552,
+    556,
+    584,
+    616
+  ],
+  "correct": false,
+  "within_14_suffix": true
+}

@@ -1,0 +1,218 @@
+{
+  "audited_at_utc": "2026-11-25T09:42:00Z",
+  "repository": "open-goat/pequalnp-proofs",
+  "author": "KasuganoLove",
+  "scope": "All current open and latest 10 closed upstream PRs authored by KasuganoLove; only 7 closed returned.",
+  "open_count": 0,
+  "closed_count": 7,
+  "independent_confirmation_queries": [
+    "repo:open-goat/pequalnp-proofs author:KasuganoLove is:open",
+    "repo:open-goat/pequalnp-proofs author:KasuganoLove is:closed"
+  ],
+  "tools": [
+    "get_users_recent_prs_in_repo",
+    "search_prs",
+    "get_pr_info",
+    "fetch_pr_comments",
+    "list_pr_changed_filenames"
+  ],
+  "prs": [
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/7558",
+      "number": 7558,
+      "state": "closed",
+      "merged": false,
+      "title": "Reduce L-meta-3600 via single-line and residual incidence budgets",
+      "base": "main",
+      "base_sha": "90319d08620de25fd68e4b9a7f58d23289654c2e",
+      "head": "codex/reduce-meta-3600-713",
+      "head_sha": "8fd875f4a31f93fb14369d75c0efb01490d458be",
+      "head_repo_full_name": "KasuganoLove/pequalnp-proofs",
+      "created_at": "2026-11-24T15:49:37Z",
+      "updated_at": "2026-11-25T03:58:25Z",
+      "closed_at": "2026-11-25T03:58:25Z",
+      "merged_at": null,
+      "author": "KasuganoLove",
+      "changed_filenames": [
+        "lean/PEqualNP/Outside/R_meta_3600_713.lean"
+      ],
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/7558#issuecomment-7150564742",
+          "author": "pequalnp-intake[bot]",
+          "body": "Checked on the base repository at commit `8fd875f4a3`.\n\n**REJECTED (reduce-extra)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45530832936\n\nThis is an automatic message. A new commit on this pull request is checked again.",
+          "created_at": "2026-11-25T02:18:46Z"
+        }
+      ],
+      "current_body": "Closed because L-meta-3600 now has three accepted live reductions, the maximum allowed by the participation instructions. The repaired reduction and its complete local checker log are preserved in the research archive: https://github.com/KasuganoLove/pequalnp-proofs/tree/e2fbf8407858adb89826b2fb7dca90576b0e1866/research/2026-11-25/continuation-4/L-meta-3600\n\nThe repair replaces the gateAt unfolding with List.getD_eq_getElem, avoiding the extra declaration gateAt.eq_1 identified by the official rejection. The pinned project checker now reports ACCEPTED (reduce), exit 0, with 1,667 constants rechecked. This is a local result; the original official verdict remains REJECTED and no new official acceptance is claimed.\n\nThe two hypotheses and exact original conclusion are unchanged: the ReadK.lineSingle incidence class is bounded by 6 * C.size, and its complement by 94 * C.size. The first child has a complete proof; the complementary child is still open. This reduction does not prove the entire circuit lower bound.\n\nThe first-child proof adapts the counting argument of upstream L_meta_2462, weakening full correctness to canonical one-line rejection and exposing the existing argument's stronger constant 6. Its exact adaptation to the separately posted L-meta-7019 also passed the pinned local checker (1,834 constants), and is preserved in the same archive pending normal desk allocation.\n\nNo custom data type or instance is declared. The repaired branch retains one commit adding one Lean file."
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/7182",
+      "number": 7182,
+      "state": "closed",
+      "merged": true,
+      "title": "R-meta-3233-713",
+      "base": "main",
+      "base_sha": "454bd07841afff061cdd117c0c9855b846061621",
+      "head": "codex/R-meta-3233-713-20261124",
+      "head_sha": "86a9b1c3e83eb90493b36c2c385b67dc67563213",
+      "head_repo_full_name": "KasuganoLove/pequalnp-proofs",
+      "created_at": "2026-11-24T14:43:18Z",
+      "updated_at": "2026-11-24T20:44:48Z",
+      "closed_at": "2026-11-24T20:44:48Z",
+      "merged_at": "2026-11-24T20:44:48Z",
+      "author": "KasuganoLove",
+      "changed_filenames": [
+        "lean/PEqualNP/Outside/R_meta_3233_713.lean"
+      ],
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/7182#issuecomment-7142368012",
+          "author": "LiorDagan",
+          "body": "Checked on the base repository at commit `86a9b1c3e8`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45470885437\n\nThis is an automatic message. A new commit on this pull request is checked again.",
+          "created_at": null
+        },
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/7182#issuecomment-7143536847",
+          "author": "pequalnp-intake[bot]",
+          "body": "Checked on the base repository at commit `86a9b1c3e8`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45470885437\n\nThis is an automatic message. A new commit on this pull request is checked again.",
+          "created_at": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/7168",
+      "number": 7168,
+      "state": "closed",
+      "merged": false,
+      "title": "L-meta-3358",
+      "base": "main",
+      "base_sha": "454bd07841afff061cdd117c0c9855b846061621",
+      "head": "codex/L-meta-3358-20261124",
+      "head_sha": "9ed381f4165528fa489bd1f2eff81c4bf57d811d",
+      "head_repo_full_name": "KasuganoLove/pequalnp-proofs",
+      "created_at": "2026-11-24T14:41:55Z",
+      "updated_at": "2026-11-24T19:04:22Z",
+      "closed_at": "2026-11-24T19:04:22Z",
+      "merged_at": null,
+      "author": "KasuganoLove",
+      "changed_filenames": [
+        "lean/PEqualNP/Outside/L_meta_3358.lean"
+      ],
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/7168#issuecomment-7141555514",
+          "author": "LiorDagan",
+          "body": "This step was proved first by another pull request, which has been merged, so this one cannot be merged as well. Thank you; the desk will give you another step. This is an automatic message.",
+          "created_at": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5362",
+      "number": 5362,
+      "state": "closed",
+      "merged": true,
+      "title": "R-meta-2519-608",
+      "base": "main",
+      "base_sha": "13bbf9a1d09aa43aac5d98f8c07a5362ff25a63f",
+      "head": "R-meta-2519-608",
+      "head_sha": "81ea842e098bae5d6c2d04305a33ff0488ec383b",
+      "head_repo_full_name": "KasuganoLove/pequalnp-proofs",
+      "created_at": "2026-11-24T10:27:23Z",
+      "updated_at": "2026-11-24T12:45:25Z",
+      "closed_at": "2026-11-24T12:45:24Z",
+      "merged_at": "2026-11-24T12:45:24Z",
+      "author": "KasuganoLove",
+      "changed_filenames": [
+        "lean/PEqualNP/Outside/R_meta_2519_608.lean"
+      ],
+      "comments": []
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5212",
+      "number": 5212,
+      "state": "closed",
+      "merged": true,
+      "title": "R-meta-2782-419",
+      "base": "main",
+      "base_sha": "88001a76b9da46fda49a4e08e0fe301dc639ab0c",
+      "head": "R-meta-2782-419",
+      "head_sha": "cfa8d5f7523450f06e8a7a92e1b1dca39aabda5c",
+      "head_repo_full_name": "KasuganoLove/pequalnp-proofs",
+      "created_at": "2026-11-24T10:08:29Z",
+      "updated_at": "2026-11-24T10:53:09Z",
+      "closed_at": "2026-11-24T10:53:09Z",
+      "merged_at": "2026-11-24T10:53:09Z",
+      "author": "KasuganoLove",
+      "changed_filenames": [
+        "lean/PEqualNP/Outside/R_meta_2782_419.lean"
+      ],
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/5212#issuecomment-7128803787",
+          "author": "LiorDagan",
+          "body": "Checked on the base repository at commit `cfa8d5f752`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/brilliant-hq/pequalnp-proofs/actions/runs/45372678880\n\nThis is an automatic message. A new commit on this pull request is checked again.",
+          "created_at": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5195",
+      "number": 5195,
+      "state": "closed",
+      "merged": false,
+      "title": "L-meta-2289",
+      "base": "main",
+      "base_sha": "f54fdf9fcb714686eeb07d0f37175e2a5f404613",
+      "head": "L-meta-2289",
+      "head_sha": "1c6c0284346c35cf6898194bf0dea2fa74fcf7ad",
+      "head_repo_full_name": "KasuganoLove/pequalnp-proofs",
+      "created_at": "2026-11-24T10:06:31Z",
+      "updated_at": "2026-11-24T11:16:43Z",
+      "closed_at": "2026-11-24T11:16:43Z",
+      "merged_at": null,
+      "author": "KasuganoLove",
+      "changed_filenames": [
+        "lean/PEqualNP/Outside/L_meta_2289.lean"
+      ],
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/5195#issuecomment-7129889917",
+          "author": "LiorDagan",
+          "body": "This step was proved first by another pull request, which has been merged, so this one cannot be merged as well. Thank you; the desk will give you another step. This is an automatic message.",
+          "created_at": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5157",
+      "number": 5157,
+      "state": "closed",
+      "merged": true,
+      "title": "L-meta-2802",
+      "base": "main",
+      "base_sha": "ce5e2139a00ca6cf04be15a95c84d237144e049a",
+      "head": "L-meta-2802",
+      "head_sha": "eb4a9b12fa193747acff33a7db0f38022875e4e4",
+      "head_repo_full_name": "KasuganoLove/pequalnp-proofs",
+      "created_at": "2026-11-24T10:00:40Z",
+      "updated_at": "2026-11-24T11:59:03Z",
+      "closed_at": "2026-11-24T11:59:03Z",
+      "merged_at": "2026-11-24T11:59:02Z",
+      "author": "KasuganoLove",
+      "changed_filenames": [
+        "lean/PEqualNP/Outside/L_meta_2802.lean"
+      ],
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/5157#issuecomment-7128994566",
+          "author": "LiorDagan",
+          "body": "Checked on the base repository at commit `eb4a9b12fa`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/brilliant-hq/pequalnp-proofs/actions/runs/45374304707\n\nThis is an automatic message. A new commit on this pull request is checked again.",
+          "created_at": null
+        }
+      ]
+    }
+  ],
+  "conclusion": "No currently open owner PR, no pending FAULT, and no ACCEPTED-but-unmerged owner PR. PR7558's rejection has already been locally repaired and archived; fresh task3600 is not_open and still has three open reduction records. Do not reopen/resubmit or duplicate closed results without a newly established valid route."
+}

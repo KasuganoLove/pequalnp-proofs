@@ -1,0 +1,34 @@
+{
+  "observed_between_utc": [
+    "2026-11-25T09:04:46Z",
+    "2026-11-25T09:06:47Z"
+  ],
+  "repository": {
+    "full_name": "open-goat/pequalnp-proofs",
+    "id": "1468025030",
+    "default_branch": "main",
+    "visibility": "public",
+    "archived": false
+  },
+  "upstream_main_sha": "47900a679d41a55be3f5c8cc842aadf10b51666c",
+  "queries": [
+    {
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-8323\"",
+      "issues": []
+    },
+    {
+      "query": "repo:open-goat/pequalnp-proofs \"L_meta_8323\"",
+      "issues": []
+    },
+    {
+      "query": "repo:open-goat/pequalnp-proofs 8323",
+      "issues": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/8323",
+          "title": "R-meta-3785-17",
+          "task_match": false
+        }
+      ]
+    }
+  ]
+}

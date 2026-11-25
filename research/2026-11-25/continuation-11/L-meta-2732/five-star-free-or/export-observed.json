@@ -1,0 +1,8 @@
+{
+  "ordinary_export_exit": 0,
+  "observed_stdout": "slots=14; rows=24; variables=244733; clauses=74123",
+  "export_source_sha256": "38d865986e0b5ca30d85cb8d72ac5569285f63ca6c5806f308ff306b0ab44722",
+  "defs_lrat_encoding_sha256": "ee92e1cb655165f235f1fd35a7e0deffdbdc25c51802a2f8c6f8accba684eb2e",
+  "cnf_sha256": "c286a7abd561d1eb459190be6033fd8a188d0fd0f7c772e42946da29fe10d95a",
+  "verification_status": "source execution exported the formula; no theorem or unsatisfiability proof checked by this export"
+}

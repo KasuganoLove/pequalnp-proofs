@@ -1,0 +1,27 @@
+{
+  "head_sha": "33a61afa8d2972a676159968e6b0b9940f973baf",
+  "source_sha256": "4a0687272d92a47f45a32d19edf41cf9ecee5a89eb59af23dfc54e0b471f7a2f",
+  "line_count": 3662,
+  "findings": {
+    "canonical_decl": [],
+    "theorem_decls": [],
+    "sorry": [],
+    "admit": [],
+    "axiom": [],
+    "unsafe": [],
+    "native_decide": [],
+    "partial": [
+      {
+        "line": 4,
+        "text": "partial"
+      }
+    ],
+    "initialize": []
+  },
+  "imports": [
+    "import Mathlib.Tactic",
+    "import PEqualNP.Defs"
+  ],
+  "last_nonblank": "end PEqualNP.Outside.L_meta_3451_aux",
+  "method": "Read-only lexical checks and inspection of helper conclusions; no compilation or strict check"
+}

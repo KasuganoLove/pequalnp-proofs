@@ -1,0 +1,10 @@
+{
+  "source": "known-27.json",
+  "inputs_checked": 16384,
+  "size": 27,
+  "false_positive": 0,
+  "false_negative": 0,
+  "first_mismatches": [],
+  "correct": true,
+  "within_26": false
+}

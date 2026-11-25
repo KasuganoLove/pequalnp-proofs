@@ -1,0 +1,177 @@
+{
+  "audit_kind": "Read-only existing-artifact inventory; no new proof, compilation, task operation or network request.",
+  "cached_desk_file": "/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-11/desk-current.json",
+  "cached_desk_sha256": "938814d2bc8dac7eff5bbc6cde59538328eb0b5a68d9b942fcf7eb3d1f1052b3",
+  "desk_updated_at": "2026-11-25T09:04:37.107Z",
+  "source_url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "candidates": [
+    {
+      "id": "L-meta-2534",
+      "observed": "Absent from current gaps, checked and withdrawn sections; no open status inferred."
+    },
+    {
+      "id": "L-meta-2604",
+      "observed": "Absent from current gaps, checked and withdrawn sections; no open status inferred."
+    },
+    {
+      "id": "L-meta-2798",
+      "observed": "Absent from current gaps, checked and withdrawn sections; no open status inferred."
+    },
+    {
+      "id": "L-meta-2982",
+      "checked": {
+        "id": "L-meta-2982",
+        "file": "lean/PEqualNP/Outside/L_meta_2982.lean",
+        "file_sha256": "e6e55c7ce806e6bd76d0c43a7861964dfb1fe04b112b9013f3888bcd5e3ab5a9"
+      }
+    },
+    {
+      "id": "L-meta-3358",
+      "checked": {
+        "id": "L-meta-3358",
+        "file": "lean/PEqualNP/Outside/L_meta_3358.lean",
+        "file_sha256": "80567be79b1f37774b3a827aa0695c9deec03f791c2805db58aaf65e29a4fcec"
+      }
+    },
+    {
+      "id": "L-meta-3438",
+      "checked": {
+        "id": "L-meta-3438",
+        "file": "lean/PEqualNP/Outside/L_meta_3438.lean",
+        "file_sha256": "08ca21754016eeb6abe08d92e23f5d3879e9c022285157d575c6053cff26c3b1"
+      }
+    },
+    {
+      "id": "L-meta-3233",
+      "checked": {
+        "id": "L-meta-3233",
+        "file": "lean/PEqualNP/Outside/L_meta_3233.lean",
+        "file_sha256": "2a51ea9c7893dd21193b88f9d17001251588412871e481ac3295eda60a5b7377"
+      }
+    },
+    {
+      "id": "L-meta-3600",
+      "observed": "Absent from current gaps, checked and withdrawn sections; no open status inferred."
+    },
+    {
+      "id": "L-meta-2768",
+      "checked": {
+        "id": "L-meta-2768",
+        "file": "lean/PEqualNP/Outside/L_meta_2768.lean",
+        "file_sha256": "1fb383901113e73694ff914135cc5adf992d891ab046d3a5d0a0bb17a7818d34"
+      }
+    },
+    {
+      "id": "L-meta-2802",
+      "checked": {
+        "id": "L-meta-2802",
+        "file": "lean/PEqualNP/Outside/L_meta_2802.lean",
+        "file_sha256": "ecd87640c283032ec067fad68f8e1aabfd2cbca5b5d485bf3eac779afef7c707"
+      }
+    },
+    {
+      "id": "L-meta-2289",
+      "checked": {
+        "id": "L-meta-2289",
+        "file": "lean/PEqualNP/Outside/L_meta_2289.lean",
+        "file_sha256": "6025ef76cb8c5600e0bc35dd2404f14518ac6b433482d4887680a03b97749f00"
+      }
+    },
+    {
+      "id": "L-meta-7019",
+      "checked": {
+        "id": "L-meta-7019",
+        "file": "lean/PEqualNP/Outside/L_meta_7019.lean",
+        "file_sha256": "63530c1d9dcc74ecdb4bb85e2d2fb621324623a40281b9b50f19ac2f4aee1c5c"
+      }
+    },
+    {
+      "id": "L-meta-8470",
+      "checked": {
+        "id": "L-meta-8470",
+        "file": "lean/PEqualNP/Outside/L_meta_8470.lean",
+        "file_sha256": "445ebfbd528d66ff58712f902023eeb078f8334a9ba142cfeff769c0b729c91e"
+      }
+    },
+    {
+      "id": "L-meta-8323",
+      "gaps": {
+        "id": "L-meta-8323",
+        "file": "lean/PEqualNP/Outside/L_meta_8323.lean",
+        "depth": 2,
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    },
+    {
+      "id": "L-meta-1031",
+      "gaps": {
+        "id": "L-meta-1031",
+        "title": "On graphs with no triangle and no 4-cycle, some least AND/OR circuit of fan-in two for the edge function has every AND gate owning a star of edges",
+        "file": "lean/PEqualNP/Outside/L_meta_1031.lean",
+        "depth": 0,
+        "reductions_live": 3,
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    },
+    {
+      "id": "L-meta-2343",
+      "gaps": {
+        "id": "L-meta-2343",
+        "title": "A step toward: Plane of order 3: every AND/OR list of fan-in at most two accepting every incident point-line input and rejecting every quadrangle input has at least 64 gates (step 2 of 2)",
+        "file": "lean/PEqualNP/Outside/L_meta_2343.lean",
+        "depth": 1,
+        "reductions_live": 3,
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    },
+    {
+      "id": "L-meta-5126",
+      "gaps": {
+        "id": "L-meta-5126",
+        "title": "Rung two, one-hot-off dirt: if no least AND/OR fan-in-two 4-cycle-free bipartite edge circuit has one dirty AND, none with one-hot-off dirt has two",
+        "file": "lean/PEqualNP/Outside/L_meta_5126.lean",
+        "depth": 0,
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    },
+    {
+      "id": "L-meta-1884",
+      "gaps": {
+        "id": "L-meta-1884",
+        "title": "A step toward: Petersen graph: no circuit of AND, OR (fan-in two) and NOT gates with at most 19 gates computes its edge function (step 1 of 4)",
+        "file": "lean/PEqualNP/Outside/L_meta_1884.lean",
+        "depth": 1,
+        "reductions_live": 3,
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    },
+    {
+      "id": "L-meta-2590",
+      "gaps": {
+        "id": "L-meta-2590",
+        "title": "A step toward: Petersen graph: no circuit of AND, OR (fan-in two) and NOT gates with at most 19 gates computes its edge function (step 1 of 2)",
+        "file": "lean/PEqualNP/Outside/L_meta_2590.lean",
+        "depth": 1,
+        "reductions_live": 3,
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    },
+    {
+      "id": "L-gct-232",
+      "gaps": {
+        "id": "L-gct-232",
+        "title": "Probe: no three-dimensional space of 4 x 4 complex symmetric matrices keeps the permanent of the all-ones matrix plus it at 24",
+        "file": "lean/PEqualNP/Outside/L_gct_232.lean",
+        "depth": 0,
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    }
+  ]
+}

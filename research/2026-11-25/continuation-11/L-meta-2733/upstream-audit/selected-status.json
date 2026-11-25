@@ -1,0 +1,600 @@
+{
+  "updated_at": "2026-11-25T09:10:16.320Z",
+  "repo": "https://github.com/open-goat/pequalnp-proofs",
+  "gaps": [
+    {
+      "id": "L-meta-582",
+      "title": "Find a circuit of AND and OR gates with at most 26 gates for 'both ends of some edge are true' on the Heawood graph, or show none exists",
+      "statement": "∃ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C ∧ C.size ≤ 26 ∧ (∀ x : Fin 14 → Bool, (C.eval (List.ofFn x) = true ↔ ∃ u v : Fin 14, (u.val, v.val) ∈ ([(0, 7), (0, 8), (0, 10), (1, 7), (1, 9), (1, 13), (2, 8), (2, 12), (2, 13), (3, 7), (3, 11), (3, 12), (4, 10), (4, 11), (4, 13), (5, 9), (5, 10), (5, 12), (6, 8), (6, 9), (6, 11)] : List (ℕ × ℕ)) ∧ x u = true ∧ x v = true))",
+      "file": "lean/PEqualNP/Outside/L_meta_582.lean",
+      "module": "PEqualNP.Outside.L_meta_582",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Why the attack needs it: one of the smallest graphs with every vertex on cycles where the least size without NOT gates is not known; it tests the count where every argument of the line stops; needed by seat-meta-1 and seat-meta-2",
+      "context": "SKETCH: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully written encoding. Statement elaborates with import PEqualNP.Defs. No sorry, no new axiom. Own namespace for every declaration.",
+      "dead": [],
+      "weight": 93,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 0,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully written encoding. Statement elaborates with import PEqualNP.Defs. No sorry, no new axiom. Own namespace for every declaration.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2732",
+      "title": "A step toward: Find a circuit of AND and OR gates with at most 26 gates for 'both ends of some edge are true' on the Heawood graph, or show none exists (step 1 of 2)",
+      "statement": "have x1 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))]; have x2 : (Fin (14 : ℕ) → Bool) → Bool := fun (x2 : Fin (14 : ℕ) → Bool) => Decidable.decide (∃ (x3 : Fin (14 : ℕ)) (x4 : Fin (14 : ℕ)), (↑x3, ↑x4) ∈ x1 ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true); have x3 : ℕ → ℕ → ℕ → ℕ → ℕ := fun (x3 x4 x5 x6 : ℕ) => ((15 : ℕ) * Min.min x3 x4 + Max.max x3 x4) * (225 : ℕ) + ((15 : ℕ) * Min.min x5 x6 + Max.max x5 x6); have x4 : Equiv.Perm (Fin (14 : ℕ)) → Fin (15 : ℕ) → ℕ := fun (x4 : Equiv.Perm (Fin (14 : ℕ))) (x5 : Fin (15 : ℕ)) => if ↑x5 < (14 : ℕ) then ↑(x4 (Fin.ofNat (14 : ℕ) ↑x5)) else (14 : ℕ); ∃ (x5 : Fin (14 : ℕ)) (x6 : Fin (14 : ℕ)) (x7 : Fin (15 : ℕ)) (x8 : Fin (15 : ℕ)) (x9 : PEqualNP.CircuitLowerBounds.GateOp) (x10 : PEqualNP.CircuitLowerBounds.GateOp) (x11 : PEqualNP.CircuitLowerBounds.Circuit),   x5 < x6 ∧     x7 < x8 ∧       (x9 = PEqualNP.CircuitLowerBounds.GateOp.and ∨ x9 = PEqualNP.CircuitLowerBounds.GateOp.or) ∧         (x10 = PEqualNP.CircuitLowerBounds.GateOp.and ∨ x10 = PEqualNP.CircuitLowerBounds.GateOp.or) ∧           (∀ (x12 : Equiv.Perm (Fin (14 : ℕ))), (∀ (x13 : Fin (14 : ℕ) → Bool), x2 (x13 ∘ ⇑x12) = x2 x13) → x3 ↑x5 ↑x6 ↑x7 ↑x8 ≤ x3 (↑(x12 x5)) (↑(x12 x6)) (x4 x12 x7) (x4 x12 x8)) ∧             PEqualNP.MetaComplexity.Monotone2 x11 ∧               x11.size ≤ (24 : ℕ) ∧                 ∀ (x12 : Fin (14 : ℕ) → Bool),                   have x13 : List Bool := List.ofFn x12 ++ [x9.eval [x12 x5, x12 x6]];                   x11.eval (x13 ++ [x10.eval [x13.getD (↑x7) Bool.false, x13.getD (↑x8) Bool.false]]) = x2 x12",
+      "file": "lean/PEqualNP/Outside/L_meta_2732.lean",
+      "module": "PEqualNP.Outside.L_meta_2732",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 1 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 93,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 1 of 2 of a checked cut of L-meta-582. Its sibling steps: L-meta-2734. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully written enco",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2876",
+      "title": "A step toward: Find a circuit of AND and OR gates with at most 26 gates for 'both ends of some edge are true' on the Heawood graph, or show none exists (step 1 of 3)",
+      "statement": "have x1 : (Fin (14 : ℕ) → Bool) → Prop := fun (x1 : Fin (14 : ℕ) → Bool) => ∃ (x2 : Fin (14 : ℕ)) (x3 : Fin (14 : ℕ)), ([(1408 : ℕ), (8832 : ℕ), (12544 : ℕ), (6272 : ℕ), (11264 : ℕ), (5632 : ℕ), (2816 : ℕ)].getD ↑x2 (0 : ℕ)).testBit ↑x3 = Bool.true ∧ x1 x2 = Bool.true ∧ x1 x3 = Bool.true; ∃ (x2 : PEqualNP.CircuitLowerBounds.Circuit) (x3 : PEqualNP.CircuitLowerBounds.GateOp) (x4 : ℕ) (x5 : ℕ) (x6 : ℕ × ℕ),   PEqualNP.MetaComplexity.Monotone2 x2 ∧     x2.size ≤ (25 : ℕ) ∧       (14 : ℕ) ≤ x4 ∧         x4 < x5 ∧           x5 < (14 : ℕ) + x2.size ∧             (x3 = PEqualNP.CircuitLowerBounds.GateOp.or ∧ x6 ∈ [((129 : ℕ), (130 : ℕ)), ((129 : ℕ), (260 : ℕ)), ((129 : ℕ), (544 : ℕ))] ∨ x3 = PEqualNP.CircuitLowerBounds.GateOp.and ∧ x6 ∈ [((127 : ℕ), (244 : ℕ)), ((127 : ℕ), (432 : ℕ)), ((127 : ℕ), (3716 : ℕ)), ((127 : ℕ), (16256 : ℕ)), ((244 : ℕ), (314 : ℕ)), ((244 : ℕ), (432 : ℕ)), ((244 : ℕ), (792 : ℕ)), ((244 : ℕ), (1290 : ℕ)), ((244 : ℕ), (3716 : ℕ)), ((244 : ℕ), (7426 : ℕ)), ((432 : ℕ), (660 : ℕ)), ((432 : ℕ), (1220 : ℕ)), ((432 : ℕ), (1548 : ℕ))]) ∧               have x7 : ℕ → (Fin (14 : ℕ) → Bool) → Bool := fun (x7 : ℕ) (x8 : Fin (14 : ℕ) → Bool) => (x2.wires (List.ofFn x8)).getD x7 Bool.false;               have x8 : Fin (14 : ℕ) → Bool := fun (x8 : Fin (14 : ℕ)) => x6.1.testBit ↑x8;               have x9 : Fin (14 : ℕ) → Bool := fun (x9 : Fin (14 : ℕ)) => x6.2.testBit ↑x9;               have x10 : (Fin (14 : ℕ) → Bool) → Bool := fun (x10 : Fin (14 : ℕ) → Bool) => x3.eval [x7 x4 x10, x7 x5 x10];               x7 x4 x8 ≠ x7 x5 x8 ∧ x7 x4 x8 = x7 x5 x9 ∧ x7 x5 x8 = x7 x4 x9 ∧ (∀ (x11 : Fin (14 : ℕ) → Bool), Minimal x1 x11 → x3 = PEqualNP.CircuitLowerBounds.GateOp.or ∧ (x11 = x8 ∨ x11 = x9) ∨ x10 x11 = Bool.true) ∧ ∀ (x11 : Fin (14 : ℕ) → Bool), Maximal (fun (x12 : Fin (14 : ℕ) → Bool) => ¬x1 x12) x11 → x3 = PEqualNP.CircuitLowerBounds.GateOp.and ∧ (x11 = x8 ∨ x11 = x9) ∨ x10 x11 = Bool.false",
+      "file": "lean/PEqualNP/Outside/L_meta_2876.lean",
+      "module": "PEqualNP.Outside.L_meta_2876",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 2 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 93,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 1 of 3 of a checked cut of L-meta-582. Its sibling steps: L-meta-2878, L-meta-2880. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully",
+      "pr_open": 2,
+      "pr_numbers": [
+        6879,
+        7187
+      ]
+    },
+    {
+      "id": "L-meta-3004",
+      "title": "A step toward: Find a circuit of AND and OR gates with at most 26 gates for 'both ends of some edge are true' on the Heawood graph, or show none exists (step 1 of 3)",
+      "statement": "have x1 : List ℕ := [(95229015649943559 : ℕ), (63038587666488 : ℕ), (256462815680 : ℕ), (4292497062759936 : ℕ), (8521481482240 : ℕ), (14003410187812864 : ℕ), (55389823207997440 : ℕ), (189297016294081033 : ℕ), (155696362464477250 : ℕ), (218994303132270608 : ℕ), (183565875465490436 : ℕ), (229736628138025984 : ℕ), (270286071508633728 : ℕ), (288160007407550752 : ℕ)]; ∃ (x2 : List ℕ), x2.length ≤ (26 : ℕ) ∧ x2.Nodup ∧ (∀ x3 ∈ x2, x3 ∉ x1) ∧ (2097151 : ℕ) ∈ x2 ∧ ∀ (x3 : Fin x2.length), ∃ x4 ∈ x1 ++ List.take (↑x3) x2, ∃ x5 ∈ x1 ++ List.take (↑x3) x2, x2.get x3 = x4 &&& x5 ∨ x2.get x3 = x4 ||| x5",
+      "file": "lean/PEqualNP/Outside/L_meta_3004.lean",
+      "module": "PEqualNP.Outside.L_meta_3004",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 2 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 93,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 1 of 3 of a checked cut of L-meta-582. Its sibling steps: L-meta-3006, L-meta-3008. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-971",
+      "title": "Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates",
+      "statement": "∀ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C → (∀ x : Fin 14 → Bool, (C.eval (List.ofFn x) = true ↔ ∃ u v : Fin 14, (u.val, v.val) ∈ ([(0, 7), (0, 8), (0, 10), (1, 7), (1, 9), (1, 13), (2, 8), (2, 12), (2, 13), (3, 7), (3, 11), (3, 12), (4, 10), (4, 11), (4, 13), (5, 9), (5, 10), (5, 12), (6, 8), (6, 9), (6, 11)] : List (ℕ × ℕ)) ∧ x u = true ∧ x v = true)) → 27 ≤ C.size",
+      "file": "lean/PEqualNP/Outside/L_meta_971.lean",
+      "module": "PEqualNP.Outside.L_meta_971",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Shows the Heawood graph's edge function cannot be done one gate below the least-cover circuit.",
+      "context": "SKETCH: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully written encoding. Statement elaborates with import PEqualNP.Defs. No sorry, no new axiom. Own namespace for every declaration.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 0,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully written encoding. Statement elaborates with import PEqualNP.Defs. No sorry, no new axiom. Own namespace for every declaration.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-972",
+      "title": "Every circuit of AND and OR gates for the point-line graph of the projective plane of order 3 has at least 64 gates",
+      "statement": "∀ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C → (∀ x : Fin 26 → Bool, (C.eval (List.ofFn x) = true ↔ ∃ u v : Fin 26, (u.val, v.val) ∈ ([(0, 13), (0, 14), (0, 16), (0, 22), (1, 13), (1, 15), (1, 21), (1, 25), (2, 14), (2, 20), (2, 24), (2, 25), (3, 13), (3, 19), (3, 23), (3, 24), (4, 18), (4, 22), (4, 23), (4, 25), (5, 17), (5, 21), (5, 22), (5, 24), (6, 16), (6, 20), (6, 21), (6, 23), (7, 15), (7, 19), (7, 20), (7, 22), (8, 14), (8, 18), (8, 19), (8, 21), (9, 13), (9, 17), (9, 18), (9, 20), (10, 16), (10, 17), (10, 19), (10, 25), (11, 15), (11, 16), (11, 18), (11, 24), (12, 14), (12, 15), (12, 17), (12, 23)] : List (ℕ × ℕ)) ∧ x u = true ∧ x v = true)) → 64 ≤ C.size",
+      "file": "lean/PEqualNP/Outside/L_meta_972.lean",
+      "module": "PEqualNP.Outside.L_meta_972",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Shows the order-3 plane's point-line graph cannot be done one gate below the least-cover circuit.",
+      "context": "SKETCH: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. SKETCH: a lower bound for every AND/OR circuit of fan-in two for this graph with no 4-cycle (26 vertices, 52 edges). The opposite step asks for a circuit with at most 63 gates. Statement elaborates with import PEqualNP.Defs. Namespace: PEqualNP.MetaComplexity. No sorry, no new axiom. Own namespace for every declaration.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 0,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. SKETCH: a lower bound for every AND/OR circuit of fan-in two for this graph with no 4-cycle (26 vertices, 52 edges). The opposite step asks for a circuit with at most 63 gates. Statement elaborates with import PEqualNP.Defs. Namespace: PEqualNP.MetaComplexity. No sorry, no new axiom. Own namespace for every declaration.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-1985",
+      "title": "A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 3 of 3)",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x1 → PEqualNP.MetaComplexity.NestedCover.ReadsBack (14 : ℕ) x1 → (∃ (x4 : ℕ) (x5 : ℕ), (PEqualNP.MetaComplexity.NestedCover.gateAt x1 x4).op = PEqualNP.CircuitLowerBounds.GateOp.and ∧ (PEqualNP.MetaComplexity.NestedCover.gateAt x1 x5).op = PEqualNP.CircuitLowerBounds.GateOp.and ∧ PEqualNP.EdgeOwnership.InCone (14 : ℕ) x1 x4 x5) → (∀ (x5 : Fin (14 : ℕ) → Bool), x1.eval (List.ofFn x5) = Bool.true ↔ ∃ (x6 : Fin (14 : ℕ)) (x7 : Fin (14 : ℕ)), (↑x6, ↑x7) ∈ [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))] ∧ x5 x6 = Bool.true ∧ x5 x7 = Bool.true) → (27 : ℕ) ≤ x1.size",
+      "file": "lean/PEqualNP/Outside/L_meta_1985.lean",
+      "module": "PEqualNP.Outside.L_meta_1985",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 2 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 3 of 3 of a checked cut of L-meta-2706. Its sibling steps: L-meta-1981, L-meta-1983. Together they give the parent; the parent's own sketch: Step 1 of 2 of a checked cut of L-meta-971. Its sibling steps: L-meta-2708. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, shardin",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2276",
+      "title": "A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 2 of 4)",
+      "statement": "have x1 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))]; have x2 : (Fin (14 : ℕ) → Bool) → Prop := fun (x2 : Fin (14 : ℕ) → Bool) => ∃ (x3 : Fin (14 : ℕ)) (x4 : Fin (14 : ℕ)), (↑x3, ↑x4) ∈ x1 ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x3 : (Fin (14 : ℕ) → Bool) → Prop := fun (x3 : Fin (14 : ℕ) → Bool) => (x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.true → ¬x2 (Function.update x3 x4 Bool.false)) ∨ ¬x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.false → x2 (Function.update x3 x4 Bool.true); ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x4 → (∀ (x6 : Fin (14 : ℕ) → Bool), x3 x6 → x6 (0 : Fin (14 : ℕ)) = Bool.false ∨ x6 (7 : Fin (14 : ℕ)) = Bool.false → (x4.eval (List.ofFn x6) = Bool.true ↔ x2 x6)) → x4.eval (List.ofFn fun (x7 : Fin (14 : ℕ)) => Decidable.decide (x7 = (0 : Fin (14 : ℕ)) ∨ x7 = (7 : Fin (14 : ℕ)))) = Bool.false → (25 : ℕ) ≤ x4.size",
+      "file": "lean/PEqualNP/Outside/L_meta_2276.lean",
+      "module": "PEqualNP.Outside.L_meta_2276",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 3 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 2 of 4 of a checked cut of L-meta-971. Its sibling steps: L-meta-2274, L-meta-2278, L-meta-2280. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2278",
+      "title": "A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 3 of 4)",
+      "statement": "have x1 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))]; have x2 : (Fin (14 : ℕ) → Bool) → Prop := fun (x2 : Fin (14 : ℕ) → Bool) => ∃ (x3 : Fin (14 : ℕ)) (x4 : Fin (14 : ℕ)), (↑x3, ↑x4) ∈ x1 ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x3 : (Fin (14 : ℕ) → Bool) → Prop := fun (x3 : Fin (14 : ℕ) → Bool) => (x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.true → ¬x2 (Function.update x3 x4 Bool.false)) ∨ ¬x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.false → x2 (Function.update x3 x4 Bool.true); ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x4 → (∀ (x6 : Fin (14 : ℕ) → Bool), x3 x6 → (x4.eval (List.ofFn x6 ++ [PEqualNP.CircuitLowerBounds.GateOp.or.eval [x6 (0 : Fin (14 : ℕ)), x6 (1 : Fin (14 : ℕ))]]) = Bool.true ↔ x2 x6)) → (26 : ℕ) ≤ x4.size",
+      "file": "lean/PEqualNP/Outside/L_meta_2278.lean",
+      "module": "PEqualNP.Outside.L_meta_2278",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 3 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 3 of 4 of a checked cut of L-meta-971. Its sibling steps: L-meta-2274, L-meta-2276, L-meta-2280. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2280",
+      "title": "A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 4 of 4)",
+      "statement": "have x1 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))]; have x2 : (Fin (14 : ℕ) → Bool) → Prop := fun (x2 : Fin (14 : ℕ) → Bool) => ∃ (x3 : Fin (14 : ℕ)) (x4 : Fin (14 : ℕ)), (↑x3, ↑x4) ∈ x1 ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x3 : (Fin (14 : ℕ) → Bool) → Prop := fun (x3 : Fin (14 : ℕ) → Bool) => (x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.true → ¬x2 (Function.update x3 x4 Bool.false)) ∨ ¬x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.false → x2 (Function.update x3 x4 Bool.true); ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit) (x5 : Fin (14 : ℕ)), x5 = (7 : Fin (14 : ℕ)) ∨ x5 = (9 : Fin (14 : ℕ)) → PEqualNP.MetaComplexity.Monotone2 x4 → (∀ (x8 : Fin (14 : ℕ) → Bool), x3 x8 → (x4.eval (List.ofFn x8 ++ [PEqualNP.CircuitLowerBounds.GateOp.or.eval [x8 (0 : Fin (14 : ℕ)), x8 x5]]) = Bool.true ↔ x2 x8)) → (26 : ℕ) ≤ x4.size",
+      "file": "lean/PEqualNP/Outside/L_meta_2280.lean",
+      "module": "PEqualNP.Outside.L_meta_2280",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 3 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 4 of 4 of a checked cut of L-meta-971. Its sibling steps: L-meta-2274, L-meta-2276, L-meta-2278. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2706",
+      "title": "A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 1 of 2)",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 x3 : ℕ),   PEqualNP.MetaComplexity.Monotone2 x1 →     x2 < (14 : ℕ) + x1.size →       x3 < (14 : ℕ) + x1.size →         have x7 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))];         have x8 : (Fin (14 : ℕ) → Bool) → Prop := fun (x8 : Fin (14 : ℕ) → Bool) => ∃ (x9 : Fin (14 : ℕ)) (x10 : Fin (14 : ℕ)), (↑x9, ↑x10) ∈ x7 ∧ x8 x9 = Bool.true ∧ x8 x10 = Bool.true;         have x9 : ℕ → (Fin (14 : ℕ) → Bool) → Bool := fun (x9 : ℕ) (x10 : Fin (14 : ℕ) → Bool) => (x1.wires (List.ofFn x10)).getD x9 Bool.false;         (∀ (x10 : Fin (14 : ℕ) → Bool), x8 x10 → x9 x2 x10 = Bool.true ∨ x9 x3 x10 = Bool.true) → (∀ (x11 : Fin (14 : ℕ) → Bool), ¬x8 x11 → x9 x2 x11 = Bool.false ∧ x9 x3 x11 = Bool.false) → (∃ (x12 : Fin (14 : ℕ) → Bool), x8 x12 ∧ x9 x2 x12 = Bool.true ∧ x9 x3 x12 = Bool.false) → (∃ (x13 : Fin (14 : ℕ) → Bool), x8 x13 ∧ x9 x3 x13 = Bool.true ∧ x9 x2 x13 = Bool.false) → (26 : ℕ) ≤ x1.size",
+      "file": "lean/PEqualNP/Outside/L_meta_2706.lean",
+      "module": "PEqualNP.Outside.L_meta_2706",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 1 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 1 of 2 of a checked cut of L-meta-971. Its sibling steps: L-meta-2708. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully written enco",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2708",
+      "title": "A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 2 of 2)",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 x3 : ℕ),   PEqualNP.MetaComplexity.Monotone2 x1 →     x2 < (14 : ℕ) + x1.size →       x3 < (14 : ℕ) + x1.size →         have x7 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))];         have x8 : (Fin (14 : ℕ) → Bool) → Prop := fun (x8 : Fin (14 : ℕ) → Bool) => ∃ (x9 : Fin (14 : ℕ)) (x10 : Fin (14 : ℕ)), (↑x9, ↑x10) ∈ x7 ∧ x8 x9 = Bool.true ∧ x8 x10 = Bool.true;         have x9 : ℕ → (Fin (14 : ℕ) → Bool) → Bool := fun (x9 : ℕ) (x10 : Fin (14 : ℕ) → Bool) => (x1.wires (List.ofFn x10)).getD x9 Bool.false;         (∀ (x10 : Fin (14 : ℕ) → Bool), x8 x10 → x9 x2 x10 = Bool.true ∧ x9 x3 x10 = Bool.true) → (∀ (x11 : Fin (14 : ℕ) → Bool), ¬x8 x11 → x9 x2 x11 = Bool.false ∨ x9 x3 x11 = Bool.false) → (∃ (x12 : Fin (14 : ℕ) → Bool), ¬x8 x12 ∧ x9 x2 x12 = Bool.false ∧ x9 x3 x12 = Bool.true) → (∃ (x13 : Fin (14 : ℕ) → Bool), ¬x8 x13 ∧ x9 x3 x13 = Bool.false ∧ x9 x2 x13 = Bool.true) → (26 : ℕ) ≤ x1.size",
+      "file": "lean/PEqualNP/Outside/L_meta_2708.lean",
+      "module": "PEqualNP.Outside.L_meta_2708",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 1 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 1,
+      "sketch": "Step 2 of 2 of a checked cut of L-meta-971. Its sibling steps: L-meta-2706. Together they give the parent; the parent's own sketch: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. the route is notes/cut/arc/SAT-SKETCH.md: row reduction by monotonicity (21 minimal true rows, the maximal false rows), symmetry breaking by the collineation group of order 168 with each clause justified, sharding by the first two gates. A found circuit is evaluated on all 2^14 inputs; a none-answer comes with a DRAT or LRAT proof on the fully written enco",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-1986",
+      "title": "It is false that: A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 3 of 3)",
+      "statement": "¬ (∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x1 → PEqualNP.MetaComplexity.NestedCover.ReadsBack (14 : ℕ) x1 → (∃ (x4 : ℕ) (x5 : ℕ), (PEqualNP.MetaComplexity.NestedCover.gateAt x1 x4).op = PEqualNP.CircuitLowerBounds.GateOp.and ∧ (PEqualNP.MetaComplexity.NestedCover.gateAt x1 x5).op = PEqualNP.CircuitLowerBounds.GateOp.and ∧ PEqualNP.EdgeOwnership.InCone (14 : ℕ) x1 x4 x5) → (∀ (x5 : Fin (14 : ℕ) → Bool), x1.eval (List.ofFn x5) = Bool.true ↔ ∃ (x6 : Fin (14 : ℕ)) (x7 : Fin (14 : ℕ)), (↑x6, ↑x7) ∈ [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))] ∧ x5 x6 = Bool.true ∧ x5 x7 = Bool.true) → (27 : ℕ) ≤ x1.size)",
+      "file": "lean/PEqualNP/Outside/L_meta_1986.lean",
+      "module": "PEqualNP.Outside.L_meta_1986",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-1985; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2031",
+      "title": "It is false that: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates",
+      "statement": "¬ (∀ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C → (∀ x : Fin 14 → Bool, (C.eval (List.ofFn x) = true ↔ ∃ u v : Fin 14, (u.val, v.val) ∈ ([(0, 7), (0, 8), (0, 10), (1, 7), (1, 9), (1, 13), (2, 8), (2, 12), (2, 13), (3, 7), (3, 11), (3, 12), (4, 10), (4, 11), (4, 13), (5, 9), (5, 10), (5, 12), (6, 8), (6, 9), (6, 11)] : List (ℕ × ℕ)) ∧ x u = true ∧ x v = true)) → 27 ≤ C.size)",
+      "file": "lean/PEqualNP/Outside/L_meta_2031.lean",
+      "module": "PEqualNP.Outside.L_meta_2031",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows that a listed statement is false.",
+      "context": "The literal negation of another statement of the fleet; a counterexample to that statement proves it.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 0,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-971; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2277",
+      "title": "It is false that: A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 2 of 4)",
+      "statement": "¬ (have x1 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))]; have x2 : (Fin (14 : ℕ) → Bool) → Prop := fun (x2 : Fin (14 : ℕ) → Bool) => ∃ (x3 : Fin (14 : ℕ)) (x4 : Fin (14 : ℕ)), (↑x3, ↑x4) ∈ x1 ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x3 : (Fin (14 : ℕ) → Bool) → Prop := fun (x3 : Fin (14 : ℕ) → Bool) => (x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.true → ¬x2 (Function.update x3 x4 Bool.false)) ∨ ¬x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.false → x2 (Function.update x3 x4 Bool.true); ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x4 → (∀ (x6 : Fin (14 : ℕ) → Bool), x3 x6 → x6 (0 : Fin (14 : ℕ)) = Bool.false ∨ x6 (7 : Fin (14 : ℕ)) = Bool.false → (x4.eval (List.ofFn x6) = Bool.true ↔ x2 x6)) → x4.eval (List.ofFn fun (x7 : Fin (14 : ℕ)) => Decidable.decide (x7 = (0 : Fin (14 : ℕ)) ∨ x7 = (7 : Fin (14 : ℕ)))) = Bool.false → (25 : ℕ) ≤ x4.size)",
+      "file": "lean/PEqualNP/Outside/L_meta_2277.lean",
+      "module": "PEqualNP.Outside.L_meta_2277",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-2276; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2279",
+      "title": "It is false that: A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 3 of 4)",
+      "statement": "¬ (have x1 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))]; have x2 : (Fin (14 : ℕ) → Bool) → Prop := fun (x2 : Fin (14 : ℕ) → Bool) => ∃ (x3 : Fin (14 : ℕ)) (x4 : Fin (14 : ℕ)), (↑x3, ↑x4) ∈ x1 ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x3 : (Fin (14 : ℕ) → Bool) → Prop := fun (x3 : Fin (14 : ℕ) → Bool) => (x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.true → ¬x2 (Function.update x3 x4 Bool.false)) ∨ ¬x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.false → x2 (Function.update x3 x4 Bool.true); ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x4 → (∀ (x6 : Fin (14 : ℕ) → Bool), x3 x6 → (x4.eval (List.ofFn x6 ++ [PEqualNP.CircuitLowerBounds.GateOp.or.eval [x6 (0 : Fin (14 : ℕ)), x6 (1 : Fin (14 : ℕ))]]) = Bool.true ↔ x2 x6)) → (26 : ℕ) ≤ x4.size)",
+      "file": "lean/PEqualNP/Outside/L_meta_2279.lean",
+      "module": "PEqualNP.Outside.L_meta_2279",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-2278; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2281",
+      "title": "It is false that: A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 4 of 4)",
+      "statement": "¬ (have x1 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))]; have x2 : (Fin (14 : ℕ) → Bool) → Prop := fun (x2 : Fin (14 : ℕ) → Bool) => ∃ (x3 : Fin (14 : ℕ)) (x4 : Fin (14 : ℕ)), (↑x3, ↑x4) ∈ x1 ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true; have x3 : (Fin (14 : ℕ) → Bool) → Prop := fun (x3 : Fin (14 : ℕ) → Bool) => (x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.true → ¬x2 (Function.update x3 x4 Bool.false)) ∨ ¬x2 x3 ∧ ∀ (x4 : Fin (14 : ℕ)), x3 x4 = Bool.false → x2 (Function.update x3 x4 Bool.true); ∀ (x4 : PEqualNP.CircuitLowerBounds.Circuit) (x5 : Fin (14 : ℕ)), x5 = (7 : Fin (14 : ℕ)) ∨ x5 = (9 : Fin (14 : ℕ)) → PEqualNP.MetaComplexity.Monotone2 x4 → (∀ (x8 : Fin (14 : ℕ) → Bool), x3 x8 → (x4.eval (List.ofFn x8 ++ [PEqualNP.CircuitLowerBounds.GateOp.or.eval [x8 (0 : Fin (14 : ℕ)), x8 x5]]) = Bool.true ↔ x2 x8)) → (26 : ℕ) ≤ x4.size)",
+      "file": "lean/PEqualNP/Outside/L_meta_2281.lean",
+      "module": "PEqualNP.Outside.L_meta_2281",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-2280; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2707",
+      "title": "It is false that: A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 1 of 2)",
+      "statement": "¬ (∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 x3 : ℕ),   PEqualNP.MetaComplexity.Monotone2 x1 →     x2 < (14 : ℕ) + x1.size →       x3 < (14 : ℕ) + x1.size →         have x7 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))];         have x8 : (Fin (14 : ℕ) → Bool) → Prop := fun (x8 : Fin (14 : ℕ) → Bool) => ∃ (x9 : Fin (14 : ℕ)) (x10 : Fin (14 : ℕ)), (↑x9, ↑x10) ∈ x7 ∧ x8 x9 = Bool.true ∧ x8 x10 = Bool.true;         have x9 : ℕ → (Fin (14 : ℕ) → Bool) → Bool := fun (x9 : ℕ) (x10 : Fin (14 : ℕ) → Bool) => (x1.wires (List.ofFn x10)).getD x9 Bool.false;         (∀ (x10 : Fin (14 : ℕ) → Bool), x8 x10 → x9 x2 x10 = Bool.true ∨ x9 x3 x10 = Bool.true) → (∀ (x11 : Fin (14 : ℕ) → Bool), ¬x8 x11 → x9 x2 x11 = Bool.false ∧ x9 x3 x11 = Bool.false) → (∃ (x12 : Fin (14 : ℕ) → Bool), x8 x12 ∧ x9 x2 x12 = Bool.true ∧ x9 x3 x12 = Bool.false) → (∃ (x13 : Fin (14 : ℕ) → Bool), x8 x13 ∧ x9 x3 x13 = Bool.true ∧ x9 x2 x13 = Bool.false) → (26 : ℕ) ≤ x1.size)",
+      "file": "lean/PEqualNP/Outside/L_meta_2707.lean",
+      "module": "PEqualNP.Outside.L_meta_2707",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-2706; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2709",
+      "title": "It is false that: A step toward: Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates (step 2 of 2)",
+      "statement": "¬ (∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 x3 : ℕ),   PEqualNP.MetaComplexity.Monotone2 x1 →     x2 < (14 : ℕ) + x1.size →       x3 < (14 : ℕ) + x1.size →         have x7 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))];         have x8 : (Fin (14 : ℕ) → Bool) → Prop := fun (x8 : Fin (14 : ℕ) → Bool) => ∃ (x9 : Fin (14 : ℕ)) (x10 : Fin (14 : ℕ)), (↑x9, ↑x10) ∈ x7 ∧ x8 x9 = Bool.true ∧ x8 x10 = Bool.true;         have x9 : ℕ → (Fin (14 : ℕ) → Bool) → Bool := fun (x9 : ℕ) (x10 : Fin (14 : ℕ) → Bool) => (x1.wires (List.ofFn x10)).getD x9 Bool.false;         (∀ (x10 : Fin (14 : ℕ) → Bool), x8 x10 → x9 x2 x10 = Bool.true ∧ x9 x3 x10 = Bool.true) → (∀ (x11 : Fin (14 : ℕ) → Bool), ¬x8 x11 → x9 x2 x11 = Bool.false ∨ x9 x3 x11 = Bool.false) → (∃ (x12 : Fin (14 : ℕ) → Bool), ¬x8 x12 ∧ x9 x2 x12 = Bool.false ∧ x9 x3 x12 = Bool.true) → (∃ (x13 : Fin (14 : ℕ) → Bool), ¬x8 x13 ∧ x9 x3 x13 = Bool.false ∧ x9 x2 x13 = Bool.true) → (26 : ℕ) ≤ x1.size)",
+      "file": "lean/PEqualNP/Outside/L_meta_2709.lean",
+      "module": "PEqualNP.Outside.L_meta_2709",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-2708; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2733",
+      "title": "It is false that: A step toward: Find a circuit of AND and OR gates with at most 26 gates for 'both ends of some edge are true' on the Heawood graph, or show none exists (step 1 of 2)",
+      "statement": "¬ (have x1 : List (ℕ × ℕ) := [((0 : ℕ), (7 : ℕ)), ((0 : ℕ), (8 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (7 : ℕ)), ((1 : ℕ), (9 : ℕ)), ((1 : ℕ), (13 : ℕ)), ((2 : ℕ), (8 : ℕ)), ((2 : ℕ), (12 : ℕ)), ((2 : ℕ), (13 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((3 : ℕ), (11 : ℕ)), ((3 : ℕ), (12 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((4 : ℕ), (11 : ℕ)), ((4 : ℕ), (13 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((5 : ℕ), (10 : ℕ)), ((5 : ℕ), (12 : ℕ)), ((6 : ℕ), (8 : ℕ)), ((6 : ℕ), (9 : ℕ)), ((6 : ℕ), (11 : ℕ))]; have x2 : (Fin (14 : ℕ) → Bool) → Bool := fun (x2 : Fin (14 : ℕ) → Bool) => Decidable.decide (∃ (x3 : Fin (14 : ℕ)) (x4 : Fin (14 : ℕ)), (↑x3, ↑x4) ∈ x1 ∧ x2 x3 = Bool.true ∧ x2 x4 = Bool.true); have x3 : ℕ → ℕ → ℕ → ℕ → ℕ := fun (x3 x4 x5 x6 : ℕ) => ((15 : ℕ) * Min.min x3 x4 + Max.max x3 x4) * (225 : ℕ) + ((15 : ℕ) * Min.min x5 x6 + Max.max x5 x6); have x4 : Equiv.Perm (Fin (14 : ℕ)) → Fin (15 : ℕ) → ℕ := fun (x4 : Equiv.Perm (Fin (14 : ℕ))) (x5 : Fin (15 : ℕ)) => if ↑x5 < (14 : ℕ) then ↑(x4 (Fin.ofNat (14 : ℕ) ↑x5)) else (14 : ℕ); ∃ (x5 : Fin (14 : ℕ)) (x6 : Fin (14 : ℕ)) (x7 : Fin (15 : ℕ)) (x8 : Fin (15 : ℕ)) (x9 : PEqualNP.CircuitLowerBounds.GateOp) (x10 : PEqualNP.CircuitLowerBounds.GateOp) (x11 : PEqualNP.CircuitLowerBounds.Circuit),   x5 < x6 ∧     x7 < x8 ∧       (x9 = PEqualNP.CircuitLowerBounds.GateOp.and ∨ x9 = PEqualNP.CircuitLowerBounds.GateOp.or) ∧         (x10 = PEqualNP.CircuitLowerBounds.GateOp.and ∨ x10 = PEqualNP.CircuitLowerBounds.GateOp.or) ∧           (∀ (x12 : Equiv.Perm (Fin (14 : ℕ))), (∀ (x13 : Fin (14 : ℕ) → Bool), x2 (x13 ∘ ⇑x12) = x2 x13) → x3 ↑x5 ↑x6 ↑x7 ↑x8 ≤ x3 (↑(x12 x5)) (↑(x12 x6)) (x4 x12 x7) (x4 x12 x8)) ∧             PEqualNP.MetaComplexity.Monotone2 x11 ∧               x11.size ≤ (24 : ℕ) ∧                 ∀ (x12 : Fin (14 : ℕ) → Bool),                   have x13 : List Bool := List.ofFn x12 ++ [x9.eval [x12 x5, x12 x6]];                   x11.eval (x13 ++ [x10.eval [x13.getD (↑x7) Bool.false, x13.getD (↑x8) Bool.false]]) = x2 x12)",
+      "file": "lean/PEqualNP/Outside/L_meta_2733.lean",
+      "module": "PEqualNP.Outside.L_meta_2733",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-2732; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-2877",
+      "title": "It is false that: A step toward: Find a circuit of AND and OR gates with at most 26 gates for 'both ends of some edge are true' on the Heawood graph, or show none exists (step 1 of 3)",
+      "statement": "¬ (have x1 : (Fin (14 : ℕ) → Bool) → Prop := fun (x1 : Fin (14 : ℕ) → Bool) => ∃ (x2 : Fin (14 : ℕ)) (x3 : Fin (14 : ℕ)), ([(1408 : ℕ), (8832 : ℕ), (12544 : ℕ), (6272 : ℕ), (11264 : ℕ), (5632 : ℕ), (2816 : ℕ)].getD ↑x2 (0 : ℕ)).testBit ↑x3 = Bool.true ∧ x1 x2 = Bool.true ∧ x1 x3 = Bool.true; ∃ (x2 : PEqualNP.CircuitLowerBounds.Circuit) (x3 : PEqualNP.CircuitLowerBounds.GateOp) (x4 : ℕ) (x5 : ℕ) (x6 : ℕ × ℕ),   PEqualNP.MetaComplexity.Monotone2 x2 ∧     x2.size ≤ (25 : ℕ) ∧       (14 : ℕ) ≤ x4 ∧         x4 < x5 ∧           x5 < (14 : ℕ) + x2.size ∧             (x3 = PEqualNP.CircuitLowerBounds.GateOp.or ∧ x6 ∈ [((129 : ℕ), (130 : ℕ)), ((129 : ℕ), (260 : ℕ)), ((129 : ℕ), (544 : ℕ))] ∨ x3 = PEqualNP.CircuitLowerBounds.GateOp.and ∧ x6 ∈ [((127 : ℕ), (244 : ℕ)), ((127 : ℕ), (432 : ℕ)), ((127 : ℕ), (3716 : ℕ)), ((127 : ℕ), (16256 : ℕ)), ((244 : ℕ), (314 : ℕ)), ((244 : ℕ), (432 : ℕ)), ((244 : ℕ), (792 : ℕ)), ((244 : ℕ), (1290 : ℕ)), ((244 : ℕ), (3716 : ℕ)), ((244 : ℕ), (7426 : ℕ)), ((432 : ℕ), (660 : ℕ)), ((432 : ℕ), (1220 : ℕ)), ((432 : ℕ), (1548 : ℕ))]) ∧               have x7 : ℕ → (Fin (14 : ℕ) → Bool) → Bool := fun (x7 : ℕ) (x8 : Fin (14 : ℕ) → Bool) => (x2.wires (List.ofFn x8)).getD x7 Bool.false;               have x8 : Fin (14 : ℕ) → Bool := fun (x8 : Fin (14 : ℕ)) => x6.1.testBit ↑x8;               have x9 : Fin (14 : ℕ) → Bool := fun (x9 : Fin (14 : ℕ)) => x6.2.testBit ↑x9;               have x10 : (Fin (14 : ℕ) → Bool) → Bool := fun (x10 : Fin (14 : ℕ) → Bool) => x3.eval [x7 x4 x10, x7 x5 x10];               x7 x4 x8 ≠ x7 x5 x8 ∧ x7 x4 x8 = x7 x5 x9 ∧ x7 x5 x8 = x7 x4 x9 ∧ (∀ (x11 : Fin (14 : ℕ) → Bool), Minimal x1 x11 → x3 = PEqualNP.CircuitLowerBounds.GateOp.or ∧ (x11 = x8 ∨ x11 = x9) ∨ x10 x11 = Bool.true) ∧ ∀ (x11 : Fin (14 : ℕ) → Bool), Maximal (fun (x12 : Fin (14 : ℕ) → Bool) => ¬x1 x12) x11 → x3 = PEqualNP.CircuitLowerBounds.GateOp.and ∧ (x11 = x8 ∨ x11 = x9) ∨ x10 x11 = Bool.false)",
+      "file": "lean/PEqualNP/Outside/L_meta_2877.lean",
+      "module": "PEqualNP.Outside.L_meta_2877",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-2876; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-3005",
+      "title": "It is false that: A step toward: Find a circuit of AND and OR gates with at most 26 gates for 'both ends of some edge are true' on the Heawood graph, or show none exists (step 1 of 3)",
+      "statement": "¬ (have x1 : List ℕ := [(95229015649943559 : ℕ), (63038587666488 : ℕ), (256462815680 : ℕ), (4292497062759936 : ℕ), (8521481482240 : ℕ), (14003410187812864 : ℕ), (55389823207997440 : ℕ), (189297016294081033 : ℕ), (155696362464477250 : ℕ), (218994303132270608 : ℕ), (183565875465490436 : ℕ), (229736628138025984 : ℕ), (270286071508633728 : ℕ), (288160007407550752 : ℕ)]; ∃ (x2 : List ℕ), x2.length ≤ (26 : ℕ) ∧ x2.Nodup ∧ (∀ x3 ∈ x2, x3 ∉ x1) ∧ (2097151 : ℕ) ∈ x2 ∧ ∀ (x3 : Fin x2.length), ∃ x4 ∈ x1 ++ List.take (↑x3) x2, ∃ x5 ∈ x1 ++ List.take (↑x3) x2, x2.get x3 = x4 &&& x5 ∨ x2.get x3 = x4 ||| x5)",
+      "file": "lean/PEqualNP/Outside/L_meta_3005.lean",
+      "module": "PEqualNP.Outside.L_meta_3005",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Proving it shows a hypothesis of a reduction is false.",
+      "context": "The literal negation of a reduction's hypothesis.",
+      "dead": [],
+      "weight": 5,
+      "parallel": 1,
+      "lane": "main",
+      "depth": 1,
+      "sketch": "A proof is one explicit counterexample to the positive statement L-meta-3004; none is expected if that statement is true.",
+      "pr_open": 0,
+      "pr_numbers": []
+    }
+  ],
+  "checked": [
+    {
+      "id": "L-meta-2734",
+      "file": "lean/PEqualNP/Outside/L_meta_2734.lean",
+      "file_sha256": "f645010276980e48a908b37f283007d76134339a032388a937fa9b6eec16b334"
+    }
+  ],
+  "withdrawn": {},
+  "reductions": [
+    {
+      "id": "R-L-meta-582-317",
+      "parent": "L-meta-582",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_582_317.lean",
+        "content_hash": "sha256:44a430123e2f69584ae0117d25012247a29d11f2ab167afc5e8b9bfdc115a6ff"
+      }
+    },
+    {
+      "id": "R-L-meta-582-704",
+      "parent": "L-meta-582",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_582_704.lean",
+        "content_hash": "sha256:86666fe5e0acc3fc26059700f1f0f3691a93d8e5fd616136409f0873c54fa5f6"
+      }
+    },
+    {
+      "id": "R-L-meta-582-773",
+      "parent": "L-meta-582",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_582_773.lean",
+        "content_hash": "sha256:96bb5a27666f13e40184ec3809e47fa3574fc4c3f5cfadefb98f06283ca41643"
+      }
+    },
+    {
+      "id": "R-L-meta-971-1",
+      "parent": "L-meta-971",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_971_1.lean",
+        "content_hash": "sha256:e6e477220cdc6527cb1b4bbd1771255aa54b99da2329728e75463c0d7c5ed502"
+      }
+    },
+    {
+      "id": "R-L-meta-971-2",
+      "parent": "L-meta-971",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_971_2.lean",
+        "content_hash": "sha256:da3e3bf3ab44e5192b19ec190e5cfc6e136abbbbe20ba55aa1a14273eda1d255"
+      }
+    },
+    {
+      "id": "R-L-meta-971-3",
+      "parent": "L-meta-971",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_971_3.lean",
+        "content_hash": "sha256:a000df21ec41950c98d9ecebc091e3191f7e5d300a80e6b2a4d19a6f9fcef697"
+      }
+    },
+    {
+      "id": "R-L-meta-972-5",
+      "parent": "L-meta-972",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_972_5.lean",
+        "content_hash": "sha256:72b96fec0654072d3f2beea4f92d1a7cafb25b1f1b6d434d9d2c0fa13b23ab03"
+      }
+    },
+    {
+      "id": "R-L-meta-972-72",
+      "parent": "L-meta-972",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_972_72.lean",
+        "content_hash": "sha256:15f89e85347fd8b8a0ec1319feb06bbeacebe6765a63220f472619b65a49a620"
+      }
+    },
+    {
+      "id": "R-L-meta-972-713",
+      "parent": "L-meta-972",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_972_713.lean",
+        "content_hash": "sha256:1309e11a0ca9a5579098a6d142eb9eafb4340c161d4c4ec9affd080bfaec4dd8"
+      }
+    },
+    {
+      "id": "R-L-meta-972-733",
+      "parent": "L-meta-972",
+      "state": "dead",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_972_733.lean",
+        "content_hash": "sha256:d4e4b507edb3ad8a18a8c2d81d49e2594036cab844b57a3f0360ab2e50a59d4f"
+      }
+    },
+    {
+      "id": "R-L-meta-2732-3",
+      "parent": "L-meta-2732",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2732_3.lean",
+        "content_hash": "sha256:2ef78fba50245307292e0390608b24046358619944526483d3a2743213fd9742"
+      }
+    },
+    {
+      "id": "R-L-meta-2732-427",
+      "parent": "L-meta-2732",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2732_427.lean",
+        "content_hash": "sha256:c8e45675318587329d7bc60f009ecc2a754b199c2f03d137647d9d6c2699abe0"
+      }
+    },
+    {
+      "id": "R-L-meta-2732-773",
+      "parent": "L-meta-2732",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2732_773.lean",
+        "content_hash": "sha256:685ffe1da8294814cfb43885799fe229d36d7109f09c858e88c664f5683fb891"
+      }
+    }
+  ]
+}

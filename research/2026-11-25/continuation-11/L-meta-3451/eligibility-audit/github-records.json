@@ -1,0 +1,86 @@
+[
+  {
+    "number": 11549,
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/11549",
+    "title": "L_meta_3451",
+    "state": "open",
+    "merged": false,
+    "head_repo_full_name": "wneb-creator/pequalnp-proofs",
+    "head_sha": "33a61afa8d2972a676159968e6b0b9940f973baf",
+    "base_sha": "da11c6f7aca490ed480ac3b9d98e99b7072744bc",
+    "created_at": "2026-11-25T02:21:12Z",
+    "updated_at": "2026-11-25T02:32:26Z",
+    "closed_at": null,
+    "merged_at": null,
+    "changed_files": 1,
+    "additions": 3662,
+    "deletions": 0,
+    "comments": [
+      {
+        "url": "https://github.com/open-goat/pequalnp-proofs/pull/11549#issuecomment-7150855066",
+        "body": "Checked on the base repository at commit `33a61afa8d`.\n\n**REFUSED before any build: line 4: partial is not allowed in a proof file, in code or in a comment (no code that runs at build time, no new syntax, no string literals, no attributes but simp, no options but the four limits). The format rules are in CONTRIBUTING.md; fix the file and push again**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45532816252\n\nThis is an automatic message. A new commit on this pull request is checked again.",
+        "created_at": "2026-11-25T02:32:26Z"
+      }
+    ]
+  },
+  {
+    "number": 11761,
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/11761",
+    "title": "R-meta-3451-1",
+    "state": "closed",
+    "merged": false,
+    "head_repo_full_name": "pedrogleta/pequalnp-proofs",
+    "head_sha": "27c59bb861c5e625807c5adaee17625afbf66415",
+    "base_sha": "8dffe384dfdb6ba193a1d8e7b6d5b7b2da01e4ef",
+    "created_at": "2026-11-25T02:53:07Z",
+    "updated_at": "2026-11-25T02:55:02Z",
+    "closed_at": "2026-11-25T02:55:02Z",
+    "merged_at": null,
+    "changed_files": 1,
+    "additions": 16,
+    "deletions": 0,
+    "comments": [
+      {
+        "url": "https://github.com/open-goat/pequalnp-proofs/pull/11761#issuecomment-7151355038",
+        "body": "Closed: this step is not open to reductions (its row in the desk file does not say reductions: true), so this reduction will not be checked. A proof of the step is still welcome. This is an automatic message.",
+        "created_at": "2026-11-25T02:55:01Z"
+      }
+    ]
+  },
+  {
+    "number": 11106,
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/11106",
+    "title": "L-meta-3451 reduction: clean witnessed incidences without an extra gate",
+    "state": "closed",
+    "merged": false,
+    "head_repo_full_name": "Swifty77/pequalnp-proofs",
+    "head_sha": "831814746cd7c970e09a3ab25664e3bfd36b5513",
+    "base_sha": "2412d8a5a9ad23ec58ed6bea71615d05ae44ca10",
+    "created_at": "2026-11-25T00:53:07Z",
+    "updated_at": "2026-11-25T00:54:09Z",
+    "closed_at": "2026-11-25T00:54:09Z",
+    "merged_at": null,
+    "changed_files": 1,
+    "additions": 89,
+    "deletions": 0,
+    "comments": []
+  },
+  {
+    "number": 7052,
+    "url": "https://github.com/open-goat/pequalnp-proofs/pull/7052",
+    "title": "L-meta-3451 (reduction R_meta_3451_1)",
+    "state": "closed",
+    "merged": false,
+    "head_repo_full_name": "GrahamPaasch/pequalnp-proofs",
+    "head_sha": "f1a983e1751f632c01a421be5b81f0151d8a4a60",
+    "base_sha": "c7ab2bd984c0fd110c241c03488d006fc2e77d97",
+    "created_at": "2026-11-24T14:27:20Z",
+    "updated_at": "2026-11-24T14:27:35Z",
+    "closed_at": "2026-11-24T14:27:35Z",
+    "merged_at": null,
+    "changed_files": 1,
+    "additions": 33,
+    "deletions": 0,
+    "comments": []
+  }
+]

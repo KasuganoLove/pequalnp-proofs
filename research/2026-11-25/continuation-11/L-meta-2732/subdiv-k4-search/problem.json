@@ -1,0 +1,149 @@
+{
+  "input_labels": [
+    "a",
+    "b",
+    "e",
+    "f",
+    "c",
+    "d",
+    "p",
+    "q",
+    "r",
+    "s"
+  ],
+  "edges": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      3,
+      9
+    ]
+  ],
+  "free_or": [
+    4,
+    5
+  ],
+  "raw_variables": 10,
+  "encoding_variables": 11,
+  "suffix_gates": 14,
+  "positive_masks": [
+    33,
+    34,
+    20,
+    24,
+    65,
+    68,
+    129,
+    136,
+    258,
+    260,
+    514,
+    520
+  ],
+  "maximal_false_masks": [
+    15,
+    19,
+    44,
+    74,
+    134,
+    210,
+    265,
+    360,
+    517,
+    676,
+    785,
+    1008
+  ],
+  "physical_rows": [
+    1057,
+    1058,
+    1044,
+    1048,
+    65,
+    68,
+    129,
+    136,
+    258,
+    260,
+    514,
+    520,
+    15,
+    1043,
+    1068,
+    74,
+    134,
+    1234,
+    265,
+    1384,
+    517,
+    1700,
+    1809,
+    2032
+  ],
+  "all_original_rows": 1024,
+  "boundary_complete_by_monotonicity": true,
+  "target": "Subdivision K4 with free OR of opposite subdivision vertices c,d; isolated five-star18 construction sufficient condition.",
+  "source_sha256": "71c7c21dbc433b9169aaa5c1b5ad495a1716df32bfc836fd9c9abf2ae294dc70",
+  "heawood_map": [
+    0,
+    3,
+    2,
+    4,
+    13,
+    7,
+    8,
+    10,
+    12,
+    11
+  ],
+  "extra_center": 1,
+  "pendant_line": 9,
+  "remaining_centers": [
+    5,
+    6
+  ],
+  "seeds": 4352,
+  "rng_seed": 273220261125
+}

@@ -1,0 +1,19 @@
+{
+  "source": "best-26.json",
+  "inputs_checked": 16384,
+  "size": 26,
+  "false_positive": 0,
+  "false_negative": 47,
+  "first_mismatches": [
+    8208,
+    8209,
+    8216,
+    8217,
+    8240,
+    8241,
+    8248,
+    8249
+  ],
+  "correct": false,
+  "within_26": true
+}

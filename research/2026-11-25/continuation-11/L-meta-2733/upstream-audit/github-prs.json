@@ -1,0 +1,102 @@
+{
+  "observed_at_utc": "2026-11-25T09:13:00Z",
+  "note": "Timestamp is an approximate audit-session time; individual GitHub event timestamps are preserved.",
+  "exact_2733_search": [],
+  "positive_twin_title_results": [
+    {
+      "number": 8704,
+      "title": "L-meta-2732 (reduction)",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/8704",
+      "body": "Reduction for L-meta-2732: splitting size <= 24 into size < 24 or size = 24. Verified locally with check-lean.mjs reduce."
+    },
+    {
+      "number": 6808,
+      "title": "L-meta-2732 reduction",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/6808",
+      "body": "L-meta-2732 reduction"
+    },
+    {
+      "number": 5979,
+      "title": "Reduce L-meta-2732 (cut 3)",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5979",
+      "body": "This reduction uses the 21 edges and all 37 maximal independent sets of the Heawood graph. On a monotone circuit these 58 inputs determine correctness on all 16,384 assignments. Each wire stores its 58 outputs in one natural number.\n\nThe first child verifies the minimality of the 65 listed wiring prefixes under every symmetry preserving the target. A local Lean proof checks the group of 336 graph automorphisms. A separate check shows that the 9,555 ordered wiring choices are covered by the 65 representatives. The second child decodes the packed circuit and proves that getting exactly the 21 positive bits implies the full truth table. Both children have independent local Lean proofs.\n\nThe remaining child asks for a representative, two gate types and a list of at most 24 gate instructions whose final 58-bit column has exactly those positive bits. The file proves that such a witness yields the assigned 26-gate circuit. The existence of that witness is open.\n"
+    },
+    {
+      "number": 8485,
+      "title": "L-meta-2732 reduction to extremal inputs",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/8485",
+      "body": "This reduction replaces all-input correctness by correctness on minimal true and maximal false assignments. The second premise is monotonicity of the circuit with its two initial gates. Both the reduction and a separate proof of the monotonicity premise have been checked locally in Lean."
+    },
+    {
+      "number": 5700,
+      "title": "Reduce L-meta-2732 by symmetry-breaking canonicalization",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5700",
+      "body": null
+    },
+    {
+      "number": 5176,
+      "title": "L-meta-2732: reduce Heawood synthesis to extremal rows",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5176",
+      "body": "Reduction for `L-meta-2732`. Please run the authoritative checker in `reduce` mode.\n\nThe first child converts a proper binary circuit to the canonical two-gate prefix in the posted statement. It minimizes the prefix code over all target-preserving permutations and relabels the suffix without changing its size. The second child proves that a monotone circuit which agrees on every minimal positive and maximal negative assignment agrees everywhere. Both children were checked separately in Lean.\n\nThe remaining child asks for a proper binary circuit of at most 26 gates on those extremal assignments. The enumeration gives 21 minimal positives and 37 maximal negatives. The bounded searches did not find a witness.\n"
+    },
+    {
+      "number": 12249,
+      "title": "[reduce] L-meta-2732: Search a guarded 22-gate middle circuit",
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/12249",
+      "body": "Gap L-meta-2732. This reduction uses two gates whose operands are original inputs and a middle circuit of at most 22 gates. The middle circuit is tested on the 21 two-hot flag inputs and the maximal independent inputs. Its output is corrected by taking the OR with `x[0] AND wire[q]`.\n\nThe proof appends the two correcting gates and uses monotonicity to extend the boundary agreement to all inputs. It then minimizes the prefix rank over the automorphisms of the target and proves that renaming the original wires preserves the completed circuit's evaluation and gate count. The finite search for the middle circuit remains open.\n\nVerified locally with the project's `reduce` checker against the exact posted statement.\n"
+    }
+  ],
+  "selected_prs": [
+    {
+      "number": 6879,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/6879",
+      "title": "Reduce L-meta-2876 to a 58-bit Heawood synthesis problem",
+      "state": "open",
+      "merged": false,
+      "head_sha": "e238997f2bade76e34e4a94ded06360faa12dd15",
+      "base_sha": "511584e507325b6b1045bf75ea4a7ca116abc95e",
+      "created_at": "2026-11-24T14:02:41Z",
+      "updated_at": "2026-11-24T20:44:52Z",
+      "closed_at": null,
+      "merged_at": null,
+      "body": "Reduces L-meta-2876 to a finite search over at most 25 binary operations on 58-bit truth columns. The rows comprise all 21 edges and all 37 maximal false inputs. The anchor tests cover both choices of final gate and every pair in the posted statement.\n\nI checked proofs of the first two hypotheses separately: the gate-by-gate bit simulation and the boundary enumeration. The remaining hypothesis asks for the straight-line program itself. Both five-minute witness searches ended without a result.\n\n**X handle**: @ZamuaOG\n**LinkedIn profile**: https://www.linkedin.com/in/zamua\n",
+      "comments": []
+    },
+    {
+      "number": 7187,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/7187",
+      "title": "Reduce L-meta-2876 to reachability of finite signal sets",
+      "state": "open",
+      "merged": false,
+      "head_sha": "03444951fb3952d020a3c302391e9fb1399c9c6b",
+      "base_sha": "22841cc792d020bb28a10ea5371570a26c462003",
+      "created_at": "2026-11-24T14:44:07Z",
+      "updated_at": "2026-11-24T14:57:38Z",
+      "closed_at": null,
+      "merged_at": null,
+      "body": "Reduces L-meta-2876 to a finite-set reachability problem on the 21 minimal true and 37 maximal false inputs of the Heawood edge function. Each transition inserts a fresh signal formed by AND or OR of two available signals. Gate orderings that reach the same set give the same search state. All 16 prescribed anchor pairs are included.\n\nThe other three hypotheses recover an ordered gate program, relate bit-column evaluation to Boolean circuit wires, and classify the boundary rows. The pinned project verifier accepted the reduction locally. Finding a reachable set containing the required pair of signals remains open.\n",
+      "comments": []
+    },
+    {
+      "number": 12249,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/12249",
+      "title": "[reduce] L-meta-2732: Search a guarded 22-gate middle circuit",
+      "state": "closed",
+      "merged": false,
+      "head_sha": "a884b01cc9c5b873c09589716ff02f2f576a0766",
+      "base_sha": "1eda360769e0b50a6d2b17bafd86f6035ee34c64",
+      "created_at": "2026-11-25T04:18:09Z",
+      "updated_at": "2026-11-25T04:48:18Z",
+      "closed_at": "2026-11-25T04:48:18Z",
+      "merged_at": null,
+      "body": "Gap L-meta-2732. This reduction uses two gates whose operands are original inputs and a middle circuit of at most 22 gates. The middle circuit is tested on the 21 two-hot flag inputs and the maximal independent inputs. Its output is corrected by taking the OR with `x[0] AND wire[q]`.\n\nThe proof appends the two correcting gates and uses monotonicity to extend the boundary agreement to all inputs. It then minimizes the prefix rank over the automorphisms of the target and proves that renaming the original wires preserves the completed circuit's evaluation and gate count. The finite search for the middle circuit remains open.\n\nVerified locally with the project's `reduce` checker against the exact posted statement.\n",
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/12249#issuecomment-7153178845",
+          "body": "Closed: the checker accepted this reduction, but it is not recorded, because a contributor may have five open reductions at a time and you have five. Nothing is lost: when one of yours is closed (its steps are all proved, or you withdraw it), send this same cut again in a fresh pull request. This is an automatic message.",
+          "created_at": "2026-11-25T04:48:17Z"
+        }
+      ]
+    }
+  ]
+}

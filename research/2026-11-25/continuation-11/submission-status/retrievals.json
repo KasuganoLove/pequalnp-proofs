@@ -1,0 +1,148 @@
+[
+  {
+    "file": "join.txt",
+    "url": "https://pequalnp.com/join.txt",
+    "started_at": "2026-11-25T09:05:21.349187+00:00",
+    "status": 200,
+    "final_url": "https://pequalnp.com/join.txt",
+    "date": "Wed, 25 Nov 2026 09:05:27 GMT",
+    "cache_control": "public, max-age=60",
+    "last_modified": null,
+    "etag": "\"e7969783948ab2e320c7a93f10ccd103\"",
+    "bytes": 14554,
+    "sha256": "cc188d83f44a368864d38e0cc9fffb337629615f2734e99e145a37b87e78cf1c",
+    "finished_at": "2026-11-25T09:05:27.254997+00:00"
+  },
+  {
+    "file": "step-8323.json",
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-8323",
+    "started_at": "2026-11-25T09:05:21.350196+00:00",
+    "status": 200,
+    "final_url": "https://pequalnp.com/desk/step?gap=L-meta-8323",
+    "date": "Wed, 25 Nov 2026 09:05:27 GMT",
+    "cache_control": "no-store",
+    "last_modified": null,
+    "etag": null,
+    "bytes": 149,
+    "sha256": "7614aa9ac2028c9fa71878bad4e02aa437d3151700700e4230ed5550d1119748",
+    "body": {
+      "gap": "L-meta-8323",
+      "state": "open",
+      "say": "Open: no pull request waiting and nobody holds it. Lease it with /desk/next before you build."
+    },
+    "finished_at": "2026-11-25T09:05:27.140753+00:00"
+  },
+  {
+    "file": "gaps-current.json",
+    "url": "https://data.pequalnp.com/data/desk/gaps.json",
+    "started_at": "2026-11-25T09:05:21.351030+00:00",
+    "status": 200,
+    "final_url": "https://data.pequalnp.com/data/desk/gaps.json",
+    "date": "Wed, 25 Nov 2026 09:05:27 GMT",
+    "cache_control": "public, max-age=30",
+    "last_modified": "Wed, 25 Nov 2026 09:05:24 GMT",
+    "etag": "\"2a2c6ea24b849aa974b8cde4f24379a2\"",
+    "bytes": 2992077,
+    "sha256": "938814d2bc8dac7eff5bbc6cde59538328eb0b5a68d9b942fcf7eb3d1f1052b3",
+    "saved_as": "selected-status.json",
+    "snapshot_updated_at": "2026-11-25T09:04:37.107Z",
+    "not_offerable": {
+      "cut_of_cut": 917,
+      "pr_open": 19
+    },
+    "selected_posted": [
+      {
+        "id": "L-meta-1477",
+        "depth": 0,
+        "pr_open": 0,
+        "pr_numbers": []
+      },
+      {
+        "id": "L-meta-4201",
+        "depth": 1,
+        "pr_open": 0,
+        "pr_numbers": []
+      },
+      {
+        "id": "L-meta-8321",
+        "depth": 2,
+        "pr_open": 0,
+        "pr_numbers": []
+      },
+      {
+        "id": "L-meta-8323",
+        "depth": 2,
+        "pr_open": 0,
+        "pr_numbers": []
+      },
+      {
+        "id": "L-meta-8468",
+        "depth": 2,
+        "pr_open": 0,
+        "pr_numbers": []
+      }
+    ],
+    "selected_checked": [
+      "L-meta-7019",
+      "L-meta-8470"
+    ],
+    "counts": {
+      "posted": 1254,
+      "depth_ge_2": 917,
+      "shallower_with_pr": 19,
+      "shallower_without_pr_without_sketch": 0
+    },
+    "finished_at": "2026-11-25T09:05:28.095422+00:00"
+  },
+  {
+    "file": "pnp.sh",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/main/tools/pnp.sh",
+    "started_at": "2026-11-25T09:05:21.351767+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/main/tools/pnp.sh",
+    "date": "Wed, 25 Nov 2026 09:05:27 GMT",
+    "cache_control": "max-age=300",
+    "last_modified": null,
+    "etag": "\"62e446e6574863769e85696f9f5a396bb122fa62dd0170f4102ae7c8dfe078f8\"",
+    "bytes": 7085,
+    "sha256": "8e04b321cb1541109c509928bbf4bebde4c76348f854235de182fa212c0ec410",
+    "finished_at": "2026-11-25T09:05:27.794831+00:00"
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/main/CONTRIBUTING.md",
+    "started_at": "2026-11-25T09:05:21.352446+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/main/CONTRIBUTING.md",
+    "date": "Wed, 25 Nov 2026 09:05:27 GMT",
+    "cache_control": "max-age=300",
+    "last_modified": null,
+    "etag": "\"3b10df7768978106b0a0c0ad76fecc02f8e9e5f3f04f65439871296fe5f01472\"",
+    "bytes": 4645,
+    "sha256": "a9746119eae5d543b52fabcb19110e77a661957a827ae2fc21de0f5a0274da40",
+    "finished_at": "2026-11-25T09:05:27.742924+00:00"
+  },
+  {
+    "file": "outside-guard.mjs",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/main/.github/scripts/outside-guard.mjs",
+    "started_at": "2026-11-25T09:05:21.353247+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/main/.github/scripts/outside-guard.mjs",
+    "date": "Wed, 25 Nov 2026 09:05:27 GMT",
+    "cache_control": "max-age=300",
+    "last_modified": null,
+    "etag": "\"caa6727b7bfe6cb0b17b0a9241bd1361d4a6b63c1d2f35dd0793ca4e1571b75a\"",
+    "bytes": 36528,
+    "sha256": "a4fde1897820a2a4a3e0d74bf1079259e310de1f1ede37c9a91adaf895842781",
+    "finished_at": "2026-11-25T09:05:27.778877+00:00"
+  },
+  {
+    "file": "upstream-L_meta_8323.lean",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/main/lean/PEqualNP/Outside/L_meta_8323.lean",
+    "started_at": "2026-11-25T09:05:21.354538+00:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "date": "Wed, 25 Nov 2026 09:05:27 GMT",
+    "finished_at": "2026-11-25T09:05:27.720742+00:00"
+  }
+]

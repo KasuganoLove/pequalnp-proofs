@@ -1,0 +1,121 @@
+{
+  "task": "L-meta-2732",
+  "scope": "sufficient construction route only: subdivision K4 with a specified free OR and14 suffix gates",
+  "task_solved": false,
+  "candidate_found": false,
+  "restricted_nonexistence_proved": false,
+  "full_heawood_nonexistence_proved": false,
+  "compile_exit_code": 0,
+  "compile_warnings": 0,
+  "search_exit_code": 0,
+  "run": {
+    "seed": 273220261125,
+    "budget_seconds": 300,
+    "elapsed_seconds": 300.001,
+    "training_rows": 24,
+    "seeds": 4352,
+    "one_field_edits": 68376,
+    "evaluations": 3224441185,
+    "restarts": 26870,
+    "accepted": 1318828047,
+    "candidate_found": false,
+    "stopped_by_signal": false,
+    "best_training_false_positive": 0,
+    "best_training_false_negative": 1,
+    "nonexistence_proved": false
+  },
+  "independent_best": {
+    "source": "best-14.json",
+    "raw_inputs_checked": 1024,
+    "suffix_size": 14,
+    "core_size_with_free_or": 15,
+    "false_positive": 0,
+    "false_negative": 13,
+    "first_mismatches": [
+      520,
+      521,
+      524,
+      525,
+      552,
+      556,
+      584,
+      616
+    ],
+    "correct": false,
+    "within_14_suffix": true
+  },
+  "independent_known_baseline": {
+    "source": "known-star-suffix15.json",
+    "raw_inputs_checked": 1024,
+    "suffix_size": 15,
+    "core_size_with_free_or": 16,
+    "false_positive": 0,
+    "false_negative": 0,
+    "first_mismatches": [],
+    "correct": true,
+    "within_14_suffix": false,
+    "heawood": {
+      "size": 27,
+      "inputs_checked": 16384,
+      "mismatches": 0,
+      "correct": true
+    }
+  },
+  "limits": {
+    "seconds": 300,
+    "cpu_seconds": 310,
+    "address_space_bytes": 536870912,
+    "threads": 1,
+    "nice": 5
+  },
+  "lean_run": false,
+  "strict_checker_run": false,
+  "lease_operations_by_this_agent": false,
+  "remote_writes": false,
+  "files": {
+    "search14.cpp": {
+      "sha256": "a320560f14b277ede6b82a698c027f6ebb36d7b019cd5dcab530a67d0ed011bc",
+      "bytes": 7201
+    },
+    "prepare.py": {
+      "sha256": "141c6e8609c1628e1a98fdd8342256e027f3eb1b0301fc9455bf3974d1d9bd79",
+      "bytes": 3083
+    },
+    "verify_and_map.py": {
+      "sha256": "0b1b3b659d28801775c66a4b73a52cf6d62a27cf732df70f798eb77c94dd4e30",
+      "bytes": 2578
+    },
+    "problem.json": {
+      "sha256": "23b8e5a09a4037b12556d0f4fdd426e053e93dfcfa88e10056d659423a46c1a1",
+      "bytes": 1637
+    },
+    "run-summary.json": {
+      "sha256": "930ebaf36334107cb7a70176f91e45b5b5d5fa82b08241d74c32947720626d85",
+      "bytes": 333
+    },
+    "best-14.json": {
+      "sha256": "d4e152623f3c88ae3ff6ab5cb3b5addcfc8b102a01687ce377bae9c6148b48aa",
+      "bytes": 232
+    },
+    "best-14-verification.json": {
+      "sha256": "37d997166a34949864af14e657667aef8d43834361ccd037db74834a9fe71ca1",
+      "bytes": 309
+    },
+    "known-star-suffix15.json": {
+      "sha256": "6b56d3bbe38aa2131cfb198c4fff91d89fa99debcbe83867949c40674093c597",
+      "bytes": 702
+    },
+    "known-star-verification.json": {
+      "sha256": "bfde737ce4e577b6611521dc7643462af77b111ef36b7c9b5f9ed2a53fad2d0b",
+      "bytes": 352
+    },
+    "heawood-27.json": {
+      "sha256": "133f5d6e6a029e661881e4154f8893217e3c5e4fecf7a98bfe73f3336b2928bc",
+      "bytes": 1141
+    },
+    "search.log": {
+      "sha256": "88c334b11eb076e4a02bb572f643ec2190c15c3a45648d836c8e5332b6de8aa1",
+      "bytes": 1097
+    }
+  }
+}

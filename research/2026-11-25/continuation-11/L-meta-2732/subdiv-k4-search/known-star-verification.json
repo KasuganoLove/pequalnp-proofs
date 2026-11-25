@@ -1,0 +1,17 @@
+{
+  "source": "known-star-suffix15.json",
+  "raw_inputs_checked": 1024,
+  "suffix_size": 15,
+  "core_size_with_free_or": 16,
+  "false_positive": 0,
+  "false_negative": 0,
+  "first_mismatches": [],
+  "correct": true,
+  "within_14_suffix": false,
+  "heawood": {
+    "size": 27,
+    "inputs_checked": 16384,
+    "mismatches": 0,
+    "correct": true
+  }
+}

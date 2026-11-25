@@ -1,0 +1,37 @@
+// Generic exact arithmetic / certificate smoke test; no project task equations.
+LIB "general.lib";
+ring R=0,(x,y),dp;
+ideal I=x*y-1,y^2;
+
+matrix T;
+ideal G=liftstd(I,T,"std");
+if ((size(G)!=1) || (G[1]!=1))
+{
+  print("FAIL_STD_UNIT_IDEAL");
+  quit;
+}
+ideal residual=ideal(matrix(G)-matrix(I)*T);
+if (size(residual)!=0)
+{
+  print("FAIL_STD_CERTIFICATE");
+  quit;
+}
+print("PASS_EXACT_LIFTSTD_STD");
+print(T);
+
+matrix S;
+ideal H=liftstd(I,S,"slimgb");
+if ((size(H)!=1) || (H[1]!=1))
+{
+  print("FAIL_SLIMGB_UNIT_IDEAL");
+  quit;
+}
+residual=ideal(matrix(H)-matrix(I)*S);
+if (size(residual)!=0)
+{
+  print("FAIL_SLIMGB_CERTIFICATE");
+  quit;
+}
+print("PASS_EXACT_LIFTSTD_SLIMGB");
+print(S);
+quit;

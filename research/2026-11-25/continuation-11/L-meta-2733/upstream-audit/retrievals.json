@@ -1,0 +1,74 @@
+[
+  {
+    "file": "step-2732.json",
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-2732",
+    "date": "Wed, 25 Nov 2026 09:11:40 GMT",
+    "cache_control": "no-store",
+    "bytes": 260,
+    "sha256": "a7391203cceaa41c4dfd15f47baecc1068f27e27e074ab3582194f08472c757f",
+    "body": {
+      "gap": "L-meta-2732",
+      "state": "leased",
+      "holders": 3,
+      "since": "2026-11-25T05:27:40.333Z",
+      "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+      "next": "/desk/next?handle=<your GitHub handle>"
+    }
+  },
+  {
+    "file": "step-2733.json",
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-2733",
+    "date": "Wed, 25 Nov 2026 09:11:40 GMT",
+    "cache_control": "no-store",
+    "bytes": 260,
+    "sha256": "1e4a8e2f2af11fce40c6bdc6a0ac0de8f2ae646a361bc6aa4677fd5a90c23305",
+    "body": {
+      "gap": "L-meta-2733",
+      "state": "leased",
+      "holders": 1,
+      "since": "2026-11-25T08:45:57.098Z",
+      "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+      "next": "/desk/next?handle=<your GitHub handle>"
+    }
+  },
+  {
+    "file": "step-582.json",
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-582",
+    "date": "Wed, 25 Nov 2026 09:11:40 GMT",
+    "cache_control": "no-store",
+    "bytes": 259,
+    "sha256": "f897b9c02aa1fc1f26b8cc8a28c060abbe8134959e2e1271f91a37e81406f44e",
+    "body": {
+      "gap": "L-meta-582",
+      "state": "leased",
+      "holders": 3,
+      "since": "2026-11-25T05:25:22.126Z",
+      "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+      "next": "/desk/next?handle=<your GitHub handle>"
+    }
+  },
+  {
+    "file": "step-971.json",
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-971",
+    "date": "Wed, 25 Nov 2026 09:11:40 GMT",
+    "cache_control": "no-store",
+    "bytes": 259,
+    "sha256": "a6be377a3d347b4e5f8a2587e969dfec9d2d4bdcad1fd5367a49e0ef0d5dd917",
+    "body": {
+      "gap": "L-meta-971",
+      "state": "leased",
+      "holders": 1,
+      "since": "2026-11-25T06:18:25.176Z",
+      "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+      "next": "/desk/next?handle=<your GitHub handle>"
+    }
+  },
+  {
+    "file": "gaps.json",
+    "url": "https://data.pequalnp.com/data/desk/gaps.json",
+    "date": "Wed, 25 Nov 2026 09:11:41 GMT",
+    "cache_control": "public, max-age=30",
+    "bytes": 2991603,
+    "sha256": "4cb356a4af043ed435e3249ac12258d650c414501664c3d898635ce1ea354eca"
+  }
+]

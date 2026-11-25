@@ -1,0 +1,64 @@
+{
+  "prepared_at_utc": "2026-11-25T09:10:47.903718+00:00",
+  "scope": "generic exact polynomial environment only; no task-specific equations",
+  "selected_version": "Singular 4.4.0 (44005, 64 bit)",
+  "selected_binary": "/workspace/scratch/65f339da29fe/pnp-tools/singular/4.4.0-x86_64-Linux/bin/Singular",
+  "host_architecture": "x86_64",
+  "host_libc": [
+    "glibc",
+    "2.41"
+  ],
+  "downloads": [
+    {
+      "url": "https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/Singular-4.4.1-Rocky8.tar.gz",
+      "archive": "/workspace/scratch/65f339da29fe/pnp-tools/singular/downloads/Singular-4.4.1-Rocky8.tar.gz",
+      "bytes": 14287560,
+      "md5": "bd2a46b1fc4ad8b48c55531083d34f18",
+      "published_md5_matches": true,
+      "sha256": "7611be7470291ad39ad227778a98e1ef335d9c3a528e84b771570fa6c713004a",
+      "status": "extracted; cannot run on current host",
+      "missing_dependencies": [
+        "libmpfr.so.4",
+        "libreadline.so.7"
+      ]
+    },
+    {
+      "url": "https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/Singular-4.4.0-x86_64-Linux.tar.gz",
+      "archive": "/workspace/scratch/65f339da29fe/pnp-tools/singular/downloads/Singular-4.4.0-x86_64-Linux.tar.gz",
+      "bytes": 23534810,
+      "md5": "4cfefbeb6e63f593ab798fa1f4c39db3",
+      "published_md5_matches": true,
+      "sha256": "5e3c77920ea0ab882aa6da03bd80f421ca0d78094d033b38ead50c34acee51c2",
+      "status": "selected; executable and certificate smoke test pass",
+      "missing_dependencies": []
+    }
+  ],
+  "binary_version_exit_code": 0,
+  "smoke_exit_code": 0,
+  "smoke_file": "smoke.sing",
+  "smoke_sha256": "cf1b0ad139b7bd814f0145dc45cebf2e81213a2d998e4b1ebc146479c3763204",
+  "algorithms_checked": [
+    "liftstd std",
+    "liftstd slimgb"
+  ],
+  "exact_ideal": "<x*y-1,y^2> in Q[x,y]",
+  "returned_basis": "[1]",
+  "returned_certificate": [
+    "-x*y-1",
+    "x^2"
+  ],
+  "identity": "(-x*y-1)*(x*y-1)+x^2*y^2=1",
+  "bundled_library_load": "general.lib succeeded",
+  "elf_dependencies_resolved": true,
+  "system_install": false,
+  "new_system_libraries_installed": false,
+  "abi_spoofing_symlinks": false,
+  "lean_environment_changed": false,
+  "project_source_changed": false,
+  "git_or_lease_writes": false,
+  "official_documentation": {
+    "download_index": "https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/",
+    "install": "https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/INSTALL_unix.txt",
+    "liftstd": "https://www.singular.uni-kl.de/Manual/latest/sing_294.htm"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "number": 9850,
+  "url": "https://github.com/open-goat/pequalnp-proofs/pull/9850",
+  "title": "L-meta-3451",
+  "state": "closed",
+  "merged": false,
+  "head_repo_full_name": "whereisrsi/pequalnp-proofs",
+  "head_sha": "06316581e1ca8f3bac966e9c7c5ba70519a0e7e9",
+  "created_at": "2026-11-24T20:56:35Z",
+  "updated_at": "2026-11-25T04:32:03Z",
+  "closed_at": "2026-11-25T04:32:03Z",
+  "merged_at": null,
+  "changed_files": 1,
+  "additions": 21,
+  "deletions": 0,
+  "comments": [
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/9850#issuecomment-7144411996",
+      "body": "Checked on the base repository at commit `06316581e1`.\n\n**REFUSED before any build: line 19: sorry is not allowed in a proof file, in code or in a comment (no code that runs at build time, no new syntax, no string literals, no attributes but simp, no options but the four limits). The format rules are in CONTRIBUTING.md; fix the file and push again**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45486641507\n\nThis is an automatic message. A new commit on this pull request is checked again.",
+      "created_at": "2026-11-24T21:03:13Z"
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/9850#issuecomment-7152929609",
+      "body": "Closed by the hourly sweep: the verdict posted above stands as posted, and this pull request has not changed in six hours. Nothing is lost: the step stays open, and a fresh pull request for the same step is welcome once what the verdict names is fixed. This is an automatic message.",
+      "created_at": "2026-11-25T04:32:02Z"
+    }
+  ]
+}

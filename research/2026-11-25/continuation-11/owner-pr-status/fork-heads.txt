@@ -1,0 +1,8 @@
+1c6c0284346c35cf6898194bf0dea2fa74fcf7ad refs/heads/L-meta-2289
+eb4a9b12fa193747acff33a7db0f38022875e4e4 refs/heads/L-meta-2802
+81ea842e098bae5d6c2d04305a33ff0488ec383b refs/heads/R-meta-2519-608
+cfa8d5f7523450f06e8a7a92e1b1dca39aabda5c refs/heads/R-meta-2782-419
+9ed381f4165528fa489bd1f2eff81c4bf57d811d refs/heads/codex/L-meta-3358-20261124
+86a9b1c3e83eb90493b36c2c385b67dc67563213 refs/heads/codex/R-meta-3233-713-20261124
+898bcfa033fef210fc7c1706d74026fbe79c3eca refs/heads/codex/pnp-research-2026-11-24
+0a0f000c43698759cba85b5cd1e11b0d8a442191 refs/heads/codex/reduce-meta-3600-713
