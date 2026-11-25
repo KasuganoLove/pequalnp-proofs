@@ -1,0 +1,12 @@
+{
+  "source": "baseline-24.json",
+  "raw_inputs": 18,
+  "gate_count": 24,
+  "assignments_checked": 262144,
+  "false_positive_count": 0,
+  "false_negative_count": 0,
+  "first_error_masks": [],
+  "all_correct": true,
+  "fits_budget23": false,
+  "lean_verified": false
+}

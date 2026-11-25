@@ -1,0 +1,104 @@
+[
+  {
+    "upstream_path": "lean/PEqualNP/Outside/L_meta_8791.lean",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_8791.lean",
+    "status": 200,
+    "bytes": 127318,
+    "lines": 2792,
+    "sha256": "0ed4d419cd6ed6750f23d8691414d20c152bc6c3a4e09a0407bc0c745a9ed2c4",
+    "expected_sha256": "0ed4d419cd6ed6750f23d8691414d20c152bc6c3a4e09a0407bc0c745a9ed2c4",
+    "hash_matches": true,
+    "ref": "62127f3af70786085fa09c6453d036c7cde890ce",
+    "retrieved_at": "2026-11-25T10:39:50.379816+00:00",
+    "local_file": "L_meta_8791.lean"
+  },
+  {
+    "upstream_path": "lean/PEqualNP/Outside/L_meta_8725.lean",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_8725.lean",
+    "status": 200,
+    "bytes": 486682,
+    "lines": 9396,
+    "sha256": "298aff71cfa51b7907a69d23e474380f9744e8a2985b8f12952d29a662c71658",
+    "expected_sha256": "298aff71cfa51b7907a69d23e474380f9744e8a2985b8f12952d29a662c71658",
+    "hash_matches": true,
+    "ref": "62127f3af70786085fa09c6453d036c7cde890ce",
+    "retrieved_at": "2026-11-25T10:39:50.394936+00:00",
+    "local_file": "L_meta_8725.lean"
+  },
+  {
+    "upstream_path": "lean/PEqualNP/Outside/R_meta_972_5.lean",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/R_meta_972_5.lean",
+    "status": 200,
+    "bytes": 6829,
+    "lines": 102,
+    "sha256": "72b96fec0654072d3f2beea4f92d1a7cafb25b1f1b6d434d9d2c0fa13b23ab03",
+    "expected_sha256": "72b96fec0654072d3f2beea4f92d1a7cafb25b1f1b6d434d9d2c0fa13b23ab03",
+    "hash_matches": true,
+    "ref": "62127f3af70786085fa09c6453d036c7cde890ce",
+    "retrieved_at": "2026-11-25T10:39:50.279181+00:00",
+    "local_file": "R_meta_972_5.lean"
+  },
+  {
+    "upstream_path": "lean/PEqualNP/Outside/R_meta_8793_7.lean",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/R_meta_8793_7.lean",
+    "status": 200,
+    "bytes": 8474,
+    "lines": 126,
+    "sha256": "da4319b31ed4eafa7c7c3b70743d51573582805cda0edf838e4442bdaa14e1ec",
+    "expected_sha256": "da4319b31ed4eafa7c7c3b70743d51573582805cda0edf838e4442bdaa14e1ec",
+    "hash_matches": true,
+    "ref": "62127f3af70786085fa09c6453d036c7cde890ce",
+    "retrieved_at": "2026-11-25T10:39:50.318862+00:00",
+    "local_file": "R_meta_8793_7.lean"
+  },
+  {
+    "upstream_path": "lean/PEqualNP/Outside/R_meta_8793_26.lean",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/R_meta_8793_26.lean",
+    "status": 200,
+    "bytes": 4929,
+    "lines": 80,
+    "sha256": "a300e398c609f0ef8ff81c32809ce5bcd60a8a1f4059d0f882eff6422779f25e",
+    "expected_sha256": "a300e398c609f0ef8ff81c32809ce5bcd60a8a1f4059d0f882eff6422779f25e",
+    "hash_matches": true,
+    "ref": "62127f3af70786085fa09c6453d036c7cde890ce",
+    "retrieved_at": "2026-11-25T10:39:50.284378+00:00",
+    "local_file": "R_meta_8793_26.lean"
+  },
+  {
+    "upstream_path": "lean/PEqualNP/Outside/R_meta_8793_291.lean",
+    "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/R_meta_8793_291.lean",
+    "status": 200,
+    "bytes": 1949,
+    "lines": 22,
+    "sha256": "d5ad5f04476a5a7fc66546c941ca0dffc82013b9481e17ea9349313904bb9631",
+    "expected_sha256": "d5ad5f04476a5a7fc66546c941ca0dffc82013b9481e17ea9349313904bb9631",
+    "hash_matches": true,
+    "ref": "62127f3af70786085fa09c6453d036c7cde890ce",
+    "retrieved_at": "2026-11-25T10:39:50.283735+00:00",
+    "local_file": "R_meta_8793_291.lean"
+  },
+  {
+    "local_file": "L_meta_4181.lean",
+    "location": "existing local checkout, not copied",
+    "bytes": 64719,
+    "lines": 1474,
+    "sha256": "313bab29d078697e356c77ecfd7d65743b62ba05382ebe37f3b3d9651b6f47a8",
+    "upstream_path": "lean/PEqualNP/Outside/L_meta_4181.lean",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_4181.lean",
+    "hash_matches": true
+  },
+  {
+    "local_file": "mislabelled-PR13253.lean",
+    "url": "https://github.com/alecgard/pequalnp-proofs/blob/d85239a572186c5e3d40c58deff602b439ac30a9/lean/PEqualNP/Outside/L_meta_8781.lean",
+    "bytes": 2922,
+    "sha256": "3ba4b15782c353f012ca92294a4e2f967351cc59df5c61f562d315c2fe2ecfd8",
+    "not_compiled_in_this_audit": true
+  },
+  {
+    "local_file": "R_meta_972_733.lean",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/R_meta_972_733.lean",
+    "bytes": 2802,
+    "sha256": "eb8d47907df2023edbfa64b71a7f8ceffbabb557d0622bec097bd84ba7c9b170",
+    "not_compiled_in_this_audit": true
+  }
+]

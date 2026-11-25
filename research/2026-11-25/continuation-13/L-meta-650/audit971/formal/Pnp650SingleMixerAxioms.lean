@@ -1,0 +1,4 @@
+import Pnp650SingleMixer
+
+#print axioms PEqualNP.Outside.Pnp650SingleMixer.single_exception_ustar_card_le_one
+#check PEqualNP.Outside.Pnp650SingleMixer.single_exception_ustar_card_le_one

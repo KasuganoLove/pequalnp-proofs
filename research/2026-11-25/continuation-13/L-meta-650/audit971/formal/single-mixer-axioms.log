@@ -1,0 +1,16 @@
+'PEqualNP.Outside.Pnp650SingleMixer.single_exception_ustar_card_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+PEqualNP.Outside.Pnp650SingleMixer.single_exception_ustar_card_le_one {n : ℕ} (G : SimpleGraph (Fin n))
+  [DecidableRel G.Adj] (h4 : PEqualNP.TopForm.NoFourCycle G) (color : Fin n → Bool)
+  (hcolor : ∀ (a b : Fin n), G.Adj a b → color a ≠ color b) (C : PEqualNP.CircuitLowerBounds.Circuit)
+  (ao : PEqualNP.TopForm.IsAO2 n C) (m : ℕ) (single : PEqualNP.TopForm.orN G C \ PEqualNP.TopForm.lam G C = {m})
+  (allraw : PEqualNP.TopForm.centreless G C = ∅)
+  (shape :
+    ∀ a ∈ PEqualNP.TopForm.tops G C, ∀ l ∈ PEqualNP.TopForm.side C a 0, ∀ r ∈ PEqualNP.TopForm.side C a 1, G.Adj l r)
+  (trace :
+    ∀ (u v : Fin n),
+      s(u, v) ∈ PEqualNP.TopForm.Ustar G C →
+        ∃ a ∈ PEqualNP.TopForm.tops G C,
+          PEqualNP.EdgeOwnership.gateVal n C a (PEqualNP.EdgeOwnership.pairInput u v) = true) :
+  (PEqualNP.TopForm.Ustar G C).card ≤ 1

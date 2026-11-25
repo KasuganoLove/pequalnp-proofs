@@ -1,0 +1,129 @@
+{
+  "task": "L-meta-650",
+  "created_utc": "2026-11-25T10:42:01.143075+00:00",
+  "source": {
+    "path": "pnp-session-2026-11-25/continuation-11/new-971/L_meta_971.lean",
+    "bytes": 472258,
+    "sha256": "24a7f69db99fb56060c3d343f15f36688f1ee8fdc1b3d76f0942ee9874c2138e",
+    "namespace": "PEqualNP.Outside.L_meta_971_aux"
+  },
+  "scope": "L971 source audit, informal multi-output barrier, and one ordinary-Lean checked generic single-exception subcase; no full task proof.",
+  "validation": {
+    "lean_runs": "Core and final proof ordinary compilation plus separate imported axiom print; final all exit0.",
+    "strict_checker_runs": 0,
+    "new_search_jobs": 0,
+    "remote_mutations": 0,
+    "official_acceptance_claim": false
+  },
+  "status": "Full650positive witness and negative64bound both unresolved by this agent.",
+  "numeric_comparison": {
+    "Heawood": {
+      "inputs": 14,
+      "hypothetical_gates_max": 26,
+      "surplus_max": 13,
+      "eligible_max": 13
+    },
+    "PG3": {
+      "inputs": 26,
+      "hypothetical_gates_max": 63,
+      "surplus_max": 38,
+      "eligible_min": 13,
+      "eligible_max": 26,
+      "required_surplus_lower_bound": 39
+    }
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "5d49a2eaa07cf2462099d2458f683aff64ad11ce27bfaac9503bd385c8894c3f",
+      "bytes": 6328
+    },
+    {
+      "path": "balance-api-signatures.json",
+      "sha256": "a80c10da689f3656f46f7c25d0b9501d40cc1596522b949002d46b688e3c8749",
+      "bytes": 2587
+    },
+    {
+      "path": "balance-peeling.md",
+      "sha256": "7c0b875acea89768e33aadcdcffb04c04f285ba6d826613023284790d0cf9375",
+      "bytes": 8444
+    },
+    {
+      "path": "formal/Pnp650SingleMixer.lean",
+      "sha256": "ca26c434cfe9cc9ab113fd547b94c64d4e55cef8f3f90057d6cc9835b7388f99",
+      "bytes": 11438
+    },
+    {
+      "path": "formal/Pnp650SingleMixerAxioms.lean",
+      "sha256": "d0f96bebd5ef67f7fa91c37598b682756d02356a2e36418f7da45734b44237cb",
+      "bytes": 187
+    },
+    {
+      "path": "formal/Pnp650TransferCore.lean",
+      "sha256": "59b1952ef33eebc22880906a408bc6218c09c8510c78607b8e2fa900d835474b",
+      "bytes": 54508
+    },
+    {
+      "path": "formal/README.md",
+      "sha256": "00b45d4db89383970d9663af3e4ec2fb26956d8095f7787ee5648920a7ca8232",
+      "bytes": 2925
+    },
+    {
+      "path": "formal/core-ordinary.log",
+      "sha256": "6485402a267fedb0ff5e5f5d2b03244f43943085d45d4f6ea6ea606187111431",
+      "bytes": 8495
+    },
+    {
+      "path": "formal/reproduce.sh",
+      "sha256": "6d7321de31351afcc73a9057b29d7c6f99a4d3b552600cafeef3a246458e90d4",
+      "bytes": 971
+    },
+    {
+      "path": "formal/scope-review.md",
+      "sha256": "9ee0e0de783e67964586258fd8304dc7ac760f48a8638e19c9fb4281fce0bff8",
+      "bytes": 804
+    },
+    {
+      "path": "formal/single-mixer-axioms.log",
+      "sha256": "10ac8bf6107c92a20fea8b224ef6445cdec4660e84850b23130a0f2ae9ae1fc2",
+      "bytes": 1006
+    },
+    {
+      "path": "formal/single-mixer-ordinary.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "formal/validation.json",
+      "sha256": "b29e8201df9f082b0bbcaed0ae3074f74b88b5020dd3c9c27004e6064d09ae01",
+      "bytes": 2649
+    },
+    {
+      "path": "multioutput-sums-barrier.md",
+      "sha256": "b3efc2dbc06a3a6d0c37a4173cbc494bb2e832e30988d7d226fc889362f5e5e4",
+      "bytes": 4360
+    },
+    {
+      "path": "selected-api-signatures.json",
+      "sha256": "723e979c97c9f96898d63baa2175c4cb4517a600fc299969cc0131c64f12d97d",
+      "bytes": 8411
+    }
+  ],
+  "updated_utc": "2026-11-25T11:12:21.952113+00:00",
+  "focused_balance_pass": {
+    "status": "c=0,o=1 => Ustar.card<=1 ordinary-Lean checked; c=1,o=0 => Ustar.card<=1 informal composition; full balance unresolved.",
+    "cases": [
+      "c=0,o=1 implies Ustar.card<=1 for bipartite C4free graphs under explicit shape/trace; ordinary-Lean checked",
+      "c=1,o=0 implies Ustar.card<=1; mathematical composition only"
+    ],
+    "withdrawn": "The exploratory u4/t12/c0 implies o>=4 argument was invalid due to typeII dirty-pair top witnesses.",
+    "source5228_sha256": "0b3f20c44ae8739ae961579014fe617e87e12e3af5d333c91c658990ee82eada",
+    "not_asserted": "The broader o=0 => Ustar.card<=centreless.card needs a new cone-restricted argument and is not proved."
+  },
+  "source_audit_sha256": "0ae145cfb931965e307623cd93458cfb814e5d150dc33b8cc76086e7ec66a482",
+  "publication_transformations": [
+    "Source declaration headers replaced by pinned references",
+    "Reproduction README invokes bash explicitly",
+    "Necessary attributed 54,508-byte transfer dependency included unchanged"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "Reproduction metadata for completed ordinary computations; no formal theorem claimed",
+  "build_checkout_head": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "lean_toolchain": "leanprover/lean4:v4.36.0",
+  "dependencies": [
+    {
+      "path_relative_to_workspace": "pnp-session-2026-11-25/continuation-12/L-meta-650/statement.txt",
+      "bytes": 733,
+      "sha256": "2f423a13954b274d19d1c8766b82e12bb5ea843a124eebfdc6e995defee5b630"
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/lean-toolchain",
+      "bytes": 25,
+      "sha256": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a"
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/PEqualNP/Defs.lean",
+      "bytes": 3374,
+      "sha256": "594ff2311557f39573545905a9b6bcdb0b4e15db024ebcf15f921d250a1c8fbe"
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/PEqualNP/Defs/LratEncoding.lean",
+      "bytes": 9181,
+      "sha256": "ee92e1cb655165f235f1fd35a7e0deffdbdc25c51802a2f8c6f8accba684eb2e"
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_3516.lean",
+      "bytes": 271401,
+      "sha256": "c84cad53515f233bee38012e248cdf35fa5ca655411adcfbe83181faf2e8621f"
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_516.lean",
+      "bytes": 293794,
+      "sha256": "0a12be5a5e58fd7dd2ac7436bb48e7b7b0947217c9ef5fd47038381a42ceb3e7"
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_575.lean",
+      "bytes": 219921,
+      "sha256": "564c1005007f927264118007a57a5a0124fc6e48ef0d13602626cdd70afe6f96"
+    },
+    {
+      "path_relative_to_workspace": "pequalnp-proofs/lean/PEqualNP/Outside/L_meta_2054.lean",
+      "bytes": 1724,
+      "sha256": "e3ce8d6c70e6a50a4e9bceaa5d9dd983e5cbfc5e4951c4033698ccc7c7c89af7"
+    }
+  ],
+  "encoder": "PEqualNP.Defs.LratEncoding.enc2 18 23 label rows",
+  "encoder_modified": false,
+  "recorded_solver_relative_to_workspace": "pnp-tools/elan/toolchains/leanprover--lean4---v4.36.0/bin/cadical",
+  "runner_postrun_change": "Added optional PNP650_CADICAL environment variable for portable executable selection; limits and arguments unchanged",
+  "official_submission": false,
+  "strict_checker_run": false
+}

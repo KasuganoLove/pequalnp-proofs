@@ -1,0 +1,85 @@
+{
+  "checkpoint": "continuation-13",
+  "task": "L-meta-650",
+  "staging_frozen": true,
+  "stage_complete": false,
+  "full_task_proof": false,
+  "new_official_upstream_pr": null,
+  "new_official_accepted": false,
+  "latest_verified_research_head": "0d0ad82d8ebf74a431135bc5b995e654a9aae91b",
+  "task_state": {
+    "state": "closed_after_confirmed_release",
+    "last_confirmed_renewal_utc": "2026-11-25T11:01:44Z",
+    "http_status": 200,
+    "source": "root confirmed response",
+    "final_release_state": "success",
+    "released_at_utc": "2026-11-25T11:14:32.704521Z",
+    "release_http_status": 200,
+    "release_reason": "missing_lemma"
+  },
+  "local_chrome": {
+    "connected": true,
+    "github_account_observed": "KasuganoLove",
+    "source": "root observation via Browser plugin",
+    "private_tab_data_saved": false
+  },
+  "sat": {
+    "local_graph_inputs": 18,
+    "local_graph_edges": 20,
+    "searched_gate_budget": 23,
+    "known_baseline_gates": 24,
+    "extension_cost_to_full_graph": 40,
+    "start_utc": "2026-11-25T10:53:38.296817+00:00",
+    "end_utc": "2026-11-25T10:58:38.362299+00:00",
+    "wall_seconds": 300.0654880280017,
+    "outcome": "UNKNOWN",
+    "sat_model": false,
+    "unsat_certificate": false,
+    "worker_manifest": "c097c3474ba1c88a2d98fb2539b8a262e4d197b33e5e6e2da9214b3103c573cd",
+    "conflicts": 2606648,
+    "maximum_rss_mb": 161.66
+  },
+  "limited_lean_subcase": {
+    "state": "ordinary Lean passed",
+    "theorem": "PEqualNP.Outside.Pnp650SingleMixer.single_exception_ustar_card_le_one",
+    "conclusion": "Ustar.card <= 1",
+    "premises": [
+      "bipartition",
+      "NoFourCycle",
+      "IsAO2",
+      "centreless empty",
+      "exactly one exceptional OR",
+      "explicit top shape",
+      "explicit positive-edge trace"
+    ],
+    "ordinary_exit_code": 0,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "strict_checker_run": false,
+    "official_acceptance": false,
+    "source_sha256": "ca26c434cfe9cc9ab113fd547b94c64d4e55cef8f3f90057d6cc9835b7388f99",
+    "dependency_sha256": "59b1952ef33eebc22880906a408bc6218c09c8510c78607b8e2fa900d835474b"
+  },
+  "not_a_completion_claim": "This is a research checkpoint. The user goal remains an official upstream PR with official ACCEPTED.",
+  "latest_allocator_observation": {
+    "utc": "2026-11-25T11:07:22Z",
+    "gap": null,
+    "retry_after_seconds": 300,
+    "source": "root report",
+    "reason_not_inferred": true
+  },
+  "prior_completed_proof_8323": {
+    "current_state": "NOT_OPEN; absent from latest gaps/checked/withdrawn",
+    "currently_submittable": false,
+    "official_verdict": null,
+    "reason_known": false,
+    "exact_local_strict_passed_proof_retained": true,
+    "proposal": "BLOCKED; not sent",
+    "evidence": "submission-status-update/reconciliation.json"
+  },
+  "checkpoint_closed_utc": "2026-11-25T11:14:32.704521Z",
+  "running_task_jobs": 0
+}

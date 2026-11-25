@@ -1,0 +1,184 @@
+{
+  "source": "pnp-session-2026-11-25/continuation-11/new-971/L_meta_971.lean",
+  "namespace": "PEqualNP.Outside.L_meta_971_aux",
+  "note": "Declaration name and source-line index only; copied Lean theorem headers omitted. Read the pinned source and section context.",
+  "declarations": [
+    {
+      "name": "Strict",
+      "source_line": 36,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L36"
+    },
+    {
+      "name": "StrictLive",
+      "source_line": 49,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L49"
+    },
+    {
+      "name": "supp",
+      "source_line": 58,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L58"
+    },
+    {
+      "name": "totalSurplus",
+      "source_line": 67,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L67"
+    },
+    {
+      "name": "Bplus",
+      "source_line": 69,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L69"
+    },
+    {
+      "name": "Bzero",
+      "source_line": 72,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L72"
+    },
+    {
+      "name": "eligSet",
+      "source_line": 80,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L80"
+    },
+    {
+      "name": "PureBranch",
+      "source_line": 116,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L116"
+    },
+    {
+      "name": "normalize_strictLive",
+      "source_line": 667,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L667"
+    },
+    {
+      "name": "surplus_identity",
+      "source_line": 769,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L769"
+    },
+    {
+      "name": "carrier_flow_union",
+      "source_line": 922,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L922"
+    },
+    {
+      "name": "card_residual",
+      "source_line": 1075,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L1075"
+    },
+    {
+      "name": "sem_Gr",
+      "source_line": 1819,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L1819"
+    },
+    {
+      "name": "sem_exists_pureBranch",
+      "source_line": 2124,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L2124"
+    },
+    {
+      "name": "sem_elig_cover",
+      "source_line": 2298,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L2298"
+    },
+    {
+      "name": "sem_inelig_consumer",
+      "source_line": 2243,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L2243"
+    },
+    {
+      "name": "sem_exposure",
+      "source_line": 2326,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L2326"
+    },
+    {
+      "name": "sem_code_count",
+      "source_line": 2873,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L2873"
+    },
+    {
+      "name": "k4_Pos",
+      "source_line": 4460,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L4460"
+    },
+    {
+      "name": "k4_assigned",
+      "source_line": 4466,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L4466"
+    },
+    {
+      "name": "k4_budget",
+      "source_line": 4505,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L4505"
+    },
+    {
+      "name": "sup_Occ",
+      "source_line": 3819,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L3819"
+    },
+    {
+      "name": "sup_big",
+      "source_line": 3822,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L3822"
+    },
+    {
+      "name": "sup_Wit",
+      "source_line": 3827,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L3827"
+    },
+    {
+      "name": "sup_triple_parent",
+      "source_line": 3883,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L3883"
+    },
+    {
+      "name": "sup_charge",
+      "source_line": 4065,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L4065"
+    },
+    {
+      "name": "cnt_main",
+      "source_line": 6316,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L6316"
+    },
+    {
+      "name": "tri_exits",
+      "source_line": 6371,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L6371"
+    },
+    {
+      "name": "tri_occ",
+      "source_line": 6943,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L6943"
+    },
+    {
+      "name": "tri_sat",
+      "source_line": 6969,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L6969"
+    },
+    {
+      "name": "cof_restrict",
+      "source_line": 5755,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L5755"
+    },
+    {
+      "name": "cof_restrict_graph",
+      "source_line": 6045,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L6045"
+    },
+    {
+      "name": "cof_lost_of_true",
+      "source_line": 5853,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L5853"
+    },
+    {
+      "name": "cof_sur_add_lost",
+      "source_line": 5873,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L5873"
+    },
+    {
+      "name": "cof_side_count",
+      "source_line": 6176,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean#L6176"
+    }
+  ],
+  "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/62127f3af70786085fa09c6453d036c7cde890ce/lean/PEqualNP/Outside/L_meta_971.lean",
+  "source_sha256": "24a7f69db99fb56060c3d343f15f36688f1ee8fdc1b3d76f0942ee9874c2138e"
+}

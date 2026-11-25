@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-11-25T10:42:51.705519+00:00",
+  "files": [
+    {
+      "path": "L-meta-8793.statement.txt",
+      "bytes": 448,
+      "sha256": "1b5de3580f7a335a2388a6838e0fde80c4405e2f57584361394e5b0246d2312d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6038,
+      "sha256": "89a26e5f26b834ccbcfa7c18ba3f0761c73b66e80ca60a07e6ee80bced3e5237"
+    },
+    {
+      "path": "audit-status.json",
+      "bytes": 790,
+      "sha256": "62902123ae71cd10d87041bedbb579065b92632c73f9f1d2412c667fd204a00c"
+    },
+    {
+      "path": "dependency-source-hashes.json",
+      "bytes": 4941,
+      "sha256": "96f359c129c482a062c4b5b6dc75ab3a6c43a97520fd31cda40d57a2497466c2"
+    },
+    {
+      "path": "pr-evidence.json",
+      "bytes": 3261,
+      "sha256": "b344fb5193846d4eb13f6dbc014829ddb7287af358729f7cb83b6d6a70ed38e0"
+    },
+    {
+      "path": "public-status.json",
+      "bytes": 20828,
+      "sha256": "7fc988561fa6f5142046057ec8f4dab86927e90a34b714e7a83a1d042ac9e624"
+    },
+    {
+      "path": "retrievals.json",
+      "bytes": 1081,
+      "sha256": "58986a405479c5e587150052369c85a3f32b10176a72df2f71162fc1de1a3903"
+    },
+    {
+      "path": "step-650.json",
+      "bytes": 259,
+      "sha256": "d316ffc670c401e151ab966a831b3894b2aa9f9b2bb846f70128831868279af0"
+    }
+  ],
+  "file_count_excluding_manifest": 8,
+  "bytes_excluding_manifest": 37646
+}

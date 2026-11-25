@@ -1,0 +1,17 @@
+{
+  "scope": "read-only public source/status audit for held L-meta-650",
+  "new_lean_proof": false,
+  "new_upstream_pr": false,
+  "stage_complete": false,
+  "ready_full_proof_identified": false,
+  "canonical_upstream": "open-goat/pequalnp-proofs",
+  "pinned_upstream_source_sha": "62127f3af70786085fa09c6453d036c7cde890ce",
+  "related_previous_archive": {
+    "branch": "codex/pnp-research-2026-11-24",
+    "head": "0d0ad82d8ebf74a431135bc5b995e654a9aae91b",
+    "continuation_12_tree": "43183999098b9463a051f6170dc7fe75af7cf649",
+    "source": "root verified publication report, received during this audit",
+    "unchanged_by_this_audit": true
+  },
+  "privacy_check": "no lease IDs, credentials, email fields, full desk JSON, large third-party sources, or binaries in curated directory"
+}

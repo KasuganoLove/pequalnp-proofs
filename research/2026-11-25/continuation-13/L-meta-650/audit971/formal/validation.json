@@ -1,0 +1,76 @@
+{
+  "status": "ordinary Lean passed; no official strict check or acceptance",
+  "theorem": "PEqualNP.Outside.Pnp650SingleMixer.single_exception_ustar_card_le_one",
+  "conclusion": "(Ustar G C).card <= 1",
+  "scope": "NoFourCycle, explicit bipartition, IsAO2, centreless empty, exactly one exceptional OR, explicit top shape and edge trace. Not full650/972/8793.",
+  "toolchain": "Lean 4.36.0",
+  "ordinary_exit_code": 0,
+  "new_module_warning_count": 0,
+  "dependency_warnings": {
+    "count": 22,
+    "deprecated_if_pos_if_neg": 8,
+    "letI_style": 14,
+    "note": "Inherited from verbatim copied source."
+  },
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "strict_checker_runs": 0,
+  "search_jobs": 0,
+  "remote_mutations": 0,
+  "official_acceptance": false,
+  "files": [
+    {
+      "path": "Pnp650TransferCore.lean",
+      "bytes": 54508,
+      "sha256": "59b1952ef33eebc22880906a408bc6218c09c8510c78607b8e2fa900d835474b"
+    },
+    {
+      "path": "Pnp650SingleMixer.lean",
+      "bytes": 11438,
+      "sha256": "ca26c434cfe9cc9ab113fd547b94c64d4e55cef8f3f90057d6cc9835b7388f99"
+    },
+    {
+      "path": "Pnp650SingleMixerAxioms.lean",
+      "bytes": 187,
+      "sha256": "d0f96bebd5ef67f7fa91c37598b682756d02356a2e36418f7da45734b44237cb"
+    },
+    {
+      "path": "core-ordinary.log",
+      "bytes": 8495,
+      "sha256": "6485402a267fedb0ff5e5f5d2b03244f43943085d45d4f6ea6ea606187111431"
+    },
+    {
+      "path": "single-mixer-ordinary.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "single-mixer-axioms.log",
+      "bytes": 1006,
+      "sha256": "10ac8bf6107c92a20fea8b224ef6445cdec4660e84850b23130a0f2ae9ae1fc2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2925,
+      "sha256": "00b45d4db89383970d9663af3e4ec2fb26956d8095f7787ee5648920a7ca8232"
+    },
+    {
+      "path": "reproduce.sh",
+      "bytes": 971,
+      "sha256": "6d7321de31351afcc73a9057b29d7c6f99a4d3b552600cafeef3a246458e90d4"
+    },
+    {
+      "path": "scope-review.md",
+      "bytes": 804,
+      "sha256": "9ee0e0de783e67964586258fd8304dc7ac760f48a8638e19c9fb4281fce0bff8"
+    }
+  ],
+  "baseline": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "mathlib_pin": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "read_only_scope_review": "scope-review.md",
+  "source_validation_sha256": "b84ecd12e2f2b62ca25670f73e8fb4e89abb92fc6f6553b9d2b15d0f36ea0737",
+  "publication_transformations": "Proof/core/axiom sources and actual logs are byte-identical. Only README command uses explicit bash; documentation hashes below reflect the staged copy."
+}

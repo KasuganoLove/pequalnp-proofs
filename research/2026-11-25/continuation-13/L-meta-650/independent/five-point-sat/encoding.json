@@ -1,0 +1,10 @@
+{
+  "sparse_maximum_variable": 49815341,
+  "dense_variables": 5033,
+  "clauses": 479425,
+  "bijection_inverse_checked": true,
+  "clause_order_preserved": true,
+  "sparse_sha256": "2bbdd7682aac9a454ae22ff0be9dfe4b19432345e6ec4a8083369e579d87eeba",
+  "dense_sha256": "46777d9ab73af2e37d6b0a5b7a30d329058163b354098a1eb1c358294762c489",
+  "scope": "exact variable renaming of unmodified project enc2 formula; no satisfiability assertion"
+}

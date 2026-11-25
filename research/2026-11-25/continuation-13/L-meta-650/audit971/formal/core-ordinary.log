@@ -1,0 +1,144 @@
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:259:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:261:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:300:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:301:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:303:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:314:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:315:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:317:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:405:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:421:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:452:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:490:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:527:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:541:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:581:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:645:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:671:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:722:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:891:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:923:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:1042:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/65f339da29fe/pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean:1097:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`

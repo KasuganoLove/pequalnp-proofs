@@ -1,0 +1,499 @@
+{
+  "url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "updated_at": "2026-11-25T10:32:40.336Z",
+  "retrieved_at": "2026-11-25T10:34:05+00:00",
+  "whole_response_sha256": "1cb6c081bbaac6a236cd76b4fa42fba6337d3f96b7fa2633c33b82a1e497ed7e",
+  "rows": [
+    {
+      "id": "L-meta-650",
+      "title": "Search: a circuit of AND and OR gates with at most 63 gates for the point-line incidence function of the projective plane of order 3",
+      "file": "lean/PEqualNP/Outside/L_meta_650.lean",
+      "depth": 0,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "open",
+      "desk_collection": "gaps",
+      "statement": "∃ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C ∧ C.size ≤ 63 ∧ (∀ x : Fin 26 → Bool, (C.eval (List.ofFn x) = true ↔ ∃ u v : Fin 26, (u.val, v.val) ∈ ([(0, 13), (0, 14), (0, 16), (0, 22), (1, 13), (1, 15), (1, 21), (1, 25), (2, 14), (2, 20), (2, 24), (2, 25), (3, 13), (3, 19), (3, 23), (3, 24), (4, 18), (4, 22), (4, 23), (4, 25), (5, 17), (5, 21), (5, 22), (5, 24), (6, 16), (6, 20), (6, 21), (6, 23), (7, 15), (7, 19), (7, 20), (7, 22), (8, 14), (8, 18), (8, 19), (8, 21), (9, 13), (9, 17), (9, 18), (9, 20), (10, 16), (10, 17), (10, 19), (10, 25), (11, 15), (11, 16), (11, 18), (11, 24), (12, 14), (12, 15), (12, 17), (12, 23)] : List (ℕ × ℕ)) ∧ x u = true ∧ x v = true))"
+    },
+    {
+      "id": "L-meta-2056",
+      "title": "A step toward: Search: a circuit of AND and OR gates with at most 63 gates for the point-line incidence function of the projective plane of order 3 (step 2 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_2056.lean",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-650"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-2057",
+      "title": "It is false that: A step toward: Search: a circuit of AND and OR gates with at most 63 gates for the point-line incidence function of the projective plane of order 3 (step 2 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_2057.lean",
+      "depth": 1,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-2215",
+      "title": "A step toward: Search: a circuit of AND and OR gates with at most 63 gates for the point-line incidence function of the projective plane of order 3 (step 1 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_2215.lean",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-650"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-2216",
+      "title": "It is false that: A step toward: Search: a circuit of AND and OR gates with at most 63 gates for the point-line incidence function of the projective plane of order 3 (step 1 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_2216.lean",
+      "depth": 1,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-3773",
+      "title": "A step toward: Search: a circuit of AND and OR gates with at most 63 gates for the point-line incidence function of the projective plane of order 3 (step 2 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_3773.lean",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-650"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-1692",
+      "title": "Plane of order 3: every AND/OR list of fan-in at most two accepting every incident point-line input and rejecting every quadrangle input has at least 64 gates",
+      "file": "lean/PEqualNP/Outside/L_meta_1692.lean",
+      "depth": 0,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-972",
+      "title": "Every circuit of AND and OR gates for the point-line graph of the projective plane of order 3 has at least 64 gates",
+      "file": "lean/PEqualNP/Outside/L_meta_972.lean",
+      "depth": 0,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "hard",
+      "desk_collection": "gaps",
+      "statement": "∀ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C → (∀ x : Fin 26 → Bool, (C.eval (List.ofFn x) = true ↔ ∃ u v : Fin 26, (u.val, v.val) ∈ ([(0, 13), (0, 14), (0, 16), (0, 22), (1, 13), (1, 15), (1, 21), (1, 25), (2, 14), (2, 20), (2, 24), (2, 25), (3, 13), (3, 19), (3, 23), (3, 24), (4, 18), (4, 22), (4, 23), (4, 25), (5, 17), (5, 21), (5, 22), (5, 24), (6, 16), (6, 20), (6, 21), (6, 23), (7, 15), (7, 19), (7, 20), (7, 22), (8, 14), (8, 18), (8, 19), (8, 21), (9, 13), (9, 17), (9, 18), (9, 20), (10, 16), (10, 17), (10, 19), (10, 25), (11, 15), (11, 16), (11, 18), (11, 24), (12, 14), (12, 15), (12, 17), (12, 23)] : List (ℕ × ℕ)) ∧ x u = true ∧ x v = true)) → 64 ≤ C.size"
+    },
+    {
+      "id": "L-meta-1988",
+      "title": "A step toward: Every circuit of AND and OR gates for the point-line graph of the projective plane of order 3 has at least 64 gates (step 1 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_1988.lean",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-972"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-1990",
+      "title": "A step toward: Every circuit of AND and OR gates for the point-line graph of the projective plane of order 3 has at least 64 gates (step 2 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_1990.lean",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-972"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-6140",
+      "title": "A step toward: Every circuit of AND and OR gates for the point-line graph of the projective plane of order 3 has at least 64 gates (step 2 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_6140.lean",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 2,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-972"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-8793",
+      "title": "A step toward: Every circuit of AND and OR gates for the point-line graph of the projective plane of order 3 has at least 64 gates (step 4 of 4)",
+      "file": "lean/PEqualNP/Outside/L_meta_8793.lean",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-972"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps",
+      "statement": "∀ (x1 : SimpleGraph (Fin (26 : ℕ))) [x2 : DecidableRel x1.Adj] (x3 : PEqualNP.CircuitLowerBounds.Circuit), (x1 = SimpleGraph.fromRel fun (x4 x5 : Fin (26 : ℕ)) => ↑x4 < (13 : ℕ) ∧ (13 : ℕ) ≤ ↑x5 ∧ (↑x4 + ↑x5) % (13 : ℕ) ∈ [(0 : ℕ), (1 : ℕ), (3 : ℕ), (9 : ℕ)]) → PEqualNP.TopForm.IsLeastAO x1 x3 → PEqualNP.TopForm.TopForm x1 x3 → (2 : ℕ) ≤ (PEqualNP.TopForm.junk x1 x3).card → (64 : ℕ) ≤ x3.size"
+    },
+    {
+      "id": "L-meta-8943",
+      "file": "lean/PEqualNP/Outside/L_meta_8943.lean",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-8793"
+      ],
+      "desk_collection": "gaps",
+      "statement": "∀ (x1 : SimpleGraph (Fin (26 : ℕ))) [x2 : DecidableRel x1.Adj] (x3 : PEqualNP.CircuitLowerBounds.Circuit), (x1 = SimpleGraph.fromRel fun (x4 x5 : Fin (26 : ℕ)) => ↑x4 < (13 : ℕ) ∧ (13 : ℕ) ≤ ↑x5 ∧ (↑x4 + ↑x5) % (13 : ℕ) ∈ [(0 : ℕ), (1 : ℕ), (3 : ℕ), (9 : ℕ)]) → PEqualNP.TopForm.IsLeastAO x1 x3 → PEqualNP.TopForm.TopForm x1 x3 → (2 : ℕ) ≤ (PEqualNP.TopForm.junk x1 x3).card → x3.size ≤ (63 : ℕ) → (52 : ℕ) + (PEqualNP.TopForm.tops x1 x3 \\ PEqualNP.TopForm.centreless x1 x3).card + (2 : ℕ) * (PEqualNP.TopForm.centreless x1 x3).card + (PEqualNP.TopForm.junk x1 x3).card + (PEqualNP.TopForm.orN x1 x3 \\ PEqualNP.TopForm.lam x1 x3).card ≤ x3.size + (PEqualNP.TopForm.Ustar x1 x3).card + (1 : ℕ) → (52 : ℕ) ≤ (4 : ℕ) * (PEqualNP.TopForm.tops x1 x3 \\ PEqualNP.TopForm.centreless x1 x3).card + (PEqualNP.TopForm.Ustar x1 x3).card → (4 : ℕ) * ((PEqualNP.TopForm.junk x1 x3).card + (2 : ℕ) * (PEqualNP.TopForm.centreless x1 x3).card + (PEqualNP.TopForm.orN x1 x3 \\ PEqualNP.TopForm.lam x1 x3).card) + (4 : ℕ) ≤ (5 : ℕ) * (PEqualNP.TopForm.Ustar x1 x3).card → False"
+    },
+    {
+      "id": "L-meta-9049",
+      "file": "lean/PEqualNP/Outside/L_meta_9049.lean",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-8793"
+      ],
+      "desk_collection": "gaps",
+      "statement": "∀ (x1 : SimpleGraph (Fin (26 : ℕ))) [x2 : DecidableRel x1.Adj] (x3 : PEqualNP.CircuitLowerBounds.Circuit), (x1 = SimpleGraph.fromRel fun (x4 x5 : Fin (26 : ℕ)) => ↑x4 < (13 : ℕ) ∧ (13 : ℕ) ≤ ↑x5 ∧ (↑x4 + ↑x5) % (13 : ℕ) ∈ [(0 : ℕ), (1 : ℕ), (3 : ℕ), (9 : ℕ)]) → PEqualNP.TopForm.IsLeastAO x1 x3 → PEqualNP.TopForm.TopForm x1 x3 → (2 : ℕ) ≤ (PEqualNP.TopForm.junk x1 x3).card → x3.size ≤ (63 : ℕ) → (13 : ℕ) + (PEqualNP.TopForm.Ustar x1 x3).card ≤ (PEqualNP.TopForm.tops x1 x3 \\ PEqualNP.TopForm.centreless x1 x3).card + (2 : ℕ) * (PEqualNP.TopForm.centreless x1 x3).card + (PEqualNP.TopForm.junk x1 x3).card + (PEqualNP.TopForm.orN x1 x3 \\ PEqualNP.TopForm.lam x1 x3).card"
+    },
+    {
+      "id": "L-meta-1684",
+      "title": "Order-3 plane: every fan-in-two AND/OR circuit true at incident pairs and false at all degenerate maximal false inputs has at least 64 gates",
+      "file": "lean/PEqualNP/Outside/L_meta_1684.lean",
+      "depth": 0,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-2032",
+      "title": "It is false that: Every circuit of AND and OR gates for the point-line graph of the projective plane of order 3 has at least 64 gates",
+      "file": "lean/PEqualNP/Outside/L_meta_2032.lean",
+      "depth": 0,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "hard",
+      "desk_collection": "gaps",
+      "statement": "¬ (∀ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C → (∀ x : Fin 26 → Bool, (C.eval (List.ofFn x) = true ↔ ∃ u v : Fin 26, (u.val, v.val) ∈ ([(0, 13), (0, 14), (0, 16), (0, 22), (1, 13), (1, 15), (1, 21), (1, 25), (2, 14), (2, 20), (2, 24), (2, 25), (3, 13), (3, 19), (3, 23), (3, 24), (4, 18), (4, 22), (4, 23), (4, 25), (5, 17), (5, 21), (5, 22), (5, 24), (6, 16), (6, 20), (6, 21), (6, 23), (7, 15), (7, 19), (7, 20), (7, 22), (8, 14), (8, 18), (8, 19), (8, 21), (9, 13), (9, 17), (9, 18), (9, 20), (10, 16), (10, 17), (10, 19), (10, 25), (11, 15), (11, 16), (11, 18), (11, 24), (12, 14), (12, 15), (12, 17), (12, 23)] : List (ℕ × ℕ)) ∧ x u = true ∧ x v = true)) → 64 ≤ C.size)"
+    },
+    {
+      "id": "L-meta-2716",
+      "title": "A step toward: Order-3 plane: every fan-in-two AND/OR circuit true at incident pairs and false at all degenerate maximal false inputs has at least 64 gates (step 1 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_2716.lean",
+      "depth": 1,
+      "reductions": true,
+      "pr_open": 1,
+      "pr_numbers": [
+        4938
+      ],
+      "unlocks_ids": [
+        "L-meta-1684"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-2718",
+      "title": "A step toward: Order-3 plane: every fan-in-two AND/OR circuit true at incident pairs and false at all degenerate maximal false inputs has at least 64 gates (step 2 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_2718.lean",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-1684"
+      ],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-3774",
+      "title": "It is false that: A step toward: Search: a circuit of AND and OR gates with at most 63 gates for the point-line incidence function of the projective plane of order 3 (step 2 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_3774.lean",
+      "depth": 1,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-5741",
+      "file": "lean/PEqualNP/Outside/L_meta_5741.lean",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-2718"
+      ],
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-5743",
+      "file": "lean/PEqualNP/Outside/L_meta_5743.lean",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-2718"
+      ],
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-8781",
+      "title": "It is false that: A step toward: Every circuit of AND and OR gates for the point-line graph of the projective plane of order 3 has at least 64 gates (step 2 of 2)",
+      "file": "lean/PEqualNP/Outside/L_meta_8781.lean",
+      "depth": 1,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "level": "hard",
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-8847",
+      "file": "lean/PEqualNP/Outside/L_meta_8847.lean",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "unlocks_ids": [
+        "L-meta-2718"
+      ],
+      "desk_collection": "gaps"
+    },
+    {
+      "id": "L-meta-971",
+      "file": "lean/PEqualNP/Outside/L_meta_971.lean",
+      "file_sha256": "24a7f69db99fb56060c3d343f15f36688f1ee8fdc1b3d76f0942ee9874c2138e",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-1751",
+      "file": "lean/PEqualNP/Outside/L_meta_1751.lean",
+      "file_sha256": "f4ac468823e04d3bc2b207013e1767dd4ab23f44ef23eab0b32041edb4764377",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-2054",
+      "file": "lean/PEqualNP/Outside/L_meta_2054.lean",
+      "file_sha256": "e3ce8d6c70e6a50a4e9bceaa5d9dd983e5cbfc5e4951c4033698ccc7c7c89af7",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-2217",
+      "file": "lean/PEqualNP/Outside/L_meta_2217.lean",
+      "file_sha256": "206693c34ef1de3a98ecd776458b2ce8b28c628cdd3888f3d35dab2166e1dc8d",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-3771",
+      "file": "lean/PEqualNP/Outside/L_meta_3771.lean",
+      "file_sha256": "b2c044ace1d0bb55f70ec1b20e0ceb3aa0e8bf17be148691b46d5e6bb768a2ca",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-4181",
+      "file": "lean/PEqualNP/Outside/L_meta_4181.lean",
+      "file_sha256": "313bab29d078697e356c77ecfd7d65743b62ba05382ebe37f3b3d9651b6f47a8",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-5739",
+      "file": "lean/PEqualNP/Outside/L_meta_5739.lean",
+      "file_sha256": "ae15cbc90ad17dcbaa3ab6126e5dfa631abc9e8c1749117b3aff3310973e9c7e",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-7862",
+      "file": "lean/PEqualNP/Outside/L_meta_7862.lean",
+      "file_sha256": "3c34b2c09d2b530192edd62b5a03e7681e39fdcf3b8700daee9159c836d27471",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-8725",
+      "file": "lean/PEqualNP/Outside/L_meta_8725.lean",
+      "file_sha256": "298aff71cfa51b7907a69d23e474380f9744e8a2985b8f12952d29a662c71658",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-8791",
+      "file": "lean/PEqualNP/Outside/L_meta_8791.lean",
+      "file_sha256": "0ed4d419cd6ed6750f23d8691414d20c152bc6c3a4e09a0407bc0c745a9ed2c4",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-8845",
+      "file": "lean/PEqualNP/Outside/L_meta_8845.lean",
+      "file_sha256": "8a40e83dc21647052bfca178eeac45785dada5e48bf6e1772fc55e79b2b237a1",
+      "desk_collection": "checked"
+    },
+    {
+      "id": "L-meta-9047",
+      "file": "lean/PEqualNP/Outside/L_meta_9047.lean",
+      "file_sha256": "ec1338db1afc836fd1b5fea7e7e329a123a7111431a9a16a761eefdc940109b4",
+      "desk_collection": "checked"
+    }
+  ],
+  "reductions": [
+    {
+      "id": "R-L-meta-650-1",
+      "parent": "L-meta-650",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_650_1.lean",
+        "content_hash": "sha256:b69cd325e729d56089dd9c07bf87e2a2e6277ae3703d27466bee064951bab389"
+      }
+    },
+    {
+      "id": "R-L-meta-650-517",
+      "parent": "L-meta-650",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_650_517.lean",
+        "content_hash": "sha256:639b20f689789087dc97ed61137607309ece0e8e89819c3d74317aab94b059c9"
+      }
+    },
+    {
+      "id": "R-L-meta-650-713",
+      "parent": "L-meta-650",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_650_713.lean",
+        "content_hash": "sha256:6e3e3465524774327803c60469f5f194528ed9c6d117b4a080bcaaaf4e172967"
+      }
+    },
+    {
+      "id": "R-L-meta-972-5",
+      "parent": "L-meta-972",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_972_5.lean",
+        "content_hash": "sha256:72b96fec0654072d3f2beea4f92d1a7cafb25b1f1b6d434d9d2c0fa13b23ab03"
+      }
+    },
+    {
+      "id": "R-L-meta-972-72",
+      "parent": "L-meta-972",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_972_72.lean",
+        "content_hash": "sha256:15f89e85347fd8b8a0ec1319feb06bbeacebe6765a63220f472619b65a49a620"
+      }
+    },
+    {
+      "id": "R-L-meta-972-713",
+      "parent": "L-meta-972",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_972_713.lean",
+        "content_hash": "sha256:1309e11a0ca9a5579098a6d142eb9eafb4340c161d4c4ec9affd080bfaec4dd8"
+      }
+    },
+    {
+      "id": "R-L-meta-972-733",
+      "parent": "L-meta-972",
+      "state": "dead",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_972_733.lean",
+        "content_hash": "sha256:d4e4b507edb3ad8a18a8c2d81d49e2594036cab844b57a3f0360ab2e50a59d4f"
+      }
+    },
+    {
+      "id": "R-L-meta-2718-1",
+      "parent": "L-meta-2718",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2718_1.lean",
+        "content_hash": "sha256:0643b3f30fa673cbd4707f6cd7a4b12a2733a3d5c93731265847086050644685"
+      }
+    },
+    {
+      "id": "R-L-meta-2718-106",
+      "parent": "L-meta-2718",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2718_106.lean",
+        "content_hash": "sha256:83a0ad4ca1f037097b686b934f6f70bb5ee7841ff245cd574983d383a7ddc987"
+      }
+    },
+    {
+      "id": "R-L-meta-2718-236",
+      "parent": "L-meta-2718",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2718_236.lean",
+        "content_hash": "sha256:2e24e1ccafbb9563ee3efc49cb0dfafc61bdad6e54d38cb71931bc84b6c568d0"
+      }
+    },
+    {
+      "id": "R-L-meta-8793-7",
+      "parent": "L-meta-8793",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_8793_7.lean",
+        "content_hash": "sha256:da4319b31ed4eafa7c7c3b70743d51573582805cda0edf838e4442bdaa14e1ec"
+      }
+    },
+    {
+      "id": "R-L-meta-8793-26",
+      "parent": "L-meta-8793",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_8793_26.lean",
+        "content_hash": "sha256:a300e398c609f0ef8ff81c32809ce5bcd60a8a1f4059d0f882eff6422779f25e"
+      }
+    },
+    {
+      "id": "R-L-meta-8793-291",
+      "parent": "L-meta-8793",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_8793_291.lean",
+        "content_hash": "sha256:d5ad5f04476a5a7fc66546c941ca0dffc82013b9481e17ea9349313904bb9631"
+      }
+    }
+  ]
+}

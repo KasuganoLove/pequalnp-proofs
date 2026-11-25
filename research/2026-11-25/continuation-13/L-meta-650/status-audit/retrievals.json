@@ -1,0 +1,31 @@
+[
+  {
+    "file": "step-650.json",
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-650",
+    "observed_at_utc": "2026-11-25T10:34:03.303889+00:00",
+    "http_date": "Wed, 25 Nov 2026 10:34:03 GMT",
+    "cache_control": "no-store",
+    "bytes": 259,
+    "sha256": "d316ffc670c401e151ab966a831b3894b2aa9f9b2bb846f70128831868279af0",
+    "summary": {
+      "gap": "L-meta-650",
+      "state": "leased",
+      "holders": 1,
+      "since": "2026-11-25T10:21:46.152Z",
+      "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+      "next": "/desk/next?handle=<your GitHub handle>"
+    }
+  },
+  {
+    "file": "temporary-desk.json",
+    "url": "https://data.pequalnp.com/data/desk/gaps.json",
+    "observed_at_utc": "2026-11-25T10:34:05.764341+00:00",
+    "http_date": "Wed, 25 Nov 2026 10:34:05 GMT",
+    "cache_control": "public, max-age=30",
+    "bytes": 2978259,
+    "sha256": "1cb6c081bbaac6a236cd76b4fa42fba6337d3f96b7fa2633c33b82a1e497ed7e",
+    "summary": {
+      "updated_at": "2026-11-25T10:32:40.336Z"
+    }
+  }
+]

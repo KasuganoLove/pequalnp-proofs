@@ -1,0 +1,248 @@
+{
+  "scope": "Read-only reconciliation of a submission-status change; not an acceptance or withdrawal diagnosis",
+  "source_url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "old_snapshot_utc": "2026-11-25T10:32:40.336Z",
+  "old_snapshot_sha256": "1cb6c081bbaac6a236cd76b4fa42fba6337d3f96b7fa2633c33b82a1e497ed7e",
+  "new_snapshot_utc": "2026-11-25T11:09:49.108Z",
+  "new_snapshot_sha256": "b06df893490459b5d6a9813aa45554ae54b45269ebaddf4e180bcd2e31cdb1b0",
+  "observed_rows": [
+    {
+      "id": "L-meta-8321",
+      "old": {
+        "id": "L-meta-8321",
+        "file": "lean/PEqualNP/Outside/L_meta_8321.lean",
+        "depth": 2,
+        "reductions": true,
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-4201"
+        ],
+        "collection": "gaps",
+        "statement_sha256_utf8": "b30d778075c7850e16ef4e62cb9fa80b7e5b55ad729ccb1e607b64b43312bb0e"
+      },
+      "new": {
+        "id": "L-meta-8321",
+        "collection": null,
+        "not_listed_in": [
+          "gaps",
+          "checked",
+          "withdrawn"
+        ]
+      }
+    },
+    {
+      "id": "L-meta-8323",
+      "old": {
+        "id": "L-meta-8323",
+        "file": "lean/PEqualNP/Outside/L_meta_8323.lean",
+        "depth": 2,
+        "reductions": true,
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-4201"
+        ],
+        "collection": "gaps",
+        "statement_sha256_utf8": "ea9da5a93cdce2730e73e9dfe572610b1f6cb565daff7e96c8f55c0a6d8ccfbf"
+      },
+      "new": {
+        "id": "L-meta-8323",
+        "collection": null,
+        "not_listed_in": [
+          "gaps",
+          "checked",
+          "withdrawn"
+        ]
+      }
+    },
+    {
+      "id": "L-meta-8468",
+      "old": {
+        "id": "L-meta-8468",
+        "file": "lean/PEqualNP/Outside/L_meta_8468.lean",
+        "depth": 2,
+        "reductions": true,
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-4201"
+        ],
+        "collection": "gaps",
+        "statement_sha256_utf8": "2d2618e433226f4ce4d63e1347ceadb8c853ae83d2707122b3e81a465c530a6c"
+      },
+      "new": {
+        "id": "L-meta-8468",
+        "collection": null,
+        "not_listed_in": [
+          "gaps",
+          "checked",
+          "withdrawn"
+        ]
+      }
+    },
+    {
+      "id": "L-meta-8470",
+      "old": {
+        "id": "L-meta-8470",
+        "file": "lean/PEqualNP/Outside/L_meta_8470.lean",
+        "file_sha256": "445ebfbd528d66ff58712f902023eeb078f8334a9ba142cfeff769c0b729c91e",
+        "collection": "checked"
+      },
+      "new": {
+        "id": "L-meta-8470",
+        "file": "lean/PEqualNP/Outside/L_meta_8470.lean",
+        "file_sha256": "445ebfbd528d66ff58712f902023eeb078f8334a9ba142cfeff769c0b729c91e",
+        "collection": "checked"
+      }
+    },
+    {
+      "id": "L-meta-4201",
+      "old": {
+        "id": "L-meta-4201",
+        "file": "lean/PEqualNP/Outside/L_meta_4201.lean",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1477"
+        ],
+        "collection": "gaps",
+        "statement_sha256_utf8": "33b4bf3496e28c6c0eb1cc0b877d7039867aef968b4158ea9aa528753bc952f0"
+      },
+      "new": {
+        "id": "L-meta-4201",
+        "file": "lean/PEqualNP/Outside/L_meta_4201.lean",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1477"
+        ],
+        "collection": "gaps",
+        "statement_sha256_utf8": "33b4bf3496e28c6c0eb1cc0b877d7039867aef968b4158ea9aa528753bc952f0"
+      }
+    },
+    {
+      "id": "L-meta-1477",
+      "old": {
+        "id": "L-meta-1477",
+        "file": "lean/PEqualNP/Outside/L_meta_1477.lean",
+        "depth": 0,
+        "reductions": true,
+        "reductions_live": 3,
+        "pr_open": 0,
+        "pr_numbers": [],
+        "collection": "gaps",
+        "statement_sha256_utf8": "e5949d0eb3369b5f2493b4e0dba2eee0d9c2092e7cb7b6a9f2dab3c8fe4358e3"
+      },
+      "new": {
+        "id": "L-meta-1477",
+        "file": "lean/PEqualNP/Outside/L_meta_1477.lean",
+        "depth": 0,
+        "reductions": true,
+        "reductions_live": 3,
+        "pr_open": 0,
+        "pr_numbers": [],
+        "collection": "gaps",
+        "statement_sha256_utf8": "e5949d0eb3369b5f2493b4e0dba2eee0d9c2092e7cb7b6a9f2dab3c8fe4358e3"
+      }
+    }
+  ],
+  "origin_mapping": {
+    "L-meta-8321": "R_meta_4201_777 normalization premise",
+    "L-meta-8323": "R_meta_4201_777 counting premise: all AND gates safe implies OR count >= 104",
+    "L-meta-8468": "R_meta_4201_731 normalization premise",
+    "L-meta-8470": "R_meta_4201_731 counting premise"
+  },
+  "parent_reductions_before": [
+    {
+      "id": "R-L-meta-4201-1",
+      "parent": "L-meta-4201",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_4201_1.lean",
+        "content_hash": "sha256:721913bc7ec9807b995ce7347c33d17e94833c2611f6574ab3eb6cb29fa15085"
+      }
+    },
+    {
+      "id": "R-L-meta-4201-731",
+      "parent": "L-meta-4201",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_4201_731.lean",
+        "content_hash": "sha256:382b29d0785d840db3de281b6d61ee00cff3722a6880900b252535ffa0d99690"
+      }
+    },
+    {
+      "id": "R-L-meta-4201-777",
+      "parent": "L-meta-4201",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_4201_777.lean",
+        "content_hash": "sha256:1396cf738096ad41737fcee2608c006abe38004cba6b281e4c92747cb2913479"
+      }
+    }
+  ],
+  "parent_reductions_after": [
+    {
+      "id": "R-L-meta-4201-1",
+      "parent": "L-meta-4201",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_4201_1.lean",
+        "content_hash": "sha256:721913bc7ec9807b995ce7347c33d17e94833c2611f6574ab3eb6cb29fa15085"
+      }
+    },
+    {
+      "id": "R-L-meta-4201-731",
+      "parent": "L-meta-4201",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_4201_731.lean",
+        "content_hash": "sha256:382b29d0785d840db3de281b6d61ee00cff3722a6880900b252535ffa0d99690"
+      }
+    },
+    {
+      "id": "R-L-meta-4201-777",
+      "parent": "L-meta-4201",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_4201_777.lean",
+        "content_hash": "sha256:1396cf738096ad41737fcee2608c006abe38004cba6b281e4c92747cb2913479"
+      }
+    }
+  ],
+  "parent_cut_records_unchanged": true,
+  "current_step_8323": {
+    "source": "root-reported fresh GET, no allocation",
+    "url": "https://pequalnp.com/desk/step?gap=L-meta-8323",
+    "observed_utc": "2026-11-25T11:08:20Z",
+    "result": "NOT_OPEN"
+  },
+  "canonical_source_8323": {
+    "source": "root-reported current repository read",
+    "result": "404; no canonical source observed"
+  },
+  "official_pr_8323": {
+    "source": "root-reported exact task search",
+    "result": "No proof PR identified; numbered PR8323 was unrelated"
+  },
+  "interpretation": {
+    "currently_submittable": false,
+    "reason_known": false,
+    "official_accepted_claim": false,
+    "official_withdrawn_claim": false,
+    "saved_exact_local_proof_retained": true,
+    "proposal": "BLOCKED; not sent"
+  },
+  "limitations": [
+    "No public cut-state change or child-pruning reason is present in these snapshots.",
+    "Not all depth2 rows disappeared: the new snapshot still contains462 such rows.",
+    "Absence from public desk and NOT_OPEN do not imply proved, accepted, or withdrawn."
+  ]
+}

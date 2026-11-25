@@ -1,0 +1,10 @@
+{
+  "conflicts": 2606648,
+  "decisions": 14468731,
+  "maximum_rss_mb": 161.66,
+  "solver_process_seconds": 299.42,
+  "solver_real_seconds": 300.0,
+  "log_sha256": "34ee46735e1937ba2858d27ca89dfbea5eb52ba17c9200b7926163a25aca29ed",
+  "outcome": "UNKNOWN",
+  "source": "cadical.log"
+}

@@ -1,0 +1,139 @@
+{
+  "scope": "Compact public subset; original worker files verified before documented omissions",
+  "source_worker_manifest_sha256": "c097c3474ba1c88a2d98fb2539b8a262e4d197b33e5e6e2da9214b3103c573cd",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7893,
+      "sha256": "4bb7af01d1ee7f48e16e5a92420e0f7c281493f818551f0008761cab7103bfdf"
+    },
+    {
+      "path": "five-point-sat/ExportFivePointCNF.lean",
+      "bytes": 1234,
+      "sha256": "a94ed8f21accfb22f2c168b21a4c2fb627fd6942d1c12a36f81aa2293b266df7"
+    },
+    {
+      "path": "five-point-sat/README.md",
+      "bytes": 7049,
+      "sha256": "565803fa73c913f69de9d048e84d8148e8287104dc8c14c22edd4bd7c2b28197"
+    },
+    {
+      "path": "five-point-sat/assemble.py",
+      "bytes": 2646,
+      "sha256": "ba8cdc0da11ea97652ef4f5f31bbba8baf8896addf502f4e7e0eb34e59e07728"
+    },
+    {
+      "path": "five-point-sat/baseline-24-verification.json",
+      "bytes": 268,
+      "sha256": "7de9fb4dfc7489815db2642ea30568f30d62766b5b65e0f161b99476fa9c1194"
+    },
+    {
+      "path": "five-point-sat/baseline-24.json",
+      "bytes": 1029,
+      "sha256": "8ba9affc511c92ae04f9bddf5f1d4fda6b38f6610c4021c4f723b94840850b9f"
+    },
+    {
+      "path": "five-point-sat/cadical.log",
+      "bytes": 29253,
+      "sha256": "34ee46735e1937ba2858d27ca89dfbea5eb52ba17c9200b7926163a25aca29ed"
+    },
+    {
+      "path": "five-point-sat/decode_model.py",
+      "bytes": 1453,
+      "sha256": "a9a61a5996419ba5eef743ba293a13903ffab84af686bb1f45a8f96e1db935c6"
+    },
+    {
+      "path": "five-point-sat/densify.py",
+      "bytes": 2008,
+      "sha256": "d97bf698af673e2b60cd544862ec525c585bed648fb80bd65b380e06a9f3a702"
+    },
+    {
+      "path": "five-point-sat/encoding.json",
+      "bytes": 436,
+      "sha256": "5380d177da735d5d085d8c41926da1f1d10615034d97834fd363903dc0abdbef"
+    },
+    {
+      "path": "five-point-sat/full650-baseline-24-all-verification.json",
+      "bytes": 156,
+      "sha256": "ffd527c0e82c51fad8bf26d3d2511b2c380a0bc6b9c65ac592becc483fee3202"
+    },
+    {
+      "path": "five-point-sat/full650-baseline-24-boundary-verification.json",
+      "bytes": 278,
+      "sha256": "8cbc53ede29d06b8e71d65e9a668a7c580228e88cffccf3d0a906ddd8b73b6d6"
+    },
+    {
+      "path": "five-point-sat/full650-baseline-24.json",
+      "bytes": 2722,
+      "sha256": "91dd61b86ce47d51c26e56137b6ce3438c9aea337175278238c9e3e3a3eb2c64"
+    },
+    {
+      "path": "five-point-sat/prepare.py",
+      "bytes": 2876,
+      "sha256": "a40507092fd5b110efac0411eb10ada40abc15c2fcd112f48400b2073bc4e479"
+    },
+    {
+      "path": "five-point-sat/problem.json",
+      "bytes": 3962,
+      "sha256": "7159aa4242c0ba5409ec86d4251c10a2ba3af181f76180d9d38d61372b534a78"
+    },
+    {
+      "path": "five-point-sat/provenance.json",
+      "bytes": 2321,
+      "sha256": "365e2ac893177e79ebe628fb70cb25f911dee8d42ba29203bcd93dc3fc906ce4"
+    },
+    {
+      "path": "five-point-sat/run_sat.py",
+      "bytes": 1403,
+      "sha256": "f61d0b641bb6be951ff22eb5f4c8d1d92a92bb2557d3c75e54c0cefb5414ed78"
+    },
+    {
+      "path": "five-point-sat/sat-result.json",
+      "bytes": 434,
+      "sha256": "16790193e92bd2b5d2a9497c46cdfbe2b59be8a5fd2bc85aa19463451866ca07"
+    },
+    {
+      "path": "five-point-sat/sat-statistics.json",
+      "bytes": 283,
+      "sha256": "445567bb27d218c8be1d381f644d613e27052fb9d61156284fcc626ad765bc0b"
+    },
+    {
+      "path": "five-point-sat/verify18.py",
+      "bytes": 1410,
+      "sha256": "a7f2090b6549b871f63368ded87d08a6411431dadf68df7f71d466650787a842"
+    },
+    {
+      "path": "five-point-sat/verify_all.cpp",
+      "bytes": 1813,
+      "sha256": "2d2e24805104482cd6ac594a31685a794b26e4008641d714e0e5c8befe8a2126"
+    },
+    {
+      "path": "geometry-summary.json",
+      "bytes": 5955,
+      "sha256": "7d412c6538c017767b532bff26a22ffbc017a4b5d13866cc5a88d262c1f25bf6"
+    },
+    {
+      "path": "geometry_audit.py",
+      "bytes": 4784,
+      "sha256": "7c0be5675df0c5ae6ca2832954118587db43b45fb87eb8d4ac2e070d59369a28"
+    },
+    {
+      "path": "source-index.json",
+      "bytes": 1581,
+      "sha256": "62bff39f97a415941f9054d50d98b6ce7503de643ace1a9faf29799b53fd2a51"
+    }
+  ],
+  "omitted_regenerable": [
+    "CNFs",
+    "dense-to-sparse.json",
+    "binary",
+    "PID",
+    "full six-cycle list",
+    "redundant control gate table",
+    "old duplicate enumeration",
+    "assembled text view"
+  ],
+  "no_sat_model": true,
+  "no_unsat_certificate": true,
+  "no_official_submission": true
+}

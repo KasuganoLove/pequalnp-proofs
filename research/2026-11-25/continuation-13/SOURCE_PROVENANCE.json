@@ -1,0 +1,375 @@
+{
+  "created_at": "2026-11-25T11:06:44.661871+00:00",
+  "files": [
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/gap.json",
+      "destination": "L-meta-650/gap.json",
+      "source_sha256": "6b93aab9b0b8f70a6ae8ec20020a1d3c32e66350da7345c4b4e36e7648a1c821",
+      "staged_sha256": "6b93aab9b0b8f70a6ae8ec20020a1d3c32e66350da7345c4b4e36e7648a1c821",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/statement.txt",
+      "destination": "L-meta-650/statement.txt",
+      "source_sha256": "2f423a13954b274d19d1c8766b82e12bb5ea843a124eebfdc6e995defee5b630",
+      "staged_sha256": "2f423a13954b274d19d1c8766b82e12bb5ea843a124eebfdc6e995defee5b630",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/L-meta-8793.statement.txt",
+      "destination": "L-meta-650/status-audit/L-meta-8793.statement.txt",
+      "source_sha256": "1b5de3580f7a335a2388a6838e0fde80c4405e2f57584361394e5b0246d2312d",
+      "staged_sha256": "1b5de3580f7a335a2388a6838e0fde80c4405e2f57584361394e5b0246d2312d",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/README.md",
+      "destination": "L-meta-650/status-audit/README.md",
+      "source_sha256": "89a26e5f26b834ccbcfa7c18ba3f0761c73b66e80ca60a07e6ee80bced3e5237",
+      "staged_sha256": "89a26e5f26b834ccbcfa7c18ba3f0761c73b66e80ca60a07e6ee80bced3e5237",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/audit-status.json",
+      "destination": "L-meta-650/status-audit/audit-status.json",
+      "source_sha256": "62902123ae71cd10d87041bedbb579065b92632c73f9f1d2412c667fd204a00c",
+      "staged_sha256": "62902123ae71cd10d87041bedbb579065b92632c73f9f1d2412c667fd204a00c",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/dependency-source-hashes.json",
+      "destination": "L-meta-650/status-audit/dependency-source-hashes.json",
+      "source_sha256": "96f359c129c482a062c4b5b6dc75ab3a6c43a97520fd31cda40d57a2497466c2",
+      "staged_sha256": "96f359c129c482a062c4b5b6dc75ab3a6c43a97520fd31cda40d57a2497466c2",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/manifest.json",
+      "destination": "L-meta-650/status-audit/manifest.json",
+      "source_sha256": "8c8c002b84006e61e705202f0890f73a16d9947fb06262f731e0f2022c356d2e",
+      "staged_sha256": "8c8c002b84006e61e705202f0890f73a16d9947fb06262f731e0f2022c356d2e",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/pr-evidence.json",
+      "destination": "L-meta-650/status-audit/pr-evidence.json",
+      "source_sha256": "b344fb5193846d4eb13f6dbc014829ddb7287af358729f7cb83b6d6a70ed38e0",
+      "staged_sha256": "b344fb5193846d4eb13f6dbc014829ddb7287af358729f7cb83b6d6a70ed38e0",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/public-status.json",
+      "destination": "L-meta-650/status-audit/public-status.json",
+      "source_sha256": "7fc988561fa6f5142046057ec8f4dab86927e90a34b714e7a83a1d042ac9e624",
+      "staged_sha256": "7fc988561fa6f5142046057ec8f4dab86927e90a34b714e7a83a1d042ac9e624",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/retrievals.json",
+      "destination": "L-meta-650/status-audit/retrievals.json",
+      "source_sha256": "58986a405479c5e587150052369c85a3f32b10176a72df2f71162fc1de1a3903",
+      "staged_sha256": "58986a405479c5e587150052369c85a3f32b10176a72df2f71162fc1de1a3903",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/status-audit/curated/step-650.json",
+      "destination": "L-meta-650/status-audit/step-650.json",
+      "source_sha256": "d316ffc670c401e151ab966a831b3894b2aa9f9b2bb846f70128831868279af0",
+      "staged_sha256": "d316ffc670c401e151ab966a831b3894b2aa9f9b2bb846f70128831868279af0",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/multioutput-sums-barrier.md",
+      "destination": "L-meta-650/audit971/multioutput-sums-barrier.md",
+      "source_sha256": "b3efc2dbc06a3a6d0c37a4173cbc494bb2e832e30988d7d226fc889362f5e5e4",
+      "staged_sha256": "b3efc2dbc06a3a6d0c37a4173cbc494bb2e832e30988d7d226fc889362f5e5e4",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/selected-api-signatures.json",
+      "destination": "L-meta-650/audit971/selected-api-signatures.json",
+      "source_sha256": "6b455836e2cac4b569244d3777f8100b769879541944300da15b451f4131f9f8",
+      "staged_sha256": "723e979c97c9f96898d63baa2175c4cb4517a600fc299969cc0131c64f12d97d",
+      "transformation": "Copied declaration headers replaced by fixed source URL, declaration name, source line and hash; necessary formal dependency is preserved separately."
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/geometry_audit.py",
+      "destination": "L-meta-650/independent/geometry_audit.py",
+      "source_sha256": "7c0be5675df0c5ae6ca2832954118587db43b45fb87eb8d4ac2e070d59369a28",
+      "staged_sha256": "7c0be5675df0c5ae6ca2832954118587db43b45fb87eb8d4ac2e070d59369a28",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/geometry-and-restriction-audit.json",
+      "destination": "L-meta-650/independent/geometry-summary.json",
+      "source_sha256": "a2ac662c3a5b37e28210314cc3e89e10f7a7e1d5a3e904eb544a3bba5c752305",
+      "staged_sha256": "7d412c6538c017767b532bff26a22ffbc017a4b5d13866cc5a88d262c1f25bf6",
+      "transformation": "Compact result summary; omit repeated edge table and 234 regenerable six-cycle vertex lists."
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/README.md",
+      "destination": "L-meta-650/independent/README.md",
+      "source_sha256": "c31da3f5d28fcb8cf53f7bc8f529a8863e4a719a07c532beac416f0d4b79a968",
+      "staged_sha256": "4bb7af01d1ee7f48e16e5a92420e0f7c281493f818551f0008761cab7103bfdf",
+      "transformation": "Clarified compact-archive omissions and regeneration; mathematical scope unchanged."
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/ExportFivePointCNF.lean",
+      "destination": "L-meta-650/independent/five-point-sat/ExportFivePointCNF.lean",
+      "source_sha256": "a94ed8f21accfb22f2c168b21a4c2fb627fd6942d1c12a36f81aa2293b266df7",
+      "staged_sha256": "a94ed8f21accfb22f2c168b21a4c2fb627fd6942d1c12a36f81aa2293b266df7",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/README.md",
+      "destination": "L-meta-650/independent/five-point-sat/README.md",
+      "source_sha256": "565803fa73c913f69de9d048e84d8148e8287104dc8c14c22edd4bd7c2b28197",
+      "staged_sha256": "565803fa73c913f69de9d048e84d8148e8287104dc8c14c22edd4bd7c2b28197",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/assemble.py",
+      "destination": "L-meta-650/independent/five-point-sat/assemble.py",
+      "source_sha256": "ba8cdc0da11ea97652ef4f5f31bbba8baf8896addf502f4e7e0eb34e59e07728",
+      "staged_sha256": "ba8cdc0da11ea97652ef4f5f31bbba8baf8896addf502f4e7e0eb34e59e07728",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/baseline-24-verification.json",
+      "destination": "L-meta-650/independent/five-point-sat/baseline-24-verification.json",
+      "source_sha256": "7de9fb4dfc7489815db2642ea30568f30d62766b5b65e0f161b99476fa9c1194",
+      "staged_sha256": "7de9fb4dfc7489815db2642ea30568f30d62766b5b65e0f161b99476fa9c1194",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/baseline-24.json",
+      "destination": "L-meta-650/independent/five-point-sat/baseline-24.json",
+      "source_sha256": "8ba9affc511c92ae04f9bddf5f1d4fda6b38f6610c4021c4f723b94840850b9f",
+      "staged_sha256": "8ba9affc511c92ae04f9bddf5f1d4fda6b38f6610c4021c4f723b94840850b9f",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/cadical.log",
+      "destination": "L-meta-650/independent/five-point-sat/cadical.log",
+      "source_sha256": "34ee46735e1937ba2858d27ca89dfbea5eb52ba17c9200b7926163a25aca29ed",
+      "staged_sha256": "34ee46735e1937ba2858d27ca89dfbea5eb52ba17c9200b7926163a25aca29ed",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/decode_model.py",
+      "destination": "L-meta-650/independent/five-point-sat/decode_model.py",
+      "source_sha256": "a9a61a5996419ba5eef743ba293a13903ffab84af686bb1f45a8f96e1db935c6",
+      "staged_sha256": "a9a61a5996419ba5eef743ba293a13903ffab84af686bb1f45a8f96e1db935c6",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/densify.py",
+      "destination": "L-meta-650/independent/five-point-sat/densify.py",
+      "source_sha256": "d97bf698af673e2b60cd544862ec525c585bed648fb80bd65b380e06a9f3a702",
+      "staged_sha256": "d97bf698af673e2b60cd544862ec525c585bed648fb80bd65b380e06a9f3a702",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/encoding.json",
+      "destination": "L-meta-650/independent/five-point-sat/encoding.json",
+      "source_sha256": "5380d177da735d5d085d8c41926da1f1d10615034d97834fd363903dc0abdbef",
+      "staged_sha256": "5380d177da735d5d085d8c41926da1f1d10615034d97834fd363903dc0abdbef",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/full650-baseline-24-all-verification.json",
+      "destination": "L-meta-650/independent/five-point-sat/full650-baseline-24-all-verification.json",
+      "source_sha256": "ffd527c0e82c51fad8bf26d3d2511b2c380a0bc6b9c65ac592becc483fee3202",
+      "staged_sha256": "ffd527c0e82c51fad8bf26d3d2511b2c380a0bc6b9c65ac592becc483fee3202",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/full650-baseline-24-boundary-verification.json",
+      "destination": "L-meta-650/independent/five-point-sat/full650-baseline-24-boundary-verification.json",
+      "source_sha256": "8cbc53ede29d06b8e71d65e9a668a7c580228e88cffccf3d0a906ddd8b73b6d6",
+      "staged_sha256": "8cbc53ede29d06b8e71d65e9a668a7c580228e88cffccf3d0a906ddd8b73b6d6",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/full650-baseline-24.json",
+      "destination": "L-meta-650/independent/five-point-sat/full650-baseline-24.json",
+      "source_sha256": "91dd61b86ce47d51c26e56137b6ce3438c9aea337175278238c9e3e3a3eb2c64",
+      "staged_sha256": "91dd61b86ce47d51c26e56137b6ce3438c9aea337175278238c9e3e3a3eb2c64",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/prepare.py",
+      "destination": "L-meta-650/independent/five-point-sat/prepare.py",
+      "source_sha256": "a40507092fd5b110efac0411eb10ada40abc15c2fcd112f48400b2073bc4e479",
+      "staged_sha256": "a40507092fd5b110efac0411eb10ada40abc15c2fcd112f48400b2073bc4e479",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/problem.json",
+      "destination": "L-meta-650/independent/five-point-sat/problem.json",
+      "source_sha256": "7159aa4242c0ba5409ec86d4251c10a2ba3af181f76180d9d38d61372b534a78",
+      "staged_sha256": "7159aa4242c0ba5409ec86d4251c10a2ba3af181f76180d9d38d61372b534a78",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/provenance.json",
+      "destination": "L-meta-650/independent/five-point-sat/provenance.json",
+      "source_sha256": "365e2ac893177e79ebe628fb70cb25f911dee8d42ba29203bcd93dc3fc906ce4",
+      "staged_sha256": "365e2ac893177e79ebe628fb70cb25f911dee8d42ba29203bcd93dc3fc906ce4",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/run_sat.py",
+      "destination": "L-meta-650/independent/five-point-sat/run_sat.py",
+      "source_sha256": "f61d0b641bb6be951ff22eb5f4c8d1d92a92bb2557d3c75e54c0cefb5414ed78",
+      "staged_sha256": "f61d0b641bb6be951ff22eb5f4c8d1d92a92bb2557d3c75e54c0cefb5414ed78",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/sat-result.json",
+      "destination": "L-meta-650/independent/five-point-sat/sat-result.json",
+      "source_sha256": "16790193e92bd2b5d2a9497c46cdfbe2b59be8a5fd2bc85aa19463451866ca07",
+      "staged_sha256": "16790193e92bd2b5d2a9497c46cdfbe2b59be8a5fd2bc85aa19463451866ca07",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/sat-statistics.json",
+      "destination": "L-meta-650/independent/five-point-sat/sat-statistics.json",
+      "source_sha256": "445567bb27d218c8be1d381f644d613e27052fb9d61156284fcc626ad765bc0b",
+      "staged_sha256": "445567bb27d218c8be1d381f644d613e27052fb9d61156284fcc626ad765bc0b",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/verify18.py",
+      "destination": "L-meta-650/independent/five-point-sat/verify18.py",
+      "source_sha256": "a7f2090b6549b871f63368ded87d08a6411431dadf68df7f71d466650787a842",
+      "staged_sha256": "a7f2090b6549b871f63368ded87d08a6411431dadf68df7f71d466650787a842",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/five-point-sat/verify_all.cpp",
+      "destination": "L-meta-650/independent/five-point-sat/verify_all.cpp",
+      "source_sha256": "2d2e24805104482cd6ac594a31685a794b26e4008641d714e0e5c8befe8a2126",
+      "staged_sha256": "2d2e24805104482cd6ac594a31685a794b26e4008641d714e0e5c8befe8a2126",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/README.md",
+      "destination": "L-meta-650/audit971/README.md",
+      "source_sha256": "63972c88dd345164e0efe39511be270419e775892f01583726c76bc5d70f255e",
+      "staged_sha256": "5d49a2eaa07cf2462099d2458f683aff64ad11ce27bfaac9503bd385c8894c3f",
+      "transformation": "Clarify replacement of third-party header excerpts by pinned source index."
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/balance-api-signatures.json",
+      "destination": "L-meta-650/audit971/balance-api-signatures.json",
+      "source_sha256": "bf61d1605f55c82a84ddc539ec6458111fe4e5d28de7ee5fd4b1c0f1709d9c2f",
+      "staged_sha256": "a80c10da689f3656f46f7c25d0b9501d40cc1596522b949002d46b688e3c8749",
+      "transformation": "Copied declaration headers replaced by fixed source URL, declaration name, source line and hash; necessary formal dependency is preserved separately."
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/balance-peeling.md",
+      "destination": "L-meta-650/audit971/balance-peeling.md",
+      "source_sha256": "7c0b875acea89768e33aadcdcffb04c04f285ba6d826613023284790d0cf9375",
+      "staged_sha256": "7c0b875acea89768e33aadcdcffb04c04f285ba6d826613023284790d0cf9375",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650SingleMixer.lean",
+      "destination": "L-meta-650/audit971/formal/Pnp650SingleMixer.lean",
+      "source_sha256": "ca26c434cfe9cc9ab113fd547b94c64d4e55cef8f3f90057d6cc9835b7388f99",
+      "staged_sha256": "ca26c434cfe9cc9ab113fd547b94c64d4e55cef8f3f90057d6cc9835b7388f99",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650SingleMixerAxioms.lean",
+      "destination": "L-meta-650/audit971/formal/Pnp650SingleMixerAxioms.lean",
+      "source_sha256": "d0f96bebd5ef67f7fa91c37598b682756d02356a2e36418f7da45734b44237cb",
+      "staged_sha256": "d0f96bebd5ef67f7fa91c37598b682756d02356a2e36418f7da45734b44237cb",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/Pnp650TransferCore.lean",
+      "destination": "L-meta-650/audit971/formal/Pnp650TransferCore.lean",
+      "source_sha256": "59b1952ef33eebc22880906a408bc6218c09c8510c78607b8e2fa900d835474b",
+      "staged_sha256": "59b1952ef33eebc22880906a408bc6218c09c8510c78607b8e2fa900d835474b",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/README.md",
+      "destination": "L-meta-650/audit971/formal/README.md",
+      "source_sha256": "57469871e21853a03ea20179a4eba90e759ac7892cff2ca65c0690699d45d0cc",
+      "staged_sha256": "00b45d4db89383970d9663af3e4ec2fb26956d8095f7787ee5648920a7ca8232",
+      "transformation": "Use bash explicitly so reproduction does not depend on Git executable mode."
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/core-ordinary.log",
+      "destination": "L-meta-650/audit971/formal/core-ordinary.log",
+      "source_sha256": "6485402a267fedb0ff5e5f5d2b03244f43943085d45d4f6ea6ea606187111431",
+      "staged_sha256": "6485402a267fedb0ff5e5f5d2b03244f43943085d45d4f6ea6ea606187111431",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/reproduce.sh",
+      "destination": "L-meta-650/audit971/formal/reproduce.sh",
+      "source_sha256": "6d7321de31351afcc73a9057b29d7c6f99a4d3b552600cafeef3a246458e90d4",
+      "staged_sha256": "6d7321de31351afcc73a9057b29d7c6f99a4d3b552600cafeef3a246458e90d4",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/scope-review.md",
+      "destination": "L-meta-650/audit971/formal/scope-review.md",
+      "source_sha256": "9ee0e0de783e67964586258fd8304dc7ac760f48a8638e19c9fb4281fce0bff8",
+      "staged_sha256": "9ee0e0de783e67964586258fd8304dc7ac760f48a8638e19c9fb4281fce0bff8",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/single-mixer-axioms.log",
+      "destination": "L-meta-650/audit971/formal/single-mixer-axioms.log",
+      "source_sha256": "10ac8bf6107c92a20fea8b224ef6445cdec4660e84850b23130a0f2ae9ae1fc2",
+      "staged_sha256": "10ac8bf6107c92a20fea8b224ef6445cdec4660e84850b23130a0f2ae9ae1fc2",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/single-mixer-ordinary.log",
+      "destination": "L-meta-650/audit971/formal/single-mixer-ordinary.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "none"
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/formal/validation.json",
+      "destination": "L-meta-650/audit971/formal/validation.json",
+      "source_sha256": "b84ecd12e2f2b62ca25670f73e8fb4e89abb92fc6f6553b9d2b15d0f36ea0737",
+      "staged_sha256": "b29e8201df9f082b0bbcaed0ae3074f74b88b5020dd3c9c27004e6064d09ae01",
+      "transformation": "Preserve validation outcome and exact proof/log hashes; annotate README-only publication change and refresh its document hash."
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/audit.json",
+      "destination": "L-meta-650/audit971/audit.json",
+      "source_sha256": "0ae145cfb931965e307623cd93458cfb814e5d150dc33b8cc76086e7ec66a482",
+      "staged_sha256": "4812859ef97006a5e7834438f4b7757a422a0f20e5b4d8507636db5ba2eb1391",
+      "transformation": "Original audit provenance retained; file hashes updated only for documented publication transformations."
+    }
+  ],
+  "pending": [],
+  "updated_at": "2026-11-25T11:14:10.237306+00:00",
+  "worker_manifests": [
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/independent/MANIFEST.json",
+      "sha256": "c097c3474ba1c88a2d98fb2539b8a262e4d197b33e5e6e2da9214b3103c573cd",
+      "files": 27,
+      "bytes": 107915,
+      "subset_transformations": "Omit regenerable geometry detail, duplicate records and assembled text; all source and verification evidence retained."
+    },
+    {
+      "source": "pnp-session-2026-11-25/continuation-12/L-meta-650/audit971/audit.json",
+      "sha256": "0ae145cfb931965e307623cd93458cfb814e5d150dc33b8cc76086e7ec66a482",
+      "files": 16,
+      "formal_validation_source_sha256": "b84ecd12e2f2b62ca25670f73e8fb4e89abb92fc6f6553b9d2b15d0f36ea0737",
+      "new_theorem_sha256": "ca26c434cfe9cc9ab113fd547b94c64d4e55cef8f3f90057d6cc9835b7388f99"
+    }
+  ],
+  "finalized_at": "2026-11-25T11:17:07.539191+00:00",
+  "task_release_confirmed": "2026-11-25T11:14:32.704521Z HTTP200 missing_lemma"
+}

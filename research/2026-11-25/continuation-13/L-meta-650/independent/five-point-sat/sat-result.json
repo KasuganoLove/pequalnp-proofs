@@ -1,0 +1,13 @@
+{
+  "start_utc": "2026-11-25T10:53:38.296817+00:00",
+  "end_utc": "2026-11-25T10:58:38.362299+00:00",
+  "elapsed_wall_seconds": 300.0654880280017,
+  "exit_code": 0,
+  "outcome": "UNKNOWN",
+  "outer_timeout": false,
+  "time_limit_seconds": 300,
+  "address_space_limit_bytes": 1073741824,
+  "cnf_sha256": "46777d9ab73af2e37d6b0a5b7a30d329058163b354098a1eb1c358294762c489",
+  "formal_unsat_certificate": false,
+  "repeated_run": false
+}

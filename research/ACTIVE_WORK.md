@@ -1,35 +1,27 @@
-# Active P vs NP work
+# ACTIVE_WORK — 2026-11-25, continuation-13 publication
 
-Updated 2026-11-25T18:33:57.532375+08:00 (Asia/Singapore). This is a dated coordination record; every task still needs current lease evidence.
+## Goal
 
-## Completion
-
-No new owner-authored official upstream PR or ACCEPTED verdict has been obtained in this continuation. The current stage remains incomplete under research/PROJECT_WORKFLOW.md. Official destination: open-goat/pequalnp-proofs. Working fork: KasuganoLove/pequalnp-proofs.
+Continue `KasuganoLove/pequalnp-proofs` toward a valid proof PR to the official upstream `open-goat/pequalnp-proofs`, with the official checker verdict recorded separately. This checkpoint is research preservation only: no new upstream PR or ACCEPTED verdict has been obtained.
 
 ## Current task
 
-L-meta-650: the documented default allocator request at 10:31:48 UTC returned an existing owner-held task. A renewal returned HTTP 200 at 10:32:27 UTC. The task seeks a monotone circuit with at most 63 gates for the full incidence function of PG(2,3); the posted negated twin is an allowed alternative under the joining instructions. Three live reductions were listed, so no additional reduction is presumed available.
+L-meta-9219 is the currently allocated task. Its exact proposition is `PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 5 => (7586366 : ℕ).testBit (5 * u.val + v.val)) 10`. The lease was last confirmed renewed at 2026-11-25 11:23:56.550907 UTC (HTTP 200). The task requires a circuit on the 25 one-left/one-right inputs, not every Boolean assignment. A correct 11-gate ordinary-computation baseline has been found, but it exceeds the limit. The first bounded 300-second SAT search ended UNKNOWN, without a model or an UNSAT certificate. A constructive search is also being evaluated. An open PR #13399 for the exact negated twin L-meta-9224 is being audited; no validity or acceptance is assumed before checking it.
 
-Current work checks reusable structural lower-bound lemmas, induced restrictions and fresh accepted dependencies. The new checked Heawood result L-meta-971 is a dependency candidate, not our contribution. No complete proof or valid witness for 650 is claimed. Lease identifiers are private. Any other agent should verify current state before changing or returning this shared owner task.
+The local Chrome connection is working; the visible signed-in GitHub account was verified as KasuganoLove. Authentication is no longer the active blocker. Use a fresh one-file, one-commit branch for any actual proof submission and preserve the exact task proposition.
 
-A documented additional hard-task request at 10:32:22 UTC returned no new task and requested a 300-second retry interval. Public L-meta-2733 was observed open with no holder at 10:28:06 UTC; that is not an assignment. Its proof has not been started after the earlier lease closed.
+## Closed task and durable new results
 
-## Latest archived work
+L-meta-650 was returned at 2026-11-25 11:14:32.704521 UTC (HTTP 200, missing_lemma). It has no ongoing solver or Lean job. Do not resume it without a fresh allocation. New work is under `research/2026-11-25/continuation-13/`:
 
-research/2026-11-25/continuation-12 contains the bounded 1900, 1745 and 2718 audits, reproducible search code, independent verification and source provenance. It preserves unsuccessful research, not an official contribution.
+- A genuine ordinary-Lean sublemma proves `Ustar.card ≤ 1` under explicit bipartition, NoFourCycle, IsAO2, empty centreless set, unique exceptional OR, top-shape, and positive-trace premises. The file, required extracted helper, attribution, reproduction command, and axiom audit are included. This is not the full 650/972/8793 proposition and has not been submitted as one.
+- A bounded 23-gate, 18-input local SAT attempt ended UNKNOWN. A 24-gate local baseline and assembled 64-gate whole-plane baseline were exhaustively verified by ordinary programs; both exceed the requested witness bounds.
+- The PG(2,3) lower-bound residual still needs the many-junk argument, specifically the remaining ledger/balance steps. No claimed completion is inferred from checked sublemmas.
 
-- L-meta-1900: release attempt at 10:09:27 UTC returned HTTP 410. The lease was already closed; the cause is unknown. Existing clean counting is covered by L_meta_2656; arbitrary-circuit normalization remains open.
-- L-meta-1745: released at 10:11:57 UTC with HTTP 200, reason missing_lemma. Shared computed partners and low-reader odd cycles remain unresolved.
-- L-meta-2718: released at 10:22:11.693831 UTC with HTTP 200, reason out_of_time. One 300-second search found no valid 63-gate circuit. Its best candidate misses point 0 / line 4 while rejecting all 236 required negatives. Another contributor's 2716 PR4938 was observed ACCEPTED and unmerged; this is not our new contribution.
+## Previously ready proof, now not open
 
-The frozen ACTIVE_WORK.draft.md inside that archive is a historical packaging snapshot before the current 650 allocation. This top-level file is the newer coordination record.
+L-meta-8323's exact strict-checker-passed proof remains preserved at branch `codex/prove-meta-8323-2026-11-25`, head `0873097889691e4d21f575dabed0c1cadd0bcb3a`. At 11:08:20 UTC the step endpoint returned NOT_OPEN. At the 11:09:49 UTC ledger snapshot it was absent from gaps, checked, and withdrawn; its current official source path returned 404. The reason is unknown. Do not claim it was accepted, refuted, or still eligible for submission. The draft proposal is blocked and has not been sent.
 
-## Prepared exact proof
+## Publication integrity
 
-L-meta-8323 remains on branch codex/prove-meta-8323-2026-11-25 at commit 0873097889691e4d21f575dabed0c1cadd0bcb3a. Its exact statement passed the local strict checker. The child was never assigned, and the documented allocation route has not offered it; no official PR for it was opened. Do not invent a lease or submission exception.
-
-## Prior checkpoint
-
-research/2026-11-25/continuation-11 preserves the earlier Heawood/free-OR searches, UNKNOWN SAT runs, own-PR audit and generic Singular setup. L-meta-2732 was released at 09:47:43 UTC and later publicly withdrawn after L-meta-971 was proved. L-meta-3451 was released at 09:44:11 UTC. L-meta-2733 renewal returned 410 at 09:20:24 UTC; no cause is inferred.
-
-Keep full proofs, conditional results, exact symbolic certificates, solver evidence and failed searches distinct. Local builds, archives and fork review PRs do not replace official upstream submission and verdict.
+This update is based on verified research head `0d0ad82d8ebf74a431135bc5b995e654a9aae91b`, preserving its history with a compare-and-swap branch update. Private lease records and secrets, full task-desk dumps, binaries, and large regenerable SAT artifacts are excluded. Continuation-13 is an immutable historical checkpoint of task650; later task9219 state must be recorded in a subsequent checkpoint.

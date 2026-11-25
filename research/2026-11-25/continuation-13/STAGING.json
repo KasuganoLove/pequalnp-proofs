@@ -1,0 +1,19 @@
+{
+  "prepared_at": "2026-11-25T11:17:50.433707+00:00",
+  "frozen": true,
+  "publish_target": "research/2026-11-25/continuation-13",
+  "base_research_head": "0d0ad82d8ebf74a431135bc5b995e654a9aae91b",
+  "root_only_remote_writes": true,
+  "phase_goal_complete": false,
+  "active_work_draft": "ACTIVE_WORK.draft.md",
+  "privacy_scope_review": "passed",
+  "proof_and_core_sources_byte_identical_to_checked_worker_files": true,
+  "raw_solver_run_count": 1,
+  "publication_notes": [
+    "No private lease or tab data",
+    "No CNF, binary, compiled Lean, full desk JSON, or unused third-party full proof",
+    "Necessary attributed transfer source included",
+    "No new strict official check, upstream PR, or ACCEPTED",
+    "8323 NOT_OPEN recorded without inferred cause"
+  ]
+}

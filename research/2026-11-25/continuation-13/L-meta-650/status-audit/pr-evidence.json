@@ -1,0 +1,87 @@
+{
+  "retrieval_context": "2026-11-25 10:34–10:40 UTC; read-only connector audit",
+  "prs": [
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/13253",
+      "number": 13253,
+      "state": "closed",
+      "merged": false,
+      "title": "L-meta-8781",
+      "head_sha": "d85239a572186c5e3d40c58deff602b439ac30a9",
+      "head_repo_full_name": "alecgard/pequalnp-proofs",
+      "merge_commit_sha": "458b5643b03cbcb84ddb6877e974c87bb954d0e6",
+      "created_at": "2026-11-25T10:14:14Z",
+      "updated_at": "2026-11-25T10:14:49Z",
+      "closed_at": "2026-11-25T10:14:49Z",
+      "merged_at": null,
+      "changed_files": 1,
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/13253#issuecomment-7159431947",
+          "body": "Closing: submitted against the wrong step id (this refutes the 'normalize' child of R_meta_972_733, whose twin is not L-meta-8781).",
+          "created_at": "2026-11-25T10:14:49Z"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/13091",
+      "number": 13091,
+      "state": "closed",
+      "merged": true,
+      "title": "L-meta-971",
+      "head_sha": "598bf7316e9392bf0c9637e3d24ea420385f2b49",
+      "head_repo_full_name": "AkiRA-COM-FP/pequalnp-proofs",
+      "merge_commit_sha": "705c7577110a9e2b4bed3507fc697b65d3a485fd",
+      "created_at": "2026-11-25T09:07:30Z",
+      "updated_at": "2026-11-25T09:34:44Z",
+      "closed_at": "2026-11-25T09:34:44Z",
+      "merged_at": "2026-11-25T09:34:44Z",
+      "changed_files": 1,
+      "returned_comments": [],
+      "advisory_workflows": [
+        {
+          "id": 45582423114,
+          "name": "advisory",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_number": 13652,
+          "jobs_url": "https://api.github.com/repos/open-goat/pequalnp-proofs/actions/runs/45582423114/jobs",
+          "logs_url": "https://api.github.com/repos/open-goat/pequalnp-proofs/actions/runs/45582423114/logs",
+          "workflow_id": 427327651
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/13108",
+      "number": 13108,
+      "state": "closed",
+      "merged": true,
+      "title": "Reduce L-meta-8793 by first-gate symmetry",
+      "head_sha": "178944eedf36a983b8c946724d90a4a9760bdbcc",
+      "head_repo_full_name": "HoshinoStarry/pequalnp-proofs",
+      "merge_commit_sha": "e7ddb2286fecd80f38aa8c4bad7636dc2aef592f",
+      "created_at": "2026-11-25T09:21:13Z",
+      "updated_at": "2026-11-25T09:42:49Z",
+      "closed_at": "2026-11-25T09:42:48Z",
+      "merged_at": "2026-11-25T09:42:48Z",
+      "changed_files": 1,
+      "returned_comments": []
+    },
+    {
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/4938",
+      "number": 4938,
+      "state": "open",
+      "merged": false,
+      "title": "L-meta-2716",
+      "head_sha": "1e1b84679544b083d3e240bac25ae6be219b8dcd",
+      "head_repo_full_name": "jackryan225/pequalnp-proofs",
+      "merge_commit_sha": "8d89ad890c89e814d999b8a786d981bb63f63886",
+      "created_at": "2026-11-24T09:33:56Z",
+      "updated_at": "2026-11-24T18:24:06Z",
+      "closed_at": null,
+      "merged_at": null,
+      "changed_files": 1
+    }
+  ]
+}
+

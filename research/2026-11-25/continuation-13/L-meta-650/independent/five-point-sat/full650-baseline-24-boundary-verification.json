@@ -1,0 +1,12 @@
+{
+  "source": "baseline-24.json",
+  "full_gate_count": 64,
+  "point_subsets_examined": 8192,
+  "positive_count": 52,
+  "maximal_negative_count": 704,
+  "positive_errors": [],
+  "negative_errors": [],
+  "all_boundary_correct": true,
+  "fits63": false,
+  "lean_verified": false
+}
