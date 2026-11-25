@@ -1,0 +1,1943 @@
+[
+  {
+    "index": 0,
+    "pair": [
+      0,
+      1
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x88888888888888888888888888888888",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 1,
+    "pair": [
+      0,
+      1
+    ],
+    "op": 1,
+    "keep_mask": 1,
+    "extra": 2,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 2,
+    "pair": [
+      0,
+      1
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 3,
+    "pair": [
+      0,
+      1
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x22222222222222222222222222222222",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 4,
+    "pair": [
+      0,
+      1
+    ],
+    "op": 3,
+    "keep_mask": 1,
+    "extra": 2,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x44444444444444444444444444444444",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 5,
+    "pair": [
+      0,
+      1
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x44444444444444444444444444444444",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 6,
+    "pair": [
+      0,
+      2
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xa0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 7,
+    "pair": [
+      0,
+      2
+    ],
+    "op": 1,
+    "keep_mask": 1,
+    "extra": 2,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xfafafafafafafafafafafafafafafafa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 8,
+    "pair": [
+      0,
+      2
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xfafafafafafafafafafafafafafafafa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 9,
+    "pair": [
+      0,
+      2
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xa0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 10,
+    "pair": [
+      0,
+      2
+    ],
+    "op": 3,
+    "keep_mask": 1,
+    "extra": 2,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x50505050505050505050505050505050",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 11,
+    "pair": [
+      0,
+      2
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x50505050505050505050505050505050",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 12,
+    "pair": [
+      0,
+      3
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      3,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xaa00aa00aa00aa00aa00aa00aa00aa00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 13,
+    "pair": [
+      0,
+      3
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      3,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xffaaffaaffaaffaaffaaffaaffaaffaa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 14,
+    "pair": [
+      0,
+      3
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      3,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xaa00aa00aa00aa00aa00aa00aa00aa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 15,
+    "pair": [
+      0,
+      3
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      3,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x55005500550055005500550055005500",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 16,
+    "pair": [
+      0,
+      4
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      4,
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xaaaa0000aaaa0000aaaa0000aaaa0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 17,
+    "pair": [
+      0,
+      4
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      4,
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xffffaaaaffffaaaaffffaaaaffffaaaa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 18,
+    "pair": [
+      0,
+      4
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      4,
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xaaaa0000aaaa0000aaaa0000aaaa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 19,
+    "pair": [
+      0,
+      4
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      4,
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x55550000555500005555000055550000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 20,
+    "pair": [
+      0,
+      5
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      5,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xaaaaaaaa00000000aaaaaaaa00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffffffff00000000ffffffff00000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 21,
+    "pair": [
+      0,
+      5
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      5,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xffffffffaaaaaaaaffffffffaaaaaaaa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffffffff00000000ffffffff00000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 22,
+    "pair": [
+      0,
+      5
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      5,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xaaaaaaaa00000000aaaaaaaa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffffffff00000000ffffffff00000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 23,
+    "pair": [
+      0,
+      5
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      5,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x55555555000000005555555500000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffffffff00000000ffffffff00000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 24,
+    "pair": [
+      0,
+      6
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0xaaaaaaaaaaaaaaaa0000000000000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffffffffffffffff0000000000000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 25,
+    "pair": [
+      0,
+      6
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0xffffffffffffffffaaaaaaaaaaaaaaaa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffffffffffffffff0000000000000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 26,
+    "pair": [
+      0,
+      6
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0xaaaaaaaaaaaaaaaa",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffffffffffffffff0000000000000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 27,
+    "pair": [
+      0,
+      6
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      0,
+      6,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0x55555555555555550000000000000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xffffffffffffffff0000000000000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 28,
+    "pair": [
+      1,
+      2
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      2,
+      0,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xc0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 29,
+    "pair": [
+      1,
+      2
+    ],
+    "op": 1,
+    "keep_mask": 1,
+    "extra": 2,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      0,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 30,
+    "pair": [
+      1,
+      2
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      2,
+      0,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 31,
+    "pair": [
+      1,
+      2
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      2,
+      0,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xc0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 32,
+    "pair": [
+      1,
+      2
+    ],
+    "op": 3,
+    "keep_mask": 1,
+    "extra": 2,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      0,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x30303030303030303030303030303030",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 33,
+    "pair": [
+      1,
+      2
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      2,
+      0,
+      3,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x30303030303030303030303030303030",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 34,
+    "pair": [
+      1,
+      3
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      3,
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xcc00cc00cc00cc00cc00cc00cc00cc00",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 35,
+    "pair": [
+      1,
+      3
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      3,
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xffccffccffccffccffccffccffccffcc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 36,
+    "pair": [
+      1,
+      3
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      3,
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xcc00cc00cc00cc00cc00cc00cc00cc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 37,
+    "pair": [
+      1,
+      3
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      3,
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x33003300330033003300330033003300",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 38,
+    "pair": [
+      1,
+      4
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      4,
+      0,
+      2,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xcccc0000cccc0000cccc0000cccc0000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 39,
+    "pair": [
+      1,
+      4
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      4,
+      0,
+      2,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xffffccccffffccccffffccccffffcccc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 40,
+    "pair": [
+      1,
+      4
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      4,
+      0,
+      2,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xcccc0000cccc0000cccc0000cccc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 41,
+    "pair": [
+      1,
+      4
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      4,
+      0,
+      2,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x33330000333300003333000033330000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 42,
+    "pair": [
+      1,
+      5
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      5,
+      0,
+      2,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xcccccccc00000000cccccccc00000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffffffff00000000ffffffff00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 43,
+    "pair": [
+      1,
+      5
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      5,
+      0,
+      2,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xffffffffccccccccffffffffcccccccc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffffffff00000000ffffffff00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 44,
+    "pair": [
+      1,
+      5
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      5,
+      0,
+      2,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xcccccccc00000000cccccccc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffffffff00000000ffffffff00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 45,
+    "pair": [
+      1,
+      5
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      5,
+      0,
+      2,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0x33333333000000003333333300000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffffffff00000000ffffffff00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 46,
+    "pair": [
+      1,
+      6
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      6,
+      0,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0xcccccccccccccccc0000000000000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffffffffffffffff0000000000000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 47,
+    "pair": [
+      1,
+      6
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      6,
+      0,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0xffffffffffffffffcccccccccccccccc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffffffffffffffff0000000000000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 48,
+    "pair": [
+      1,
+      6
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      6,
+      0,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0xcccccccccccccccc",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffffffffffffffff0000000000000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 49,
+    "pair": [
+      1,
+      6
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      1,
+      6,
+      0,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0x33333333333333330000000000000000",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffffffffffffffff0000000000000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 50,
+    "pair": [
+      2,
+      3
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      3,
+      0,
+      1,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf000f000f000f000f000f000f000f000",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 51,
+    "pair": [
+      2,
+      3
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      3,
+      0,
+      1,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xfff0fff0fff0fff0fff0fff0fff0fff0",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 52,
+    "pair": [
+      2,
+      3
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      3,
+      0,
+      1,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf000f000f000f000f000f000f000f0",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 53,
+    "pair": [
+      2,
+      3
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      3,
+      0,
+      1,
+      4,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf000f000f000f000f000f000f000f00",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 54,
+    "pair": [
+      2,
+      4
+    ],
+    "op": 0,
+    "keep_mask": 2,
+    "extra": 2,
+    "next_budget": 8,
+    "retained_raw_order": [
+      4,
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f00000f0f00000f0f00000f0f00000",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 55,
+    "pair": [
+      2,
+      4
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      4,
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f00000f0f00000f0f00000f0f00000",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 56,
+    "pair": [
+      2,
+      4
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      4,
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xfffff0f0fffff0f0fffff0f0fffff0f0",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 57,
+    "pair": [
+      2,
+      4
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      4,
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f00000f0f00000f0f00000f0f0",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 58,
+    "pair": [
+      2,
+      4
+    ],
+    "op": 3,
+    "keep_mask": 2,
+    "extra": 2,
+    "next_budget": 8,
+    "retained_raw_order": [
+      4,
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f00000f0f00000f0f00000f0f0000",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 59,
+    "pair": [
+      2,
+      4
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      4,
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f00000f0f00000f0f00000f0f0000",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffffffff00000000ffffffff00000000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 60,
+    "pair": [
+      2,
+      5
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      5,
+      0,
+      1,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f0f0f000000000f0f0f0f000000000",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffffffff00000000ffffffff00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 61,
+    "pair": [
+      2,
+      5
+    ],
+    "op": 1,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      5,
+      0,
+      1,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xfffffffff0f0f0f0fffffffff0f0f0f0",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffffffff00000000ffffffff00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 62,
+    "pair": [
+      2,
+      5
+    ],
+    "op": 2,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      5,
+      0,
+      1,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f0f0f000000000f0f0f0f0",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffffffff00000000ffffffff00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 63,
+    "pair": [
+      2,
+      5
+    ],
+    "op": 3,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      5,
+      0,
+      1,
+      3,
+      4,
+      6
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f0f0f000000000f0f0f0f00000000",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffffffff00000000ffffffff00000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffffffffffff0000000000000000"
+    ]
+  },
+  {
+    "index": 64,
+    "pair": [
+      2,
+      6
+    ],
+    "op": 0,
+    "keep_mask": 3,
+    "extra": 1,
+    "next_budget": 8,
+    "retained_raw_order": [
+      2,
+      6,
+      0,
+      1,
+      3,
+      4,
+      5
+    ],
+    "frontier_raw_signatures": [
+      "0xf0f0f0f0f0f0f0f00000000000000000",
+      "0xf0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "0xffffffffffffffff0000000000000000",
+      "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "0xcccccccccccccccccccccccccccccccc",
+      "0xff00ff00ff00ff00ff00ff00ff00ff00",
+      "0xffff0000ffff0000ffff0000ffff0000",
+      "0xffffffff00000000ffffffff00000000"
+    ]
+  },
+  {
+    "index": 65,
+    "pair": [
+      2,
+      6
+    ],
+    "op": 1,
+    "keep_

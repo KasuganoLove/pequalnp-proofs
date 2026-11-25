@@ -1,0 +1,137 @@
+{
+  "task": "L-meta-11315",
+  "paths_relative_to": "L-meta-11315",
+  "scope": "Final frozen ordinary computations and read-only audits completed before root410 stop; adaptive-pair plan not executed",
+  "base_manifest": "ownership-signed/MANIFEST.json",
+  "base_manifest_sha256": "6c1a0cde82a6a93f2c99017faea296feaae3c5ab9eebbb05ade8e07db9dbbc50",
+  "files": [
+    {
+      "path": "ownership-signed/FINAL-COMPUTATION-CHECKPOINT.md",
+      "bytes": 4359,
+      "sha256": "f91fb481129f7ff5c785bc2dd321ba7087d577f09f76d4533cc171b6d8d60a41"
+    },
+    {
+      "path": "ownership-signed/branch-profile.cpp",
+      "bytes": 3319,
+      "sha256": "79b60622dc3f887bd0f29315359b2ef2e770f475d375afa9aedf1e9719938386"
+    },
+    {
+      "path": "ownership-signed/branch-profile.json",
+      "bytes": 22034,
+      "sha256": "89b0840045e2bd2e33099c0ebe3ca08e14ef7f7e75e7ffe92004220a5867f972"
+    },
+    {
+      "path": "ownership-signed/second-profile.cpp",
+      "bytes": 2647,
+      "sha256": "9629158a5aec681c11c75cefb5c128ee3d4134d62c44fa7322a479233849491c"
+    },
+    {
+      "path": "ownership-signed/second-profile.jsonl",
+      "bytes": 93855,
+      "sha256": "bc2f9827fadeadd1d42c498ebffb4d239f677513026aea1a9497fe1356ad9cac"
+    },
+    {
+      "path": "ownership-signed/second-profile-summary.json",
+      "bytes": 3201,
+      "sha256": "1fbe9a3fc5a7c442965b94075fd8da6cf69bce4370298c24e7017b65f2f3303b"
+    },
+    {
+      "path": "formalization/independent-second-level.py",
+      "bytes": 3597,
+      "sha256": "a4e52af747708cc7ac841092f682346a576d33d9b91bbc33af32883151868514"
+    },
+    {
+      "path": "formalization/independent-second-level-summary.json",
+      "bytes": 1396,
+      "sha256": "2f3931d39773b659f89178f78db05a811619e5e13ed1a1dc30d20bcf9d68a395"
+    },
+    {
+      "path": "partial-samples/probe.cpp",
+      "bytes": 4512,
+      "sha256": "68e68bf279d85a320d1d01d5768c2263441dcab2e217e11af2d0a166f44b8b24"
+    },
+    {
+      "path": "partial-samples/run.py",
+      "bytes": 4238,
+      "sha256": "4147922ea84be7126beb69495a9b9d0ed7aee58802cbdd31213e3b4f24cd8367"
+    },
+    {
+      "path": "partial-samples/audit.py",
+      "bytes": 5095,
+      "sha256": "ba17e9358639158ec987bbd3174a12a44d780855b5958fcec55d6e42244f3c4d"
+    },
+    {
+      "path": "partial-samples/audit.json",
+      "bytes": 2398,
+      "sha256": "5d3d7d6b48a037b4712113d22a1f1c31a3c85e84126522df3308abb14dd406bc"
+    },
+    {
+      "path": "partial-samples/edges_all-problem.json",
+      "bytes": 1350,
+      "sha256": "a3637d349390aacada867d577f216e5b837adc05283d9afa209c40da835aa202"
+    },
+    {
+      "path": "partial-samples/edges_all-result.json",
+      "bytes": 584,
+      "sha256": "64ffc408cf683bbc8269dea855dac9f753006879b1c4c163d2e12dd98381fb87"
+    },
+    {
+      "path": "partial-samples/edges_all-run.json",
+      "bytes": 492,
+      "sha256": "d7997505df222c0e481493b2d94349da187fab0633c3a9d2325d8ade5353ed1f"
+    },
+    {
+      "path": "partial-samples/edges_all-progress.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "partial-samples/edges_maximal-problem.json",
+      "bytes": 1194,
+      "sha256": "d0913c48752ae84ce3312ad582e51d07bbc0b6346f3d8d5c905d6dde038bf961"
+    },
+    {
+      "path": "partial-samples/edges_maximal-result.json",
+      "bytes": 941,
+      "sha256": "682ed8c319537d8f31f7fc84b83b47a27bf5716d82fc945f8e8254b5111014dc"
+    },
+    {
+      "path": "partial-samples/edges_maximal-run.json",
+      "bytes": 485,
+      "sha256": "4add5e2d1576d83acc1a0674fe2cffe1033e4db793a37691fc3ddcbd6a13994d"
+    },
+    {
+      "path": "partial-samples/edges_maximal-progress.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "partial-samples/edges_maximal-model.json",
+      "bytes": 1381,
+      "sha256": "4c420236032989bd21f52786d1d2d5a8c40b75e24001f86a34ac6f354cf24411"
+    }
+  ],
+  "excluded_regenerable": [
+    {
+      "path": "formalization/independent-second-level.json",
+      "bytes": 634809,
+      "sha256": "698f1acc72b9e011e9247d9155658f6a01621197e80b295b42fe063aaf5a3186"
+    },
+    {
+      "path": "ownership-signed/second-profile-input.local-only.txt",
+      "bytes": 222693,
+      "sha256": "5275e43c380a2dd612f3e0cd6f4bc626e4e50b52ba1a3b554365549186c207d5"
+    },
+    {
+      "path": "partial-samples/edges_all-first-level.json",
+      "bytes": 51710,
+      "sha256": "2cd8f534584d70b9df01feb65e998c2d08ba5d0abed401d34d2eeaea26a8ea9b"
+    }
+  ],
+  "excluded_binaries": [
+    "ownership-signed/branch-profile",
+    "ownership-signed/second-profile",
+    "partial-samples/probe"
+  ],
+  "total_curated_bytes": 157078
+}

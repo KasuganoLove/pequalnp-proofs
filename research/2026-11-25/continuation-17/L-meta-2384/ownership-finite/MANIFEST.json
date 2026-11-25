@@ -1,0 +1,26 @@
+{
+  "task": "L-meta-2384",
+  "scope": "Ordinary exhaustive finite cover calculation; existing17-mask classification verified; circuit inequality not proved",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2159,
+      "sha256": "4fcc111d4c622352ad9b57b6ad4c7d8f8e2421d39c75e8a2db18c31349336a78"
+    },
+    {
+      "path": "cover_augmentation.py",
+      "bytes": 5410,
+      "sha256": "589eabb52e61db15d4140b94d873802dbebe4cef377428a71bc926006695cad9"
+    },
+    {
+      "path": "results.json",
+      "bytes": 14186,
+      "sha256": "0eb07fb80d44412d94b60fc7db5b925a72516f4385fc093c340e7fc8af6d7c5f"
+    },
+    {
+      "path": "run.log",
+      "bytes": 5533,
+      "sha256": "da98e947c3e9d5895477ff88abf62efe9b991b388c3a51e82bdfafb1ff16d561"
+    }
+  ]
+}

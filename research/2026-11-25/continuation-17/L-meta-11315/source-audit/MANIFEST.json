@@ -1,0 +1,36 @@
+{
+  "scope": "11315bounded read-only source/cofactor audit, no full proof claim",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1616,
+      "sha256": "92a6859f7e027caef12f37c9cbf82b8ec3acb27545d46ce60f656639a5c64192"
+    },
+    {
+      "path": "additional-six-vertex-sources.json",
+      "bytes": 3243,
+      "sha256": "ce537ffdc9b8bbbdb04797da0b36a93366522b147b047292192234d764922e0c"
+    },
+    {
+      "path": "minor-nine-gate-control.json",
+      "bytes": 1094,
+      "sha256": "2370dac0652189f2a69cd645a0a5599696ba3331591e41ec8a3652909acd48e6"
+    },
+    {
+      "path": "six-vertex-isomorphism.json",
+      "bytes": 6786,
+      "sha256": "adcc239aedaec8a59ee3c039e657b620cc83524ece3b0e5f15e8130de7d0a717"
+    },
+    {
+      "path": "task-status.json",
+      "bytes": 5905,
+      "sha256": "deb385f3d7814e398387e061b7bdd0f9df94795dc033456e33bc22c9f93b2424"
+    },
+    {
+      "path": "verify_minor_control.py",
+      "bytes": 819,
+      "sha256": "4ec945ce0cc7b8417b3953e905c43d8efdd26b089f8a004186999c28ca218789"
+    }
+  ],
+  "payload_bytes": 19463
+}

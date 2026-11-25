@@ -1,0 +1,22 @@
+{
+  "task": "L-meta-2384",
+  "scope": "frozen structural source audit and explicitly unformalized maximal-junk count",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6792,
+      "sha256": "b6c9e0dae94493ede180bf476b717bac5b94159516b4337730b750d92b4bb205"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 5253,
+      "sha256": "ab67b3123e0ff779b9d5c876e41fae2efc7e656b8be388b50af34c0bf5175e6f"
+    }
+  ],
+  "content_bytes": 12045,
+  "excludes": [
+    "third-party complete proof sources",
+    "private lease state",
+    "compilation or search binaries"
+  ]
+}

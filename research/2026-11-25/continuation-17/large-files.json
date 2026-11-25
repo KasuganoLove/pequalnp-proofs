@@ -1,0 +1,71 @@
+{
+  "format": "concatenated UTF-8 parts; exact original bytes",
+  "files": [
+    {
+      "path": "L-meta-11315/formalization/independent-first-level.json",
+      "bytes": 56606,
+      "sha256": "d4ce680df5f87f155a7e167aa0c696ad9abe8acc008ab8645b2c8f1583c5978f",
+      "parts": [
+        {
+          "path": "L-meta-11315/formalization/independent-first-level.json.parts/000.txt",
+          "bytes": 40000,
+          "sha256": "3341861b1fdfb6a9854f106ee5dd0af77206ca1267f842787df8eae6fa7fc796"
+        },
+        {
+          "path": "L-meta-11315/formalization/independent-first-level.json.parts/001.txt",
+          "bytes": 16606,
+          "sha256": "679e5f9d23b335238422c3a4007a6aceb0912a0be65170b3b347102847be87d2"
+        }
+      ]
+    },
+    {
+      "path": "L-meta-11315/ownership-signed/second-profile.jsonl",
+      "bytes": 93855,
+      "sha256": "bc2f9827fadeadd1d42c498ebffb4d239f677513026aea1a9497fe1356ad9cac",
+      "parts": [
+        {
+          "path": "L-meta-11315/ownership-signed/second-profile.jsonl.parts/000.txt",
+          "bytes": 40000,
+          "sha256": "ddf0d6bead86cee3af9b85063e6d29df20ec054ed49b87b45b11d2440734a4ba"
+        },
+        {
+          "path": "L-meta-11315/ownership-signed/second-profile.jsonl.parts/001.txt",
+          "bytes": 40000,
+          "sha256": "65a8dbf122426ef580e1ecaeee77d54ecc2c302a05d311db3a9c03957eacea3d"
+        },
+        {
+          "path": "L-meta-11315/ownership-signed/second-profile.jsonl.parts/002.txt",
+          "bytes": 13855,
+          "sha256": "19cc80b5688abc29c152eb728b5db0f658f47cf8385cc8884a70e0ad2cdfeef3"
+        }
+      ]
+    },
+    {
+      "path": "L-meta-11315/formalization/Pnp11315States.lean",
+      "bytes": 126175,
+      "sha256": "06c707aa297ad08b32f5298a0d0d5963d6a35a296e7828e70bb408ef281aaf0e",
+      "parts": [
+        {
+          "path": "L-meta-11315/formalization/Pnp11315States.lean.parts/000.txt",
+          "bytes": 40000,
+          "sha256": "53e7222f213931337b2b9377a46c323c9889bf8623709d5a2260eb914e083990"
+        },
+        {
+          "path": "L-meta-11315/formalization/Pnp11315States.lean.parts/001.txt",
+          "bytes": 40000,
+          "sha256": "6eb051eb2d7b84bf209f72bf57f2e395eb1c31e689685bf9e68799e3b5487a7e"
+        },
+        {
+          "path": "L-meta-11315/formalization/Pnp11315States.lean.parts/002.txt",
+          "bytes": 40000,
+          "sha256": "d04070ca6fb70622a075bf10342e54214ff2f0dea60034f061a69cd03802dced"
+        },
+        {
+          "path": "L-meta-11315/formalization/Pnp11315States.lean.parts/003.txt",
+          "bytes": 6175,
+          "sha256": "ed68148b7b5c85715911788081516fa5c730ce90d26a82d6331447444d20b1db"
+        }
+      ]
+    }
+  ]
+}

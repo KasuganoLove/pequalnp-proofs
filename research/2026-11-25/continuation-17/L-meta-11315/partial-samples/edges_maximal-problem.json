@@ -1,0 +1,113 @@
+{
+  "task": "L-meta-11315",
+  "mode": "edges_maximal",
+  "edges": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "positive_samples": [
+    9,
+    17,
+    18,
+    20,
+    33,
+    34,
+    40,
+    65,
+    66,
+    72,
+    96
+  ],
+  "negative_samples": [
+    7,
+    14,
+    24,
+    36,
+    48,
+    68,
+    80
+  ],
+  "sample_count": 18,
+  "pair_count": 77,
+  "lean_bit_width": 154,
+  "raw_signatures": [
+    2195,
+    6436,
+    88072,
+    12865,
+    172046,
+    50288,
+    198528
+  ],
+  "rows_nodup": true,
+  "all_separating_initial_sublists": [
+    23,
+    31,
+    55,
+    63,
+    87,
+    95,
+    107,
+    111,
+    119,
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "all_seven_raw_variables_required": false,
+  "raw_essentiality_witnesses": {
+    "0": null,
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null
+  },
+  "domain_mask": 262143,
+  "positive_mask": 2047
+}

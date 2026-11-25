@@ -1,0 +1,782 @@
+{
+  "task": "L-meta-2384",
+  "vertices": 11,
+  "edges": [
+    [
+      0,
+      9
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      9
+    ]
+  ],
+  "edge_count": 16,
+  "full_graph_cover_number": 7,
+  "edge_deletion_sets_exhausted": 65536,
+  "meaning": "minimum_r(U)=|U|+min_{K minimum cover of G-U} minimum |A| with K union A covering G",
+  "joint_histogram": [
+    {
+      "u_card": 0,
+      "residual_cover_number": 7,
+      "minimum_augmentation": 0,
+      "count": 1
+    },
+    {
+      "u_card": 1,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 11
+    },
+    {
+      "u_card": 1,
+      "residual_cover_number": 7,
+      "minimum_augmentation": 0,
+      "count": 5
+    },
+    {
+      "u_card": 2,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 16
+    },
+    {
+      "u_card": 2,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 94
+    },
+    {
+      "u_card": 2,
+      "residual_cover_number": 7,
+      "minimum_augmentation": 0,
+      "count": 10
+    },
+    {
+      "u_card": 3,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 4
+    },
+    {
+      "u_card": 3,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 200
+    },
+    {
+      "u_card": 3,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 346
+    },
+    {
+      "u_card": 3,
+      "residual_cover_number": 7,
+      "minimum_augmentation": 0,
+      "count": 10
+    },
+    {
+      "u_card": 4,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 71
+    },
+    {
+      "u_card": 4,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 1050
+    },
+    {
+      "u_card": 4,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 694
+    },
+    {
+      "u_card": 4,
+      "residual_cover_number": 7,
+      "minimum_augmentation": 0,
+      "count": 5
+    },
+    {
+      "u_card": 5,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 2
+    },
+    {
+      "u_card": 5,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 531
+    },
+    {
+      "u_card": 5,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 3019
+    },
+    {
+      "u_card": 5,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 3,
+      "count": 1
+    },
+    {
+      "u_card": 5,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 814
+    },
+    {
+      "u_card": 5,
+      "residual_cover_number": 7,
+      "minimum_augmentation": 0,
+      "count": 1
+    },
+    {
+      "u_card": 6,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 34
+    },
+    {
+      "u_card": 6,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 2198
+    },
+    {
+      "u_card": 6,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 5206
+    },
+    {
+      "u_card": 6,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 3,
+      "count": 2
+    },
+    {
+      "u_card": 6,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 568
+    },
+    {
+      "u_card": 7,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 247
+    },
+    {
+      "u_card": 7,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 5462
+    },
+    {
+      "u_card": 7,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 4,
+      "count": 2
+    },
+    {
+      "u_card": 7,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 5496
+    },
+    {
+      "u_card": 7,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 3,
+      "count": 1
+    },
+    {
+      "u_card": 7,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 232
+    },
+    {
+      "u_card": 8,
+      "residual_cover_number": 2,
+      "minimum_augmentation": 5,
+      "count": 2
+    },
+    {
+      "u_card": 8,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 1009
+    },
+    {
+      "u_card": 8,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 8313
+    },
+    {
+      "u_card": 8,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 4,
+      "count": 7
+    },
+    {
+      "u_card": 8,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 3487
+    },
+    {
+      "u_card": 8,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 52
+    },
+    {
+      "u_card": 9,
+      "residual_cover_number": 2,
+      "minimum_augmentation": 5,
+      "count": 23
+    },
+    {
+      "u_card": 9,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 2464
+    },
+    {
+      "u_card": 9,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 7656
+    },
+    {
+      "u_card": 9,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 4,
+      "count": 3
+    },
+    {
+      "u_card": 9,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 1289
+    },
+    {
+      "u_card": 9,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "count": 5
+    },
+    {
+      "u_card": 10,
+      "residual_cover_number": 2,
+      "minimum_augmentation": 5,
+      "count": 124
+    },
+    {
+      "u_card": 10,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 3557
+    },
+    {
+      "u_card": 10,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 5,
+      "count": 1
+    },
+    {
+      "u_card": 10,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 4072
+    },
+    {
+      "u_card": 10,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 254
+    },
+    {
+      "u_card": 11,
+      "residual_cover_number": 2,
+      "minimum_augmentation": 5,
+      "count": 354
+    },
+    {
+      "u_card": 11,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 2841
+    },
+    {
+      "u_card": 11,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 1153
+    },
+    {
+      "u_card": 11,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 2,
+      "count": 20
+    },
+    {
+      "u_card": 12,
+      "residual_cover_number": 1,
+      "minimum_augmentation": 6,
+      "count": 3
+    },
+    {
+      "u_card": 12,
+      "residual_cover_number": 2,
+      "minimum_augmentation": 5,
+      "count": 539
+    },
+    {
+      "u_card": 12,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 1143
+    },
+    {
+      "u_card": 12,
+      "residual_cover_number": 4,
+      "minimum_augmentation": 3,
+      "count": 135
+    },
+    {
+      "u_card": 13,
+      "residual_cover_number": 1,
+      "minimum_augmentation": 6,
+      "count": 16
+    },
+    {
+      "u_card": 13,
+      "residual_cover_number": 2,
+      "minimum_augmentation": 5,
+      "count": 362
+    },
+    {
+      "u_card": 13,
+      "residual_cover_number": 3,
+      "minimum_augmentation": 4,
+      "count": 182
+    },
+    {
+      "u_card": 14,
+      "residual_cover_number": 1,
+      "minimum_augmentation": 6,
+      "count": 34
+    },
+    {
+      "u_card": 14,
+      "residual_cover_number": 2,
+      "minimum_augmentation": 5,
+      "count": 86
+    },
+    {
+      "u_card": 15,
+      "residual_cover_number": 1,
+      "minimum_augmentation": 6,
+      "count": 16
+    },
+    {
+      "u_card": 16,
+      "residual_cover_number": 0,
+      "minimum_augmentation": 7,
+      "count": 1
+    }
+  ],
+  "augmentation_by_u_card": [
+    {
+      "u_card": 0,
+      "sets": 1,
+      "minimum_augmentation": 0,
+      "maximum_augmentation": 0,
+      "augmentation_counts": {
+        "0": 1
+      }
+    },
+    {
+      "u_card": 1,
+      "sets": 16,
+      "minimum_augmentation": 0,
+      "maximum_augmentation": 1,
+      "augmentation_counts": {
+        "0": 5,
+        "1": 11
+      }
+    },
+    {
+      "u_card": 2,
+      "sets": 120,
+      "minimum_augmentation": 0,
+      "maximum_augmentation": 2,
+      "augmentation_counts": {
+        "0": 10,
+        "1": 94,
+        "2": 16
+      }
+    },
+    {
+      "u_card": 3,
+      "sets": 560,
+      "minimum_augmentation": 0,
+      "maximum_augmentation": 3,
+      "augmentation_counts": {
+        "0": 10,
+        "1": 346,
+        "2": 200,
+        "3": 4
+      }
+    },
+    {
+      "u_card": 4,
+      "sets": 1820,
+      "minimum_augmentation": 0,
+      "maximum_augmentation": 3,
+      "augmentation_counts": {
+        "0": 5,
+        "1": 694,
+        "2": 1050,
+        "3": 71
+      }
+    },
+    {
+      "u_card": 5,
+      "sets": 4368,
+      "minimum_augmentation": 0,
+      "maximum_augmentation": 4,
+      "augmentation_counts": {
+        "0": 1,
+        "1": 814,
+        "2": 3019,
+        "3": 532,
+        "4": 2
+      }
+    },
+    {
+      "u_card": 6,
+      "sets": 8008,
+      "minimum_augmentation": 1,
+      "maximum_augmentation": 4,
+      "augmentation_counts": {
+        "1": 568,
+        "2": 5206,
+        "3": 2200,
+        "4": 34
+      }
+    },
+    {
+      "u_card": 7,
+      "sets": 11440,
+      "minimum_augmentation": 1,
+      "maximum_augmentation": 4,
+      "augmentation_counts": {
+        "1": 232,
+        "2": 5496,
+        "3": 5463,
+        "4": 249
+      }
+    },
+    {
+      "u_card": 8,
+      "sets": 12870,
+      "minimum_augmentation": 1,
+      "maximum_augmentation": 5,
+      "augmentation_counts": {
+        "1": 52,
+        "2": 3487,
+        "3": 8313,
+        "4": 1016,
+        "5": 2
+      }
+    },
+    {
+      "u_card": 9,
+      "sets": 11440,
+      "minimum_augmentation": 1,
+      "maximum_augmentation": 5,
+      "augmentation_counts": {
+        "1": 5,
+        "2": 1289,
+        "3": 7656,
+        "4": 2467,
+        "5": 23
+      }
+    },
+    {
+      "u_card": 10,
+      "sets": 8008,
+      "minimum_augmentation": 2,
+      "maximum_augmentation": 5,
+      "augmentation_counts": {
+        "2": 254,
+        "3": 4072,
+        "4": 3557,
+        "5": 125
+      }
+    },
+    {
+      "u_card": 11,
+      "sets": 4368,
+      "minimum_augmentation": 2,
+      "maximum_augmentation": 5,
+      "augmentation_counts": {
+        "2": 20,
+        "3": 1153,
+        "4": 2841,
+        "5": 354
+      }
+    },
+    {
+      "u_card": 12,
+      "sets": 1820,
+      "minimum_augmentation": 3,
+      "maximum_augmentation": 6,
+      "augmentation_counts": {
+        "3": 135,
+        "4": 1143,
+        "5": 539,
+        "6": 3
+      }
+    },
+    {
+      "u_card": 13,
+      "sets": 560,
+      "minimum_augmentation": 4,
+      "maximum_augmentation": 6,
+      "augmentation_counts": {
+        "4": 182,
+        "5": 362,
+        "6": 16
+      }
+    },
+    {
+      "u_card": 14,
+      "sets": 120,
+      "minimum_augmentation": 5,
+      "maximum_augmentation": 6,
+      "augmentation_counts": {
+        "5": 86,
+        "6": 34
+      }
+    },
+    {
+      "u_card": 15,
+      "sets": 16,
+      "minimum_augmentation": 6,
+      "maximum_augmentation": 6,
+      "augmentation_counts": {
+        "6": 16
+      }
+    },
+    {
+      "u_card": 16,
+      "sets": 1,
+      "minimum_augmentation": 7,
+      "maximum_augmentation": 7,
+      "augmentation_counts": {
+        "7": 1
+      }
+    }
+  ],
+  "excess_over_cover_number_drop": {
+    "0": 65519,
+    "1": 17
+  },
+  "exceptional_masks": [
+    36608,
+    44800,
+    44864,
+    44992,
+    48960,
+    52992,
+    53120,
+    53184,
+    57216,
+    61184,
+    61248,
+    61312,
+    61376,
+    65280,
+    65344,
+    65408,
+    65472
+  ],
+  "examples": {
+    "smallest_nonzero_augmentation": {
+      "deleted_edge_mask": 1,
+      "deleted_edges": [
+        [
+          0,
+          9
+        ]
+      ],
+      "u_card": 1,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "minimum_r": 2,
+      "chosen_minimum_residual_cover": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "chosen_addition": [
+        9
+      ],
+      "r_for_failure": null
+    },
+    "unqualified_u_le_r_lt_two_u_fails_with_r_at_least_two": {
+      "deleted_edge_mask": 3,
+      "deleted_edges": [
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "u_card": 2,
+      "residual_cover_number": 6,
+      "minimum_augmentation": 1,
+      "minimum_r": 3,
+      "chosen_minimum_residual_cover": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "chosen_addition": [
+        0
+      ],
+      "r_for_failure": 2
+    },
+    "minimum_residual_cover_cannot_extend_to_minimum_full_cover": {
+      "deleted_edge_mask": 36608,
+      "deleted_edges": [
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "u_card": 5,
+      "residual_cover_number": 5,
+      "minimum_augmentation": 3,
+      "minimum_r": 8,
+      "chosen_minimum_residual_cover": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "chosen_addition": [
+        8,
+        9,
+        10
+      ],
+      "r_for_failure": 5
+    }
+  },
+  "all_witness_rows_sha256": "33592297a27d071b0bd43d772e385a99b75cad9b746f367d87195614479565a2",
+  "all_witness_rows_json_bytes": 1524264,
+  "all_witness_rows_columns": [
+    "U",
+    "tau(G-U)",
+    "augmentation",
+    "K",
+    "A",
+    "minimum_r"
+  ],
+  "elapsed_seconds": 0.31190215999959037,
+  "formal_certificate": false,
+  "circuit_constraints_used": false
+}

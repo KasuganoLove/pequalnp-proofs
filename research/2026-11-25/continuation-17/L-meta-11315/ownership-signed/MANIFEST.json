@@ -1,0 +1,63 @@
+{
+  "task": "L-meta-11315",
+  "paths_relative_to": "L-meta-11315",
+  "scope": "Verified11-gate control, completed ordinary signed9-gate search, independent candidate audit; no worker Lean/strict run",
+  "files": [
+    {
+      "path": "ownership-signed/README.md",
+      "bytes": 3470,
+      "sha256": "90bffa44034233be3eb83675daca7a4e24b9c55f78a895d5dead4442ca07cc7c"
+    },
+    {
+      "path": "ownership-signed/baseline.json",
+      "bytes": 2129,
+      "sha256": "6e626a997ddbd6f5aecd48e797fdf329f6aba2ff7182608fb30d40aa4c8363e6"
+    },
+    {
+      "path": "ownership-signed/literal-probe.cpp",
+      "bytes": 3021,
+      "sha256": "2b1a76fdf1031cb435b244e677ab3fae3e450ea2c5f265f15fe0a99b34ac078f"
+    },
+    {
+      "path": "ownership-signed/literal-result.json",
+      "bytes": 409,
+      "sha256": "f91bf676c43e1fc8365f6282200e01a97d5795d6bc032060358a45c3e3813029"
+    },
+    {
+      "path": "ownership-signed/literal-progress.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ownership-signed/run.py",
+      "bytes": 1860,
+      "sha256": "8ff842b87baa0703b2bb0d409b909f760830e29b5cfdc78ff202f6b203b3d71c"
+    },
+    {
+      "path": "ownership-signed/run.json",
+      "bytes": 533,
+      "sha256": "0741df52a2a32d643145c0de376ec885187af5a9066f4d24da0eab1940d1c7df"
+    },
+    {
+      "path": "formalization/independent-audit.py",
+      "bytes": 6706,
+      "sha256": "2d38eb81022e86934e999752ab5155ccdd17df40c454f06fbbcbf18a480b28d0"
+    },
+    {
+      "path": "formalization/independent-audit.json",
+      "bytes": 867,
+      "sha256": "be9c5d6a2efaf63717afffc27ca21840429c9bad6a227550492929cf6fa51f8b"
+    },
+    {
+      "path": "formalization/independent-generic.diff",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "formalization/independent-first-level.json",
+      "bytes": 56606,
+      "sha256": "d4ce680df5f87f155a7e167aa0c696ad9abe8acc008ab8645b2c8f1583c5978f"
+    }
+  ],
+  "total_bytes": 75601
+}

@@ -1,0 +1,14 @@
+{
+  "task": "L-meta-11315",
+  "start_utc": "2026-11-25T13:58:18.972294+00:00",
+  "end_utc": "2026-11-25T13:58:19.388783+00:00",
+  "elapsed_wall_seconds": 0.4165050049996353,
+  "exit_code": 0,
+  "address_space_limit_bytes": 1073741824,
+  "source_sha256": "2b1a76fdf1031cb435b244e677ab3fae3e450ea2c5f265f15fe0a99b34ac078f",
+  "baseline_sha256": "6e626a997ddbd6f5aecd48e797fdf329f6aba2ff7182608fb30d40aa4c8363e6",
+  "baseline_assignments_verified": 128,
+  "binary_budget": 9,
+  "free_NOTs": "unbounded",
+  "formal_certificate": false
+}

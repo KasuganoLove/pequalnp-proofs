@@ -1,0 +1,49 @@
+{
+  "scope": "Official11315closure and correct external attribution; no own complete proof or officialsubmission",
+  "files": [
+    {
+      "path": "PR15263-metadata.json",
+      "bytes": 905,
+      "sha256": "f9d426a4a26c46d2dbc605c6e3cbd0b9c72cbaa93bd7eb66b6b670e0431a34b1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1634,
+      "sha256": "2c3cd0a511993c246a599a1484ef2a72cc791bb0b353b8f4d5cdd140cc63bd4f"
+    },
+    {
+      "path": "closure-status.json",
+      "bytes": 1131,
+      "sha256": "af3670bae8a80118aca67b9583827cc4f1b822e71aface672abd0429a66ecbc9"
+    },
+    {
+      "path": "desk-selected.json",
+      "bytes": 1009,
+      "sha256": "70c0d1d5d91fba2749be27c8b7ea70039c447eb79149d0a82e645964d9210c5b"
+    },
+    {
+      "path": "search-summary.json",
+      "bytes": 547,
+      "sha256": "fd60e059a4158184d617d55c3cab6c0b55fd0289b6200bdbc0e9ac5445e95013"
+    },
+    {
+      "path": "source-metadata.json",
+      "bytes": 584,
+      "sha256": "6d0bc66026271173e10e56fb8e388823c958a06921f09d56a86b30853b954f1a"
+    },
+    {
+      "path": "source-method.md",
+      "bytes": 2237,
+      "sha256": "3e49cb3c4acba4592d6c436e02683726bf085b30fb2c52ea19316763e3866a44"
+    }
+  ],
+  "payload_bytes": 8047,
+  "excluded": [
+    "full third-party Lean source",
+    "full desk response",
+    "PR body",
+    "lease identifiers",
+    "personal profiles",
+    "build outputs"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "started_at_utc": "2026-11-25T14:17:54.333387+00:00",
+  "finished_at_utc": "2026-11-25T14:17:57.958796+00:00",
+  "elapsed_seconds": 3.62541725000483,
+  "exit_code": 0,
+  "source_sha256": "be7ea3d26d05d437ce909ccaedcad0251cc041f95598ca00afef8ab587407f24",
+  "source_bytes": 3019,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "log_bytes": 0,
+  "command": [
+    "bash",
+    "-lc",
+    "source /workspace/scratch/65f339da29fe/pnp-env.sh\nexec lake env lean -j1 -o .lake/build/lib/lean/Pnp11315BlockBridge.olean Pnp11315BlockBridge.lean"
+  ],
+  "scope": "Ordinary single-thread Lean compilation of only Pnp11315BlockBridge; not strict checker."
+}

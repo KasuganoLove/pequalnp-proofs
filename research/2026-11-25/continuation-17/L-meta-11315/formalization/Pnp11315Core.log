@@ -1,0 +1,4 @@
+Pnp11315Core.lean:205:2: warning: exponent 2160 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+Pnp11315Core.lean:382:4: warning: exponent 4320 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+Pnp11315Core.lean:471:47: warning: exponent 4320 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+Pnp11315Core.lean:494:28: warning: exponent 4320 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold

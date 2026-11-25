@@ -1,0 +1,11 @@
+{
+  "module": "Pnp11315FiniteBridge",
+  "started_at": "2026-11-25T14:04:15.262313+00:00",
+  "ended_at": "2026-11-25T14:04:18.285370+00:00",
+  "elapsed_seconds": 3.0230986479946296,
+  "exit_code": 0,
+  "stop_reason": null,
+  "max_rss_kib": 3529316,
+  "source_sha256": "d992246b90311965772946b4b168ca090264b1cf7aaca5779035d4f222cb5ea1",
+  "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+}

@@ -1,0 +1,13 @@
+{
+  "task": "L-meta-11315",
+  "mode": "edges_maximal",
+  "start_utc": "2026-11-25T14:12:09.593016+00:00",
+  "end_utc": "2026-11-25T14:12:09.603811+00:00",
+  "wall_seconds": 0.010805732003063895,
+  "exit_code": 0,
+  "address_space_limit_bytes": 1073741824,
+  "source_sha256": "68e68bf279d85a320d1d01d5768c2263441dcab2e217e11af2d0a166f44b8b24",
+  "problem_sha256": "d0913c48752ae84ce3312ad582e51d07bbc0b6346f3d8d5c905d6dde038bf961",
+  "formal_certificate": false,
+  "outcome": "FOUND"
+}

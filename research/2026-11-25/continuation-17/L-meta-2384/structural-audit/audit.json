@@ -1,0 +1,141 @@
+{
+  "task": "L-meta-2384",
+  "status": "incomplete; source audit and unformalized paper argument only",
+  "status_snapshot_at": "2026-11-25T13:53:26.498Z",
+  "new_lean_theorem": false,
+  "lean_compile_run": false,
+  "strict_checker_run": false,
+  "new_solver_job": false,
+  "remote_mutations": false,
+  "notation": {
+    "u": "card Ustar",
+    "c": "card centreless",
+    "t": "card (tops \\ centreless)",
+    "j": "card junk",
+    "o": "card (orN \\ lam)",
+    "r": "2*c+j+o"
+  },
+  "checked_ledger": [
+    "16+t+r <= size+u+1",
+    "minimum-cover-card(G-Ustar) <= t"
+  ],
+  "deduction_at_size_le_21_and_u_le_r": "t+(r-u) <= 6",
+  "closed_branch": {
+    "task": "L-meta-2264",
+    "scope": "exactly two independent junk with no common clean top; explicit star, trace, ledger and cover premises are supplied by R_meta_1597_2"
+  },
+  "remaining_cases": [
+    {
+      "task": "L-meta-2258",
+      "scope": "at least three junk"
+    },
+    {
+      "task": "L-meta-2260",
+      "scope": "nested two junk; R_meta_2260_2 remaining many case is L-meta-5230 with u>=4",
+      "other_open_direct_children": [
+        "L-meta-2704",
+        "L-meta-4007"
+      ]
+    },
+    {
+      "task": "L-meta-2262",
+      "scope": "two independent junk sharing a clean top",
+      "open_direct_children": [
+        "L-meta-4065",
+        "L-meta-5968",
+        "L-meta-9427"
+      ]
+    }
+  ],
+  "candidate": {
+    "formal_status": "UNFORMALIZED",
+    "sources": "M = junk gates with no later junk containing them in its strict cone",
+    "inequality": "card M <= 2*c+o",
+    "requires_liveness": true,
+    "counts_sharing_by": "union of the selected empty-orIn OR path DAG, not sum of cones",
+    "antichain_consequence": "all junk pairwise nonnested implies j+1 <= u, using r<2u",
+    "does_not_close": [
+      "nested two junk with u>=4",
+      "independent two junk with shared top and u>=3",
+      "general >=3 junk"
+    ]
+  },
+  "sources": [
+    {
+      "path": "lean/PEqualNP/Defs/TopForm.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Defs/TopForm.lean",
+      "bytes": 9634,
+      "sha256": "8a8ddba048b66d46a1bdf0a3e8aaedfad821b582149544bfd1ff49f970ad7058"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/L_meta_1491.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_1491.lean",
+      "bytes": 115624,
+      "sha256": "272f5e0175230f760cedea5c9e31d7438b798682a7c92616411876d71dd5cc8d"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/L_meta_4899.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_4899.lean",
+      "bytes": 62384,
+      "sha256": "378e03b1807ec98e50bec5427ce8e1573953a3a3d95aebd33a4886a88e2dac10"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/L_meta_5226.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_5226.lean",
+      "bytes": 99235,
+      "sha256": "b17faaa8018fa774ea241e36c10d8560c72e015472b1e5b49beed7f08522da89"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/L_meta_5228.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_5228.lean",
+      "bytes": 412015,
+      "sha256": "0b3f20c44ae8739ae961579014fe617e87e12e3af5d333c91c658990ee82eada"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/L_meta_2264.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_2264.lean",
+      "bytes": 507709,
+      "sha256": "5c3443a27f83a2e469c3ac2d8f3439c1d81d60654b9a081dc9280abcbcd1dfe9"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/R_meta_1597_2.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_1597_2.lean",
+      "bytes": 12209,
+      "sha256": "2d6e8bad9d01d68eaf401a56340dfe6b974dbc2ca71a1caadac06dfbe06e194d"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/R_meta_2260_2.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2260_2.lean",
+      "bytes": 35794,
+      "sha256": "5bae7f5348479b0283cc1eadd84f2712896879979fceb4910d1cfc194fbaa726"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/R_meta_2262_1.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2262_1.lean",
+      "bytes": 9604,
+      "sha256": "11b434f744caf3face2ac838127048a6833f32db1ce545b2dfd412aef6660db8"
+    },
+    {
+      "path": "lean/PEqualNP/Outside/R_meta_2262_2.lean",
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/R_meta_2262_2.lean",
+      "bytes": 5668,
+      "sha256": "3b5523a2716a2d1f1b7536031f35e57d4ec2ae22c16c463390b586117240d20d"
+    }
+  ],
+  "related_local_evidence": [
+    "../source-audit/dependency-map.json",
+    "../source-audit/2260-2262-child-map.json",
+    "../ownership-finite/README.md",
+    "../ownership-finite/MANIFEST.json"
+  ],
+  "handoff": {
+    "task": "L-meta-2384",
+    "action": "released",
+    "at": "2026-11-25T14:14:49.112248Z",
+    "reason": "missing_lemma",
+    "http_status": 200,
+    "reported_by": "parent /root",
+    "performed_by_this_agent": false,
+    "new_task_work_stopped": true
+  }
+}

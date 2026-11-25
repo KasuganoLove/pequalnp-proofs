@@ -1,0 +1,445 @@
+{
+  "task": "L-meta-11315",
+  "deleted_pendant_vertex": 2,
+  "pendant_neighbour": 4,
+  "minor_original_vertices": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6
+  ],
+  "minor_edges": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "minor_degree_sequence": [
+    2,
+    3,
+    3,
+    4,
+    4,
+    4
+  ],
+  "comparisons": [
+    {
+      "id": "L-meta-9511",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "degree_sequence": [
+        1,
+        3,
+        3,
+        4,
+        4,
+        5
+      ],
+      "edge_count": 10,
+      "isomorphism_reference_to_original_11315": null,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_9511.lean",
+      "git_blob_sha": "179d1f45e5b60e90a2fa14a6ac439ea05ca2a990"
+    },
+    {
+      "id": "L-meta-9520",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        3,
+        4,
+        4,
+        5
+      ],
+      "edge_count": 10,
+      "isomorphism_reference_to_original_11315": null,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_9520.lean",
+      "git_blob_sha": "7de85040206f76364b260fd94d0d9cf2e585cd02"
+    },
+    {
+      "id": "L-meta-9526",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "degree_sequence": [
+        1,
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "edge_count": 9,
+      "isomorphism_reference_to_original_11315": null,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/bb4f27ea2a8fd3ff84bff9663aca8f1c118ac870/lean/PEqualNP/Outside/L_meta_9526.lean",
+      "git_blob_sha": "3dc1b4fb8eac96817d479729877e61829f51a439"
+    },
+    {
+      "id": "L-meta-9532",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "degree_sequence": [
+        1,
+        2,
+        3,
+        3,
+        4,
+        5
+      ],
+      "edge_count": 9,
+      "isomorphism_reference_to_original_11315": null,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_9532.lean",
+      "git_blob_sha": "dfb9f11532b0974032551fc61056b95f91a28e1c"
+    },
+    {
+      "id": "L-meta-9539",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "degree_sequence": [
+        1,
+        2,
+        3,
+        4,
+        4,
+        4
+      ],
+      "edge_count": 9,
+      "isomorphism_reference_to_original_11315": null,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_9539.lean",
+      "git_blob_sha": "97b870167d92317dd76d669567451bf277a9909a"
+    },
+    {
+      "id": "L-meta-9543",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        5
+      ],
+      "edge_count": 9,
+      "isomorphism_reference_to_original_11315": null,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_9543.lean",
+      "git_blob_sha": "06d6cb4ef9e30aba649ea1c2698883fdebd68d7b"
+    },
+    {
+      "id": "L-meta-9553",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "edge_count": 9,
+      "isomorphism_reference_to_original_11315": null,
+      "source_url": "https://github.com/open-goat/pequalnp-proofs/blob/main/lean/PEqualNP/Outside/L_meta_9553.lean",
+      "git_blob_sha": "96e9035be60adb1ddd72251efd2b8ceb74ad6de5"
+    }
+  ],
+  "scope": "Exhaustive 6! graph permutation comparison against seven previously collected checked six-vertex replacement examples; not an exhaustive search of all available upstream proofs."
+}

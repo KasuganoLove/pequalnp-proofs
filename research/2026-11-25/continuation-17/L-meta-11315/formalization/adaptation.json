@@ -1,0 +1,14 @@
+{
+  "task": "L-meta-11315",
+  "reference_sha256": "f0ea1c9ca867450a030a85e2152c13be57db5b8f1f7ed96c891c06afe3edd876",
+  "source_sha256": "09ef326be4a9fb250111f398d3f10418d8a562d57b490cc4ee41f3945df4fd84",
+  "source_bytes": 39414,
+  "positive_rows": 108,
+  "negative_rows": 20,
+  "pairs": 2160,
+  "bit_width": 4320,
+  "binary_budget": 9,
+  "witness_gates": 11,
+  "witness_output": 17,
+  "scope": "Exact candidate specialization, awaiting Lean verification."
+}

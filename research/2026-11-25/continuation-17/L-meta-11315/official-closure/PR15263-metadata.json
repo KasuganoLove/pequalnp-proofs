@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-11-25T14:23:05.087Z",
+  "url": "https://github.com/open-goat/pequalnp-proofs/pull/15263",
+  "number": 15263,
+  "title": "L-meta-11315",
+  "author": "ptrdsh",
+  "state": "closed",
+  "merged": true,
+  "head": "L-meta-11315",
+  "head_sha": "91518fbc68056c95c482bb2cd003cc34f46a9d84",
+  "head_repo_full_name": "ptrdsh/pequalnp-proofs",
+  "base": "main",
+  "base_sha": "2b3ba8b5768fc6e32dab3de6cfcdba2dcc12cc54",
+  "merge_commit_sha": "7dd594cc96b1fc5b83ca9266a00cef93d6871df6",
+  "created_at": "2026-11-25T14:01:51Z",
+  "updated_at": "2026-11-25T14:18:51Z",
+  "closed_at": "2026-11-25T14:18:51Z",
+  "merged_at": "2026-11-25T14:18:51Z",
+  "commits": 1,
+  "changed_files": 1,
+  "additions": 1208,
+  "deletions": 0,
+  "comments_observed": 0,
+  "explicit_accepted_comment_observed": false,
+  "redacted_fields": [
+    "PR body",
+    "lease line",
+    "personal-profile metadata"
+  ]
+}

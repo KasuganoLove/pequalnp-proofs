@@ -1,0 +1,28 @@
+{
+  "source_sha256": "09ef326be4a9fb250111f398d3f10418d8a562d57b490cc4ee41f3945df4fd84",
+  "statement_exact": true,
+  "statement_sha256": "75a5d284ba219084a622965cbecdd8d7f6213b698a073c8f143cd6475a9d893a",
+  "positive_assignments": 108,
+  "negative_assignments": 20,
+  "sample_pairs": 2160,
+  "sample_bits": 4320,
+  "raw_columns": 7,
+  "all_packed_bits_and_labels_match": true,
+  "polarity": "positive lower half, negative upper half; F is complement(goal)",
+  "witness_gates": 11,
+  "witness_output": 17,
+  "witness_all_128_assignments_match": true,
+  "normalized_generic_source_identical": true,
+  "initial_separating_raw_sublists": [
+    127
+  ],
+  "first_level_children": 92,
+  "first_level_keep_mask_counts": {
+    "3": 84,
+    "1": 6,
+    "2": 2
+  },
+  "all_first_level_raw_and_paired_guards_match": true,
+  "recursive_search_run": false,
+  "lean_run": false
+}

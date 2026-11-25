@@ -1,0 +1,23 @@
+{
+  "id": "L-meta-11315",
+  "title": "At fan-in two, one NOT gate saves nothing on edges 0-3 0-4 1-4 2-4 0-5 1-5 3-5 0-6 1-6 3-6 5-6",
+  "statement": "∀ (gates : List PEqualNP.CircuitLowerBounds.Gate) (o : ℕ), (∀ g ∈ gates, (g.op = PEqualNP.CircuitLowerBounds.GateOp.and ∨ g.op = PEqualNP.CircuitLowerBounds.GateOp.or ∨ g.op = PEqualNP.CircuitLowerBounds.GateOp.not) ∧ g.inputs.length ≤ 2) → (∀ i j : Fin gates.length, (gates.get i).op = PEqualNP.CircuitLowerBounds.GateOp.not → (gates.get j).op = PEqualNP.CircuitLowerBounds.GateOp.not → i = j) → (∀ x : Fin 7 → Bool, PEqualNP.CircuitLowerBounds.Circuit.eval ⟨gates, o⟩ (List.ofFn x) = decide (∃ i < ([0, 3, 0, 4, 1, 4, 2, 4, 0, 5, 1, 5, 3, 5, 0, 6, 1, 6, 3, 6, 5, 6] : List ℕ).length / 2, (List.ofFn x).getD (([0, 3, 0, 4, 1, 4, 2, 4, 0, 5, 1, 5, 3, 5, 0, 6, 1, 6, 3, 6, 5, 6] : List ℕ).getD (2 * i) 0) false = true ∧ (List.ofFn x).getD (([0, 3, 0, 4, 1, 4, 2, 4, 0, 5, 1, 5, 3, 5, 0, 6, 1, 6, 3, 6, 5, 6] : List ℕ).getD (2 * i + 1) 0) false = true)) → ∃ (gates' : List PEqualNP.CircuitLowerBounds.Gate) (o' : ℕ), (∀ g ∈ gates', (g.op = PEqualNP.CircuitLowerBounds.GateOp.and ∨ g.op = PEqualNP.CircuitLowerBounds.GateOp.or) ∧ g.inputs.length ≤ 2) ∧ gates'.length ≤ gates.length ∧ ∀ x : Fin 7 → Bool, PEqualNP.CircuitLowerBounds.Circuit.eval ⟨gates', o'⟩ (List.ofFn x) = decide (∃ i < ([0, 3, 0, 4, 1, 4, 2, 4, 0, 5, 1, 5, 3, 5, 0, 6, 1, 6, 3, 6, 5, 6] : List ℕ).length / 2, (List.ofFn x).getD (([0, 3, 0, 4, 1, 4, 2, 4, 0, 5, 1, 5, 3, 5, 0, 6, 1, 6, 3, 6, 5, 6] : List ℕ).getD (2 * i) 0) false = true ∧ (List.ofFn x).getD (([0, 3, 0, 4, 1, 4, 2, 4, 0, 5, 1, 5, 3, 5, 0, 6, 1, 6, 3, 6, 5, 6] : List ℕ).getD (2 * i + 1) 0) false = true)",
+  "file": "lean/PEqualNP/Outside/L_meta_11315.lean",
+  "module": "PEqualNP.Outside.L_meta_11315",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "unlocks": "Direction 4 (one NOT gate): the smallest graphs on which one NOT gate saves a gate, if any",
+  "dead": [],
+  "weight": 55,
+  "parallel": 3,
+  "lane": "main",
+  "depth": 0,
+  "faithful_by_template": {
+    "template": "direction4-one-not-replace-7c",
+    "hash": "4094b00de1a89367d6d38819c1915bed8d91e8abefc64244dd1473cefe18748f"
+  },
+  "sketch": "For a seven-vertex graph with a 4-cycle: show every AND/OR/NOT list (at most two inputs each, at most one NOT gate) for its edge function can be replaced by an AND/OR list no longer, or refute it with a one-NOT list shorter than every AND/OR list. Known: the replacement side was checked on eight six-vertex graphs. Here our NOT-gate lower bound and best AND/OR circuit differ by 3 to 14 gates, so the truth is not known. Route: exhaustive search on seven inputs with a certificate. Size: minutes to hours of solver time per graph.",
+  "pr_open": 0,
+  "pr_numbers": []
+}

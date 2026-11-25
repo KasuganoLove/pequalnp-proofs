@@ -1,0 +1,11 @@
+{
+  "module": "Pnp11315Explicit1",
+  "started_at": "2026-11-25T14:11:47.040182+00:00",
+  "ended_at": "2026-11-25T14:12:29.596485+00:00",
+  "elapsed_seconds": 42.55634047000058,
+  "exit_code": 0,
+  "stop_reason": null,
+  "max_rss_kib": 6791524,
+  "source_sha256": "8a48fb865b3d3a2a94a33de7b5bd6c642e8fb1898b0181a7350e9cf4ad516b29",
+  "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+}

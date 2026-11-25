@@ -1,23 +1,26 @@
-# Active P vs NP work
+# 当前 P vs NP 协作状态
 
-## Current coordination at the C16 checkpoint
+## 当前有效工作
 
-Root holds two newly allocated tasks: **L-meta-2384**, assigned at2026-11-25 13:52:58 UTC, and **L-meta-11315**, assigned at13:55:12 UTC. Root controls their renewals and submissions. No unfinished research for either new task is included in C16.
+本 root 当前持有两个新任务，由 root 统一处理续租、释放和正式提交。状态截至2026-11-25 14:48 UTC：
 
-The previous L-meta-10696 was released at13:09:30.976498 UTC (HTTP200). The L-meta-10487 heartbeat returned410 at13:47:03 UTC; the official desk confirms that its opposite10486 was checked, so10487 was withdrawn. All10486/10487 task-specific mathematics and proof work stopped.
+| 任务 | 分配时间（UTC） | 当前范围 |
+|---|---|---|
+| L-meta-9834 | 2026-11-25 14:23:08 | 四十顶点、九十五条边的≤112门正向见证；新研究进行中。 |
+| L-meta-2584 | 2026-11-25 14:32:10 | C4-free二分图的AO2电路等大小Read2归一化；当前任务行无reductions:true，未发现完整证明路线。 |
 
-A request at13:47:41 returned no allocation; the later13:52:58 allocation supersedes that earlier waiting state. The user's other Codex session's L-meta-11030 state remains unknown and untouched by this root. Do not operate that session's assignment.
+C17只记录上述协调状态，没有收录这些新任务的未完成研究。用户另一 Codex 会话的11030及其他租约状态未知，本 root 没有操作它们。L-meta-9815已于14:45:23.091761 UTC以missing_lemma释放，HTTP200；已验证25门构造，但没有完成所需下界。14:45:23 UTC的VALUE-only请求返回空并要求等待300秒；正在准备通用证书工具，没有计算未租VALUE题目。
 
-## Official contributions and attribution
+## 已关闭并归档
 
-The user's other Codex session created official PR #14022, merged at12:30:48 UTC; L-meta-10221 is checked. This root performed follow-up review and coordination, not creation. User-fork main was fast-forwarded through that merge to `1fc91c4a3a59d36d4c1490dcd945a5449ead499f` at13:02:16 UTC; this does not claim inclusion of later upstream merges.
+- 2384：2026-11-25 14:14:49.112248 UTC以missing_lemma释放，HTTP200。结构审计和最大junk的DAG计数仍明确标为未形式化，没有完整证明。
+- 11315：14:21:23.452684 UTC心跳410。ptrdsh的官方PR15263已于14:18:51合并，desk14:21:12.986登记checked，11316因其反命题已证明而撤回。本 root仅完成独立搜索、辅助Lean引理和一个数值分支，没有提交完整证明。
+- C17目录：`research/2026-11-25/continuation-17`，以已发布C16提交`6152032d16ec37e5989df91e125fa4aee886e54c`为基底。C17的发布提交以远端实际记录为准。
 
-Official PR #14954 was created by odinfree, merged at13:42:39 UTC, and supplied the checked proof of10486. This root's exploratory signed search and partial formalization were not that submission. No explicit ACCEPTED comment was observed for either milestone; merged/checked facts are recorded directly.
+11315关闭前已启动的最后一个Core作业在14:21:32.540812退出0；root尝试停止时发现已结束。关闭后没有启动该任务的新证明或搜索工作。完整候选exit137、Special组超时、普通局部通过和正式官方结论在C17中分别记录。
 
-The user's phase criterion is a meaningful public upstream PR, not a separate requirement for an ACCEPTED-comment string. Continue pursuing substantive official contributions when a legitimate task is available; research archives support that work rather than replace it.
+## 正式贡献与用户目标
 
-## Latest research checkpoint
+用户另一Codex会话创建的官方PR14022已于12:30:48 UTC合并，10221已checked；作者归属已保存在C15，本root不认领其创建。用户希望继续形成有实质证明的公开上游PR；后续研究归档为该目标保留复现与交接依据。
 
-C16 archives the completed10696/10487 work: bounded searches, verified12/13-gate controls, the ordinary-checked generic/finite bridge, three numerical-kernel attempts that exited137 without a complete verdict, and a smaller29-sample exploration. Its optimized search exhausted, while its literal replay timed out UNKNOWN. No full root proof or new official PR for those two tasks is claimed.
-
-C15 base commit: `fb6dd9c5289a13a597afc39943219f869e8d7c29`. C16 source and validation details are under `research/2026-11-25/continuation-16/`. This top-level file may be updated by root after a fresh allocation.
+本次11315官方PR15263归属ptrdsh，此前10486官方PR14954归属odinfree。不得把他人的已合并证明或本地辅助模块通过描述成本root的新官方证明提交。没有观察到这些PR的显式ACCEPTED评论时，只陈述已核实的合并与checked状态。

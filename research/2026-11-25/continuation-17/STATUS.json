@@ -1,0 +1,173 @@
+{
+  "checkpoint": "continuation-17",
+  "scope": "Frozen completed research for2384 and11315; no new root proof PR",
+  "base_research_commit": "6152032d16ec37e5989df91e125fa4aee886e54c",
+  "base_root_tree": "91c64a3b8935d5e4961d8962c16d59e36f8d049d",
+  "root_official_pr_created_in_checkpoint": false,
+  "root_full_11315_proof_verified": false,
+  "external_strict_checker_run": false,
+  "tasks": {
+    "L-meta-2384": {
+      "root_status": "released",
+      "at": "2026-11-25T14:14:49.112248Z",
+      "http_status": 200,
+      "reason": "missing_lemma",
+      "new_lean_proof": false,
+      "candidate_DAG_argument": "UNFORMALIZED",
+      "source_status_snapshot": "2026-11-25T13:53:26.498Z"
+    },
+    "L-meta-11315": {
+      "root_status": "closed",
+      "heartbeat_at": "2026-11-25T14:21:23.452684Z",
+      "heartbeat_http_status": 410,
+      "official_status": "CHECKED",
+      "official_snapshot_at": "2026-11-25T14:21:12.986Z",
+      "official_pr": 15263,
+      "official_author": "ptrdsh",
+      "official_merged_at": "2026-11-25T14:18:51Z",
+      "merge_commit": "7dd594cc96b1fc5b83ca9266a00cef93d6871df6",
+      "official_source_sha256": "e13152ef69931ca79dc9f4354f6752a38f3c17a48863616654032ab41a18b131",
+      "comments_observed": 0,
+      "explicit_ACCEPTED_comment_observed": false,
+      "opposite_11316_status": "withdrawn because11315 checked",
+      "root_owns_official_proof": false
+    }
+  },
+  "ordinary_lean_records": [
+    {
+      "record": "L-meta-11315/formalization/Pnp11315BranchesSpecial.result.json",
+      "module": "Pnp11315BranchesSpecial",
+      "started_at": "2026-11-25T14:04:23.533398+00:00",
+      "ended_at": "2026-11-25T14:09:23.549740+00:00",
+      "elapsed_seconds": 300.0163692940041,
+      "exit_code": -15,
+      "stop_reason": "wall_limit",
+      "max_rss_kib": 848044,
+      "source_sha256": "8541a994b172c903bcef49535da26628d63518f3603bad0099ca9923643af7a5",
+      "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+    },
+    {
+      "record": "L-meta-11315/formalization/Pnp11315Core.result.json",
+      "module": "Pnp11315Core",
+      "started_at": "2026-11-25T14:21:16.942787+00:00",
+      "ended_at": "2026-11-25T14:21:32.540812+00:00",
+      "elapsed_seconds": 15.598183339003299,
+      "exit_code": 0,
+      "stop_reason": null,
+      "max_rss_kib": 3485328,
+      "source_sha256": "9ba538bbc73bb592c653b0e38020955c4bb5d263fd3a0f84299e5b534b37d46d",
+      "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+    },
+    {
+      "record": "L-meta-11315/formalization/Pnp11315Explicit1.result.json",
+      "module": "Pnp11315Explicit1",
+      "started_at": "2026-11-25T14:11:47.040182+00:00",
+      "ended_at": "2026-11-25T14:12:29.596485+00:00",
+      "elapsed_seconds": 42.55634047000058,
+      "exit_code": 0,
+      "stop_reason": null,
+      "max_rss_kib": 6791524,
+      "source_sha256": "8a48fb865b3d3a2a94a33de7b5bd6c642e8fb1898b0181a7350e9cf4ad516b29",
+      "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+    },
+    {
+      "record": "L-meta-11315/formalization/Pnp11315FiniteBridge.result.json",
+      "module": "Pnp11315FiniteBridge",
+      "started_at": "2026-11-25T14:04:15.262313+00:00",
+      "ended_at": "2026-11-25T14:04:18.285370+00:00",
+      "elapsed_seconds": 3.0230986479946296,
+      "exit_code": 0,
+      "stop_reason": null,
+      "max_rss_kib": 3529316,
+      "source_sha256": "d992246b90311965772946b4b168ca090264b1cf7aaca5779035d4f222cb5ea1",
+      "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+    },
+    {
+      "record": "L-meta-11315/formalization/Pnp11315Full.result.json",
+      "module": "Pnp11315Full",
+      "started_at": "2026-11-25T13:59:57.762353+00:00",
+      "ended_at": "2026-11-25T14:01:44.480760+00:00",
+      "elapsed_seconds": 106.71843300099863,
+      "exit_code": 137,
+      "stop_reason": null,
+      "max_rss_kib": 6950340,
+      "source_sha256": "09ef326be4a9fb250111f398d3f10418d8a562d57b490cc4ee41f3945df4fd84",
+      "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+    },
+    {
+      "record": "L-meta-11315/formalization/Pnp11315SplitCore.result.json",
+      "module": "Pnp11315SplitCore",
+      "started_at": "2026-11-25T14:04:03.698685+00:00",
+      "ended_at": "2026-11-25T14:04:07.075198+00:00",
+      "elapsed_seconds": 3.376540784003737,
+      "exit_code": 0,
+      "stop_reason": null,
+      "max_rss_kib": 3531048,
+      "source_sha256": "5c9d84b60006a39dd0db66259b83f7620a58d6d36b76e7e985030ad17a829cf4",
+      "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+    },
+    {
+      "record": "L-meta-11315/formalization/Pnp11315States.result.json",
+      "module": "Pnp11315States",
+      "started_at": "2026-11-25T14:11:07.986876+00:00",
+      "ended_at": "2026-11-25T14:11:28.240745+00:00",
+      "elapsed_seconds": 20.253897472000972,
+      "exit_code": 0,
+      "stop_reason": null,
+      "max_rss_kib": 3716708,
+      "source_sha256": "06c707aa297ad08b32f5298a0d0d5963d6a35a296e7828e70bb408ef281aaf0e",
+      "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+    },
+    {
+      "record": "L-meta-11315/formalization/broad-tactic/Pnp11315Core.result.json",
+      "module": "Pnp11315Core",
+      "started_at": "2026-11-25T14:03:25.161243+00:00",
+      "ended_at": "2026-11-25T14:03:48.648404+00:00",
+      "elapsed_seconds": 23.487188366998453,
+      "exit_code": 0,
+      "stop_reason": null,
+      "max_rss_kib": 4111040,
+      "source_sha256": "44f2523f8010189ac59dea38cce5fd42c24e2d86233ecb9dd37edf09c0cc2e9e",
+      "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+    },
+    {
+      "record": "L-meta-11315/formalization/Pnp11315BlockBridge-compile.json",
+      "started_at_utc": "2026-11-25T14:17:54.333387+00:00",
+      "finished_at_utc": "2026-11-25T14:17:57.958796+00:00",
+      "elapsed_seconds": 3.62541725000483,
+      "exit_code": 0,
+      "source_sha256": "be7ea3d26d05d437ce909ccaedcad0251cc041f95598ca00afef8ab587407f24",
+      "source_bytes": 3019,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_bytes": 0,
+      "command": [
+        "bash",
+        "-lc",
+        "source /workspace/scratch/65f339da29fe/pnp-env.sh\nexec lake env lean -j1 -o .lake/build/lib/lean/Pnp11315BlockBridge.olean Pnp11315BlockBridge.lean"
+      ],
+      "scope": "Ordinary single-thread Lean compilation of only Pnp11315BlockBridge; not strict checker."
+    }
+  ],
+  "last_core_timing": {
+    "started_before_410": "2026-11-25T14:21:16.942787Z",
+    "completed_at": "2026-11-25T14:21:32.540812Z",
+    "exit_code": 0,
+    "stop_attempt": "Root reported the already-running job had ended by the time stop was attempted",
+    "new_job_started_after_closure": false
+  },
+  "environment": {
+    "local_checkout": "57164c3618362178843e2ea37bd01613f4037ae2",
+    "lean_toolchain": "leanprover/lean4:v4.36.0",
+    "mathlib_revision": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+    "Defs.lean_sha256": "594ff2311557f39573545905a9b6bcdb0b4e15db024ebcf15f921d250a1c8fbe",
+    "lake_manifest_sha256": "d0af863cde532caaef1b1bee0d63ec47100208e33e488309cb80abc88b8f1509"
+  },
+  "archive_preparation": {
+    "new_math_executed": false,
+    "new_lean_executed": false,
+    "new_solver_executed": false,
+    "remote_writes": false,
+    "partial_records_preserved": true
+  },
+  "current_coordination": "See separate research/ACTIVE_WORK.md; new9834/9815 work is not archived here."
+}

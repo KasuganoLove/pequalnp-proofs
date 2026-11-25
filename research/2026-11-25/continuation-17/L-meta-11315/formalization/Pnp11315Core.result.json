@@ -1,0 +1,11 @@
+{
+  "module": "Pnp11315Core",
+  "started_at": "2026-11-25T14:21:16.942787+00:00",
+  "ended_at": "2026-11-25T14:21:32.540812+00:00",
+  "elapsed_seconds": 15.598183339003299,
+  "exit_code": 0,
+  "stop_reason": null,
+  "max_rss_kib": 3485328,
+  "source_sha256": "9ba538bbc73bb592c653b0e38020955c4bb5d263fd3a0f84299e5b534b37d46d",
+  "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+}

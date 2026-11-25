@@ -1,0 +1,19 @@
+{
+  "scope": "Exact task-ID GitHub PR search in the14:22UTCclosureaudit",
+  "queries": [
+    {
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-11315\"",
+      "matches": [
+        {
+          "title": "L-meta-11315",
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/15263"
+        }
+      ]
+    },
+    {
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-11316\"",
+      "matches": []
+    }
+  ],
+  "limitations": "Search may lag. Official desk checked/withdrawn records and merged PR metadata establish closure."
+}

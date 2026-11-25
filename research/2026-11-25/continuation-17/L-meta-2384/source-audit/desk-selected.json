@@ -1,0 +1,218 @@
+{
+  "url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "retrieved_at": "2026-11-25T13:54:36.004274+00:00",
+  "http_status": 200,
+  "updated_at": "2026-11-25T13:53:26.498Z",
+  "response_sha256": "ce087159efa060debb84213a03e924d0eb59c151aab55e89093c6e2262725390",
+  "selected": {
+    "gaps": [
+      {
+        "id": "L-meta-1597",
+        "title": "The 11-vertex graph G11 (no 4-cycle, cover number 7): least top-form fan-in-exactly-two AND/OR circuits with 2+ junk ANDs have at least 22 gates",
+        "statement": "(∀ (n : ℕ) (G : SimpleGraph (Fin n)) [DecidableRel G.Adj] (C : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.TopForm.NoFourCycle G → G.edgeFinset.Nonempty → PEqualNP.TopForm.IsLeastAO G C → PEqualNP.TopForm.TopForm G C → (∀ a ∈ PEqualNP.TopForm.tops G C, Disjoint (PEqualNP.TopForm.side (n := n) C a 0) (PEqualNP.TopForm.side (n := n) C a 1) ∧ (∀ u ∈ PEqualNP.TopForm.side (n := n) C a 0, ∀ v ∈ PEqualNP.TopForm.side (n := n) C a 1, G.Adj u v) ∧ ((PEqualNP.TopForm.side (n := n) C a 0).card ≤ 1 ∨ (PEqualNP.TopForm.side (n := n) C a 1).card ≤ 1)) ∧ ∀ u v : Fin n, s(u, v) ∈ PEqualNP.TopForm.Ustar G C → ∃ a ∈ PEqualNP.TopForm.tops G C, ∃ b : Fin 2, ∃ h ∈ PEqualNP.TopForm.junk G C, PEqualNP.EdgeOwnership.gateVal n C a (PEqualNP.EdgeOwnership.pairInput u v) = true ∧ PEqualNP.CleanedNonEdge.OrReaches n C (PEqualNP.TopForm.opnd C a b) h ∧ PEqualNP.EdgeOwnership.gateVal n C h (PEqualNP.EdgeOwnership.pairInput u v) = true) → (∀ (n : ℕ) (G : SimpleGraph (Fin n)) [DecidableRel G.Adj] (C : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.TopForm.NoFourCycle G → G.edgeFinset.Nonempty → PEqualNP.TopForm.IsLeastAO G C → PEqualNP.TopForm.TopForm G C → G.edgeFinset.card + (PEqualNP.TopForm.tops G C \\ PEqualNP.TopForm.centreless G C).card + 2 * (PEqualNP.TopForm.centreless G C).card + (PEqualNP.TopForm.junk G C).card + (PEqualNP.TopForm.orN G C \\ PEqualNP.TopForm.lam G C).card ≤ C.size + (PEqualNP.TopForm.Ustar G C).card + 1 ∧ ∀ K : Finset (Fin n), PEqualNP.MetaComplexity.NestedCover.IsMinCover (G.deleteEdges ↑(PEqualNP.TopForm.Ustar G C)) K → K.card ≤ (PEqualNP.TopForm.tops G C \\ PEqualNP.TopForm.centreless G C).card) → ∀ D : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.TopForm.IsLeastAO (PEqualNP.EdgeOwnership.edgeGraph 11 [(0, 9), (0, 10), (1, 4), (1, 8), (2, 5), (2, 10), (3, 6), (3, 7), (4, 8), (4, 10), (5, 8), (5, 9), (6, 7), (6, 10), (7, 9), (8, 9)]) D → PEqualNP.TopForm.TopForm (PEqualNP.EdgeOwnership.edgeGraph 11 [(0, 9), (0, 10), (1, 4), (1, 8), (2, 5), (2, 10), (3, 6), (3, 7), (4, 8), (4, 10), (5, 8), (5, 9), (6, 7), (6, 10), (7, 9), (8, 9)]) D → 2 ≤ (PEqualNP.TopForm.junk (PEqualNP.EdgeOwnership.edgeGraph 11 [(0, 9), (0, 10), (1, 4), (1, 8), (2, 5), (2, 10), (3, 6), (3, 7), (4, 8), (4, 10), (5, 8), (5, 9), (6, 7), (6, 10), (7, 9), (8, 9)]) D).card → 22 ≤ D.size",
+        "file": "lean/PEqualNP/Outside/L_meta_1597.lean",
+        "module": "PEqualNP.Outside.L_meta_1597",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "The 11-vertex graph with no 4-cycle: the case of two or more junk AND gates",
+        "context": "SKETCH: no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown.",
+        "dead": [],
+        "weight": 50,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 0,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown.",
+        "pr_open": 0,
+        "pr_numbers": [],
+        "level": "hard"
+      },
+      {
+        "id": "L-meta-2258",
+        "title": "A step toward: The 11-vertex graph G11 (no 4-cycle, cover number 7): least top-form fan-in-exactly-two AND/OR circuits with 2+ junk ANDs have at least 22 gates (step 1 of 4)",
+        "statement": "∀ (x1 : SimpleGraph (Fin (11 : ℕ))) [x2 : DecidableRel x1.Adj] (x3 : PEqualNP.CircuitLowerBounds.Circuit),   x1 = PEqualNP.EdgeOwnership.edgeGraph (11 : ℕ) [((0 : ℕ), (9 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (4 : ℕ)), ((1 : ℕ), (8 : ℕ)), ((2 : ℕ), (5 : ℕ)), ((2 : ℕ), (10 : ℕ)), ((3 : ℕ), (6 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((4 : ℕ), (8 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((5 : ℕ), (8 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((6 : ℕ), (7 : ℕ)), ((6 : ℕ), (10 : ℕ)), ((7 : ℕ), (9 : ℕ)), ((8 : ℕ), (9 : ℕ))] →     PEqualNP.TopForm.IsLeastAO x1 x3 →       PEqualNP.TopForm.TopForm x1 x3 →         have x7 : Finset ℕ := PEqualNP.TopForm.tops x1 x3;         have x8 : Finset ℕ := PEqualNP.TopForm.centreless x1 x3;         have x9 : Finset ℕ := PEqualNP.TopForm.junk x1 x3;         have x10 : Finset (Sym2 (Fin (11 : ℕ))) := PEqualNP.TopForm.Ustar x1 x3;         (∀ x11 ∈ x7,             have x13 : Fin (2 : ℕ) → Finset (Fin (11 : ℕ)) := PEqualNP.TopForm.side x3 x11;             (∀ x14 ∈ x13 (0 : Fin (2 : ℕ)), ∀ x16 ∈ x13 (1 : Fin (2 : ℕ)), x1.Adj x14 x16) ∧ ((x13 (0 : Fin (2 : ℕ))).card ≤ (1 : ℕ) ∨ (x13 (1 : Fin (2 : ℕ))).card ≤ (1 : ℕ))) →           (∀ (x12 x13 : Fin (11 : ℕ)), s(x12, x13) ∈ x10 → ∃ x15 ∈ x7, ∃ (x16 : Fin (2 : ℕ)), ∃ x17 ∈ x9, PEqualNP.EdgeOwnership.gateVal (11 : ℕ) x3 x15 (PEqualNP.EdgeOwnership.pairInput x12 x13) = Bool.true ∧ PEqualNP.CleanedNonEdge.OrReaches (11 : ℕ) x3 (PEqualNP.TopForm.opnd x3 x15 x16) x17 ∧ PEqualNP.EdgeOwnership.gateVal (11 : ℕ) x3 x17 (PEqualNP.EdgeOwnership.pairInput x12 x13) = Bool.true) → (15 : ℕ) + (x7 \\ x8).card + (2 : ℕ) * x8.card + x9.card + (PEqualNP.TopForm.orN x1 x3 \\ PEqualNP.TopForm.lam x1 x3).card ≤ x3.size + x10.card → (∀ (x14 : Finset (Fin (11 : ℕ))), PEqualNP.MetaComplexity.NestedCover.IsMinCover (x1.deleteEdges ↑x10) x14 → x14.card ≤ (x7 \\ x8).card) → (3 : ℕ) ≤ x9.card → (22 : ℕ) ≤ x3.size",
+        "file": "lean/PEqualNP/Outside/L_meta_2258.lean",
+        "module": "PEqualNP.Outside.L_meta_2258",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "With its 3 sibling(s) it proves a posted step.",
+        "context": "A hypothesis of a checked reduction, as Lean printed it.",
+        "dead": [],
+        "weight": 50,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "Step 1 of 4 of a checked cut of L-meta-1597. Its sibling steps: L-meta-2260, L-meta-2262, L-meta-2264. Together they give the parent; the parent's own sketch: no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown..",
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1597"
+        ],
+        "level": "hard"
+      },
+      {
+        "id": "L-meta-2260",
+        "title": "A step toward: The 11-vertex graph G11 (no 4-cycle, cover number 7): least top-form fan-in-exactly-two AND/OR circuits with 2+ junk ANDs have at least 22 gates (step 2 of 4)",
+        "statement": "∀ (x1 : SimpleGraph (Fin (11 : ℕ))) [x2 : DecidableRel x1.Adj] (x3 : PEqualNP.CircuitLowerBounds.Circuit) (x4 x5 : ℕ),   x1 = PEqualNP.EdgeOwnership.edgeGraph (11 : ℕ) [((0 : ℕ), (9 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (4 : ℕ)), ((1 : ℕ), (8 : ℕ)), ((2 : ℕ), (5 : ℕ)), ((2 : ℕ), (10 : ℕ)), ((3 : ℕ), (6 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((4 : ℕ), (8 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((5 : ℕ), (8 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((6 : ℕ), (7 : ℕ)), ((6 : ℕ), (10 : ℕ)), ((7 : ℕ), (9 : ℕ)), ((8 : ℕ), (9 : ℕ))] →     PEqualNP.TopForm.IsLeastAO x1 x3 →       PEqualNP.TopForm.TopForm x1 x3 →         have x9 : Finset ℕ := PEqualNP.TopForm.tops x1 x3;         have x10 : Finset ℕ := PEqualNP.TopForm.centreless x1 x3;         have x11 : Finset (Sym2 (Fin (11 : ℕ))) := PEqualNP.TopForm.Ustar x1 x3;         (∀ x12 ∈ x9,             have x14 : Fin (2 : ℕ) → Finset (Fin (11 : ℕ)) := PEqualNP.TopForm.side x3 x12;             (∀ x15 ∈ x14 (0 : Fin (2 : ℕ)), ∀ x17 ∈ x14 (1 : Fin (2 : ℕ)), x1.Adj x15 x17) ∧ ((x14 (0 : Fin (2 : ℕ))).card ≤ (1 : ℕ) ∨ (x14 (1 : Fin (2 : ℕ))).card ≤ (1 : ℕ))) →           (∀ (x13 x14 : Fin (11 : ℕ)), s(x13, x14) ∈ x11 → ∃ x16 ∈ x9, ∃ (x17 : Fin (2 : ℕ)) (x18 : ℕ), (x18 = x4 ∨ x18 = x5) ∧ PEqualNP.EdgeOwnership.gateVal (11 : ℕ) x3 x16 (PEqualNP.EdgeOwnership.pairInput x13 x14) = Bool.true ∧ PEqualNP.CleanedNonEdge.OrReaches (11 : ℕ) x3 (PEqualNP.TopForm.opnd x3 x16 x17) x18 ∧ PEqualNP.EdgeOwnership.gateVal (11 : ℕ) x3 x18 (PEqualNP.EdgeOwnership.pairInput x13 x14) = Bool.true) → (17 : ℕ) + (x9 \\ x10).card + (2 : ℕ) * x10.card + (PEqualNP.TopForm.orN x1 x3 \\ PEqualNP.TopForm.lam x1 x3).card ≤ x3.size + x11.card → (∀ (x15 : Finset (Fin (11 : ℕ))), PEqualNP.MetaComplexity.NestedCover.IsMinCover (x1.deleteEdges ↑x11) x15 → x15.card ≤ (x9 \\ x10).card) → PEqualNP.TopForm.junk x1 x3 = {x4, x5} → PEqualNP.EdgeOwnership.InCone (11 : ℕ) x3 x4 x5 → (22 : ℕ) ≤ x3.size",
+        "file": "lean/PEqualNP/Outside/L_meta_2260.lean",
+        "module": "PEqualNP.Outside.L_meta_2260",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "With its 3 sibling(s) it proves a posted step.",
+        "context": "A hypothesis of a checked reduction, as Lean printed it.",
+        "dead": [],
+        "weight": 50,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "Step 2 of 4 of a checked cut of L-meta-1597. Its sibling steps: L-meta-2258, L-meta-2262, L-meta-2264. Together they give the parent; the parent's own sketch: no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown..",
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1597"
+        ],
+        "level": "hard"
+      },
+      {
+        "id": "L-meta-2262",
+        "title": "A step toward: The 11-vertex graph G11 (no 4-cycle, cover number 7): least top-form fan-in-exactly-two AND/OR circuits with 2+ junk ANDs have at least 22 gates (step 3 of 4)",
+        "statement": "∀ (x1 : SimpleGraph (Fin (11 : ℕ))) [x2 : DecidableRel x1.Adj] (x3 : PEqualNP.CircuitLowerBounds.Circuit) (x4 x5 : ℕ),   x1 = PEqualNP.EdgeOwnership.edgeGraph (11 : ℕ) [((0 : ℕ), (9 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (4 : ℕ)), ((1 : ℕ), (8 : ℕ)), ((2 : ℕ), (5 : ℕ)), ((2 : ℕ), (10 : ℕ)), ((3 : ℕ), (6 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((4 : ℕ), (8 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((5 : ℕ), (8 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((6 : ℕ), (7 : ℕ)), ((6 : ℕ), (10 : ℕ)), ((7 : ℕ), (9 : ℕ)), ((8 : ℕ), (9 : ℕ))] →     PEqualNP.TopForm.IsLeastAO x1 x3 →       PEqualNP.TopForm.TopForm x1 x3 →         have x9 : Finset ℕ := PEqualNP.TopForm.tops x1 x3;         have x10 : Finset ℕ := PEqualNP.TopForm.centreless x1 x3;         have x11 : Finset (Sym2 (Fin (11 : ℕ))) := PEqualNP.TopForm.Ustar x1 x3;         have x12 : ℕ → ℕ → Prop := PEqualNP.EdgeOwnership.InCone (11 : ℕ) x3;         (∀ x13 ∈ x9,             have x15 : Fin (2 : ℕ) → Finset (Fin (11 : ℕ)) := PEqualNP.TopForm.side x3 x13;             (∀ x16 ∈ x15 (0 : Fin (2 : ℕ)), ∀ x18 ∈ x15 (1 : Fin (2 : ℕ)), x1.Adj x16 x18) ∧ ((x15 (0 : Fin (2 : ℕ))).card ≤ (1 : ℕ) ∨ (x15 (1 : Fin (2 : ℕ))).card ≤ (1 : ℕ))) →           (∀ (x14 x15 : Fin (11 : ℕ)), s(x14, x15) ∈ x11 → ∃ x17 ∈ x9, ∃ (x18 : Fin (2 : ℕ)) (x19 : ℕ), (x19 = x4 ∨ x19 = x5) ∧ PEqualNP.EdgeOwnership.gateVal (11 : ℕ) x3 x17 (PEqualNP.EdgeOwnership.pairInput x14 x15) = Bool.true ∧ PEqualNP.CleanedNonEdge.OrReaches (11 : ℕ) x3 (PEqualNP.TopForm.opnd x3 x17 x18) x19 ∧ PEqualNP.EdgeOwnership.gateVal (11 : ℕ) x3 x19 (PEqualNP.EdgeOwnership.pairInput x14 x15) = Bool.true) → (17 : ℕ) + (x9 \\ x10).card + (2 : ℕ) * x10.card + (PEqualNP.TopForm.orN x1 x3 \\ PEqualNP.TopForm.lam x1 x3).card ≤ x3.size + x11.card → (∀ (x16 : Finset (Fin (11 : ℕ))), PEqualNP.MetaComplexity.NestedCover.IsMinCover (x1.deleteEdges ↑x11) x16 → x16.card ≤ (x9 \\ x10).card) → x4 < x5 → PEqualNP.TopForm.junk x1 x3 = {x4, x5} → ¬x12 x4 x5 → ¬x12 x5 x4 → (∃ x21 ∈ x9, x12 x4 x21 ∧ x12 x5 x21) → (22 : ℕ) ≤ x3.size",
+        "file": "lean/PEqualNP/Outside/L_meta_2262.lean",
+        "module": "PEqualNP.Outside.L_meta_2262",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "With its 3 sibling(s) it proves a posted step.",
+        "context": "A hypothesis of a checked reduction, as Lean printed it.",
+        "dead": [],
+        "weight": 50,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "Step 3 of 4 of a checked cut of L-meta-1597. Its sibling steps: L-meta-2258, L-meta-2260, L-meta-2264. Together they give the parent; the parent's own sketch: no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown..",
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1597"
+        ],
+        "level": "hard"
+      },
+      {
+        "id": "L-meta-2382",
+        "title": "A step toward: The 11-vertex graph G11 (no 4-cycle, cover number 7): least top-form fan-in-exactly-two AND/OR circuits with 2+ junk ANDs have at least 22 gates (step 1 of 2)",
+        "statement": "let x1 : SimpleGraph (Fin (11 : ℕ)) := PEqualNP.EdgeOwnership.edgeGraph (11 : ℕ) [((0 : ℕ), (9 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (4 : ℕ)), ((1 : ℕ), (8 : ℕ)), ((2 : ℕ), (5 : ℕ)), ((2 : ℕ), (10 : ℕ)), ((3 : ℕ), (6 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((4 : ℕ), (8 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((5 : ℕ), (8 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((6 : ℕ), (7 : ℕ)), ((6 : ℕ), (10 : ℕ)), ((7 : ℕ), (9 : ℕ)), ((8 : ℕ), (9 : ℕ))]; ∀ (x2 : PEqualNP.CircuitLowerBounds.Circuit),   x2.size ≤ (21 : ℕ) →     PEqualNP.TopForm.IsLeastAO x1 x2 →       PEqualNP.TopForm.TopForm x1 x2 →         (2 : ℕ) ≤ (PEqualNP.TopForm.junk x1 x2).card →           have x7 : Finset (Sym2 (Fin (11 : ℕ))) := PEqualNP.TopForm.Ustar x1 x2;           have x8 : ℕ := (2 : ℕ) * (PEqualNP.TopForm.centreless x1 x2).card + (PEqualNP.TopForm.junk x1 x2).card + (PEqualNP.TopForm.orN x1 x2 \\ PEqualNP.TopForm.lam x1 x2).card;           (∀ (x9 x10 : Fin (11 : ℕ)), s(x9, x10) ∈ x7 → ∃ x12 ∈ PEqualNP.TopForm.junk x1 x2, PEqualNP.EdgeOwnership.gateVal (11 : ℕ) x2 x12 (PEqualNP.EdgeOwnership.pairInput x9 x10) = Bool.true) → x8 < (2 : ℕ) * x7.card → x7.card ≤ x8",
+        "file": "lean/PEqualNP/Outside/L_meta_2382.lean",
+        "module": "PEqualNP.Outside.L_meta_2382",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "With its 1 sibling(s) it proves a posted step.",
+        "context": "A hypothesis of a checked reduction, as Lean printed it.",
+        "dead": [],
+        "weight": 50,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "Step 1 of 2 of a checked cut of L-meta-1597. Its sibling steps: L-meta-2384. Together they give the parent; the parent's own sketch: no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown..",
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1597"
+        ],
+        "level": "hard"
+      },
+      {
+        "id": "L-meta-2384",
+        "title": "A step toward: The 11-vertex graph G11 (no 4-cycle, cover number 7): least top-form fan-in-exactly-two AND/OR circuits with 2+ junk ANDs have at least 22 gates (step 2 of 2)",
+        "statement": "let x1 : SimpleGraph (Fin (11 : ℕ)) := PEqualNP.EdgeOwnership.edgeGraph (11 : ℕ) [((0 : ℕ), (9 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (4 : ℕ)), ((1 : ℕ), (8 : ℕ)), ((2 : ℕ), (5 : ℕ)), ((2 : ℕ), (10 : ℕ)), ((3 : ℕ), (6 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((4 : ℕ), (8 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((5 : ℕ), (8 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((6 : ℕ), (7 : ℕ)), ((6 : ℕ), (10 : ℕ)), ((7 : ℕ), (9 : ℕ)), ((8 : ℕ), (9 : ℕ))]; ∀ (x2 : PEqualNP.CircuitLowerBounds.Circuit),   x2.size ≤ (21 : ℕ) →     PEqualNP.TopForm.IsLeastAO x1 x2 →       PEqualNP.TopForm.TopForm x1 x2 →         (2 : ℕ) ≤ (PEqualNP.TopForm.junk x1 x2).card →           have x7 : Finset (Sym2 (Fin (11 : ℕ))) := PEqualNP.TopForm.Ustar x1 x2;           have x8 : ℕ := (2 : ℕ) * (PEqualNP.TopForm.centreless x1 x2).card + (PEqualNP.TopForm.junk x1 x2).card + (PEqualNP.TopForm.orN x1 x2 \\ PEqualNP.TopForm.lam x1 x2).card;           x7.card ≤ x8 → x8 < (2 : ℕ) * x7.card → ∃ (x11 : Finset (Fin (11 : ℕ))) (x12 : Finset (Fin (11 : ℕ))), PEqualNP.MetaComplexity.NestedCover.IsMinCover (x1.deleteEdges ↑x7) x11 ∧ x1.IsVertexCover ↑(x11 ∪ x12) ∧ x12.card ≤ x8 - x7.card",
+        "file": "lean/PEqualNP/Outside/L_meta_2384.lean",
+        "module": "PEqualNP.Outside.L_meta_2384",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "With its 1 sibling(s) it proves a posted step.",
+        "context": "A hypothesis of a checked reduction, as Lean printed it.",
+        "dead": [],
+        "weight": 50,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "Step 2 of 2 of a checked cut of L-meta-1597. Its sibling steps: L-meta-2382. Together they give the parent; the parent's own sketch: no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown..",
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1597"
+        ],
+        "level": "hard"
+      },
+      {
+        "id": "L-meta-4833",
+        "title": "A step toward: The 11-vertex graph G11 (no 4-cycle, cover number 7): least top-form fan-in-exactly-two AND/OR circuits with 2+ junk ANDs have at least 22 gates (step 1 of 2)",
+        "statement": "let x1 : SimpleGraph (Fin (11 : ℕ)) := PEqualNP.EdgeOwnership.edgeGraph (11 : ℕ) [((0 : ℕ), (9 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (4 : ℕ)), ((1 : ℕ), (8 : ℕ)), ((2 : ℕ), (5 : ℕ)), ((2 : ℕ), (10 : ℕ)), ((3 : ℕ), (6 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((4 : ℕ), (8 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((5 : ℕ), (8 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((6 : ℕ), (7 : ℕ)), ((6 : ℕ), (10 : ℕ)), ((7 : ℕ), (9 : ℕ)), ((8 : ℕ), (9 : ℕ))]; ∀ (x2 : Fin (11 : ℕ)) (x3 : PEqualNP.CircuitLowerBounds.Circuit), ↑x2 < (4 : ℕ) → PEqualNP.TopForm.IsAO2 (11 : ℕ) x3 → (∀ (x6 : Fin (11 : ℕ) → Bool), x6 x2 = Bool.false → PEqualNP.MetaComplexity.circuitFun (11 : ℕ) x3 x6 = PEqualNP.MetaComplexity.NestedCover.graphFun x1 ∅ x6) → (19 : ℕ) ≤ x3.size",
+        "file": "lean/PEqualNP/Outside/L_meta_4833.lean",
+        "module": "PEqualNP.Outside.L_meta_4833",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "With its 1 sibling(s) it proves a posted step.",
+        "context": "A hypothesis of a checked reduction, as Lean printed it.",
+        "dead": [],
+        "weight": 50,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 1,
+        "sketch": "Step 1 of 2 of a checked cut of L-meta-1597. Its sibling steps: L-meta-4835. Together they give the parent; the parent's own sketch: no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown..",
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1597"
+        ],
+        "level": "hard"
+      },
+      {
+        "id": "L-meta-4835",
+        "title": "A step toward: The 11-vertex graph G11 (no 4-cycle, cover number 7): least top-form fan-in-exactly-two AND/OR circuits with 2+ junk ANDs have at least 22 gates (step 2 of 2)",
+        "statement": "let x1 : SimpleGraph (Fin (11 : ℕ)) := PEqualNP.EdgeOwnership.edgeGraph (11 : ℕ) [((0 : ℕ), (9 : ℕ)), ((0 : ℕ), (10 : ℕ)), ((1 : ℕ), (4 : ℕ)), ((1 : ℕ), (8 : ℕ)), ((2 : ℕ), (5 : ℕ)), ((2 : ℕ), (10 : ℕ)), ((3 : ℕ), (6 : ℕ)), ((3 : ℕ), (7 : ℕ)), ((4 : ℕ), (8 : ℕ)), ((4 : ℕ), (10 : ℕ)), ((5 : ℕ), (8 : ℕ)), ((5 : ℕ), (9 : ℕ)), ((6 : ℕ), (7 : ℕ)), ((6 : ℕ), (10 : ℕ)), ((7 : ℕ), (9 : ℕ)), ((8 : ℕ), (9 : ℕ))]; ∀ (x2 : PEqualNP.CircuitLowerBounds.Circuit),   PEqualNP.TopForm.IsLeastAO x1 x2 →     PEqualNP.TopForm.TopForm x1 x2 →       (2 : ℕ) ≤ (PEqualNP.TopForm.junk x1 x2).card →         x2.size ≤ (21 : ℕ) →           (2 : ℕ) * (PEqualNP.TopForm.centreless x1 x2).card + (PEqualNP.TopForm.junk x1 x2).card + (PEqualNP.TopForm.orN x1 x2 \\ PEqualNP.TopForm.lam x1 x2).card < (2 : ℕ) * (PEqualNP.TopForm.Ustar x1 x2).card →             ∃ (x8 : Fin (11 : ℕ)),               ↑x8 < (4 : ℕ) ∧                 have x9 : ℕ → Prop := fun (x9 : ℕ) => ∃ x10 < (11 : ℕ) + x9, ∀ (x11 : Fin (11 : ℕ) → Bool), x11 x8 = Bool.false → PEqualNP.ReadTwo.wval x2 x11 ((11 : ℕ) + x9) = PEqualNP.ReadTwo.wval x2 x11 x10;                 ∃ (x10 : ℕ) (x11 : ℕ) (x12 : ℕ), x10 < x11 ∧ x11 < x12 ∧ x12 < x2.size ∧ x9 x10 ∧ x9 x11 ∧ x9 x12",
+        "file": "lean/PEqualNP/Outside/L_meta_4835.lean",
+        "module": "PEqualNP.Outside.L_meta_4835",
+        "imports": [
+          "PEqualNP.Defs"
+        ],
+        "unlocks": "With its 1 sibling(s) it proves a posted step.",
+        "context": "A hypothesis of a checked reduction, as Lean printed it.",
+        "dead": [],
+        "weight": 50,
+        "parallel": 4,
+        "lane": "main",
+        "depth": 1,
+        "reductions": true,
+        "reductions_live": 3,
+        "sketch": "Step 2 of 2 of a checked cut of L-meta-1597. Its sibling steps: L-meta-4833. Together they give the parent; the parent's own sketch: no proof is held; open for REDUCTIONS. The cases with no junk AND and with one are covered by checked rows and by steps on the desk (routes/lgp/full-basis/eleven-vertex-RART.md and desk-612-links.md); this is what is left. An in-house search of one core family at 21 gates found nothing (computed). A cut should split by how two junk ANDs sit relative to each other. Size: unknown..",
+        "pr_open": 0,
+        "pr_numbers": [],
+        "unlocks_ids": [
+          "L-meta-1597"
+        ],
+        "level": "hard"
+      }
+    ],
+    "checked": [],
+    "withdrawn": []
+  }
+}

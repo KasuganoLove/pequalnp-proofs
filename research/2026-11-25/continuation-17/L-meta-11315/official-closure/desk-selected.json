@@ -1,0 +1,33 @@
+{
+  "url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "retrieved_at": "2026-11-25T14:22:23.213235+00:00",
+  "http_status": 200,
+  "response_sha256": "2cd264a9344675e9b1350255b3d97695848766152a7f553fd4f0bfc5137bdba1",
+  "headers": {
+    "date": "Wed, 25 Nov 2026 14:22:22 GMT",
+    "cache-control": "public, max-age=30",
+    "etag": "\"937bf58aa960d80769bffde42c266225\"",
+    "last-modified": "Wed, 25 Nov 2026 14:22:03 GMT"
+  },
+  "snapshot_at": "2026-11-25T14:21:12.986Z",
+  "selected": {
+    "gaps": [],
+    "checked": [
+      {
+        "id": "L-meta-11315",
+        "file": "lean/PEqualNP/Outside/L_meta_11315.lean",
+        "file_sha256": "e13152ef69931ca79dc9f4354f6752a38f3c17a48863616654032ab41a18b131"
+      }
+    ],
+    "withdrawn": [
+      {
+        "id": "L-meta-11315",
+        "record": "proved"
+      },
+      {
+        "id": "L-meta-11316",
+        "record": "Its exact opposite L-meta-11315 was checked, so this statement is false. Ask the desk for another step."
+      }
+    ]
+  }
+}

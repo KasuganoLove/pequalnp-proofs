@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-11-25T14:25:16.993179+00:00",
+  "task": "L-meta-11315",
+  "twin": "L-meta-11316",
+  "task_official_state": "checked and merged",
+  "twin_official_state": "withdrawn because its exact opposite was checked",
+  "official_pr": "https://github.com/open-goat/pequalnp-proofs/pull/15263",
+  "official_pr_author": "ptrdsh",
+  "official_merged_at_utc": "2026-11-25T14:18:51Z",
+  "official_merge_commit": "7dd594cc96b1fc5b83ca9266a00cef93d6871df6",
+  "official_source_sha256": "e13152ef69931ca79dc9f4354f6752a38f3c17a48863616654032ab41a18b131",
+  "desk_snapshot_at_utc": "2026-11-25T14:21:12.986Z",
+  "closed_beat_reported_by_parent": {
+    "at_utc": "2026-11-25T14:21:23.452684Z",
+    "http_status": 410
+  },
+  "explicit_accepted_comment_observed": false,
+  "comments_observed": 0,
+  "own_status": "A generic block aggregation helper passed ordinary Lean; this session did not complete or submit a full11315proof before closure. The accepted result belongs to the upstream contributor.",
+  "post_closure_actions": "Stopped new11315research and allheavyjobs. Read-only closure/source audit and archival only."
+}

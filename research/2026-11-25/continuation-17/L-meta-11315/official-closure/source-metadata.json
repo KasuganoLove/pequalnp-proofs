@@ -1,0 +1,12 @@
+{
+  "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/7dd594cc96b1fc5b83ca9266a00cef93d6871df6/lean/PEqualNP/Outside/L_meta_11315.lean",
+  "retrieved_at": "2026-11-25T14:23:08.959858+00:00",
+  "http_status": 200,
+  "bytes": 57614,
+  "lines": 1208,
+  "sha256": "e13152ef69931ca79dc9f4354f6752a38f3c17a48863616654032ab41a18b131",
+  "git_blob_sha": "c037902a7956afd64e614d1ee1f031bd50b15591",
+  "matches_official_checked_hash": true,
+  "matches_main_git_blob": true,
+  "attribution_in_source": "Adapted from merged L_meta_10458, Apache-2.0, with data of this graph."
+}

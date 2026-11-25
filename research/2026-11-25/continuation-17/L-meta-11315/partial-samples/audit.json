@@ -1,0 +1,69 @@
+{
+  "task": "L-meta-11315",
+  "source_sha256": "68e68bf279d85a320d1d01d5768c2263441dcab2e217e11af2d0a166f44b8b24",
+  "variants": [
+    {
+      "mode": "edges_all",
+      "positives": 11,
+      "negatives": 20,
+      "lean_width": 440,
+      "all_separating_initial_sublists": [
+        127
+      ],
+      "all_seven_inputs_required": true,
+      "packed_rows_hex": [
+        "0xaa000aa000aa000aa000aa000aa000aa000aa000aa000aa000aa000000000000000fffff0000000000fffff0000000000ffffffffff",
+        "0xacc00acc00acc00acc00acc00acc00acc00acc00acc00acc00acc0000000000fffff0000000000fffff0000000000fffff0000000000",
+        "0x48cf048cf048cf048cf048cf048cf048cf048cf048cf048cf048cf000000000000000000000000000000000000fffff000000000000000",
+        "0x2f0002f0002f0002f0002f0002f0002f0002f0002f0002f0002f0000000fffff0000000000fffff0000000000000000000000000fffff",
+        "0x930009300093000930009300093000930009300093000930009300000000000000000000000000000000000000fffffffffffffff00000",
+        "0x1c0001c0001c0001c0001c0001c0001c0001c0001c0001c0001c000fffff000000000000000fffffffffffffff00000000000000000000",
+        "0xe0000e0000e0000e0000e0000e0000e0000e0000e0000e0000e0000ffffffffffffffffffff00000000000000000000000000000000000"
+      ],
+      "all_packed_bits_and_target_labels_correct": true,
+      "first_level_count": 126,
+      "first_level_keep_counts": {
+        "3": 84,
+        "1": 20,
+        "2": 22
+      }
+    },
+    {
+      "mode": "edges_maximal",
+      "positives": 11,
+      "negatives": 7,
+      "lean_width": 154,
+      "all_separating_initial_sublists": [
+        23,
+        31,
+        55,
+        63,
+        87,
+        95,
+        107,
+        111,
+        119,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "all_seven_inputs_required": false,
+      "packed_rows_hex": [
+        "0x81020408102040810200000fe0007f0003fff",
+        "0x183060c183060c183060007f0003f8001fc000",
+        "0x15ab56ad5ab56ad5ab56000000000000fe00000",
+        "0x3060c183060c183060c03f8001fc000000007f",
+        "0x2a54a952a54a952a54a8000000000000fffff80",
+        "0xc183060c183060c1831fc00001fffff0000000",
+        "0x3060c183060c183060c1ffffffe000000000000"
+      ],
+      "all_packed_bits_and_target_labels_correct": true,
+      "sample_model_verified": true,
+      "full_target_mismatches": 36
+    }
+  ],
+  "recursive_search_run": false,
+  "lean_run": false
+}
