@@ -1,0 +1,34 @@
+{
+  "source": "lean/Pnp10486FiniteBridge.lean",
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j1",
+    "-o",
+    ".lake/build/lib/lean/Pnp10486FiniteBridge.olean",
+    "Pnp10486FiniteBridge.lean"
+  ],
+  "cwd": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean",
+  "started_at": "2026-11-25T13:27:42.085335+00:00",
+  "ended_at": "2026-11-25T13:28:33.795733+00:00",
+  "wall_seconds": 51.71052780299942,
+  "exit_code": 0,
+  "timed_out": false,
+  "max_child_rss_kib": 5165972,
+  "scope": "Finite data and aggregation only; no recursive branch proof",
+  "source_bytes": 1339,
+  "source_sha256": "2d97d779f5f7d69835a52c0cbbdca2571e2ffedfe9d9d1a78cb6745095aa47d5",
+  "imports": [
+    "Pnp10486SplitCore"
+  ],
+  "lean_log_bytes": 0,
+  "theorems": [
+    "children_count",
+    "full_only",
+    "initial_not_goal",
+    "reject_of_branches"
+  ],
+  "namespace": "PEqualNP.Outside.L_meta_10486.Signed",
+  "scope_limit": "reject_of_branches requires all88 supplied recursive branch equalities; this module supplies no recursive rejection and is not a complete10486 proof or official acceptance."
+}

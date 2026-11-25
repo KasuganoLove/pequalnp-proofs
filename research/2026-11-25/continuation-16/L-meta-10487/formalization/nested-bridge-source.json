@@ -1,0 +1,27 @@
+{
+  "source_file": "Pnp10486NestedBridge.lean",
+  "source_bytes": 984,
+  "source_sha256": "46bb87ef84edeecdd64f5d48e8cb182ad26086c364028f8c2dd00d90f1af6f9e",
+  "imports": [
+    "Pnp10486SplitCore"
+  ],
+  "namespace": "PEqualNP.Outside.L_meta_10486.Signed",
+  "theorem": "optimized_false_of_getD",
+  "parameters": [
+    "n",
+    "extra",
+    "ws",
+    "m"
+  ],
+  "hypotheses": [
+    "children length equals m",
+    "initial state is neither signed singleton goal",
+    "every Fin m indexed child returns false at budget n"
+  ],
+  "conclusion": "optimized (n+1) extra ws = false",
+  "fixed_sample_width": null,
+  "fixed_branch_count": null,
+  "numerical_searches": false,
+  "validation_status": "Written only; compilation deliberately deferred pending the sample representation decision",
+  "remote_actions": false
+}

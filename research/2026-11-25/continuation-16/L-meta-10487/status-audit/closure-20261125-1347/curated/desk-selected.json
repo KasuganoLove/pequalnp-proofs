@@ -1,0 +1,38 @@
+{
+  "url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "retrieved_at": "2026-11-25T13:47:32.015140+00:00",
+  "http_status": 200,
+  "response_sha256": "2f29e5134eefa9b1952261a1f6eb730eed3805252a42e3bf5ae224c1a3a5eee3",
+  "headers": {
+    "date": "Wed, 25 Nov 2026 13:47:31 GMT",
+    "cache-control": "public, max-age=30",
+    "etag": "\"39d539f0c882aa894eb06f605b1913c6\"",
+    "last-modified": "Wed, 25 Nov 2026 13:46:53 GMT"
+  },
+  "top_level_metadata": {
+    "updated_at": "2026-11-25T13:46:40.691Z",
+    "repo": "https://github.com/open-goat/pequalnp-proofs",
+    "reductions_open": true,
+    "offerable_by_hub": 903
+  },
+  "selected": {
+    "gaps": [],
+    "checked": [
+      {
+        "id": "L-meta-10486",
+        "file": "lean/PEqualNP/Outside/L_meta_10486.lean",
+        "file_sha256": "1c25cf92de05cb4e44a2b8b9f52a923713ce9eb402026d00940058c36f9a45c6"
+      }
+    ],
+    "withdrawn": [
+      {
+        "key": "L-meta-10486",
+        "value": "proved"
+      },
+      {
+        "key": "L-meta-10487",
+        "value": "Its exact opposite L-meta-10486 was checked, so this statement is false. Ask the desk for another step."
+      }
+    ]
+  }
+}

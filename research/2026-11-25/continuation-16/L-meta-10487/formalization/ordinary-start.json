@@ -1,0 +1,6 @@
+{
+  "started_at": "2026-11-25T13:15:12.022182+00:00",
+  "source_sha256": "8594b4c63029520fca331029135bb7b19a0d0b8978de41c49ff2eb6462104ec8",
+  "seconds_limit": 600,
+  "phase": "full ordinary Lean with numerical kernel rejection"
+}

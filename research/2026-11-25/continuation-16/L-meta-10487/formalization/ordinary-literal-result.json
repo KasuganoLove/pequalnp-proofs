@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-11-25T13:15:12.022182+00:00",
+  "ended_at": "2026-11-25T13:17:37.649328+00:00",
+  "elapsed_seconds": 145.62719580200064,
+  "exit_code": 137,
+  "timeout": false,
+  "source_sha256": "8594b4c63029520fca331029135bb7b19a0d0b8978de41c49ff2eb6462104ec8",
+  "phase": "ordinary full Lean; no external strict checker"
+}

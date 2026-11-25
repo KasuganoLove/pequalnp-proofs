@@ -1,0 +1,66 @@
+{
+  "source_sha256": "0e4acd206ab9380e2e1ef6845615e3ea5aa9d62dcccab1491b938a0534f88add",
+  "task": "L-meta-10487",
+  "checked_truth_assignments": 128,
+  "positive_assignments": 114,
+  "negative_assignments": 14,
+  "positive_negative_pairs": 1596,
+  "negative_assignments_literal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    12,
+    16,
+    32,
+    48,
+    64,
+    96
+  ],
+  "positive_mask": "fffffffefffffffefffefffefffeeca0",
+  "canonical_goal": "0000000100000001000100010001135f",
+  "all_seven_inputs_essential_witnesses": [
+    {
+      "input": 0,
+      "assignment": 4,
+      "flipped_assignment": 5
+    },
+    {
+      "input": 1,
+      "assignment": 8,
+      "flipped_assignment": 10
+    },
+    {
+      "input": 2,
+      "assignment": 1,
+      "flipped_assignment": 5
+    },
+    {
+      "input": 3,
+      "assignment": 2,
+      "flipped_assignment": 10
+    },
+    {
+      "input": 4,
+      "assignment": 1,
+      "flipped_assignment": 17
+    },
+    {
+      "input": 5,
+      "assignment": 1,
+      "flipped_assignment": 33
+    },
+    {
+      "input": 6,
+      "assignment": 1,
+      "flipped_assignment": 65
+    }
+  ],
+  "reported_masks_and_counts_match": true,
+  "solver_rerun": false,
+  "formal_proof": false
+}

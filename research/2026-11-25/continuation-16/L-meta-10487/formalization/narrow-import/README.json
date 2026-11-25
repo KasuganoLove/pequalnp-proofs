@@ -1,0 +1,12 @@
+{
+  "change": "Replace import Mathlib with import Mathlib.Tactic; no other source change",
+  "source_sha256": "1b1e674663ab05668a9a8286629dbdce3c426f226a630ff939d1a0b738e9c604",
+  "record": "../narrow-rebuild-results.json",
+  "ordinary_modules_passed": [
+    "Pnp10486LiteralCore",
+    "Pnp10486SplitCore",
+    "Pnp10486FiniteBridge"
+  ],
+  "strict_checker": false,
+  "numerical_branch_evaluation": false
+}

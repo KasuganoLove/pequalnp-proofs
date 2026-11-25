@@ -1,0 +1,20 @@
+{
+  "candidate_gate_count": 12,
+  "candidate": {
+    "checked_inputs": 128,
+    "false_positives": [],
+    "false_negatives": [
+      66,
+      98
+    ],
+    "is_correct": false
+  },
+  "control_gate_count": 13,
+  "control": {
+    "checked_inputs": 128,
+    "false_positives": [],
+    "false_negatives": [],
+    "is_correct": true
+  },
+  "scope": "Ordinary exhaustive evaluation of the returned12-gate heuristic candidate and13-gate control; no lower-bound certificate"
+}

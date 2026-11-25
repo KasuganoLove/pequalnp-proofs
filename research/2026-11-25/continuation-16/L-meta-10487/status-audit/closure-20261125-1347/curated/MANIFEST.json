@@ -1,0 +1,49 @@
+{
+  "scope": "Official10486 closure and attribution;10487 withdrawn. No own new proof or submission.",
+  "files": [
+    {
+      "path": "PR14954-metadata.json",
+      "bytes": 1139,
+      "sha256": "792ebeecff89a523ebb22352fdb7be17641226bbeb5e4b8c9d930c4109400ba0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2220,
+      "sha256": "baa67bfb305d9294c26ea3b8f37afafb904a66e6f027d92ceaed5d0f77d3b513"
+    },
+    {
+      "path": "closure-status.json",
+      "bytes": 1339,
+      "sha256": "2dd51909b1caac511a842bd093de1180b80280ce7448a6351e373494a7f57f50"
+    },
+    {
+      "path": "desk-selected.json",
+      "bytes": 1158,
+      "sha256": "812f53d795f0c3bc3f045585373975ecf2fd37b1c9d109d082c221e58cd62508"
+    },
+    {
+      "path": "search-summary.json",
+      "bytes": 584,
+      "sha256": "ad55fe8481e21595f09f0e32c313f175675f9efc2d7a75618833900204ab0268"
+    },
+    {
+      "path": "source-metadata.json",
+      "bytes": 484,
+      "sha256": "e2c14866a12db408fd85c824ddbb6a51da335be792d2f56eb8feae58c60a265f"
+    },
+    {
+      "path": "source-method.md",
+      "bytes": 3616,
+      "sha256": "a6e1ced8277553b5c8a748fe4b9e7b77f564b310471093e655eabfacae52f019"
+    }
+  ],
+  "payload_bytes": 10540,
+  "excluded": [
+    "full third-party Lean source",
+    "full desk response",
+    "PR body",
+    "lease identifiers",
+    "personal profile data",
+    "build outputs"
+  ]
+}

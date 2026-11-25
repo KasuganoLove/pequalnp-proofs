@@ -1,0 +1,8 @@
+{
+  "started_at": "2026-11-25T13:09:00.500892+00:00",
+  "ended_at": "2026-11-25T13:10:00.518147+00:00",
+  "elapsed_seconds": 60.01730185100314,
+  "exit_code": -15,
+  "timeout": true,
+  "purpose": "Exploratory compiled evaluation of the literal Lean search, not a kernel proof"
+}

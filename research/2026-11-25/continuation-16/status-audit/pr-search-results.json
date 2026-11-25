@@ -1,0 +1,29 @@
+{
+  "scope": "Exact task-ID public GitHub PR searches; absence of hits is time-specific.",
+  "queries": [
+    {
+      "task": "L-meta-10487",
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-10487\"",
+      "results": [],
+      "read_completed_before": "2026-11-25T12:59:49.505663Z"
+    },
+    {
+      "task": "L-meta-10486",
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-10486\"",
+      "results": [],
+      "read_completed_before": "2026-11-25T12:59:49.505663Z"
+    },
+    {
+      "task": "L-meta-10696",
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-10696\"",
+      "results": [],
+      "read_completed_before": "2026-11-25T12:59:49.505663Z"
+    },
+    {
+      "task": "L-meta-10697",
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-10697\"",
+      "results": [],
+      "read_completed_before": "2026-11-25T12:59:49.505663Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "Exact task-ID GitHub PR searches during the13:47UTC read-only closure audit",
+  "queries": [
+    {
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-10486\"",
+      "matches": [
+        {
+          "title": "L-meta-10486",
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/14954"
+        }
+      ]
+    },
+    {
+      "query": "repo:open-goat/pequalnp-proofs \"L-meta-10487\"",
+      "matches": []
+    }
+  ],
+  "limitations": "Search indexing can lag; authoritative closure evidence is the selected official desk record and merged PR metadata."
+}

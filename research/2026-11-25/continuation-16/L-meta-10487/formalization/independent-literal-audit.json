@@ -1,0 +1,39 @@
+{
+  "reviewed_at": "2026-11-25T13:18:06.924562+00:00",
+  "candidate_file": "L_meta_10486.literal.lean",
+  "candidate_bytes": 37923,
+  "candidate_sha256": "8594b4c63029520fca331029135bb7b19a0d0b8978de41c49ff2eb6462104ec8",
+  "posted_statement_file_sha256": "38b94667fa0cf4723b9295faf20e64afe6d42c02da75a8ea79859670ee22722f",
+  "statement_text_sha256": "d5975fb801d7798de99550a1dfecd2cc4b67addef55892ca665243c496bd84fa",
+  "candidate_type_exactly_equals_posted_text_after_terminal_newline_strip": true,
+  "reference_source_sha256": "f0ea1c9ca867450a030a85e2152c13be57db5b8f1f7ed96c891c06afe3edd876",
+  "generic_framework_identical_after_namespace_and_bitwidth_replacements": true,
+  "bound_from_search_identical_after_domain_and_budget_replacements": true,
+  "samples": {
+    "raw_inputs": 7,
+    "bit_width": 3192,
+    "positive_assignments": 114,
+    "negative_assignments": 14,
+    "cross_pairs": 1596,
+    "distinct_pairs": 1596,
+    "entire_cartesian_product_present": true,
+    "low_half": "positive rows",
+    "high_half": "negative rows",
+    "all3192_sample_bits_satisfy_F_eq_complement_goal": true
+  },
+  "control": {
+    "gate_count": 12,
+    "output": 18,
+    "not_gates": 0,
+    "all_gates_strict_binary_earlier_reads": true,
+    "all128_assignments_correct": true,
+    "identical_to_frozen_baseline12": true
+  },
+  "count_logic": "If any NOT occurs, binaryCost<length and10<binaryCost imply12<=length; use12-gate control. Otherwise return original circuit. At-most-one-NOT premise is unused, which strengthens the result.",
+  "imports": [
+    "Mathlib",
+    "PEqualNP.Defs"
+  ],
+  "no_sorry_admit_axiom_unsafe_or_native_decide_observed": true,
+  "validation_scope": "Read-only source/data/type-text review; no Lean or strict checker run by this reviewer; kernel reject remains parent-owned."
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "Independent finite data and source-delta review only; no recursive search, Lean run, or formal certificate",
+  "problem_sha256": "54355a11c62602397b0cd34e448f1abb66fde271690b53b6ecb08fd851155fe2",
+  "optimized_source_sha256": "574dc011af8ccf43206c6d6c7df3fc48adafe93bdbcacdb6efafb81d351f130a",
+  "script_sha256": "f108c36794183bb72ec2771ae1a0776b9744f6dc8189fa83bb5eb936591e2874",
+  "edges_exactly_equal_full128_frozen_problem": true,
+  "positive_samples_are_exactly_all15_edge_assignments": true,
+  "negative_samples_are_exactly_all14_full_target_negatives": true,
+  "all29_assignments_distinct_and_correctly_labelled": true,
+  "raw29_masks_match": true,
+  "complement_mask": 536870911,
+  "canonical_raw_functions_pairwise_distinct": true,
+  "all7_raw_inputs_have_verified_one_bit_essentiality_witness": true,
+  "only_full_initial_sublist_separates": [
+    127
+  ],
+  "paired_lean_width": 420,
+  "cross_pairs": 210,
+  "pair_order": "positive-major Cartesian product, both input lists ascending",
+  "orientation": "low210 bits positive, high210 bits negative; F(sample)=complement(goal)",
+  "rows420_hex": [
+    "0x022808a022808a022808a022808a022808a022808a022808a022800000000000003fff00000000003fff00000000003fff0003fff",
+    "0x00b002c00b002c00b002c00b002c00b002c00b002c00b002c00b00000000000fffc0000000000fffc0000000000fffc000fffc000",
+    "0x04c013004c013004c013004c013004c013004c013004c013004c00000003fff00000000003fff00000000003fff00000000003fff",
+    "0x07001c007001c007001c007001c007001c007001c007001c00700000fffc0000000000fffc0000000000fffc0000000000fffc000",
+    "0x2800a002800a002800a002800a002800a002800a002800a002803fff0000000000000000000000000000ffffffffffffff0000000",
+    "0xb002c00b002c00b002c00b002c00b002c00b002c00b002c00b00000000000000000000ffffffffffffff000000000000000000000",
+    "0xc003000c003000c003000c003000c003000c003000c003000c003fffffffffffffffff00000000000000000000000000000000000"
+  ],
+  "all420_sample_bits_verified": true,
+  "literal_first_level_count": 108,
+  "literal_first_level_counts_by_keep": {
+    "both": 84,
+    "a": 12,
+    "b": 12
+  },
+  "all_first_level_guards_match_between29_and420": true,
+  "lower_bound_implication": "Every circuit computing the full128-input target also fits these29 selected samples; excluding circuits on this weaker sample promise excludes full-target circuits. No monotonicity assumption is used.",
+  "limitation": "A circuit fitting only these29 samples need not compute the full target; the implication is used only for exclusion. C++ optimized search correctness is not thereby kernel-certified."
+}

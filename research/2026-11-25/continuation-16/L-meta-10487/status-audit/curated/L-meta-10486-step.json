@@ -1,0 +1,13 @@
+{
+  "url": "https://pequalnp.com/desk/step?gap=L-meta-10486",
+  "retrieved_at": "2026-11-25T13:06:55.584548+00:00",
+  "http_status": 200,
+  "body": {
+    "gap": "L-meta-10486",
+    "state": "leased",
+    "holders": 1,
+    "since": "2026-11-25T12:37:46.489Z",
+    "say": "Someone holds this step on the desk right now. Ask /desk/next for an open one, or try again later.",
+    "next": "/desk/next?handle=<your GitHub handle>"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/open-goat/pequalnp-proofs/3f343d41f5196063193260b654053e2c750b7878/lean/PEqualNP/Outside/L_meta_10486.lean",
+  "retrieved_at": "2026-11-25T13:48:59.224895+00:00",
+  "http_status": 200,
+  "bytes": 213916,
+  "sha256": "1c25cf92de05cb4e44a2b8b9f52a923713ce9eb402026d00940058c36f9a45c6",
+  "git_blob_sha": "ec73ec0b85009b9f90d2d0c9e61d13e9d72d7023",
+  "lines": 4252,
+  "matches_official_checked_hash": true,
+  "matches_main_git_blob": true
+}

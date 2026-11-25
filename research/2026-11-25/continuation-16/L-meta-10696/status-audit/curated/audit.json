@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-11-25T12:49:19.959078+00:00",
+  "task": "L-meta-10696",
+  "negative_twin": "L-meta-10697",
+  "literal_outer_negation_match": true,
+  "allocated_statement_matches_public_snapshot": true,
+  "public_snapshot_updated_at": "2026-11-25T12:39:08.329Z",
+  "exact_pr_searches": {
+    "L-meta-10696": [],
+    "L-meta-10697": []
+  },
+  "reusable_complete_proof_found": false,
+  "reference_six_vertex_cases_found": 7,
+  "all_reference_graphs_have_more_than_eight_edges": true,
+  "no_heavy_tests": true,
+  "no_lease_actions": true,
+  "no_remote_mutations": true
+}

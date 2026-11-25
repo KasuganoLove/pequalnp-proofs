@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-11-25T13:54:21.463838+00:00",
+  "scope": "Copy only previously completed artifacts; no new search or Lean job",
+  "manifests": [
+    {
+      "path": "L-meta-10487/constructive/manifest.json",
+      "sha256": "9aaf4e991c904fa586df5cb4d86b8047e3cee3cf040c100065f0ee4406a143f7",
+      "files": 10,
+      "verified": true
+    },
+    {
+      "path": "L-meta-10696/status-audit/curated/MANIFEST.json",
+      "sha256": "79bc8dac99d9c99edcc162d81fccd4ad60aeb8315766667cc18a1b92edaf2804",
+      "files": 4,
+      "verified": true
+    },
+    {
+      "path": "status-audit/MANIFEST.json",
+      "sha256": "15c4d7c17ef4ca6f897618fdfa529ff95e4f5872c72d4b180d0ac05015db3077",
+      "files": 4,
+      "verified": true
+    },
+    {
+      "path": "L-meta-10696/ownership-search/MANIFEST.json",
+      "path_base": "L-meta-10696",
+      "sha256": "544cf37b26d68b62d2118915aecaba671a8ab01681529dc2916c15ea9bf78c42",
+      "files": 9,
+      "verified": true
+    },
+    {
+      "path": "L-meta-10487/signed-probe/MANIFEST.json",
+      "sha256": "b87a0991692f68fb89411f8efa971ccea0544f8a93e72afe997e4ed2e111ef6d",
+      "files": 12,
+      "verified": true
+    },
+    {
+      "path": "L-meta-10487/status-audit/curated/MANIFEST.json",
+      "sha256": "6517a7969cdcc36dc95193a2d1358be16098b5ef903a75090d382bf7ae1ed2de",
+      "files": 7,
+      "verified": true
+    },
+    {
+      "path": "L-meta-10487/edge-signed-probe/MANIFEST.json",
+      "sha256": "f270956a9f8d3a9e00a06a956e401d232c7cc3b31361a3718cd6e98a8b8c133a",
+      "files": 14,
+      "verified": true
+    },
+    {
+      "path": "L-meta-10487/status-audit/closure-20261125-1347/curated/MANIFEST.json",
+      "sha256": "9416da7b29416083d08fc0f1507d824dc4ce081b1ed8589c85c34597201fb0af",
+      "files": 7,
+      "verified": true
+    }
+  ],
+  "pending": []
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "module": "Pnp10486LiteralCore",
+    "source_sha256": "1b1e674663ab05668a9a8286629dbdce3c426f226a630ff939d1a0b738e9c604",
+    "source_bytes": 32276,
+    "start_utc": "2026-11-25T13:32:22.985871+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-j1",
+      "-o",
+      "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/.lake/build/lib/lean/Pnp10486LiteralCore.olean",
+      "Pnp10486LiteralCore.lean"
+    ],
+    "strict_checker": false,
+    "numerical_branch_search": false,
+    "exit_code": 0,
+    "wall_seconds": 20.252344601001823,
+    "user_seconds": 10.005462,
+    "system_seconds": 2.88748,
+    "maximum_resident_set_size_kib": 3881168,
+    "end_utc": "2026-11-25T13:32:43.238273+00:00",
+    "log_empty": false,
+    "olean_sha256": "89776fb3ea31ee833b61f9da841a5aaf88973206d92a41066abfd4a7f0ab1801",
+    "olean_bytes": 1821560
+  },
+  {
+    "module": "Pnp10486SplitCore",
+    "source_sha256": "2a56c41c0af70d88c29cc2227ed9552514b8aaf9610366e2c42a8331dc42b379",
+    "source_bytes": 3014,
+    "start_utc": "2026-11-25T13:32:43.242287+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-j1",
+      "-o",
+      "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/.lake/build/lib/lean/Pnp10486SplitCore.olean",
+      "Pnp10486SplitCore.lean"
+    ],
+    "strict_checker": false,
+    "numerical_branch_search": false,
+    "exit_code": 0,
+    "wall_seconds": 3.1765156259934884,
+    "user_seconds": 2.122473,
+    "system_seconds": 1.043369,
+    "maximum_resident_set_size_kib": 3531096,
+    "end_utc": "2026-11-25T13:32:46.418859+00:00",
+    "log_empty": true,
+    "olean_sha256": "55ab608ee8d8c82eca4b20fe8faa000170f9cd9ac8e963c2fc7d91f58efca1ea",
+    "olean_bytes": 143480
+  },
+  {
+    "module": "Pnp10486FiniteBridge",
+    "source_sha256": "2d97d779f5f7d69835a52c0cbbdca2571e2ffedfe9d9d1a78cb6745095aa47d5",
+    "source_bytes": 1339,
+    "start_utc": "2026-11-25T13:32:46.419581+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "-j1",
+      "-o",
+      "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/.lake/build/lib/lean/Pnp10486FiniteBridge.olean",
+      "Pnp10486FiniteBridge.lean"
+    ],
+    "strict_checker": false,
+    "numerical_branch_search": false,
+    "exit_code": 0,
+    "wall_seconds": 2.8896834710030816,
+    "user_seconds": 2.110368,
+    "system_seconds": 0.7695639999999999,
+    "maximum_resident_set_size_kib": 3529380,
+    "end_utc": "2026-11-25T13:32:49.309286+00:00",
+    "log_empty": true,
+    "olean_sha256": "4d4aa8c4993b443c53fb9471e41c06b5110288d98bea98e5bdc363496f9324b7",
+    "olean_bytes": 32472
+  }
+]

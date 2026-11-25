@@ -1,0 +1,62 @@
+{
+  "task": "L-meta-10487",
+  "scope": "One11-gate at-most-one-NOT synthesis run UNKNOWN; verified12-gate monotone control; no target proof",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3949,
+      "sha256": "c25ef581126a64165624dde8c780853bf3af08dca6ccc2f865d19ae1ee3213ff"
+    },
+    {
+      "path": "synthesize11.py",
+      "bytes": 7671,
+      "sha256": "5800dc77c01515d516e6668a20cd4012b3e677f84b38475139f34e93f06750ff"
+    },
+    {
+      "path": "audit_encoding.py",
+      "bytes": 3468,
+      "sha256": "5a797b21b75c274889f80eaf0672e22d9af00427b926f310fb793f000665c57e"
+    },
+    {
+      "path": "problem.json",
+      "bytes": 954,
+      "sha256": "ade76c474a79ed82bd05de5e2684e40cf476cb80e6ab7dff3f655fcd1dbc406e"
+    },
+    {
+      "path": "baseline12.json",
+      "bytes": 1060,
+      "sha256": "e6a9ba4bb469e4c7ed376363e82358ed318359781964cfbd67fc9591b998fb67"
+    },
+    {
+      "path": "encoding-audit.json",
+      "bytes": 315,
+      "sha256": "71277be3deafb01fa0b5978c83d3cec6842b94d388e4ecbcc718cd3cdd651e63"
+    },
+    {
+      "path": "encoding-summary.json",
+      "bytes": 346,
+      "sha256": "61fb8b38414015d0c3848b76a201b34a730dbf026f29c99a48889e0dbcf609e1"
+    },
+    {
+      "path": "result.json",
+      "bytes": 387,
+      "sha256": "2378c436f8b6f6b0eb7df6001e13e49b98f3ad2db6eecdbda81771ec782c128c"
+    },
+    {
+      "path": "solver.log",
+      "bytes": 29339,
+      "sha256": "6b0d637373c44cbf3fc344930dce8221752e51bdee592a2017015833f6fb1a0d"
+    },
+    {
+      "path": "run.log",
+      "bytes": 661,
+      "sha256": "6cb594da27f25b75265fe837267b960aca27325f931edfcc132ad39ad316364b"
+    }
+  ],
+  "excluded_regenerable": [
+    "formula.cnf",
+    "encoding.json"
+  ],
+  "no_new_lean_or_strict_check": true,
+  "no_remote_or_lease_mutations": true
+}

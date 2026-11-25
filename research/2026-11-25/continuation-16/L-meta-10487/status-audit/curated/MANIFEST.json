@@ -1,0 +1,48 @@
+{
+  "scope": "Public read-only 10486/10487 protocol audit",
+  "files": [
+    {
+      "path": "L-meta-10486-step.json",
+      "bytes": 431,
+      "sha256": "8be8641b51643f72c3209cffe2fc7efc15b6ef430384e9dfe84dc921b2021df1"
+    },
+    {
+      "path": "L-meta-10486.gap.json",
+      "bytes": 3002,
+      "sha256": "c128c5ccb57da0aeaabec6ef7a3bd03be64d1440b35115930dee3fa19805ca48"
+    },
+    {
+      "path": "L-meta-10486.statement.txt",
+      "bytes": 1764,
+      "sha256": "38b94667fa0cf4723b9295faf20e64afe6d42c02da75a8ea79859670ee22722f"
+    },
+    {
+      "path": "L-meta-10487.gap.json",
+      "bytes": 2616,
+      "sha256": "31c141f72b70f7323c03f53a74e02d68320b8156ce76d0485a12436847bd13c4"
+    },
+    {
+      "path": "L-meta-10487.statement.txt",
+      "bytes": 1769,
+      "sha256": "1bc162922d60cb1d202655947764046f17e90918e6f271800db570dc5625d16d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3346,
+      "sha256": "8c5b37c00bd7e94df4ee3d164f10479fdb8d4251411a5283558c5e78f5ae9796"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 4406,
+      "sha256": "de0a3209e0dd71668a498c518066c019e0bba6a19fe9d43b24b495ae6f482924"
+    }
+  ],
+  "payload_bytes": 17334,
+  "excluded": [
+    "join-current.reference.txt",
+    "CONTRIBUTING.reference.md",
+    "private leases",
+    "full desk JSON",
+    "third-party proof sources"
+  ]
+}

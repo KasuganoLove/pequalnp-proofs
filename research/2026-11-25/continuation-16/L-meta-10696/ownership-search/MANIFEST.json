@@ -1,0 +1,58 @@
+{
+  "task": "L-meta-10696",
+  "scope": "bounded research; no complete theorem or valid shorter circuit",
+  "frozen_at": "2026-11-25T13:09:42.424741+00:00",
+  "files": [
+    {
+      "path": "ownership-search/README.md",
+      "bytes": 4857,
+      "sha256": "a2c2f81e7783e9b00ad5bbedb858d7bc141cfc65931f66e337bad0f15843cfc0"
+    },
+    {
+      "path": "ownership-search/search12.cpp",
+      "bytes": 2479,
+      "sha256": "d99382612c8676acc9247301422a24082c685ee7b53df02d27ca66b0d5471ac4"
+    },
+    {
+      "path": "ownership-search/search-result.json",
+      "bytes": 290,
+      "sha256": "4bfe5dae0bb25700272757ffab5a25e05ff6ab7154e500f93ad773db3eaf128c"
+    },
+    {
+      "path": "ownership-search/search.log",
+      "bytes": 454,
+      "sha256": "1e6a77b038d433f14b0d6d76892bc7b31aa66c49e1d4c94e8359afac190b382b"
+    },
+    {
+      "path": "ownership-search/verify.py",
+      "bytes": 1446,
+      "sha256": "50ce4831031acf6700548fd509704525901d1b8ca4d8027df5190cfcbda5f7fd"
+    },
+    {
+      "path": "ownership-search/validation.json",
+      "bytes": 471,
+      "sha256": "eaae010932c1093539d6f72883ef7b4ae581751d06805e9b813262ed310bd24a"
+    },
+    {
+      "path": "signed-probe/result.json",
+      "bytes": 560,
+      "sha256": "5d969d8ec052ed239f2fdcd3f929af0945b2e858d7b7113faa3f2476113b9317"
+    },
+    {
+      "path": "signed-probe/run.json",
+      "bytes": 365,
+      "sha256": "ec75414fc10b30e26edaaec123dbe7dbd3af929b06649bf8ff21fad540882b51"
+    },
+    {
+      "path": "signed-probe/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "shared_probe_source": "../L-meta-10487/signed-probe/probe.cpp",
+  "excluded": [
+    "compiled binaries",
+    "parent SAT CNF and duplicate parent artifacts",
+    "third-party Lean source"
+  ]
+}

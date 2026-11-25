@@ -1,0 +1,106 @@
+{
+  "scope": "Exactly one further dispatch level for first-level indices73,76,83,85; no full search or Lean run",
+  "first_level_source_sha256": "8594b4c63029520fca331029135bb7b19a0d0b8978de41c49ff2eb6462104ec8",
+  "frozen_first_level_json_sha256": "ec0dce271bc98f74e13ea0f6077f9df37c34507641009da1f17b185b539a84a2",
+  "first_level_artifact_unchanged": true,
+  "script_file": "independent-second-level.py",
+  "script_sha256": "a96910c09384735c32ec7d13213a33d4ba942c0ee7f3015dde25ef2c2bd72d68",
+  "order": "existing recursive pairs, then[a&b,a|b,a&~b,b&~a], then keep[none,a,b,both]",
+  "optimizations": "none beyond the exact existing dispatch guards",
+  "sample_pairs": 1596,
+  "sample_orientation": "low half114positive inputs times high half14negative inputs",
+  "total_candidates": 1344,
+  "total_valid_children_with_multiplicity": 386,
+  "parents": [
+    {
+      "first_child_index": 73,
+      "candidate_branches": 336,
+      "valid_children": 100,
+      "rejected_by_separation": 236,
+      "counts_by_keep": {
+        "a": 2,
+        "both": 84,
+        "b": 14
+      },
+      "counts_by_operator": {
+        "a_and_b": 23,
+        "a_or_b": 27,
+        "a_and_not_b": 28,
+        "b_and_not_a": 22
+      },
+      "all_child_room_equal_budget_plus_one": true,
+      "independent_all128_separation_checks_agree": true,
+      "output_file": "independent-second-level-73.json",
+      "output_bytes": 37785,
+      "output_sha256": "ec5615bd371dc3ccc0fcd839df6ddb8cf593d87b6298d2e8e23d54b8d3384265"
+    },
+    {
+      "first_child_index": 76,
+      "candidate_branches": 336,
+      "valid_children": 93,
+      "rejected_by_separation": 243,
+      "counts_by_keep": {
+        "both": 84,
+        "a": 4,
+        "b": 4,
+        "none": 1
+      },
+      "counts_by_operator": {
+        "a_and_b": 21,
+        "a_or_b": 26,
+        "a_and_not_b": 23,
+        "b_and_not_a": 23
+      },
+      "all_child_room_equal_budget_plus_one": true,
+      "independent_all128_separation_checks_agree": true,
+      "output_file": "independent-second-level-76.json",
+      "output_bytes": 35285,
+      "output_sha256": "df7ae77f1bd5f7d0858769fe7a9184aa08309dbca34a8c14d2dcd0407c3116af"
+    },
+    {
+      "first_child_index": 83,
+      "candidate_branches": 336,
+      "valid_children": 100,
+      "rejected_by_separation": 236,
+      "counts_by_keep": {
+        "a": 2,
+        "both": 84,
+        "b": 14
+      },
+      "counts_by_operator": {
+        "a_and_b": 23,
+        "a_or_b": 27,
+        "a_and_not_b": 28,
+        "b_and_not_a": 22
+      },
+      "all_child_room_equal_budget_plus_one": true,
+      "independent_all128_separation_checks_agree": true,
+      "output_file": "independent-second-level-83.json",
+      "output_bytes": 37785,
+      "output_sha256": "fec01bb0feb67cde41b433768d9f424a185421f51a428a95bb678579d99759ac"
+    },
+    {
+      "first_child_index": 85,
+      "candidate_branches": 336,
+      "valid_children": 93,
+      "rejected_by_separation": 243,
+      "counts_by_keep": {
+        "both": 84,
+        "a": 4,
+        "b": 4,
+        "none": 1
+      },
+      "counts_by_operator": {
+        "a_and_b": 21,
+        "a_or_b": 26,
+        "a_and_not_b": 23,
+        "b_and_not_a": 23
+      },
+      "all_child_room_equal_budget_plus_one": true,
+      "independent_all128_separation_checks_agree": true,
+      "output_file": "independent-second-level-85.json",
+      "output_bytes": 35285,
+      "output_sha256": "7a00e71a5103b4de522ed50175e6e5712037188830e8fef8477f93cc2b0a93ca"
+    }
+  ]
+}

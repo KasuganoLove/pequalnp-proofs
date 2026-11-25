@@ -1,0 +1,84 @@
+{
+  "task": "L-meta-10487",
+  "positive_twin": "L-meta-10486",
+  "paths_relative_to": "edge-signed-probe",
+  "scope": "Ordinary29-sample search: optimized exhausted, literal timed out UNKNOWN; no formal certificate",
+  "excluded": [
+    "probe",
+    "literal-probe",
+    "reproduction/"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4820,
+      "sha256": "b93efa4d390e204432010ba01fae8b036234d84affc364a007a4d7bc08f33e14"
+    },
+    {
+      "path": "probe.cpp",
+      "bytes": 5886,
+      "sha256": "574dc011af8ccf43206c6d6c7df3fc48adafe93bdbcacdb6efafb81d351f130a"
+    },
+    {
+      "path": "literal-probe.cpp",
+      "bytes": 3786,
+      "sha256": "29061221b46964727098f25b2b56fb68f7bbb21f2d3a1fa9267450015c520751"
+    },
+    {
+      "path": "run.py",
+      "bytes": 1701,
+      "sha256": "b66406a933c6e3b6ac7c6e3e00dc4c61593a54bafff45ea9b44d68eb2ff93a00"
+    },
+    {
+      "path": "problem.json",
+      "bytes": 1875,
+      "sha256": "54355a11c62602397b0cd34e448f1abb66fde271690b53b6ecb08fd851155fe2"
+    },
+    {
+      "path": "optimized-result.json",
+      "bytes": 585,
+      "sha256": "0eba4797f90f40fff816769bd2e6ef50e201211f8512ee5124a84147e69fe464"
+    },
+    {
+      "path": "optimized-run.json",
+      "bytes": 587,
+      "sha256": "ecd01a786df19ddca53e3d5563a279098db75a65a51a208de0fdd0e81d99248b"
+    },
+    {
+      "path": "optimized-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "literal-result.json",
+      "bytes": 471,
+      "sha256": "eb91715f8bc7477d8f4f112145c11ff55ad0dae44d5050e737b9fff66f5f7514"
+    },
+    {
+      "path": "literal-run.json",
+      "bytes": 587,
+      "sha256": "7e36c5df27d3793e34dd388aa997e6bff8cc338f7c303c54764d50a05f13e19f"
+    },
+    {
+      "path": "literal-stderr.log",
+      "bytes": 425,
+      "sha256": "bbf98d0e0b13cb27f3b8203be0fdc273bf64aa580f6672fa9c38292647a8aaf6"
+    },
+    {
+      "path": "independent-sample-audit.py",
+      "bytes": 7301,
+      "sha256": "f108c36794183bb72ec2771ae1a0776b9744f6dc8189fa83bb5eb936591e2874"
+    },
+    {
+      "path": "independent-sample-audit.json",
+      "bytes": 2587,
+      "sha256": "620c7eee6982ab56072315eebc33d23ea2b484ef334bbe1a2fc19e7307a2d3d8"
+    },
+    {
+      "path": "independent-first-level-420.json",
+      "bytes": 30852,
+      "sha256": "a336d4cc1f452b0cf4bf17d041fce2e3f7675e5e9b97ff3e36b52412b1ed70df"
+    }
+  ],
+  "total_bytes": 61463
+}

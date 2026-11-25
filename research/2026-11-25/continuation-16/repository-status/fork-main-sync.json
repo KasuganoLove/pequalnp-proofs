@@ -1,0 +1,14 @@
+{
+  "performed_at_utc": "2026-11-25T13:02:16Z",
+  "repository": "KasuganoLove/pequalnp-proofs",
+  "branch": "main",
+  "previous_head": "2e67c7c8499e2e12d39c1f31c085c0e4e94b0391",
+  "new_head": "1fc91c4a3a59d36d4c1490dcd945a5449ead499f",
+  "compare_status": "ahead",
+  "ahead_by": 3193,
+  "behind_by": 0,
+  "force": false,
+  "expected_previous_sha_checked": true,
+  "remote_ref_readback_matches": true,
+  "scope": "Fast-forward through the official merge of PR14022; not a claim to include later upstream changes."
+}

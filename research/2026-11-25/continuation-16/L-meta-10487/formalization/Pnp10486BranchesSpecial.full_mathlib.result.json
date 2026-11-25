@@ -1,0 +1,11 @@
+{
+  "module": "Pnp10486BranchesSpecial",
+  "started_at": "2026-11-25T13:28:42.965535+00:00",
+  "ended_at": "2026-11-25T13:30:34.731534+00:00",
+  "elapsed_seconds": 111.76602777399967,
+  "exit_code": 137,
+  "stop_reason": null,
+  "max_rss_kib": 6789780,
+  "source_sha256": "90ee8d20401176c9ff10d640460dd1d8e028f41951a8466a0fa8b023f0d762f4",
+  "scope": "Ordinary Lean kernel checking of this module; not external strict checker"
+}

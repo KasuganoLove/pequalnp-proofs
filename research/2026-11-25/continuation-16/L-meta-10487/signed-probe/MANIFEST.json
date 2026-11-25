@@ -1,0 +1,74 @@
+{
+  "task": "L-meta-10487",
+  "positive_twin": "L-meta-10486",
+  "scope": "Frozen ordinary signed-search evidence; no formal lower-bound certificate or official verdict claimed",
+  "paths_relative_to": "signed-probe",
+  "excluded": [
+    "probe",
+    "literal-probe",
+    "reproduction/"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5850,
+      "sha256": "0306fa7a641a2b7782a71f6be7c701c71fcaafd2ef60594ba48188731bbff481"
+    },
+    {
+      "path": "probe.cpp",
+      "bytes": 5010,
+      "sha256": "0e4acd206ab9380e2e1ef6845615e3ea5aa9d62dcccab1491b938a0534f88add"
+    },
+    {
+      "path": "literal-probe.cpp",
+      "bytes": 3049,
+      "sha256": "48f175e2a84f94d1b02e25df8efab92a3239acf396dc62bcbdd0eca7229cc60a"
+    },
+    {
+      "path": "run.py",
+      "bytes": 1189,
+      "sha256": "4927039592035cfceca350edbfe1baa701ae040fd1ed6594533d6685a2f20fdb"
+    },
+    {
+      "path": "problem.json",
+      "bytes": 634,
+      "sha256": "ea4b6be3f0486aae3ca2c3149623fc6a6d3850f469b6274aca5d51b105767484"
+    },
+    {
+      "path": "run.json",
+      "bytes": 322,
+      "sha256": "d853408d61b1c63de8e839233316856d754b2beaf3df3740fa02cd49ce71cb01"
+    },
+    {
+      "path": "result.json",
+      "bytes": 551,
+      "sha256": "16422c58555346731acfbb90da9606e4d3fbacb937b4e84db2e20ff485a03922"
+    },
+    {
+      "path": "stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "literal-result.json",
+      "bytes": 432,
+      "sha256": "0ee0b71fe4d7e06b0f88d3ded41dc81a4831cbb841a8b4c60b3312589c002fad"
+    },
+    {
+      "path": "literal-progress.log",
+      "bytes": 178,
+      "sha256": "4c6532e8ca59bf03a6bf7f6840fed234ebabe64f22d667cf72a03e5d053a71ac"
+    },
+    {
+      "path": "independent-review.md",
+      "bytes": 6529,
+      "sha256": "12545941d248c4923689067c9a5af7ebb8ccc8af5b4a19fb36ce3ac92bdb6102"
+    },
+    {
+      "path": "independent-data-audit.json",
+      "bytes": 1237,
+      "sha256": "b9656b0b68ebf23dac739b41b0d6a0e90b017bbf236efeffc4d4dc0a23aaa8f3"
+    }
+  ],
+  "total_bytes": 24981
+}

@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-11-25T13:52:16.294835+00:00",
+  "official_positive_task": "L-meta-10486",
+  "official_negative_task": "L-meta-10487",
+  "official_positive_status": "checked and merged",
+  "official_negative_status": "withdrawn because its exact opposite was checked",
+  "official_pr": "https://github.com/open-goat/pequalnp-proofs/pull/14954",
+  "official_pr_author": "odinfree",
+  "official_merge_at_utc": "2026-11-25T13:42:39Z",
+  "official_merge_commit": "3f343d41f5196063193260b654053e2c750b7878",
+  "official_source_sha256": "1c25cf92de05cb4e44a2b8b9f52a923713ce9eb402026d00940058c36f9a45c6",
+  "desk_snapshot_at_utc": "2026-11-25T13:46:40.691Z",
+  "desk_retrieved_at_utc": "2026-11-25T13:47:32.015140+00:00",
+  "last_successful_beat_reported_by_parent_utc": "2026-11-25T13:33:39Z",
+  "closed_beat_reported_by_parent": {
+    "at_utc": "2026-11-25T13:47:03Z",
+    "http_status": 410
+  },
+  "explicit_accepted_comment_observed": false,
+  "comments_observed": 0,
+  "own_work_status": "Superseded before an own official10486/10487 PR; no new research after closure. This audit does not claim that this session proved or submitted the accepted result.",
+  "allowed_remaining_action": "Archive completed work and read the accepted proof for future reference; do not attempt another10486 submission or continue its research."
+}

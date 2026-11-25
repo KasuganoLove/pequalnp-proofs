@@ -1,0 +1,93 @@
+{
+  "size": 12,
+  "output": 18,
+  "gates": [
+    {
+      "op": "or",
+      "inputs": [
+        0,
+        2
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        1,
+        3
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        4,
+        6
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        7,
+        8
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        9,
+        5
+      ]
+    },
+    {
+      "op": "and",
+      "inputs": [
+        0,
+        2
+      ]
+    },
+    {
+      "op": "and",
+      "inputs": [
+        1,
+        3
+      ]
+    },
+    {
+      "op": "and",
+      "inputs": [
+        4,
+        6
+      ]
+    },
+    {
+      "op": "and",
+      "inputs": [
+        10,
+        11
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        12,
+        13
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        14,
+        15
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        16,
+        17
+      ]
+    }
+  ],
+  "verified_rows": 128,
+  "mismatches": [],
+  "not_count": 0
+}

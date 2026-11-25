@@ -1,0 +1,12 @@
+{
+  "start_utc": "2026-11-25T13:03:53.132613+00:00",
+  "end_utc": "2026-11-25T13:04:53.284441+00:00",
+  "elapsed_wall_seconds": 60.15184019300068,
+  "exit_code": 0,
+  "address_space_limit_bytes": 1073741824,
+  "maximum_resident_set_size_kib": 121728,
+  "binary_budget": 11,
+  "task": "L-meta-10696",
+  "free_NOT_count": "unbounded",
+  "formal_certificate": false
+}

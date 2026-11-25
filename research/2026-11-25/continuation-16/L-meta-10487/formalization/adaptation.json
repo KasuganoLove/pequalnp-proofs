@@ -1,0 +1,12 @@
+{
+  "reference": "pnp-session-2026-11-25/continuation-12/L-meta-10696/status-audit/L_meta_9539.reference.lean",
+  "reference_sha256": "f0ea1c9ca867450a030a85e2152c13be57db5b8f1f7ed96c891c06afe3edd876",
+  "literal_source_sha256": "8594b4c63029520fca331029135bb7b19a0d0b8978de41c49ff2eb6462104ec8",
+  "positive_rows": 114,
+  "negative_rows": 14,
+  "separation_pairs": 1596,
+  "bit_width": 3192,
+  "binary_search_budget": 10,
+  "baseline_gates": 12,
+  "scope": "Candidate exact literal checker specialization; not yet Lean checked."
+}

@@ -1,0 +1,16 @@
+{
+  "mode": "literal",
+  "source_sha256": "29061221b46964727098f25b2b56fb68f7bbb21f2d3a1fa9267450015c520751",
+  "problem_sha256": "54355a11c62602397b0cd34e448f1abb66fde271690b53b6ecb08fd851155fe2",
+  "start_utc": "2026-11-25T13:41:30.211414+00:00",
+  "end_utc": "2026-11-25T13:42:30.226586+00:00",
+  "elapsed_wall_seconds": 60.015181973001745,
+  "exit_code": 0,
+  "maximum_resident_set_size_kib": 172952,
+  "address_space_limit_bytes": 1073741824,
+  "task": "L-meta-10487",
+  "binary_budget": 10,
+  "free_NOTs": "unbounded",
+  "sample_domain_only": true,
+  "formal_certificate": false
+}

@@ -1,0 +1,4 @@
+Pnp10486LiteralCore.lean:202:2: warning: exponent 1596 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+Pnp10486LiteralCore.lean:379:4: warning: exponent 3192 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+Pnp10486LiteralCore.lean:468:47: warning: exponent 3192 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+Pnp10486LiteralCore.lean:491:28: warning: exponent 3192 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold

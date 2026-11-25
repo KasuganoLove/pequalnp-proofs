@@ -1,0 +1,19 @@
+{
+  "scope": "Generic one-step decomposition of the unchanged L9539 signed search; no numerical rejection run",
+  "ordinary_lean_exit": 0,
+  "ordinary_log_empty": true,
+  "source_sha256": "2a56c41c0af70d88c29cc2227ed9552514b8aaf9610366e2c42a8331dc42b379",
+  "source_bytes": 3014,
+  "import": "Pnp10486LiteralCore",
+  "core_sha256": "e4f8c99f5c0a7e307ecbe71f0315a78fefcdfe5e9b92a0a7187f415ad97e30c8",
+  "olean_relative_to_lean": ".lake/build/lib/lean/Pnp10486SplitCore.olean",
+  "new_types_or_instances": false,
+  "strict_checker_run": false,
+  "lemmas": [
+    "guardedChildren_any",
+    "dispatch_eq_children_any",
+    "optimized_succ_children",
+    "optimized_succ_false",
+    "search_false_of_full"
+  ]
+}

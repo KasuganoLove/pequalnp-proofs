@@ -1,0 +1,9 @@
+{
+  "operator_truth_cases": 40,
+  "internal_cnf_clauses_replayed": 64493,
+  "maximum_one_not_pair_clauses_checked": 55,
+  "target_rows_checked": 128,
+  "baseline12_rows_checked": 128,
+  "baseline12_mismatches": [],
+  "scope": "Independent Python sanity checks; no full task proof or formal synthesis certificate"
+}

@@ -1,0 +1,18 @@
+{
+  "inputs": 7,
+  "gates": 12,
+  "rows": 128,
+  "ops": [
+    "and",
+    "or",
+    "not",
+    "false",
+    "true"
+  ],
+  "variables": 4968,
+  "clauses": 73808,
+  "cnf_bytes": 1229129,
+  "cnf_sha256": "1e645847a99f160eae715599003240f23932f9191c5c8efa96833a2ea910789e",
+  "wire_order": "raw 0..6; gates 7..18; output18",
+  "maximum_not_gates": 1
+}

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-11-25T12:49:19.959483+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3962,
+      "sha256": "ee8daa414b4d16c1ef6d97bc4fe671ada1bf95b42534f03b07eb09a08070f7af"
+    },
+    {
+      "path": "selected-rows.json",
+      "bytes": 6095,
+      "sha256": "982034158e61df8cc3297d27a7a7a7284823593b39eacb09cee671f7531be033"
+    },
+    {
+      "path": "reference-summary.json",
+      "bytes": 5311,
+      "sha256": "97847fc96231d908fa5bf491b2d52662de970576d3a84774705a5c6c2f13e52a"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 575,
+      "sha256": "d358fdd10a2983c8286ef7d98c7125f5ec20ea669c258e74642eb002e05a191c"
+    }
+  ],
+  "payload_bytes": 15943,
+  "excludes": [
+    "Full public desk JSON",
+    "Full copied reference Lean sources",
+    "Private lease data"
+  ],
+  "scope": "Source/status audit only; no new proof or refutation."
+}

@@ -1,0 +1,48 @@
+{
+  "checkpoint": "continuation-16",
+  "archive_frozen": true,
+  "publication_complete": false,
+  "research_base_commit": "fb6dd9c5289a13a597afc39943219f869e8d7c29",
+  "research_base_tree": "f3267b3977c071afd5ee6c28ec531fdbb29c45f8",
+  "root_tasks": [
+    {
+      "id": "L-meta-10696",
+      "root_holds_active_lease": false,
+      "end": "released",
+      "at": "2026-11-25T13:09:30.976498Z",
+      "http_status": 200,
+      "root_full_proof": false
+    },
+    {
+      "id": "L-meta-10487",
+      "root_holds_active_lease": false,
+      "heartbeat_at": "2026-11-25T13:47:03Z",
+      "heartbeat_http_status": 410,
+      "end": "officially withdrawn because exact opposite10486 was checked",
+      "root_full_proof": false
+    }
+  ],
+  "official10486": {
+    "pr": 14954,
+    "author": "odinfree",
+    "merged_at": "2026-11-25T13:42:39Z",
+    "merge_commit": "3f343d41f5196063193260b654053e2c750b7878",
+    "checked_snapshot": "2026-11-25T13:46:40.691Z",
+    "proof_sha256": "1c25cf92de05cb4e44a2b8b9f52a923713ce9eb402026d00940058c36f9a45c6",
+    "explicit_ACCEPTED_comment_observed": false,
+    "created_by_this_root": false
+  },
+  "official14022": {
+    "task": "L-meta-10221",
+    "creator": "User other Codex session, not this root",
+    "status": "merged and checked; evidence in C15"
+  },
+  "fork_main": "1fc91c4a3a59d36d4c1490dcd945a5449ead499f",
+  "root_new_upstream_proof_PR_for_C16_tasks": false,
+  "external_strict_checker_for_C16_candidates": false,
+  "next_task_state": "New root-held L-meta-2384 allocated2026-11-25T13:52:58Z; only coordination metadata, no new-task research in C16",
+  "other_session11030": "unknown and untouched",
+  "no_new_math_search_or_lean_after_410": true,
+  "remote_writes_during_staging": false,
+  "archive_prepared_at": "2026-11-25T13:55:56.905087+00:00"
+}
