@@ -1,0 +1,25 @@
+{
+  "task": "L-meta-3600",
+  "module": "PEqualNP.Outside.R_meta_3600_713",
+  "kind": "reduce",
+  "verification_base": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "proof_bytes": 5956,
+  "proof_sha256": "2551ee87361b5ca98cf5d013014c412ec16ecd7f72c69b3b84fcc687bb35baab",
+  "statement_sha256": "072687300b338516eca7c26338cc5b94e16c5974df9af852da50f4534bd127cb",
+  "checker_exit_code": 0,
+  "checker_result": "ACCEPTED (reduce)",
+  "constants_rechecked": 1667,
+  "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "official_acceptance": false,
+  "submission_status": "Repaired locally; three accepted live reduction routes already occupy the task quota.",
+  "children_characters": [
+    601,
+    1260
+  ]
+}

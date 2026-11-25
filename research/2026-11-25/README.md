@@ -1,5 +1,9 @@
 # 2026-11-25 证明与复核
 
+## 后续进展：第四轮续推
+
+[continuation-4](continuation-4/README.md) 保存了 L-meta-7019 的完整证明和 L-meta-3600 归约的修复。两份文件分别通过本地项目检查器的 check 与 reduce 模式。7019 尚待正常任务台分配后正式提交；3600 的三个活跃归约名额已满，修复作为研究成果保留。最新核对还确认 #7182 已获官方接受并合并，#7168 因其他证明先合并而关闭。
+
 ## L-meta-3233
 
 网页端此前遇到两次退出码 137。桌面端在同一固定上游版本 `048b39bb` 上复核了原提交 `86a9b1c3`，验证器返回 `ACCEPTED (reduce)`、退出码 0，耗时 32.39 秒，重新检查 1,648 项声明。两个子命题的文本与网页端保存的预览逐字节一致。第一条也是已发布的 L-meta-3438，第二条是至多两个 NOT 门情形的下界。正式裁决以现有 [PR #7182](https://github.com/open-goat/pequalnp-proofs/pull/7182) 为准。[本地验证摘要](L-meta-3233/validation.json) · [原生验证器输出](L-meta-3233/CheckLemma-native-reduce.log)

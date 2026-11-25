@@ -1,0 +1,23 @@
+{
+  "task": "L-meta-1031",
+  "full_statement_proved": false,
+  "full_statement_refuted": false,
+  "official_submission": false,
+  "validation": "ordinary pinned Lean 4.36.0 compilation; no project strict checker verdict",
+  "new_files": {
+    "Pnp1031Pruning.lean": {
+      "bytes": 32068,
+      "sha256": "0cfa3a7da9330af3c0d4a7791c2f6b57733df534ca0adb08ddecba9405f3abf9",
+      "ordinary_lean_exit_code": 0,
+      "log": "Pnp1031Pruning.log"
+    },
+    "Pnp1031Normalization.lean": {
+      "bytes": 27016,
+      "sha256": "4a6dc4e5d5f238af6ad139959623d0162523e4d8d0c9db74877bc1197128f9ab",
+      "ordinary_lean_exit_code": 0,
+      "log": "Pnp1031Normalization.log"
+    }
+  },
+  "notes": "README.md",
+  "verification_base": "57164c3618362178843e2ea37bd01613f4037ae2"
+}

@@ -1,0 +1,21 @@
+{
+  "task": "L-meta-7019",
+  "module": "PEqualNP.Outside.L_meta_7019",
+  "kind": "check",
+  "verification_base": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "proof_bytes": 46773,
+  "proof_sha256": "e926822b933987c7fb8897de50cb0f4d8d30201c6da57591a73605bfc8d0ffe7",
+  "statement_sha256": "b7b8a1376a72fa7351f2c902b145688e4477354bc091b4ec6c539542dd2cf0e1",
+  "checker_exit_code": 0,
+  "checker_result": "ACCEPTED (check)",
+  "constants_rechecked": 1834,
+  "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "official_acceptance": false,
+  "submission_status": "Exact posted theorem fully checked locally; awaiting a normal desk allocation before official submission."
+}

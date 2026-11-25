@@ -1,0 +1,208 @@
+{
+  "source_url": "https://data.pequalnp.com/data/desk/gaps.json",
+  "updated_at": "2026-11-25T03:30:45.417Z",
+  "reductions_open": true,
+  "gaps": [
+    {
+      "id": "L-meta-3600",
+      "statement": "∀ (x1 x2 : ℕ) (x3 : Fin x2 → Fin x2 → Prop) [x4 : DecidableRel x3] (x5 : PEqualNP.CircuitLowerBounds.Circuit), (300 : ℕ) ≤ x1 → x2 = x1 ^ (2 : ℕ) + x1 + (1 : ℕ) → (∀ (x8 : Fin x2), Fintype.card { x9 : Fin x2 // x3 x9 x8 } = x1 + (1 : ℕ)) → (∀ (x9 x10 : Fin x2), x9 ≠ x10 → ∃! x12 : Fin x2, x3 x9 x12 ∧ x3 x10 x12) → PEqualNP.MetaComplexity.Monotone2 x5 → x2 + x2 ≤ x5.output → x5.output < x2 + x2 + x5.size → (∃ (x13 : PEqualNP.CircuitLowerBounds.Gate), x5.gates[x5.output - (x2 + x2)]? = Option.some x13 ∧ x13.op = PEqualNP.CircuitLowerBounds.GateOp.or) → (∀ (x14 : ℕ) (x15 : PEqualNP.CircuitLowerBounds.Gate), x5.gates[x14]? = Option.some x15 → ∃ (x17 : ℕ) (x18 : ℕ), x15.inputs = [x17, x18] ∧ x17 < x18 ∧ x18 < x2 + x2 + x14) → (∀ (x15 x16 : Fin x2), x3 x15 x16 → (PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 fun (x18 : Fin (x2 + x2)) => Decidable.decide (x18 = Fin.castAdd x2 x15 ∨ x18 = Fin.natAdd x2 x16)) = Bool.true) → (∀ (x16 : Fin (x2 + x2) → Bool), Fintype.card { x17 : Fin x2 // x16 (Fin.natAdd x2 x17) = Bool.true } ≤ x1 → (¬∃ (x18 : Fin x2) (x19 : Fin x2), x3 x18 x19 ∧ x16 (Fin.castAdd x2 x18) = Bool.true ∧ x16 (Fin.natAdd x2 x19) = Bool.true) → PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 x16 = Bool.false) → x2 * x1 ≤ (100 : ℕ) * x5.size",
+      "file": "lean/PEqualNP/Outside/L_meta_3600.lean",
+      "module": "PEqualNP.Outside.L_meta_3600",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 100,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 4,
+      "reductions": true,
+      "reductions_live": 3,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-4710",
+      "statement": "∀ (x1 x2 : ℕ) (x3 : Fin x2 → Fin x2 → Prop) [x4 : DecidableRel x3] (x5 : PEqualNP.CircuitLowerBounds.Circuit) (x6 : Finset ℕ), (300 : ℕ) ≤ x1 → x2 = x1 ^ (2 : ℕ) + x1 + (1 : ℕ) → (∀ (x9 : Fin x2), Fintype.card { x10 : Fin x2 // x3 x10 x9 } = x1 + (1 : ℕ)) → (∀ (x10 x11 : Fin x2), x10 ≠ x11 → ∃! x13 : Fin x2, x3 x10 x13 ∧ x3 x11 x13) → PEqualNP.MetaComplexity.Monotone2 x5 → x2 + x2 ≤ x5.output → x5.output < x2 + x2 + x5.size → (∃ (x14 : PEqualNP.CircuitLowerBounds.Gate), x5.gates[x5.output - (x2 + x2)]? = Option.some x14 ∧ x14.op = PEqualNP.CircuitLowerBounds.GateOp.or) → (∀ (x15 : ℕ) (x16 : PEqualNP.CircuitLowerBounds.Gate), x5.gates[x15]? = Option.some x16 → ∃ (x18 : ℕ) (x19 : ℕ), x16.inputs = [x18, x19] ∧ x18 < x19 ∧ x19 < x2 + x2 + x15) → (∀ x16 ∈ x6, x16 < x5.size ∧ (PEqualNP.MetaComplexity.NestedCover.gateAt x5 x16).op = PEqualNP.CircuitLowerBounds.GateOp.and) → (∀ (x17 : Fin (x2 + x2) → Bool), PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 x17 = Bool.true ↔ ∃ x18 ∈ x6, PEqualNP.EdgeOwnership.gateVal (x2 + x2) x5 x18 x17 = Bool.true) → (∀ (x18 x19 : Fin x2), x3 x18 x19 → ∃ x21 ∈ x6, (PEqualNP.EdgeOwnership.gateVal (x2 + x2) x5 x21 fun (x22 : Fin (x2 + x2)) => Decidable.decide (x22 = Fin.castAdd x2 x18 ∨ x22 = Fin.natAdd x2 x19)) = Bool.true) → (∀ (x19 : Fin (x2 + x2) → Bool), Fintype.card { x20 : Fin x2 // x19 (Fin.natAdd x2 x20) = Bool.true } ≤ x1 → (¬∃ (x21 : Fin x2) (x22 : Fin x2), x3 x21 x22 ∧ x19 (Fin.castAdd x2 x21) = Bool.true ∧ x19 (Fin.natAdd x2 x22) = Bool.true) → ∀ x22 ∈ x6, PEqualNP.EdgeOwnership.gateVal (x2 + x2) x5 x22 x19 = Bool.false) → x2 * x1 ≤ (100 : ℕ) * x5.size",
+      "file": "lean/PEqualNP/Outside/L_meta_4710.lean",
+      "module": "PEqualNP.Outside.L_meta_4710",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 100,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 5,
+      "reductions": true,
+      "reductions_live": 1,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-5030",
+      "statement": "∀ (x1 x2 : ℕ) (x3 : Fin x2 → Fin x2 → Prop) [x4 : DecidableRel x3] (x5 : PEqualNP.CircuitLowerBounds.Circuit) (x6 : Finset ℕ),   have x7 : (Fin (x2 + x2) → Bool) → ℕ → Bool := fun (x7 : Fin (x2 + x2) → Bool) (x8 : ℕ) => PEqualNP.CircuitLowerBounds.wireValue x5 (List.ofFn x7) x8;   have x8 : Fin x2 → Fin x2 → Fin (x2 + x2) → Bool := fun (x8 x9 : Fin x2) (x10 : Fin (x2 + x2)) => Decidable.decide (x10 = Fin.castAdd x2 x8 ∨ x10 = Fin.natAdd x2 x9);   have x9 : Finset (Fin x2) → Fin (x2 + x2) → Bool := fun (x9 : Finset (Fin x2)) (x10 : Fin (x2 + x2)) => Fin.addCases (fun (x11 : Fin x2) => Decidable.decide (∀ x12 ∈ x9, ¬x3 x11 x12)) (fun (x11 : Fin x2) => Decidable.decide (x11 ∈ x9)) x10;   (300 : ℕ) ≤ x1 → x2 = x1 ^ (2 : ℕ) + x1 + (1 : ℕ) → (∀ (x12 : Fin x2), Fintype.card { x13 : Fin x2 // x3 x13 x12 } = x1 + (1 : ℕ)) → (∀ (x13 x14 : Fin x2), x13 ≠ x14 → ∃! x16 : Fin x2, x3 x13 x16 ∧ x3 x14 x16) → PEqualNP.MetaComplexity.Monotone2 x5 → (∀ (x15 : ℕ) (x16 : PEqualNP.CircuitLowerBounds.Gate), x5.gates[x15]? = Option.some x16 → ∃ (x18 : ℕ) (x19 : ℕ), x16.inputs = [x18, x19] ∧ x18 < x19 ∧ x19 < x2 + x2 + x15) → (∀ x16 ∈ x6, x2 + x2 ≤ x16 ∧ x16 < x2 + x2 + x5.size ∧ (PEqualNP.MetaComplexity.NestedCover.gateAt x5 (x16 - (x2 + x2))).op = PEqualNP.CircuitLowerBounds.GateOp.and ∧ ∃ (x18 : Fin x2) (x19 : Fin x2), x3 x18 x19 ∧ x7 (x8 x18 x19) x16 = Bool.true) → (∀ (x17 x18 : Fin x2), x3 x17 x18 → ∃ x20 ∈ x6, x7 (x8 x17 x18) x20 = Bool.true) → (∀ (x18 : Finset (Fin x2)), x18.card ≤ x1 → ∀ x20 ∈ x6, x7 (x9 x18) x20 = Bool.false) → x2 * x1 ≤ (100 : ℕ) * (x5.size + (1 : ℕ))",
+      "file": "lean/PEqualNP/Outside/L_meta_5030.lean",
+      "module": "PEqualNP.Outside.L_meta_5030",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 100,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 5,
+      "reductions": true,
+      "reductions_live": 1,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-5845",
+      "statement": "∀ (x1 : ℕ) (x2 : PEqualNP.CircuitLowerBounds.Circuit) (x3 : Type) (x4 : x3 → Fin x1 → Bool), PEqualNP.MetaComplexity.Monotone2 x2 → (∀ (x6 : ℕ) (x7 : PEqualNP.CircuitLowerBounds.Gate), x2.gates[x6]? = Option.some x7 → ∃ (x9 : ℕ) (x10 : ℕ), x7.inputs = [x9, x10] ∧ x9 < x10 ∧ x10 < x1 + x6) → ∃ (x7 : ℕ → Set x3), (∀ (x8 : Fin x1), x7 ↑x8 = {x9 : x3 | x4 x9 x8 = Bool.true}) ∧ (∀ x8 < x2.size, ∃ (x10 : ℕ) (x11 : ℕ), x10 < x11 ∧ x11 < x1 + x8 ∧ (x7 (x1 + x8) = x7 x10 ∩ x7 x11 ∨ x7 (x1 + x8) = x7 x10 ∪ x7 x11)) ∧ ∀ (x8 : x3), x8 ∈ x7 x2.output ↔ PEqualNP.MetaComplexity.circuitFun x1 x2 (x4 x8) = Bool.true",
+      "file": "lean/PEqualNP/Outside/L_meta_5845.lean",
+      "module": "PEqualNP.Outside.L_meta_5845",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 100,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 5,
+      "reductions": true,
+      "pr_open": 2,
+      "pr_numbers": [
+        11438,
+        11446
+      ]
+    },
+    {
+      "id": "L-meta-5847",
+      "statement": "∀ (x1 x2 : ℕ) (x3 : Fin x2 → Fin x2 → Prop) [x4 : DecidableRel x3] (x5 x6 : ℕ) (x7 : ℕ → Set (Fin x2 × Fin x2 ⊕ Finset (Fin x2))), (300 : ℕ) ≤ x1 → x2 = x1 ^ (2 : ℕ) + x1 + (1 : ℕ) → (∀ (x10 : Fin x2), Fintype.card { x11 : Fin x2 // x3 x11 x10 } = x1 + (1 : ℕ)) → (∀ (x11 x12 : Fin x2), x11 ≠ x12 → ∃! x14 : Fin x2, x3 x11 x14 ∧ x3 x12 x14) → x6 < x2 + x2 + x5 → (∀ (x13 : Fin x2), x7 ↑x13 = {x14 : Fin x2 × Fin x2 ⊕ Finset (Fin x2) | Sum.elim (fun (x15 : Fin x2 × Fin x2) => x15.1 = x13) (fun (x15 : Finset (Fin x2)) => ∀ x16 ∈ x15, ¬x3 x13 x16) x14}) → (∀ (x14 : Fin x2), x7 (x2 + ↑x14) = {x15 : Fin x2 × Fin x2 ⊕ Finset (Fin x2) | Sum.elim (fun (x16 : Fin x2 × Fin x2) => x16.2 = x14) (fun (x16 : Finset (Fin x2)) => x14 ∈ x16) x15}) → (∀ x15 < x5, ∃ (x17 : ℕ) (x18 : ℕ), x17 < x18 ∧ x18 < x2 + x2 + x15 ∧ (x7 (x2 + x2 + x15) = x7 x17 ∩ x7 x18 ∨ x7 (x2 + x2 + x15) = x7 x17 ∪ x7 x18)) → (∀ (x16 x17 : Fin x2), x3 x16 x17 → Sum.inl (x16, x17) ∈ x7 x6) → (∀ (x17 : Finset (Fin x2)), x17.card ≤ x1 → Sum.inr x17 ∉ x7 x6) → x2 * x1 ≤ (100 : ℕ) * x5",
+      "file": "lean/PEqualNP/Outside/L_meta_5847.lean",
+      "module": "PEqualNP.Outside.L_meta_5847",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 100,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 5,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-7019",
+      "statement": "∀ (x1 x2 : ℕ) (x3 : Fin x2 → Fin x2 → Prop) [x4 : DecidableRel x3] (x5 : PEqualNP.CircuitLowerBounds.Circuit), (100 : ℕ) < x1 → x2 = x1 ^ (2 : ℕ) + x1 + (1 : ℕ) → (∀ (x8 : Fin x2), Fintype.card { x9 : Fin x2 // x3 x9 x8 } = x1 + (1 : ℕ)) → (∀ (x9 x10 : Fin x2), x9 ≠ x10 → ∃! x12 : Fin x2, x3 x9 x12 ∧ x3 x10 x12) → PEqualNP.TopForm.IsAO2 (x2 + x2) x5 → (∀ (x11 x12 : Fin x2), x3 x11 x12 → (PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 fun (x14 : Fin (x2 + x2)) => Decidable.decide (x14 = Fin.castAdd x2 x11 ∨ x14 = Fin.natAdd x2 x12)) = Bool.true) → (∀ (x12 : Fin (x2 + x2) → Bool), Fintype.card { x13 : Fin x2 // x12 (Fin.natAdd x2 x13) = Bool.true } ≤ x1 → (¬∃ (x14 : Fin x2) (x15 : Fin x2), x3 x14 x15 ∧ x12 (Fin.castAdd x2 x14) = Bool.true ∧ x12 (Fin.natAdd x2 x15) = Bool.true) → PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 x12 = Bool.false) → Fintype.card { x13 : Fin x2 × Fin x2 // x3 x13.1 x13.2 ∧ PEqualNP.ReadK.lineSingle x5 (x2 + x2) (fun (x14 : ℕ) => Decidable.decide (x2 ≤ x14)) (↑x13.1) (x2 + ↑x13.2) = Bool.true } ≤ (38 : ℕ) * x5.size",
+      "file": "lean/PEqualNP/Outside/L_meta_7019.lean",
+      "module": "PEqualNP.Outside.L_meta_7019",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 100,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 5,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-7021",
+      "statement": "∀ (x1 x2 : ℕ) (x3 : Fin x2 → Fin x2 → Prop) [x4 : DecidableRel x3] (x5 : PEqualNP.CircuitLowerBounds.Circuit), (100 : ℕ) < x1 → x2 = x1 ^ (2 : ℕ) + x1 + (1 : ℕ) → (∀ (x8 : Fin x2), Fintype.card { x9 : Fin x2 // x3 x9 x8 } = x1 + (1 : ℕ)) → (∀ (x9 x10 : Fin x2), x9 ≠ x10 → ∃! x12 : Fin x2, x3 x9 x12 ∧ x3 x10 x12) → PEqualNP.TopForm.IsAO2 (x2 + x2) x5 → (∀ (x11 x12 : Fin x2), x3 x11 x12 → (PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 fun (x14 : Fin (x2 + x2)) => Decidable.decide (x14 = Fin.castAdd x2 x11 ∨ x14 = Fin.natAdd x2 x12)) = Bool.true) → (∀ (x12 : Fin (x2 + x2) → Bool), Fintype.card { x13 : Fin x2 // x12 (Fin.natAdd x2 x13) = Bool.true } ≤ x1 → (¬∃ (x14 : Fin x2) (x15 : Fin x2), x3 x14 x15 ∧ x12 (Fin.castAdd x2 x14) = Bool.true ∧ x12 (Fin.natAdd x2 x15) = Bool.true) → PEqualNP.MetaComplexity.circuitFun (x2 + x2) x5 x12 = Bool.false) → Fintype.card { x13 : Fin x2 × Fin x2 // x3 x13.1 x13.2 ∧ PEqualNP.ReadK.lineSingle x5 (x2 + x2) (fun (x14 : ℕ) => Decidable.decide (x14 < x2)) (↑x13.1) (x2 + ↑x13.2) = Bool.true } ≤ (38 : ℕ) * x5.size",
+      "file": "lean/PEqualNP/Outside/L_meta_7021.lean",
+      "module": "PEqualNP.Outside.L_meta_7021",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 100,
+      "parallel": 4,
+      "lane": "main",
+      "depth": 5,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    }
+  ],
+  "checked": [
+    {
+      "id": "L-meta-3233",
+      "file": "lean/PEqualNP/Outside/L_meta_3233.lean",
+      "file_sha256": "2a51ea9c7893dd21193b88f9d17001251588412871e481ac3295eda60a5b7377"
+    },
+    {
+      "id": "L-meta-3358",
+      "file": "lean/PEqualNP/Outside/L_meta_3358.lean",
+      "file_sha256": "80567be79b1f37774b3a827aa0695c9deec03f791c2805db58aaf65e29a4fcec"
+    },
+    {
+      "id": "L-meta-3438",
+      "file": "lean/PEqualNP/Outside/L_meta_3438.lean",
+      "file_sha256": "08ca21754016eeb6abe08d92e23f5d3879e9c022285157d575c6053cff26c3b1"
+    },
+    {
+      "id": "L-meta-4708",
+      "file": "lean/PEqualNP/Outside/L_meta_4708.lean",
+      "file_sha256": "9ab469fd32d31b2c17116973e5b4c5ffdf07b2da239edfa53870a04c008f5cc3"
+    },
+    {
+      "id": "L-meta-5028",
+      "file": "lean/PEqualNP/Outside/L_meta_5028.lean",
+      "file_sha256": "c8d8508758fbfcc0a76c0ea749642ab0c4a5cd541c23e142c58abf417eb33816"
+    }
+  ],
+  "reductions": [
+    {
+      "id": "R-L-meta-3233-461",
+      "parent": "L-meta-3233",
+      "state": "closed",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_3233_461.lean",
+        "content_hash": "sha256:c5fe80f7e995bfaf25def07e70baf3f00c7904495d9b11fd4de129ced9f3a2a4"
+      }
+    },
+    {
+      "id": "R-L-meta-3233-713",
+      "parent": "L-meta-3233",
+      "state": "moot",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_3233_713.lean",
+        "content_hash": "sha256:62a995ce1687419ad0ca4b396e807786c76ac1cec21b91649fe64419dab829e7"
+      }
+    },
+    {
+      "id": "R-L-meta-3600-421",
+      "parent": "L-meta-3600",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_3600_421.lean",
+        "content_hash": "sha256:61238c9550dd5457dd54a732e4e8bff7e9dfebb14c6db618beeccccfc4c9f3d0"
+      }
+    },
+    {
+      "id": "R-L-meta-3600-584",
+      "parent": "L-meta-3600",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_3600_584.lean",
+        "content_hash": "sha256:5c06c458694d6cb9c507b068a46349d9a6559dd1fb2128bd202edb19ce08c439"
+      }
+    },
+    {
+      "id": "R-L-meta-3600-672",
+      "parent": "L-meta-3600",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_3600_672.lean",
+        "content_hash": "sha256:94f7a011f14273d63205542bde50738bb6688b0c026ff128b3e08e0cd50867dc"
+      }
+    },
+    {
+      "id": "R-L-meta-4291-1",
+      "parent": "L-meta-4291",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_4291_1.lean",
+        "content_hash": "sha256:e5b0b5374b5fb339ff78a6076eead926765b50747a81712e25eb3b767e2a8539"
+      }
+    }
+  ]
+}
