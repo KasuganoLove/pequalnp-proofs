@@ -1,0 +1,8 @@
+{
+  "input_sha256": "b4c715f1b925e001f5d107ad6e47c7f2e1ed360a6fa3ba390ec129017eb75ef7",
+  "output_sha256": "236f13567b96d4566a10ba6178b0d2080018f4dfd3f6b664c83d8ddbb02ff199",
+  "output_bytes": 178519,
+  "full_edge_count_declarations_removed": 1,
+  "replacement": "An explicit edge between vertices 0 and 21 proves nonemptiness.",
+  "public_theorem_statement_changed": false
+}

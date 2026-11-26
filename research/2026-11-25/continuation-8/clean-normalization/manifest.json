@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "CleanNormalize-lean.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Pnp4201CleanNormalize.lean",
+      "bytes": 8989,
+      "sha256": "550c6a6f4160184c8e5b71c9e4e4080e6909c93a465a3cef769fa8c03569578d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3060,
+      "sha256": "d0d4e2514832ed3233bd73b1ec9c03ed479d046fd9d752713a019b82c6ba5648"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1040,
+      "sha256": "032c872ccd0e161551b2982c0ed1c9c78d8c133d5093f22c47a78f06b5c95154"
+    }
+  ]
+}

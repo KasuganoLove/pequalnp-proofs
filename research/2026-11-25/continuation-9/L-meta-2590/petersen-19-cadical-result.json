@@ -1,0 +1,11 @@
+{
+  "start_utc": "2026-11-25T07:46:58.874342+00:00",
+  "end_utc": "2026-11-25T07:51:58.918778+00:00",
+  "seconds": 300.04463676399973,
+  "exit_code": 0,
+  "formula": "PEqualNP.Defs.LratEncoding.enc2 10 19 label (positives ++ negatives)",
+  "rows": 30,
+  "clauses": 138019,
+  "cnf_sha256": "0a6e7d9fd083accd834a76b6bd2bc6b129cafe2e1a717acec6262524c9757757",
+  "formal_unsat_certificate": false
+}

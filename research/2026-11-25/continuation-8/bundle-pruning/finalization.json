@@ -1,0 +1,6 @@
+{
+  "slim_input_sha256": "608039d1ad0840232c2f18f35dc7a19be39f73c92da98cbc811f9bb4c221dab1",
+  "canonical_sha256": "b4c715f1b925e001f5d107ad6e47c7f2e1ed360a6fa3ba390ec129017eb75ef7",
+  "attribution_header": "-- Apache-2.0; see the repository LICENSE.\n-- Reuses upstream L_meta_1501 and L_meta_2235.\n-- Erasure helpers derive from L_meta_2668 and L-meta-1499 / PR3112.\n-- Constant propagation helpers derive from L_meta_1680 and L_meta_1425.\n-- Additional proofs and dependency pruning: KasuganoLove research, 2026-11-25.\n\n",
+  "operation": "Insert attribution immediately after the two allowed library directives."
+}

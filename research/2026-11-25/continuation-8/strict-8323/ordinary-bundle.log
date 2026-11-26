@@ -1,0 +1,248 @@
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:591:23: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:600:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:709:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:749:30: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:755:30: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:755:41: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:933:44: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:936:33: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:940:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1510:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1512:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1522:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1522:23: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1526:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1526:23: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1532:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1532:23: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1537:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1537:23: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1657:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1803:54: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1810:57: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1820:30: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1821:30: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1823:30: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1823:49: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1824:30: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1902:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1910:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1918:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:1936:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2065:33: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2065:52: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2070:24: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2115:70: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2119:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2120:53: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2124:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2126:14: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2127:55: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2138:14: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2139:59: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2160:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2163:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2165:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2167:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2191:43: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2192:47: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2320:47: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2836:10: warning: This simp argument is unused:
+  bypass
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2970:31: warning: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2970:63: warning: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2976:31: warning: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:2976:63: warning: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:3172:27: warning: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:3174:26: warning: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:3176:27: warning: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:3172:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:3174:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:3176:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:4007:1026: warning: Variable name `x5` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x5
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/PEqualNP/Outside/L_meta_8323.lean:4024:1044: warning: Variable name `x5` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x5
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`

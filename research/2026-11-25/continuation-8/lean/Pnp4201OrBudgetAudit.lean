@@ -1,0 +1,12 @@
+import Pnp4201OrBudget
+
+open PEqualNP.Outside.Pnp4201OrBudget
+
+#print axioms bypass_opCount
+#print axioms Normalize.normalize_nonconstant_budgets
+#print axioms least_budget_normal_form
+#print axioms least_budget_distinct_inputs
+#print axioms least_budget_no_alias_order
+#print axioms least_budget_and_negative_incomparable
+#print axioms least_budget_or_positive_incomparable
+#print axioms least_budget_gate_productive

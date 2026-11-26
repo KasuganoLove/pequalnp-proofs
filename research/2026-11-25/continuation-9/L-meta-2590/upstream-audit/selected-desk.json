@@ -1,0 +1,207 @@
+{
+  "updated_at": "2026-11-25T07:37:55.363Z",
+  "source": "https://data.pequalnp.com/data/desk/gaps.json",
+  "gaps": [
+    {
+      "id": "L-meta-2590",
+      "title": "A step toward: Petersen graph: no circuit of AND, OR (fan-in two) and NOT gates with at most 19 gates computes its edge function (step 1 of 2)",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit), PEqualNP.MetaComplexity.Monotone2 x1 → x1.size ≤ (19 : ℕ) → ¬∀ (x4 : Fin (10 : ℕ) → Bool), x1.eval (List.ofFn x4) = (fun (x5 : Fin (10 : ℕ) → Bool) => x5 (0 : Fin (10 : ℕ)) && x5 (1 : Fin (10 : ℕ)) || x5 (1 : Fin (10 : ℕ)) && x5 (2 : Fin (10 : ℕ)) || x5 (2 : Fin (10 : ℕ)) && x5 (3 : Fin (10 : ℕ)) || x5 (3 : Fin (10 : ℕ)) && x5 (4 : Fin (10 : ℕ)) || x5 (4 : Fin (10 : ℕ)) && x5 (0 : Fin (10 : ℕ)) || x5 (0 : Fin (10 : ℕ)) && x5 (5 : Fin (10 : ℕ)) || x5 (1 : Fin (10 : ℕ)) && x5 (6 : Fin (10 : ℕ)) || x5 (2 : Fin (10 : ℕ)) && x5 (7 : Fin (10 : ℕ)) || x5 (3 : Fin (10 : ℕ)) && x5 (8 : Fin (10 : ℕ)) || x5 (4 : Fin (10 : ℕ)) && x5 (9 : Fin (10 : ℕ)) || x5 (5 : Fin (10 : ℕ)) && x5 (7 : Fin (10 : ℕ)) || x5 (7 : Fin (10 : ℕ)) && x5 (9 : Fin (10 : ℕ)) || x5 (9 : Fin (10 : ℕ)) && x5 (6 : Fin (10 : ℕ)) || x5 (6 : Fin (10 : ℕ)) && x5 (8 : Fin (10 : ℕ)) || x5 (8 : Fin (10 : ℕ)) && x5 (5 : Fin (10 : ℕ))) x4",
+      "file": "lean/PEqualNP/Outside/L_meta_2590.lean",
+      "module": "PEqualNP.Outside.L_meta_2590",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "With its 1 sibling(s) it proves a posted step.",
+      "context": "A hypothesis of a checked reduction, as Lean printed it.",
+      "dead": [],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 1,
+      "reductions": true,
+      "reductions_live": 3,
+      "sketch": "Step 1 of 2 of a checked cut of L-meta-651. Its sibling steps: L-meta-2592. Together they give the parent; the parent's own sketch: no proof is expected here: propose a reduction (a cut into smaller statements that together give this one). Hard and open; a conjecture, it may be false. A circuit with 19 gates refutes it and is as welcome as a proof. Known: a circuit with 20 gates exists. In-house reach (computed, not checked): split by the first gate up to the automorphisms of the graph into five cases; each case was run for ten minutes and none was decided; no circuit with 19 gates was found. ",
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-5685",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 : List ℕ),   PEqualNP.MetaComplexity.Monotone2 x1 →     x1.size ≤ (18 : ℕ) →       x2.length ≤ (2 : ℕ) →         ∃ x6 ∈ [((3 : ℕ), Bool.true), ((6 : ℕ), Bool.true), ((12 : ℕ), Bool.true), ((24 : ℕ), Bool.true), ((17 : ℕ), Bool.true), ((33 : ℕ), Bool.true), ((66 : ℕ), Bool.true), ((132 : ℕ), Bool.true), ((264 : ℕ), Bool.true), ((528 : ℕ), Bool.true), ((160 : ℕ), Bool.true), ((640 : ℕ), Bool.true), ((576 : ℕ), Bool.true), ((320 : ℕ), Bool.true), ((288 : ℕ), Bool.true), ((50 : ℕ), Bool.false), ((69 : ℕ), Bool.false), ((104 : ℕ), Bool.false), ((116 : ℕ), Bool.false), ((138 : ℕ), Bool.false), ((201 : ℕ), Bool.false), ((208 : ℕ), Bool.false), ((276 : ℕ), Bool.false), ((385 : ℕ), Bool.false), ((402 : ℕ), Bool.false), ((521 : ℕ), Bool.false), ((548 : ℕ), Bool.false), ((554 : ℕ), Bool.false), ((770 : ℕ), Bool.false), ((773 : ℕ), Bool.false)],           have x7 : List Bool := List.ofFn fun (x7 : Fin (10 : ℕ)) => x6.1.testBit ↑x7;           x1.eval (x7 ++ [(List.map (fun (x8 : ℕ) => x7.getD x8 Bool.false) x2).all id]) ≠ x6.2",
+      "file": "lean/PEqualNP/Outside/L_meta_5685.lean",
+      "module": "PEqualNP.Outside.L_meta_5685",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-5687",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 : List ℕ),   PEqualNP.MetaComplexity.Monotone2 x1 →     x1.size ≤ (18 : ℕ) →       x2.length ≤ (2 : ℕ) →         ∃ x6 ∈ [((3 : ℕ), Bool.true), ((6 : ℕ), Bool.true), ((12 : ℕ), Bool.true), ((24 : ℕ), Bool.true), ((17 : ℕ), Bool.true), ((33 : ℕ), Bool.true), ((66 : ℕ), Bool.true), ((132 : ℕ), Bool.true), ((264 : ℕ), Bool.true), ((528 : ℕ), Bool.true), ((160 : ℕ), Bool.true), ((640 : ℕ), Bool.true), ((576 : ℕ), Bool.true), ((320 : ℕ), Bool.true), ((288 : ℕ), Bool.true), ((50 : ℕ), Bool.false), ((69 : ℕ), Bool.false), ((104 : ℕ), Bool.false), ((116 : ℕ), Bool.false), ((138 : ℕ), Bool.false), ((201 : ℕ), Bool.false), ((208 : ℕ), Bool.false), ((276 : ℕ), Bool.false), ((385 : ℕ), Bool.false), ((402 : ℕ), Bool.false), ((521 : ℕ), Bool.false), ((548 : ℕ), Bool.false), ((554 : ℕ), Bool.false), ((770 : ℕ), Bool.false), ((773 : ℕ), Bool.false)],           have x7 : List Bool := List.ofFn fun (x7 : Fin (10 : ℕ)) => x6.1.testBit ↑x7;           x1.eval (x7 ++ [(List.map (fun (x8 : ℕ) => x7.getD x8 Bool.false) x2).any id]) ≠ x6.2",
+      "file": "lean/PEqualNP/Outside/L_meta_5687.lean",
+      "module": "PEqualNP.Outside.L_meta_5687",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-7103",
+      "statement": "have x1 : List (Fin (10 : ℕ) × Fin (10 : ℕ)) := [((0 : Fin (10 : ℕ)), (1 : Fin (10 : ℕ))), ((1 : Fin (10 : ℕ)), (2 : Fin (10 : ℕ))), ((2 : Fin (10 : ℕ)), (3 : Fin (10 : ℕ))), ((3 : Fin (10 : ℕ)), (4 : Fin (10 : ℕ))), ((4 : Fin (10 : ℕ)), (0 : Fin (10 : ℕ))), ((0 : Fin (10 : ℕ)), (5 : Fin (10 : ℕ))), ((1 : Fin (10 : ℕ)), (6 : Fin (10 : ℕ))), ((2 : Fin (10 : ℕ)), (7 : Fin (10 : ℕ))), ((3 : Fin (10 : ℕ)), (8 : Fin (10 : ℕ))), ((4 : Fin (10 : ℕ)), (9 : Fin (10 : ℕ))), ((5 : Fin (10 : ℕ)), (7 : Fin (10 : ℕ))), ((7 : Fin (10 : ℕ)), (9 : Fin (10 : ℕ))), ((9 : Fin (10 : ℕ)), (6 : Fin (10 : ℕ))), ((6 : Fin (10 : ℕ)), (8 : Fin (10 : ℕ))), ((8 : Fin (10 : ℕ)), (5 : Fin (10 : ℕ)))]; ∀ (x2 : List ((Fin (10 : ℕ) → Bool) → Bool)),   x2.length ≤ (18 : ℕ) →     (∀ (x4 : Fin x2.length),         have x5 : List ((Fin (10 : ℕ) → Bool) → Bool) := ((fun (x5 : Fin (10 : ℕ) → Bool) => Bool.false) :: (fun (x5 : Fin (10 : ℕ) → Bool) => Bool.true) :: List.ofFn fun (x5 : Fin (10 : ℕ)) (x6 : Fin (10 : ℕ) → Bool) => x6 x5) ++ [fun (x5 : Fin (10 : ℕ) → Bool) => x5 (0 : Fin (10 : ℕ)) || x5 (1 : Fin (10 : ℕ))] ++ List.take (↑x4) x2;         x2.get x4 ∉ x5 ∧ ∃ x6 ∈ x5, ∃ x7 ∈ x5, (x2.get x4 = fun (x8 : Fin (10 : ℕ) → Bool) => x6 x8 && x7 x8) ∨ x2.get x4 = fun (x8 : Fin (10 : ℕ) → Bool) => x6 x8 || x7 x8) →       (∀ x5 ∈ x2, ∀ (x7 x8 : Fin (10 : ℕ)), x7 ≠ x8 → ¬(x1.any fun (x10 : Fin (10 : ℕ) × Fin (10 : ℕ)) => Decidable.decide ((x7, x8) = x10 ∨ (x8, x7) = x10)) = Bool.true → x5 ≠ fun (x11 : Fin (10 : ℕ) → Bool) => x11 x7 && x11 x8) → (fun (x6 : Fin (10 : ℕ) → Bool) => x1.any fun (x7 : Fin (10 : ℕ) × Fin (10 : ℕ)) => x6 x7.1 && x6 x7.2) ∉ x2",
+      "file": "lean/PEqualNP/Outside/L_meta_7103.lean",
+      "module": "PEqualNP.Outside.L_meta_7103",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-7105",
+      "statement": "have x1 : List (Fin (10 : ℕ) × Fin (10 : ℕ)) := [((0 : Fin (10 : ℕ)), (1 : Fin (10 : ℕ))), ((1 : Fin (10 : ℕ)), (2 : Fin (10 : ℕ))), ((2 : Fin (10 : ℕ)), (3 : Fin (10 : ℕ))), ((3 : Fin (10 : ℕ)), (4 : Fin (10 : ℕ))), ((4 : Fin (10 : ℕ)), (0 : Fin (10 : ℕ))), ((0 : Fin (10 : ℕ)), (5 : Fin (10 : ℕ))), ((1 : Fin (10 : ℕ)), (6 : Fin (10 : ℕ))), ((2 : Fin (10 : ℕ)), (7 : Fin (10 : ℕ))), ((3 : Fin (10 : ℕ)), (8 : Fin (10 : ℕ))), ((4 : Fin (10 : ℕ)), (9 : Fin (10 : ℕ))), ((5 : Fin (10 : ℕ)), (7 : Fin (10 : ℕ))), ((7 : Fin (10 : ℕ)), (9 : Fin (10 : ℕ))), ((9 : Fin (10 : ℕ)), (6 : Fin (10 : ℕ))), ((6 : Fin (10 : ℕ)), (8 : Fin (10 : ℕ))), ((8 : Fin (10 : ℕ)), (5 : Fin (10 : ℕ)))]; ∀ (x2 : List ((Fin (10 : ℕ) → Bool) → Bool)),   x2.length ≤ (18 : ℕ) →     (∀ (x4 : Fin x2.length),         have x5 : List ((Fin (10 : ℕ) → Bool) → Bool) := ((fun (x5 : Fin (10 : ℕ) → Bool) => Bool.false) :: (fun (x5 : Fin (10 : ℕ) → Bool) => Bool.true) :: List.ofFn fun (x5 : Fin (10 : ℕ)) (x6 : Fin (10 : ℕ) → Bool) => x6 x5) ++ [fun (x5 : Fin (10 : ℕ) → Bool) => x5 (0 : Fin (10 : ℕ)) || x5 (2 : Fin (10 : ℕ))] ++ List.take (↑x4) x2;         x2.get x4 ∉ x5 ∧ ∃ x6 ∈ x5, ∃ x7 ∈ x5, (x2.get x4 = fun (x8 : Fin (10 : ℕ) → Bool) => x6 x8 && x7 x8) ∨ x2.get x4 = fun (x8 : Fin (10 : ℕ) → Bool) => x6 x8 || x7 x8) →       (∀ x5 ∈ x2,           ∀ (x7 x8 : Fin (10 : ℕ)),             x7 ≠ x8 →               have x10 : Prop := (x1.any fun (x10 : Fin (10 : ℕ) × Fin (10 : ℕ)) => Decidable.decide ((x7, x8) = x10 ∨ (x8, x7) = x10)) = Bool.true;               (¬x10 → x5 ≠ fun (x12 : Fin (10 : ℕ) → Bool) => x12 x7 && x12 x8) ∧ (x10 → x5 ≠ fun (x12 : Fin (10 : ℕ) → Bool) => x12 x7 || x12 x8)) →         (fun (x6 : Fin (10 : ℕ) → Bool) => x1.any fun (x7 : Fin (10 : ℕ) × Fin (10 : ℕ)) => x6 x7.1 && x6 x7.2) ∉ x2",
+      "file": "lean/PEqualNP/Outside/L_meta_7105.lean",
+      "module": "PEqualNP.Outside.L_meta_7105",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-7107",
+      "statement": "have x1 : List (Fin (10 : ℕ) × Fin (10 : ℕ)) := [((0 : Fin (10 : ℕ)), (1 : Fin (10 : ℕ))), ((1 : Fin (10 : ℕ)), (2 : Fin (10 : ℕ))), ((2 : Fin (10 : ℕ)), (3 : Fin (10 : ℕ))), ((3 : Fin (10 : ℕ)), (4 : Fin (10 : ℕ))), ((4 : Fin (10 : ℕ)), (0 : Fin (10 : ℕ))), ((0 : Fin (10 : ℕ)), (5 : Fin (10 : ℕ))), ((1 : Fin (10 : ℕ)), (6 : Fin (10 : ℕ))), ((2 : Fin (10 : ℕ)), (7 : Fin (10 : ℕ))), ((3 : Fin (10 : ℕ)), (8 : Fin (10 : ℕ))), ((4 : Fin (10 : ℕ)), (9 : Fin (10 : ℕ))), ((5 : Fin (10 : ℕ)), (7 : Fin (10 : ℕ))), ((7 : Fin (10 : ℕ)), (9 : Fin (10 : ℕ))), ((9 : Fin (10 : ℕ)), (6 : Fin (10 : ℕ))), ((6 : Fin (10 : ℕ)), (8 : Fin (10 : ℕ))), ((8 : Fin (10 : ℕ)), (5 : Fin (10 : ℕ)))]; ∀ (x2 : List ((Fin (10 : ℕ) → Bool) → Bool)),   x2.length ≤ (18 : ℕ) →     (∀ (x4 : Fin x2.length),         have x5 : List ((Fin (10 : ℕ) → Bool) → Bool) := ((fun (x5 : Fin (10 : ℕ) → Bool) => Bool.false) :: (fun (x5 : Fin (10 : ℕ) → Bool) => Bool.true) :: List.ofFn fun (x5 : Fin (10 : ℕ)) (x6 : Fin (10 : ℕ) → Bool) => x6 x5) ++ [fun (x5 : Fin (10 : ℕ) → Bool) => x5 (0 : Fin (10 : ℕ)) && x5 (1 : Fin (10 : ℕ))] ++ List.take (↑x4) x2;         x2.get x4 ∉ x5 ∧ ∃ x6 ∈ x5, ∃ x7 ∈ x5, (x2.get x4 = fun (x8 : Fin (10 : ℕ) → Bool) => x6 x8 && x7 x8) ∨ x2.get x4 = fun (x8 : Fin (10 : ℕ) → Bool) => x6 x8 || x7 x8) →       (∀ x5 ∈ x2, ∀ (x7 x8 : Fin (10 : ℕ)), x7 ≠ x8 → (¬(x1.any fun (x10 : Fin (10 : ℕ) × Fin (10 : ℕ)) => Decidable.decide ((x7, x8) = x10 ∨ (x8, x7) = x10)) = Bool.true → x5 ≠ fun (x11 : Fin (10 : ℕ) → Bool) => x11 x7 && x11 x8) ∧ x5 ≠ fun (x10 : Fin (10 : ℕ) → Bool) => x10 x7 || x10 x8) → (fun (x6 : Fin (10 : ℕ) → Bool) => x1.any fun (x7 : Fin (10 : ℕ) × Fin (10 : ℕ)) => x6 x7.1 && x6 x7.2) ∉ x2",
+      "file": "lean/PEqualNP/Outside/L_meta_7107.lean",
+      "module": "PEqualNP.Outside.L_meta_7107",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-7889",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit),   PEqualNP.MetaComplexity.Monotone2 x1 →     x1.size ≤ (19 : ℕ) →       (PEqualNP.MetaComplexity.circuitFun (10 : ℕ) x1 = fun (x4 : Fin (10 : ℕ) → Bool) => Decidable.decide (∃ (x5 : Fin (5 : ℕ)), (x4 (Fin.castAdd (5 : ℕ) x5) && x4 (Fin.castAdd (5 : ℕ) (x5 + (1 : Fin (5 : ℕ)))) || x4 (Fin.castAdd (5 : ℕ) x5) && x4 (Fin.natAdd (5 : ℕ) x5) || x4 (Fin.natAdd (5 : ℕ) x5) && x4 (Fin.natAdd (5 : ℕ) (x5 + (2 : Fin (5 : ℕ))))) = Bool.true)) →         ∃ (x5 : PEqualNP.CircuitLowerBounds.Circuit) (x6 : ℕ) (x7 : Bool),           PEqualNP.TopForm.IsAO2 (10 : ℕ) x5 ∧             ((16 : ℕ) ≤ x5.size ∧ x5.size ≤ (18 : ℕ)) ∧               (x6 ≠ (0 : ℕ) ∧ x6 < (10 : ℕ) + x5.size ∧ ∀ (x8 : ℕ) (x9 : PEqualNP.CircuitLowerBounds.Gate), (10 : ℕ) + x8 ≤ x6 → x5.gates[x8]? = Option.some x9 → (0 : ℕ) ∉ x9.inputs) ∧                 ∀ (x8 : Fin (10 : ℕ) → Bool),                   have x9 : Bool := (x5.wires (List.ofFn (Function.update x8 (0 : Fin (10 : ℕ)) Bool.false))).getD x6 Bool.false;                   PEqualNP.MetaComplexity.circuitFun (10 : ℕ) x5 (Function.update x8 (0 : Fin (10 : ℕ)) (if x7 = Bool.true then x8 (0 : Fin (10 : ℕ)) && x9 else x8 (0 : Fin (10 : ℕ)) || x9)) = PEqualNP.MetaComplexity.circuitFun (10 : ℕ) x1 x8",
+      "file": "lean/PEqualNP/Outside/L_meta_7889.lean",
+      "module": "PEqualNP.Outside.L_meta_7889",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-7891",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 : ℕ),   PEqualNP.TopForm.IsAO2 (10 : ℕ) x1 →     (16 : ℕ) ≤ x1.size ∧ x1.size ≤ (18 : ℕ) →       (x2 ≠ (0 : ℕ) ∧ x2 < (10 : ℕ) + x1.size ∧ ∀ (x5 : ℕ) (x6 : PEqualNP.CircuitLowerBounds.Gate), (10 : ℕ) + x5 ≤ x2 → x1.gates[x5]? = Option.some x6 → (0 : ℕ) ∉ x6.inputs) →         have x6 : ℕ → Fin (10 : ℕ) → Bool := fun (x6 : ℕ) (x7 : Fin (10 : ℕ)) => x6.testBit ↑x7;         have x7 : ℕ → Bool := fun (x7 : ℕ) => (x1.wires (List.ofFn (Function.update (x6 x7) (0 : Fin (10 : ℕ)) Bool.false))).getD x2 Bool.false;         have x8 : ℕ → Bool := fun (x8 : ℕ) => PEqualNP.MetaComplexity.circuitFun (10 : ℕ) x1 (Function.update (x6 x8) (0 : Fin (10 : ℕ)) (x6 x8 (0 : Fin (10 : ℕ)) && x7 x8));         (∀ x9 ∈ [(2 : ℕ), (16 : ℕ), (32 : ℕ)], x7 x9 = Bool.true) → ¬((∀ x10 ∈ [(3 : ℕ), (6 : ℕ), (12 : ℕ), (17 : ℕ), (24 : ℕ), (33 : ℕ), (66 : ℕ), (132 : ℕ), (160 : ℕ), (264 : ℕ), (288 : ℕ), (320 : ℕ), (528 : ℕ), (576 : ℕ), (640 : ℕ)], x8 x10 = Bool.true) ∧ ∀ x10 ∈ [(50 : ℕ), (69 : ℕ), (104 : ℕ), (116 : ℕ), (138 : ℕ), (201 : ℕ), (208 : ℕ), (276 : ℕ), (385 : ℕ), (402 : ℕ), (521 : ℕ), (548 : ℕ), (554 : ℕ), (770 : ℕ), (773 : ℕ)], x8 x10 = Bool.false)",
+      "file": "lean/PEqualNP/Outside/L_meta_7891.lean",
+      "module": "PEqualNP.Outside.L_meta_7891",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    },
+    {
+      "id": "L-meta-7893",
+      "statement": "∀ (x1 : PEqualNP.CircuitLowerBounds.Circuit) (x2 : ℕ),   PEqualNP.TopForm.IsAO2 (10 : ℕ) x1 →     (16 : ℕ) ≤ x1.size ∧ x1.size ≤ (18 : ℕ) →       (x2 ≠ (0 : ℕ) ∧ x2 < (10 : ℕ) + x1.size ∧ ∀ (x5 : ℕ) (x6 : PEqualNP.CircuitLowerBounds.Gate), (10 : ℕ) + x5 ≤ x2 → x1.gates[x5]? = Option.some x6 → (0 : ℕ) ∉ x6.inputs) →         have x6 : ℕ → Fin (10 : ℕ) → Bool := fun (x6 : ℕ) (x7 : Fin (10 : ℕ)) => x6.testBit ↑x7;         have x7 : ℕ → Bool := fun (x7 : ℕ) => (x1.wires (List.ofFn (Function.update (x6 x7) (0 : Fin (10 : ℕ)) Bool.false))).getD x2 Bool.false;         have x8 : ℕ → Bool := fun (x8 : ℕ) => PEqualNP.MetaComplexity.circuitFun (10 : ℕ) x1 (Function.update (x6 x8) (0 : Fin (10 : ℕ)) (x6 x8 (0 : Fin (10 : ℕ)) || x7 x8));         (∀ x9 ∈ [(50 : ℕ), (104 : ℕ), (116 : ℕ), (138 : ℕ), (208 : ℕ), (276 : ℕ), (402 : ℕ), (548 : ℕ), (554 : ℕ), (770 : ℕ)], x7 x9 = Bool.false) → ¬((∀ x10 ∈ [(3 : ℕ), (6 : ℕ), (12 : ℕ), (17 : ℕ), (24 : ℕ), (33 : ℕ), (66 : ℕ), (132 : ℕ), (160 : ℕ), (264 : ℕ), (288 : ℕ), (320 : ℕ), (528 : ℕ), (576 : ℕ), (640 : ℕ)], x8 x10 = Bool.true) ∧ ∀ x10 ∈ [(50 : ℕ), (69 : ℕ), (104 : ℕ), (116 : ℕ), (138 : ℕ), (201 : ℕ), (208 : ℕ), (276 : ℕ), (385 : ℕ), (402 : ℕ), (521 : ℕ), (548 : ℕ), (554 : ℕ), (770 : ℕ), (773 : ℕ)], x8 x10 = Bool.false)",
+      "file": "lean/PEqualNP/Outside/L_meta_7893.lean",
+      "module": "PEqualNP.Outside.L_meta_7893",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "weight": 50,
+      "parallel": 10,
+      "lane": "main",
+      "depth": 2,
+      "reductions": true,
+      "pr_open": 0,
+      "pr_numbers": []
+    }
+  ],
+  "checked_sources": [
+    {
+      "id": "L-meta-1675",
+      "file": "lean/PEqualNP/Outside/L_meta_1675.lean",
+      "file_sha256": "98ef7973dc3980bfa74a422df27732592eaa698b244980c4694c0431efcf6191"
+    },
+    {
+      "id": "L-meta-1880",
+      "file": "lean/PEqualNP/Outside/L_meta_1880.lean",
+      "file_sha256": "84047c267cf096a52bd51b6d9986a384339f05e382827fbc13089ac620a34a65"
+    },
+    {
+      "id": "L-meta-2446",
+      "file": "lean/PEqualNP/Outside/L_meta_2446.lean",
+      "file_sha256": "605dd7edce03d051f286b53b076f95a008d7aa544ff27a7ebf87d9bf1c192071"
+    },
+    {
+      "id": "L-meta-2923",
+      "file": "lean/PEqualNP/Outside/L_meta_2923.lean",
+      "file_sha256": "c46a6d34c0bdbb2e0cf418129d8330013f40b32aa84092db915dd68d9e285a62"
+    }
+  ],
+  "reductions": [
+    {
+      "id": "R-L-meta-2590-1",
+      "parent": "L-meta-2590",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2590_1.lean",
+        "content_hash": "sha256:ebb86e3e1c4909c8b9c9ec4c84806f822d4482f2db1ae2bcd5fd53de7b1a9d3d"
+      }
+    },
+    {
+      "id": "R-L-meta-2590-491",
+      "parent": "L-meta-2590",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2590_491.lean",
+        "content_hash": "sha256:bb5f3baa7f3c78caddf0e4fbfdb5ba9261c2f2738009029da6d3365dc3d3c222"
+      }
+    },
+    {
+      "id": "R-L-meta-2590-932",
+      "parent": "L-meta-2590",
+      "state": "open",
+      "artifact": {
+        "lean_file": "lean/PEqualNP/Outside/R_meta_2590_932.lean",
+        "content_hash": "sha256:f027f6a1ac11b43e19245d58edb10cf8411b063c9f82ce8f4d57046df13ae899"
+      }
+    }
+  ]
+}

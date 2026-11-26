@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-11-25T08:04:35.343Z",
+  "gaps": [
+    {
+      "id": "L-meta-949",
+      "title": "Some graph on 6 vertices has a partial-function AND-count circuit with fewer gates than every biclique cover of its edges has bicliques",
+      "statement": "∃ (G : SimpleGraph (Fin 6)) (C : PEqualNP.AndCount.AndCountCircuit 6), C.WellFormed ∧ (∀ I : Finset (Fin 6), (∀ v ∈ I, ∀ w ∈ I, ¬ G.Adj v w) → (∀ u, u ∉ I → ∃ v ∈ I, G.Adj u v) → C.eval I = false ∧ ∀ u, u ∉ I → C.eval (insert u I) = true) ∧ ¬ (∃ (k : ℕ) (X Y : Fin k → Finset (Fin 6)), k ≤ C.size ∧ (∀ i : Fin k, ∀ a ∈ X i, ∀ b ∈ Y i, G.Adj a b) ∧ (∀ a b : Fin 6, G.Adj a b → ∃ i : Fin k, (a ∈ X i ∧ b ∈ Y i) ∨ (b ∈ X i ∧ a ∈ Y i)))",
+      "file": "lean/PEqualNP/Outside/L_meta_949.lean",
+      "module": "PEqualNP.Outside.L_meta_949",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Where the AND count first departs from the biclique cover number",
+      "context": "SKETCH: no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. enumerate the 156 graphs on 6 vertices up to isomorphism, compute each biclique cover number by brute force over covers, and search AND-count circuits (each side an OR of vertices and earlier gates) with one gate fewer for the partial-function condition. The two rows are a pair; one is true. In-house: the count equals the biclique cover number on every graph up to 5 vertices and fails on a 7-vertex graph (computed, not checked). Data lane. No sorry, no new axiom.",
+      "dead": [],
+      "weight": 26,
+      "parallel": 3,
+      "lane": "main",
+      "depth": 0,
+      "reductions": true,
+      "sketch": "no proof is expected here: propose a cut: by first gates up to symmetry, by a structural invariant, by cases. enumerate the 156 graphs on 6 vertices up to isomorphism, compute each biclique cover number by brute force over covers, and search AND-count circuits (each side an OR of vertices and earlier gates) with one gate fewer for the partial-function condition. The two rows are a pair; one is true. In-house: the count equals the biclique cover number on every graph up to 5 vertices and fails on a 7-vertex graph (computed, not checked). Data lane. No sorry, no new axiom.",
+      "pr_open": 0,
+      "pr_numbers": []
+    }
+  ],
+  "checked": [
+    {
+      "id": "L-meta-950",
+      "file": "lean/PEqualNP/Outside/L_meta_950.lean",
+      "file_sha256": "0b7e2f524d8cf838ed8e00ccb86224d0fa9ba587dfb9e5f750c1325d73a4cc3a"
+    }
+  ],
+  "withdrawn": {},
+  "reductions": []
+}

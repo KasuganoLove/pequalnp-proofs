@@ -1,0 +1,10 @@
+{
+  "branch": "codex/prove-meta-8470-2026-11-25",
+  "head": "0cb59db32842e8a630c2baa8e3ada1ae6c4375a4",
+  "base": "259523a5b265318b84f9377f2feb965fd213f898",
+  "file": "lean/PEqualNP/Outside/L_meta_8470.lean",
+  "diff_verified": "one commit, one added file",
+  "remote_source_matches_checked_source": true,
+  "official_pr_created": false,
+  "reason": "The active lease is for parent L-meta-4201; the join rules prohibit a PR for an unheld child."
+}

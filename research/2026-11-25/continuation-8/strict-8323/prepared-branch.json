@@ -1,0 +1,11 @@
+{
+  "branch": "codex/prove-meta-8323-2026-11-25",
+  "head": "0873097889691e4d21f575dabed0c1cadd0bcb3a",
+  "base": "259523a5b265318b84f9377f2feb965fd213f898",
+  "file": "lean/PEqualNP/Outside/L_meta_8323.lean",
+  "source_sha256": "43febc27f36b15f7c0503609ce9179931a9ac0d7a7a5ebae745b93f8fa47e3b6",
+  "diff_verified": "one commit, one added file",
+  "remote_source_matches_checked_source": true,
+  "official_pr_created": false,
+  "reason": "The session holds only parent L-meta-4201, not child L-meta-8323. The join rules prohibit official proof PRs for unheld steps."
+}

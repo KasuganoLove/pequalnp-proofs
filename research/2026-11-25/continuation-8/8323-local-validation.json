@@ -1,0 +1,14 @@
+{
+  "theorem": "PEqualNP.Outside.Pnp4201CleanCase.exact_8323",
+  "statement_sha256": "ea9da5a93cdce2730e73e9dfe572610b1f6cb565daff7e96c8f55c0a6d8ccfbf",
+  "source_sha256": "f149c10630af19768cacaf80f315642752a1b32eace4cf00b76f2afb214167e8",
+  "public_statement_byte_equal": true,
+  "ordinary_lean_exit": 0,
+  "ordinary_lean_log_bytes": 331,
+  "official_strict_check": "not run by this agent",
+  "official_submission": "none",
+  "scope": "Exact L-meta-8323: every Monotone2 circuit computing the specified PG4 incidence function, with every AND gate pointwise below its output, contains at least 104 OR gates. No clean replacement is asserted for arbitrary circuits.",
+  "warnings": [
+    "The exact public statement contains an unused binder named x5 in the MOD branch of the OR-count recursor. Lean emitted only linter.unusedVariables for that public binder; no proof error. The statement was kept byte-for-byte unchanged."
+  ]
+}

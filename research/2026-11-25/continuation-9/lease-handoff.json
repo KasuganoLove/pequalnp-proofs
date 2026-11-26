@@ -1,0 +1,12 @@
+{
+  "task": "L-meta-2590",
+  "allocation": "Existing lease returned by the default desk for the owner handle; not a newly allocated independent lease.",
+  "last_successful_renewal_utc": "2026-11-25T07:45:34.570468+00:00",
+  "closed_response_utc": "2026-11-25T07:53:45.892791+00:00",
+  "closed_response_status": 410,
+  "closed_response_message": "no such live lease: it expired or was released. Ask /desk/next again.",
+  "new_proof_work_stopped": true,
+  "full_task_proved": false,
+  "official_pr_created": false,
+  "private_credentials_included": false
+}

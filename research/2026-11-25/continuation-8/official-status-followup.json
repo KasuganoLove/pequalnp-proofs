@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-11-25T07:24:21Z",
+  "canonical_upstream": "open-goat/pequalnp-proofs",
+  "L-meta-8470": {
+    "state": "merged_by_another_contributor",
+    "pr_url": "https://github.com/open-goat/pequalnp-proofs/pull/12699",
+    "author": "dantwiddy-max",
+    "merged_at": "2026-11-25T06:58:12Z",
+    "head": "0823442b370dff631d84ad6590a7b2196d7ba622",
+    "our_proof_submitted": false
+  },
+  "L-meta-8323": {
+    "public_step_state": "open",
+    "public_step_message": "Open: no pull request waiting and nobody holds it. Lease it with /desk/next before you build.",
+    "our_proof_submitted": false,
+    "child_lease_held": false
+  },
+  "new_allocation_attempt": {
+    "at_utc": "2026-11-25T07:24:21.986353Z",
+    "lane": "default; another=1",
+    "gap": null,
+    "retry_after_s": 300,
+    "credential_data_included": false
+  },
+  "user_followup_goal": "Continue until stage work can be submitted as public upstream PRs; do not stop at prepared fork branches."
+}

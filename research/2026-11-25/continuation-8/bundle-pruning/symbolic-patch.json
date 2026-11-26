@@ -1,0 +1,9 @@
+{
+  "input_sha256": "236f13567b96d4566a10ba6178b0d2080018f4dfd3f6b664c83d8ddbb02ff199",
+  "output_sha256": "2fc1f1a4d16eaf35239dc6ab08542b41a664c16405de158cf6b6699f4506837f",
+  "output_bytes": 179646,
+  "symbolic_proofs_sha256": "9d0a683e9a057b2f299480dd1e01e817a9aca1f824f2e5aedd9fca6c18ca235a",
+  "finite_adjacency_tables_replaced": 3,
+  "point_line_separation_helper_added": true,
+  "public_theorem_statement_changed": false
+}

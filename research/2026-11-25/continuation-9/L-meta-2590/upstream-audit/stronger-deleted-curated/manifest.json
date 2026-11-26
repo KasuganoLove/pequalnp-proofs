@@ -1,0 +1,37 @@
+{
+  "purpose": "Read-only L2446 unconditional deleted-Petersen audit; no new Lean proof or compilation",
+  "upstream_source_commit": "351fecac1b6c1fba40b6e45be9bf0058aa141b8a",
+  "checked_L2446_sha256": "605dd7edce03d051f286b53b076f95a008d7aa544ff27a7ebf87d9bf1c192071",
+  "files": [
+    {
+      "file": "stronger-deleted-audit.md",
+      "bytes": 8347,
+      "sha256": "41dc3c45b1e89e0f7584ccb706fce9e2450eb26007ec78282feccfdaaf75dba0"
+    },
+    {
+      "file": "l2446-exact-match.json",
+      "bytes": 3909,
+      "sha256": "9bd5bd6cccb98a169251ff6d813039253cc5cef81be1cbc189b1ccebe889f182"
+    },
+    {
+      "file": "stronger-deleted-status.json",
+      "bytes": 5003,
+      "sha256": "c9017cb64efe501714293ae264d4a804d6ae290a00ea2d22571a61a37dc804ef"
+    },
+    {
+      "file": "defs-verification.json",
+      "bytes": 4174,
+      "sha256": "290614c9a8fdf6d6cc6f3cdfee936809a92de0d86c78e7a33b18b16e41278e64"
+    },
+    {
+      "file": "verified-dag-2446.json",
+      "bytes": 2787,
+      "sha256": "37839bc8dcfc678ae22cbde4c6fa8f178d68358fc9e0c456a23d0f02e70d7a44"
+    },
+    {
+      "file": "2590-step-final.json",
+      "bytes": 260,
+      "sha256": "f054bf63c5a41d460318bfc6094770f009cb1d18fb2530c2cd97869b9228c403"
+    }
+  ]
+}

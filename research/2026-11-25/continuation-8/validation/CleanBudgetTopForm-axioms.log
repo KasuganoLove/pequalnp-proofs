@@ -1,0 +1,16 @@
+'PEqualNP.Outside.Pnp4201CleanBudgetTopForm.V1_clean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201CleanBudgetTopForm.V2_clean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201CleanBudgetTopForm.clean_reader_or' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201CleanBudgetTopForm.clean_reader_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PEqualNP.Outside.Pnp4201CleanBudgetTopForm.clean_top_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PEqualNP.Outside.Pnp4201CleanBudgetTopForm.exists_clean_minimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PEqualNP.Outside.Pnp4201CleanBudgetTopForm.exists_clean_top_form_with_or_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PEqualNP.Outside.Pnp4201CleanBudgetTopForm.clean_iff_all_and_below' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

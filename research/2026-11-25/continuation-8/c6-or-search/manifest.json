@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 5360,
+      "sha256": "6097797d422d13e1864ccd3a894b817fe0c70d65378cac95e305e56d7e953fd8"
+    },
+    {
+      "file": "c6-k4.cnf",
+      "bytes": 115960,
+      "sha256": "1de03e78b7fb3a7db93e902f1832e5c9a08aaaf824451b9a928e9ee46dff6dba"
+    },
+    {
+      "file": "c6-k4.json",
+      "bytes": 14113,
+      "sha256": "75db027e0fea3e41586d834efb94e411dd67d912039ece473d2cf54880934482"
+    },
+    {
+      "file": "c6-k4.log",
+      "bytes": 6010,
+      "sha256": "25ddbb5989b444b10a8352f613df243801834601be94278c579486ca3ebd7d30"
+    },
+    {
+      "file": "c6-k4.solution",
+      "bytes": 16,
+      "sha256": "bde6e1eede96772c07c8ce29fd18088863815bd043aa59a06f11f5838cf8a162"
+    },
+    {
+      "file": "c6-k5-calibration-circuit.json",
+      "bytes": 1093,
+      "sha256": "d8711d576f8aa26d9375bbe870f66a5b696b7402a6f42d4b63ac246afc0f4653"
+    },
+    {
+      "file": "c6-k5-calibration.cnf",
+      "bytes": 166954,
+      "sha256": "f78ecc7a27b6b3e04dee0beee60508c76b5e9307562138df969b6e9849c678ea"
+    },
+    {
+      "file": "c6-k5-calibration.json",
+      "bytes": 17530,
+      "sha256": "c4fa618f5f37eaf96032eaedc35b9899cb0a886dc768676c79d33034e35c29cb"
+    },
+    {
+      "file": "c6-k5-calibration.log",
+      "bytes": 2908,
+      "sha256": "76243d7a350178569845506a7c947bcfe1482ca7e2ac0c0ad5c063272e5b8ec4"
+    },
+    {
+      "file": "c6-k5-calibration.solution",
+      "bytes": 15265,
+      "sha256": "e7bcc3fb30ee636e1c0c51e5f491369a3430a73fbebf44bfb322d8cb07bbc85b"
+    },
+    {
+      "file": "c6_model.py",
+      "bytes": 5936,
+      "sha256": "bca3c7bec3fd986166431860deea1dd70ffdad93391d171a4ea006f81f13b7d2"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 711,
+      "sha256": "fe4174a034034053dcd834b7461663e43d28998ff8526c115b6896a9dbe10222"
+    }
+  ]
+}

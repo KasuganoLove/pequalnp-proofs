@@ -1,0 +1,28 @@
+{
+  "solver": "CaDiCaL2.1.2",
+  "main": {
+    "n": 6,
+    "or_budget": 4,
+    "and_budget": null,
+    "input_rows": 64,
+    "cnf_variables": 1973,
+    "cnf_clauses": 8016,
+    "timeout_seconds": 120,
+    "status": "UNSATISFIABLE",
+    "exit_code": 20,
+    "reported_wall_seconds": 0.21,
+    "conflicts": 8127
+  },
+  "calibration": {
+    "or_count": 5,
+    "total_gates": 8,
+    "status": "SATISFIABLE",
+    "exit_code": 10,
+    "fixed_known_circuit": true,
+    "scalar_rows_verified": 64,
+    "expanded_gate_rows_verified": 64
+  },
+  "formal_status": "No Lean encoding bridge or independently verified UNSAT certificate; computational evidence only",
+  "pg4_counterexample": false,
+  "no_larger_search": true
+}

@@ -1,0 +1,9 @@
+{
+  "task": "L-meta-8470",
+  "file": "lean/PEqualNP/Outside/L_meta_8470.lean",
+  "sha256": "25e91dfeadebb34eb713389b7ad14f9a30010da00d5f7e076901b37615dd1063",
+  "bytes": 3543,
+  "statement_sha256": "99bc6027f021419630f9f1bad7f4b3f0953773b02afaedbdf557243a60521174",
+  "official_submission": false,
+  "lease_scope": "parent L-meta-4201 only"
+}

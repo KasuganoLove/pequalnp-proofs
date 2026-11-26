@@ -1,0 +1,259 @@
+{
+  "checked_at_utc": "2026-11-25T06:04:44.065099+00:00",
+  "upstream_repository": "open-goat/pequalnp-proofs",
+  "upstream_commit": "259523a5b265318b84f9377f2feb965fd213f898",
+  "working_checkout": "/workspace/scratch/65f339da29fe/pequalnp-proofs",
+  "working_checkout_HEAD": "57164c3618362178843e2ea37bd01613f4037ae2",
+  "method": "Pinned GitHub Git Trees blob SHA-1 versus actual local file bytes hashed as Git blobs; local SHA-256 retained for individual control files. No compilation, git fetch or source overwrite.",
+  "semantic_checker_environment_matches": true,
+  "entire_CI_automation_matches": false,
+  "definitions": {
+    "path": "lean/PEqualNP/Defs/",
+    "upstream_tree_sha1": "e1343d2a024b07570497077743e536a48c6c8c9c",
+    "working_HEAD_tree_sha1": "e1343d2a024b07570497077743e536a48c6c8c9c",
+    "blob_count": 85,
+    "every_actual_local_blob_matches": true,
+    "tracked_path_sets_equal": true,
+    "mismatches": [],
+    "upstream_only_paths": [],
+    "local_only_paths": []
+  },
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_manifest_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "actual_mathlib_checkout_HEAD": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "mathlib_checkout_matches_pin": true,
+  "control_files": [
+    {
+      "path": "lean/CheckLemma.lean",
+      "upstream_git_blob_sha1": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "local_git_blob_sha1": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "local_sha256": "86997b026ef2b80d738df77f4c214166cf5b0b2ea8cc98d4bd3c8b5e420dbdd5",
+      "matches": true
+    },
+    {
+      "path": "lean/PEqualNP.lean",
+      "upstream_git_blob_sha1": "cb7e11d4510cd5fe6e5cba478ec7e0fd611fee11",
+      "local_git_blob_sha1": "cb7e11d4510cd5fe6e5cba478ec7e0fd611fee11",
+      "local_sha256": "a041a85e2ae3aab4418fa7558e5044ba9ceb1e69f7a1d607713ad6c3c3a281a0",
+      "matches": true
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "upstream_git_blob_sha1": "1587feea6e89986bee71234159ec08da1b9349be",
+      "local_git_blob_sha1": "1587feea6e89986bee71234159ec08da1b9349be",
+      "local_sha256": "d0af863cde532caaef1b1bee0d63ec47100208e33e488309cb80abc88b8f1509",
+      "matches": true
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "upstream_git_blob_sha1": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "local_git_blob_sha1": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "local_sha256": "ee756ab61cf24d2fd5f561d89080cf162e34f35b06d9b6101bc680ef1619a7bf",
+      "matches": true
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "upstream_git_blob_sha1": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "local_git_blob_sha1": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "local_sha256": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+      "matches": true
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "upstream_git_blob_sha1": "0f6211e2dc281f27afe21cc2bc5fc812c8ad53b0",
+      "local_git_blob_sha1": "0f6211e2dc281f27afe21cc2bc5fc812c8ad53b0",
+      "local_sha256": "cce0316e57715160b92faeb0b84522b36ea01080fb5a43005f7c9aadcc35d8b6",
+      "matches": true
+    },
+    {
+      "path": ".github/scripts/install-elan.sh",
+      "upstream_git_blob_sha1": "d4d07f2da8dde5d3b95c27d9a38568c34b663b07",
+      "local_git_blob_sha1": null,
+      "local_sha256": null,
+      "matches": false,
+      "difference": "added_upstream"
+    },
+    {
+      "path": ".github/scripts/install-elan.test.mjs",
+      "upstream_git_blob_sha1": "db2206f12bd14d0f7dd51be9ee961c7ec9a6dd9f",
+      "local_git_blob_sha1": null,
+      "local_sha256": null,
+      "matches": false,
+      "difference": "added_upstream"
+    },
+    {
+      "path": ".github/scripts/lake-locked.sh",
+      "upstream_git_blob_sha1": "d6a5c5d9b57aac27d13e25df7d2430dec8bffc89",
+      "local_git_blob_sha1": "d6a5c5d9b57aac27d13e25df7d2430dec8bffc89",
+      "local_sha256": "7d33c50ace717f62d13703863d6dd38f68906920682758495900509e43d109a0",
+      "matches": true
+    },
+    {
+      "path": ".github/scripts/land-by-push.mjs",
+      "upstream_git_blob_sha1": "2c8e3e2eeafc34901b2fc0ec083bf97c60de8742",
+      "local_git_blob_sha1": "2c8e3e2eeafc34901b2fc0ec083bf97c60de8742",
+      "local_sha256": "771da805f9016688a50ebf25bab3d7b38cb7b7053a032da233c24ae220966f97",
+      "matches": true
+    },
+    {
+      "path": ".github/scripts/land-by-push.test.mjs",
+      "upstream_git_blob_sha1": "f28a93029f359e623f5f62bac185ef5769ea76b7",
+      "local_git_blob_sha1": "f28a93029f359e623f5f62bac185ef5769ea76b7",
+      "local_sha256": "f548ac4acda45c45b9602eecd76a9efb1b6cb76a9bc7e71354ef5edac08e09cf",
+      "matches": true
+    },
+    {
+      "path": ".github/scripts/locked-lake.test.mjs",
+      "upstream_git_blob_sha1": "82c2252344260066673f84597d0d8c12faf4d285",
+      "local_git_blob_sha1": "82c2252344260066673f84597d0d8c12faf4d285",
+      "local_sha256": "875abb59b677037b2c97a7a03c3666f2986e47e044688ad54fd4d0636338d811",
+      "matches": true
+    },
+    {
+      "path": ".github/scripts/locked-ns.sh",
+      "upstream_git_blob_sha1": "cc8755d1d1d1676565dc8336289dab46b1d4706f",
+      "local_git_blob_sha1": "cc8755d1d1d1676565dc8336289dab46b1d4706f",
+      "local_sha256": "5a39522539c3fdcc7c1b1cddeee9829d59253c5b034b63babc30e49731f2c6c0",
+      "matches": true
+    },
+    {
+      "path": ".github/scripts/memory-watch.sh",
+      "upstream_git_blob_sha1": "d66ca6c3d41cb59e7b06e9e55e963cc52028d756",
+      "local_git_blob_sha1": null,
+      "local_sha256": null,
+      "matches": false,
+      "difference": "added_upstream"
+    },
+    {
+      "path": ".github/scripts/memory-watch.test.mjs",
+      "upstream_git_blob_sha1": "007c1562d86826b4f37360f0b7956aee40a1c957",
+      "local_git_blob_sha1": null,
+      "local_sha256": null,
+      "matches": false,
+      "difference": "added_upstream"
+    },
+    {
+      "path": ".github/scripts/outside-guard.mjs",
+      "upstream_git_blob_sha1": "ed6eb822f950c95ea304a162e3a4f7da3a736510",
+      "local_git_blob_sha1": "ed6eb822f950c95ea304a162e3a4f7da3a736510",
+      "local_sha256": "a4fde1897820a2a4a3e0d74bf1079259e310de1f1ede37c9a91adaf895842781",
+      "matches": true
+    },
+    {
+      "path": ".github/scripts/outside-guard.test.mjs",
+      "upstream_git_blob_sha1": "c8b068be9684298f3ddb95a64a44fbb4987b82d8",
+      "local_git_blob_sha1": "c8b068be9684298f3ddb95a64a44fbb4987b82d8",
+      "local_sha256": "9abf9ccaaaad4688f05eeb6755ba15bc4a01184ebfc86348f288f6c41ae3d528",
+      "matches": true
+    },
+    {
+      "path": ".github/workflows/advisory.yml",
+      "upstream_git_blob_sha1": "c7171ab464beb606b2a1ff73ca50ffd2dd4fed12",
+      "local_git_blob_sha1": "2f3c56f6abb928dc5b3749c830e9757d615b4a86",
+      "local_sha256": "2a709005a8c223bd09960e65e95ad6acb30646fbd73e3095e3921ca11165e0cd",
+      "matches": false
+    },
+    {
+      "path": ".github/workflows/authoritative.yml",
+      "upstream_git_blob_sha1": "b092519916a947ca1c0b853623c84ebc9618b92c",
+      "local_git_blob_sha1": "cd0f0ee3b617b0346d74da31de33cecb6b4ea083",
+      "local_sha256": "d5eed23711548f52f33f15d09b072d81b7e46d2291ab412cd128e200d9cc08ee",
+      "matches": false
+    },
+    {
+      "path": ".github/workflows/land-by-push.yml",
+      "upstream_git_blob_sha1": "5cc23fca3be9d45e83323a5e1724c752dfdbee83",
+      "local_git_blob_sha1": "5cc23fca3be9d45e83323a5e1724c752dfdbee83",
+      "local_sha256": "4bb2339e0aad91c0cb22c2aa678281ab1e3f426d788609beab34631430b50ccf",
+      "matches": true
+    },
+    {
+      "path": "tools/bin/lake",
+      "upstream_git_blob_sha1": "cac680a4b6eecab77dbe35fe5ad5d09b4e174220",
+      "local_git_blob_sha1": "cac680a4b6eecab77dbe35fe5ad5d09b4e174220",
+      "local_sha256": "cb93d28f2d24e6fbff5fcd5bd408b54184119040b254a5e25c11cfb9e41a1cac",
+      "matches": true
+    },
+    {
+      "path": "tools/build.sh",
+      "upstream_git_blob_sha1": "17126aac90cd804c23f2da3ed6b2bb8bd2a76735",
+      "local_git_blob_sha1": "17126aac90cd804c23f2da3ed6b2bb8bd2a76735",
+      "local_sha256": "0ddbc90616593ec69d54a4154be17af1f79b876db03cb3f0f16f691e3ca693a3",
+      "matches": true
+    },
+    {
+      "path": "tools/check-lean.mjs",
+      "upstream_git_blob_sha1": "196628c1a3f5cfcdaaf668c347588c7a96cc31c5",
+      "local_git_blob_sha1": "196628c1a3f5cfcdaaf668c347588c7a96cc31c5",
+      "local_sha256": "d3f8ca82be7a4aabcf5aba7727b715140c82fa575340c6a8f5d7b134bf4d23ad",
+      "matches": true
+    },
+    {
+      "path": "tools/pnp.sh",
+      "upstream_git_blob_sha1": "e68f0652e1c69c4705f6551a569a5b4da67b2557",
+      "local_git_blob_sha1": "e68f0652e1c69c4705f6551a569a5b4da67b2557",
+      "local_sha256": "8e04b321cb1541109c509928bbf4bebde4c76348f854235de182fa212c0ec410",
+      "matches": true
+    },
+    {
+      "path": "lean/PEqualNP/Defs.lean",
+      "upstream_git_blob_sha1": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "local_git_blob_sha1": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "local_sha256": "594ff2311557f39573545905a9b6bcdb0b4e15db024ebcf15f921d250a1c8fbe",
+      "matches": true
+    }
+  ],
+  "CI_differences": [
+    {
+      "path": ".github/scripts/install-elan.sh",
+      "upstream_git_blob_sha1": "d4d07f2da8dde5d3b95c27d9a38568c34b663b07",
+      "local_git_blob_sha1": null,
+      "local_sha256": null,
+      "matches": false,
+      "difference": "added_upstream"
+    },
+    {
+      "path": ".github/scripts/install-elan.test.mjs",
+      "upstream_git_blob_sha1": "db2206f12bd14d0f7dd51be9ee961c7ec9a6dd9f",
+      "local_git_blob_sha1": null,
+      "local_sha256": null,
+      "matches": false,
+      "difference": "added_upstream"
+    },
+    {
+      "path": ".github/scripts/memory-watch.sh",
+      "upstream_git_blob_sha1": "d66ca6c3d41cb59e7b06e9e55e963cc52028d756",
+      "local_git_blob_sha1": null,
+      "local_sha256": null,
+      "matches": false,
+      "difference": "added_upstream"
+    },
+    {
+      "path": ".github/scripts/memory-watch.test.mjs",
+      "upstream_git_blob_sha1": "007c1562d86826b4f37360f0b7956aee40a1c957",
+      "local_git_blob_sha1": null,
+      "local_sha256": null,
+      "matches": false,
+      "difference": "added_upstream"
+    },
+    {
+      "path": ".github/workflows/advisory.yml",
+      "upstream_git_blob_sha1": "c7171ab464beb606b2a1ff73ca50ffd2dd4fed12",
+      "local_git_blob_sha1": "2f3c56f6abb928dc5b3749c830e9757d615b4a86",
+      "local_sha256": "2a709005a8c223bd09960e65e95ad6acb30646fbd73e3095e3921ca11165e0cd",
+      "matches": false
+    },
+    {
+      "path": ".github/workflows/authoritative.yml",
+      "upstream_git_blob_sha1": "b092519916a947ca1c0b853623c84ebc9618b92c",
+      "local_git_blob_sha1": "cd0f0ee3b617b0346d74da31de33cecb6b4ea083",
+      "local_sha256": "d5eed23711548f52f33f15d09b072d81b7e46d2291ab412cd128e200d9cc08ee",
+      "matches": false
+    }
+  ],
+  "CI_difference_scope": "The same changes are already present at local b9ee4cd. advisory/authoritative workflows pin Elan v4.4.0 installation and use added install-elan.sh. authoritative also extracts/updates memory and CPU watchdog logic into memory-watch.sh and hashes that script. They do not alter CheckLemma, outside-guard, tools/check-lean, tools/build, lake manifest or definition sources.",
+  "evidence_files": [
+    "env-upstream-blobs.json"
+  ],
+  "limitations": "This establishes source/configuration compatibility, not an authoritative CI verdict. Generated binaries are not remotely compared."
+}

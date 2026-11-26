@@ -1,0 +1,63 @@
+{
+  "modules": [
+    {
+      "module": "Pnp4201Cover105",
+      "source_sha256": "32e921f17fdf18289897c03543d31a3cfc1245d441c13eea646a861446d799cc",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part0"
+    },
+    {
+      "module": "Pnp4201Graph",
+      "source_sha256": "3d08e8a902e29a8ca20fbd5714537708a0ef917c294b316baaedfdc2995de78c",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part1"
+    },
+    {
+      "module": "PEqualNP.Outside.L_meta_2235",
+      "source_sha256": "fe68d9e33c8e6369bce3fce31f9a703b42f0c3f160c9056d485f8654a87c1bbf",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part2"
+    },
+    {
+      "module": "PEqualNP.Outside.L_meta_1501",
+      "source_sha256": "d59441b3eaa88603ebbc72ee6b4f59d1a0512ab559a39cc2f53b1430af608dcc",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part3"
+    },
+    {
+      "module": "Pnp4201CleanOrCount",
+      "source_sha256": "171665a973dec6ebe230ad3daca21d98a8065ef73f412f87028b32c7f1a202fd",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part4"
+    },
+    {
+      "module": "Pnp2343Pruning",
+      "source_sha256": "4f080984395e3362d5164a3ca1528beee970f42ca58b651130aa6c817098cb5d",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part5"
+    },
+    {
+      "module": "Pnp4201OrBudget",
+      "source_sha256": "e2b63e64080ec8919a421d0c64e8fc0d679546e858cd479190cb794189e70858",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part6"
+    },
+    {
+      "module": "Pnp4201BudgetTopForm",
+      "source_sha256": "4a6c8b5140f99a7c6730080441636ff51f76f3f33b286f6271fdd27c1d8c59d9",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part7"
+    },
+    {
+      "module": "Pnp4201CleanBudgetTopForm",
+      "source_sha256": "48e7d9aa2a5ddd8b8be6a118903cb74c8e4e0b36d7cc22e74bedc5568cd465fc",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part8"
+    },
+    {
+      "module": "Pnp4201CleanNormalize",
+      "source_sha256": "550c6a6f4160184c8e5b71c9e4e4080e6909c93a465a3cef769fa8c03569578d",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part9"
+    },
+    {
+      "module": "Pnp4201CleanCase",
+      "source_sha256": "f149c10630af19768cacaf80f315642752a1b32eace4cf00b76f2afb214167e8",
+      "bundled_namespace": "PEqualNP.Outside.L_meta_8323.Part10"
+    }
+  ],
+  "bytes": 282145,
+  "sha256": "22ae16e3eaca0035fe210c92696e783bd83d16acc65d3ae429836cef83db2dee",
+  "statement_sha256": "ea9da5a93cdce2730e73e9dfe572610b1f6cb565daff7e96c8f55c0a6d8ccfbf",
+  "attribution": "Upstream L1501 and L2235 proofs plus the recorded research modules."
+}

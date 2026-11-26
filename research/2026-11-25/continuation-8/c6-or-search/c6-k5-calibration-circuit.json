@@ -1,0 +1,103 @@
+{
+  "status": "SATISFIABLE",
+  "or_count": 5,
+  "total_gates": 8,
+  "selected_ports": [
+    [
+      "x5"
+    ],
+    [
+      "x1"
+    ],
+    [
+      "x3"
+    ],
+    [
+      "x1"
+    ],
+    [
+      "x5"
+    ],
+    [
+      "x3"
+    ],
+    [
+      "x2",
+      "o1"
+    ],
+    [
+      "x0",
+      "o0"
+    ],
+    [
+      "o3"
+    ],
+    [
+      "x4",
+      "o2"
+    ],
+    [
+      "o4"
+    ]
+  ],
+  "rows_independently_verified": 64,
+  "gates": [
+    {
+      "op": "or",
+      "inputs": [
+        5,
+        1
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        3,
+        1
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        5,
+        3
+      ]
+    },
+    {
+      "op": "and",
+      "inputs": [
+        2,
+        7
+      ]
+    },
+    {
+      "op": "and",
+      "inputs": [
+        0,
+        6
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        9,
+        10
+      ]
+    },
+    {
+      "op": "and",
+      "inputs": [
+        4,
+        8
+      ]
+    },
+    {
+      "op": "or",
+      "inputs": [
+        11,
+        12
+      ]
+    }
+  ],
+  "output": 13
+}

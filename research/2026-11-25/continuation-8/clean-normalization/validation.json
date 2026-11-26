@@ -1,0 +1,21 @@
+{
+  "status": "ordinary-lean-passed",
+  "exit_code": 0,
+  "log_bytes": 0,
+  "source_sha256": "550c6a6f4160184c8e5b71c9e4e4080e6909c93a465a3cef769fa8c03569578d",
+  "source_bytes": 8989,
+  "source_lines": 206,
+  "importable_olean_built": true,
+  "strict_checker_run_by_this_agent": false,
+  "dependencies": {
+    "lean/Pnp2343Pruning.lean": "4f080984395e3362d5164a3ca1528beee970f42ca58b651130aa6c817098cb5d",
+    "lean/Pnp4201OrBudget.lean": "e2b63e64080ec8919a421d0c64e8fc0d679546e858cd479190cb794189e70858"
+  },
+  "endpoint": "PEqualNP.Outside.Pnp4201CleanNormalize.normalize_nonconstant_clean_budgets",
+  "scope": "arbitrary Monotone2 circuit computing nonconstant f, with every original AND false on each f-negative input; output IsAO2 preserves full function equality, total size upper bound, every operation-count upper bound, and the same semantic AND cleanliness",
+  "not_claimed": [
+    "existence of a clean equivalent for an arbitrary dirty circuit",
+    "unconditional L-meta-4201",
+    "official acceptance of L-meta-8323"
+  ]
+}

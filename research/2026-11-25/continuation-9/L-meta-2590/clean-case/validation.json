@@ -1,0 +1,87 @@
+{
+  "task": "L-meta-2590",
+  "full_task_proved": false,
+  "counterexample_found_by_this_component": false,
+  "status": "Completed clean-case research, frozen; new proof work halted after root reported renewal410.",
+  "lease_event": {
+    "root_reported_renewal_http_status": 410,
+    "at_utc": "2026-11-25T07:53:45Z",
+    "new_proof_work_stopped": true,
+    "lease_operations_by_this_agent": false
+  },
+  "ordinary_exit_observed_utc": "2026-11-25T07:53:13Z",
+  "ordinary_checks": [
+    {
+      "file": "Pnp2590Graph.lean",
+      "sha256": "deb90e3f1ebcf96e6143539be60105bd1ec1f930ae65258d975a659a5394f70d",
+      "exit_code": 0,
+      "log": "Graph-lean.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "Pnp2590CleanBound.lean",
+      "sha256": "841942f7dc4fe48f250d1e9b2dd1c5fd6b2d92500f7a8b862e72861bae392d07",
+      "exit_code": 0,
+      "log": "CleanBound-lean.log",
+      "log_bytes": 0
+    },
+    {
+      "file": "Pnp2590CleanBoundAudit.lean",
+      "sha256": "043aec1380cdfd6813e39d92d450c6471b64e14b91cd3479518538e26cb0ccc7",
+      "exit_code": 0,
+      "log": "CleanBound-axioms.log",
+      "audited_theorems": 6,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "independent_review": {
+    "reviewer": "remote_status agent",
+    "mode": "read-only source review; no edits or Lean jobs",
+    "scope_defect_found": false
+  },
+  "strict_checker_run": false,
+  "official_pr_created": false,
+  "official_acceptance": false,
+  "toolchain": {
+    "lean": "4.36.0",
+    "mathlib_commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842"
+  },
+  "dependencies": [
+    "Pnp4201CleanOrCount",
+    "Pnp4201CleanBudgetTopForm",
+    "Pnp4201CleanNormalize"
+  ],
+  "source_attribution": [
+    "Exact target and edge list: public L-meta-2590 statement.",
+    "The generic center/cover construction adapts upstream L_meta_2235.s2231 (Apache-2.0), replacing its read-once edge restriction by the already-proved clean-TopForm edge witnesses.",
+    "Normalization and OR counting reuse the frozen continuation-8 research modules and their L_meta_1501/L_meta_2235/Pnp2343Pruning attribution."
+  ],
+  "scope": {
+    "geometry": "Exact task target equals Petersen graphFun; graph is C4-free, has15 ordered edges, and every vertex cover has at least6 vertices.",
+    "clean_topform": "Exact AO2 circuit, TopForm and every AND BelowF imply ANDcount>=6, ORcount>=14 and total>=20.",
+    "clean_monotone": "Exact Monotone2 circuit with every AND BelowF implies total>=20 and ORcount>=14. No ANDcount>=6 assertion is made for the original non-TopForm circuit.",
+    "necessary_dirty_witness": "Any exact Monotone2 circuit of size<=19 has a real AND gate firing on an arbitrary target-negative input. No pair-witness or singleton-off conclusion is asserted."
+  },
+  "reproduction_packaging": {
+    "script": "reproduce.sh",
+    "script_sha256": "5a2357664d5c85c704453779ec71235878e40a59c58bf407ba6e1921fc12d01a",
+    "guide": "REPRODUCE.md",
+    "guide_sha256": "60fb31c60e3ccdb79b9ae8741f96aeb46f752973c4828f100680708ffb4514af",
+    "required_checkout": "259523a5b265318b84f9377f2feb965fd213f898",
+    "environment_compatibility_record": "continuation-8/env-compatibility.json",
+    "requires_existing_pinned_toolchain_and_package_cache": true,
+    "bash_syntax_exit_code": 0,
+    "embedded_python_syntax_checked": true,
+    "frozen_source_paths_and_hashes_checked": 11,
+    "import_order_checked": true,
+    "refuses_different_existing_source_files": true,
+    "script_executed": false,
+    "additional_lean_runs": 0,
+    "remote_operations_by_packaging": false,
+    "strict_checker_invoked": false
+  }
+}
