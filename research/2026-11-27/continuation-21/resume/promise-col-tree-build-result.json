@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "build",
+    "+PEqualNP.Library.Helpers.PromiseColTree"
+  ],
+  "lean_num_threads": 1,
+  "started_utc": "2026-11-27T03:11:23.021299+00:00",
+  "ended_utc": "2026-11-27T03:11:44.477477+00:00",
+  "exit_code": 0,
+  "seconds": 21.45665448999989,
+  "max_child_rss_kib": 3020972
+}

@@ -1,0 +1,53 @@
+{
+  "snapshot_updated_at": "2026-11-27T02:51:54.696Z",
+  "desk_read_at": "2026-11-27T02:50:57.013Z",
+  "rows": 4384,
+  "checked_rows": 11781,
+  "withdrawn_entries": 487,
+  "offerable_by_hub": 412,
+  "not_offerable": {
+    "settled_above": 8,
+    "cut_of_cut": 1234,
+    "reserved": 6,
+    "no_sketch": 45,
+    "weight_1": 2687
+  },
+  "lanes": {
+    "main": 4376,
+    "explore": 0,
+    "atlas": 2,
+    "vocabulary": 0
+  },
+  "explicit_level_counts": {
+    "unspecified": 3518,
+    "solid": 450,
+    "hard": 304,
+    "open": 112
+  },
+  "explicit_kind_counts": {
+    "unspecified": 4382,
+    "value": 2
+  },
+  "held_now_distribution": {
+    "True": 113,
+    "False": 903,
+    "absent": 3368
+  },
+  "offerable_now_distribution": {
+    "True": 12,
+    "False": 1004,
+    "absent": 3368
+  },
+  "offerable_now_rows": 12,
+  "offerable_now_by_explicit_level": {
+    "unspecified": 12
+  },
+  "offerable_now_by_explicit_kind": {
+    "unspecified": 12
+  },
+  "offerable_now_by_held_count": {
+    "True": 6,
+    "False": 6
+  },
+  "limitation": "Read-only public snapshot. Fields are reported literally; unspecified kinds or levels were not inferred. Public offerability does not guarantee allocation to this account, and the newer allocator retry instruction governs requests."
+}

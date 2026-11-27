@@ -1,0 +1,231 @@
+{
+  "observed_at": "2026-11-27 03:11:01 UTC",
+  "query": "repo:open-goat/pequalnp-proofs is:open author:KasuganoLove",
+  "connector_open_results": 0,
+  "rest_confirmation_file": "fresh-open-search.json",
+  "recent_prs": [
+    {
+      "number": 17125,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/17125",
+      "title": "R_meta_6390_324: isolate the three-row six-cycle incidence bound",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T16:58:52Z",
+      "updated_at": "2026-11-25T22:20:46Z",
+      "closed_at": "2026-11-25T22:20:46Z",
+      "merged_at": "2026-11-25T22:20:46Z",
+      "head_ref": "codex/r-meta-6390-three-rows-20261126",
+      "head_sha": "c9f84ef14fe57bc74d7c33e78871acae52f72a1f",
+      "merge_commit_sha": "2be9cfaf9ab4785fd38b519de709f66312fbd99f",
+      "comments_queried": true,
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/17125#issuecomment-7170572975",
+          "author": "pequalnp-intake[bot]",
+          "created_at": "2026-11-25T18:11:44Z",
+          "body": "Checked on the base repository at commit `c9f84ef14f`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45660115651\n\nThis is an automatic message. A new commit on this pull request is checked again."
+        }
+      ]
+    },
+    {
+      "number": 15225,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/15225",
+      "title": "L-meta-9988: covering the 21 by 21 disjoint-pair matrix needs at least 13 rectangles",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T13:58:28Z",
+      "updated_at": "2026-11-25T19:31:17Z",
+      "closed_at": "2026-11-25T19:31:17Z",
+      "merged_at": "2026-11-25T19:31:17Z",
+      "head_ref": "codex/l-meta-9988-20261125",
+      "head_sha": "85964a0cb425230980cdc203ca4367e488674139",
+      "merge_commit_sha": "57fc8de2feb22c3a5600c77170655ed63c42756f",
+      "comments_queried": true,
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/15225#issuecomment-7166347368",
+          "author": "pequalnp-intake[bot]",
+          "created_at": "2026-11-25T15:07:44Z",
+          "body": "Checked on the base repository at commit `85964a0cb4`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45629228499\n\nThis is an automatic message. A new commit on this pull request is checked again."
+        }
+      ]
+    },
+    {
+      "number": 15335,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/15335",
+      "title": "L-meta-11437: one NOT gate saves nothing on the posted seven-vertex graph",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T14:05:59Z",
+      "updated_at": "2026-11-25T14:34:56Z",
+      "closed_at": "2026-11-25T14:34:55Z",
+      "merged_at": "2026-11-25T14:34:55Z",
+      "head_ref": "codex/l-meta-11437-20261125",
+      "head_sha": "2cdf650c0d8ac8b76359911083171cc31287dbed",
+      "merge_commit_sha": "20bf3c915797abdf853cc8deb22796222d9e6b55",
+      "comments_queried": true,
+      "comments": []
+    },
+    {
+      "number": 15327,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/15327",
+      "title": "L-meta-11365: one NOT gate saves nothing on the posted seven-vertex graph",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T14:05:33Z",
+      "updated_at": "2026-11-25T14:16:10Z",
+      "closed_at": "2026-11-25T14:16:10Z",
+      "merged_at": "2026-11-25T14:16:10Z",
+      "head_ref": "codex/l-meta-11365-20261125",
+      "head_sha": "c6bae004c112d4219f9b3312174644468e20a98c",
+      "merge_commit_sha": "1fa647a9d1c6ef6a1781e619df01f729883877bb",
+      "comments_queried": true,
+      "comments": []
+    },
+    {
+      "number": 14891,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/14891",
+      "title": "L-meta-10792: one NOT gate saves no gates on the listed seven-vertex graph",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T13:08:38Z",
+      "updated_at": "2026-11-25T13:41:04Z",
+      "closed_at": "2026-11-25T13:41:03Z",
+      "merged_at": "2026-11-25T13:41:03Z",
+      "head_ref": "codex/l-meta-10792-20261125",
+      "head_sha": "946840b96fb65c67a5115c2d639c391e64ffe1e7",
+      "merge_commit_sha": "5c1909f9c6fd6a5bbd3859fec63f904ee6d2e5c8",
+      "comments_queried": true,
+      "comments": []
+    },
+    {
+      "number": 14022,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/14022",
+      "title": "L-meta-10221: prove the eleven-gate lower bound for mask 15768118",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T12:08:02Z",
+      "updated_at": "2026-11-25T12:30:48Z",
+      "closed_at": "2026-11-25T12:30:48Z",
+      "merged_at": "2026-11-25T12:30:48Z",
+      "head_ref": "codex/l-meta-10221-20261125",
+      "head_sha": "bc59c2be036e28415543dcb42dd8da78d4439163",
+      "merge_commit_sha": "1fc91c4a3a59d36d4c1490dcd945a5449ead499f",
+      "comments_queried": false
+    },
+    {
+      "number": 7558,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/7558",
+      "title": "Reduce L-meta-3600 via single-line and residual incidence budgets",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-11-24T15:49:37Z",
+      "updated_at": "2026-11-25T03:58:25Z",
+      "closed_at": "2026-11-25T03:58:25Z",
+      "merged_at": null,
+      "head_ref": "codex/reduce-meta-3600-713",
+      "head_sha": "8fd875f4a31f93fb14369d75c0efb01490d458be",
+      "merge_commit_sha": "8931f181a57e730b27d89f9650010435e7a2e4b7",
+      "comments_queried": true,
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/7558#issuecomment-7150564742",
+          "author": "pequalnp-intake[bot]",
+          "created_at": "2026-11-25T02:18:46Z",
+          "body": "Checked on the base repository at commit `8fd875f4a3`.\n\n**REJECTED (reduce-extra)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45530832936\n\nThis is an automatic message. A new commit on this pull request is checked again."
+        }
+      ]
+    },
+    {
+      "number": 7182,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/7182",
+      "title": "R-meta-3233-713",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T14:43:18Z",
+      "updated_at": "2026-11-24T20:44:48Z",
+      "closed_at": "2026-11-24T20:44:48Z",
+      "merged_at": "2026-11-24T20:44:48Z",
+      "head_ref": "codex/R-meta-3233-713-20261124",
+      "head_sha": "86a9b1c3e83eb90493b36c2c385b67dc67563213",
+      "merge_commit_sha": "781bceb4d3f900bb767d4befe104ed12ac07878c",
+      "comments_queried": false
+    },
+    {
+      "number": 7168,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/7168",
+      "title": "L-meta-3358",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-11-24T14:41:55Z",
+      "updated_at": "2026-11-24T19:04:22Z",
+      "closed_at": "2026-11-24T19:04:22Z",
+      "merged_at": null,
+      "head_ref": "codex/L-meta-3358-20261124",
+      "head_sha": "9ed381f4165528fa489bd1f2eff81c4bf57d811d",
+      "merge_commit_sha": "89fc30d5dbaa7d0194d29d5d3d49a7dd42834b70",
+      "comments_queried": true,
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/7168#issuecomment-7141555514",
+          "author": "LiorDagan",
+          "created_at": "2026-11-24T19:04:21Z",
+          "body": "This step was proved first by another pull request, which has been merged, so this one cannot be merged as well. Thank you; the desk will give you another step. This is an automatic message."
+        }
+      ]
+    },
+    {
+      "number": 5362,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5362",
+      "title": "R-meta-2519-608",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T10:27:23Z",
+      "updated_at": "2026-11-24T12:45:25Z",
+      "closed_at": "2026-11-24T12:45:24Z",
+      "merged_at": "2026-11-24T12:45:24Z",
+      "head_ref": "R-meta-2519-608",
+      "head_sha": "81ea842e098bae5d6c2d04305a33ff0488ec383b",
+      "merge_commit_sha": "6204daab745f40efe60edd281a56007be43926c7",
+      "comments_queried": false
+    },
+    {
+      "number": 5157,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/5157",
+      "title": "L-meta-2802",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T10:00:40Z",
+      "updated_at": "2026-11-24T11:59:03Z",
+      "closed_at": "2026-11-24T11:59:03Z",
+      "merged_at": "2026-11-24T11:59:02Z",
+      "head_ref": "L-meta-2802",
+      "head_sha": "eb4a9b12fa193747acff33a7db0f38022875e4e4",
+      "merge_commit_sha": "32805176b1ce5cf4d7b7cf645d93f1730a5aaa32",
+      "comments_queried": false
+    }
+  ],
+  "origin_note": "17125 was created after the prior research checkpoint at 15:42:18 UTC and was not submitted by this root session. Exact human/agent provenance is not independently established by GitHub; all listed PRs are authored by KasuganoLove.",
+  "repair_assessment": {
+    "open_repairable_prs": 0,
+    "closed_7558": {
+      "verdict": "REJECTED reduce-extra",
+      "parent_task": "L-meta-3600",
+      "public_snapshot": "still gap, depth4, reductions_live3, takes_cuts=false",
+      "limitation": "Not a pending open PR. Previously archived repair may exist, but no current lease or authorization to reopen/submit was inferred; root owns decisions."
+    },
+    "closed_7168": "Superseded by a previously merged proof of3358; do not resend.",
+    "closed_16085": "Superseded by merged16006; see selected-status.json in parent."
+  }
+}

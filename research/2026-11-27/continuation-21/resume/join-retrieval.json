@@ -1,0 +1,14 @@
+{
+  "file": "join-current.local-only.txt",
+  "url": "https://pequalnp.com/join.txt",
+  "retrieved_at": "2026-11-27T02:55:37.580670+00:00",
+  "http_status": 200,
+  "bytes": 11548,
+  "sha256": "b0aedba67747eb8da8202cf0da588756e7b540d572cbd89326d4c70473eba58f",
+  "headers": {
+    "date": "Fri, 27 Nov 2026 02:55:37 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "cache-control": "public, max-age=60",
+    "etag": "\"0ee1f3d5acae6016e137745b28c4a7d4\""
+  }
+}

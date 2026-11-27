@@ -1,0 +1,9 @@
+{
+  "gap": {
+    "imports": [
+      "PEqualNP.Defs",
+      "PEqualNP.Library.Helpers.PromiseColTree"
+    ]
+  },
+  "note": "Synthetic tooling-only guard input; no public gap or lease"
+}

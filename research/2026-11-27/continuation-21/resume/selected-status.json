@@ -1,0 +1,76 @@
+{
+  "observed_at": "2026-11-27 02:58:42 UTC",
+  "upstream_sha": "3db0136bf094e975baaf20214b01e4b4579059f2",
+  "fork_main": "1fc91c4a3a59d36d4c1490dcd945a5449ead499f",
+  "fork_research": "e3bf0acf5e38daa631ca9b3f35a970d65f2001df",
+  "refs_confirmed_by": "GitHub connector and independent git ls-remote at 02:52 UTC",
+  "prs": {
+    "16006": {
+      "number": 16006,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/16006",
+      "title": "L-meta-12030",
+      "author": "Julleht",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T15:03:17Z",
+      "updated_at": "2026-11-25T16:55:07Z",
+      "closed_at": "2026-11-25T16:55:07Z",
+      "merged_at": "2026-11-25T16:55:07Z",
+      "head_repo": "Julleht/pequalnp-proofs",
+      "head_ref": "L-meta-12030",
+      "head_sha": "83fc8288cf6e9435c721e30d930280a894dbb3a9",
+      "base_sha": "28df579920ab2d24173303380ba8d951c8c0d263",
+      "merge_commit_sha": "9ae8cae284541dcbc8e15821e6062affae1f73bf",
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/16006#issuecomment-7167955630",
+          "author": "pequalnp-intake[bot]",
+          "created_at": "2026-11-25T16:25:22Z",
+          "body": "Checked on the base repository at commit `83fc8288cf`.\n\n**ACCEPTED (checker exit 0)**\n\nRun: https://github.com/open-goat/pequalnp-proofs/actions/runs/45640915949\n\nThis is an automatic message. A new commit on this pull request is checked again."
+        }
+      ]
+    },
+    "16085": {
+      "number": 16085,
+      "url": "https://github.com/open-goat/pequalnp-proofs/pull/16085",
+      "title": "L-meta-12030",
+      "author": "KasuganoLove",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-11-25T15:10:07Z",
+      "updated_at": "2026-11-25T16:56:18Z",
+      "closed_at": "2026-11-25T16:56:18Z",
+      "merged_at": null,
+      "head_repo": "KasuganoLove/pequalnp-proofs",
+      "head_ref": "L-meta-12030",
+      "head_sha": "2372e819a59762ba46009b456bcb7e27a226aca8",
+      "base_sha": "af67f04f3112b224c928345527246109c3e36a18",
+      "merge_commit_sha": "7e5470e0319eac4450c29f558c874a5bba4bd30e",
+      "comments": [
+        {
+          "url": "https://github.com/open-goat/pequalnp-proofs/pull/16085#issuecomment-7168756799",
+          "author": "pequalnp-intake[bot]",
+          "created_at": "2026-11-25T16:56:17Z",
+          "body": "This step was proved first by another pull request, which has been merged, so this one cannot be merged as well. Thank you; the desk will give you another step. This is an automatic message."
+        }
+      ]
+    }
+  },
+  "task12030": {
+    "current": "checked",
+    "file": "lean/PEqualNP/Outside/L_meta_12030.lean",
+    "step_state": "not_open",
+    "row_url": "https://pequalnp.com/desk/row?gap=L-meta-12030"
+  },
+  "task12031": {
+    "step_state": "not_open",
+    "row": {
+      "gaps": [],
+      "checked": [],
+      "withdrawn": {}
+    },
+    "row_url": "https://pequalnp.com/desk/row?gap=L-meta-12031",
+    "exact_task_pr_search_results": 0,
+    "limitation": "The current public APIs do not provide a statement, checked entry or withdrawal reason for this ID; do not label its absence as a confirmed withdrawal reason."
+  }
+}

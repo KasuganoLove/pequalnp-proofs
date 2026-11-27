@@ -1,0 +1,17 @@
+{
+  "scope": "Synthetic generic tooling fixture only; not an official proof",
+  "command_argv": [
+    "bash",
+    "-lc",
+    "source /workspace/scratch/65f339da29fe/pnp-tools/env.sh\nexec lake env lean -j1 /workspace/scratch/65f339da29fe/pnp-session-2026-11-27/tooling/smoke/L_meta_generator_smoke.lean"
+  ],
+  "cwd": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean",
+  "source_sha256": "4c2b4f0998732c0857f26e4dd433d8620eae4920ae77dfb14b5863bdcbb3e383",
+  "started_utc": "2026-11-27T03:12:40.764007+00:00",
+  "finished_utc": "2026-11-27T03:12:44.317358+00:00",
+  "elapsed_seconds": 3.55289737899966,
+  "exit_code": 0,
+  "stdout_bytes": 0,
+  "stderr_bytes": 0,
+  "strict_project_checker": "NOT_RUN"
+}

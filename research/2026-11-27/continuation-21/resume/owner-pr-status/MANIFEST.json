@@ -1,0 +1,23 @@
+{
+  "prepared_at": "2026-11-27T03:11:02.779279+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2640,
+      "sha256": "0c67e645dc177527cd9f5c32dd9570998ea76b234ae4e9466ea8cf204e55fd4f"
+    },
+    {
+      "path": "fresh-open-search.json",
+      "bytes": 503,
+      "sha256": "33e699960833b5824b01dac73071e9b0a692892c865bae0af87fef68b6e6386d"
+    },
+    {
+      "path": "selected-prs.json",
+      "bytes": 10113,
+      "sha256": "f8315407cec9d43e25d5a6dbe844da0ca4bc66c37a3826b30d7c39f9851bcc18"
+    }
+  ],
+  "total_bytes": 13256,
+  "remote_writes": false,
+  "allocations": false
+}

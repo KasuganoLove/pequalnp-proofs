@@ -1,0 +1,63 @@
+{
+  "frozen_at": "2026-11-27T03:01:07.602294+00:00",
+  "scope": "Read-only resumption audit, no allocations or remote writes.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4574,
+      "sha256": "95362e220186e0e76f26dfc1824f05a60a9a41b98755287c4fb8583ebab8577c"
+    },
+    {
+      "path": "selected-status.json",
+      "bytes": 3240,
+      "sha256": "42607825aa11982abd92be3e8e9a77c20e33575594f870d5ab9ac0002f7bce94"
+    },
+    {
+      "path": "configuration-comparison.json",
+      "bytes": 4108,
+      "sha256": "c16788d8700467517b4225f4c60f560212f2f8b9af5289c3b01b5adcca5832f9"
+    },
+    {
+      "path": "protocol-contract.json",
+      "bytes": 3739,
+      "sha256": "6c86ed7a8ecfc11e6fa4bae501bdf240ac370d3f8faf8fc75908269394913c30"
+    },
+    {
+      "path": "availability-summary.json",
+      "bytes": 1267,
+      "sha256": "2f9a7f89f40d44114583cd9ce18343517d2d9adb5cd70c8b49d03bdd8db4765b"
+    },
+    {
+      "path": "join-retrieval.json",
+      "bytes": 468,
+      "sha256": "f98b614995d16685df7c886bb6f38f0f8901a5a573f677c0ee20c9cbbf2b7b04"
+    },
+    {
+      "path": "step12030.json",
+      "bytes": 217,
+      "sha256": "5b0310bd187e65cb1da72b5057b30dd21100dc635b6099bf6ab03de6d4fc3328"
+    },
+    {
+      "path": "step12031.json",
+      "bytes": 217,
+      "sha256": "04fd76f678398643a2af17877ce3763821a00270305633da393df74a896ebe82"
+    },
+    {
+      "path": "row12030.json",
+      "bytes": 181,
+      "sha256": "2a8734bb074b98905d9bd7e1448fd13c45b8d6283c68678f7dc083a14d04aa2a"
+    },
+    {
+      "path": "row12031.json",
+      "bytes": 93,
+      "sha256": "a10bf2d03127f64938fa5845b038beb896b3793dc0febac6d0d0df5c84b0c626"
+    }
+  ],
+  "file_count": 10,
+  "total_bytes": 18104,
+  "excluded": [
+    "desk-reference.local-only.json",
+    "join-current.local-only.txt",
+    "config-reference.local-only/"
+  ]
+}

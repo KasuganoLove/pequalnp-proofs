@@ -1,0 +1,27 @@
+{
+  "prepared_at": "2026-11-27T03:07:41.550948+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2392,
+      "sha256": "9450608886d3d2644fc76578b30814b258a20766688ba8f5a6c71cd293fcafc4"
+    },
+    {
+      "path": "allocation-observation.json",
+      "bytes": 589,
+      "sha256": "b2569efe8593870a724478795c5dde076833e5e3efb0581ceb91d91983f8983d"
+    },
+    {
+      "path": "row20580.json",
+      "bytes": 2305,
+      "sha256": "e16a979b5d1807555c5ffc6e298e9b7be19b3f51a23468ef4cef3b7b0ef6c115"
+    },
+    {
+      "path": "row20580-metadata.json",
+      "bytes": 1001,
+      "sha256": "1fb14b16551ab57c49a7ff5741753f574ee3183a8f654bdce6c8373dc2208328"
+    }
+  ],
+  "total_bytes": 6287,
+  "scope": "Read-only diagnostic; no allocation, lease mutation or task proof work."
+}

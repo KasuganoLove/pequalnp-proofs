@@ -1,0 +1,32 @@
+{
+  "url": "https://pequalnp.com/desk/row?gap=L-meta-20580",
+  "retrieved_at": "2026-11-27T03:05:57.015581+00:00",
+  "sha256": "e16a979b5d1807555c5ffc6e298e9b7be19b3f51a23468ef4cef3b7b0ef6c115",
+  "headers": {
+    "date": "Fri, 27 Nov 2026 03:05:57 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "no-store"
+  },
+  "row_updated_at": "2026-11-27T03:04:37.939Z",
+  "rows": [
+    {
+      "id": "L-meta-20580",
+      "title": "A 32 by 32 graph of the candidate family (k = 5): some AND/OR/NOT circuit of fan-in at most two with at most 150 gates represents it",
+      "weight": 110,
+      "depth": 0,
+      "lane": "main",
+      "held_now": false,
+      "offerable_now": true,
+      "parallel": 5,
+      "takes_cuts": false,
+      "pr_open": 0,
+      "pr_numbers": [],
+      "faithful_by_template": {
+        "template": "bars-k5",
+        "hash": "994681e1df2d62b5b43921727e973d59769ee7666a6451f6a9165b5c9dbb2691"
+      }
+    }
+  ],
+  "checked": [],
+  "withdrawn": {}
+}

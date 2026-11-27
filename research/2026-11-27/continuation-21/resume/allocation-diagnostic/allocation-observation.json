@@ -1,0 +1,14 @@
+{
+  "gap": null,
+  "note": "No unit is free right now: the fleet is in deep research and posts few new units tonight. This is expected, not a fault of your agent. Ask again in a few minutes; please do not pick a unit from the public file: it may already be held, and only the first valid proof is recorded.",
+  "retry_after_s": 300,
+  "root_reported_request_at": "2026-11-27T03:02:05Z",
+  "root_reported_request_query": {
+    "handle": "KasuganoLove",
+    "another": "1",
+    "model": "gpt-6-astra-pro",
+    "value": "1",
+    "gap": "L-meta-20580"
+  },
+  "this_agent_called_next": false
+}

@@ -1,0 +1,72 @@
+{
+  "scope": "Generic local environment restoration; all paths relative to this directory. No lease state, source proof candidates, or third-party full source included.",
+  "files": [
+    {
+      "path": "environment-restore.md",
+      "bytes": 2779,
+      "sha256": "b4c7285ce6ae6b66047131031982e455de9454d49c89fc41d9b3acc3cfa4797b"
+    },
+    {
+      "path": "environment-restore.json",
+      "bytes": 3314,
+      "sha256": "c928b4170d384c12f0d17057d103c942c73ec7658884c0d12c4faa5d8ee412fd"
+    },
+    {
+      "path": "environment-source-provenance.json",
+      "bytes": 3035,
+      "sha256": "ab03d1fafd15be1defaee5a13a7fe39dd686f415f057133694f73a34f6577ac7"
+    },
+    {
+      "path": "restored-package-pins.json",
+      "bytes": 1726,
+      "sha256": "7ab87631eb07ba1c98fcf062068557b384deec47b0c28f3667df9152896fe20a"
+    },
+    {
+      "path": "generic-dependency-roots.json",
+      "bytes": 6077,
+      "sha256": "f2cc838f3df79f15f82981fd5b01910c4187c929a3dfc0b37e06c16fa8f8c083"
+    },
+    {
+      "path": "elan-install.log",
+      "bytes": 28,
+      "sha256": "06c09f6daa65bae914273dd027db1dd1eddfce63ac3152b1cde48b1902504ed5"
+    },
+    {
+      "path": "lean-toolchain-install.log",
+      "bytes": 337,
+      "sha256": "94a5850ad6779afa5e0cb2561cb4bc249c50a440bbafa6135b8665fd5c31ae1e"
+    },
+    {
+      "path": "mathlib-cache-get.log",
+      "bytes": 28963,
+      "sha256": "1a7d31925aa069237a944b9aa96674af17b17072135de32bfbb411be28eb7b71"
+    },
+    {
+      "path": "defs-build.log",
+      "bytes": 60321,
+      "sha256": "a5828ecf2f2028359475a30a40155b270bc6a86acf1f818c18ec9c4ce052e2d0"
+    },
+    {
+      "path": "defs-build-result.json",
+      "bytes": 281,
+      "sha256": "27f4a22e921c181de9d7e054fe2afb9955903ab13535917eded6a04c82beb346"
+    },
+    {
+      "path": "defs-build-launch-attempt0.log",
+      "bytes": 60,
+      "sha256": "3e737f6a9117cec194b02103b357f8668fae9adb86a8a8cd0bf25efab8948548"
+    },
+    {
+      "path": "promise-col-tree-build.log",
+      "bytes": 61313,
+      "sha256": "dc13493fad1cef2b54ea4070db72c0d50afa0bf381e57037336729a508b1fb97"
+    },
+    {
+      "path": "promise-col-tree-build-result.json",
+      "bytes": 306,
+      "sha256": "d8595d7288b398dc0acf031585064ae228b603cecf400ac95f3bd3c2be309dc7"
+    }
+  ],
+  "file_count": 13,
+  "total_bytes": 168540
+}

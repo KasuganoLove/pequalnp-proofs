@@ -1,0 +1,1 @@
+{"output": "/workspace/scratch/65f339da29fe/pnp-session-2026-11-27/tooling/smoke/L_meta_generator_smoke.lean", "report": "/workspace/scratch/65f339da29fe/pnp-session-2026-11-27/tooling/smoke/L_meta_generator_smoke.audit.json", "gates": 1, "promise_inputs": 3, "source_sha256": "4c2b4f0998732c0857f26e4dd433d8620eae4920ae77dfb14b5863bdcbb3e383", "lean_compilation": "NOT_RUN"}

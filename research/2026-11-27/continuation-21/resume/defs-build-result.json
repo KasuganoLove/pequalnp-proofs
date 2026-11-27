@@ -1,0 +1,13 @@
+{
+  "command": [
+    "lake",
+    "build",
+    "+PEqualNP.Defs"
+  ],
+  "lean_num_threads": 1,
+  "started_utc": "2026-11-27T03:09:00.039634+00:00",
+  "ended_utc": "2026-11-27T03:11:10.628056+00:00",
+  "exit_code": 0,
+  "seconds": 130.58849675700003,
+  "max_child_rss_kib": 2961576
+}

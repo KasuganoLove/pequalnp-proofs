@@ -1,0 +1,14 @@
+{
+  "url": "https://api.github.com/search/issues?q=repo%3Aopen-goat%2Fpequalnp-proofs+is%3Apr+is%3Aopen+author%3AKasuganoLove&per_page=100&sort=updated&order=desc",
+  "retrieved_at": "2026-11-27T03:08:50.066660+00:00",
+  "http_status": 200,
+  "headers": {
+    "date": "Fri, 27 Nov 2026 03:08:50 GMT",
+    "cache-control": "no-cache",
+    "x-ratelimit-remaining": "9",
+    "x-github-request-id": "A69E:49C47:6193BB:69F9EB:6B08F441"
+  },
+  "total_count": 0,
+  "incomplete_results": false,
+  "items": []
+}

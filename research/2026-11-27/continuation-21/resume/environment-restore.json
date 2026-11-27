@@ -1,0 +1,92 @@
+{
+  "completed_utc": "2026-11-27T03:12:38.540283+00:00",
+  "status": "ready",
+  "scope": "Generic environment only. No lease actions, task proof jobs, remote writes, default project build, lake update, or tracked source changes by this restoration.",
+  "checkout": "/workspace/scratch/65f339da29fe/pequalnp-proofs",
+  "head": "3db0136bf094e975baaf20214b01e4b4579059f2",
+  "environment_entry": "/workspace/scratch/65f339da29fe/pnp-tools/env.sh",
+  "ELAN_HOME": "/workspace/scratch/65f339da29fe/pnp-tools/elan",
+  "lean": "leanprover/lean4:v4.36.0",
+  "lean_commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+  "elan": "4.4.0 (3cc76985a 2026-11-18)",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "cache": {
+    "command": "LEAN_NUM_THREADS=1 lake exe cache get",
+    "exit_code": 0,
+    "downloaded": 9117,
+    "decompressed": 9117,
+    "copies": 1,
+    "download_archive_directory": "/home/agent/.cache/mathlib"
+  },
+  "builds": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "+PEqualNP.Defs"
+      ],
+      "lean_num_threads": 1,
+      "started_utc": "2026-11-27T03:09:00.039634+00:00",
+      "ended_utc": "2026-11-27T03:11:10.628056+00:00",
+      "exit_code": 0,
+      "seconds": 130.58849675700003,
+      "max_child_rss_kib": 2961576
+    },
+    {
+      "command": [
+        "lake",
+        "build",
+        "+PEqualNP.Library.Helpers.PromiseColTree"
+      ],
+      "lean_num_threads": 1,
+      "started_utc": "2026-11-27T03:11:23.021299+00:00",
+      "ended_utc": "2026-11-27T03:11:44.477477+00:00",
+      "exit_code": 0,
+      "seconds": 21.45665448999989,
+      "max_child_rss_kib": 3020972
+    }
+  ],
+  "outputs": {
+    "PEqualNP.Defs": {
+      "path": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/.lake/build/lib/lean/PEqualNP/Defs.olean",
+      "present": true,
+      "bytes": 11952
+    },
+    "PromiseColTree": {
+      "path": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/.lake/build/lib/lean/PEqualNP/Library/Helpers/PromiseColTree.olean",
+      "present": true,
+      "bytes": 680688
+    },
+    "Mathlib": {
+      "path": "/workspace/scratch/65f339da29fe/pequalnp-proofs/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib.olean",
+      "present": true,
+      "bytes": 803632
+    }
+  },
+  "disk_bytes": {
+    "total": 20957446144,
+    "used": 13969817600,
+    "free": 5897109504
+  },
+  "memory_bytes": {
+    "MemTotal": 10451423232,
+    "MemAvailable": 9150373888
+  },
+  "git_status": {
+    "tracked_modified_count": 0,
+    "untracked_count": 0
+  },
+  "warnings": "Existing upstream module-system and deprecated-name warnings. No build errors. Sources left unchanged.",
+  "historical_setup_fault": "An initial timing wrapper exited127 because /usr/bin/time is absent, before invoking Lean. The same requested build then ran through Python timing and exited0.",
+  "installer": {
+    "source": "https://github.com/leanprover/elan/blob/master/elan-init.sh",
+    "command": "ELAN_HOME=... sh elan-init.sh -y --no-modify-path --default-toolchain none",
+    "local": {
+      "bytes": 9823,
+      "sha256": "a620ff1641616222c8d37c54845492004bb84d6877cdbc944dd65c1aa685bf53",
+      "git_blob": "ab8c346be2d665b2c77a6eba0dc2338c43413a9c"
+    },
+    "fetched_git_blob": "ab8c346be2d665b2c77a6eba0dc2338c43413a9c",
+    "local_matches_fetched": true
+  }
+}

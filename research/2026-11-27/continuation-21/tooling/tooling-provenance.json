@@ -1,0 +1,68 @@
+{
+  "scope": "Generic offline supplied-witness preparation only; no leased-task mathematics or search",
+  "checkout_head": "3db0136bf094e975baaf20214b01e4b4579059f2",
+  "lean_compilation": "One synthetic smoke ordinary build passed exit 0; other generated files NOT_RUN",
+  "strict_project_checker": "NOT_RUN",
+  "files": {
+    "generate_promise_proof.py": {
+      "sha256": "eb9031ce66e4e4f6eb0a28739896f0938fa8081e70833abb2b3f86053c2d2476",
+      "bytes": 17354
+    },
+    "check_promise_generator.py": {
+      "sha256": "b85fa749d24e808b9e4961704e8759652f5b46747dcc917c6bb12355c35b7324",
+      "bytes": 5794
+    },
+    "run_promise_smoke.py": {
+      "sha256": "f05bf0e743e749cd10e6af379ecc70cb1021d4cd6697cb77d4f48b74d3b1cbbf",
+      "bytes": 3173
+    },
+    "README-promise-generator.md": {
+      "sha256": "b4e1564d1aaed34f225a49b2d4f5e50c9083ed8f5025635460efbf91e8562c9e",
+      "bytes": 9944
+    },
+    "python-checks.json": {
+      "sha256": "1ef832fb661a47f3ac789f37fca3acfbebe72c6efb9f743eca7389dcd5a4a0e0",
+      "bytes": 1542
+    }
+  },
+  "reference_sources": {
+    "PEqualNP/Library/Helpers/PromiseColTree.lean": {
+      "sha256": "c62d212622a683f255004d6d75fc9af5e78c619e08b73252110adf0093976a49",
+      "bytes": 8225
+    },
+    "PEqualNP/Library/Helpers/PromiseCol.lean": {
+      "sha256": "f7161d6a67717d7df5c79186dbc0ec50b863d35d2e955942201d963254518e02",
+      "bytes": 7490
+    },
+    "PEqualNP/Library/Helpers/ReplayCol.lean": {
+      "sha256": "d77799d81a2365418e5daddad48ef65e817a59220cd54c13b2ef26dff3eb2ad3",
+      "bytes": 10965
+    },
+    "PEqualNP/Library/Helpers/Replay.lean": {
+      "sha256": "fad507b8c50739c1f2e2761047413eaf6c35c9b8734873857d5b6e54d4353d6a",
+      "bytes": 4649
+    },
+    "PEqualNP/Defs/Represents.lean": {
+      "sha256": "09f0390f30f5da016ecf83a5fbf2d6f52446f70bdf425103a82ffca08bce6f03",
+      "bytes": 5807
+    },
+    "PEqualNP/Outside/L_meta_19357.lean": {
+      "sha256": "0e8fbdca71905a4952da76bdfb6aa4ad1d21d92532360ef9d0eec4a831e77faa",
+      "bytes": 39920
+    },
+    "PEqualNP/Outside/L_meta_19358.lean": {
+      "sha256": "ffbd75eae924342b972d51c2e99bb1330595371a738b3cdbbdefefa197f32d91",
+      "bytes": 33742
+    },
+    "PEqualNP/Outside/L_meta_20578.lean": {
+      "sha256": "08b07ebb1edfb826bb061afcc09558ae5d75a6d4d626e43c373c4d8e6855d731",
+      "bytes": 3309
+    }
+  },
+  "validation": {
+    "python_checks": 12,
+    "official_format_py": "PASS exit 0",
+    "ordinary_smoke": "PASS exit 0, 3.55289737899966 seconds",
+    "ordinary_result": "smoke/ordinary-result.json"
+  }
+}

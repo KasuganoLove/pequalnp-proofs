@@ -1,0 +1,12 @@
+{
+  "scope": "Synthetic tooling candidate only; not a posted proof or lease",
+  "format_py_source": "pnp-session-2026-11-27/resume/config-reference.local-only/new/tools/pnp.sh",
+  "format_py_source_sha256": "724c341d2c928a8b8aade1f669c50c8748b4c4eaf2b1e2f254c6a71cf7637a58",
+  "extracted_format_py_sha256": "23747f9b96077a9261f968851432701dfe6855afbe3aad5fc5b717be305fa5a0",
+  "candidate_sha256": "4c2b4f0998732c0857f26e4dd433d8620eae4920ae77dfb14b5863bdcbb3e383",
+  "checked_comments_removed_sha256": "cf2380009a2de11916b5a3e7ee7b8022f50cd38f4220ffe385a58387de71fbf6",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "lean_compilation": "NOT_RUN"
+}

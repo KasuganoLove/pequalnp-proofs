@@ -1,0 +1,90 @@
+{
+  "scope": "Generic supplied-witness tooling; all examples synthetic",
+  "lean_validation": "Only smoke ordinary build, exit 0; no strict check",
+  "files": {
+    "README-promise-generator.md": {
+      "sha256": "b4e1564d1aaed34f225a49b2d4f5e50c9083ed8f5025635460efbf91e8562c9e",
+      "bytes": 9944
+    },
+    "audit_circuit.py": {
+      "sha256": "848c5ab65787b4bb5fb57f6fb4026c387fc8190d1468c0e07e6634693dde829e",
+      "bytes": 3095
+    },
+    "check_promise_generator.py": {
+      "sha256": "b85fa749d24e808b9e4961704e8759652f5b46747dcc917c6bb12355c35b7324",
+      "bytes": 5794
+    },
+    "generate_promise_proof.py": {
+      "sha256": "eb9031ce66e4e4f6eb0a28739896f0938fa8081e70833abb2b3f86053c2d2476",
+      "bytes": 17354
+    },
+    "lake-parallelism-readonly.md": {
+      "sha256": "bb445dea45b8e5f17055d4ffd029b57d91471cb4dba691200b5ca31e81bf0502",
+      "bytes": 1288
+    },
+    "python-checks.json": {
+      "sha256": "1ef832fb661a47f3ac789f37fca3acfbebe72c6efb9f743eca7389dcd5a4a0e0",
+      "bytes": 1542
+    },
+    "run_promise_smoke.py": {
+      "sha256": "f05bf0e743e749cd10e6af379ecc70cb1021d4cd6697cb77d4f48b74d3b1cbbf",
+      "bytes": 3173
+    },
+    "smoke/L_meta_generator_smoke.audit.json": {
+      "sha256": "66b3d1b80f24fcdf56f7c1317a98f9664c3c8a8216e9da0e88a18797c34f2ca1",
+      "bytes": 2092
+    },
+    "smoke/L_meta_generator_smoke.comments-removed.lean": {
+      "sha256": "cf2380009a2de11916b5a3e7ee7b8022f50cd38f4220ffe385a58387de71fbf6",
+      "bytes": 3448
+    },
+    "smoke/L_meta_generator_smoke.lean": {
+      "sha256": "4c2b4f0998732c0857f26e4dd433d8620eae4920ae77dfb14b5863bdcbb3e383",
+      "bytes": 3762
+    },
+    "smoke/circuit.json": {
+      "sha256": "524355dfb37129b2880b068abaf910b92682f589a1f4b9031b58e63e202135d4",
+      "bytes": 114
+    },
+    "smoke/format-result.json": {
+      "sha256": "e4b77a49dcaa8d8ab3d3457911f33ef48a7c610330affb7a4d4a7ce5be471acd",
+      "bytes": 654
+    },
+    "smoke/format-state.json": {
+      "sha256": "e31fdbb67c367a7902c7505b7eae76d9ff062f876806879e3c019e23dd6d476d",
+      "bytes": 185
+    },
+    "smoke/format.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "smoke/generation.log": {
+      "sha256": "06117c3a1381759bfc876c7256e057977dca2ab96c1c9391c80bb82bdd7a1eb9",
+      "bytes": 376
+    },
+    "smoke/ordinary-result.json": {
+      "sha256": "b91218e5d2573898684f9ea2b1b1350a7404de95c20939d3920dfbffb83bbd1b",
+      "bytes": 707
+    },
+    "smoke/ordinary.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "smoke/rows.json": {
+      "sha256": "c70b148cd0bd4ffd32bea27e9205a15f3b467f06c096d4225b505e077da12af1",
+      "bytes": 4
+    },
+    "smoke/statement.txt": {
+      "sha256": "339c043f1bb8f01b943d1bffbd7a6f542444ac4e7202615b535e524196581c90",
+      "bytes": 215
+    },
+    "tooling-provenance.json": {
+      "sha256": "0d32a4dfdeadfc3a874b9dc24c4373aa2e9f68b7080df3976e45d776a2f7073f",
+      "bytes": 2545
+    },
+    "union_circuit.py": {
+      "sha256": "f0629a0df76de5b742bbec0240aee4548736799749a4dedd0330b95432e4df6e",
+      "bytes": 2693
+    }
+  }
+}

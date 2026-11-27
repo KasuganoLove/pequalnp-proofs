@@ -1,0 +1,81 @@
+{
+  "upstream": "https://github.com/open-goat/pequalnp-proofs",
+  "pin": "3db0136bf094e975baaf20214b01e4b4579059f2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 4645,
+      "sha256": "a9746119eae5d543b52fabcb19110e77a661957a827ae2fc21de0f5a0274da40",
+      "git_blob": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 25,
+      "sha256": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+      "git_blob": "00f848359b1cdaf7c12cd6b7acc5b4364752e154"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 677,
+      "sha256": "ee756ab61cf24d2fd5f561d89080cf162e34f35b06d9b6101bc680ef1619a7bf",
+      "git_blob": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "bytes": 3155,
+      "sha256": "d0af863cde532caaef1b1bee0d63ec47100208e33e488309cb80abc88b8f1509",
+      "git_blob": "1587feea6e89986bee71234159ec08da1b9349be"
+    },
+    {
+      "path": "lean/PEqualNP/Defs.lean",
+      "bytes": 3412,
+      "sha256": "76a3954170372cea159b1b31fcdd01f7aeffe00286e88964ebae2bc34b1971c5",
+      "git_blob": "c6439f045fa98c09af92b0e4a406c93c3b5d6e25"
+    },
+    {
+      "path": "lean/PEqualNP/Defs/BranchingProgram.lean",
+      "bytes": 3186,
+      "sha256": "bf5f9ec3e78f2455406cdb1d8683cd4c503d21a392fa53b1e7dee32f8f1e695e",
+      "git_blob": "d17acb70c7bb1b1d54c18b01f615e979d82c9a74"
+    },
+    {
+      "path": "lean/PEqualNP/Library/Helpers/PromiseColTree.lean",
+      "bytes": 8225,
+      "sha256": "c62d212622a683f255004d6d75fc9af5e78c619e08b73252110adf0093976a49",
+      "git_blob": "4d7c5fafbe5c169008711fcf56bb9ba3b413af23"
+    },
+    {
+      "path": "lean/CheckLemma.lean",
+      "bytes": 30349,
+      "sha256": "86997b026ef2b80d738df77f4c214166cf5b0b2ea8cc98d4bd3c8b5e420dbdd5",
+      "git_blob": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7"
+    },
+    {
+      "path": "tools/check-lean.mjs",
+      "bytes": 15710,
+      "sha256": "c8fc4b209e678f76adc3cf4e988be55675ef9384e44cd388203c95c6afb68846",
+      "git_blob": "eb4c06d94767d08ae360d1747b706244f146b6b4"
+    },
+    {
+      "path": "tools/check-lean-memory.mjs",
+      "bytes": 2331,
+      "sha256": "830f1cd590480fee8ee79157d1e3c3f275159e7d826d8bc726917cecebd42da8",
+      "git_blob": "94dc7ced2328d7d2367a771875dc44caa3eb4fee"
+    },
+    {
+      "path": ".github/scripts/outside-guard.mjs",
+      "bytes": 52837,
+      "sha256": "5cd60470a7da9ad8a64905202a6d1f7b544e8b0a2a849c1eb0a617a712f15b50",
+      "git_blob": "f2be0681ba38dc577252b98b50ebabdbb6de5564"
+    },
+    {
+      "path": "tools/pnp.sh",
+      "bytes": 76722,
+      "sha256": "724c341d2c928a8b8aade1f669c50c8748b4c4eaf2b1e2f254c6a71cf7637a58",
+      "git_blob": "1e146331858b0eae688d594b5a68a5d38f7ba542"
+    }
+  ],
+  "scope": "Generic local dependency restoration only; no task proof, lease operation, remote ref mutation, or default full project build."
+}

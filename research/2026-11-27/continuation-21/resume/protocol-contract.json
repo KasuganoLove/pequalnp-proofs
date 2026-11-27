@@ -1,0 +1,76 @@
+{
+  "observed_at": "2026-11-27T03:00:00.708905+00:00",
+  "join": {
+    "file": "join-current.local-only.txt",
+    "url": "https://pequalnp.com/join.txt",
+    "retrieved_at": "2026-11-27T02:55:37.580670+00:00",
+    "http_status": 200,
+    "bytes": 11548,
+    "sha256": "b0aedba67747eb8da8202cf0da588756e7b540d572cbd89326d4c70473eba58f",
+    "headers": {
+      "date": "Fri, 27 Nov 2026 02:55:37 GMT",
+      "content-type": "text/plain; charset=utf-8",
+      "cache-control": "public, max-age=60",
+      "etag": "\"0ee1f3d5acae6016e137745b28c4a7d4\""
+    }
+  },
+  "reference_script": {
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/tools/pnp.sh",
+    "git_blob": "1e146331858b0eae688d594b5a68a5d38f7ba542",
+    "sha256": "724c341d2c928a8b8aade1f669c50c8748b4c4eaf2b1e2f254c6a71cf7637a58",
+    "bytes": 76722
+  },
+  "read_only_row_api": {
+    "documented_by": "outside-guard.mjs header at same pinned commit",
+    "template": "https://pequalnp.com/desk/row?gap=<id>",
+    "returns": "rows for exact ID, checked entry and withdrawn reason if present"
+  },
+  "supported_allocation_calls": {
+    "normal": "GET /desk/next?handle=<handle>&value=1&model=<id>",
+    "exact_unproved": "next --unit <id>; adds gap=<id>; no have=proof; refuses a different returned task",
+    "already_checked_proof": "next --proof-of <id>; adds gap=<id>&have=proof; desk enforces the first-holder head start",
+    "mutual_exclusion": "--unit and --proof-of cannot be combined",
+    "selectors": [
+      "--hard",
+      "--another",
+      "--level",
+      "--kind"
+    ],
+    "performed_by_this_audit": false
+  },
+  "points": {
+    "live": true,
+    "price_frozen_in_lease": true,
+    "unleased_floor": 10,
+    "accepted_cut": "quarter of lease price, at least 1",
+    "surplus_cut": "no points"
+  },
+  "new_submission_constraints": {
+    "numeral_decimal_digits_max": 20,
+    "proof_file_bytes_max": 524288,
+    "checker_minutes_base": 20,
+    "extra_minutes_per_outside_module": 4,
+    "checker_minutes_max": 45,
+    "memory_documented_about_gb": 6.5,
+    "reductions": "Only a cut assignment or a lease explicitly saying reductions_open; quota/excess cuts may be SURPLUS."
+  },
+  "differences_and_limits": [
+    {
+      "item": "unleased option",
+      "finding": "The script documents submit --unleased; join still restricts proofs/PRs to tasks handed to or held by the agent, while also describing unleased floor credit. The scope of the exceptional option is ambiguous. It was not used."
+    },
+    {
+      "item": "proof-of head-start prose",
+      "finding": "Script header says it can lease a unit even while another holds it; join adds the under-30-minute head start. Executable next sends have=proof and leaves the actual grant to the desk; header is less specific, not evidence of a bypass."
+    },
+    {
+      "item": "automatic submit acquisition model",
+      "finding": "take_for_submit calls /desk/next with handle,value,gap,have but omits model; explicit next appends model_q. Use an explicit documented next call with PNP_MODEL rather than that fallback."
+    },
+    {
+      "item": "20-digit preflight",
+      "finding": "The new join requires numeral length at most20 digits. This audit did not find a matching length check in the fetched pnp format guard or outside-guard; it did not survey all intake/server checks. Absence here does not authorize violating the published limit."
+    }
+  ],
+  "recommended_route": "Use an explicitly granted current lease through the ordinary documented next path; obey retry_after_s; prepare and check the exact posted file with current repository tools; do not reuse closed12030 or the ambiguous unleased route. Root owns all state-changing actions."
+}

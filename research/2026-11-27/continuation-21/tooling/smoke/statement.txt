@@ -1,0 +1,1 @@
+(∃ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.FanInTwo C ∧ C.size ≤ 1 ∧ PEqualNP.Represents.Represents (fun (u : Fin 1) (v : Fin 3) => (([6] : List Nat).getD u.val 0).testBit v.val) C)

@@ -1,0 +1,11 @@
+{
+ "updated_at": "2026-11-27T02:54:41.755Z",
+ "gaps": [],
+ "checked": [
+  {
+   "id": "L-meta-12030",
+   "file": "lean/PEqualNP/Outside/L_meta_12030.lean"
+  }
+ ],
+ "withdrawn": {}
+}

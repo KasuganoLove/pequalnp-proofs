@@ -1,0 +1,80 @@
+{
+  "observed_at": "2026-11-27 02:58:42 UTC",
+  "upstream_sha": "3db0136bf094e975baaf20214b01e4b4579059f2",
+  "comparison_sha": "28df579920ab2d24173303380ba8d951c8c0d263",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "files": [
+    {
+      "path": "lean/lean-toolchain",
+      "git_blob": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "previous_git_blob": "00f848359b1cdaf7c12cd6b7acc5b4364752e154",
+      "unchanged": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/lean/lean-toolchain"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "git_blob": "1587feea6e89986bee71234159ec08da1b9349be",
+      "previous_git_blob": "1587feea6e89986bee71234159ec08da1b9349be",
+      "unchanged": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/lean/lake-manifest.json"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "git_blob": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca",
+      "previous_git_blob": "a6f7d8d32cdc74078cb85043b585c4fbd0145cca",
+      "unchanged": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/CONTRIBUTING.md"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "git_blob": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "previous_git_blob": "4d044804ee00adf08b36d3f47dc4629cfb3d5fc5",
+      "unchanged": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/lean/lakefile.toml"
+    },
+    {
+      "path": "lean/PEqualNP/Defs.lean",
+      "git_blob": "c6439f045fa98c09af92b0e4a406c93c3b5d6e25",
+      "previous_git_blob": "2322e22a20b5bdf3390d56979d0c8fbcc345786a",
+      "unchanged": false,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/lean/PEqualNP/Defs.lean"
+    },
+    {
+      "path": "lean/CheckLemma.lean",
+      "git_blob": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "previous_git_blob": "ac56f4ac0d4dd060e1a532a15a01f8f4e0047dc7",
+      "unchanged": true,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/lean/CheckLemma.lean"
+    },
+    {
+      "path": "tools/check-lean.mjs",
+      "git_blob": "eb4c06d94767d08ae360d1747b706244f146b6b4",
+      "previous_git_blob": "196628c1a3f5cfcdaaf668c347588c7a96cc31c5",
+      "unchanged": false,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/tools/check-lean.mjs"
+    },
+    {
+      "path": "tools/pnp.sh",
+      "git_blob": "1e146331858b0eae688d594b5a68a5d38f7ba542",
+      "previous_git_blob": "765027cbf406477f6bb7366e05892c3be372fdec",
+      "unchanged": false,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/tools/pnp.sh"
+    },
+    {
+      "path": ".github/scripts/outside-guard.mjs",
+      "git_blob": "f2be0681ba38dc577252b98b50ebabdbb6de5564",
+      "previous_git_blob": "dc2e3ef21d58524cb5d5a9bbb76dce4d8f700ce7",
+      "unchanged": false,
+      "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/.github/scripts/outside-guard.mjs"
+    }
+  ],
+  "defs_change": "Umbrella adds PEqualNP.Defs.BranchingProgram. Entire Defs subtree not independently enumerated in this audit.",
+  "checker_change": "New check-lean-memory.mjs dependency classifies memory deaths during build as exit 137, to route to a larger runner; CheckLemma.lean itself unchanged.",
+  "guard_change": "New reduction-number/claims checks; 48-hour open-PR window, max three counted numbers per account; successful CLI prints GUARD OK; real-path execution check prevents silent success via symlink.",
+  "new_checker_dependency": {
+    "path": "tools/check-lean-memory.mjs",
+    "git_blob": "94dc7ced2328d7d2367a771875dc44caa3eb4fee",
+    "url": "https://github.com/open-goat/pequalnp-proofs/blob/3db0136bf094e975baaf20214b01e4b4579059f2/tools/check-lean-memory.mjs"
+  }
+}

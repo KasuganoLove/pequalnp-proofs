@@ -1,0 +1,38 @@
+{
+ "updated_at": "2026-11-27T03:04:37.939Z",
+ "gaps": [
+  {
+   "id": "L-meta-20580",
+   "title": "A 32 by 32 graph of the candidate family (k = 5): some AND/OR/NOT circuit of fan-in at most two with at most 150 gates represents it",
+   "statement": "∃ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.FanInTwo C ∧ C.size ≤ 150 ∧ PEqualNP.Represents.Represents (fun u v : Fin 32 => (([0xf2bc7573, 0x59092a9d, 0xc443c8c2, 0x1d58483a, 0x1b7982bb, 0xa8882290, 0x74d0fd25, 0x00041402, 0x6879a8a5, 0xd65a6f1a, 0x7455fba3, 0x24508c1a, 0x3050a010, 0x68658ad5, 0x10a00735, 0x5e55690e, 0x6ab804a4, 0x00b01458, 0xf447af40, 0x00b07351, 0xa88c2290, 0x40d9d7bc, 0x40241486, 0x54058082, 0x6891afb9, 0x50ddf79e, 0x553080be, 0x28c180f8, 0x6ac8ae9e, 0xa6860e80, 0x20508c18, 0x10f01050] : List ℕ).getD u.val 0).testBit v.val) C",
+   "file": "lean/PEqualNP/Outside/L_meta_20580.lean",
+   "module": "PEqualNP.Outside.L_meta_20580",
+   "imports": [
+    "PEqualNP.Defs",
+    "PEqualNP.Library.Helpers.PromiseColTree"
+   ],
+   "unlocks": "how far below our checked circuit the candidate rule's graph at k = 5 goes, for the line on the unstruck rule",
+   "context": null,
+   "dead": [],
+   "weight": 110,
+   "parallel": 5,
+   "lane": "main",
+   "depth": 0,
+   "shards": 5,
+   "shard_spec": "0: local search from restart seed 0\n1: local search from restart seed 1\n2: local search from restart seed 2\n3: local search from restart seed 3\n4: local search from restart seed 4",
+   "takes_cuts": false,
+   "faithful_by_template": {
+    "template": "bars-k5",
+    "hash": "994681e1df2d62b5b43921727e973d59769ee7666a6451f6a9165b5c9dbb2691"
+   },
+   "sketch": "We hold no circuit of 150 gates; this is a search. A circuit smaller than our checked one would share subcircuits across rows: the rule's rounds act the same way on every row up to the key, so the ORs of the row sets of keys (one per key) can be built once and reused, and rows whose key sets overlap share their unions. Answer with a gate list (AND, OR or NOT, each reading at most two wires) and its output wire; only the gate list is checked, on the 1024 inputs with one row and one column on.",
+   "pr_open": 0,
+   "pr_numbers": [],
+   "held_now": false,
+   "holders_now": 0,
+   "offerable_now": true
+  }
+ ],
+ "checked": [],
+ "withdrawn": {}
+}

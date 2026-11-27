@@ -1,0 +1,75 @@
+{
+  "scope": "synthetic Python generator checks only",
+  "lean_compilation": "NOT_RUN",
+  "strict_project_checker": "NOT_RUN",
+  "checks": [
+    {
+      "case": "one_edge",
+      "promise_inputs": 4,
+      "padding_rows_added": 0,
+      "result": "PASS"
+    },
+    {
+      "case": "constant_padding",
+      "promise_inputs": 3,
+      "padding_rows_added": 1,
+      "result": "PASS"
+    },
+    {
+      "case": "not_padding",
+      "promise_inputs": 3,
+      "padding_rows_added": 1,
+      "result": "PASS"
+    },
+    {
+      "case": "not_ignored_tail",
+      "promise_inputs": 3,
+      "padding_rows_added": 1,
+      "result": "PASS"
+    },
+    {
+      "case": "forward_default",
+      "promise_inputs": 2,
+      "padding_rows_added": 0,
+      "result": "PASS"
+    },
+    {
+      "case": "absent_output",
+      "promise_inputs": 2,
+      "padding_rows_added": 0,
+      "result": "PASS"
+    },
+    {
+      "case": "raw_output",
+      "promise_inputs": 4,
+      "padding_rows_added": 0,
+      "result": "PASS"
+    },
+    {
+      "case": "zero_left",
+      "promise_inputs": 0,
+      "padding_rows_added": 1,
+      "result": "PASS"
+    },
+    {
+      "case": "zero_right",
+      "promise_inputs": 0,
+      "padding_rows_added": 0,
+      "result": "PASS"
+    },
+    {
+      "case": "large_limb_row",
+      "promise_inputs": 80,
+      "padding_rows_added": 1,
+      "result": "PASS"
+    },
+    {
+      "case": "reject_incorrect_witness",
+      "result": "PASS"
+    },
+    {
+      "case": "large_limb_arithmetic",
+      "result": "PASS"
+    }
+  ]
+}
